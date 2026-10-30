@@ -1,13 +1,36 @@
 # Vakilbench
 
-An open-source, local-first litigation workspace for Indian advocates, shipped as a Windows desktop app. Every fact, quote and citation it produces carries a record a court can verify offline.
+A desktop workspace where an Indian advocate prepares a Supreme Court filing with AI help, and every fact and citation in it comes with proof a court can check offline.
 
-Start here:
+**AI proposes. Checks and the advocate decide.**
 
-- [Product scope](docs/product-scope.md). What it is, who it is for, what the MVP includes and excludes.
-- [Architecture](docs/architecture.md). Layers, processes, write and verification paths, storage.
-- [Implementation plan](docs/implementation-plan.md). Stages 0 to 5, what each proves, first tasks.
+## Docs
 
-The full canon (C1 to C5) and open items are indexed in [docs/README.md](docs/README.md).
+- [Product](docs/product.md). What it does, for whom, and what it will not do.
+- [Architecture](docs/architecture.md). Six data shapes, one writer, status derived from the ledger.
+- [Plan](docs/plan.md). Phases 0 to 6, each with a check that proves it.
+- [Research](docs/research/). The full background studies, kept for reference.
 
-Status: design. No code yet.
+## Layout
+
+```
+packages/core   Data shapes, hashing, ledger, gates, kernel, status view, receipts
+apps/cli        ilac verify: checks a receipt offline
+docs            Product, architecture, plan, research
+```
+
+## Develop
+
+Needs Node 24 and pnpm.
+
+```bash
+pnpm install
+```
+
+```bash
+pnpm check
+```
+
+```bash
+pnpm ilac verify receipt.json public-key.pem filing.pdf
+```
