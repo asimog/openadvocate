@@ -10,13 +10,12 @@ Short, current entry points. The canon below wins on any conflict.
 |---|---|
 | `product-scope.md` | Problem, users, guarantees, MVP modules, in and out of scope, definition of done |
 | `architecture.md` | Layers, process model, write and verification paths, storage, model access, tech choices |
-| `implementation-plan.md` | Stage-by-stage build and proof, first tasks, gating experiments, proposed layout, canon inconsistencies |
+| `implementation-plan.md` | Stage-by-stage build and proof, first tasks, gating experiments, proposed layout |
 
 ## Documents
 
 | File | What it covers |
 |---|---|
-| `../00-two-pager.md` | Frame: the problem and draft Regulations, the three parts (Commons, Open Code of Litigation Windows app, commercial later), the MVP and the Court approach |
 | `C1-literature-review.md` | Papers, Indian law and policy, and court AI systems (incl. SUPACE, LegRAA) that shape decisions |
 | `C2-prior-art-repos-review.md` | Every repository used as input: what we take and where it fits |
 | `C3-master-research-and-architecture.md` | How it is built: Windows Electron architecture, harness, Notebook, Studio, MOTO, verifier/eval agent, Jev/Clef, data model, roadmap; **authoritative decision register and stages** |
@@ -25,7 +24,7 @@ Short, current entry points. The canon below wins on any conflict.
 
 ## Reading order
 
-`00-two-pager.md` → C4 (what and MVP) → C3 (how) → C5 (the contract) → C1 and C2 as evidence when needed.
+`product-scope.md` → C4 (what and MVP) → C3 (how) → C5 (the contract) → C1 and C2 as evidence when needed.
 
 ## Open items
 

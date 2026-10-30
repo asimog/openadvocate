@@ -2,7 +2,7 @@
 
 *Canonical document C3: master research, architecture and engineering blueprint. C3 is the authority for decision IDs (D1–D35) and the MVP stage list (Stage 0–5, post-MVP P1–P4). Research current to 30 October 2026.*
 
-*Companion canon:* `C1-literature-review.md` (papers behind every [A]), `C2-prior-art-repos-review.md` (repositories behind every [S]), `C4-master-product-plan.md` (modules and user journeys), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver specification, manifest and receipt, conformance suites CT-01–CT-15). This document decides *how it is built*.
+*Companion canon:* `C1-literature-review.md` (papers behind every [A]), `C2-prior-art-repos-review.md` (repositories behind every [S]), `C4-master-product-plan.md` (modules and user journeys), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver specification, manifest and receipt, conformance suites CT-01–CT-16). This document decides *how it is built*.
 
 ---
 
@@ -70,7 +70,7 @@ flowchart LR
 
 ## 1. Decision register
 
-C3 is the authority for these IDs. The alignment copy for other writers is `round3/R5_REGISTER.md`.
+C3 is the authority for these IDs. Other documents cite this register directly.
 
 | ID | Decision | Chosen | Fallback | Evidence |
 |---|---|---|---|---|
@@ -234,7 +234,7 @@ flowchart TB
 
 A matter is a directory under `%LOCALAPPDATA%\Vakilbench\matters\<id>\` (relocatable): `matter.db` (matter, documents, versions, passages, Notebook items, statements, edges, verification records, precedent edges, approvals, outbox, journal), `ledger.db` (append-only chain, separate file), `vault/` (content-addressed bytes), `responses/` (content-addressed model and read-tool responses for replay), `exports/` (evidence packages). Shared reference data (AWS SC mirror, ontology, precedent graph over public judgments) lives once under `corpus/`. A matter is portable by directory copy or evidence-package export.
 
-| Module (IDs W0–W14, binding per R5_REGISTER) | Panel | Owner | Stage |
+| Module (IDs W0–W14, binding per this register) | Panel | Owner | Stage |
 |---|---|---|---|
 | W0 Shell, installer, model access (OpenRouter / local; no gateway) | Shell, OpenRouter key / local endpoint | Shell, `ModelProvider` | 0 |
 | W1 Matters | Matter list, parties, forum | Matter | 1 |
@@ -657,7 +657,7 @@ flowchart LR
   RUN --> EXP[Evidence packages + ledger]
   EXP --> EA[[Eval agent]]
   HOLD[(Held-out gold<br/>labels + planted defects)] --> EA
-  EA --> DET[Deterministic conformance<br/>CT-01..CT-15 vectors]
+  EA --> DET[Deterministic conformance<br/>CT-01..CT-16 vectors]
   EA --> S1[System One scoring<br/>output vs gold]
   S1 -->|disagreement| JUDGE[Non-Qwen LLM judge]
   DET --> REP[Conformance report<br/>signed]

@@ -114,11 +114,3 @@ docs/                  Canon (C1 to C5) and these summaries
 
 `@vakil/eval` and held-out data live in a separate repository by design.
 
-## Known inconsistencies in the canon
-
-Found while writing these summaries. Fix them in the canon before Stage 0 closes.
-
-1. C3's header cites suites CT-01 to CT-15. C4 and C5 define CT-16 (Jev/Clef advisory scoring).
-2. C4's header cites decisions D1 to D34. C3's register runs to D35 (language scope).
-3. `docs/README.md` links `../00-two-pager.md`, which is not in the repository.
-4. C3 §1 points to `round3/R5_REGISTER.md` as the alignment copy. That file is not in the repository.

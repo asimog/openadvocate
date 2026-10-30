@@ -1,6 +1,6 @@
 # Master Product Plan: Vakilbench (Open Code of Litigation)
 
-*Canonical document C4 of 5. Companion canon: `C1-literature-review.md` (papers and policy), `C2-prior-art-repos-review.md` (repositories used as inputs), `C3-master-research-and-architecture.md` (architecture, contracts, data model, decision register, roadmap), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver, manifest and receipt, conformance suites CT-01 to CT-15). Decision IDs (D1 to D34) and stages (Stage 0 to 5, P1 to P4) are those of the C3 register. Current to 30 October 2026.*
+*Canonical document C4 of 5. Companion canon: `C1-literature-review.md` (papers and policy), `C2-prior-art-repos-review.md` (repositories used as inputs), `C3-master-research-and-architecture.md` (architecture, contracts, data model, decision register, roadmap), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver, manifest and receipt, conformance suites CT-01 to CT-16). Decision IDs (D1 to D35) and stages (Stage 0 to 5, P1 to P4) are those of the C3 register. Current to 30 October 2026.*
 
 ## 0. How to read this plan
 
