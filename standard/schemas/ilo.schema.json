@@ -1,0 +1,1287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ilo:schema:0.1",
+  "title": "Indian Legal Ontology (ILO) 0.1",
+  "description": "Every record the workspace stores, verifies or exchanges. TypeScript types are generated from this file.",
+  "$defs": {
+    "Hash": {
+      "title": "Hash",
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "Id": {
+      "title": "Id",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128
+    },
+    "IsoDate": {
+      "title": "IsoDate",
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "Permille": {
+      "title": "Permille",
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000
+    },
+    "Actor": {
+      "title": "Actor",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "id"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "lawyer",
+            "notebook",
+            "verifier",
+            "studio",
+            "moto",
+            "pleading",
+            "court",
+            "system"
+          ]
+        },
+        "id": {
+          "$ref": "#/$defs/Id"
+        }
+      }
+    },
+    "Matter": {
+      "title": "Matter",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "forum",
+        "caseType",
+        "impugnedOrder",
+        "petitionerInCustody"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "title": {
+          "type": "string"
+        },
+        "forum": {
+          "const": "Supreme Court of India"
+        },
+        "caseType": {
+          "enum": [
+            "SLP(Crl)",
+            "SLP(C)"
+          ]
+        },
+        "impugnedOrder": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "court",
+            "caseNumber",
+            "date"
+          ],
+          "properties": {
+            "court": {
+              "type": "string"
+            },
+            "caseNumber": {
+              "type": "string"
+            },
+            "date": {
+              "$ref": "#/$defs/IsoDate"
+            }
+          }
+        },
+        "petitionerInCustody": {
+          "type": "boolean"
+        }
+      }
+    },
+    "Source": {
+      "title": "Source",
+      "description": "Immutable bytes supplied by the lawyer or fetched from a court source.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hash",
+        "title",
+        "mediaType",
+        "origin",
+        "role"
+      ],
+      "properties": {
+        "hash": {
+          "$ref": "#/$defs/Hash"
+        },
+        "title": {
+          "type": "string"
+        },
+        "mediaType": {
+          "type": "string"
+        },
+        "origin": {
+          "enum": [
+            "lawyer",
+            "court",
+            "corpus"
+          ]
+        },
+        "role": {
+          "enum": [
+            "impugned-order",
+            "annexure",
+            "fir",
+            "chargesheet",
+            "medical",
+            "custody-certificate",
+            "judgment",
+            "draft",
+            "other"
+          ]
+        },
+        "certified": {
+          "type": "boolean"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
+    },
+    "Reading": {
+      "title": "Reading",
+      "description": "One OCR or text-extraction engine's reading of a line.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "engine",
+        "text",
+        "confidence"
+      ],
+      "properties": {
+        "engine": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/Permille"
+        }
+      }
+    },
+    "Line": {
+      "title": "Line",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "n",
+        "text",
+        "readings"
+      ],
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "type": "string",
+          "description": "Agreed text. Empty when engines disagree."
+        },
+        "readings": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Reading"
+          }
+        }
+      }
+    },
+    "TextLayer": {
+      "title": "TextLayer",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "pages"
+      ],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/Hash"
+        },
+        "pages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "n",
+              "lines"
+            ],
+            "properties": {
+              "n": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Line"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Anchor": {
+      "title": "Anchor",
+      "description": "Exact location of a quote in a source. Maps to a Web Annotation TextQuoteSelector.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source",
+        "page",
+        "line",
+        "quote"
+      ],
+      "properties": {
+        "source": {
+          "$ref": "#/$defs/Hash"
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "line": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "Party": {
+      "title": "Party",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "role"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "petitioner",
+            "respondent",
+            "appellant",
+            "accused",
+            "complainant",
+            "state",
+            "other"
+          ]
+        }
+      }
+    },
+    "NeutralCitation": {
+      "title": "NeutralCitation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scheme",
+        "year",
+        "number"
+      ],
+      "properties": {
+        "scheme": {
+          "const": "INSC"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1950
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "ReportCitation": {
+      "title": "ReportCitation",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "scheme",
+        "year",
+        "volume",
+        "page"
+      ],
+      "properties": {
+        "scheme": {
+          "enum": [
+            "SCC",
+            "SCR",
+            "AIR-SC"
+          ]
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1950
+        },
+        "volume": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "page": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "Citation": {
+      "title": "Citation",
+      "oneOf": [
+        {
+          "$ref": "#/$defs/NeutralCitation"
+        },
+        {
+          "$ref": "#/$defs/ReportCitation"
+        }
+      ]
+    },
+    "Extractor": {
+      "title": "Extractor",
+      "description": "The deterministic rule that produced an extract. No generative model ever appears here.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "rule",
+        "version"
+      ],
+      "properties": {
+        "rule": {
+          "type": "string"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "Extract": {
+      "title": "Extract",
+      "description": "A verifiable datum the Notebook read from a source. Never a claim, never generated.",
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "anchor",
+        "extractor"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "anchor": {
+          "$ref": "#/$defs/Anchor"
+        },
+        "extractor": {
+          "$ref": "#/$defs/Extractor"
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "kind": {
+              "const": "date"
+            },
+            "value": {
+              "$ref": "#/$defs/IsoDate"
+            },
+            "role": {
+              "enum": [
+                "impugned-order",
+                "offence",
+                "arrest",
+                "fir",
+                "chargesheet",
+                "bail-refused",
+                "custody-from",
+                "other"
+              ]
+            }
+          },
+          "required": [
+            "kind",
+            "value",
+            "role"
+          ]
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "party"
+            },
+            "value": {
+              "$ref": "#/$defs/Party"
+            }
+          },
+          "required": [
+            "kind",
+            "value"
+          ]
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "statute"
+            },
+            "act": {
+              "enum": [
+                "IPC",
+                "BNS",
+                "CrPC",
+                "BNSS",
+                "IEA",
+                "BSA",
+                "Constitution",
+                "other"
+              ]
+            },
+            "section": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "act",
+            "section"
+          ]
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "case-number"
+            },
+            "value": {
+              "type": "string"
+            },
+            "court": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "value",
+            "court"
+          ]
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "amount"
+            },
+            "rupees": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "kind",
+            "rupees"
+          ]
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "citation"
+            },
+            "raw": {
+              "type": "string"
+            },
+            "citation": {
+              "anyOf": [
+                {
+                  "$ref": "#/$defs/Citation"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "pinpoint": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "quote": {
+              "type": "string"
+            },
+            "proposition": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kind",
+            "raw",
+            "citation"
+          ]
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "Outcome": {
+      "title": "Outcome",
+      "enum": [
+        "pass",
+        "fail",
+        "unresolved"
+      ]
+    },
+    "Score": {
+      "title": "Score",
+      "description": "An advisory probability from a decision model (Jev or Clef). Recorded, never a sole gate.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "model",
+        "version",
+        "question",
+        "probability"
+      ],
+      "properties": {
+        "model": {
+          "enum": [
+            "jev",
+            "clef",
+            "clef-flash",
+            "fixture"
+          ]
+        },
+        "version": {
+          "type": "string"
+        },
+        "question": {
+          "type": "string"
+        },
+        "probability": {
+          "$ref": "#/$defs/Permille"
+        }
+      }
+    },
+    "ExtractCheck": {
+      "title": "ExtractCheck",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "extract",
+        "extractHash",
+        "check",
+        "outcome"
+      ],
+      "properties": {
+        "extract": {
+          "$ref": "#/$defs/Id"
+        },
+        "extractHash": {
+          "$ref": "#/$defs/Hash"
+        },
+        "check": {
+          "enum": [
+            "ocr-agreement",
+            "anchor",
+            "value-in-quote",
+            "record-crosscheck",
+            "second-opinion"
+          ]
+        },
+        "outcome": {
+          "$ref": "#/$defs/Outcome"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "score": {
+          "$ref": "#/$defs/Score"
+        }
+      }
+    },
+    "Paragraph": {
+      "title": "Paragraph",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "n",
+        "voice",
+        "text"
+      ],
+      "properties": {
+        "n": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "voice": {
+          "enum": [
+            "facts",
+            "submission",
+            "analysis",
+            "holding",
+            "order"
+          ]
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    },
+    "Judgment": {
+      "title": "Judgment",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "citations",
+        "title",
+        "decided",
+        "benchStrength",
+        "judges",
+        "paragraphs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Citation"
+          }
+        },
+        "title": {
+          "type": "string"
+        },
+        "decided": {
+          "$ref": "#/$defs/IsoDate"
+        },
+        "benchStrength": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "judges": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Paragraph"
+          }
+        }
+      }
+    },
+    "Level": {
+      "title": "Level",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome"
+      ],
+      "properties": {
+        "outcome": {
+          "enum": [
+            "verified",
+            "failed",
+            "unresolved",
+            "not_checked"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    },
+    "CitationVerification": {
+      "title": "CitationVerification",
+      "description": "The verdict on one existing citation, at three levels. Missing from a source is unresolved, never failed.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mention",
+        "mentionHash",
+        "tier",
+        "snapshot",
+        "identity",
+        "pinpoint",
+        "support",
+        "standing"
+      ],
+      "properties": {
+        "mention": {
+          "$ref": "#/$defs/Id"
+        },
+        "mentionHash": {
+          "$ref": "#/$defs/Hash"
+        },
+        "judgment": {
+          "$ref": "#/$defs/Id"
+        },
+        "tier": {
+          "enum": [
+            "sc-official",
+            "corpus",
+            "indian-kanoon",
+            "none"
+          ]
+        },
+        "snapshot": {
+          "type": "string"
+        },
+        "identity": {
+          "$ref": "#/$defs/Level"
+        },
+        "pinpoint": {
+          "$ref": "#/$defs/Level"
+        },
+        "support": {
+          "$ref": "#/$defs/Level"
+        },
+        "standing": {
+          "$ref": "#/$defs/Level"
+        },
+        "scores": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Score"
+          }
+        }
+      }
+    },
+    "Ref": {
+      "title": "Ref",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "id"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "extract",
+            "verification",
+            "claim"
+          ]
+        },
+        "id": {
+          "$ref": "#/$defs/Id"
+        }
+      }
+    },
+    "Claim": {
+      "title": "Claim",
+      "description": "A novel proposition or argument from the Research Studio or the MOTO engine. Grounded only in verified extracts, verifications and accepted claims.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "text",
+        "origin",
+        "groundedIn"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Id"
+        },
+        "kind": {
+          "enum": [
+            "question-of-law",
+            "ground",
+            "proposition",
+            "counter-argument"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin": {
+          "enum": [
+            "studio",
+            "moto",
+            "lawyer"
+          ]
+        },
+        "groundedIn": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Ref"
+          }
+        }
+      }
+    },
+    "ConferenceDecision": {
+      "title": "ConferenceDecision",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "conference",
+        "claim",
+        "claimHash",
+        "decision",
+        "rationale"
+      ],
+      "properties": {
+        "conference": {
+          "$ref": "#/$defs/Id"
+        },
+        "claim": {
+          "$ref": "#/$defs/Id"
+        },
+        "claimHash": {
+          "$ref": "#/$defs/Hash"
+        },
+        "decision": {
+          "enum": [
+            "accept",
+            "reject",
+            "defer"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "PleadingState": {
+      "title": "PleadingState",
+      "enum": [
+        "intake",
+        "record",
+        "facts",
+        "limitation",
+        "authorities",
+        "grounds",
+        "compliance",
+        "declaration",
+        "filed",
+        "defects-notified",
+        "registered"
+      ]
+    },
+    "Defect": {
+      "title": "Defect",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "rule",
+        "message"
+      ],
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "rule": {
+          "type": "string"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "GuardResult": {
+      "title": "GuardResult",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "guard",
+        "ok"
+      ],
+      "properties": {
+        "guard": {
+          "type": "string"
+        },
+        "ok": {
+          "type": "boolean"
+        },
+        "defects": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Defect"
+          }
+        }
+      }
+    },
+    "EventBody": {
+      "title": "EventBody",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "matter"
+          ],
+          "properties": {
+            "type": {
+              "const": "matter.opened"
+            },
+            "matter": {
+              "$ref": "#/$defs/Matter"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "source"
+          ],
+          "properties": {
+            "type": {
+              "const": "source.added"
+            },
+            "source": {
+              "$ref": "#/$defs/Source"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "layer"
+          ],
+          "properties": {
+            "type": {
+              "const": "text.recorded"
+            },
+            "layer": {
+              "$ref": "#/$defs/TextLayer"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "extract"
+          ],
+          "properties": {
+            "type": {
+              "const": "extract.recorded"
+            },
+            "extract": {
+              "$ref": "#/$defs/Extract"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "check"
+          ],
+          "properties": {
+            "type": {
+              "const": "extract.checked"
+            },
+            "check": {
+              "$ref": "#/$defs/ExtractCheck"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "extract",
+            "extractHash",
+            "confirm"
+          ],
+          "properties": {
+            "type": {
+              "const": "extract.reviewed"
+            },
+            "extract": {
+              "$ref": "#/$defs/Id"
+            },
+            "extractHash": {
+              "$ref": "#/$defs/Hash"
+            },
+            "confirm": {
+              "type": "boolean"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "verification"
+          ],
+          "properties": {
+            "type": {
+              "const": "citation.verified"
+            },
+            "verification": {
+              "$ref": "#/$defs/CitationVerification"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "claim"
+          ],
+          "properties": {
+            "type": {
+              "const": "claim.proposed"
+            },
+            "claim": {
+              "$ref": "#/$defs/Claim"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "conference",
+            "agenda"
+          ],
+          "properties": {
+            "type": {
+              "const": "conference.opened"
+            },
+            "conference": {
+              "$ref": "#/$defs/Id"
+            },
+            "agenda": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Id"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "decision"
+          ],
+          "properties": {
+            "type": {
+              "const": "conference.decided"
+            },
+            "decision": {
+              "$ref": "#/$defs/ConferenceDecision"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "from",
+            "to",
+            "guards"
+          ],
+          "properties": {
+            "type": {
+              "const": "pleading.transitioned"
+            },
+            "from": {
+              "$ref": "#/$defs/PleadingState"
+            },
+            "to": {
+              "$ref": "#/$defs/PleadingState"
+            },
+            "guards": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/GuardResult"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "LedgerEvent": {
+      "title": "LedgerEvent",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seq",
+        "prev",
+        "at",
+        "actor",
+        "body"
+      ],
+      "properties": {
+        "seq": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "prev": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Hash"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "at": {
+          "type": "string"
+        },
+        "actor": {
+          "$ref": "#/$defs/Actor"
+        },
+        "body": {
+          "$ref": "#/$defs/EventBody"
+        }
+      }
+    },
+    "Receipt": {
+      "title": "Receipt",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "matter",
+        "document",
+        "ledgerHead",
+        "extracts",
+        "verifications"
+      ],
+      "properties": {
+        "matter": {
+          "$ref": "#/$defs/Id"
+        },
+        "document": {
+          "$ref": "#/$defs/Hash"
+        },
+        "ledgerHead": {
+          "$ref": "#/$defs/Hash"
+        },
+        "extracts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Hash"
+          }
+        },
+        "verifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Hash"
+          }
+        }
+      }
+    },
+    "SignedReceipt": {
+      "title": "SignedReceipt",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "receipt",
+        "publicKey",
+        "signature"
+      ],
+      "properties": {
+        "receipt": {
+          "$ref": "#/$defs/Receipt"
+        },
+        "publicKey": {
+          "type": "string",
+          "description": "Ed25519 public key, hex"
+        },
+        "signature": {
+          "type": "string",
+          "description": "Ed25519 signature over the canonical receipt, hex"
+        }
+      }
+    },
+    "EvalReport": {
+      "title": "EvalReport",
+      "description": "The simulated Supreme Court's evaluation agent grading a workspace export against its answer key.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "matter",
+        "suite",
+        "metrics",
+        "pass"
+      ],
+      "properties": {
+        "matter": {
+          "$ref": "#/$defs/Id"
+        },
+        "suite": {
+          "enum": [
+            "notebook",
+            "citations",
+            "defects"
+          ]
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "value",
+              "target"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "value": {
+                "$ref": "#/$defs/Permille"
+              },
+              "target": {
+                "$ref": "#/$defs/Permille"
+              }
+            }
+          }
+        },
+        "pass": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

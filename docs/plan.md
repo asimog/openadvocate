@@ -1,70 +1,61 @@
 # Implementation Plan
 
-Build the verification core first, because every later phase stands on it. Then add producers of claims one kind at a time. The desktop app is a client of the core, not its foundation.
+Scaffold first: the standard, the core and a GUI test harness exist before any feature. Then each layer is built bottom-up, and each phase ends with a Playwright run of the golden matter GM-01 in the GUI plus the evaluation agent's report.
 
-Each phase ends with a check that runs in CI.
+## Phase 0. Standard, core, scaffold
 
-## Phase 0. Core and scaffold (done)
+- ILO JSON Schema and ontology. Types generated from the schema, with a CI check that they are current.
+- Ledger that validates every event against the schema and enforces write ownership.
+- Hashing, receipts, citation grammar and the Jev/Clef port, all isomorphic (same code in the GUI and the CLI).
+- Workspace GUI shell with panels and a Playwright test. CI on Windows and Linux.
 
-- pnpm workspace, TypeScript, Node's built-in test runner, CI on Windows and Linux.
-- `packages/core`: the six shapes, canonical hashing, ledger with chain verification, kernel, gate registry, derived status, signed receipts.
-- `apps/cli`: `ilac verify`.
+**Done when** malformed records and wrong-owner writes are rejected, and the GUI loads GM-01 in a Playwright test.
 
-**Done when** `pnpm test` proves: a quote missing from its source fails; agents cannot decide; editing a claim resets it to pending; a dependent of a failed claim is blocked; a receipt refuses unverified claims and catches a changed document byte.
+## Phase 1. Notebook and simulated court data
 
-## Phase 1. Persistence and sources
+- Two-engine text layers, deterministic extractors, the five extract checks, review.
+- Simulated Supreme Court: judgment corpus, three source tiers, case-record repository, GM-01.
+- Evaluation agent: Notebook suite.
 
-- Store the ledger in SQLite (`node:sqlite`) and sources in a content-addressed folder.
-- Ingest: PDF and DOCX to page text. OCR for scans.
-- Rebuild the view from disk on open.
+**Done when**, in the GUI, every GM-01 extract shows its anchored line; the planted OCR disagreement and the planted wrong date are not `checked`; the evaluation agent's Notebook report passes.
 
-**Done when** a matter survives a kill mid-write with no duplicate or missing events, and its chain verifies after reopen.
+## Phase 2. Citation verifier
 
-## Phase 2. Desktop shell
+- Four-level verification over the three tiers, with Jev/Clef as second opinion on support.
+- Citation audit card in the GUI.
+- Evaluation agent: citation suite.
 
-- Electron app, signed Windows installer, auto-update.
-- Matter list, document viewer with anchors highlighted, review queue.
-- Model key stored in Windows Credential Manager.
+**Done when** GM-01's planted cases come out right: wrong pinpoint `failed`, counsel's submission cited as holding `failed`, overruled authority `failed` on standing, the judgment missing from the corpus snapshot resolved at `sc-official`, and an unknown citation `unresolved`.
 
-**Done when** a clean Windows machine installs the app, opens a matter, and shows each claim's status from the ledger.
+## Phase 3. SLP state machine and defect checker
 
-## Phase 3. Facts (the Notebook)
+- The machine in [slp.md](slp.md) with guards over the record and verdicts.
+- Supreme Court defect rules pack, each rule confirmed against the rule text.
+- Simulated registry that files, checks defects and verifies the receipt.
 
-- An extraction agent proposes `fact` claims with anchors.
-- Gates for dates and parties.
-- Advocate accepts or rejects in the review queue.
-- Anchored Q&A that answers only from verified facts.
+**Done when** GM-01 cannot advance past `authorities` while a citation fails, and the registry returns the planted defect, then a diary number after the cure.
 
-**Done when** planted fabricated facts, unanchored facts and allegations typed as facts never reach `verified`.
+## Phase 4. Research & Argument Studio, MOTO, Case Conference
 
-## Phase 4. Citations, drafting and export
+- Research over the verified record and corpus.
+- Studio proposals and MOTO argument expansion through a model provider (OpenRouter or local).
+- Case Conference panel. Grounds filled only from accepted claims.
 
-- Citation parser and resolver: Supreme Court site (via the built-in browser), the AWS open judgments corpus, then Indian Kanoon.
-- Gates: resolves to one judgment, pinpoint paragraph exists, quote matches.
-- DOCX editor with AI edits as tracked changes.
-- Export: DOCX, PDF/A, receipt, AI-use declaration.
+**Done when** a MOTO claim grounded in a failed citation never reaches the inbox, and the SLP reaches `compliance` only through accepted claims.
 
-**Done when** a planted wrong pinpoint fails, an out-of-corpus citation is `unresolved` (never `failed`), and `ilac verify` passes on a second machine.
+## Phase 5. Persistence, real OCR, desktop
 
-## Phase 5. Research and arguments
+- SQLite ledger and content-addressed sources.
+- OCR sidecar with two engines on real scans.
+- Electron shell, signed Windows installer, auto-update. Same GUI, same Playwright tests.
 
-- `treatment` claims between citations, with the bench-strength gate for "overruled".
-- Statute versions by date (IPC to BNS on 1 July 2024).
-- An argument agent (MOTO) proposes `argument` claims that depend on verified facts and citations.
+## Phase 6. Real sources and release
 
-**Done when** no "overruled" appears without an anchor and bench check, and no argument with a failed dependency reaches the advocate.
+- AWS Open Data Supreme Court corpus as the `corpus` tier. Supreme Court portal capture in the built-in browser. Indian Kanoon adapter.
+- Held-out matter GM-02 run by an advocate outside the team.
+- Signed public release.
 
-## Phase 6. Release
+## Deferred
 
-- Full end-to-end run on a held-out matter by an advocate outside the team.
-- Signed public Windows release.
-
-## Deferred from the research docs
-
-These are good ideas that do not change the foundation. Add them when a phase needs them.
-
-- AI scoring models for routing (Jev/Clef). Add as an optional ranking on top of gates in Phase 3.
-- A separate evaluation agent and held-out test sets. Start in Phase 3, when there is AI output to measure.
-- Durable workflow journal, outbox, playbook interpreter. Not needed until agents run multi-step jobs.
-- Generated JSON Schemas and an ontology. The TypeScript types are the schema until an outside implementer needs one.
-- Defect checker, paper books, Case Conference. After Phase 5.
+- Product 3 (commercial).
+- High Courts, regional languages, macOS and Linux.

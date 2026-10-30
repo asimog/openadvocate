@@ -1,0 +1,9 @@
+{
+  "name": "@vakilbench/standard",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./schema": "./schemas/ilo.schema.json",
+    "./ontology": "./ontology/ilo.jsonld"
+  }
+}

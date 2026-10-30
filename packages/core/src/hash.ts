@@ -1,6 +1,6 @@
-import { createHash } from 'node:crypto';
-
-export type Hash = string & { readonly __brand: 'Hash' };
+import { sha256 as nobleSha256 } from '@noble/hashes/sha2.js';
+import { bytesToHex, utf8ToBytes } from '@noble/hashes/utils.js';
+import type { Hash } from './ilo.gen.ts';
 
 // RFC 8785 subset: sorted keys, no whitespace, integers only so number formatting never varies.
 export function canonical(value: unknown): string {
@@ -18,6 +18,6 @@ export function canonical(value: unknown): string {
 }
 
 export const sha256 = (data: string | Uint8Array): Hash =>
-  createHash('sha256').update(data).digest('hex') as Hash;
+  bytesToHex(nobleSha256(typeof data === 'string' ? utf8ToBytes(data) : data));
 
 export const hashOf = (value: unknown): Hash => sha256(canonical(value));

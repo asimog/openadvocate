@@ -1,141 +1,98 @@
 import assert from 'node:assert/strict';
-import { generateKeyPairSync } from 'node:crypto';
 import { test } from 'node:test';
 import {
-  addSource,
   canonical,
-  decide,
-  issueReceipt,
-  openMatter,
-  propose,
+  Ledger,
+  newSigningKey,
+  sha256,
+  signReceipt,
+  validate,
   verifyChain,
   verifyReceipt,
-  view,
   type Actor,
-  type Claim,
-  type ClaimId,
-  type Hash,
+  type Matter,
 } from '../src/index.ts';
 
 const lawyer: Actor = { kind: 'lawyer', id: 'aor-1' };
-const agent: Actor = { kind: 'agent', id: 'extractor' };
-const id = (s: string) => s as ClaimId;
+const notebook: Actor = { kind: 'notebook', id: 'notebook' };
+const moto: Actor = { kind: 'moto', id: 'moto' };
 
-function setup() {
-  const matter = openMatter();
-  const order = new TextEncoder().encode('impugned order');
-  const source = addSource(matter, lawyer, order, [
-    'The petitioner has been in custody since 28 June 2024.',
-    'Bail is refused.',
-  ], { mediaType: 'application/pdf', origin: 'upload' });
-  return { matter, source };
-}
+const matter: Matter = {
+  id: 'gm-01',
+  title: 'R. Kumar v. State',
+  forum: 'Supreme Court of India',
+  caseType: 'SLP(Crl)',
+  impugnedOrder: { court: 'High Court of Delhi', caseNumber: 'BAIL APPLN. 1234/2026', date: '2026-08-14' },
+  petitionerInCustody: true,
+};
 
-const fact = (source: Hash, quote: string, extra: Partial<Claim> = {}): Claim => ({
-  id: id('f1'),
-  kind: 'fact',
-  factType: 'date',
-  text: 'Custody began on 28 June 2024',
-  anchors: [{ source, page: 1, quote }],
-  dependsOn: [],
-  ...extra,
-} as Claim);
-
-test('canonical JSON is key-order independent', () => {
+test('canonical JSON is key-order independent and integer-only', () => {
   assert.equal(canonical({ b: 1, a: [true, null] }), canonical({ a: [true, null], b: 1 }));
   assert.throws(() => canonical({ x: 0.5 }), /safe integers only/);
+  assert.equal(sha256('abc'), 'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');
+});
+
+test('schema rejects malformed records at the ledger boundary', () => {
+  const ledger = new Ledger();
+  assert.throws(
+    () => ledger.append(lawyer, { type: 'matter.opened', matter: { ...matter, forum: 'Delhi HC' } as unknown as Matter }),
+    /invalid LedgerEvent/,
+  );
+  assert.equal(ledger.events.length, 0);
+});
+
+test('extract without its kind discriminant is invalid', () => {
+  const anchor = { source: 'a'.repeat(64), page: 1, line: 1, quote: 'x' };
+  const extractor = { rule: 'date.v1', version: 1 };
+  assert.deepEqual(validate('Extract', { id: 'e1', kind: 'date', value: '2024-06-28', role: 'offence', anchor, extractor }), []);
+  assert.notDeepEqual(validate('Extract', { id: 'e1', value: '2024-06-28', role: 'offence', anchor, extractor }), []);
+  assert.notDeepEqual(validate('Extract', { id: 'e1', kind: 'date', value: '2024-06-28', role: 'offence', anchor, extractor, invented: 1 }), []);
+});
+
+test('write ownership: only the notebook records extracts, MOTO cannot', () => {
+  const ledger = new Ledger();
+  ledger.append(lawyer, { type: 'matter.opened', matter });
+  const extract = {
+    id: 'e1',
+    kind: 'date' as const,
+    value: '2024-06-28',
+    role: 'offence' as const,
+    anchor: { source: 'a'.repeat(64), page: 1, line: 1, quote: '28.06.2024' },
+    extractor: { rule: 'date.v1', version: 1 },
+  };
+  assert.throws(() => ledger.append(moto, { type: 'extract.recorded', extract }), /moto may not write extract.recorded/);
+  ledger.append(notebook, { type: 'extract.recorded', extract });
+  assert.equal(ledger.bodies('extract.recorded').length, 1);
 });
 
 test('ledger chain detects tampering', () => {
-  const { matter, source } = setup();
-  propose(matter, agent, fact(source, 'in custody since 28 June 2024'));
-  assert.equal(verifyChain(matter.ledger.events).ok, true);
-  const forged = structuredClone([...matter.ledger.events]);
-  forged[1]!.actor = lawyer;
-  assert.deepEqual(verifyChain(forged), { ok: false, brokenAt: 2 });
+  const ledger = new Ledger();
+  ledger.append(lawyer, { type: 'matter.opened', matter });
+  ledger.append(lawyer, { type: 'conference.opened', conference: 'c1', agenda: [] });
+  assert.equal(verifyChain(ledger.events).ok, true);
+  const forged = structuredClone([...ledger.events]);
+  forged[0]!.actor = { kind: 'lawyer', id: 'someone-else' };
+  assert.deepEqual(verifyChain(forged), { ok: false, brokenAt: 1 });
 });
 
-test('anchored fact is pending until a lawyer accepts it', () => {
-  const { matter, source } = setup();
-  const checks = propose(matter, agent, fact(source, 'IN   custody since 28 June 2024'));
-  assert.deepEqual(checks.map((c) => c.outcome), ['pass']);
-  assert.equal(view(matter.ledger.events).status(id('f1')), 'pending');
-  decide(matter, lawyer, id('f1'), true);
-  assert.equal(view(matter.ledger.events).status(id('f1')), 'verified');
-});
-
-test('quote missing from its source fails and stays failed after acceptance', () => {
-  const { matter, source } = setup();
-  propose(matter, agent, fact(source, 'in custody since 1 January 2020'));
-  decide(matter, lawyer, id('f1'), true);
-  assert.equal(view(matter.ledger.events).status(id('f1')), 'failed');
-});
-
-test('missing source is unresolved, not failed', () => {
-  const { matter } = setup();
-  propose(matter, agent, fact('0'.repeat(64) as Hash, 'anything'));
-  assert.equal(view(matter.ledger.events).status(id('f1')), 'unresolved');
-});
-
-test('agents cannot decide', () => {
-  const { matter, source } = setup();
-  propose(matter, agent, fact(source, 'Bail is refused', { anchors: [{ source, page: 2, quote: 'Bail is refused' }] }));
-  assert.throws(() => decide(matter, agent, id('f1'), true), /only a lawyer/);
-});
-
-test('editing a verified claim resets it to pending', () => {
-  const { matter, source } = setup();
-  propose(matter, agent, fact(source, 'since 28 June 2024'));
-  decide(matter, lawyer, id('f1'), true);
-  propose(matter, agent, fact(source, 'since 28 June 2024', { text: 'Custody began in June 2024' }));
-  assert.equal(view(matter.ledger.events).status(id('f1')), 'pending');
-});
-
-test('a claim depending on a rejected claim is blocked', () => {
-  const { matter, source } = setup();
-  propose(matter, agent, fact(source, 'since 28 June 2024'));
-  propose(matter, agent, {
-    id: id('a1'),
-    kind: 'argument',
-    text: 'Long custody justifies bail',
-    anchors: [{ source, page: 1, quote: 'in custody' }],
-    dependsOn: [id('f1')],
-  });
-  decide(matter, lawyer, id('f1'), false, 'wrong date');
-  decide(matter, lawyer, id('a1'), true);
-  const v = view(matter.ledger.events);
-  assert.equal(v.status(id('f1')), 'rejected');
-  assert.equal(v.status(id('a1')), 'blocked');
-});
-
-test('unparseable citation fails', () => {
-  const { matter, source } = setup();
-  const checks = propose(matter, agent, {
-    id: id('c1'),
-    kind: 'citation',
-    cite: 'AIR 2024 SC whatever',
-    text: 'Authority on bail',
-    anchors: [{ source, page: 2, quote: 'Bail is refused' }],
-    dependsOn: [],
-  });
-  assert.deepEqual(checks.map((c) => [c.gate, c.outcome]), [
-    ['citation-parses', 'fail'],
-    ['anchored', 'pass'],
-  ]);
-});
-
-test('receipt covers only verified claims and binds the document bytes', () => {
-  const { matter, source } = setup();
-  const { privateKey, publicKey } = generateKeyPairSync('ed25519');
+test('receipt binds document bytes and signer', () => {
+  const key = newSigningKey();
   const filing = new TextEncoder().encode('%PDF filing');
-  propose(matter, agent, fact(source, 'since 28 June 2024'));
-  assert.throws(() => issueReceipt(matter.ledger.events, filing, [id('f1')], privateKey), /pending, not verified/);
-
-  decide(matter, lawyer, id('f1'), true);
-  const signed = issueReceipt(matter.ledger.events, filing, [id('f1')], privateKey);
-  assert.equal(verifyReceipt(signed, publicKey, filing), true);
-
+  const signed = signReceipt(
+    { matter: 'gm-01', document: sha256(filing), ledgerHead: 'b'.repeat(64), extracts: [], verifications: [] },
+    key,
+  );
+  assert.deepEqual(verifyReceipt(signed, { document: filing, publicKey: signed.publicKey }), { ok: true });
   const altered = filing.slice();
   altered[0] = 0;
-  assert.equal(verifyReceipt(signed, publicKey, altered), false);
+  assert.deepEqual(verifyReceipt(signed, { document: altered }), { ok: false, reason: 'document bytes do not match' });
+  assert.deepEqual(verifyReceipt(signed, { publicKey: 'c'.repeat(64) }), { ok: false, reason: 'signed by an unexpected key' });
+});
+
+test('citation grammar reads neutral and report citations in order', async () => {
+  const { findCitations, parseCitation } = await import('../src/index.ts');
+  const found = findCitations('See 2024 INSC 512, para 14, and (2019) 5 SCC 123; also AIR 1980 SC 1579.');
+  assert.deepEqual(found.map((f) => f.citation.scheme), ['INSC', 'SCC', 'AIR-SC']);
+  assert.deepEqual(parseCitation('2024 INSC 512'), { scheme: 'INSC', year: 2024, number: 512 });
+  assert.equal(parseCitation('AIR 2024 SC whatever'), null);
 });

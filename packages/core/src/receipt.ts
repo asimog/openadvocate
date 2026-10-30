@@ -1,44 +1,35 @@
-import { sign, verify, type KeyObject } from 'node:crypto';
-import { canonical, hashOf, sha256, type Hash } from './hash.ts';
-import type { ClaimId, LedgerEvent, Status } from './types.ts';
-import { view } from './view.ts';
+import { ed25519 } from '@noble/curves/ed25519.js';
+import { bytesToHex, hexToBytes, utf8ToBytes } from '@noble/hashes/utils.js';
+import { canonical, sha256 } from './hash.ts';
+import type { Receipt, SignedReceipt } from './ilo.gen.ts';
+import { assertValid } from './validate.ts';
 
-export type Receipt = {
-  document: Hash;
-  ledgerHead: Hash;
-  claims: { id: ClaimId; hash: Hash; status: Status }[];
-};
+export const newSigningKey = (): Uint8Array => ed25519.utils.randomSecretKey();
 
-export type SignedReceipt = { receipt: Receipt; signature: string };
-
-export function issueReceipt(
-  events: readonly LedgerEvent[],
-  document: Uint8Array,
-  ids: ClaimId[],
-  key: KeyObject,
-): SignedReceipt {
-  const last = events.at(-1);
-  if (!last) throw new Error('empty ledger');
-  const v = view(events);
-  const claims = ids.map((id) => {
-    const claim = v.claim(id);
-    const status = v.status(id);
-    if (!claim || status !== 'verified') {
-      throw new Error(`claim ${id} is ${status ?? 'unknown'}, not verified`);
-    }
-    return { id, hash: hashOf(claim), status };
-  });
-  const receipt: Receipt = { document: sha256(document), ledgerHead: hashOf(last), claims };
-  const signature = sign(null, Buffer.from(canonical(receipt)), key).toString('base64');
-  return { receipt, signature };
+export function signReceipt(receipt: Receipt, secretKey: Uint8Array): SignedReceipt {
+  assertValid('Receipt', receipt);
+  return {
+    receipt,
+    publicKey: bytesToHex(ed25519.getPublicKey(secretKey)),
+    signature: bytesToHex(ed25519.sign(utf8ToBytes(canonical(receipt)), secretKey)),
+  };
 }
+
+export type ReceiptCheck = { ok: true } | { ok: false; reason: string };
 
 export function verifyReceipt(
   signed: SignedReceipt,
-  key: KeyObject,
-  document?: Uint8Array,
-): boolean {
-  const message = Buffer.from(canonical(signed.receipt));
-  const sigOk = verify(null, message, key, Buffer.from(signed.signature, 'base64'));
-  return sigOk && (document === undefined || sha256(document) === signed.receipt.document);
+  options: { document?: Uint8Array; publicKey?: string } = {},
+): ReceiptCheck {
+  if (options.publicKey && options.publicKey !== signed.publicKey) {
+    return { ok: false, reason: 'signed by an unexpected key' };
+  }
+  const message = utf8ToBytes(canonical(signed.receipt));
+  if (!ed25519.verify(hexToBytes(signed.signature), message, hexToBytes(signed.publicKey))) {
+    return { ok: false, reason: 'signature does not match' };
+  }
+  if (options.document && sha256(options.document) !== signed.receipt.document) {
+    return { ok: false, reason: 'document bytes do not match' };
+  }
+  return { ok: true };
 }

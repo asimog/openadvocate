@@ -10,7 +10,25 @@
     "erasableSyntaxOnly": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "types": ["node"]
+    "types": [
+      "node"
+    ],
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "lib": [
+      "es2023",
+      "dom",
+      "dom.iterable"
+    ]
   },
-  "include": ["packages/*/src", "packages/*/test", "apps/*/src"]
+  "include": [
+    "standard/*.ts",
+    "packages/*/src",
+    "packages/*/test",
+    "sim/*/src",
+    "sim/*/test",
+    "apps/*/src",
+    "apps/*/e2e",
+    "playwright.config.ts"
+  ]
 }

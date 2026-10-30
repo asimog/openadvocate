@@ -1,0 +1,7 @@
+{
+  "name": "@vakilbench/sim-supreme-court",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {"@vakilbench/core": "workspace:*", "@vakilbench/citations": "workspace:*", "@vakilbench/notebook": "workspace:*", "@vakilbench/pleading": "workspace:*"}
+}

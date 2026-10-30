@@ -1,50 +1,52 @@
 # Product
 
-Vakilbench is a desktop workspace where an Indian advocate prepares a Supreme Court filing with AI help, and every fact and citation in it comes with proof a court can check.
+We are building three products on one open standard.
+
+| # | Product | What it is | Status |
+|---|---|---|---|
+| 1 | **Vakilbench workspace** | An open-source desktop app for advocates: document intelligence, citation verification, research, a case graph that remembers, and an SLP that moves through procedure step by step | Building |
+| 2 | **The open standard and a simulated Supreme Court** | ILO: JSON Schemas, an ontology and verification rules. Plus a simulated Supreme Court that shows the standard working: it serves judgments and case records, checks filings for defects, verifies receipts and grades the workspace with an evaluation agent | Building |
+| 3 | **Commercial service** | Hosting, chamber collaboration and custom models on the same harness and standard | Deferred |
 
 ## The problem
 
-AI drafts look right and are often wrong: invented cases, wrong paragraph pinpoints, facts the record does not say. The Supreme Court's draft AI Regulations (June 2026) make the filer responsible for every such error and require them to disclose AI use and how they verified it. Nothing today gives an advocate that proof.
-
-## Who uses it
-
-- **The advocate** prepares a matter and files with confidence.
-- **The court or registry** checks a filing's receipt offline, without seeing any draft or client text.
+AI drafts look right and are often wrong: invented cases, wrong paragraph pinpoints, facts the record does not say. The Supreme Court's draft AI Regulations (June 2026) make the filer responsible for every such error and require them to disclose AI use and how they verified it. A duty to verify is not a specification. Product 2 is the specification. Product 1 is the first tool built to it.
 
 ## What the advocate does
 
-1. Creates a matter and drops in the record (PDFs, scans, DOCX).
-2. Lets AI pull out facts, dates, parties and events. Each one points to the exact line it came from.
-3. Researches authorities. Each citation is checked: does the case exist, is the paragraph right, does it say what we claim.
-4. Weighs AI-suggested arguments and keeps the ones they agree with.
-5. Drafts with AI. Every AI edit is a tracked change they accept or reject.
-6. Exports the filing with a signed receipt and an AI-use declaration.
+1. Opens a matter: an SLP against a High Court order.
+2. Adds the record: impugned order, FIR, custody certificate, annexures. The **Notebook** reads every line with two OCR engines and extracts dates, parties, statutes, case numbers and citations. No generative AI touches this. Each datum is checked against its source line and against the court's own case record.
+3. Opens the **Citation verifier**. Every citation already in the documents is checked at four levels: does the judgment exist, is the paragraph right and does it contain the quote, does that paragraph actually hold what is claimed, and is the judgment still good law.
+4. Researches in the **Research & Argument Studio**. The Studio and the **MOTO engine** propose new questions of law, grounds and counter-arguments, each grounded only in verified data.
+5. Chairs a **Case Conference**: accepts, rejects or defers each proposal with a reason. Nothing generated enters the pleading without this.
+6. Moves the **SLP** through its procedural states. Each step opens only when the Supreme Court's rules for it are met. The defect checker applies the filing rules before anything is filed.
+7. Files to the simulated Supreme Court with a signed receipt and an AI-use declaration.
 
-## The one rule
+## The rules the product keeps
 
-**AI proposes. Checks and the advocate decide.**
+1. **The record is the store of truth.** Only the Notebook writes it, and only by deterministic rules. Nothing generated can become a fact.
+2. **Verification never invents.** The citation verifier checks citations that exist. It never adds one.
+3. **Only the Studio and MOTO generate,** and what they generate is a claim until the advocate accepts it in a Case Conference.
+4. **Every claim is grounded** in verified data. If the data under it fails, the claim is blocked.
+5. **Two readings for everything that matters.** Two OCR engines per line. Jev/Clef decision models as a second, independent check on extracts and citations. Disagreement goes to the advocate.
+6. **The pleading is a procedure, not a document.** It cannot reach "filed" until every state's rules pass.
+7. **No CAPTCHA bypass. No upload of client documents** anywhere the advocate has not chosen.
 
-- Nothing is "verified" until it passes fixed checks against its source and the advocate accepts it.
-- If anything changes, its verification resets.
-- If something is rejected, everything that depended on it is blocked.
-- The export refuses anything not verified.
+## The demonstration (product 2)
 
-## What ships first (MVP)
+The simulated Supreme Court plays the court's side of the standard:
 
-- Windows app, works offline, no account. The advocate brings their own model key or runs a local model.
-- Supreme Court matters, English documents.
-- Facts from the record, Supreme Court citations, precedent treatment, suggested arguments, tracked-change drafting, signed receipts.
-- An open `ilac` command-line tool anyone can use to verify a receipt.
+- It serves judgments at three source tiers and a case-record repository.
+- It runs the real verification code on its data, so a citation shown as verified is verified, not staged.
+- Its registry checks a filed SLP against the same defect rules and verifies the receipt offline.
+- Its evaluation agent holds the answer key for each test matter and grades the workspace's Notebook, citation and defect results.
 
-## What we will not do
+## MVP
 
-- Predict outcomes, win chances or how a judge will rule.
-- Bypass court website CAPTCHAs. The advocate solves them in the built-in browser.
-- Upload client documents anywhere the advocate has not chosen.
+Windows desktop app. Supreme Court SLPs (criminal first). English documents. Offline-first, no account, bring your own model key or a local model. The GUI is the product and is tested from the first commit. The `ilac` CLI is a backend tool for verifying receipts.
 
-## Later
+## Not doing
 
-1. Website and shared matters.
-2. macOS and Linux.
-3. High Courts, eCourts connectors, regional languages.
-4. Paid hosting and collaboration on the same open core.
+- Predicting outcomes, win chances or how a judge will rule.
+- Generating facts.
+- High Courts and regional languages (after MVP).

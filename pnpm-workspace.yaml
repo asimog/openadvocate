@@ -1,3 +1,5 @@
 packages:
+  - standard
   - packages/*
+  - sim/*
   - apps/*
