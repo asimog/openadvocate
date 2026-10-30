@@ -63,7 +63,7 @@ Each layer derives status from the ledger. Checks and decisions bind to the hash
 
 | Layer | Status values |
 |---|---|
-| Extract | `failed` (any check failed), `unresolved` (any check could not decide), `checked` (all pass), `confirmed` or `rejected` (advocate review of the current version) |
+| Extract | `rejected` (the advocate discarded it, which always wins), `failed` (any check failed), `unresolved` (a check could not decide), `checked` (all pass), `confirmed` (advocate accepted the current version; never possible past a failed check) |
 | Citation | Each of identity, pinpoint, support, standing is `verified`, `failed`, `unresolved` or `not_checked` |
 | Claim | `proposed`, `accepted`, `rejected`, `deferred`, or `blocked` when anything in `groundedIn` is not verified, confirmed or accepted |
 | Pleading | The current state of the SLP machine (see [slp.md](slp.md)) |
@@ -95,7 +95,7 @@ Verifies citation mentions the Notebook found. Source tiers in fixed order: Supr
 | Support | The paragraph's voice is holding, analysis or order, and Jev/Clef agrees with the proposition | The paragraph is counsel's submission, or Jev/Clef says no | Jev/Clef is unsure |
 | Standing | No later judgment by an equal or larger bench overrules it | Overruled by a later, equal or larger bench | — |
 
-A citation missing from every source is `unresolved`, never `failed`. The advocate can fetch it from the Supreme Court site in the built-in browser and capture it as a source.
+A citation missing from every source is `unresolved`, never `failed`. Verification reruns on every request and records a new verdict only when it changed, so a newly captured source settles an unresolved citation. The advocate can fetch it from the Supreme Court site in the built-in browser and capture it as a source.
 
 ## Studio and MOTO (argument layer, LegRAA model)
 
@@ -116,6 +116,7 @@ The SLP is a state machine. See [slp.md](slp.md).
 | Source tiers | `sc-official` (complete), `corpus` (a snapshot missing recent judgments), `indian-kanoon` (partial). Same `JudgmentSource` interface the real adapters will use |
 | Case-record repository | Case status for the High Court case: parties, order dates, case number |
 | Registry | Accepts a filing, runs the same defect rules, verifies the receipt, returns a diary number or defects |
+| Second reader | A simulated, calibrated Jev/Clef: agrees with extracts true to the record, disagrees with the rest |
 | Evaluation agent | Holds the answer key for each test matter. Grades Notebook extracts, citation verdicts and defects as precision and recall |
 
 The verification code is real. Only the data is simulated. Swapping in the real AWS Open Data corpus changes the source, not the verifier.

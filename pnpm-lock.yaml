@@ -45,6 +45,27 @@ importers:
         specifier: workspace:*
         version: link:../../packages/core
 
+  apps/workspace:
+    dependencies:
+      '@vakilbench/citations':
+        specifier: workspace:*
+        version: link:../../packages/citations
+      '@vakilbench/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@vakilbench/notebook':
+        specifier: workspace:*
+        version: link:../../packages/notebook
+      '@vakilbench/pleading':
+        specifier: workspace:*
+        version: link:../../packages/pleading
+      '@vakilbench/sim-supreme-court':
+        specifier: workspace:*
+        version: link:../../sim/supreme-court
+      '@vakilbench/studio':
+        specifier: workspace:*
+        version: link:../../packages/studio
+
   packages/citations:
     dependencies:
       '@vakilbench/core':

@@ -1,22 +1,33 @@
 # Vakilbench
 
-A desktop workspace where an Indian advocate prepares a Supreme Court filing with AI help, and every fact and citation in it comes with proof a court can check offline.
+An open-source workspace where an Indian advocate prepares a Supreme Court SLP with verifiable document intelligence, complete citation verification, AI-assisted research under human control, and the petition run as a procedure, not generated as a document.
 
-**AI proposes. Checks and the advocate decide.**
+Three products on one open standard:
+
+1. **Vakilbench workspace.** The open-source GUI for advocates.
+2. **ILO, the open standard, and a simulated Supreme Court** that demonstrates it with real verification code.
+3. **Commercial service.** Deferred.
 
 ## Docs
 
-- [Product](docs/product.md). What it does, for whom, and what it will not do.
-- [Architecture](docs/architecture.md). Six data shapes, one writer, status derived from the ledger.
-- [Plan](docs/plan.md). Phases 0 to 6, each with a check that proves it.
-- [Research](docs/research/). The full background studies, kept for reference.
+- [Product](docs/product.md). The three products, what the advocate does, the rules the product keeps.
+- [Architecture](docs/architecture.md). Four data layers with enforced owners, each module's checks.
+- [SLP state machine](docs/slp.md). States, guards and the Supreme Court defect rules.
+- [Plan](docs/plan.md). Phases, each ending in a GUI run of the golden matter.
+- [Research](docs/research/). The background studies.
 
 ## Layout
 
 ```
-packages/core   Data shapes, hashing, ledger, gates, kernel, status view, receipts
-apps/cli        ilac verify: checks a receipt offline
-docs            Product, architecture, plan, research
+standard/            ILO: JSON Schema (source of truth), ontology, codegen
+packages/core        Generated types, validation, ledger with write ownership, receipts, citation grammar, Jev/Clef port
+packages/notebook    Record layer (SUPACE model): two-engine text, deterministic extraction, five checks
+packages/citations   Verification layer: identity, pinpoint, support, standing over source tiers
+packages/studio      Argument layer (LegRAA model): research, claims, MOTO, Case Conference
+packages/pleading    Procedure layer: SLP state machine, Supreme Court defect rules
+sim/supreme-court    Simulated court: judgments, source tiers, case records, registry, second reader, evaluation agent, GM-01
+apps/workspace       The GUI (React), with Playwright tests
+apps/cli             ilac: receipt verification backend
 ```
 
 ## Develop
@@ -28,9 +39,19 @@ pnpm install
 ```
 
 ```bash
+pnpm dev
+```
+
+```bash
 pnpm check
 ```
 
 ```bash
-pnpm ilac verify receipt.json public-key.pem filing.pdf
+pnpm e2e
+```
+
+After editing `standard/schemas/ilo.schema.json`, regenerate the types:
+
+```bash
+pnpm codegen
 ```

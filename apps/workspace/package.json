@@ -1,0 +1,13 @@
+{
+  "name": "@vakilbench/workspace",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@vakilbench/core": "workspace:*",
+    "@vakilbench/notebook": "workspace:*",
+    "@vakilbench/citations": "workspace:*",
+    "@vakilbench/studio": "workspace:*",
+    "@vakilbench/pleading": "workspace:*",
+    "@vakilbench/sim-supreme-court": "workspace:*"
+  }
+}

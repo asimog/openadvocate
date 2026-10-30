@@ -1,0 +1,58 @@
+[
+  {
+    "code": "SLP-001",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), certified copy of the impugned order",
+    "check": "impugned-order-certified",
+    "message": "The impugned order is missing, or is not a certified copy and no exemption is recorded.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-002",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), period of limitation and condonation of delay",
+    "check": "within-limitation-or-condonation",
+    "message": "The petition is filed after the limitation period from the impugned order and no application for condonation of delay is recorded.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-003",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), synopsis and list of dates and events",
+    "check": "list-of-dates-confirmed",
+    "message": "The synopsis and list of dates cannot be prepared: no date extract is confirmed.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-004",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), questions of law",
+    "check": "question-of-law-accepted",
+    "message": "No question of law is stated: no accepted claim of kind question-of-law.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-005",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), grounds",
+    "check": "ground-accepted",
+    "message": "No grounds are stated: no accepted claim of kind ground.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-006",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), array of parties and cause title as in the impugned order",
+    "check": "parties-confirmed",
+    "message": "The parties are not confirmed against the cause title of the impugned order.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-007",
+    "rule": "Supreme Court Rules, 2013, Order XXI (civil) / Order XXII (criminal), annexures",
+    "check": "annexures-are-sources",
+    "message": "An extract is anchored in a document that is not a source of the matter, so the annexure it relies on is not filed.",
+    "confirmed": false
+  },
+  {
+    "code": "SLP-008",
+    "rule": "Draft Supreme Court AI Regulations, Reg 43(3), disclosure of AI-assisted content",
+    "check": "ai-disclosed",
+    "message": "AI-assisted content is not disclosed.",
+    "confirmed": false
+  }
+]
