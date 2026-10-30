@@ -144,11 +144,17 @@ export async function verifyMention(
   return { ...base, tier: 'none', snapshot: '', identity: level('unresolved', 'not_in_any_source'), ...rest() };
 }
 
+// Latest verdict per mention, counted only while it was made on the mention's current version.
+// An edited mention therefore has no verdict until it is verified again.
 export function citationView(events: readonly LedgerEvent[]): Map<string, CitationVerification> {
-  const view = new Map<string, CitationVerification>();
-  for (const e of events) {
-    if (e.body.type === 'citation.verified') view.set(e.body.verification.mention, e.body.verification);
+  const current = new Map<string, string>();
+  const verdicts = new Map<string, CitationVerification>();
+  for (const { body } of events) {
+    if (body.type === 'extract.recorded' && body.extract.kind === 'citation') current.set(body.extract.id, hashOf(body.extract));
+    if (body.type === 'citation.verified') verdicts.set(body.verification.mention, body.verification);
   }
+  const view = new Map<string, CitationVerification>();
+  for (const [mention, v] of verdicts) if (current.get(mention) === v.mentionHash) view.set(mention, v);
   return view;
 }
 

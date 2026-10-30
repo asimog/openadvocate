@@ -4,6 +4,9 @@ import type { Hash } from './ilo.gen.ts';
 
 // RFC 8785 subset: sorted keys, no whitespace, integers only so number formatting never varies.
 export function canonical(value: unknown): string {
+  if (value === undefined || typeof value === 'function' || typeof value === 'symbol') {
+    throw new Error(`canonical JSON cannot encode ${typeof value}`);
+  }
   if (value === null || typeof value !== 'object') {
     if (typeof value === 'number' && !Number.isSafeInteger(value)) {
       throw new Error(`canonical JSON allows safe integers only, got ${value}`);

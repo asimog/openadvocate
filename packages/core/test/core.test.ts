@@ -96,3 +96,16 @@ test('citation grammar reads neutral and report citations in order', async () =>
   assert.deepEqual(parseCitation('2024 INSC 512'), { scheme: 'INSC', year: 2024, number: 512 });
   assert.equal(parseCitation('AIR 2024 SC whatever'), null);
 });
+
+test('canonical JSON refuses undefined inside arrays instead of emitting invalid JSON', () => {
+  assert.throws(() => canonical([1, undefined]), /cannot encode undefined/);
+  assert.equal(canonical({ a: 1, b: undefined }), '{"a":1}');
+});
+
+test('chain verification rejects an event forged under a disallowed actor', () => {
+  const ledger = new Ledger();
+  ledger.append(lawyer, { type: 'matter.opened', matter });
+  const forged = structuredClone([...ledger.events]);
+  forged[0]!.actor = moto;
+  assert.deepEqual(verifyChain(forged), { ok: false, brokenAt: 0 });
+});

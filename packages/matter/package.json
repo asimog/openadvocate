@@ -1,0 +1,13 @@
+{
+  "name": "@vakilbench/matter",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "@vakilbench/core": "workspace:*",
+    "@vakilbench/notebook": "workspace:*",
+    "@vakilbench/citations": "workspace:*",
+    "@vakilbench/studio": "workspace:*",
+    "@vakilbench/pleading": "workspace:*"
+  }
+}

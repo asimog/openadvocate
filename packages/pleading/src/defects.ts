@@ -1,4 +1,4 @@
-import type { Defect } from '@vakilbench/core';
+import { hashOf, type Defect, type IsoDate, type Level } from '@vakilbench/core';
 import type { PleadingContext } from './context.ts';
 import { limitationDeadline } from './limitation.ts';
 import rules from '../rules/sc-slp.json' with { type: 'json' };
@@ -15,9 +15,47 @@ export const unconfirmed = (ctx: PleadingContext, kind: 'date' | 'party'): strin
 export const countOf = (ctx: PleadingContext, kind: 'date' | 'party'): number =>
   ctx.extracts.filter((e) => e.extract.kind === kind && e.status === 'confirmed').length;
 
-export const withinLimitation = (ctx: PleadingContext): boolean =>
-  ctx.condonationSought ||
-  (ctx.matter !== undefined && ctx.today <= limitationDeadline(ctx.matter.impugnedOrder.date));
+// Limitation runs from the order date as the record shows it (a confirmed extract from the impugned
+// order itself), not from the date typed at intake.
+export const recordedOrderDate = (ctx: PleadingContext): IsoDate | undefined => {
+  const order = impugnedOrderSource(ctx);
+  const found = ctx.extracts.find(
+    (e) => e.status === 'confirmed' && e.extract.kind === 'date' && e.extract.role === 'impugned-order' && e.extract.anchor.source === order?.hash,
+  );
+  return found?.extract.kind === 'date' ? found.extract.value : undefined;
+};
+
+export const withinLimitation = (ctx: PleadingContext): boolean => {
+  if (ctx.condonationSought) return true;
+  const date = recordedOrderDate(ctx);
+  return date !== undefined && ctx.today <= limitationDeadline(date);
+};
+
+const passes = (l: Level, allowNotChecked = false) => l.outcome === 'verified' || (allowNotChecked && l.outcome === 'not_checked');
+
+// Every citation the lawyer has not discarded must carry a verdict on its current version that passes.
+export function citationProblems(ctx: PleadingContext): { mention: string; problem: string }[] {
+  const problems: { mention: string; problem: string }[] = [];
+  for (const { extract, status } of ctx.extracts) {
+    if (extract.kind !== 'citation' || status === 'rejected') continue;
+    if (status === 'failed' || status === 'unresolved') {
+      problems.push({ mention: extract.id, problem: `notebook checks ${status}` });
+      continue;
+    }
+    const v = ctx.citations.find((c) => c.mention === extract.id && c.mentionHash === hashOf(extract));
+    if (!v) {
+      problems.push({ mention: extract.id, problem: 'not verified' });
+      continue;
+    }
+    const failing = [
+      ...(['identity', 'standing'] as const).filter((k) => !passes(v[k])).map((k) => `${k} ${v[k].outcome}`),
+      ...(passes(v.pinpoint, true) ? [] : [`pinpoint ${v.pinpoint.outcome}`]),
+      ...(v.support.outcome === 'failed' ? ['support failed'] : []),
+    ];
+    if (failing.length > 0) problems.push({ mention: extract.id, problem: failing.join(', ') });
+  }
+  return problems;
+}
 
 export const hasAccepted = (ctx: PleadingContext, kind: 'question-of-law' | 'ground'): boolean =>
   ctx.claims.some((c) => c.claim.kind === kind && c.status === 'accepted');
@@ -26,6 +64,7 @@ export const hasAccepted = (ctx: PleadingContext, kind: 'question-of-law' | 'gro
 export const DEFECT_CHECKS: Record<string, (ctx: PleadingContext) => boolean> = {
   'impugned-order-certified': (ctx) => impugnedOrderSource(ctx)?.certified === true,
   'within-limitation-or-condonation': withinLimitation,
+  'citations-verified': (ctx) => citationProblems(ctx).length === 0,
   'list-of-dates-confirmed': (ctx) => ctx.extracts.some((e) => e.extract.kind === 'date' && e.status === 'confirmed'),
   'question-of-law-accepted': (ctx) => hasAccepted(ctx, 'question-of-law'),
   'ground-accepted': (ctx) => hasAccepted(ctx, 'ground'),

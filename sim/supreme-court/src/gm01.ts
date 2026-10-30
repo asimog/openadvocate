@@ -179,27 +179,3 @@ export const PLANTED_LOCATIONS = {
   ocrDisagreement: { source: sourceOf('fir').source.hash, page: 1, line: 3 },
   wrongCaseNumber: { source: sourceOf('custody-certificate').source.hash, page: 1, line: 5 },
 } as const;
-
-// The Jev/Clef answers, keyed by the verifier's question. Citations not listed fall back to "unsure".
-export function buildDeciderAnswers(): Record<string, number> {
-  const scores: Record<string, number> = { a: 950, e: 940, g: 930 };
-  const answers: Record<string, number> = {};
-  for (const d of DRAFT_CITATIONS) {
-    const score = scores[d.label];
-    if (score === undefined || !d.judgment) continue;
-    const probe = {
-      id: `probe-${d.label}`,
-      kind: 'citation',
-      raw: `${d.party}, ${d.cite}`,
-      citation: null,
-      pinpoint: d.pinpoint,
-      proposition: d.proposition,
-      anchor: { source: 'a'.repeat(64), page: 1, line: 1, quote: d.cite },
-      extractor: { rule: 'citation.mention', version: 1 },
-    } as CitationMention;
-    answers[supportQuestion(probe, d.judgment)] = score;
-  }
-  return answers;
-}
-
-export const deciderAnswers: Record<string, number> = buildDeciderAnswers();

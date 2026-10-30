@@ -64,9 +64,9 @@ export const ANSWER_KEY = {
   ] as PlantedDefect[],
   citations: [
     { label: 'a', cite: '2021 INSC 114', identity: 'verified', pinpoint: 'verified', support: 'verified', standing: 'verified' },
-    { label: 'b', cite: '2022 INSC 640', identity: 'verified', pinpoint: 'failed', support: 'unresolved', standing: 'verified' },
+    { label: 'b', cite: '2022 INSC 640', identity: 'verified', pinpoint: 'failed', support: 'failed', standing: 'verified' },
     { label: 'c', cite: '(2024) 2 SCC 391', identity: 'verified', pinpoint: 'verified', support: 'failed', standing: 'verified' },
-    { label: 'd', cite: '2018 INSC 905', identity: 'verified', pinpoint: 'verified', support: 'unresolved', standing: 'failed' },
+    { label: 'd', cite: '2018 INSC 905', identity: 'verified', pinpoint: 'verified', support: 'verified', standing: 'failed' },
     { label: 'e', cite: '2026 INSC 311', identity: 'verified', pinpoint: 'verified', support: 'verified', standing: 'verified' },
     { label: 'f', cite: '(2019) 7 SCC 612', identity: 'unresolved', pinpoint: 'not_checked', support: 'not_checked', standing: 'not_checked' },
     { label: 'g', cite: '(2019) 3 SCC 456', identity: 'verified', pinpoint: 'verified', support: 'verified', standing: 'verified' },

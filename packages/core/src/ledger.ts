@@ -19,6 +19,8 @@ export const OWNERS: Record<EventType, readonly Actor['kind'][]> = {
   'conference.opened': ['lawyer'],
   'conference.decided': ['lawyer'],
   'pleading.transitioned': ['pleading'],
+  'pleading.declared': ['lawyer'],
+  'pleading.condonation-sought': ['lawyer'],
 };
 
 export class Ledger {
@@ -67,6 +69,7 @@ export function verifyChain(events: readonly LedgerEvent[]): ChainResult {
   let prev: Hash | null = null;
   for (const [i, event] of events.entries()) {
     if (event.seq !== i || event.prev !== prev) return { ok: false, brokenAt: i };
+    if (!OWNERS[event.body.type]?.includes(event.actor.kind)) return { ok: false, brokenAt: i };
     prev = hashOf(event);
   }
   return { ok: true, head: prev };

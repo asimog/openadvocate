@@ -288,3 +288,46 @@ test('a lawyer can discard a failed extract but never confirm it', async () => {
   review(ledger, lawyer, 'd1', false);
   assert.equal(notebookView(ledger.events).byId('d1')?.status, 'rejected');
 });
+
+const extractsOf = (lines: string[]) => {
+  const ledger = open(lines);
+  const extracts = extractAll(ledger);
+  for (const item of notebookView(ledger.events).items) {
+    assert.equal(item.status, 'checked', `${item.extract.id}: ${JSON.stringify(item.checks)}`);
+  }
+  return extracts;
+};
+
+test('a case name starts after the sentence that precedes it', () => {
+  const cite = extractsOf(['Bail may be granted under Section 439 CrPC. Harinder Singh v. State of Punjab, 2021 INSC 114, para 9']).find(
+    (e) => e.kind === 'citation',
+  );
+  assert.ok(cite && cite.kind === 'citation');
+  assert.equal(cite.raw, 'Harinder Singh v. State of Punjab, 2021 INSC 114');
+  assert.equal(cite.proposition, 'Bail may be granted under Section 439 CrPC.');
+  assert.equal(cite.pinpoint, 9);
+});
+
+test('a date takes its role from its own clause', () => {
+  const dates = extractsOf(['The bail application was dismissed on 10.01.2024; he is in custody since 01.01.2023']).flatMap((e) =>
+    e.kind === 'date' ? [[e.value, e.role]] : [],
+  );
+  assert.deepEqual(dates, [
+    ['2024-01-10', 'bail-refused'],
+    ['2023-01-01', 'custody-from'],
+  ]);
+});
+
+test('lakh and crore amounts are read as integer rupees', () => {
+  const amounts = extractsOf(['Rs. 1 lakh, Rs. 2 crore, Rs. 1.5 lakhs and ₹ 50,000/- were deposited.']).flatMap((e) =>
+    e.kind === 'amount' ? [e.rupees] : [],
+  );
+  assert.deepEqual(amounts, [100000, 20000000, 150000, 50000]);
+});
+
+test('lettered section numbers keep their suffix', () => {
+  const statutes = extractsOf(['Sections 498-A and 304-B IPC', 'Charged under Section 376DA IPC.']).flatMap((e) =>
+    e.kind === 'statute' ? [`${e.act} ${e.section}`] : [],
+  );
+  assert.deepEqual(statutes, ['IPC 498-A', 'IPC 304-B', 'IPC 376DA']);
+});

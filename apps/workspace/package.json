@@ -8,6 +8,7 @@
     "@vakilbench/citations": "workspace:*",
     "@vakilbench/studio": "workspace:*",
     "@vakilbench/pleading": "workspace:*",
-    "@vakilbench/sim-supreme-court": "workspace:*"
+    "@vakilbench/sim-supreme-court": "workspace:*",
+    "@vakilbench/matter": "workspace:*"
   }
 }

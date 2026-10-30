@@ -8,7 +8,7 @@ import {
   AUTOMATIC_TIERS,
   caseRecords,
   corpus,
-  deciderAnswers,
+  simulatedReader,
   documents,
   DRAFT_CITATIONS,
   evaluate,
@@ -55,7 +55,7 @@ function handBuiltMentions(ledger: Ledger): CitationMention[] {
   });
 }
 
-const decider = fixtureDecider(deciderAnswers);
+const decider = simulatedReader([]);
 
 test('every corpus judgment is a valid synthetic Judgment with numbered paragraphs', () => {
   assert.equal(JUDGMENTS.length, 10);
@@ -222,7 +222,7 @@ test('a verifier that marks a bad citation verified is counted as a false verifi
   });
   const report = evaluate(ledger.events, 'citations');
   assert.equal(report.pass, false);
-  assert.equal(report.metrics.find((m) => m.name === 'false-verified count')!.value, 2);
+  assert.equal(report.metrics.find((m) => m.name === 'false-verified count')!.value, 1, 'only standing is falsely verified: the overruled paragraph does state the proposition');
 });
 
 test('a verification of an edited mention is ignored by the evaluator', async () => {

@@ -19,9 +19,9 @@ function isoDate(y: number, m: number, d: number): string | null {
   return `${pad(y, 4)}-${pad(m, 2)}-${pad(d, 2)}`;
 }
 
-// Order matters: a line naming several events takes the most specific role first.
-function dateRole(line: string): DateRole {
-  const l = line.toLowerCase();
+// Order matters: a text naming several events takes the most specific role first.
+function roleOf(text: string): DateRole {
+  const l = text.toLowerCase();
   if (/\b(dismissed|rejected)\b/.test(l) && /\bbail\b/.test(l)) return 'bail-refused';
   if (/custody since|in custody from/.test(l)) return 'custody-from';
   if (/order dated|impugned/.test(l)) return 'impugned-order';
@@ -32,6 +32,14 @@ function dateRole(line: string): DateRole {
   return 'other';
 }
 
+// A line can hold several events ("dismissed on X; in custody since Y"), so a date reads its own ';' clause and falls back to the whole line.
+function dateRole(line: string, at: number): DateRole {
+  const start = line.lastIndexOf(';', at) + 1;
+  const semi = line.indexOf(';', at);
+  const role = roleOf(line.slice(start, semi === -1 ? line.length : semi));
+  return role === 'other' ? roleOf(line) : role;
+}
+
 const NUM_DATE = /(?<!\d)(\d{1,2})([./-])(\d{1,2})\2(\d{4})(?!\d)/g;
 const LONG_DATE = new RegExp(String.raw`(?<!\d)(\d{1,2})(?:st|nd|rd|th)?\s+(${MONTHS.join('|')}),?\s+(\d{4})(?!\d)`, 'gi');
 
@@ -39,15 +47,14 @@ const dateRule: Rule = {
   kind: 'date',
   rule: 'date.dmy',
   find(line) {
-    const role = dateRole(line);
     const found: (Hit & { at: number })[] = [];
     for (const m of line.matchAll(NUM_DATE)) {
       const value = isoDate(Number(m[4]), Number(m[3]), Number(m[1]));
-      if (value) found.push({ at: m.index, quote: m[0], fields: { kind: 'date', value, role } });
+      if (value) found.push({ at: m.index, quote: m[0], fields: { kind: 'date', value, role: dateRole(line, m.index) } });
     }
     for (const m of line.matchAll(LONG_DATE)) {
       const value = isoDate(Number(m[3]), MONTHS.indexOf(m[2]!.toLowerCase()) + 1, Number(m[1]));
-      if (value) found.push({ at: m.index, quote: m[0], fields: { kind: 'date', value, role } });
+      if (value) found.push({ at: m.index, quote: m[0], fields: { kind: 'date', value, role: dateRole(line, m.index) } });
     }
     return found.sort((a, b) => a.at - b.at);
   },
@@ -86,7 +93,7 @@ const partyRule: Rule = {
   },
 };
 
-const SEC = String.raw`\d+[A-Z]?(?:\([0-9a-z]+\))*`;
+const SEC = String.raw`\d+(?:-?[A-Z]{1,2})?(?:\([0-9a-z]+\))*`;
 const ACT = String.raw`(?:IPC|BNSS|BNS|IEA|BSA|Constitution)\b|C[Rr]\.?\s*P\.?\s*C\b\.?`;
 const STATUTE = new RegExp(
   String.raw`(?:\b[Ss]ection\(s\)|\b[Ss]ections?|\b[Ss]ec\.|\b[Uu]/[Ss]\.?|\b[Ss]s?\.)\s*(${SEC}(?:\s*(?:,|and|&|/)\s*${SEC})*)\s*(?:(?:of|under)\s+(?:the\s+)?)?(${ACT})`,
@@ -127,7 +134,7 @@ const caseNumberRule: Rule = {
   },
 };
 
-const AMOUNT = /(?<![A-Za-z])(?:Rs\.?|INR|₹)\s*(\d+(?:,\d{2,3})*)(\.\d+)?(?:\s*\/-)?/gi;
+const AMOUNT = /(?<![A-Za-z])(?:Rs\.?|INR|₹)\s*(\d+(?:,\d{2,3})*)(\.\d+)?(?:\s*(lakhs?|lacs?|crores?)\b)?(?:\s*\/-)?/gi;
 
 const amountRule: Rule = {
   kind: 'amount',
@@ -135,15 +142,29 @@ const amountRule: Rule = {
   find(line) {
     const hits: Hit[] = [];
     for (const m of line.matchAll(AMOUNT)) {
-      const rupees = Number(m[1]!.replace(/,/g, ''));
-      if (/[1-9]/.test(m[2] ?? '') || !Number.isSafeInteger(rupees)) continue;
+      const unit = m[3]?.toLowerCase();
+      const exact = Number(m[1]!.replace(/,/g, '') + (m[2] ?? '')) * (!unit ? 1 : unit.startsWith('c') ? 10_000_000 : 100_000);
+      const rupees = Math.round(exact);
+      // A bare fraction is paise, not integer rupees; with a unit the fraction scales up, so only float noise is rounded away.
+      if (Math.abs(exact - rupees) > 1e-6 || !Number.isSafeInteger(rupees)) continue;
       hits.push({ quote: m[0], fields: { kind: 'amount', rupees } });
     }
     return hits;
   },
 };
 
-const CAP = String.raw`[A-Z][\w.'&()\-]*`;
+// Words whose trailing period does not end a sentence: name and citation abbreviations, or initials.
+const ABBREVIATION = /^(?:(?:[a-z]\.)+|v|vs|ltd|pvt|co|no|nos|mr|mrs|ms|dr|st|smt|shri|sh|anr|ors|etc|inc|corp|govt|dept)\.$/i;
+
+function lastSentenceEnd(text: string): number {
+  let end = 0;
+  for (const m of text.matchAll(/(\S+?[.!?])\s+(?=\S)/g)) {
+    if (!ABBREVIATION.test(m[1]!)) end = m.index + m[0].length;
+  }
+  return end;
+}
+
+const CAP =String.raw`[A-Z][\w.'&()\-]*`;
 const NAME = String.raw`${CAP}(?:\s+(?:${CAP}|of|and|the|for|&))*`;
 const CASE_NAME = new RegExp(String.raw`(${NAME})\s+(?:v\.|vs\.?)\s+(${NAME}),?\s*$`, 'd');
 const LEADING_WORD = /^(?:In|See|Also|Cf\.?|Per|Held)\s+/;
@@ -157,7 +178,8 @@ const citationRule: Rule = {
     const cites = findCitations(line);
     return cites.map((c, i): Hit => {
       const citeEnd = c.index + c.raw.length;
-      const from = i > 0 ? cites[i - 1]!.index + cites[i - 1]!.raw.length : 0;
+      const prevEnd = i > 0 ? cites[i - 1]!.index + cites[i - 1]!.raw.length : 0;
+      const from = prevEnd + lastSentenceEnd(line.slice(prevEnd, c.index));
       const named = CASE_NAME.exec(line.slice(from, c.index));
       let start = c.index;
       if (named?.indices) {

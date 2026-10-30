@@ -53,6 +53,9 @@ importers:
       '@vakilbench/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@vakilbench/matter':
+        specifier: workspace:*
+        version: link:../../packages/matter
       '@vakilbench/notebook':
         specifier: workspace:*
         version: link:../../packages/notebook
@@ -87,6 +90,24 @@ importers:
         specifier: ^8.20.0
         version: 8.20.0
 
+  packages/matter:
+    dependencies:
+      '@vakilbench/citations':
+        specifier: workspace:*
+        version: link:../citations
+      '@vakilbench/core':
+        specifier: workspace:*
+        version: link:../core
+      '@vakilbench/notebook':
+        specifier: workspace:*
+        version: link:../notebook
+      '@vakilbench/pleading':
+        specifier: workspace:*
+        version: link:../pleading
+      '@vakilbench/studio':
+        specifier: workspace:*
+        version: link:../studio
+
   packages/notebook:
     dependencies:
       '@vakilbench/core':
@@ -113,12 +134,18 @@ importers:
       '@vakilbench/core':
         specifier: workspace:*
         version: link:../../packages/core
+      '@vakilbench/matter':
+        specifier: workspace:*
+        version: link:../../packages/matter
       '@vakilbench/notebook':
         specifier: workspace:*
         version: link:../../packages/notebook
       '@vakilbench/pleading':
         specifier: workspace:*
         version: link:../../packages/pleading
+      '@vakilbench/studio':
+        specifier: workspace:*
+        version: link:../../packages/studio
 
   standard: {}
 

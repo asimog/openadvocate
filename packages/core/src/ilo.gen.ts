@@ -139,6 +139,17 @@ export type EventBody =
       from: PleadingState;
       to: PleadingState;
       guards: GuardResult[];
+    }
+  | {
+      type: "pleading.declared";
+      /**
+       * The advocate's AI-use declaration (draft SC AI Regulations, Reg 43(3)).
+       */
+      statement: string;
+    }
+  | {
+      type: "pleading.condonation-sought";
+      reason: string;
     };
 
 /**

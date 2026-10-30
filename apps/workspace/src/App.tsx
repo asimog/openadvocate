@@ -319,10 +319,22 @@ function Slp({ session, act }: { session: Session; act: Act }) {
         <button data-testid="advance" onClick={act(() => session.advance())}>
           Advance
         </button>
-        <button data-testid="declare" disabled={!!session.receipt} onClick={act(() => session.declare())}>
-          Sign receipt and AI-use declaration
+        <button
+          data-testid="declare"
+          disabled={session.declared}
+          onClick={act(() => session.declare('This petition was prepared with AI assistance. Every fact and citation relied on was verified as recorded in the ledger.'))}
+        >
+          Record AI-use declaration
         </button>
-        <button data-testid="file" disabled={!session.receipt} onClick={act(() => session.file())}>
+        {session.state() === 'limitation' && (
+          <button data-testid="condonation" disabled={session.condonationSought} onClick={act(() => session.seekCondonation('Delay explained in the accompanying application.'))}>
+            Seek condonation of delay
+          </button>
+        )}
+        <button data-testid="sign" disabled={session.state() !== 'declaration' || !!session.receipt} onClick={act(() => session.signReceipt())}>
+          Sign receipt
+        </button>
+        <button data-testid="file" disabled={session.state() !== 'filed' || !!session.registry} onClick={act(() => session.file())}>
           File with the Supreme Court (simulated)
         </button>
       </div>

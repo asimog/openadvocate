@@ -219,20 +219,26 @@ test('verdicts are reproducible and bound to the mention hash', async () => {
 
 test('verifyAll writes as the verifier, skips unchanged mentions and re-verifies changed ones', async () => {
   const ledger = new Ledger();
+  const record = (m: CitationMention) => ledger.append(notebook, { type: 'extract.recorded', extract: m });
+  const verdicts = () => ledger.bodies('citation.verified').length;
   const m1 = mention();
   const m2 = mention({ citation: { scheme: 'INSC', year: 1999, number: 9 } });
+  record(m1);
+  record(m2);
   const first = await verifyAll(ledger, [m1, m2], tiers, yes);
   assert.equal(first.length, 2);
-  assert.equal(ledger.events.length, 2);
-  assert.ok(ledger.events.every((e) => e.actor.kind === 'verifier' && e.actor.id === VERIFIER.id));
+  assert.equal(verdicts(), 2);
+  assert.ok(ledger.events.filter((e) => e.body.type === 'citation.verified').every((e) => e.actor.kind === 'verifier' && e.actor.id === VERIFIER.id));
 
   const again = await verifyAll(ledger, [m1, m2], tiers, yes);
-  assert.equal(ledger.events.length, 2);
+  assert.equal(verdicts(), 2);
   assert.deepEqual(again, first);
 
   const edited = { ...m1, quote: 'without trial' } as CitationMention;
+  record(edited);
+  assert.equal(citationView(ledger.events).get(m1.id), undefined, 'an edited mention has no verdict until re-verified');
   await verifyAll(ledger, [edited, m2], tiers, yes);
-  assert.equal(ledger.events.length, 3);
+  assert.equal(verdicts(), 3);
   const view = citationView(ledger.events);
   assert.equal(view.get(m1.id)?.mentionHash, hashOf(edited));
   assert.equal(view.get(m2.id)?.identity.reason, 'not_in_any_source');

@@ -1,6 +1,6 @@
-import type { Defect, GuardResult, Level } from '@vakilbench/core';
+import type { Defect, GuardResult } from '@vakilbench/core';
 import type { PleadingContext } from './context.ts';
-import { checkDefects, countOf, hasAccepted, impugnedOrderSource, unconfirmed, withinLimitation } from './defects.ts';
+import { checkDefects, citationProblems, countOf, hasAccepted, impugnedOrderSource, recordedOrderDate, unconfirmed, withinLimitation } from './defects.ts';
 
 export type GuardId = string;
 
@@ -27,8 +27,6 @@ function extractsConfirmed(guard: GuardId, kind: 'date' | 'party'): (ctx: Pleadi
   };
 }
 
-const blocking = (l: Level) => l.outcome === 'failed' || l.outcome === 'unresolved';
-
 export const GUARDS: Record<GuardId, (ctx: PleadingContext) => GuardResult> = {
   'matter-complete': (ctx) => need('matter-complete', ctx.matter !== undefined, 'G-MATTER', 'No matter is open.'),
   'impugned-order-present': (ctx) =>
@@ -38,19 +36,13 @@ export const GUARDS: Record<GuardId, (ctx: PleadingContext) => GuardResult> = {
   'dates-verified': extractsConfirmed('dates-verified', 'date'),
   'parties-verified': extractsConfirmed('parties-verified', 'party'),
   'within-limitation': (ctx) =>
-    need('within-limitation', withinLimitation(ctx), 'G-LIMITATION', 'Past the limitation period and no condonation is sought.'),
+    recordedOrderDate(ctx) === undefined && !ctx.condonationSought
+      ? need('within-limitation', false, 'G-ORDER-DATE', 'The impugned order date is not confirmed from the order itself.')
+      : need('within-limitation', withinLimitation(ctx), 'G-LIMITATION', 'Past the limitation period and no condonation is sought.'),
   'citations-verified': (ctx) =>
     result(
       'citations-verified',
-      ctx.citations.flatMap((v) => {
-        const failing = [
-          ...(['identity', 'pinpoint', 'standing'] as const).filter((k) => blocking(v[k])).map((k) => `${k} ${v[k].outcome}`),
-          ...(v.support.outcome === 'failed' ? ['support failed'] : []),
-        ];
-        return failing.length === 0
-          ? []
-          : [defect('G-CITATION', 'citations-verified', `Citation mention ${v.mention}: ${failing.join(', ')}.`)];
-      }),
+      citationProblems(ctx).map((p) => defect('G-CITATION', 'citations-verified', `Citation mention ${p.mention}: ${p.problem}.`)),
     ),
   'questions-of-law-accepted': (ctx) =>
     need('questions-of-law-accepted', hasAccepted(ctx, 'question-of-law'), 'G-QUESTION', 'No question of law is accepted.'),

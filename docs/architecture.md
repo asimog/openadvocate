@@ -49,6 +49,7 @@ packages/notebook    Record layer. Text layers, deterministic extractors, checks
 packages/citations   Verification layer. Four-level citation verification over source tiers
 packages/studio      Argument layer. Research, claims, Case Conference, MOTO
 packages/pleading    Procedure layer. SLP state machine, Supreme Court defect rules
+packages/matter      Composes the layers' views into the petition's context, from the ledger alone
 sim/supreme-court    Product 2 demo. Judgments, case records, source tiers, registry,
                      evaluation agent, golden matter GM-01
 apps/workspace       Product 1. React GUI, Playwright tests
@@ -64,7 +65,7 @@ Each layer derives status from the ledger. Checks and decisions bind to the hash
 | Layer | Status values |
 |---|---|
 | Extract | `rejected` (the advocate discarded it, which always wins), `failed` (any check failed), `unresolved` (a check could not decide), `checked` (all pass), `confirmed` (advocate accepted the current version; never possible past a failed check) |
-| Citation | Each of identity, pinpoint, support, standing is `verified`, `failed`, `unresolved` or `not_checked` |
+| Citation | Each of identity, pinpoint, support, standing is `verified`, `failed`, `unresolved` or `not_checked`. A verdict counts only while it was made on the mention's current version. A generated claim may rest on a citation only if all four levels are `verified` |
 | Claim | `proposed`, `accepted`, `rejected`, `deferred`, or `blocked` when anything in `groundedIn` is not verified, confirmed or accepted |
 | Pleading | The current state of the SLP machine (see [slp.md](slp.md)) |
 
@@ -115,8 +116,8 @@ The SLP is a state machine. See [slp.md](slp.md).
 | Judgment corpus | Synthetic judgments with numbered paragraphs, voice, bench strength, INSC and SCC citations, treatment between them |
 | Source tiers | `sc-official` (complete), `corpus` (a snapshot missing recent judgments), `indian-kanoon` (partial). Same `JudgmentSource` interface the real adapters will use |
 | Case-record repository | Case status for the High Court case: parties, order dates, case number |
-| Registry | Accepts a filing, runs the same defect rules, verifies the receipt, returns a diary number or defects |
-| Second reader | A simulated, calibrated Jev/Clef: agrees with extracts true to the record, disagrees with the rest |
+| Registry | Receives the ledger, the receipt and the bytes. Trusts nothing the workspace computed: verifies the chain and the enrolled key, finds the ledger state the receipt was signed at, requires that state to be `declaration`, rebuilds the context from the ledger and applies the same defect rules |
+| Second reader | A simulated Jev/Clef that computes its answers from evidence, never from the answer key: it reads the court's clean copy of each page to confirm an extract's quote, and measures how much of a proposition the cited paragraph states |
 | Evaluation agent | Holds the answer key for each test matter. Grades Notebook extracts, citation verdicts and defects as precision and recall |
 
 The verification code is real. Only the data is simulated. Swapping in the real AWS Open Data corpus changes the source, not the verifier.

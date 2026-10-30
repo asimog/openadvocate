@@ -34,7 +34,7 @@ test('GM-01: record, citations, arguments and the SLP procedure in the GUI', asy
     await expect(page.getByTestId('citation')).toHaveCount(7);
     const outcome = (level: string, value: string) => page.locator(`[data-level=${level}][data-outcome=${value}]`);
     await expect(outcome('pinpoint', 'failed')).toHaveCount(1);
-    await expect(outcome('support', 'failed')).toHaveCount(1);
+    await expect(outcome('support', 'failed')).toHaveCount(2);
     await expect(outcome('standing', 'failed')).toHaveCount(1);
     await expect(outcome('identity', 'unresolved')).toHaveCount(2);
 
@@ -68,6 +68,9 @@ test('GM-01: record, citations, arguments and the SLP procedure in the GUI', asy
     for (let i = 0; i < 6; i++) await page.getByTestId('advance').click();
     await expect(page.getByTestId('slp-state')).toHaveText('SLP: authorities');
     await expect(page.locator('[data-guard=citations-verified][data-ok=false]')).toBeVisible();
+    await page.getByTestId('declare').click();
+    await expect(page.getByTestId('sign')).toBeDisabled();
+    await expect(page.getByTestId('file')).toBeDisabled();
   });
 
   await test.step('Ledger chain is intact and the evaluation agent passes', async () => {

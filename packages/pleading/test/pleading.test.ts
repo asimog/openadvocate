@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
-import { Ledger, sha256, type CitationVerification,
+import { hashOf, Ledger, sha256, type CitationVerification,
   type EventBody, type Extract, type Level, type Matter, type Source } from '@vakilbench/core';
 import {
   PLEADING,
@@ -35,9 +35,10 @@ const extractBase = { anchor: { source: orderHash, page: 1, line: 1, quote: 'q' 
 const dateExtract: Extract = { ...extractBase, id: 'd1', kind: 'date', value: '2026-08-14', role: 'impugned-order' };
 const partyExtract: Extract = { ...extractBase, id: 'p1', kind: 'party', value: { name: 'R. Kumar', role: 'petitioner' } };
 const ok: Level = { outcome: 'verified' };
+const citationExtract = (id: string): Extract => ({ ...extractBase, id, kind: 'citation', raw: `${id} 2020 INSC 1`, citation: { scheme: 'INSC', year: 2020, number: 1 } });
 const verification = (mention: string, over: Partial<CitationVerification> = {}): CitationVerification => ({
   mention,
-  mentionHash: sha256(mention),
+  mentionHash: hashOf(citationExtract(mention)),
   tier: 'sc-official',
   snapshot: 's1',
   identity: ok,
@@ -53,6 +54,7 @@ const context = (over: Partial<PleadingContext> = {}): PleadingContext => ({
   extracts: [
     { extract: dateExtract, status: 'confirmed' },
     { extract: partyExtract, status: 'confirmed' },
+    ...(over.citations ?? [verification('c1')]).map((v) => ({ extract: citationExtract(v.mention), status: 'confirmed' as const })),
   ],
   citations: [verification('c1')],
   claims: [
@@ -156,4 +158,25 @@ test('only the pleading actor may write pleading.transitioned', () => {
   const ledger = new Ledger();
   assert.throws(() => ledger.append({ kind: 'lawyer', id: 'aor-1' }, body), /may not write/);
   assert.doesNotThrow(() => ledger.append(PLEADING, body));
+});
+
+test('a citation mention with no verdict, or a verdict on an older version, blocks authorities', () => {
+  const unverified = context({ citations: [] , extracts: [{ extract: dateExtract, status: 'confirmed' }, { extract: partyExtract, status: 'confirmed' }, { extract: citationExtract('c9'), status: 'confirmed' }] });
+  const [attempt] = evaluate('authorities', unverified);
+  assert.equal(attempt!.ok, false);
+  assert.match(attempt!.guards[0]!.defects![0]!.message, /c9: not verified/);
+
+  const stale = context({ citations: [{ ...verification('c1'), mentionHash: sha256('older text') }] });
+  assert.equal(evaluate('authorities', stale)[0]!.ok, false);
+
+  const discarded = context({ citations: [], extracts: [{ extract: dateExtract, status: 'confirmed' }, { extract: partyExtract, status: 'confirmed' }, { extract: citationExtract('c9'), status: 'rejected' }] });
+  assert.equal(evaluate('authorities', discarded)[0]!.ok, true);
+});
+
+test('limitation runs from the confirmed order date in the record, not the intake date', () => {
+  const lateIntake = { ...matter, impugnedOrder: { ...matter.impugnedOrder, date: '2026-12-01' } };
+  const past = context({ matter: lateIntake, today: '2027-01-01' });
+  assert.equal(evaluate('limitation', past)[0]!.ok, false);
+  const noRecordDate = context({ extracts: [{ extract: partyExtract, status: 'confirmed' }] });
+  assert.match(evaluate('limitation', noRecordDate)[0]!.guards[0]!.defects![0]!.code, /G-ORDER-DATE/);
 });

@@ -54,5 +54,12 @@
     "check": "ai-disclosed",
     "message": "AI-assisted content is not disclosed.",
     "confirmed": false
+  },
+  {
+    "code": "SLP-009",
+    "rule": "Draft Supreme Court AI Regulations, Reg 3(1)(y), verification of AI-assisted content; authorities relied on must exist and support the proposition",
+    "check": "citations-verified",
+    "message": "A citation relied on is unverified, failed, or verified on an older version of the text.",
+    "confirmed": false
   }
 ]

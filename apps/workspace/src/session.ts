@@ -1,5 +1,4 @@
 import {
-  fixtureDecider,
   hashOf,
   Ledger,
   newSigningKey,
@@ -14,13 +13,14 @@ import {
   type SignedReceipt,
 } from '@vakilbench/core';
 import { citationView, verifyAll, type CitationMention } from '@vakilbench/citations';
-import { crosscheck, extractAll, NOTEBOOK, notebookView, recordText, review, secondOpinion } from '@vakilbench/notebook';
+import { citationPasses, groundedIn, matterContext } from '@vakilbench/matter';
+import { crosscheck, extractAll, notebookView, recordText, review, secondOpinion } from '@vakilbench/notebook';
 import { advance, checkDefects, currentState, evaluate as evaluateGuards, type PleadingContext } from '@vakilbench/pleading';
 import {
   AUTOMATIC_TIERS,
   caseRecords,
-  deciderAnswers,
   documents,
+  enrolAdvocate,
   evaluate,
   fileSLP,
   JUDGMENTS,
@@ -35,12 +35,10 @@ export const LAWYER: Actor = { kind: 'lawyer', id: 'aor' };
 
 export class Session {
   readonly ledger = new Ledger();
-  readonly decider = fixtureDecider(deciderAnswers);
   readonly signingKey = newSigningKey();
   scCaptured = false;
-  condonationSought = false;
-  aiDisclosure = false;
   receipt: SignedReceipt | undefined;
+  #filingBytes: Uint8Array | undefined;
   registry: PleadingContext['registry'];
   dropped: { claim: unknown; reason: string }[] = [];
   #version = 0;
@@ -64,6 +62,7 @@ export class Session {
     extractAll(this.ledger);
     crosscheck(this.ledger, caseRecords);
     await secondOpinion(this.ledger, simulatedReader(this.ledger.events));
+    enrolAdvocate(this.receiptKey());
   }
 
   notebook() {
@@ -78,15 +77,16 @@ export class Session {
     review(this.ledger, LAWYER, extractId, confirm);
   }
 
+  // Every citation the lawyer has not discarded is verified, so failures stay visible.
   mentions(): CitationMention[] {
     return this.notebook()
-      .items.filter((i) => i.extract.kind === 'citation' && i.status !== 'failed' && i.status !== 'rejected')
+      .items.filter((i) => i.extract.kind === 'citation' && i.status !== 'rejected')
       .map((i) => i.extract as CitationMention);
   }
 
   async verifyCitations(): Promise<void> {
     const tiers = this.scCaptured ? withCapture(AUTOMATIC_TIERS) : AUTOMATIC_TIERS;
-    await verifyAll(this.ledger, this.mentions(), tiers, this.decider);
+    await verifyAll(this.ledger, this.mentions(), tiers, simulatedReader(this.ledger.events));
   }
 
   async captureFromSupremeCourt(): Promise<void> {
@@ -94,16 +94,7 @@ export class Session {
     await this.verifyCitations();
   }
 
-  isGrounded = (ref: Ref): boolean => {
-    if (ref.type === 'extract') {
-      return this.notebook().byId(ref.id)?.status === 'confirmed';
-    }
-    if (ref.type === 'verification') {
-      const v = this.citations().get(ref.id);
-      return !!v && citationPasses(v);
-    }
-    return false;
-  };
+  isGrounded = (ref: Ref): boolean => groundedIn(this.ledger.events)(ref);
 
   claims() {
     return studioView(this.ledger.events, this.isGrounded);
@@ -114,12 +105,13 @@ export class Session {
   }
 
   premises(): Premise[] {
-    const facts = this.notebook()
-      .items.filter((i) => i.extract.kind === 'date' && i.status === 'confirmed')
+    const notebook = this.notebook();
+    const facts = notebook.items
+      .filter((i) => i.extract.kind === 'date' && i.status === 'confirmed')
       .map((i) => ({ ref: { type: 'extract' as const, id: i.extract.id }, text: i.line }));
     const authorities = [...this.citations().values()].map((v) => ({
       ref: { type: 'verification' as const, id: v.mention },
-      text: this.notebook().byId(v.mention)?.line ?? v.mention,
+      text: notebook.byId(v.mention)?.line ?? v.mention,
     }));
     return [...facts, ...authorities];
   }
@@ -148,19 +140,7 @@ export class Session {
   }
 
   context(): PleadingContext {
-    const sources = this.ledger.bodies('source.added').map((b) => b.source);
-    return {
-      matter,
-      sources,
-      extracts: this.notebook().items.map((i) => ({ extract: i.extract, status: i.status })),
-      citations: [...this.citations().values()],
-      claims: this.claims().map((i) => ({ claim: i.claim, status: i.status })),
-      today: TODAY,
-      condonationSought: this.condonationSought,
-      receiptSigned: !!this.receipt,
-      aiDisclosure: this.aiDisclosure,
-      registry: this.registry,
-    };
+    return matterContext(this.ledger.events, { today: TODAY, receiptSigned: !!this.receipt, registry: this.registry });
   }
 
   state() {
@@ -179,20 +159,38 @@ export class Session {
     return advance(this.ledger, this.context());
   }
 
-  filing(): Uint8Array {
-    return new TextEncoder().encode(`SLP(Crl) ${matter.title} ledger ${this.ledger.head}`);
+  get declared(): boolean {
+    return this.ledger.bodies('pleading.declared').length > 0;
   }
 
-  declare() {
-    this.aiDisclosure = true;
-    const items = this.notebook().items.filter((i) => i.status === 'confirmed');
+  get condonationSought(): boolean {
+    return this.ledger.bodies('pleading.condonation-sought').length > 0;
+  }
+
+  declare(statement: string) {
+    this.ledger.append(LAWYER, { type: 'pleading.declared', statement });
+  }
+
+  seekCondonation(reason: string) {
+    this.ledger.append(LAWYER, { type: 'pleading.condonation-sought', reason });
+  }
+
+  receiptKey(): string {
+    return signReceipt({ matter: matter.id, document: sha256(''), ledgerHead: sha256(''), extracts: [], verifications: [] }, this.signingKey).publicKey;
+  }
+
+  // The filed bytes are fixed when the receipt is signed, so later ledger events (the move to
+  // "filed") cannot change what the receipt attests.
+  signReceipt() {
+    if (this.state() !== 'declaration') throw new Error(`the receipt is signed at declaration, not ${this.state()}`);
+    this.#filingBytes = new TextEncoder().encode(`SLP(Crl) ${matter.title} ledger ${this.ledger.head}`);
     const verifications = [...this.citations().values()].filter(citationPasses);
     this.receipt = signReceipt(
       {
         matter: matter.id,
-        document: sha256(this.filing()),
+        document: sha256(this.#filingBytes),
         ledgerHead: this.ledger.head!,
-        extracts: items.map((i) => i.hash),
+        extracts: this.notebook().items.filter((i) => i.status === 'confirmed').map((i) => i.hash),
         verifications: verifications.map((v) => hashOf(v)),
       },
       this.signingKey,
@@ -201,8 +199,8 @@ export class Session {
   }
 
   file() {
-    if (!this.receipt) throw new Error('sign the receipt first');
-    this.registry = fileSLP({ context: this.context(), receipt: this.receipt, document: this.filing() });
+    if (this.state() !== 'filed' || !this.receipt || !this.#filingBytes) throw new Error('advance to filed with a signed receipt first');
+    this.registry = fileSLP({ events: this.ledger.events, receipt: this.receipt, document: this.#filingBytes }, TODAY);
     this.#touch();
     return this.registry;
   }
@@ -216,12 +214,7 @@ export class Session {
   }
 }
 
-export const citationPasses = (v: { identity: { outcome: string }; pinpoint: { outcome: string }; support: { outcome: string }; standing: { outcome: string } }) =>
-  v.identity.outcome === 'verified' &&
-  v.pinpoint.outcome !== 'failed' &&
-  v.pinpoint.outcome !== 'unresolved' &&
-  v.support.outcome !== 'failed' &&
-  v.standing.outcome === 'verified';
+export { citationPasses };
 
 // Stands in for an OpenRouter or local model in the demo: composes candidate arguments from the
 // premises it is given, including ones built on failed authorities so the validation gate is visible.

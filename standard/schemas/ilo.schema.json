@@ -1135,6 +1135,41 @@
               }
             }
           }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "statement"
+          ],
+          "properties": {
+            "type": {
+              "const": "pleading.declared"
+            },
+            "statement": {
+              "type": "string",
+              "minLength": 1,
+              "description": "The advocate's AI-use declaration (draft SC AI Regulations, Reg 43(3))."
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "type",
+            "reason"
+          ],
+          "properties": {
+            "type": {
+              "const": "pleading.condonation-sought"
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
         }
       ]
     },
