@@ -2,6 +2,8 @@
 
 Discussion so far (31 Oct 2026). Locked vs open. Runs on the lawyer’s machine. Windows and Mac. No Docker, no WSL, no our cloud.
 
+**Supersedes** `docs/architecture.md` and `docs/plan.md` where they differ: TypeScript/Node runtime, Electron shell, packages running in the React app. The TS code in `packages/`, `apps/cli` and `standard/codegen.ts` is ported to Rust and then removed. What carries over: the four layers and their owners, the ledger (§10), the ILO JSON Schema (§11), the golden matter.
+
 ---
 
 ## Flow (as stated)
@@ -68,7 +70,7 @@ Two pipes, same folder + DB: **drop files** and **HC fetch**. Capture does not t
 - One search hit: take it. Several: list in our UI, they pick.
 - Outlook / their Chrome / Word is fine. Closing our window, navigating away inside it, or background captcha → job error, retry.
 - We do not keep the HC password. Session dies when the window closes or we finish.
-- One court adapter + a hard interface. Next High Court = new adapter.
+- One court adapter + a hard interface. First adapter: Delhi High Court. Next High Court = new adapter.
 
 **Duplicates (three layers)**
 
@@ -89,8 +91,8 @@ Per file, as it lands. Do not wait for the full download. Local only. No cloud O
 1. Type from bytes/MIME, not extension.
 2. Route:
    - TXT/CSV → read text. No OCR.
-   - PDF with text layer → pdfium + RapidOCR.
-   - Scan / JPG / PNG → RapidOCR + Tesseract.
+   - PDF with text layer → pdfium + PP-OCR.
+   - Scan / JPG / PNG → PP-OCR + Tesseract.
    - Unknown → fail, don’t guess.
 3. Two engines, independent. Agree → line text. Disagree → empty line, `needs_review`.
 4. Store transcription + page/line boxes + name + portal annexure label if Capture had one.
@@ -116,13 +118,13 @@ The working record. Studio and the SLP read this, not raw files.
 
 As each ingest job **done**, that source attaches. “Notebook ready” = no jobs queued/running, and review items resolved or explicitly skipped.
 
-Ingest **commits into** the Notebook (store of truth, not a view). Graph in meaning: file → page → line → event → claim → SLP paragraph.
+Ingest **commits into** the Notebook by appending ledger events (§10). The ledger is the truth; the Ladybug graph is built from it. Graph in meaning: file → page → line → event → claim → SLP paragraph.
 
 Bytes stay files on disk. DB/graph stores the hash. Missing file = hash not on disk.
 
 **Graph product — locked: LadybugDB**
 
-Embedded Cypher. In-process (`@ladybugdb/core`). Native Windows + Mac. MIT. No JVM, no Docker, no port.
+Embedded Cypher. In-process (`lbug` crate). Native Windows + Mac. MIT. No JVM, no Docker, no port.
 
 Ladybug is the community continuation of Kùzu (archived Oct 2025). If the fork stalls, on-disk files + Cypher are still movable.
 
@@ -142,7 +144,7 @@ Out: Neo4j (server/JVM/RAM/GPL), Memgraph (Docker/WSL on Windows), SurrealDB (no
 | `Line` | ~1,000 | OCR row. Empty text if engines disagree. Cites land here. |
 | `Extract` | dozens | Date / party / statute / case no. / amount / citation mention. Anchored on a line. |
 
-**V1 edges:** `HAS_BLOB` (Document→Source), `HAS_PAGE`, `HAS_LINE`, `ANCHORED_ON` (Extract→Line), `SAME_AS` (Document→Document after listing-dup or lawyer-confirmed near-dup).
+**V1 edges:** `HAS_BLOB` (Document→Source), `HAS_PAGE`, `HAS_LINE`, `ANCHORED_ON` (Extract→Line), `SAME_AS` (Document→Document after a lawyer-confirmed near-dup, layer 3). A listing-dup (layer 2) is already one `Document` with two `HAS_BLOB` edges.
 
 Checks are **fields on the extract**, not nodes. Bytes, jobs, keys are not in the graph.
 
@@ -150,7 +152,7 @@ Not in V1 (same graph later): Event, Claim, SLP paragraph, Judgment.
 
 Cite path: Extract → Line → Page → Source.hash → file on disk.
 
-Ledger = write log (who wrote what). Ladybug = what Studio queries. One write, both shapes.
+Ledger = truth and audit log (who wrote what, §10). Ladybug = what Studio queries, rebuilt from the ledger. Lose the graph, replay the ledger.
 
 ---
 
@@ -163,7 +165,7 @@ One timeline **per matter**, across every file. Not one timeline per PDF.
 **How a date is read**
 
 1. Regex first — Indian court forms: `12.03.2024`, `12th March, 2024`.
-2. Microsoft Recognizers-Text (JS, local, no model) for relative and partial dates (`yesterday`, `Oct 25`, `on the night of…`). Reference date = **that file’s header date**, never the laptop clock.
+2. Relative and partial dates (`yesterday`, `Oct 25`, `on the night of…`): a Rust crate (`interim` / `chrono-english` candidates) plus our own rules for what they miss. Recognizers-Text is the behaviour we want, not the library (JS/.NET). Reference date = **that file’s header date**, never the laptop clock.
 3. `timeOfDay` (`night` / morning / …) is a **flag on the extract**, not its own timeline row.
 4. “Thereafter” / “subsequently” — no day. Stay text. Not events.
 
@@ -199,14 +201,18 @@ The product is a local Rust app. No Node, Python, Elixir, or Ruby as the runtime
 
 | | |
 |---|---|
+| Ledger | Append-only SQLite, ported from `packages/core/src/ledger.ts` — §10 |
 | Notebook | Ladybug via the **`lbug`** crate |
 | Chamber / jobs | SQLite + **apalis** — §9 |
-| Capture | Chromium **we bundle** + CDP (headed, our profile). App UI webview is not the court browser. |
+| Types | Generated from the ILO JSON Schema with `typify` — §11 |
+| Capture | Chromium **we bundle** + CDP (`chromiumoxide`, headed, our profile). App UI webview is not the court browser. |
 | OCR | Same engines as §4: ONNX PP-OCR, Tesseract C, pdfium — from Rust, not pip |
 | UI | React SPA over HTTP — §8 |
-| Dates | Behaviour in §6 stands. Recognizers-Text is JS/.NET — **which Rust crate** is not picked yet. |
+| Dates | Behaviour in §6 stands. Regex + `chrono`; relative-date crate not picked yet. |
 
 Out as app language: TypeScript/Node, Python, Elixir, Ruby. Sidecars that drag those runtimes in are also out (no Playwright Node driver, no PyInstaller RapidOCR).
+
+Node stays on the developer machine only: building the React SPA and running Playwright tests against it. Nothing Node ships to the lawyer.
 
 ---
 
@@ -225,6 +231,8 @@ Browser (MVP) / later webview
 | Library | **React** |
 | PDF / cites | **pdf.js** — open this file, this page, this box |
 | API | **HTTP JSON** on localhost. Screens never import `lbug`, never spawn Chromium. |
+| Types | Generated from the ILO JSON Schema (`json-schema-to-typescript`) — §11 |
+| Tests | Playwright, dev and CI only |
 
 Out: Next.js, LiveView, Leptos/Yew/Dioxus, Tauri command bindings as the API, using the court Chromium as the app window.
 
@@ -249,10 +257,44 @@ Failed is retryable. One bad PDF does not freeze the matter. Dead-letter = our `
 
 ---
 
+## 10. Ledger — locked: Rust, the truth
+
+The audit log and the store of truth. Ported from `packages/core/src/ledger.ts`, same rules.
+
+- **Append-only.** Every change is one event (`source.added`, `extract.recorded`, `extract.reviewed`, `citation.verified`, …). Nothing is updated or deleted in place.
+- **Ownership.** Each event type has owners (Notebook, verifier, Studio, lawyer, …). A write by anyone else is rejected, not logged. Studio cannot write a fact.
+- **Hash chain.** Each event carries the hash of the one before. Change a past event and the chain breaks.
+- **Validated.** Every event is checked against the ILO schema (§11) when it is written.
+
+Storage: `ledger.db` (SQLite) in the matter folder, beside `sources/` and the Ladybug graph. Copy the folder, copy the case.
+
+Write order: ledger first, then the graph. The graph remembers the last ledger `seq` it applied; on open or after a crash it replays from there. No write ever spans both stores.
+
+Receipts and the registry check (`docs/architecture.md`) verify this chain.
+
+---
+
+## 11. Schema — locked: JSON Schema is the source
+
+`standard/schemas/ilo.schema.json` stays the one source. It is the public standard (Product 2), so it stays language-neutral.
+
+| | |
+|---|---|
+| Rust types | `typify`, generated at build time |
+| React types | `json-schema-to-typescript` |
+| CI | Fails if generated types are stale |
+
+No protobuf: the API is HTTP JSON and nothing needs a binary format. A second schema language would only drift.
+
+---
+
 ## Not discussed yet (continue from here)
 
 - Studio (keys, prompts, custom steps) as a system
 - Citation verification
 - SLP composer
-- Schema / ontology as the write contract
-- Date library on Rust (Recognizers-class behaviour)
+- Ontology as the write contract (which events, which owners — beyond the port)
+- Relative-date crate on Rust (Recognizers-class behaviour)
+- Localhost API security: `Host` / `Origin` check, per-launch token, no permissive CORS
+- Hindi and mixed-script records (Tesseract `hin`, multilingual PP-OCR)
+- SQLite size per matter (ledger + lines) — check against a large real record

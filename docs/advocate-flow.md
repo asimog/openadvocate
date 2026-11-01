@@ -37,7 +37,7 @@ When transcription is done, each attachment has:
 
 ## 4. Notebook
 
-Once everything is downloaded, prepare a Notebook: the combined record of everything so far, with room for later work (citations, claims, the SLP procedure).
+The Notebook fills as each file finishes analysis, not after the whole download. It is the combined record of everything so far, with room for later work (citations, claims, the SLP procedure).
 
 Each attachment (file + name + annexure details + transcription) is linked to a Notebook object.
 
@@ -45,9 +45,10 @@ After analysis is done, this Notebook is the working copy. All later work uses i
 
 ## 5. Storage
 
-- SQLite for operational records: matter, jobs, file hashes vs disk. Jobs: **apalis** + SQLite (see `docs/working-architecture.md` §9).
+- Ledger: append-only SQLite per matter. The truth and the audit log (see `docs/working-architecture.md` §10).
+- SQLite for operational records: matter, jobs, file hashes vs disk. Jobs: **apalis** + SQLite (§9).
 - Files on disk, content-addressed (hash).
-- Notebook is a **Ladybug** graph (`lbug`). One graph per matter.
+- Notebook is a **Ladybug** graph (`lbug`), built from the ledger. One graph per matter.
 
 ## 6. Studio
 
