@@ -200,7 +200,7 @@ The product is a local Rust app. No Node, Python, Elixir, or Ruby as the runtime
 | | |
 |---|---|
 | Notebook | Ladybug via the **`lbug`** crate |
-| Chamber / jobs | SQLite |
+| Chamber / jobs | SQLite + **apalis** — §9 |
 | Capture | Chromium **we bundle** + CDP (headed, our profile). App UI webview is not the court browser. |
 | OCR | Same engines as §4: ONNX PP-OCR, Tesseract C, pdfium — from Rust, not pip |
 | UI | React SPA over HTTP — §8 |
@@ -227,6 +227,25 @@ Browser (MVP) / later webview
 | API | **HTTP JSON** on localhost. Screens never import `lbug`, never spawn Chromium. |
 
 Out: Next.js, LiveView, Leptos/Yew/Dioxus, Tauri command bindings as the API, using the court Chromium as the app window.
+
+---
+
+## 9. Jobs — locked: apalis + SQLite
+
+Queue is **rows in chamber SQLite**. Workers run **inside our Rust process**. MIT crate — we do not pay for apalis Pro (their board, DLQ SKU, payload encryption).
+
+| | |
+|---|---|
+| Crate | **apalis** + **apalis-sqlite** |
+| Kinds | `fetch` (Delhi HC Chromium run), `ingest` (one per file as it lands) |
+| Status | `queued \| running \| done \| failed \| needs_review` |
+| Workers | 1–2 on the laptop. OCR in `spawn_blocking` |
+| Crash | `running` left behind → re-queue (apalis heartbeat / orphan recovery) |
+| What we show | **Our** UI + our rows. Not apalis-board. Dev: `tracing` + job row |
+
+Out: Redis/Sidekiq, Temporal, Sayiir, River, fang, a hand-rolled loop unless apalis is later dumped.
+
+Failed is retryable. One bad PDF does not freeze the matter. Dead-letter = our `failed` rows, not their Pro DLQ.
 
 ---
 
