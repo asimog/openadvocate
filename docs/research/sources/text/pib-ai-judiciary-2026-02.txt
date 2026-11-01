@@ -1,0 +1,304 @@
+ From Digitisation to Intelligence: How AI
+   is Enhancing Access to Justice in India
+
+  Technology as an Enabler of Justice, not a Substitute for Judgement
+
+                                                                                                       11th February ,2026
+
+                                         Key Takeaways
+
+      Government investment under eCourts Phase III signals a long-term commitment to
+           strengthening India's justice delivery through responsible technology use.
+
+       AI is supporting courts through tools like SUPACE and AI-based transcription and
+           translation deployed by the Supreme Court and several High Courts.
+
+       These tools improve ef iciency by automated iling, intelligent scheduling, enhancing the
+           Case Information System and communicating with the litigants through chatbots.
+
+       AI adoption is cautious and controlled, ensuring that technology assists but never replaces
+           judicial decision-making.
+
+Introduction: India's Measured Shift to AI-Enabled Courts
+On any ordinary morning, India's courts reveal a busy rhythm: iles moving, cause lists being called,
+lawyers navigating packed corridors and litigants waiting for brief hearings. For decades, this
+system has managed rising caseloads, linguistic diversity, and the tension between access and
+procedural rigour.
+Recently, digital transformation is modernising the judiciary through a co-ordinated push. Under e-
+Courts Phase III starting from 2023, courtrooms and registries have begun to change in steady, visible
+ways. Paper-based submissions have been progressively replaced by digital ilings; cause lists are
+updated in real time; video-conferencing hearings                          DID YOU KNOW?
+are routinely conducted; and judicial records are
+accessible seamlessly across the country.                 Cause list contains the details of cases listed
+                                                          for hearing on a particular date.
+Within the broader lens of digital transformation,
+Arti icial Intelligence (AI) has begun to play a careful  eCourts is a Pan-India Mission Mode Project
+- calibrated role. Supported by the Government, the       under the Department of Justice, Ministry of
+Supreme Court, High Courts, National Informatics          Law & Justice to make judicial processes
+Centre (NIC) and institutions such as IIT Madras, AI      across courts more ef icient, transparent,
+tools are now assisting various functions such as:        and accessible by using Information and
+                                                          Communication Technology.
+      Transcription of oral arguments,
+      Translation of judgments,
+      Identi ication of defects in e- iling,
+      Legal research, and
+      Metadata extraction.
+
+Latest technologies like AI and its subsets Machine
+Learning (ML), Optical Character Recognition (OCR),
+Natural Language Processing (NLP) are being used in the
+e-Courts software applications developed under the eCourts
+Project. New application like Digital Courts 2.1 and tools
+such as LegRAA and SUPACE represent early but signi icant
+steps towards smarter judicial work lows.
+
+What is emerging today is an ecosystem where technology
+complements judicial work, improving speed, accuracy,
+and transparency, while preserving the independence
+and centrality of human decision-making.
+
+From Digitisation to AI: The Judicial Technology Continuum
+
+The integration of AI into India's judiciary is part of a steady and deliberate digital transformation, not a
+sudden technological leap. Over the past decade, courts have moved from basic computerisation to
+nationwide digital platforms, real-time data systems, virtual courts and multilingual judgment
+access.
+
+The initial steps toward digitisation began with the launch of the e-Courts Mission Mode Project in
+2007, which focused on:
+· Computerising court records so that case iles could be stored, retrieved, and managed digitally.
+· Digitising cause lists to allow daily case schedules to be published and updated online in real time.
+· Enabling electronic Case Information Systems (CIS) to give courts a uni ied platform for tracking
+case progress and administrative actions.
+Phase I was primarily about making court information more visible and easily accessible to both
+administrators and litigants.
+
+As digitisation matured with Phase II and Phase III, the challenge shifted from availability of data to
+managing scale. Under the successive phases of the e-Courts project, following were introduced:
+
+     Tools for e- iling
+     Electronic scrutiny of defects
+     Digital service of summons
+     Automated case listing
+
+AI represents the next layer in this continuum. Unlike earlier digital tools, AI systems are now capable
+of:
+
+     Processing language
+     Recognising patterns
+     Assisting with complex data-intensive tasks.
+
+Importantly, AI in the Indian judiciary has been positioned not as a replacement for existing systems,
+but as an augmentation of them, embedded within platforms such as the Integrated Case Management
+& Information System (ICMIS), e- iling modules and judgment databases.
+
+AI Advancing Across Multiple Domains: Live and Pilot Deployments
+
+AI is already operational in the judiciary, used selectively and with institutional supervision in
+de ined administrative and support areas. These deployments are either fully operational or in
+controlled pilot stages.
+AI in Courtroom Transcription: Capturing the Spoken Record
+
+One of the earliest and most visible uses of AI in the Supreme Court has been in the transcription of
+oral arguments, particularly in Constitution Bench matters. Traditionally, court proceedings relied on
+handwritten notes, selective dictation, or post-hearing summaries.
+
+AI speech recognition is enabling near real-time transcription of oral arguments, with transcripts
+released on Supreme Court's of icial platforms for greater transparency and record accuracy. The
+system is being gradually extended to regular hearing days after successful use in Constitution Bench
+proceedings.
+
+This deployment uses Automatic Speech Recognition (ASR), a subset of ML, trained to recognise legal
+vocabulary, accents, and courtroom dialogue, while inal validation remains human-led.
+
+AI for Multilingual Justice: Translation of Judgments
+
+Language accessibility has long been a structural barrier in India's justice system. While judgments are
+authored primarily in English, a large section of litigants operates in regional languages. AI has been
+deployed to bridge this gap through large-scale judgment translation.
+
+In collaboration with the NIC, AI tools using Natural Language Processing (NLP) are translating
+
+Supreme Court judgments into 18 Indian languages. For this, SUVAS (Supreme Court Vidhik
+
+DID YOU KNOW?                      Anuvaad Software), an AI-driven translation tool of the
+                                   Supreme Court, converts English judgments and orders
+
+The eSCR (Electronic Supreme Court into vernacular languages, enhancing accessibility and
+
+Reports) portal is a free, digital, and regional language use in courts. These translated
+
+user-friendly service to search, read, and judgments are hosted on the e-SCR portal, signi icantly
+
+download Supreme Court judgments.  expanding public access.
+
+                                                             Supreme Court and High Court AI Translation
+Committees oversee quality and constitutional accuracy. AI use remains assistive, with translations
+reviewed within judicial frameworks to support access to justice.
+
+AI in Filing and Registry Operations: Reducing Procedural Friction
+
+AI is also being deployed in court registries, where procedural scrutiny is resource-intensive. The
+Supreme Court Registry, with IIT Madras, has built AI tools to lag defects in e- ilings.
+
+These tools use Machine Learning (ML) and Optical Character Recognition (OCR) to examine
+petitions, annexures, formatting, metadata, and compliance with iling rules. Instead of manual scrutiny
+alone, AI systems lag potential defects, allowing registry of icials to focus on substantive checks.
+
+Currently, this system is in a pilot phase, with access provided to a limited group of Advocates-on-
+Record for testing and feedback. The objective is not automation of acceptance, but early detection
+and faster correction, reducing delays at the threshold stage.
+
+AI in Legal Research Assistance: LegRAA and SUPACE
+AI tools have been developed to assist judges in navigating large volumes of case law without
+substituting judicial analysis. The Legal Research Analysis Assistant (LegRAA) supports judges by
+analysing documents, extracting relevant legal references, and organising research material.
+These tools rely on NLP and ML techniques but operate strictly as research aids, with no role in
+recommending outcomes or drafting judgments autonomously.
+
+The Supreme Court Portal for Assistance in Court Ef iciency (SUPACE) is an AI-based system
+designed to help identify relevant precedents and understand the factual matrix of cases. SUPACE
+remains in an experimental stage and is not yet deployed for regular judicial use.
+
+AI in Voice-to-Text and Dictation Support: ASR-SHRUTI and PANINI
+
+To support judicial writing and reduce manual drafting time, AI-enabled dictation and translation tools
+have been introduced within applications like Digital Courts 2.1.
+
+  ASR-SHRUTI enables voice-to-text dictation for orders and judgments.
+
+  PANINI supports translation and linguistic structuring.
+
+These tools assist judges in drafting while preserving full editorial and judicial control. They
+enhance ef iciency without altering authorship or reasoning.
+
+AI in Integration with Core Judicial Systems
+
+All AI tools are being integrated within existing judicial infrastructure such as:
+
+  Integrated Case Management & Information System (ICMIS)
+
+  Case Information Systems (CIS) 4.0
+
+  E-Filing and Judgment Search portals
+
+                                                      DID YOU KNOW?
+        The Supreme Court's ICMIS enables e-notices, e-cause lists, digital case access, online
+
+            monitoring of cases and interlinking with High Courts, government departments, jails
+            and police stations.
+
+        The CIS, developed under the e-Committee initiative, enhances transparency and litigant-
+            friendliness in the judiciary. CIS 4.0 offers re ined user interfaces, dashboards, and
+            improved case management tools for High Courts and District Courts.
+
+It ensures AI functions within institutional boundaries, not as standalone or external systems
+reinforcing judicial independence and constitutional accountability.
+
+AI and the Criminal Justice Ecosystem
+
+AI's role in the criminal justice ecosystem spanning investigation, evidence, prosecution and
+adjudication is expanding alongside structured digital reforms. By digitally connecting police, forensics,
+prosecution, prisons, and courts, AI is helping address longstanding interoperability that once caused
+delays and information gaps.
+AI within the Inter-operable Criminal Justice System (ICJS)
+
+AI-enabled tools are being layered onto the ICJS, which digitally links police, courts, prisons, forensic systems,
+and prosecution databases on the principle of `one data, one entry'. AI assists in managing large volumes
+of criminal case data, tracking procedural milestones, and improving the reliability of information
+exchange between agencies.
+
+For courts, this enables faster access to verified FIRs, charge sheets, custody status and forensic
+reports, reducing reliance on manual files. AI-based data handling improves consistency and timeliness
+without altering evidentiary standards.
+
+The National Automated Fingerprint Identification System (NAFIS) has been developed to create a
+centralised, searchable national repository of criminal fingerprints, comprising over 1.23 crore
+records. It replaces legacy systems and ensures accurate, timely and uniform fingerprint-based
+identification across law enforcement agencies nationwide.
+
+AI-Supported Recording of Proceedings and Evidence
+
+AI-enabled systems are also improving the recording and preservation of court proceedings. Daily
+proceedings are digitally captured within the CIS, while live-streaming of hearings in selected courts
+enhances transparency.
+
+Applications such as Nyaya Shruti, introduced under ICJS, facilitate virtual appearances and testimonies
+through secure video conferencing. AI-supported voice processing ensures clarity, continuity, and accurate
+documentation, particularly in criminal trials involving multiple stakeholders across locations. Additionally,
+digital recording of evidence on platforms like e-Sakshya improves accuracy and reduces procedural
+disputes related to record integrity.
+
+Institutional Governance, Safeguards and Investments
+
+To ensure structured oversight, the Supreme Court constituted an AI Committee, later reconstituted
+to strengthen its mandate. The Committee, chaired by a sitting Supreme Court judge, oversees AI
+initiatives in the judiciary such as translation, research assistance and process automation and
+reviews pilots before wider adoption.
+
+Most AI tools are being developed under the e-Courts Project Phase III within Detailed Project Reports
+(DPRs) approved boundaries. The Supreme Court's eCommittee sets policy and strategy, while High
+Courts handle implementation allowing local adaptation within national standards.
+
+Safeguards around data privacy, security and bias mitigation have been explicitly acknowledged by the
+judiciary. Dedicated sub-committees comprising High Court judges and technical experts have been
+constituted to examine secure connectivity, authentication mechanisms, and protection of judicial data.
+
+In regards to Investments and capacity building, AI integration in India's judiciary is being driven by
+sustained government efforts in this direction. Under Phase III of the e-Courts Project, with an outlay
+of 7,210 crore, funds have been earmarked for "Future Technological Advancement" including AI,
+ML and blockchain.
+
+Conclusion: Technology with Constitutional Temperament
+
+At the end of a long cause list, a judge still pauses, listens, weighs facts and applies the law. That moment
+has not changed. What has changed is everything around it, the time taken to ind precedents, the
+effort required to sift records, the delay caused by language and logistics. AI is quietly working in
+these spaces, reducing friction without touching the core of judicial decision-making.
+
+As India moves forward with technological reforms, digital tools in the justice system are
+increasingly shaped by ideas like the democratisation of technology, ensuring access across all
+courts; technology for "Welfare for All, Happiness for All," grounding innovation in public good;
+and AI for Humanity, ensuring that AI upholds dignity, fairness, and trust. India's judiciary is
+integrating AI in a balanced, constitutionally grounded manner leveraging technology for ef iciency
+while ensuring human judgment remains paramount. This measured approach reinforces justice
+delivery without compromising constitutional values.
+
+References
+
+MINISTRY OF LAW & JUSTICE
+https://nalsa.gov.in/lok-adalats/
+https://cdnbbsr.s3waas.gov.in/s32e45f93088c7db59767efef516b306aa/uploads/2025/09/20250
+9171342021284.pdf
+https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2024/07/2019-
+2020.pdf
+https://cdnbbsr.s3waas.gov.in/s38261bae60fcef985b46667cf365e690b/uploads/2025/12/20251
+208634523449.pdf
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2100326&reg=3&lang=2
+https://doj.gov.in/access-to-justice-for-the-marginalized/
+https://nalsa.gov.in/faqs/#1743592297157-684e9890-2d0b
+https://nalsa.gov.in/faqs/#1743592298196-ba4b10d1-37f2
+https://nalsa.gov.in/national-lok-adalat/
+https://nalsa.gov.in/permanent-lok-adalat/
+https://nalsa.gov.in/the-legal-services-authorities-act-1987/
+https://nalsa.gov.in/lokadalats/#:~:text=Lok%20Adalat%20is%20one%20of,Legal%20Services%
+20Authorities%20Act%2C%201987
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=1848734&reg=3&lang=2
+https://cdnbbsr.s3waas.gov.in/s39f329089b8d9644b96ba05d545355d67/uploads/2025/06/202
+506042007507813.pdf
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2223646&reg=3&lang=1
+
+LOK SABHA
+https://sansad.in/getFile/loksabhaquestions/annex/184/AU4710_TmG1Ss.pdf ?source=pqals
+
+PRESS INFORMATION BUREAU
+https://www.pib.gov.in/PressReleasePage.aspx?PRID=2187718&reg=3&lang=2
+
+OTHERS
+https://cdnbbsr.s3waas.gov.in/s38261bae60fcef985b46667cf365e690b/uploads/2025/12/20251
+208634523449.pdf
+https://www.indiacode.nic.in/bitstream/123456789/10960/1/the_legal_service_authorities_act%
+2C_1987.pdf
+
+PIB Research
+

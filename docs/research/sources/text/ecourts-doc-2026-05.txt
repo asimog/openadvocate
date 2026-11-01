@@ -1,0 +1,59 @@
+SUPREME COURT OF INDIA
+
+                                                                F.No. 9/Judl./2026
+                                                               Date: 11 May, 2026
+
+CIRCULAR
+
+Sub.: Automated Case Information Retrieval and Entry in ICMIS
+
+1. To further streamline case information management, administrative efficiency and ensure
+    better administration of justice by minimizing errors likely to occur in manual data entry, the
+    Court's case management software [ICMIS] is now upgraded to automatically fetch the
+    relevant case-related data from the database of High Courts, District Courts [including FIR and
+    Police Station related information from the official data maintained by Government]. Section
+    I-B shall henceforth enter the case information in ICMIS, as may be automatically fetched by
+    virtue of such mechanism.
+
+2. Learned AdvocatesonRecord and PartiesinPerson are encouraged to henceforth mention in
+    the Proforma for First Listing, the CNR (Case Number Record)1 of the matter as was assigned
+    to the matter by the concerned Court whose order/judgment is under challenge. This would
+    facilitate retrieval of case details from the concerned Court in automated manner, thereby
+    ensuring accuracy of data and efficient case management.
+
+3. CNR number of a particular case can be retrieved using the eCourts official website, through
+    the Case Status option, available for District Courts2 and High Courts3 by searching the case
+    using the relevant party name, case number, filing number, or other available parameters.
+    Screenshots for reference are as below:
+
+                                Screenshot 1: Case Status option for District Courts on e-Courts website
+
+1 CNR number is a unique 16-digit identifier assigned to every case registered in District Courts and High Courts across India under the e-Courts
+project.
+2 URL for District Courts: https://services.ecourts.gov.in/ecourtindia_v6/?p=casestatus/
+3 URL for High Courts: https://hcservices.ecourts.gov.in/hcservices/main.php
+
+                                                                      1
+Screenshot 2: Viewing the CNR number for District Courts on e-Courts website
+     Screenshot 3: Case Status option for High Courts on e-Courts website
+
+   Screenshot 4: Viewing CNR number for High Courts on e-Courts website
+                                          2
+4. As this initiative is being undertaken to ensure a more integrated and transparent case
+    management system, the cooperation and support of stakeholders, especially the learned
+    Members of the Bar is solicited for its success.
+
+       Sd/-              Sd/-                     Sd/-             Sd/-
+
+(Anupam Patra)    (Rajesh Sharma)          (Dr. Ajit Atri)     (Pavanesh D.)
+  Registrar (J)      Registrar (J)          Registrar (J)      Registrar (J)
+ (Technology)                            (Judicial Admn-I)  (Judicial Listing-I)
+                 (Judicial Admin-II)
+
+Copy to:
+ 1. Supreme Court Bar Association and Supreme Court Advocates-on-Record Association
+ 2. Computer Cell for uploading to the website.
+ 3. All Concerned.
+
+                                      3
+

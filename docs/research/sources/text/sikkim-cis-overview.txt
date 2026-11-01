@@ -1,0 +1,249 @@
+OVERVIEW OF CASE
+    INFORMATION
+
+  SYSTEM (C.I.S.) &
+           GOALS.
+   FOUNDATION OF THE CASE
+   INFORMATION SYSTEM
+
+ It was initiated by the eCommittee,
+ Supreme Court of India.
+
+ Developed by National Informatics
+ Centre (NIC).
+
+ Under eCourts Mission Mode Project
+ (Phase I-III).
+
+ By the Department of Justice,
+ Government of India.
+               FIRST DEPLOYMENT
+
+ The NIC began building the first version of
+ CIS (CIS 1.0) around 2006-2007.
+
+ It was designed as a standalone desktop-
+ based application, deployed on a per-court
+ basis (not networked or web-enabled).
+
+ CIS 1.0 piloted in selected District and
+ Sessions Courts across states like Punjab,
+ Karnataka, Tamil Nadu, and Maharashtra in
+ the year 2007-2008.
+CIS VERSION & MIGRATION DATE
+ OF DISTRICT COURT GANGTOK
+ MAIN PURPOSES AND GOALS OF
+THE CASE INFORMATION SYSTEM
+
+                         (CIS)
+
+ Digitization of Judicial Processes.
+
+ Enhancing Transparency.
+
+ Improving Judicial Efficiency.
+
+ Monitoring and Performance Analytics.
+
+ Integration Across the Justice
+  Ecosystem.
+  MAIN PURPOSES AND GOALS OF
+THE CASE INFORMATION SYSTEM
+
+                          (CIS)
+
+ Empowering Litigants and Lawyers.
+
+ Standardization of Judicial Data.
+
+ Promoting E-Governance in Judiciary.
+
+ Speedy Disposal of Cases.
+
+ Facilitate Policy Implementation and
+ Reforms.
+    DIGITIZATION OF JUDICIAL
+    PROCESSES
+
+ Replace manual registers with digital
+ databases.
+
+ Ensure electronic filing, tracking, and
+ disposal of cases.
+
+ Support the transition toward paperless
+ courts.
+    ENHANCING TRANSPARENCY
+
+ Make court proceedings, case status,
+ and judgments publicly accessible.
+
+ Enable real-time updates for litigants,
+ lawyers, and the public.
+
+ Reduce discretionary power through
+ standardized workflows.
+ IMPROVING JUDICIAL EFFICIENCY
+
+ Automate daily tasks: case listing,
+ scheduling, cause list generation, etc.
+
+ Support quicker case movement through
+ stage-wise tracking.
+
+ Minimize manual errors and procedural
+ delays.
+ MONITORING & PERFORMANCE
+ ANALYTICS
+
+Provide dashboards for judges and
+administrative heads to monitor:
+
+  Case pendency
+  Disposal rate
+  Court performance
+ INTEGRATION ACROSS THE JUSTICE
+ ECOSYSTEM/STAKEHOLDERS
+
+Facilitate seamless data exchange through
+platforms like Interoperable Criminal Justice
+System (ICJS) between:
+
+   Courts
+   Police
+   Prisons
+   Prosecution (It may be integrated in future)
+   Forensic labs (It may be integrated in
+
+   future)
+  EMPOWERING LITIGANTS &
+   LAWYERS
+
+Offer 24x7 access to:
+
+ Case status through metadata.
+ To obtain Orders/judgments online.
+ Court calendars.
+  STANDARDIZATION OF JUDICIAL
+   DATA
+
+ To create uniform formats and case types
+ across all district and subordinate courts.
+
+ Ensure consistent reporting and tracking for
+ High Courts and Supreme Court oversight.
+  PROMOTING E-GOVERNANCE IN
+   JUDICIARY
+
+ E-Filing
+ E-Payment
+ Virtual hearings
+ Certified copies online (Copying Branch)
+It supports transparent and accountable
+
+ governance.
+  SPEEDY DISPOSAL OF CASES
+
+ Enable better judicial time management
+ and tracking of long-pending matters.
+
+ Prioritize urgent cases through automated
+ case filtering and tagging.
+ FACILITATE POLICY
+  IMPLEMENTATION & REFORMS
+
+It provides central data through NJDG
+for:
+
+ Government schemes.
+
+ Law Commission studies.
+
+ Supreme Court and High Court
+  monitoring.
+                    SUMMARY
+
+The Case Information System aims to:
+ Digitize,
+ Automate,
+ and Unify the functioning of trial courts to
+
+ Ensure fast, transparent, and citizen-
+ friendly delivery of justice.
+Thank You
+           CIS Overview
+
+Digital platform for:
+Case filing & management
+Judicial processing
+Information tracking
+Workflow automation
+ADMINISTRATIVE MODULES 
+
+· Configure Establishment
+· Master
+· User Menu
+· Admin Menu
+· Unification
+CASE HANDLING MODULES  
+
+Filing Counter
+Appeal Filing
+Caveat Section
+Case Registration
+Case Allocation
+Case Proceedings
+Proceeding Correction
+FINANCE AND FEES  
+
+· Fees
+· I-Court Fees
+DATA & REPORTS        
+
+ Proceedings Reports
+ Query Builder
+ Legacy Data
+ Copying Branch
+LITIGANT AND JUDGE TOOLS
+
+   Litigant Updations
+   Appeals Information
+   Plead Guilty
+   Judge Leave Management
+   ALTERNATIVE DISPUTE RESOLUTION 
+
+· Mediation
+· Lok Adalat
+OTHER FUNCTIONAL MODULES 
+
+ Registration Section
+ DJPMC (District Judge Performance
+
+   Monitor Cell)
+ ICJS (Interoperable Criminal Justice
+
+   System)
+E-FILING MODULES  
+
+e-Filing
+e-Filing 3.0
+ ADDITIONAL FEATURES 
+
+· Notifications
+· Home (Dashboard)
+RARELY/NOT USED MODULES 
+
+    Appeal Filing
+    Caveat Section
+    Appeals Information
+    Plead Guilty
+    Mediation
+RARELY/NOT USED MODULES 
+
+    Lok Adalat
+    Query Builder
+    Pretrial
+    Copy Branch
+    Property
+Thank You
+

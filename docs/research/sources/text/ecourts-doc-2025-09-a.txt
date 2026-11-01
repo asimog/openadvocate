@@ -1,0 +1,57 @@
+         About eCourts                                                                                                           eCourts
+
+The eCourts, a Mission Mode Project, was
+conceptualized by "National Policy and Action
+Plan for Implementation of Information and
+Communication Technology (ICT) in the Indian
+Judiciary - 2005", submitted by e-Committee
+(Supreme Court of India), with a vision to
+transform the Indian judiciary by ICT
+enablement of courts.
+
+      Benefits of eCourts                                                             Get in Touch                                       Winner of
+                                                                                                                                     The Digital India
+01 service delivery Efficient & time-bound citizen centric                       E-Committee, Supreme Court of India
+02 and easier access to the stakeholders Improved transparency of information       ecommittee@aij.gov.in                              Awards 2020
+03 qualitative and quantitative Enhance judicial productivity both                  Ecommitteesci.gov.in
+                                                                                    Filing.ecourts.gov.in                        Awarded in the "Excellence in
+       Made the justice delivery system                                                                                          Digital Governance" category
+                                                                               eCourts Services mobile app available on
+04 affordable, accessible, cost effective &                                                                                              ecourts.gov.in
+                                                                                          Scan to Visit eCourts Services portal
+       transparent
+        Services for all-                          Services for Courts                                        Delivery Channels
+Advocates, Litigants & Citizens
+                                                                                                        eCourts services are provided to Litigants
+               eFiling                              CIS National Core                  NSTEP            and Common Citizens through various
+               Online filing of new cases, IAs                                                          delivery channels.
+              and uploading of case                   Case Information        Web system + mobile
+               documents                             System for District        app for faster and            eCourts Services Mobile App
+                                                   courts and high courts         reliable process            eCourts Website
+                           ePayments                                           deliveries by bailiffs         SMS Pull
+Online payment of court fee and                              in India                                         SMS Push
+                                                                                                              Information Kiosks
+              other court payments                 Mobile Apps                                                Automated E-mail
+                                                                                                              eSewa Kendra
+               Email / SMS                         eCourts Mobile App          JustIS Mobile App
+               Event notification to stakeholders                                                          e-Courts, a Mission Mode Project of the
+               through SMS or E-mail                    Mobile app for        Mobile app for District   Government of India, has set an example of
+                                                   advocates and litigants     Court and High Court     successful e-Governance project reaping rich
+                                   NJDG
+    Real time data on case status,                     for case portfolio          Judges for case         dividends to litigants and citizens of the
+including pending and disposed                           management           portfolio management                              country.
+
+                                    cases
+
+Web Portal                                         Integration with other Govt. dept
+
+One stop solution to all the judicial
+information requirements
+
+            Virtual Courts                                Open APIs                      ICJS
+
+Online adjudication and                            Separate APIs for all the  Integration with ICJS to
+   payment of fine 24X7                               services of district      exchange data with
+                                                                               CCTNS and ePrisons
+                                                   courts and high courts
+

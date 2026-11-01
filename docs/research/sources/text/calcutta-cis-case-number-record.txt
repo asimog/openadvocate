@@ -1,0 +1,52 @@
+CNR (Case Number Record) number :
+
+All cases under CIS now comes with the unique feature of Case identity number
+called as
+
+CNR  (Case Number
+     record)
+
+number. Earlier if a litigant
+says
+
+OS 1/2016 or CC 1/2016 all
+the
+
+munsif court and all the
+criminal
+
+court will be having the
+same
+
+one such in each courts and
+it
+
+becomes
+
+identify it. Hence, unique
+case
+
+identification
+
+assignedto all cases
+
+real revolutionizing tool. Now under CNR number every case in District Judiciary
+will get a
+
+unique Identification number and the identification of the case becomes easy
+with this
+
+CNR number Creating a CNR number itself is a big task. Just imagine we have
+to create a
+
+number unique for all cases all over India and that number should not be
+repeated and we
+
+should continue the said number hereafter. So we need such a unique number.
+In CIS 2.0
+
+the said challenge is well met by creating a 16 digit number which contains the
+State code
+
+­ District code Establishment code Case filing number year of the case.
+

@@ -1,0 +1,1011 @@
+      SUPREME COURT OF INDIA
+  NATIONAL JUDICIAL DATA GRID
+
+                    (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+
+                                    Circulated by
+                   eCommittee, Supreme Court of India
+    Supreme Court of India
+ National Judicial Data Grid
+
+            (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+
+                            Circulated by
+
+ eCommittee, Supreme Court of India
+Supreme Court of India
+National Judicial Data Grid
+(NJDG-SC)
+
+A Tool for Effective Court & Case Management
+
+Circulated by
+eCommittee, Supreme Court of India
+
+Authored by -
+Ms. R. Arulmozhiselvi
+OSD(Registrar)/Training Cell
+& Member (Human Resources),
+eCommittee, Supreme Court of India
+
+Assisted by -
+Mr. Bharat
+Law Clerk Cum Research Associate
+eCommittee, Supreme Court of India
+
+First Edition: May, 2025
+
+                                            DISCLAIMER
+ This reference material circulated by the eCommittee is meant solely for study and training purposes.
+
+ References made are indicative and may not be used for any official or judicial reference.
+               SANJN K H AN N A zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIH
+
+            CHIEF JUSTICE OF lNDlA
+
+            Foreword
+
+Today, the Indian judiciary is at a pivotal juncture, actively embracing technological advancements
+
+to enhance its foundational principles of accessibility, efficiency, and transparency. The eCourts
+
+Project, a visionary initiative headed by the eCommittee of the Supreme Court of India, remains
+
+steadfast in its commitment to digitally transform the judicial landscape and streamline the
+
+administration of justice.
+A significant stride in this transformative journey is the establishment of the National Judicial Data
+
+Grid. This comprehensive digital infrastructure serves as a central repository by capturing and
+
+providing near-real-time data on the lifecycle of cases within the court complexes across India,
+
+from their institution to their final disposal. The NJDG is more than just a database, it is a powerful
+
+tool designed to empower all stakeholders within and connected to the justice delivery system.
+
+This User Manual for Court and Case Management Through National Judicial Data Grid is a timely
+
+and essential guide that aims to unlock the full potential of this significant digital asset. It provides
+
+users with clear, step-by-step instructions on how to access and effectively utilize the NJDG portal.
+
+The manual meticulously details navigation through the portal's various sections, offering insights
+
+into interpreting key statistical data points such as case filings, pendency rate, and disposal metrics.
+
+The manual effectively highlights the various dashboards available, such as the Alerts Dashboard
+
+providing quick statistics, the Pending Dashboard offering detailed breakdowns of pending cases,
+
+and the Disposed Dashboard presenting information on disposed cases. The inclusion of screenshots
+
+and explanations on navigating through this wealth of information makes the manual a practical
+
+guide.
+This manual is an invaluable tool that will undoubtedly facilitate the widespread and effective
+
+utilization of the NJDG. It is my firm belief that the NJDG, coupled with this insightful manual,
+
+will significantly contribute to our ongoing efforts to enhance the efficiency, transparency, and
+
+~ _. r e : accessibility of justice delivery. And thereby fortifying public trust in the judiciary and upholding
+
+the rule of law.
+
+New Delhi;                                                           (Sanjiv Khanna)
+
+M ay 13, 2025. zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+
+            6, Mori Lal Nehru Place, New Delhi-110011
+                               +9111 23019317
+
+                      o ffice.sa njiv k ha n na@ sc i.n ic.in
+                                                                                                                                            1
+
+                Table Of Contents
+
+Table Of Contents.......................................................................................................................... 1
+1. Introduction................................................................................................................................2
+2. Supreme Court of India National Judicial Data Grid (NJDG-SC)....................................... 5
+3. Supreme Court of India National Judicial Data Grid Access................................................7
+
+    3.1. Through the NJDG webpage:............................................................................................ 7
+    3.2. Through the Supreme Court of India website link:........................................................... 8
+    3.3 Through the eCommittee website link:..............................................................................8
+    3.4. Through the E-Courts services website:.......................................................................... 10
+4. Supreme Court of India National Judicial Data Grid.......................................................... 11
+5. Supreme Court of India National Judicial Data Grid - Main Tabs.................................... 12
+6. At a Glance............................................................................................................................... 13
+    6.1 Cases pending before the Supreme Court..........................................................................14
+    6.2 Cases instituted and disposed in the last month.................................................................15
+    6.3 Cases instituted and disposed in the current year.............................................................. 16
+    6.4 Coram wise pending cases................................................................................................. 17
+7. Pending Dashboard..................................................................................................................18
+    7.1 Type of Cases.....................................................................................................................18
+
+         7.1.1 Tabular Format of Pending Civil/Criminal Cases.....................................................19
+         7.1.2 Drill Down of Single Category of Pending Cases.................................................... 21
+    7.2 Age Wise Graphical Representation.................................................................................. 21
+         7.2.1 Bar Chart of Age Wise Pendancy............................................................................. 22
+         7.2.2 Tabular Format of Age Wise Pendancy.................................................................... 23
+    7.3 Stage Wise Pendancy Through Pie chart........................................................................... 23
+         7.3.1 Tabular Format of Stage Wise Pendancy.................................................................. 24
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            2
+
+    7.4 Institutional Vs Disposal Comparison Chart..................................................................... 25
+         7.4.1 Particular Year - Monthwise Institutional Vs Disposal Data.................................... 26
+         7.4.2 Institutional Vs Disposal Comparison Table............................................................ 26
+
+8. Disposed Dashboard................................................................................................................ 28
+    8.1 Type of Cases.....................................................................................................................28
+         8.1.1 Tabular Format of Disposed Cases........................................................................... 29
+    8.2 Age Wise Disposed Cases Graph.......................................................................................31
+         8.2.1 Bar Chart of Age Wise Disposal...............................................................................32
+         8.2.2 Tabular Format of Age Wise Pendancy.................................................................... 33
+    8.3 Nature of Disposal Pie Chart............................................................................................. 33
+         8.3.1 Tabular Format of Stage Wise Pendancy.................................................................. 34
+    8.4 Time Taken in Disposition Bar Chart................................................................................ 35
+         8.4.1 Tabular Format of Time to Disposition Bar Chart.................................................... 36
+
+9. Settings...................................................................................................................................... 37
+10. NJDG Report Format............................................................................................................38
+
+    11.1. Export to .pdf.................................................................................................................. 38
+    11.2. Export to .xls................................................................................................................... 39
+    11.3. Export to .csv.................................................................................................................. 39
+11. Benefits of the NJDG-SC....................................................................................................... 40
+    11.1 For Judges........................................................................................................................ 40
+    11.2 For Lawyers..................................................................................................................... 41
+    11.3 For Researchers, Academics and Students:..................................................................... 41
+    11.4 For Litigants.....................................................................................................................42
+    11.5 For General Public........................................................................................................... 42
+    11.6 For Court Administration/Staff........................................................................................ 42
+    11.7 For Policymakers............................................................................................................ 42
+Supreme Court of India National Judicial Data Grid (NJDG-SC) - Access Link................. 43
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                        3
+
+                           1. Introduction
+
+The National Judicial Data Grid (NJDJ) stands as a pivotal digital infrastructure within the
+Indian judicial system. It functions as a comprehensive database encompassing orders,
+judgments and detailed case information from over 18,000 courts, including District Courts,
+High Courts and even the Supreme Court. This initiative provides a centralized repository of
+judicial data that is updated in near real-time. It was launched under the auspices of the eCourts
+Project and it serves as a centralized repository of case information, fostering transparency,
+accountability and data-driven decision-making.
+National Judicial Data Grid (NJDJ) is the digital database where entire judicial case data is
+stored under the three heads:
+
+District Court's National  High Court's National    Supreme Court of India
+   Judicial Data Grid        Judicial Data Grid   National Judicial Data Grid
+        (NJDG-DC)                (NJDG-HC)
+                                                            (NJDG-SC)
+
+The National Judicial Data Grid was inaugurated for public access on 19 September 2015 by
+Hon'ble Mr Justice Madan B. Lokur, then Judge in charge of eCommittee Supreme Court of
+India. NJDG for High Courts was launched by the learned Attorney General of India, Shri. K. K.
+Venugopal in the august presence of Hon'ble Dr Justice Dhananjaya Y Chandrachud, Judge,
+Supreme Court of India & Chairperson of eCommittee at a virtual meeting held on 3 July 2020.
+NJDG for the Supreme Court was opened to the public on 14.09.2023 by Hon'ble Chief Justice
+of India DY Chandrachud.
+Furthermore, NJDG data is available in real-time. These statistics are updated every day by the
+respective Courts across the country through the Case Information System (CIS). NJDG got the
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            4
+
+stamp of the World Bank and moved India 20 ranks forward in the ranking of countries under
+ease of doing business.1
+This manual serves as a comprehensive guide to the Supreme Court of India National Judicial
+Data Grid (NJDG-SC). It is tailored to assist a diverse audience, including judges, lawyers,
+researchers, and the general public, in understanding and effectively utilizing the NJDG-SC. The
+manual covers the essentials, starting with an overview of what the NJDG-SC is, its purpose, and
+its critical role in promoting transparency, efficiency and accountability within the Indian judicial
+system. It includes detailed, step-by-step instructions on how to access the portal, navigate its
+features and interpret key data points such as case filings, pendency, and disposals. Users will
+find guidance on filtering and analyzing information by categories like case type or bench size,
+supported by practical examples and screenshots to enhance comprehension. Additionally, the
+manual offers best practices for generating reports and leveraging the platform for research or
+case management. Ultimately, this guide aims to empower users to fully harness the NJDG-SC's
+capabilities, contributing to a more informed and engaged society while supporting the
+judiciary's commitment to openness and transparency.
+
+Supreme Court of India National Judicial Data Grid: As on 30 April 2025, the Supreme
+Court of India National Judicial Data Grid has details of Pending Cases: Civil Cases (64,369);
+Criminal Cases (17,435); Total cases (81,804).
+
+1 A World Bank Group Flagship Report, Doing Business 2018, doingbusiness, avialable at:
+https://www.doingbusiness.org/content/dam/doingBusiness/media/Annual-Reports/English/DB2018-Full-R
+eport.pdf (Page No. 192).
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            5
+
+     2. Supreme Court of India National
+        Judicial Data Grid (NJDG-SC)
+
+On 14.09.2023, the Supreme Court of India was fully integrated with the National Judicial Data
+Grid (NJDG) portal, marking a significant milestone for the `e-Courts project'. Developed by the
+National Informatics Centre (NIC) in close collaboration with the in-house software
+development team of the Computer Cell, Supreme Court of India, the NJDG portal features an
+interactive interface and analytics dashboard. The database is periodically updated to ensure
+accuracy and timeliness.
+The NJDG-SC portal serves as a comprehensive national repository, providing data on cases
+instituted, pending, and disposed of by the Supreme Court. With a single click, users can access
+case-related information and statistics, such as case types, institution, disposal, and pendency
+rates, along with a year-wise breakdown of cases at the Supreme Court of India.
+The NJDG-SC portal offers immense potential for high-quality research and is easily accessible
+to the public. The NJDG-SC's real-time updates ensure that the information is always current,
+making it a vital tool for judicial oversight. Judges can use it to monitor caseloads and prioritize
+hearings, while court staff can streamline administrative tasks. For the legal community and
+litigants, the portal eliminates guesswork by providing instant access to case statuses and hearing
+schedules. Beyond the courtroom, it serves as a treasure trove for researchers and policymakers,
+offering raw data to analyze judicial efficiency, identify trends, and propose reforms.
+
+The Query builder tool can be used to generate a customisable report as required by the
+Supreme Court, High Courts and District Courts.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            6
+
+Types of Reports: One can generate reports agewise, stagewise, case type-wise list, orders not
+uploaded list, undated cases list etc. Example: List of particular case types which are 20/30/40
+years old; List of appeals pending with percentage of more than 5-year-old appeals; which court
+has the most number of appeals; Total number of Writ Petitions, First Appeals etc, can be easily
+known through the dashboard. All this at a click of the mouse, which can be used by the
+stakeholders for further planning and instructions for reducing pendency and for effective Court
+and Case Management.
+Coram-wise Pending Cases: The Supreme Court of India National Judicial Data Grid
+(NJDG-SC) provides comprehensive insights into the pending cases based on the composition of
+judges (coram). It categorizes the pending cases into various groups, namely those heard by
+benches comprising 3, 5, 7, 9, 11, or more than 11 judges. This detailed classification helps in
+understanding the distribution and workload of cases across different bench sizes. The data is
+compiled to differentiate between the main matters and connected matters. Main matters refer to
+the primary cases, while connected matters include those that are related or ancillary to the main
+cases.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            7
+
+     3. Supreme Court of India National
+           Judicial Data Grid Access
+
+3.1. Through the NJDG webpage:
+
+The Supreme Court of India National Judicial Data Grid can be accessed directly through
+the NJDG webpage. A simple Google search of the word "NJDG" will take a user to the
+NJDG web page, and then the user has to click on Supreme Court of India National
+Judicial Data Grid in the top right corner.
+In addition to that, the Supreme Court of India National Judicial Data Grid can also be
+accessed by the following link: https://scdg.sci.gov.in/scnjdg/
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            8
+
+3.2. Through the Supreme Court of India website link:
+
+The Supreme Court of India National Judicial Data Grid portal can be accessed directly
+from the website of the Supreme Court of India. On the homepage of the Supreme
+Court's website, there is a tab named "Explore and Connect" at the bottom, as shown in
+the screenshot herein. Under this tab, the user can find a hyperlink named `NJDG' that
+leads to the Supreme Court of India National Judicial Data Grid dashboard, as shown in
+the screenshot below:
+
+3.3 Through the eCommittee website link:
+
+NJDG can also be accessed through the eCommittee website
+(https://ecommitteesci.gov.in/). NJDG is provided under the tab of "Citizen's Corner"
+on the eCommittee's website.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                            9
+
+To access the NJDG on the eCommittee's website, one should proceed in the following
+order on the website:
+
+                     Citizen Corner  Citizen Centric Services  NJDG
+In addition to that, one can also access NJDG through the eCommittee's website by using
+the following link: https://ecommitteesci.gov.in/service/national-judicial-data-grid/
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          10
+
+3.4. Through the E-Courts services website:
+
+Supreme Court of India National Judicial Data Grid can also be accessed through the
+E-Courts services website (https://services.ecourts.gov.in/ecourtindia_v6/). One can
+click on the "NJDG" tab, which is made available on the top panel of the website, and it
+will take them directly to the NJDG webpage.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                           11
+
+     4. Supreme Court of India National
+                Judicial Data Grid
+
+The home page of the NJDG welcomes you with colourful bands, with the "SC NJDG"
+and "HC NJDG" tabs on the top right corner and the "National Judicial Data Grid
+District Courts of India" tab on the top left corner.
+To access the Supreme Court of India National Judicial Data Grid, one needs to click the
+"SC NJDG" tab available in the right-hand corner of the NJDG home page. It will open
+up the Supreme Court of India National Judicial Data Grid.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                             12
+
+5. Supreme Court of India National
+  Judicial Data Grid - Main Tabs
+
+The Supreme Court of India National Judicial Data Grid dashboard has three main tabs
+namely:
+
+          I. At a Glance
+         II. Pending Dashboard
+        III. Disposed Dashboard
+The user can select any tab by clicking on it and access the relevant data. The features of
+all the tabs are further explained in the next chapters.
+
+Tabs                                                          Contents
+
+      The `At a Glance' tab provides a quick overview of the
+      judicial data. It includes key statistics and metrics such as
+      the total number of cases, pending cases and other
+      relevant information. It gives users a snapshot of the
+      current status of cases in the Supreme Court.
+
+      The `Pending Dashboard' tab focuses on cases that are
+      still pending. It allows users to filter and view detailed
+      information about pending cases by different charts.
+      Users can also perform drill-down analysis based on
+      various attributes like case type, age of the case, and
+      stage of the case.
+
+      The `Disposed Dashboard' tab displays information
+      about cases that have been disposed of. It provides
+      details about the disposed cases with the help of charts.
+      Users can also filter the data based on different criteria to
+      gain insights into the disposal patterns.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          13
+
+                   6. At a Glance
+
+The initial tab, named "At a Glance", on the NJDG-SC's dashboard is a pivotal feature.
+Clicking on this tab provides users with essential information regarding cases pending
+before the Supreme Court, whether they are civil or criminal and less than one year old,
+as depicted in the attached screenshot. This tab offers insights into cases pending
+according to the composition of judges (coram), categorizing them into various groups,
+including 3, 5, 7, 9, 11, or more than 11 judges. As shown in the provided screenshot, it
+also displays details about cases instituted in the Supreme Court during the last month,
+cases disposed of in the last month, cases initiated in the current year, and cases that have
+been disposed of in the current year. This user-friendly interface on the "At a Glance" tab
+facilitates efficient data retrieval and enhances the overall user experience on the website.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          14
+
+6.1 Cases pending before the Supreme Court
+
+The "At a Glance" tab offers insights into the total number of cases pending in the
+Supreme Court. It divides the total number of cases into civil cases and criminal cases.
+Each section includes a pie chart to visually represent the percentage of cases that are less
+than one year old. For example, as shown in the screenshot above, the total number of
+pending cases, combining both civil and criminal cases, amounts to 82,922. Out of these,
+28,871 cases are less than one year old, making up 34.82% of the total pending cases.
+Furthermore, by clicking on the three vertical dots in the top right corner of each graph,
+the user can view the relevant data categorized into Registered Cases, Unregistered
+Cases, Listed Matters and Under Scrutiny / Defective / Pending for Listing, as shown in
+the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          15
+
+6.2 Cases instituted and disposed in the last month
+
+The "At a Glance" tab also provides data on the number of cases instituted and disposed
+of in the last month. For example, as shown in the screenshot above, a total of 3,469 civil
+cases and 1,792 criminal cases were instituted, totaling 5,261 cases. During the same
+period, 2,921 civil cases (84.2% disposal rate) and 1,549 criminal cases (86.44% disposal
+rate) were disposed of, totaling 4,470 cases (84.96% disposal rate).
+The numbers displayed within the table are hyperlinks that allow users to access lists of
+such cases. By clicking these links, users can obtain comprehensive information,
+including Diary Numbers, Case Numbers, Dates of Filing, and Party Names, as shown
+below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          16
+
+6.3 Cases instituted and disposed in the current year
+
+The "At a Glance" tab also provides data on the number of cases instituted and disposed
+of in the last month. For example, as shown in the screenshot above, a total of 2,285 civil
+cases and 973 criminal cases were instituted, totaling 3,258 cases. Meanwhile, 2,152 civil
+cases (94.18% disposal rate) and 1,145 criminal cases (117.68% disposal rate) were
+disposed of, totaling 3,297 cases (101.2% disposal rate).
+The numbers displayed within the table are hyperlinks that allow users to access lists of
+such cases. By clicking these links, users can obtain comprehensive information,
+including Diary Numbers, Case Numbers, Dates of Filing, and Party Names, as shown
+below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          17
+
+6.4 Coram wise pending cases
+
+The "At a Glance" tab also offers insights into cases pending according to the
+composition of judges (coram) as shown above. It categorizes them into various groups
+as 3, 5, 7, 9, 11, or more than 11 judges. It compiles the cases by the main matters and
+connected matters. For example, the above table shows that a total of 3 (main matters)
+are pending in the Supreme Court of the 9 Judges Bench.
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases, which includes Diary Numbers, Case Numbers, Date of
+Filing and Party Name as shown in the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          18
+
+              7. Pending Dashboard
+
+The "Pending Dashboard" shows the different types of cases still pending in the
+Supreme Court of India. This includes cases like Special Leave Petitions (SLP), Writ
+Petitions (WP), Transfer Petitions (TP), Appeals, Contempt cases, Review Petitions and
+Curative Petitions, both civil and criminal. The data is displayed through various charts,
+such as an age-wise graph, a pie chart for stages of pendency and a comparison of case
+institutions versus disposals.
+
+7.1 Type of Cases
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                              19
+
+                On the left side of the dashboard, there is
+                a panel that categorizes cases into
+                "Registered" and "Unregistered". It
+                further divides them into Civil, Criminal
+                and Both. For example, as shown in the
+                screenshot herein, 19198 Registered
+                Civil Appeals are pending in the
+                Supreme Court.
+
+Civil Cases     SLP (C), Civil Appeal, TP (C), WP (C), Contempt (C), TC (C),
+                Misc. Appln, Review Pet, Other (C), Cur Pet (C), Arb Pet, OS, Suo
+                Moto WP (C), Suo Moto Cont (C) and Ref Art 317
+
+Criminal Cases  SLP (Crl), Cr. Appeal, WP (Crl), TP (Crl), Review Pet (Crl),
+                Contempt (Crl), Cur Pet (Crl), Suo Moto WP (Crl), TC (Crl), Other
+                (Crl), Suo Moto Cont (Crl), and Other (C)
+
+7.1.1 Tabular Format of Pending Civil/Criminal Cases
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          20
+
+                                                          In addition to the above, by clicking on
+                                                          the square button available in the top
+                                                          right corner of the Panel , the user
+                                                          can view the `type of cases bar chart' in
+                                                          `table' form as shown in the screenshot.
+                                                          Notably, the numbers displayed within
+                                                          the table are hyperlinks that enable users
+                                                          to access lists of such cases. By clicking
+                                                          on these links, users can retrieve
+                                                          comprehensive information about these
+                                                          cases, which includes Sr. No., Diary
+                                                          Number, Case Number, and Party Name
+                                                          as shown below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          21
+
+7.1.2 Drill Down of Single Category of Pending Cases
+Furthermore, the user can click on any case category displayed in the left panel. The
+NJDG-SC will then display only the pending data for the selected case type. For
+example, if a user select 'civil appeal' as the case type from the menu, the Pending
+Dashboard will be filtered to show only information pertaining to 'civil appeal', as
+illustrated below:
+
+7.2 Age Wise Graphical Representation
+
+Under NJDG, the `age wise graph' shows how many cases are pending from each year.
+The user can click on a specific year to get details. For example, as shown in the
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          22
+
+screenshot herein, there are 291 pending cases from the year 2013. The user can find
+similar data for other years as well, and the information is regularly updated.
+7.2.1 Bar Chart of Age Wise Pendancy
+And by clicking on the three vertical dots in the top right corner of the graph, the user can
+view the `age wise graph' in `bar chart' form as shown in the screenshot below:
+
+Furthermore, by clicking on the square button available in the top right corner of the Age
+Wise Pendancy Bar Chart, the user can view the `bar chart' in `table' form as shown in
+the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          23
+
+7.2.2 Tabular Format of Age Wise Pendancy
+Furthermore, by clicking on the square button available in the top right corner of the
+Chart, the user can view the `Age Wise Graph' in `table' form as shown in the screenshot
+below:
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases, which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+7.3 Stage Wise Pendancy Through Pie chart
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          24
+
+The pie chart breaks down the pending cases by the stage they are at. It divides them into
+four stages: Admission Complete, Regular and Ready, Admission Incomplete and
+Regular Not Ready. The user can select a stage to see the percentage of cases pending at
+that particular stage. For example, as shown in the screenshot herein, 60.5% of the
+total cases are Admission Complete.
+7.3.1 Tabular Format of Stage Wise Pendancy
+Furthermore, by clicking on the square button available in the top right corner of the Pie
+Chart , the user can view the `Stage Pie Chart' in `table' form as shown in the
+screenshot below:
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          25
+
+information about these cases, which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+7.4 Institutional Vs Disposal Comparison Chart
+
+The Institutional Vs Disposal Chart is a useful tool that compares the number of cases
+instituted with the number of cases disposed of each year. The green line represents
+instituted cases, while the red line shows cases that have been disposed. This helps users
+understand the efficiency and then the workload handled in disposing the cases, keeping
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                  26
+
+pace with the inflow of cases coming through the institution. For example, as shown in
+the screenshot herein, in 2024, there were 18,046 disposed of and 16,780 were instituted.
+
+7.4.1 Particular Year - Monthwise Institutional Vs Disposal Data
+The Institutional Vs Disposal Chart also has a feature to view the data of a particular
+year. The user can select a year from the drop-down menu available in the top right
+
+corner of the chart.  And after selecting a particular year, the data will be
+
+shown month-wise as shown below:
+
+7.4.2 Institutional Vs Disposal Comparison Table
+Furthermore, by clicking on the square button available in the top right corner of the
+Chart, the user can view the `Institutional Vs Disposal Comparison Chart' in `table' form
+as shown in the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          27
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases, which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          28
+
+             8. Disposed Dashboard
+
+The "Disposed Dashboard" provides data related to cases that are disposed of by the
+Supreme Court of India. The information is displayed through graphs and charts, offering
+insights into the types of cases, such as civil, criminal, or unregistered ones.
+
+8.1 Type of Cases
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                      29
+
+                                        On the left side of the dashboard, there is
+                                        a panel that categorizes cases into
+                                        "Registered" and "Unregistered". It
+                                        further divides them into Civil, Criminal
+                                        and Both. For example, as shown in
+                                        screenshot herein, as shown in
+                                        screenshot herein, 1079 Registered SLP
+                                        (C) are disposed of in the Supreme Court
+                                        in 2025.
+
+Civil Cases     SLP (C), Civil Appeal, TP (C), Misc. Appln, WP (C), Review Pet
+Criminal Cases  (C), Contempt (C), Cur Pet (C), Ref Art 317, and Suo Moto Cont
+                (C)
+
+                SLP (Crl), Cr. Appeal, TP (Crl), Review Pet (Crl), WP (Crl), Cur
+                Pet (Crl), Other (Crl), Suo Moto Cont (Crl)
+
+8.1.1 Tabular Format of Disposed Cases
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          30
+
+                                                          In addition to the above, by clicking on
+                                                          the square button available in the top
+                                                          right corner of the Panel , the user
+                                                          can view the `type of cases bar chart' in
+                                                          `table' form as shown in the screenshot.
+                                                          Notably, the numbers displayed within
+                                                          the table are hyperlinks that enable users
+                                                          to access lists of such cases. By clicking
+                                                          on these links, users can retrieve
+                                                          comprehensive information about these
+                                                          cases, which includes Sr. No., Diary
+                                                          Number, Case Number and Party Name
+                                                          as shown below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          31
+
+8.1.2 Drill Down of Single Category of Disposed Cases
+Furthermore, the user can click on any case category displayed in the left panel. The
+NJDG-SC will then display only the disposed data for the selected case type. For
+example, if a user select 'SLP (C)' as the case type from the menu, the Disposed
+Dashboard will be filtered to show only information pertaining to 'SLP (C)', as illustrated
+below:
+
+8.2 Age Wise Disposed Cases Graph
+
+The `Age-Wise Disposed of Cases Graph' provides information regarding the pending
+cases and the number of cases disposed of in a particular year. The blue line represents
+the pending cases, while the red line shows cases that have been disposed of. For
+example, as shown in the screenshot herein, there are 10,004 cases pending of 2024 and
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          32
+
+16,403 cases were disposed of year 2024 in the selected year from the drop down menu
+(2024). The user can find similar data for other years as well, and the information is
+regularly updated.
+8.2.1 Bar Chart of Age Wise Disposal
+Furthermore, by clicking on the three vertical dots in the top right corner of the graph, the
+user can view the `age-wise disposed graph' in `bar chart' form as shown in the
+screenshot below:
+
+Furthermore, by clicking on the square button available in the top right corner of the Age
+Wise Disposal Bar Chart, the user can view the `bar chart' in `table' form as shown in
+the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          33
+
+8.2.2 Tabular Format of Age Wise Pendancy
+In addition to the above, by clicking on the square button available in the top right corner
+of the graph, the user can view the `age-wise disposed graph' in `table' form as shown in
+the screenshot below:
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+8.3 Nature of Disposal Pie Chart
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          34
+
+This `Nature of Disposal' pie chart provides information regarding the nature of
+disposed of cases. It divides the nature of disposal into six categories: Dismissed,
+Disposed of, Allowed, Granted, Others and Conditional Order. The user can gain insights
+on how the cases are getting disposed of by the Supreme Court of India, as shown in the
+screenshot above 67.0% of cases are dismissed, 20.5% of cases are disposed of on merits,
+and 12.5% of the cases are allowed.
+8.3.1 Tabular Format of Stage Wise Pendancy
+Furthermore, by clicking on the square button available in the top right corner of the Pie
+Chart Dashboard , the user can view the `Nature of Disposal Pie Chart' in `table'
+form as shown in the screenshot below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          35
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases, which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+8.4 Time Taken in Disposition Bar Chart
+
+The `Time to Disposition' bar chart shows the accurate data on time taken in the
+disposition of cases by the Supreme Court of India, The bar on the x-axis is divided on
+the basis of the time in which cases are disposed such as within a year or 1-2 year or 3-5
+year or 5-6 year and on as shown in the screenshot above. For example, as per the graph
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          36
+
+in the screenshot above, 1,464 (79.61%) cases are disposed of within a year from their
+institution.
+8.4.1 Tabular Format of Time to Disposition Bar Chart
+Furthermore, by clicking on the square button available in the top right corner of the Bar
+Chart Dashboard, the user can view the `Time to Disposition Bar Chart' in `table' form
+as shown in the screenshot below:
+
+Notably, the numbers displayed within the table are hyperlinks that enable users to access
+lists of such cases. By clicking on these links, users can retrieve comprehensive
+information about these cases, which includes Sr. No., Diary Number, Case Number and
+Party Name as shown below:
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          37
+
+                     9. Settings
+
+The user can change the settings on the website by clicking on the cogwheel icon on
+the top right of the screen.
+
+                                             In the settings, the user can switch between dark or
+                                             light themes for the top bar, which will enable the
+                                             person with visual disabilities to read better and
+                                             comfortability.. The user can also choose between
+                                             dark, eco, or light color themes for the website, as
+                                             per their choice, as shown in the screenshot herein.
+                                             This is truly an inclusive digitally accessible
+                                             feature.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          38
+
+           10. NJDG Report Format
+
+The reports under NJDG can be generated in three formats. All the reports can be
+generated as PDF, Excel and CSV. The availability of these three types helps the
+stakeholders to generate the report in editable formats and non-editable formats. The
+editable formats under .xls and .csv will help to consolidate information according to the
+needs of a user. The screenshots of the three formats are appended herewith for ready
+reference.
+
+11.1. Export to .pdf
+
+        
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          39
+
+11.2. Export to .xls
+
+               
+
+11.3. Export to .csv
+
+       
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          40
+
+         11. Benefits of the NJDG-SC
+
+The Supreme Court of India National Judicial Data Grid (NJDG-SC) represents a
+significant advancement in judicial transparency and efficiency within India. The
+NJDG-SC portal serves not just the judiciary but a wide array of users as a
+comprehensive and a real-time repository of case information, orders, and judgments
+from the Supreme Court.
+
+11.1 For Judges
+
+    1. Manage Workload: Judges can easily see how many cases they have. This helps
+        them keep track of their work.
+
+    2. Decide Which Cases to Hear First: The system provides data that helps judges
+        decide which cases need attention sooner.
+
+    3. Understand Pending Cases: Judges get clear details about cases waiting to be
+        heard. They can see if cases are civil or criminal, how old they are (like less than a
+        year old, or from a specific year like 2013) and what stage they are at (like
+        whether the first steps are complete or not).
+
+    4. See How Work is Spread Out: Judges can see which cases are being handled by
+        different numbers of judges (like benches of 3, 5, 7, or more judges). They can
+        also see the difference between main cases and related side cases.
+
+    5. Check Court Performance: Judges can compare how many new cases are coming
+        in versus how many are being finished each month or year. This shows how
+        efficiently the court is working.
+
+    6. Learn About Finished Cases: Judges can see how cases were finished (like
+        dismissed or allowed) and how long it took to finish them.
+
+    7. Plan Better: NJDG-SC helps judges plan how to reduce the backlog of cases and
+        manage the court more effectively.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          41
+
+    8. Make Decisions Using Facts: The system provides solid data that can help judges
+        to make informed decisions about court management.
+
+11.2 For Lawyers
+
+    1. Get Latest Case Updates: Lawyers can check the most current status of their cases
+        anytime, as the information is updated very frequently.
+
+    2. Find Detailed Case Information: They can click on links within the system to get
+        specific details like Diary Numbers, Case Numbers, when the case was filed, and
+        names of people involved.
+
+    3. Understand How the Court Works: The system helps lawyers see how cases
+        move through the court, what types of cases are common (like Appeals, Writ
+        Petitions), how many cases are pending, and how quickly cases are finished.
+
+11.3 For Researchers, Academics and Students:
+
+    1. Great Source of Information: The NJDG is like a "treasure trove" filled with lots
+        of data, perfect for high-quality research.
+
+    2. Study the Court System: Researchers can use the real data to study how efficient
+        the courts are, spot trends (like if pending cases are increasing or decreasing, how
+        long cases take), and see how cases are spread out.
+
+    3. Access to Lots of Case Data: They can find details about new cases, pending
+        cases and finished cases, including the type of case, how many there are,
+        year-by-year numbers, the stage cases are in and how they were concluded.
+
+    4. Create Custom Reports: A special tool lets researchers create reports tailored to
+        their specific research questions.
+
+    5. Download Data Easily: Researchers can download data and reports in different
+        formats like PDF, Excel (.xls), or CSV, which makes it easy to study the
+        information further.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          42
+
+11.4 For Litigants
+
+    1. See Case Progress Clearly: NJDG-SC makes it easier for people to understand
+        what's happening with their court case.
+
+    2. Increases transparency: NJDG-SC allows litigants to be more informed about the
+        Supreme Court and its workings.
+
+11.5 For General Public
+
+    1. Makes Courts More Open: NJDG-SC helps everyone see how the justice system
+        works.
+
+    2. Holds Courts Accountable: NJDG-SC promotes responsibility within the courts.
+    3. Easy Access to Court Information: Anyone can easily find court data with just a
+
+        click, like how many cases are filed, finished, or still pending.
+
+11.6 For Court Administration/Staff
+
+    1. Better Data Management: NJDG-SC provides one central place to manage the
+        huge amount of case information.
+
+    2. Easy Report Generation: NJDG-SC makes it simple to create different kinds of
+        statistical reports needed by the court.
+
+11.7 For Policymakers
+
+    1. Make Laws Based on Facts: NJDG-SC provides policymakers with useful data to
+        see how well the courts are working and where improvements or reforms are
+        needed.
+
+    2. Track Court Trends: NJDG-SC allows policymakers to watch trends like the
+        number of pending cases or how fast cases are resolved, which helps in making
+        policy decisions.
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+                                                                                                                                          43
+
+ Supreme Court of India National Judicial
+    Data Grid (NJDG-SC) - Access Link
+
+                                    https://scdg.sci.gov.in/scnjdg/
+
+Supreme Court of India National Judicial Data Grid (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+       SUPREME COURT OF INDIA
+   NATIONAL JUDICIAL DATA GRID
+
+                  (NJDG-SC)
+
+A Tool for Effective Court & Case Management
+
+                    Circulated by
+    eCommittee, Supreme Court of India
+

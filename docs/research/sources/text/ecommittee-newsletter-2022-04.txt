@@ -1,0 +1,1438 @@
+April, 2022
+
+Newsletter
+
+e-Committee, Supreme Court of India
+                                    Table of Content
+
+E-Filing 3.0, Vulnerable witness deposition centres, Virtual Courtrooms rolled out at Orissa............................................... 3
+
+Implementation of National Service and Tracking of Electronic Processes (NSTEP) in Jharkhand..................................... 5
+
+Virtual Justice Clock implemented by the High Court of Madhya Pradesh................................................................................ 6
+
+A Special Training Programme on NSTEP and eCourts at Saharsa & Kaimur, Bihar............................................................... 9
+
+Paperless Software module rolled out by High Court of Punjab and Haryana......................................................................... 13
+
+Launching of Inventory Management System (IMS) Software Application by the High court of Tripura..........................14
+
+Virtual Inauguration of eSewa Kendra at Gandacherra Court Complex, Tripura on 13th April 2022...................................16
+
+State Wise Launch of Software Programme for online Quarterly by Judicial Officers of Rajasthan...................................18
+
+Hands-on Training to Jail Authorities on Video Conferencing Software...................................................................................19
+
+Training on Implementation of E-Filing of cases in High Court of Madras...............................................................................20
+
+ECT_3_2022 - ICT Programme of the E-Courts project by the Tamil Nadu State Judicial Academy................................. 21
+
+ECT Programmes for Advocate/Advocate Clerk conducted by the Meghalaya Judicial Academy......................................22
+
+ECT Program on CIS for Court Staff by Chandigarh Judicial academy crosses 21 K views................................................. 23
+
+Court and case management through NJDG (part -4 )...............................................................................................24
+
+National Judicial Data Grid (NJDG) Admin Login...........................................................................................................................24
+
+e-Courts Statistics: No. of cases dealt through VC in High Courts/ District Courts during the lockdown........................ 27
+
+Status of implementation of NSTEP as of 30.04.2022................................................................................................................. 30
+
+Status of implementation of Rules of V.C as of 30 April 2022.................................................................................................... 31
+
+Status of Implementation of Rules of e-Filing as of 30 April 2022............................................................................................ 32
+
+Status of implementation of e-Sewa Kendras as of 30 April 2022............................................................................................. 33
+
+Status of implementation of Justice Clock in High Courts.......................................................................................................... 34
+
+Status of implementation of e-Payments as of 30 April 2022.................................................................................................... 35
+
+Status of implementation of ICJS as of 30 April 2022.................................................................................................................. 36
+
+Status of eFiling in High Courts as of 30 April 2022......................................................................................................................37
+
+Cases registered & disposed in the District and Taluka Courts during the pandemic............................................................ 38
+
+Status of eFiling in District Courts as of 30 April 2022................................................................................................................40
+
+Training/Awareness Programme during April 2022...................................................................................................................... 43
+
+Status of eFiling 3.0 in District Courts..............................................................................................................................................45
+
+e-Committee Newsletter, April 2022                    2
+E-Filing 3.0, Vulnerable Witness Deposition Centres,
+Virtual Courtrooms Rolled Out At Orissa
+
+On 2nd April 2022 Hon'ble Dr. Justice   Orissa inaugurated e-Filing 3.0 for the
+D.Y. Chandrachud, Judge, Supreme        High Court of Orissa and District and
+Court of India and Chairperson,         Subordinate Courts of the State of
+e-Committee, Supreme Court of India     Orissa. He also inaugurated the
+in the presence of the Chief Justice &  Vulnerable Witness Deposition
+Hon'ble Judges of High Court of         Centres with Virtual Courtrooms in
+
+e-Committee Newsletter, April 2022      3
+District Court Establishments and the         Supreme Court of India. The
+                                              Inaugural Ceremony held for the
+Odisha  Judicial                    Workflow  programme can be viewed on the
+                                              Odisha High Court's YouTube
+Automation System (OJWAS) for a               channel by clicking the link below:
+                                              https://www.youtube.com/watch?v=
+paperless office in the High Court of         p8kCWl0DaZk
+
+Orissa. The event was also graced by
+
+Hon'ble Mr. Justice R.C.Chavan,
+
+Vice-Chairperson of the e-Committee,
+
+e-Committee Newsletter, April 2022            4
+Implementation of National Service and Tracking of
+Electronic Processes (NSTEP) in Jharkhand
+
+National Service and Tracking of              the process admin of the concerned
+                                              Court is assigning the delivery of
+Electronic Processes (NSTEP) has              processes to bailiffs/Process
+                                              Servers. After serving processes to
+been successfully implemented in              the concerned party, the photo and
+                                              signature of the party along with the
+Jharkhand in April 2022. Samsung              latitude and longitude of the location
+                                              are captured by the bailiffs / process
+smartphones  and                    internet  servers by utilising internet-enabled
+                                              smartphones.
+connectivity have been provided to
+
+bailiffs/ process servers of
+
+Jharkhand for serving processes.
+
+Electronic processes in PDF format
+
+are being generated through CIS and
+
+e-Committee Newsletter, April 2022            5
+Virtual Justice Clock Implemented By The High Court Of
+Madhya Pradesh
+
+        At the High Court of M.P. and all       Click the link to view the Virtual
+        District Courts Establishments, the     Justice Clock of the High Court and
+        Virtual Justice Clock development       District Judiciary of Madhya Pradesh.
+        has been completed, and the same        https://mphc.gov.in/virtual-justice-cloc
+        is linked with the website of the High
+        Court of Madhya Pradesh. This will                                                        6
+        disseminate information to litigants,
+        stakeholders, and citizens.
+
+e-Committee Newsletter, April 2022
+Launch of e-Vakalatnama under efiling
+
+                                               A module has been developed for
+                                               instantly generating the Vakalatnama in
+                                               the "case" tab at the High Court of
+                                               Madhya Pradesh, Jabalpur and its Bench
+                                               at Indore and Gwalior. Vakalatnama is on
+                                               the dashboard of advocates in the
+                                               "Additional Vakalatnama" tab provided by
+                                               the High Court of Madhya Pradesh under
+                                               the e-Diary facility provided to advocates.
+                                               The same is available on the Login link of
+                                               the official website of the High Court of
+                                               Madhya Pradesh https://mphc.gov.in/.
+
+       After successfully logging into the     the advocate enrollment number and
+        e-filing module and after clicking on  year, the advocate's name and other
+        the "Additional Vakalatnama" tab, the  details will also appear. After filling in
+        user may fill in the case number and   all details, the advocate may click on
+        case year and click on the "Submit"    the "Submit" button. Thereafter,
+        button. Thereafter, the party details  Vakalatnama will appear on the
+        will appear dynamically from the       user's screen, and the advocate may
+        database. Advocates/users may          print the Vakalatnama by clicking on
+        select "Petitioner" or "Respondent"    the print button.
+        and select the party name. Based on
+                                                                                                 7
+e-Committee Newsletter, April 2022
+Implementation of Virtualization      Implementation of QR code module
+Software                              in CMIS software for quick
+                                      file-tracking and information
+
+The implementation of virtualization  The QR code system will be helpful in
+software is completed in servers at   quick file-tracking, easy retrieval, and
+the High Court of M.P. Jabalpur and   auto data feeding for information on
+Madhya Pradesh State Data Centre,     cases at various sections/court
+Bhopal. The hypervisor provides       rooms of the High Court of Madhya
+faster server provisioning and        Pradesh. The scrutiny user may print
+deployment, easier management,        the QR code on the label and affix it
+portability, minimised downtime,      to the cover page in the file. QR code
+reduced operating costs, and          automatically gets printed on top of
+increased IT productivity. Presently  the scrutiny reports. All the cases
+we are using 13, 09, and 03 virtual   filed at the High Court of Madhya
+machines on 3 physical servers        Pradesh have a unique QR code for
+(hosts) respectively.                 tracking cases.
+
+e-Committee Newsletter, April 2022    8
+A Special Training Programme On NSTEP And e-Courts
+At Saharsa & Kaimur, Bihar
+
+        A refresher training programme of     Hon'ble Supreme Court of India.
+        NSTEP and e-Courts was organised      NSTEP has been developed for
+        on 28-03-2022. The master trainer     real-time tracking of the processes
+        namely Sri Ravi Ranjan, ADJ,          generated by the Courts online. It has
+        Saharsa imparted online training,     been integrated with GPS which
+        especially to the Head Clerk, Nazir,  tracks the actual location of delivery
+        and Process Servers of Civil Court,   of processes by the Courts Process
+        Saharsa as well as Civil Court,       Servers to the litigants. The master
+        Khagaria for capacity building. The   trainer paid special thanks to Sri Dr.
+        NSTEP (National Summon Tracking       Justice D.Y. Chandrachud, Hon'ble
+        of Electronic Process) app has been   Chairman- cum- Judge, eCommittee,
+        developed by the eCommittee of the    Hon'ble Supreme Court of India. He
+
+e-Committee Newsletter, April 2022                                                              9
+explained the entire process of         app is that the processes of other
+NSTEP. The process starts with the      districts and also that of other states
+online generation in CIS 3.2 by the     may be served electronically. NSTEP
+courts which are then uploaded on       is in use in this judgeship for 8
+the NSTEP server by District Admin.     months. Upon implementation of
+The Process Servers have been           NSTEP, the appearance of witnesses
+equipped with Smart Android Mobile      has increased and brought
+in which the NSTEP app is already       transparency to the process.
+installed. As soon as the process is    Recently the ICJS project has been
+generated online by the courts it       implemented in the courts through
+becomes available on Nazir's ID and     which courts, police stations, and
+is allocated to the process servers on  jails are connected to share data of
+mobile. The process servers copy        police stations. Sri Ravi Ranjan has
+that process and reach the address      also discussed the different facets of
+of the concerned litigant. The          the e-courts project which includes
+process is served upon the litigant     Virtual Studio Based Courts,
+and digital signature, photo, and       installation of CCTV, Bihar VC Rules,
+location are uploaded in the NSTEP      e-Sewa Kendra, NJDG, Kiosk, e-Filing,
+app. After uploading these details,     e-Court fee, etc that enables
+the status is automatically reflected   paperless work by the courts in the
+in the Nazir and the Concerned          near future.
+Court. The main advantage of this
+
+e-Committee Newsletter, April 2022      10
+        The service of summons and               establishments, inter-district or
+        processes by traditional methods are     inter-state.
+        often a cause for delays in the
+        speedy disposal of cases.. Once the      NSTEP accomplishes the following
+        process is adopted through CIS           significant goals:
+        software by the respective courts, it    1. Enables serving of Notices/
+        will become available on the NSTEP       Summons in electronic form.
+        web application in electronic format.    2. Posting and recording real-time
+        NSTEP web application enables            updates from remote locations
+        allocation of published processes to     reducing inordinate delays in the
+        bailiffs if service is to be effected    process of service.
+        within their jurisdiction. It also       3. Time required for serving
+        facilitates the allocation of published  Inter-district or Inter-state processes
+        processes to respective court            by post is drastically reduced by
+                                                 serving it in electronic form.
+e-Committee Newsletter, April 2022
+                                                                                                   11
+4. Transparent tracking of service of         The bailiffs can view the allocated
+                                              processes on the NSTEP Mobile App.
+process and summons by all                    Android smartphones are being
+                                              provided to bailiffs which are
+stakeholders.                                 integrated with the court's service
+                                              modules.
+5. GPS connectivity with Bhuvan
+
+Maps  (India's       geo-platform
+
+developed by ISRO).
+
+IT Cadre for District Courts has been notified at Bihar
+
+        Bihar Civil Court Officers and Staff  and Other Service Conditions) Rules,
+        (Recruitment, Promotion, Transfer     2022 has been notified.
+
+e-Committee Newsletter, April 2022                                                              12
+Paperless Software Module Rolled Out By High Court Of
+Punjab And Haryana
+
+A new module has been developed to         integrated with ISHiCo for paperless
+raise, track and resolve the issues        court. For some of the paper books,
+related to the scanning of paper           it was reported by the court staff that
+books. All the data of this High Court     the scanned paper books have some
+is scanned and available on DMS            issues such as wrong scans, missing
+Server. Random Quality check was           pages, incorrect order of pages, etc.
+also done at the time of scanning.         This module facilitates the refining of
+                                           the scanned data available on DMS.
+
+        During Covid-19,            these
+scanned paper books                 were
+
+e-Committee Newsletter, April 2022         13
+Launching of Inventory Management System (IMS)
+Software Application by the High Court of Tripura
+
+        On 5th April 2022, Hon'ble Mr.      database of all the IT hardware of the
+        Justice Indrajit Mahanty, Chief     High Court of Tripura and its District
+        Justice, High Court of Tripura has  Judiciary. This software can keep
+        launched a software application     track of all the computer hardware
+        namely, Inventory Management        and peripheral items purchased by
+        System (IMS) to maintain a digital  the High Court of Tripura and
+
+e-Committee Newsletter, April 2022                                                            14
+supplied to the District Judiciary by         under the supervision of the Nodal
+                                              Officers concerned who shall ensure
+maintaining information like Stock            data entry of IT hardware in this
+                                              software by system assistants. The
+Details, Order Details, Invoice Details,      Nodal Officers have further been
+                                              directed to periodically verify the
+Summary, and Detailed Reports of              reports generated by the IMS
+                                              software and the entries in the Asset
+hardware, section-wise issue report,          Register maintained in the Court
+                                              Complexes to eliminate the
+AMC Report, Item Warranty Status              instances of data mismatch of the IT
+                                              hardware. This software application
+Report, Item History, and Item Return         has been conceptualised by the
+                                              Central Project Coordinator of the
+Report. The software further works in         High Court of Tripura as per the
+                                              direction of the Hon'ble
+breaking down data silos of the               Judge-in-Charge, ICT including
+                                              eCourts Project, High Court of
+Nodal Officers to monitor proper              Tripura, and the application has been
+                                              developed by the in-house
+utilisation,  distribution,           and     development team of the Central
+                                              Project Coordinator.
+maintenance of the IT hardware
+
+available in the respective Court
+
+Complexes.    This                  Software
+
+application has been made available
+
+on the intranet of all the Court
+
+Complexes, which is accessible
+
+through e-Courts WAN during the
+
+Court's working hours. This Software
+
+application(IMS) has been directed to
+
+be used by all the Court Complexes
+
+of the District Judiciary of Tripura
+
+e-Committee Newsletter, April 2022            15
+Virtual Inauguration Of E-Sewa Kendra At Gandacherra
+Court Complex, Tripura On 13th April 2022
+
+         On 13th April 2022 at 4 pm, Hon'ble Mr         programme was organised at
+         Justice S. Talapatra, Judge-in-Charge,         Gandacherra Court Complex by the
+         ICT including eCourts Project, High            SDJM-cum-Civil Judge (Jr. Div.),
+         Court of Tripura and Hon'ble Mr. Justice       Gandacherra where all the Judicial
+         A. Lodh, Portfolio Judge of Dhalai             Officers serving in that station, members
+         Judicial District have virtually               of the local Bar Association, officials of
+         inaugurated the eSewa Kendra at                Civil and Police Administration of the
+         Gandacherra Court Complex through              Gandacherra Sub-division and litigants
+         Video conferencing from the Judges'            present in the Court have participated.
+         Lounge of the High Court of Tripura.           At the High Court of Tripura for the
+         Gandacherra Court Complex is the               virtual inauguration of the eSewa
+         remotest complex among all the Court           Kendra, Hon'ble Mr. Justice S. Talapatra,
+         of the District Judiciary of Tripura as it is  Judge-in-Charge, ICT including eCourts
+         geographically located in the hilly            Project, Hon'ble Mr. Justice A. Lodh,
+         terrains of the Dhalai District of Tripura     Portfolio Judge, Dhalai District and
+         mostly populated by different tribal           Hon'ble Mr. Justice S.G. Chattopadhyay,
+         communities. For this purpose, a brief         Judge, High Court of Tripura was
+
+e-Committee Newsletter, April 2022                                                                        16
+         present. Officers of the Registry of the   ICT including eCourts Project, High
+         High Court of Tripura led by Shri D.M.     Court of Tripura has highlighted the
+         Jamatia, Registrar General and the         importance of the establishment of
+         Technical Team of the High Court were      eSewa Kendras at each and every Court
+         also present. During this virtual          Complex of Tripura and said that the
+         inauguration programme, three sites i.e.,  setting up of eSewa Kendra is a
+         the High Court at Agartala, the District   milestone in the eCourts initiative.
+         Court of Dhalai at Ambassa and the         During his Lordship's deliberation, the
+         Programme venue at Gandacherra were        various services meant to be provided
+         simultaneously connected via video         through the eSewa Kendra were
+         conferencing through the BSNL MPLS         discussed at length and he also
+         Leased Line Network. Shri Goutam           requested the Bar Members and
+         Sarkar, District & Sessions Judge of       litigants to avail these services so that
+         Dhalai District also participated in the   the eSewa Kendra may function with its
+         programme via video conferencing           aim to provide various citizen centric
+         sitting at the District Headquarters at    services.
+         Ambassa and delivered his welcome
+         speech virtually from Ambassa during       With the inauguration of this eSewa
+         the programme. Hon'ble Mr. Justice A.      Kendra at Gandacherra Court Complex,
+         Lodh has emphasised upon the               the High Court of Tripura has completed
+         importance of a helpdesk counter in a      setting up of eSewa Kendra at all the 15
+         remote Court Complex like Gandacherra      Court Complexes of Tripura for which
+         which is meant to serve the need of the    funds were released by the Department
+         Bar Members and the litigants in           of Justice and at present all the Court
+         accessing information pertaining to the    Complexes of the District Judiciary of
+         justice delivery system. Hon'ble Mr.       Tripura and the Registry of the High
+         Justice S. Talapatra, Judge-in-Charge,     Court of Tripura are having functional
+                                                    eSewa Kendra.
+e-Committee Newsletter, April 2022
+                                                                                                      17
+State Wise Launch Of Comprehensive Software Programme For
+Online Quarterly Return No. Vth by Judicial Officers Of Rajasthan
+
+        For the purpose of evaluation of work   preparing quarterly return statements
+        done by a Judicial Officer, every       for 1st Quarter of 2022. After
+        Judicial Officer has to manually        successful testing, the programme
+        submit a quarterly return to the High   has been launched for the entire
+        Court through the District Judge. In    State of Rajasthan w.e.f. 01.04.2022
+        order to accomplish the task in a       after the successful E-launch
+        paperless, scientific, and analytical   ceremony of this comprehensive
+        manner, a Computer Programme has        programme on 01.04.2022 with the
+        been developed indigenously by the      kind blessings of Hon'ble Mr. Justice
+        technical team of the Rajasthan High    M.M. Shrivastava, the Acting Chief
+        Court which is linked with the CIS of   Justice and Hon'ble Mr. Justice Arun
+        every Court. Initially, this programme  Bhansali, Chairman Steering
+        was launched on a pilot basis in two    Committee.
+        Judgeships i.e. Sirohi and Tonk for
+                                                                                                  18
+e-Committee Newsletter, April 2022
+Hands-On Training To Jail Authorities On Video Conferencing
+Software
+
+In the State of Rajasthan, 1292         series, intensive training has been
+Courts, and 95 jails are equipped with  imparted to a team of five tech-savvy
+VC hardware. Dedicated VC Software      persons nominated by the Director
+(Zoom) and internet connectivity        General of Prisons Rajasthan Jaipur
+have been provided in 1292 Courts.      on 25.04.2022 at Rajasthan High
+The production of accused from jails    Court, Jaipur Bench for use. The
+through Video Conferencing will not     nominated persons will further
+only save time, and energy and          impart training to the authorised
+minimise the movements of inmates       persons at every jail.
+but also ensure security. In this
+
+e-Committee Newsletter, April 2022      19
+Training on Implementation of mandatory E-Filing of cases in High Court
+of Madras to the Advocate Master Trainers
+
+Training for the Advocate Master Trainers in the Madurai Bench of Madras High Court at Madurai
+                                              through Video Conferencing
+
+As per the direction of the Hon'ble          of cases in the Principal Seat and
+                                             Madurai Bench of Madras High Court
+Computer Committee, High Court of            on 19.04.2022 through Video
+                                             Conferencing.
+Madras, the Registry had conducted
+
+a training programme to Advocate
+
+Master  Trainers                    towards
+
+implementation of mandatory e-filing
+
+e-Committee Newsletter, April 2022           20
+e-Committee, ECT_3_2022 - ICT Programme of the E-Courts project for
+new Master Trainers by the Tamil Nadu State Judicial Academy
+
+An Outreach and Awareness                coordination with the Hon'ble
+Programme (ECT_3_2022) on the ICT        e-Committee Supreme Court of India
+initiatives of the e-Courts Project for  and the High Court of Madras on
+New Master Trainers was conducted        24.04.2022 at Tamil Nadu State
+by the Tamil Nadu State Judicial         Judicial Academy, Chennai.
+Academy (TNSJA), Chennai in
+
+The Judicial Officer (Master Trainers)   Overview of e-Courts Project, CIS in
+has imparted training to the Newly       District Judiciary, NSTEP, e-Filing,
+nominated Master Trainers (Judicial      Virtual Courts, e-Payment, Video
+Officers) on the following topics viz.,  Conferencing Rules, and e-Filing
+                                         Rules.
+
+e-Committee Newsletter, April 2022       21
+E-Committee ECT Programmes For New Master Trainers & For
+Advocate/Advocate Clerk Conducted By The Meghalaya Judicial
+Academy
+
+        Master Trainer Programme for new        Sangma (OSD, Meghalaya State
+        Master Trainers under the               Legal Services Authority, Shillong).
+        e-Committee Special Drive Training      ECT-4 2022 Training Programme for
+        and Outreach Programme was              advocates / advocates' clerks was
+        conducted on the 2nd April 2022 in      conducted on the 22nd April 2022
+        the Meghalaya State Judicial            where 24 nominated advocates from
+        Academy at Shillong. The proposed       Shillong Bar Association & High
+        six master trainers were trained by     Court Bar Association were trained in
+        the four master trainers, Smti Barisuk  the Meghalaya State Judicial
+        Khriam (District and Sessions Judge,    Academy at Shillong by the Advocate
+        Jowai), Shri F S Sangma (Special        Master Trainer Adv Shyambor
+        Judge (POCSO) Shillong), Shri Albert    Marpan and Adv Farchie G Momin.
+        W Lanong (Chief Judicial Magistrate,
+        Resubelpara) and Shri Temsu T M                                                           22
+
+e-Committee Newsletter, April 2022
+e-Committee ECT Program on Case Information Software for
+Court Staff by Chandigarh Judicial Academy Crosses 21 K Views
+
+        Taking the vision forward as put forth  Chandigarh Judicial Academy. The
+        by the e-Committee, the Hon'ble
+        Supreme Court of India and the          program was divided into three parts:
+        Chandigarh Judicial Academy
+        organised a one-day Refresher           (i)Introduction of CIS; (ii)Q Menu; and
+        Program for Staff on the "Case
+        Information System" on 9.4.2022.        (iii)Configure Establishment.
+        The said program was broadcasted
+        live on the YouTube channel of          The target audience of the program
+        Chandigarh Judicial Academy. The
+        resource person for the online          was the Court Staff across Punjab,
+        training was Ms. Harshali
+        Chowdhary, a faculty member and         Haryana, and UT Chandigarh. The
+        session judge master trainer at the
+                                                entire program had a total viewership
+e-Committee Newsletter, April 2022
+                                                of 21000 views and has been
+
+                                                received positively with thunderous
+
+                                                applause. The said program is
+
+                                                available on the YouTube channel of
+
+                                                Chandigarh Judicial Academy for
+
+                                                future  reference:
+
+                                                https://youtu.be/vWhujP-8E5w
+
+                                                                               23
+Co r d a m a m t o g N G (pa -4 )
+
+National Judicial Data Grid (NJDG) Admin Login
+
+Administrative Judges can use                Judicial Magistrates, and other
+                                             Administrative Registrars, as per the
+Admin login to NJDG for a variety of         administrative requirement of each
+                                             High Court. The login through the
+administrative purposes. This login          Admin user ID will open up a variety
+                                             of tabs, as shown in the screenshot
+for Admin can be created by the              below, which can be used as a Court
+                                             and Case Management tool by the
+respective  Central                 Project  Administrative Judges.
+
+Coordinators of the High Courts for
+
+the portfolio Judges of High Courts,
+
+Principal District Judges, Chief
+
+e-Committee Newsletter, April 2022              24
+Admin Main Tabs
+
+        The Admin Login has several tab        Management    Tools;      Server
+        options in the NJDG as shown above
+        under the following headings:          Monitoring; NJDG Reports DCMS;
+        Dashboard, Administration; National
+        Masters; News Section; Data            E-Pay; Virtual E-Pay; Open API;
+        Monitoring;
+                                               Defunct; Help Desk; CSC; and
+      Admin Sub menus
+                                               Requirement.
+        Under each of the main NJDG tabs, a
+        bundle of sub-menus are available.     Summary Report of Courts, etc.
+        For example, under the tab "Data
+        Monitoring", there are 15 sub-menus    Similarly, under the tab "NJDG'',
+        as shown on the right side of the
+        screenshot above. It includes options  several important sub-menus are
+        such as Year Wise Victim Count,
+        Email Sent Count, Mobile Email         made available, including Query
+        Details, Court Complex Report,
+                                               Builder, Return Report, Judgewise
+e-Committee Newsletter, April 2022
+                                               Disposal,     Establishment-wise
+
+                                               Reports, Police Station-wise
+
+                                               Pendency, Case Type Wise, etc. The
+
+                                               list of sub-menus is available under
+
+                                                                     25
+the "NJDG" tab and is also captured    review and discussion of a crime
+in the screenshot herewith. These      meeting. These data are real-time
+NJDG reports can be put to multiple    statistics that can be put to use to
+uses. For example, if a crime meeting  improvise the efficiency of various
+is arranged, the details of the        Courts. The other tabs and their
+station-wise pendency report of        submenus are tabulated herewith for
+NJDG reports can be utilised for       easy reference.
+
+e-Committee Newsletter, April 2022     (to be continued).......
+
+                                                                   26
+e-Courts Statistics:
+
+No. of cases dealt through Video Conferencing in High Courts/ District Courts
+during the lockdown as of 30 April 2022
+
+                                     Total No. of cases dealt through  Total No. of cases dealt on Video
+                                    Video Conferencing in High Court    Conferencing in District Courts
+
+S. No.         High Court                          and Bench                                              Total
+
+                                    From Date To Date        Total     From Date  To Date     Total
+                                       22-3-2020 31-03-2022  Cases                31-03-2022  Cases
+
+1       Allahabad                                            240838    22-3-2020              2879359     3120197
+
+2       Andhra Pradesh              26-3-2020 30-04-2022     53536     26-3-2020 30-04-2022   684471 738007
+                                     1-2-2022 30-04-2022
+3       Bombay                      22-3-2020 31-03-2022     17151     1-2-2022 30-04-2022    20407       37558
+                                    22-3-2020 30-04-2022
+4       Calcutta                    22-3-2020 30-04-2022     128000    22-3-2020 31-03-2022   71422 199422
+                                    22-3-2020 01-03-2022
+5       Chhattisgarh                                         102893    22-3-2020 30-04-2022   31201 134094
+                                    23-3-2020 30-04-2011
+6       Delhi                       23-3-2020 30-04-2022     317209    22-3-2020 30-04-2022 2996145 3313354
+                                    22-3-2020 30-04-2022
+7       Gauhati - Arunachal         23-3-2020 31-03-2022     2291      22-3-2020 04-01-2022   8128        10419
+                                    22-3-2020 01-05-2022
+        Pradesh
+
+8       Gauhati - Assam                                      165318    26-3-2020 30-04-2022   276809 442127
+
+9       Gauhati - Mizoram                                    3963      23-3-2020 30-04-2022   13268       17231
+
+10 Gauhati - Nagaland                                        77        22-3-2020 30-04-2022   107         184
+
+11 Gujarat                                                   33721     23-3-2020 31-03-2022   186447 220168
+
+12 Himachal Pradesh                                          91952     22-3-2020 01-05-2022   35661 127613
+
+e-Committee Newsletter, April 2022                                                            27
+13 Jammu and Kashmir                22-3-2020 30-04-2022   256232    22-3-2020 30-04-2022  287744 543976
+14 Jharkhand                        22-3-2020 30-04-2022   213104
+15 Karnataka                        23-3-2020 30-04-2022   780305    22-3-2020 30-04-2022  631909 845013
+16 Kerala                           22-3-2020 30-04-2022   154043
+17 Madhya Pradesh                   23-3-2020 31-03-2022   664649    23-3-2020 30-04-2022  112324 892629
+18 Madras                           26-3-2020 30-04-2022  1423438
+19 Manipur                          15-4-2020 31-03-2022     38515   24-3-2020 30-04-2022  488725 642768
+20 Meghalaya                        22-3-2020 30-04-2022
+21 Orissa                           23-3-2020 31-03-2022      1615   23-3-2020 31-03-2022  704367 1369016
+22 Patna                            24-3-2020 30-04-2022   256676
+23 Punjab and Haryana               23-3-2020 30-04-2022   242047    26-3-2020 30-04-2022  305503 1728941
+24 Rajasthan                        22-3-2020 30-04-2022   581047
+25 Sikkim                           24-3-2020 30-04-2022   224972    15-4-2020 31-03-2022  15262  53777
+26 Telangana                        22-3-2020 30-04-2022
+27 Tripura                          22-3-2020 30-04-2022        472  22-3-2020 30-04-2022  13287  14902
+28 Uttarakhand                      15-4-2020 30-04-2022   298589
+                                                             10502   19-3-2020 31-03-2022  212551 469227
+                        Total                                73406
+                                                          6376561    24-3-2020 30-04-2022 1805852 2047899
+
+                                                                     23-3-2020 30-04-2022  670111 1251158
+
+                                                                     22-3-2020 30-04-2022  177267 402239
+
+                                                                     24-3-2020 30-04-2022  6560   7032
+
+                                                                     22-3-2020 30-04-2022  190327 488916
+
+                                                                     22-3-2020 30-04-2022  10436  20938
+
+                                                                     15-4-2020 30-04-2022  40899 114305
+
+                                                                                           12876549 19253110
+
+e-Committee Newsletter, April 2022                                                         28
+Statistics of Virtual Courts - As of 30 April 2022
+
+Sr.  Virtual Court Name             Received  Proceedings  Contested  Paid      Fine
+                                              completed               Challans  Collected
+No
+                                                                                    10160081
+1    Assam Traffic Department       54028     53286        266        14571           64500
+
+2    Chhattisgarh Traffic           81        80           0          31             123601
+                                                                                     464753
+     Department
+                                                                                     231460
+3    Haryana Traffic Department     8204      1553         12         141           68242980
+
+4    Himachal Pradesh Traffic       8407      6959         4          127           8113333
+                                                                                    3379941
+     Department
+
+5    Jammu Traffic Department       509       433          15         159
+
+6    Karnataka Traffic              20051     20020        119        14649
+                                    71731     53574
+     Department                     42238     37403
+
+7    Kashmir Traffic Department                            370        16289
+
+8    Kerala Traffic Department                             107        6587
+
+9    Kerala Transport               197012    154959        644       25808     32188151
+                                     27426     12100         20         741      1797905
+     Department                     9194856   9098744      34809      896923    644638355
+                                     53596     46457        112        4109      4057501
+10   Maharashtra Transport            6080      6056         16         467        93350
+
+     Department
+
+11   Notice Branch Delhi Traffic
+
+     Department
+
+12   Odisha Traffic CTC-BBSR
+
+     Commissionerate
+
+13   Pune Traffic Department
+
+14   Tamil Nadu Traffic               85022   81648        716        25830     200388760
+                                    2462610
+     Department                     3122832
+                                    15355642
+15   Uttar Pradesh Traffic                    2278237       4316      111225     66830425
+                                              3098373      87164      1329728   1436091982
+     Department                               14949895     128691     2447392   2476867085
+
+16   Virtual Court Delhi (Traffic)
+
+     Total
+
+e-Committee Newsletter, April 2022                                              29
+Status of implementation of NSTEP as of 30.04.2022
+
+S.No  High Court                    Server Processes as  Server Processes as  Progress Percentage
+                                    on 04.01.2022        on 30.04.2022
+                                                                                          17.12
+1     Andhra Pradesh                695                  119                             120.83
+
+2     Assam                         4350                 5256                            298.43
+                                                                                         100.00
+3     Bihar                         12071                36023                            66.74
+                                       3                    3                            155.75
+4     Chandigarh                                                                         100.00
+                                                                                         100.00
+5     Chhattisgarh                  12428                8294                            100.00
+                                    16761                26105                           155.96
+6     Delhi                                                                              100.00
+                                       4                    4                             90.91
+7     DNH at Silvasa                                                                     100.00
+                                                                                         117.65
+8     Gujarat                       45                   45                              112.79
+                                                                                         159.44
+9     Haryana                       3                    3                               172.38
+                                                                                         165.07
+1     Himachal Pradesh              1653                 2578                            114.17
+10                                                                                        60.00
+                                                                                         533.41
+11 Jammu and                        33                   33                              122.63
+      Kashmir                                                                            103.78
+                                                                                         109.00
+12    Jharkhand                     11                   10                              184.86
+                                                                                          96.78
+13    Karnataka                     514                  514                             153.44
+
+14    Kerala                        135574               159501                          190.93
+                                       86                   97
+15    Madhya Pradesh
+                                    24170                38537
+16    Maharashtra                   55896                96352
+                                      229
+17    Manipur                                              378
+
+18    Mizoram
+
+19    Orissa                        127                  145
+
+20    Puducherry                    5                    3
+
+21    Punjab                        437                  2331
+
+22    Rajasthan                     15339                18810
+
+23    Sikkim                        27089                28113
+
+24    Tamil Nadu                    2479                 2702
+
+25    Telangana                     61301                113324
+                                    39439                38171
+26    Tripura
+
+27    Uttar Pradesh                 9680                 14853
+
+      Implemented                   38451                73415
+
+e-Committee Newsletter, April 2022                                            30
+Status of implementation of Rules of V.C as of 30 April 2022
+
+S.No            High Court          Whether the Rules of Video   Whether the Rules of Video
+                                    conferencing is implemented  Conferencing is
+  1                                 in High Court                implemented in District Courts
+  2
+  3   Allahabad                     Yes                                            Yes
+  4                                                                                 No
+  5   Andhra Pradesh                No                                              No
+  6                                                                                Yes
+  7   Bombay                        No                                             Yes
+  8                                                                                Yes
+  9   Calcutta                      Yes                                             No
+ 10                                                                                Yes
+ 11   Chhattisgarh                  Yes                                            Yes
+ 12                                                                                 No
+ 13   Delhi                         Yes                                            Yes
+ 14                                                                                Yes
+ 15   Gauhati - Arunachal Pradesh   No                                             Yes
+ 16                                                                                Yes
+ 17   Gauhati - Assam               Yes                                            Yes
+ 18                                                                                Yes
+ 19   Gauhati - Mizoram             Yes                                            Yes
+ 20                                                                                Yes
+ 21   Gauhati - Nagaland            No                                             Yes
+ 22                                                                                Yes
+ 23   Gujarat                       Yes                                            Yes
+ 24                                                                                Yes
+ 25   Himachal Pradesh              Yes                                            Yes
+ 26                                                                                Yes
+ 27   Jammu and Kashmir             Yes                                            Yes
+ 28                                                                                Yes
+      Jharkhand                     Yes                                            Yes
+                                                                                   Yes
+      Karnataka                     Yes
+                                                                                    24
+      Kerala                        Yes
+                                                                                     4
+      Madhya Pradesh                Yes
+
+      Madras                        Yes
+
+      Manipur                       Yes
+
+      Meghalaya                     Yes
+
+      Orissa                        Yes
+
+      Patna                         Yes
+
+      Punjab and Haryana            Yes
+
+      Rajasthan                     Yes
+
+      Sikkim                        Yes
+
+      Telangana                     Yes
+
+      Tripura                       No
+
+      Uttarakhand                   Yes
+
+      Implemented                   23
+
+      Not Implemented               5
+
+e-Committee Newsletter, April 2022                               31
+Status of Implementation of Rules of e-Filing as of 30 April 2022
+
+S.No. High Court                    Whether Rules of e-Filing is    Whether Rules of e-Filing is
+                                    implemented in High Court     implemented in District Courts
+1  Allahabad
+                                                    Yes                             Yes
+2  Andhra Pradesh                                   No                              No
+                                                    No                              No
+3  Bombay
+                                                    Yes                             No
+4  Calcutta                                         Yes                             Yes
+                                                    Yes                             Yes
+5  Chhattisgarh                                     No                              No
+
+6  Delhi                                            Yes                             Yes
+                                                    Yes                             Yes
+7  Gauhati - Arunachal                              No                              No
+   Pradesh                                          No                              No
+                                                    Yes                             Yes
+8  Gauhati - Assam                                  Yes                             Yes
+                                                    Yes                             Yes
+9  Gauhati - Mizoram                                Yes                             Yes
+                                                    Yes                             Yes
+10 Gauhati - Nagaland                               Yes                             Yes
+                                                    Yes                             Yes
+11 Gujarat                                          No                              No
+                                                    No                              No
+12 Himachal Pradesh                                 No                              No
+                                                    Yes                             Yes
+13 Jammu and Kashmir                                No                              No
+                                                    No                              No
+14 Jharkhand                                        Yes                             Yes
+                                                    Yes                             Yes
+15 Karnataka                                        Yes                             Yes
+                                                    Yes                             Yes
+16 Kerala                                            18                              17
+                                                     10                              11
+17 Madhya Pradesh
+                                                                                              32
+18 Madras
+
+19 Manipur
+
+20 Meghalaya
+
+21 Orissa
+
+22 Patna
+
+23 Punjab and Haryana
+
+24 Rajasthan
+
+25 Sikkim
+
+26 Telangana
+
+27 Tripura
+
+28 Uttarakhand
+          Implemented
+
+   Not Implemented
+
+e-Committee Newsletter, April 2022
+Status of implementation of e-Sewa Kendras as of 30 April 2022
+
+S.No            High Court             Whether the e-Sewa      Whether the e-Sewa          Functioning
+                                    Kendra is implemented in  Kendra is iminplemented  e-Sewa Kendras in
+  1          Allahabad
+  2      Andhra Pradesh                      High Court            District Courts       District Courts
+  3                                                 Yes
+  4           Bombay                                Yes                     Yes                   74
+  5           Calcutta                              Yes
+  6        Chhattisgarh                             Yes       No                       0
+  7                                                 Yes
+                Delhi                               Yes       Yes                      40
+  8   Gauhati - Arunachal
+                                                    Yes       Yes                      3
+  9           Pradesh
+ 10     Gauhati - Assam                             Yes       Yes                      1
+ 11
+ 12    Gauhati - Mizoram                            Yes       Yes                      7
+ 13    Gauhati - Nagaland                           Yes
+ 14                                                 Yes       No                       0
+ 15            Gujarat                              Yes
+ 16    Himachal Pradesh                              No       Yes 20
+ 17   Jammu and Kashmir                             Yes
+ 18                                                 Yes       Yes                      2
+ 19         Jharkhand                               Yes
+ 20          Karnataka                              Yes       No                       0
+ 21                                                 Yes
+ 22            Kerala                               yes       No                       0
+ 23     Madhya Pradesh                              Yes
+ 24                                                 Yes       Yes                      1
+ 25           Madras                                Yes
+ 26           Manipur                               Yes       Yes                      6
+ 27         Meghalaya                               Yes
+ 28            Orissa                               Yes       Yes                      23
+                                                     No
+                Patna                               Yes       Yes                      10
+      Punjab and Haryana                            Yes
+                                                     26       Yes                      117
+             Rajasthan
+               Sikkim                                 2       Yes                      23
+
+             Telangana                                        Yes                      2
+               Tripura
+                                                              No                       0
+           Uttarakhand
+           Implemented                                        Yes                      1
+
+        Not Implemented                                       Yes                      111
+
+                                                              Yes                      6
+
+                                                              Yes                      27
+
+                                                              Yes                      1
+
+                                                              Yes                      9
+
+                                                              No                       0
+
+                                                              Yes                      15
+
+                                                              Yes                      1
+
+                                                              22                       500
+
+                                                              6
+
+e-Committee Newsletter, April 2022                                                     33
+Status of implementation of Justice Clock in High Courts
+
+Sr.  High Court                     No. of items for which  No. of items
+
+No funds were released procured/purchased
+
+1    Allahabad                      2                       2
+
+2    Andhra Pradesh                 1                       1
+
+3    Bombay                         4                       0
+
+4    Calcutta                       1                       1
+
+5    Chhattisgarh                   1                       1
+
+6    Delhi                          1                       1
+
+7    Gauhati (Arunachal             1                       1
+
+     Pradesh)
+
+8    Gauhati (Assam)                1                       1
+
+9    Gauhati (Mizoram)              1                       1
+
+10   Gauhati (Nagaland)             1                       1
+
+11   Gujarat                        1                       1
+
+12   Himachal Pradesh               1                       1
+
+13   Jammu & Kashmir                2                       0
+
+14   Jharkhand                      1                       1
+
+15   Karnataka                      3                       3
+
+16   Kerala                         1                       1
+
+17   Madhya Pradesh                 3                       3
+
+18   Madras                         2                       2
+
+19   Manipur                        1                       1
+
+20   Meghalaya                      1                       1
+
+21   Orissa                         1                       1
+
+22   Patna                          1                       0
+
+23   Punjab & Haryana               1                       1
+
+24   Rajasthan                      2                       2
+
+25   Sikkim                         1                       1
+
+26   Telangana                      1                       1
+
+27   Tripura                        1                       1
+
+28   Uttarakhand                    1                       1
+
+     Total                          39                      32
+
+e-Committee Newsletter, April 2022                              34
+Status of implementation of e-Payments as of 30 April 2022
+
+S.No High Court                     Whether the Court Fee Act  Whether the e-Payments
+                                    is amended to enable to    facility implemented
+     1 Allahabad                    receive the e-Payments
+     2 Andhra Pradesh                                                         Yes
+     3 Bombay                                         Yes                      No
+     4 Calcutta                                                               Yes
+     5 Chhattisgarh                                    No                     Yes
+     6 Delhi                                          Yes                     Yes
+     7 Gauhati - Arunachal Pradesh                    Yes                     Yes
+     8 Gauhati - Assam                                Yes                      No
+     9 Gauhati - Mizoram                               No                     Yes
+    10 Gauhati - Nagaland                              No                      No
+    11 Gujarat                                        Yes                      No
+    12 Himachal Pradesh                               Yes                      No
+    13 Jammu and Kashmir                               No                     Yes
+    14 Jharkhand                                      Yes                     Yes
+    15 Karnataka                                      Yes                      No
+    16 Kerala                                         Yes                      No
+    17 Madhya Pradesh                                 Yes                      No
+    18 Madras                                         Yes                     Yes
+    19 Manipur                                         No                     Yes
+    20 Meghalaya                                      Yes                     Yes
+    21 Orissa                                         Yes                      No
+    22 Patna                                          Yes                     Yes
+    23 Punjab and Haryana                             Yes                     Yes
+    24 Rajasthan                                      Yes                     Yes
+    25 Sikkim                                         Yes                     Yes
+    26 Telangana                                      Yes                     Yes
+    27 Tripura                                        Yes                      No
+    28 Uttarakhand                                    Yes                      No
+                                                      Yes                     Yes
+              Implemented                             Yes                      17
+                                                      Yes
+              Not Implemented                          23                      11
+
+                                                        5
+
+e-Committee Newsletter, April 2022                             35
+Status of implementation of ICJS as of 30 April 2022
+
+S.No             High Court         Whether ICJS implemented
+  1               Allahabad
+  2           Andhra Pradesh                       Yes
+  3                Bombay                          Yes
+  4                Calcutta                        Yes
+  5             Chhattisgarh                       Yes
+  6                                                Yes
+  7                  Delhi                         Yes
+  8   Gauhati - Arunachal Pradesh                  No
+  9                                                Yes
+ 10           Gauhati - Assam                      Yes
+ 11         Gauhati - Mizoram                      No
+ 12         Gauhati - Nagaland                     No
+ 13                                                No
+ 14                 Gujarat                        Yes
+ 15         Himachal Pradesh                       Yes
+ 16        Jammu and Kashmir                       Yes
+ 17                                                Yes
+ 18              Jharkhand                         Yes
+ 19               Karnataka                        Yes
+ 20                                                No
+ 21                 Kerala                         No
+ 22          Madhya Pradesh                        Yes
+ 23                                                Yes
+ 24                 Madras                         Yes
+ 25                Manipur                         Yes
+ 26              Meghalaya                         Yes
+ 27                 Orissa                         Yes
+ 28                                                Yes
+                     Patna                         No
+           Punjab and Haryana                         21
+
+                  Rajasthan                           7
+                    Sikkim
+
+                  Telangana
+                    Tripura
+
+                Uttarakhand
+              Implemented
+             Not Implemented
+
+e-Committee Newsletter, April 2022                    36
+Status of eFiling in High Courts as of 30 April 2022
+
+S.No                                High Court        eFiling No. Generate Case
+                                                                    162409
+1                                   Patna                           43395
+                                                                    11006
+2                                   Gujarat                          6705
+                                                                     3958
+3     Punjab & Haryana                                               3866
+                                                                     1777
+4                                   Orissa                           1631
+                                                                     1496
+5                                   Karnataka                        1385
+                                                                     1380
+6     Rajasthan High Court, Jaipur Bench                             1112
+                                                                      746
+7     Principal Seat of Madras High Court                             658
+                                                                      643
+8     Rajasthan High Court, Jodhpur                                   597
+                                                                      534
+9     High Court of Jammu & Kashmir, Jammu                            516
+                                                                      467
+10    Andhra Pradesh                                                  380
+                                                                      312
+11    Karnataka, Kalaburagi Bench                                     283
+                                                                      196
+12                                  Sikkim                            186
+                                                                       80
+13    Principal Bench Bombay - Appellate Side                          33
+                                                                       18
+14                                  Tripura                            17
+                                                                    245786
+15    Himachal Pradesh
+
+16                                  Telangana
+
+17    Principal Bench Bombay - Original side
+
+18    Karnataka, Dharwad Bench
+
+19    Calcutta High Court, Appellate Side
+
+20                                  Jharkhand
+
+21    High Court of Bombay - Aurangabad Bench
+
+22    Calcutta High Court, Original Side
+
+23    Madurai Bench of Madras High Court
+
+24                                  Chhattisgarh
+
+25                                  Uttarakhand
+
+26    High Court of Bombay - Nagpur Bench
+
+27    Gauhati (Principal Seat)
+
+28    High Court of Jammu & Kashmir, Srinagar
+
+                                    Total
+
+e-Committee Newsletter, April 2022                                               37
+     Cases registered and disposed in the District and Taluka Courts
+     during the pandemic from 25-03-2020 to 30-04-2022
+
+S.   State       Pending as on 25-03-2020     Registered between              Disposed between      Pending as
+                                            25-03-2020 - 30-04-2022        25-03-2020 - 30-04-2022        on
+no.
+                                                                                                    30-04-2022
+
+                 Civil Criminal Total       Civil Criminal Total           Civil Criminal Total     Total
+
+1 Uttar Pradesh  1771966 6053661 7825627 728616 6220325 6948941 618468 4032005 4650473              10124095
+2 Maharashtra                                                                                       4932007
+3 Bihar          1261405 2708617 3970022 805335 2144108 2949443 551674 1435784 1987458              3395079
+4 West Bengal                                                                                       2667557
+5 Rajasthan      407500 2536138 2943638 125090 1018634 1143724             41647  650636  692283    2118094
+6 Orissa                                                                                            1557094
+7 Madhya         517700 1794803 2312503 220662             790922 1011584 122494  534036  656530    1915905
+
+        Pradesh  464030 1250630 1714660 301701 1420296 1721997 229622 1088941 1318563
+
+                 266989 1064157 1331146 106128             438414  544542  65249  253345  318594
+
+                 332850 1164566 1497416 232425 1455098 1687523 172763 1096271 1269034
+
+8 Kerala         430634 1124740 1555374 354871 1217757 1572628 266670 913823 1180493                1947509
+9 Gujarat                                                                                           1895928
+10 Karnataka     432948 1162612 1595560 275776 2047847 2323623 257506 1765749 2023255               1857904
+11 Tamil Nadu                                                                                       1402423
+12 Delhi         780698             836902 1617600 557343  2581642 3138985 449939 2448742 2898681   1115747
+13 Haryana                                                                                          1346218
+                 681085             517689 1198774 491900  1934752 2426652 395154 1827849 2223003
+
+                 190950             674084  865034 199716  601811  801527 145960  404854  550814
+
+                 322588             570308  892896 285174  879618 1164792 161736 549734   711470
+
+e-Committee Newsletter, April 2022                                                        38
+14 Punjab          286557           388767  675324 295485  829260 1124745 174913  688108  863021     937048
+                                    257894  574107 243821                                            790705
+15 Andhra Pradesh  316213           341366  598810 191426  453566  697387 145192  335597  480789     823084
+                                    315789  386139 44203                                             506424
+16 Telangana       257444           242058  316055 64177                                             443999
+                                    176030  302394 132447                                            467754
+                                                           597315  788741 116275  448192  564467     390678
+                                                                                                     325571
+17 Jharkhand        70350                                  508243  552446  22799  409362  432161     252429
+18 Assam            73997                                                                             74917
+19 Himachal        126364                                  267492  331669  48544  155181  203725      56874
+                                                                                                      34105
+         Pradesh                                           573216  705663 102158  438145  540303      37079
+                                                                                                      16279
+20 Chhattisgarh    57709            228374  286083  49500  382646  432146  34667  292884  327551      12567
+21 Uttarakhand
+22 Jammu &         37461            179632  217093  39425  302115  341540  32097  200965  233062        5894
+                                                                                                        3711
+         Kashmir   76765            114070  190835  67928  220319  288247  48251  178402  226653
+
+23 Chandigarh      18454            31930   50384 15155    38328   53483   9798   19152       28950
+24 Goa
+25 Puducherry      22467            28205   50672 13990    41403   55393 10726    38465       49191
+26 Tripura
+27 Meghalaya       14589            16735   31324 15341    29795   45136 15733    26622       42355
+28 Manipur
+29 Mizoram         8104             19934   28038   8042   53913   61955   6764   46150       52914
+30 DNH at Silvasa
+                   3621             10397   14018   3026   15345   18371   2246   13864       16110
+
+                   6173             3695    9868    7052   14217   21269   4891   13679       18570
+
+                   1714             2993    4707    2839   5563    8402    2241   4974        7215
+
+                   1547             1631    3178    1036   2342    3378    768    2077        2845
+
+e-Committee Newsletter, April 2022                                                        39
+31 Nagaland       272               1612        1884  381   1175  1556  198   469       667                       2773
+32 Diu and Daman                                                                                                  2905
+33 Sikkim         1151              1174        2325  1400  2640  4040  1145  2315      3460                      1972
+34 Ladakh                                                                                                          988
+                  522               905         1427  2365  4373  6738  2115  4078      6193                40943388
+       Total:
+                  331               309         640   721   1367  2088  547   1193      1740
+
+                  9236634 23719808 32956442 5570680 25817189 31387869 3973159 19427764 23400923
+
+Status of eFiling in District Courts as of 30 April 2022
+
+S.No                                High Court                    eFiling No. Generate Case
+
+1 Delhi                                                                                           258777
+2 Tamil Nadu                                                                                       32938
+3 Karnataka                                                                                        28268
+4 Himachal Pradesh                                                                                 27351
+5 Rajasthan                                                                                          2321
+6 Madhya Pradesh
+7 Haryana                                                                                            1132
+8 Sikkim                                                                                             1071
+9 Punjab                                                                                             1006
+10 Chhattisgarh                                                                                       412
+11 Jammu & Kashmir                                                                                    187
+12 Chandigarh
+13 West Bengal                                                                                          14
+14 Assam                                                                                                14
+                                                                                                         9
+                                                                                                         6
+
+e-Committee Newsletter, April 2022                                                  40
+Training/Awareness Programme during April 2022
+
+Training/Awareness Programme for Advocates/Advocate Clerks/ Staffs/
+                  Judicial Officers during April 2022
+
+High Court/          Month             Programme Details            Participants        Participants
+Institutions
+
+Gujarat State        March & Training Programme of CIS Staff of High                        361
+
+Judicial Academy April, 2022           (Core and Periphery)         Court of Gujarat
+
+   Gujarat State      March &           Conduct of Nstep for the        Process             1019
+Judicial Academy     April, 2022       Process Servers/Bailiffs of  Servers/Bailiffs
+
+                                           the District Judiciary
+
+Gujarat State        March & Institutional Training (First Newly Recruited                  29
+
+Judicial Academy April, 2022 Phase) of the Induction Civil Judges and
+
+                                       Training                     JMFC Batch I
+
+Meghalaya State 02.04.2022 Master Trainer Programme Nominated New                           6
+
+Judicial Academy                       for New Master trainers Master Trainers
+
+Judicial Academy, 03.04.2022           Court Management             Judicial Officers       53
+
+Jharkhand                              through CIS
+
+Judicial Academy, 09.04.2022 Master Trainer Programme Systems Officers                      30
+
+Assam                               &  for New Master Trainers of   & Systems
+
+                     10.04.2022 ECMT & Upated features of Assistants of the
+
+                                       CIS                          Subordinate
+
+                                                                    Courts of Assam
+
+Maharashtra 16.04.2022 ICT & eCourts Induction Newly recruited                              6
+
+Judicial Academy                    &  Programme                    Direct District
+
+                     17.04.2022                                     Judges
+
+Judicial Training &  17.04.2022        Refresher programme for        Central Nazir,        1748
+      Research                           Court Staffs & N step      Amins & Process
+                                                  Training          Servers of All the
+    Institute, UP                                                   District Court of
+
+                                                                             UP
+
+e-Committee Newsletter, April 2022                                                      41
+Judicial Academy, 18.04.2022 Refresher programme for Administrative                        253
+
+Jharkhand                               Court Staffs & N step      Head, Nazarat,
+
+                                        Training                   Process Servers
+
+Judicial Academy, 19.04.2022 CIS hands on Training Civil Judge Jr. Div. 225
+     Jharkhand
+
+Madras            19.04.2022            Training On                Advocate Master         37
+
+                                        Implementation Of          Trainers
+
+                                        Mandatory E-Filing Of
+
+                                        Cases In High Court
+
+Judicial Academy, 20.04.2022 CIS hands on Training                 Civil Judge Sr.         122
+
+Jharkhand                                                          Div.
+
+Judicial Academy, 21.04.2022 CIS hands on Training                 District Judges         118
+
+Jharkhand
+
+Uttarakhand       23.04.2022            1st Phase - Training       Administrative          76
+
+Judicial & Legal                        programme for Court        Head Staff &
+
+Academy                                 Managers & Administrative Court Managers
+
+                                        Head Staffs of District    from every
+
+                                        Judiciary                  District
+
+High Court of 23.04.2022 Refresher programme for Staff of District                         130
+
+Andhra Pradesh                          Court Staff                Judiciary
+
+Judicial Training & 24.04.2022 Training Programme for              Advocates /             135
+
+Research                                Advocates/Advocate         Advocate's Clerk
+
+Institute, UP                           Clerks on Ecourts Project
+
+                                        at District Level
+
+Tamil Nadu State 24.04.2022 Master Trainer Programme               Resource                82
+
+Judicial Academy                        for New Master trainers Persons / Master
+
+                                                                   Trainers
+
+Rajasthan         25.04.2022 Hands on Training to Jail             Core Team               5
+
+                                        Authorities on Video       consisting of five
+
+                                        Conferencing Software      techno-savvy
+
+                                                                   persons of Jail
+
+                                                                   HQ
+
+West Bengal 27.04.2022 Master Trainer Programme Nominated New                              38
+
+Judicial Academy                    to  for New Master trainers Master Trainers
+
+                  29.04.2022
+
+e-Committee Newsletter, April 2022                                                     42
+ Rajasthan State   28.04.2022                 Programme for Court        Administrative        175
+Judicial Academy   30.04.2022              Managers & Administrative      Head Staff &         1331
+                   30.04.2022                                           Court Managers
+   West Bengal                                Head Staffs of District       from every          51
+Judicial Academy                                       Judiciary                               6030
+                                                                              District
+   Uttarakhand                                Programme for Court
+ Judicial & Legal                          Managers & Administrative    Youtube Views -
+                                                                               1331
+     Academy                                  Head Staffs of District
+                                                       Judiciary        Technical Staffs
+                                                                        of District Court
+                                            Programme for Technical
+                                             Staffs of District Courts
+
+                                               Total
+
+Status of eFiling 3.0 in District Courts
+
+S.No                                State                               Numbers
+                                                                         42588
+1 Total Cases Final Submitted Kerala                                      7438
+
+2 Total Cases Final Submitted                                              993
+       Maharashtra                                                        51019
+
+3 Total Cases Final Submitted Orissa
+
+      Total Cases Submitted
+
+                                           **********
+
+e-Committee Newsletter, April 2022                                                         43
+

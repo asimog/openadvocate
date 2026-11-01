@@ -1,0 +1,196 @@
+European Case Law Identifier
+
+           Why and How?
+
+Warsaw, 30 September 2011
+
+Marc van Opijnen
+
+Council for the Judiciary, the Netherlands
+
+EU Council Working Party on e-Justice and e-Law
+
+mvanopijnen@rechtspraak.nl                       1
+Topics
+
+ The need for inter-European case law
+   search
+
+ The need for a unique identifier and
+   uniform metadata
+
+ Work at the level of the EU
+ Main elements of the EU Council
+
+   Conclusions.
+
+                                                                                                                                                                                2
+The need for Cross-border
+Access to National Case Law
+
+ Judges: to play their role in the
+   European legal system
+
+ Lawyers and citizens: cross-border
+   procedures in an interdependent
+   Europe
+
+ Legal scholars and policymakers:
+   comparative law studies.
+
+                                                                                                                                                                                3
+Recent initiatives
+
+                                                                                                                                                                                4
+5
+6
+8
+9
+10
+11
+12
+13
+14
+15
+16
+26
+27
+28
+29
+30
+21.2.2011/393 KHO:2011:17
+
+ KHO:2011:17
+ 21.2.2011/393
+ 21.2.2011/393*
+ KHO:2011:17*
+ 1329/2/09 ja 1330/2/09
+ 1329/2/09 and 1330/2/09
+ 1329/2/09*
+
+                                                                                                                                                                               31
+32
+33
+Lacking a Unique Identifier
+
+ How to cite?
+
+     European Court of Justice, 14-10-2004, C-
+         299/02, European Court reports 2004, Page I-
+         09761, Celex-nr 62002J0299,
+         CASELEX:EU:2004:8, BAILII: [2004] EUECJ C-
+         299/02, VLEX-17284540, NJ 2005, 421, a.s.o.
+
+ How to search?
+
+     Trial and error
+
+ How to hyperlink?
+
+     Nearly impossible to hyperlink to a decision, if
+         not published at a specific location.
+
+                                                                                                                                                                               34
+Lacking a Unique Identifier
+
+ The case number
+
+      is not unique (within or between courts)
+      has no strict format
+      contains / ( ) [ ] - or other characters that also occur as
+
+          search engine instructions
+
+ The name of the court
+
+      can be abbreviated or translated
+
+ The date of the judgment
+
+      has no strict format
+
+ Other identifiers are often vendor and/or medium
+    specific.
+
+                                                                                                                                                                               35
+Metadata
+
+ Data about data
+ Filtering or classification of search
+
+   results
+ Giving information on documents
+ Management information
+ More sophisticated applications.
+
+                                                                                                                                                                               36
+Lacking Uniform Metadata
+
+ Every database / application its own
+   set of metadata - comparable only by
+   humans
+
+ Dublin Core hardly applied
+ If applied, not in a uniform way.
+
+                                                                                                                                                                               37
+38
+Action by the EU - 1
+
+ Resolution 2008 by the European
+   Parliament on the role of the national judge
+   in the European judicial system
+
+ e-Justice action plan
+ EU Council working party on legal data
+
+   processing - Task group on national case
+   law: report in 2009
+ Decision by the Council on the principles in
+   December 2009.
+
+                                                                                                                                                                               39
+Action by the EU - 2
+
+ Elaboration by the task group, together
+   with standardization initiatives, Court
+   of Justice, judicial networks
+
+ Detailed Council conclusions,
+   December 2010
+
+ Publication in Official Journal in 2011:
+
+        http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:C:2011:127:0001:0007:EN:PDF
+
+                                                                                                                                                                               40
+Council Conclusions
+
+ ECLI syntax
+ Metadata
+ National co-ordinator
+ ECLI website
+ ECLI search interface.
+
+                                                                                                                                                                               41
+ECLI website
+
+ As part of the e-Justice website at
+   https://e-justice.europa.eu
+
+ European Commission responsible for
+   maintenance.
+
+                                                                                                                                                                               42
+ECLI search interface
+
+ Part of the ECLI website
+ Search by ECLI or by metadata ...
+ in all possible repositories
+ To be materialized in the coming year.
+
+                                                                                                                                                                               43
+Thank you
+
+                                                                                                                                                                               44
+

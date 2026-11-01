@@ -1,0 +1,1617 @@
+                          MINISTRY OF HEALTH & FAMILY WELFARE
+
+NATIONAL COMMITTEE ON META DATA AND DATA STANDARDS FOR
+                                        HEALTH DOMAIN
+
+PART I- OVERVIEW REPORT- HEALTH DOMAIN METADATA
+                           AND DATA STANDARDS
+
+                                               Version 1.0
+                                         Released: Aug 2018
+Metadata of MDDS Health Domain
+
+S. No.  Data Elements        Values
+1.      Title                Metadata and Data Standards (MDDS)- Health Domain
+2.      Title Alternative    MDDS-Health
+3.      Document Identifier  MDDS- Health: V1
+4.      Document Version,    Version: 1.0
+        month, year of       Aug 2018
+5.      release
+6.      Present Status       Released
+        Publisher            Department of Health & Family Welfare, Ministry of Health
+7.                           & Family Welfare (MoHFW), Government of India (GoI)
+8.      Date of Publishing   Aug 2018
+        Type of Standard     Technical Specification
+9.      Document
+        Enforcement          For Health related software
+10.     Category
+        Creator              Expert Committee for Metadata and Data Standards for
+11.                          Health Domain, under the Chairmanship of Shri Lav
+12.     Contributors         Agarwal, Joint Secretary to Government of India.
+        Brief Description    Refer acknowledgement section of this report
+                             Interoperability among e-Governance applications for health
+                             sector requires exchange of information across applications.
+                             There is a need for commonly accepted data definitions for
+                             the various data elements used in e-Governance systems in
+                             Healthcare. Hence, standardization of data elements is the
+                             prerequisite for systematic development of e-Governance
+                             applications in health sector.
+                             On same lines, Health Domain has made an effort to identify
+                             and define data elements and the relevant code directories of
+                             domain so that to bring uniformity in usage and context of
+                             data elements. This is an introductory document which will
+                             facilitate the reader in better understanding of Health
+                             domain MDDS.
+
+13. Target Audience           All stakeholders in Central and state Govt., as well as
+
+                             Public and Private Organizations/Hospitals involved in
+
+                             design, development, implementation, upgrade, re-
+
+                             engineering or interoperability of e-Governance
+
+                             applications for Health Domain.
+
+                              All national and state level Public Health Administrators,
+
+                             Health IT program managers and system designers.
+
+                              Program managers of National Health Programs,
+
+                             Development and, publicly funded health programs,
+
+                             Welfare Schemes, insurance programs.
+
+14. Owner of approved Ministry of Health & Family Welfare, GoI, New Delhi
+
+                             2
+     standards
+
+15. Subject                Metadata and Data standards
+
+16. Subject Category       Health Domain
+
+17.  Coverage Spatial      India
+
+18. Format                 PDF
+
+19. Language               English
+
+20. Copyrights             MoHFW, GoI,
+
+21. Source                 Different sources, as indicated in the reference section of this
+
+     (Reference to the document.
+
+     resources     from
+
+     which      present
+
+     resource is derived)
+
+22. Relation
+
+     (Relation with other a. Metadata and Data Standards - Demographic v1.1
+
+     e-Governance          b. Institutional Mechanism for formulation of Domain
+
+     standards notified    specific MDDS
+
+     by MeitY)
+
+                                    3
+Amendment Log
+
+Old Version  Briefing about change request and  New version No.,  The sections,
+No., Month   action taken                       Month and year    which have been
+and Year                                                          revised/ new
+                                                                  sections added
+
+               4
+Contents
+
+Acknowledgement ............................................................................................................................... 6
+Terms of Reference of Health Domain Committee ......................................................................... 7
+Executive Summary ............................................................................................................................. 8
+Note to the Reader ............................................................................................................................. 10
+
+   1. Introduction ............................................................................................................................ 11
+   2. Purpose of Health Domain MDDS ...................................................................................... 11
+   3. Structure of the MDDS Standard ......................................................................................... 12
+   4. What is Common Data Element?......................................................................................... 13
+   5. Health Domain MDDS: Conceptual Framework .............................................................. 14
+   6. Identifiers ................................................................................................................................ 17
+   7. Common Data Element Entities........................................................................................... 21
+   8. Using MDDS Standards ........................................................................................................ 25
+   9. Interoperability Solution ....................................................................................................... 27
+   10. Institutional Framework for MDDS implementation ................................................... 31
+   11. Concluding Remarks ......................................................................................................... 34
+Abbreviations ..................................................................................................................................... 35
+References ........................................................................................................................................... 36
+
+                                                             5
+Acknowledgement
+
+The Ministry of Health & Family Welfare & members of Health Domain MDDS Committee
+would like to thank Indian & International Health Informatics professionals who have
+provided valuable contributions towards development of Health Domain Meta Data & Data
+Standards.
+The MDDS Committee acknowledges and thanks Mr. Sunil Kumar, (Senior Technical
+Director, National Informatics Centre), Dr. Meenakshi Mahajan, (Senior Technical Director,
+National Informatics Centre) and her team for providing necessary help in standards
+development. The Committee would also like to acknowledge the help and support
+provided by MCTS Division; e-Gov Consulting team in MoHFW, C-DAC team & Rajasthan
+Medical Services Corporation team. A big acknowledgement goes to EHR Committee
+Members for verifying & reviewing the standards.
+The MDDS Committee acknowledges, the secretariat role played by National Health
+Systems Resource Centre (NHSRC) for the MDDS Committee. The intensive efforts & work
+contributed by two partner agencies `Taurus Glocal Consulting' & `United Health Group'
+and the considerable expertise they brought to this work is greatly appreciated and
+acknowledged. The committee also appreciates the technical support received from
+International Health Informatics Experts Prof. Sundeep Sahay & Mr. Bob Jolliffe.
+The full time professional team that worked for this secretariat are: NHSRC- Dr. Amit
+Mishra, Taurus Glocal Consulting -Dr.Pankaj Gupta, Mr. Krishan Bhardwaj, Dr.Savita
+Gupta and Ms. Anjali Nanda, United Health Group- Mr. Ranjan Prasad, Dr. Lokesh Gupta,
+Mr. J. P. Pattanaik and Ms. Akanksha.
+
+                                                                                                    Shri Lav Agarwal
+                                                                                                           Chairperson
+
+                                        Committee on Meta Data & Data Standards in Health Domain
+                                                                          Ministry of Health & Family Welfare
+                                                                                                             New Delhi
+
+                                                             6
+Terms of Reference of Health Domain
+Committee
+
+a) To identify generic data elements in the health domain, which are common across e-
+    Governance applications within the domain as well as other domains involved in
+    providing sectoral services delivery under e-governance.
+
+b) To study the global standards for standardising the metadata of identified generic data
+    elements for adoption as Indian standards.
+
+c) To develop own standards / extension of global standards in Indian context, wherever
+    required, around policy on open standards, and in synergy with other domain
+    committees by following Institutional Mechanism for formulation of Domain specific
+    MDDS formulation published by MeitY .
+
+d) Create and maintain repository of metadata of standardised generic standards, and
+    include the same in central repository by having liaison with e-Gov standards Div, NIC.
+
+e) Ensure enforcement of standards in the applications being developed in health domain
+    at central/ state Government level.
+
+f) To advise for identification of suitable test suits for conformance testing of the
+    implementation.
+
+Health Domain MDDS Committee Members
+
+1.  Joint Secretary (e-Governance), MoHFW            Chairperson
+
+2.  Sh. Sunil Kumar, Senior Technical Director, NIC  Member
+
+3.  Ms. Kavita Bhatia, Addl. Director (e-Governance), Member
+
+    MeitY
+
+4.  ED, NHSRC                                        Member- Nominee
+
+5.  Director (Stats), MoHFW                          Member
+
+6.  Capt.(Ms.) Kapil Chaudhary, Director (NHM -II), Member
+
+    MoHFW
+
+7.  Dr Madhu Raikwar, Director, CBHI, MoHFW          Member
+
+8.  Project Director, CHI                            Member
+
+9.  Representative from Registrar General of India Office Member
+
+10. Representative from Ministry of Panchayati Raj   Member
+
+11. Representative from STQC Directorate, MEITY      Member
+
+12. Sh. Jitendra Arora- Director (eGov), MoHFW       Member Secretary
+
+                             7
+Executive Summary
+
+Under the National e-Governance Plan (NeGP), several initiatives have been taken for the
+growth of e-Governance in the country. The success of e-Governance systems needs
+seamless sharing and exchange of data among the e-Governance applications within/across
+domains. Standards play a pivotal role here. Ministry of Electronics and Information
+Technology (MeitY) has set up an Institutional Mechanism for evolving/ adopting standards
+for e-Governance applications.
+
+The Health Domain MDDS Committee is an initiative, constituted on Sept 2012, under the
+chairmanship of Joint Secretary (Policy) with the senior technical officer of NIC as its
+member secretary. The secretariat is located in the National Health System Resource Centre
+(NHSRC), entrusted with the task of extensive stakeholder consultations and recruiting
+appropriate technical agencies to support this work. The process included a study of existing
+systems and their interoperability issues and a study of global data and interoperability
+standards.
+
+For identification of diseases, clinical procedures, laboratory and diagnostic tests and
+therapeutic interventions, standards referenced by MDDS committee include ICD-10,
+SNOMED-CT, LOINC, HL7 v2.x, HL7 v3 RIM, Canadian Classification of Health
+Intervention (CCI), WHO Morbidity and WHO Mortality list etc. MDDS also absorbed all
+recommendations made by the EHR Committee report (Dec-2016). Existing programmes
+and systems such as MCTS, IDSP, RNTCP, Drug Inventory & Distribution system of
+Rajasthan were also studied to identify relevant common data elements and metadata. One
+of the challenges that this committee has addressed is the establishment of a set of
+"identifiers"- i.e. standards for identifying the Facility, the Medical Provider, Patient, and all
+others handling healthcare data so that information across different locations can be
+exchanged easily and securely.
+
+The Meta Data and Data Standards are developed following the guidelines set by the MeitY
+and are organised in four parts:
+
+         Part I: The Overview
+         Part II: Data Elements: Quick Reference
+         Part III: Code Directories: Quick Reference; Sample Values and their structure:
+         Part IV: Metadata of Data Elements
+The first of these parts is this report, whereas the other three parts are made available only
+as soft copy format on the MoHFW, NHM and NHSRC websites.
+
+Part 1 provides an overview of Health Domain MDDS which will help reader in
+understanding other parts of Health MDDS. It talks about how MDDS is structured for
+domain vis-à-vis listing of data elements, their metadata, code directories (controlled values
+for some data elements) and their structure.
+
+                                                             8
+Part II lists different data elements of Health domain along with their commonly defined
+context-based data definitions, data formats and maximum sizes. Approximately 1000 data
+elements are identified for health domain and are grouped under logical entities such as
+Patient, Examination, Diagnosis, Mortality, Pharmacy etc. Grouping of data elements under
+these entities would make MDDS better manageable and easier to use.
+In case of certain data elements, the values need to be controlled and are defined in advance
+for using them uniformly within/across domain applications. For such data elements, Code
+Directories are defined.
+Part III lists down Code Directories where set of values are used from established sources.
+The structure of Code Directories is illustrated indicating source of Code Directory,
+ownership details, etc.
+Part IV has metadata for each data element identified by MDDS.
+In addition to the above, the document provides annexures with sample data sets for users
+of the Health Domain MDDS for drug inventories and blood banks. The system specific
+integration recommendations are also included in the annexure.
+As the National Health Mission moves towards the goal of Universal Health Coverage, one
+of the key challenges is to provide the information architecture for the increasingly large and
+growing complexity of information needs of service users, healthcare providers, of hospital
+and health managers and for e-governance. Establishing nationwide interoperability,
+domain specific metadata and data standards and interoperability standards is one of the
+key steps in the endeavour to better manage this complexity.
+Implementation of these standards requires an institutional measure in the form of a
+National Digital Health Authority charged with the management, promotion, adoption and
+compliance with these standards. Though MDDS is an essential pre-condition of
+interoperability it is not sufficient. Interoperability requires solutions at the semantic level, at
+the technical level and at the institutional level.
+MDDS solves the problems at the semantic level. Inter-operability at the technical level
+would require specific integration solutions. Inter-operability at the institutional level would
+require a dialogue between public health organizations, to understand information needs, as
+well as barriers to better quality and use of information. Solving the semantic and technical
+barriers brings inter-operability much closer, but there would be still challenges to face. The
+MDDS publication is thus the first step of a long journey, not its destination.
+
+                                                             9
+Note to the Reader
+
+The Health Domain MDDS has created Common Data Element which is meant for the use of
+Healthcare-IT Professionals involved in requirement analysis, system design, upgrade, re-
+engineering or interoperability of Healthcare-IT applications. Though Healthcare
+terminology much of which is derived from Greek and Latin, is largely limited to code
+directories. Some key words could have a different meaning in general English as compared
+to its use in Healthcare Informatics. For Example- The keyword `Provider' has a specific
+meaning in healthcare i.e. Service Provider e.g. Physician, Dentist, Nurse etc.; whereas the
+word provider in English can mean anything e.g. main bread winner or provider of a family.
+Therefore non-Healthcare-IT professional while reviewing this list of Common Data
+Elements, would find it advisable to refer to a standard Medical Dictionary e.g. Steadman's
+or keep a Healthcare-IT professional handy. We also provide a Glossary of terms for the
+uninitiated audience.
+The Meta Data & Data Standards published by MeitY titled as `Metadata and Data
+Standards - Demographic (Person Identification and Land Region Codification)1 V1.1, Nov
+2011' is referred by Health Domain for data elements specific to Person Identification, Land
+Region Codification and for other common data elements. Users are suggested to read
+Health Domain Metadata & Data Standards in addition to the above mentioned publication
+by MeitY. The above mentioned document should also be referred to know more about
+Metadata & Data Standards.
+
+1http://egovstandards.gov.in/sites/default/files/MDDS_Demographic_Ver1.1.pdf
+
+                                                            10
+ 1. Introduction
+
+The Metadata and Data Standards is an initiative taken by Ministry of Communication and
+Technologies under National e-Governance Plan (NeGP). The intent was to promote the
+growth of e-Governance within the country by establishing interoperability across e-
+Governance applications for seamless sharing of data and services. Under the MDDS
+initiative domain specific committees have been constituted in priority areas. The Health
+Domain MDDS Committee was one such initiative, which was constituted on Sept 2012,
+under the chairmanship of Joint Secretary in pursuance of communication received from
+Secretary, Ministry of Electronics and Information Technology (MeitY) previously known as
+Ministry of Communication and Technology.
+
+Post formation, the Committee had initial orientation meetings on Metadata and Data
+Standards development for health domain. After initial discussions, National Health System
+Resource Centre was constituted as secretariat for the committee. To help develop Meta
+Data & Data Standards, two agencies were brought on-board following a proper selection
+process based on their merit on Health informatics. The due diligence was thoroughly done
+to study the landscape of existing health domain by involving all relevant stakeholders and
+knowledge partners including Program Officers and System Managers of Central and State
+Health IT Systems. As part of terms of reference, a thorough study of global data and
+interoperability standards were taken into account.
+
+Initially generic data elements were extracted from the existing health IT systems. However
+these existing systems were geared towards addressing specific program requirements
+which was falling short to address the vast scope of Health domain. The other challenge was
+that data elements of these systems were not aligned with global data standards. Efforts
+were made to adopt and modify global standards in such a way that these existing
+applications could easily be upgraded to MDDS standards.
+
+The exercise yielded to approximate 1000 data elements which were regrouped and
+formatted into 39 entities for better assimilation and presentation. These data elements will
+serve as the common minimum data elements for development of IT applications for various
+sub domains of health care. This is intended to facilitate interoperability among all these
+applications.
+
+ 2. Purpose of Health Domain MDDS
+
+The adoption of Metadata and Data Standards across healthcare IT systems will enable
+easier, efficient exchange and processing of data. It will also remove ambiguities and
+inconsistencies in the use of data. Once the MDDS standards are adopted by all e-
+Governance applications in healthcare, the interoperability would be easier.
+
+Inevitably the migration to these new Standards may appear at the outset to be costly and
+time-consuming to some parts of government. However this burden should be outweighed
+by reduced development costs through the use of the agreed schemas that use these
+
+                                                            11
+Standards. It is also expected that new IT system in healthcare, as and when they come will
+use MDDS standard and will participate in information sharing and data exchange.
+
+3. Structure of the MDDS Standard
+
+The Metadata and Data Standards in Health Domain are developed following below
+mentioned guidelines set by MeitY.
+
+    a. Metadata and Data Standards - Demographic v1.1
+    b. Operational Manuals for formulation of Domain specific MDDS
+    c. Institutional Mechanism for formulation of Domain specific MDDS
+
+As per the guidelines the MDDS Standards are broadly covered under three sections as
+given below.
+1. Data Element Quick Reference (ref: Part-II)
+2. Code Directory Quick Reference, Sample values and their structure (ref: Part-III)
+3. Data Element Metadata (ref: Part-IV)
+
+Data Elements common across all health domain applications are listed, defined and
+standardised in the Data Element Quick Reference document (Part II). This list gives brief
+description about the data elements in addition to the data format & size it follows. For easy
+readability the data elements are grouped in various entities. However these entities should
+be considered as logical grouping only and users are free to regroup these data elements as
+per their need. Under the quick reference document, each data element is classified into four
+categories to help identify following:-
+
+     Data elements which can be used from health domain to other domains (Prospective
+         Generic Across Domain (Viz.: PGAD))
+
+     Data elements which are common within health domain (Prospective Generic Within
+         Domain (Viz.: PGWD)),
+
+     Data elements which are customised from already standardized generic data
+         elements (Custom (Viz.: C))
+
+     Data elements which are application specific in health domain (Application (Viz.:
+         A)).
+
+Health Domain MDDS has followed ISO/IEC 11179 standard for development of data
+elements, value sets and code directories. As per the conceptual design of data element in
+ISO/IEC 11179, each data element can have a single value or multiple values attached to it.
+The data element which has a single value will be complete in itself and if a data element has
+a limited list of values associated with it, then those values will be a part of value list for that
+data element. However if there is a long list of complex values for the data element, they
+have been put in relevant code directories. Values in the code directories can grow and
+mature with review and modification.
+
+Code Directory Quick Reference document is ready reference to the code directories
+developed (Part III). This indicates name of code directory, source of code directory and the
+
+                                                            12
+ownership rights for each of the code directory. The metadata of each code directory is given
+in the Code Directory Meta Data and the sample values for each code directory are also
+populated in the Part III of the MDDS Standard. The sample value for each code directory is
+populated in the Part III. Some code directories (i.e. Inventory Store Master; Employee
+Master; Service Tariff; Package; OT Preference Card; Blood Bank Master; Ward; Bed;
+Authority; Supplier Master; Laboratory Master; Floor Master), which are highly
+implementation specific, no sample values are populated and it is expected that each
+implementer will populate the values in these code directories and help MDDS committee to
+enrich these code directories. In addition there are few code directories (i.e. Test Result
+Reference Range; Homeopathic Generic Drug; Non-Drug Item Brand; Homeopathic Brand
+Drug; Brand Drug; Manufacturer Master; Equipment Classification; Equipments; Ayurvedic
+Generic Drugs; Ayurvedic Brand Drugs; Unani Generic Drugs; Unani Brand Drugs) for
+which standard value set is presently not available. Domain specific Working Groups would
+be constituted to help populate these code directories. Work is presently going on for
+population of remaining 8 Code Directories (Facility Master; Facility Type; Ownership
+Authority; Facility Area Coverage; Facility Beds; Facility Human Resources Type;
+Administrative Linked or Referral Facility; Facility Services Master) which are part of the
+National Health Facility Registry initiative of MoHFW.
+
+4. What is Common Data Element?
+
+The Health Domain MDDS Committee provides a list of data elements that will serve as the
+common data elements [CDE] for any new application being developed in Health domain.
+
+The need for the CDE arose because most of the Healthcare-IT applications are being
+developed without any standards by different agencies and vendors in public and private
+sector in India. Later it becomes difficult to connect the systems and make them talk to each
+other because they were never designed for that purpose.
+
+Due to the inherent complexity of Health domain - It is difficult to create minimum set of
+data elements that every sub-domain must adhere. Each sub-domain's minimum data
+element may not be completely applicable to other sub-domains - meaning `My minimum
+need not be your minimum'. For example the Lab Order data elements required at Primary
+care setting will be far less than the Lab Order data elements required at Secondary care and
+Tertiary care settings.
+
+Therefore the health domain MDDS committee has come up with the Common Data
+Elements. CDE will provide most of the data elements required for any new Healthcare
+application to be built. However the users may add additional data elements above and
+beyond the CDE for their local needs. Using CDE the applications would be able to share
+information with each other. There are two ways to use CDE, either use CDE from the
+design phase of application development or make applications compliant with the CDE post
+
+                                                            13
+implementation. The latter option is cost and efforts intensive and may be difficult to
+implement. It would be easy to use CDE from the design phase of application development.
+
+While developing CDE the attempt was to be universal. However the healthcare is so vast
+that some specific data elements on the fringes may have been left out inadvertently. CDE is
+intended to be a living document and a designated Health Domain MDDS Committee will
+have the authority to add any new data elements, values or code directories that were left
+out at this stage or that may emerge as a result of natural evolution of the Healthcare
+domain. When new applications do not find the relevant data element or values for their
+use, they will have to use `Free Text' data element or `Other' Value from the code directory
+or value list. Though the usage of `Free Text' data element or `Other' Values will have to be
+discouraged in principle; however this usage of `Free Text' data element or `Other' Values
+has to be regularly monitored by the Health Domain MDDS Committee and used as
+valuable feedback for the next versions of the CDE.
+
+Therefore CDE is intended to be a living document and a designated Health Domain MDDS
+Committee will have the authority to add any new data elements, values or code directories
+that were left out at this stage or that may emerge as a result of natural evolution of the
+Healthcare domain.
+
+Why is Common Data Element required? Organizations often want to exchange data
+quickly and precisely between computer systems.
+
+The need for the CDE arose because most of the Healthcare-IT applications are being
+developed without any standards by different agencies and vendors in public and private
+sector in India. Each application is developed for standalone use without much attention to
+semantic interoperability. Later when the thought of interoperability emerges - it becomes
+difficult to connect the systems and make them talk to each other because they were never
+designed for that purpose. Even if technical and organizational interoperability is done the
+semantic interoperability may remain a challenge. For example - all applications must have
+the same Facility master. When Application A sends the ANC data for Facility 123, the
+receiving Application B should understand ANC and uniquely identify Facility 123. Another
+example is if a hospital application sends the insurance reimbursement bill to insurance
+company/government, the recipient application should be able to understand and re-present
+the same meaning of bill information.
+
+5. Health Domain MDDS: Conceptual Framework
+
+The holy grail of Healthcare is the Provider - Patient relationship. The entire common data
+elements have been designed by keeping the Provider - Patient relationship in mind rather
+than either entity as the centre. The CDE has been designed based on the standard ISO/IEC
+11179.This standard is a result of the following principles of semantic theory, combined with
+basic principles of data modelling.
+
+                                                            14
+ Conceptual Domain: The first principle from semantic theory is the thesaurus type
+    relation between wider and more specific concepts; For Example- the wider concept
+    `Order' has a relationship with similar more specific concept Pharmacy Order And
+    immunization order. Therefore the CDE has created Pharmacy Order and Immunization
+    Order entity.
+
+ Concept: The second principle from semantic theory is the relation between a concept
+    and its representation. Different synonyms or closely related keywords can convey the
+    same concept. For Example -The number of times the drug/medication has to be taken at
+    what interval is a concept. `Frequency of Drug' and `Frequency of Medication' are
+    different representations of the same concept.
+
+ Data Element: The basic principle of data modelling is the combination of an Object class
+    and an Attribute to form a more specific `data element concept'. For example- the
+    abstract concept `Frequency of Medication' is combined with the object class `Medication
+    Order' and is associated with Attribute `Frequency' to form the data element concept
+    `Medication Frequency'. The standard must select the most appropriate keyword as the
+    representation of the concept. In the above case the
+         o Object: is `Medication Order' and,
+         o Attribute: is `Frequency'
+
+ Value Domain: A value domain is the permitted range of values for a Concept. If the
+    data element concept has a single value then it will remain as a single data element. If it
+    has a limited set of values attached to it then it will have a value list. If the data element
+    has a long list of values that are liable to change or be modified due to the business
+    needs of the Health domain then it is advisable to create a Code Directory for those
+    values. For Example- For data element concept `Medication Frequency' the related Code
+    Directory will have values: BID, TID, QID, HS, SOS, and Stat.
+
+                                                                   CONCEPTUAL DOMAIN
+                                                             ENTITY (E.G. PHARMACY ORDER)
+
+    OBJECT CLASS            CONCEPT                   VALUE DOMAIN         LIST OF VALUES
+MEDICATION ORDERS                               MEDICATION FREQUENCY  (BID, TID, QID,HS, STAT)
+                   FREQUENCY OF MEDICATION
+      ATTRIBUTE                                      CODE DIRECTORY
+     FREQUENCY
+
+                                        DATA ELEMENT
+                                  MEDICATION FREQUENCY
+
+                   Figure 1: ISO/IEC 11179 Meta Model
+
+                                            15
+              Table:1 Example of Conceptual Design
+
+Example       Depicting the concept Health Depicting the concept, Facility
+
+Data Element  Condition, Chickungunea.  Operational Status.
+Object
+              Health Condition Code     Facility Operational Status
+Attribute
+Value Domain  Health Condition          Facility (Sub Centre)
+
+              (Chickungunea)
+
+              Code (ICD-10 Code)        Operational Status
+
+              ICD-10 Code value for     Operational Status Value List
+
+              Chickungunea (A92.0)      (Functional)
+
+Many of these data elements have been drawn from standards such as -
+
+     Continuity of care document [CCD]: CCD was developed by HL7 for portability of
+         medical records.
+
+     HL7 v2.x: String based standard for interoperability of Healthcare data, developed
+         by HL7.org and adopted widely across the globe.
+
+     HL7 v3 RIM: XML based standard for interoperability of Healthcare data, developed
+         by HL7.org and adopted widely across the globe.
+
+     EHR Standards: EHR Standards for India v2 released by MoHFW in Dec 2016.
+
+Though the above said standards are our reference point but we have extended and
+modified them to apply to Indian setting. The associated Code Directories are drawn from
+standards such as -
+
+     ICD-10 for Diagnosis and Classification: ICD is used to classify diseases and other
+         health problems recorded on many types of health and vital records including death
+         certificates.
+
+     LOINC for Lab: LOINC is a universal code system to identify laboratory and clinical
+         observations to facilitate exchange and storage of clinical results or vital signs for
+         patient care and research
+
+     Procedure & Radiology Codes (preferred primary terminology): SNOMED CT.
+     WHO Morbidity list: The noun morbidity means "the quality of being un-healthful."
+
+         The special tabulation list for morbidity published in ICD-10 volume 1 consists of 298
+         groups defined by their ICD-10 codes.
+     WHO Mortality list: The noun mortality means "Death" The special tabulation list for
+         mortality published in ICD-10 volume 1 consists of groups defined by their ICD-10
+         codes.
+     WHO ICF: The International Classification of Functioning, Disability and Health
+         (ICF) are used for defining functionality & disability.
+     WHO Verbal Autopsy Standards: Is list of standards for causes of death with
+         mapping to ICD-10 Codes.
+
+                                  16
+ 6. Identifiers
+
+ For data exchange across applications, accurate identification of each person/ facility
+ receiving or providing healthcare services, and also anyone accessing or using this
+ information is extremely important. It is critical that a set of standards be established for
+ identifying the Facility, the Medical Provider, Patient, and all others handling healthcare
+ data so that information across different locations can be exchanged easily and securely.
+
+ An Identifier could be a number, image (e.g. Bar Code or Blackberry ID), Biometrics (e.g.
+ finger print or retinal scan), Radio Frequency Identifier Tag (RFID), Smart Card or a
+ combination of these. Considering that none of these identifier standards exist today in
+ Public Health space- The Health Domain MDDS Committee proposes basic number based
+ identifiers. The standard can be upgraded to include Alternate Identifiers such as Bar Codes,
+ RFIDs, Digital Signature etc., as the healthcare industry matures. For now appropriate Data
+ Elements have been created to capture information about these Alternate Identifiers.
+
+ With regards to the nomenclature of the Identifiers some qualifiers were followed to
+ maintain the uniformity.
+
+      a) Identifiers which were drawn from established sources were used as it is and no
+           change is made in their names. e.g. Unique Identification Number (UID), PAN etc.
+
+      b) Identifiers which are proposed to be used uniquely and uniformly across states are
+           termed as "Numbers" e.g. Unique Facility Identification Number, Alternate Unique
+           Identification Number etc.
+
+      c) Identifiers where code directory or value list from established source is used are
+           termed as `Codes" e.g. Diagnosis Codes (ICD10 Codes) etc.
+
+      d) Identifiers which were transaction specific are termed as "Identifiers or IDs". E.g.
+           Employee ID, Document ID etc. However some of these can come from code
+           directory master but are named as IDs because they are transaction identifiers to be
+           populated at the time of implementation.
+
+I. Facility Identifiers: Facility Identity management is complex - therefore a Facility Code
+      Directory is created to give a structure to it. This Facility code directory will serve as a
+      Master to which all the Applications will refer. Two set of identifiers are proposed to
+      uniquely identify each facility-GUID & NIN.
+      a. Global Unique Identifier (GUID) - This data element is a 16-bit number, which will
+           be generated following a standardized algorithm by system. An example of a GUID
+           in its standard form is 40e74fae-c0ab-11dfb090-0017f2300bf5. GUID will be used at
+           the back-end to uniquely identify each facility. GUID will guarantee global
+           uniqueness of each facility no matter where or by whom they are generated. All
+           prospective systems need to follow standard algorithm in their backend to use
+           GUID.
+
+                                                              17
+    b. Facility National Identification Number (NIN)-NIN is a 10 digit random number
+         given for each facility (public & private) engaged in providing some form of health
+         care services. NIN will be used at the front-end with some form of human
+         readability. There are two ways to do this.
+          Give the facility a number with facility related information embedded in it (e.g.
+              ABC-13-05-0001, where AB&C represents State, District & Block respectively and
+              next two digits represent year of facility formation and next two digits represent
+              type of facility and last four digits represent the facility itself). However this
+              approach has certain challenges as facilities might upgrade or facility attributes
+              change due to administrative, geographic or political realignments.
+          The other way of doing it is by giving a unique running number to each facility
+              without making this number dependent on any other factor. Where the facility
+              related information can be added as an attribute to the NIN.
+
+The Health Domain MDDS Committee has adopted the later approach to uniquely identify
+each facility.
+
+Why two identifiers for a facility?
+Although each facility will also be given a sequential 10 digit integer number (NIN) and this
+is used as a unique facility identifier by all users, still the uniqueness of these codes will be
+dependent on database system which generate these numbers, which still does not
+necessarily guarantees to be always unique e.g. if the database is ported from one Database
+Management System (DBMS) to another, the unique sequential number (or auto increment
+primary keys of tables) will change. In order to avoid this problem GUID is proposed along
+with NIN.
+
+Master Facility List (MFL): Using NIN & GUID, a Master Facility List will be created at the
+centre and put up in a public domain and this will be used as reference by all prospective
+applications built at state or national level. At the implementation level we propose a Health
+Information Exchange or Intelligent Gateway with a Facility Registry to match facility
+identifiers given by various healthcare applications.
+
+Facility identification and associated attributes can be categories in four major groups.
+
+a. Facility Signature Domain: Information which will help in identification of each facility
+    with its attributes is grouped under signature domain. The associated attributes are-
+    facility type, address, Geocode, facility access (difficult/ hard to reach) and region (rural/
+    urban) indicator, hierarchy of facility, facility operational status (functional/non-
+    functional), linked facility for referral and facility ownership. The other most important
+    information is the population covered by the facility. The population covered code
+    directory will help provide a population based denominator to the facility. Each facility
+    will be mapped with the census population of area which it covers to. E.g. Each Health
+    Sub Centre will be mapped to the villages it is serving currently, through the Census
+
+                                                            18
+       village data-base. Two or more HSCs which are sharing one village will use a
+       proportionate population formula to get their piece of serving population from the
+       census village data-base and to accommodate this Many-to- many relationships with
+       HSC and villages would be required. This arrangement would further help in
+       identification of areas covered by the PHCs and their serving population. In the urban
+       areas each ward will be mapped with Urban PHC through Many to many relationship.
+       Population based catchment area would be defined for the government facilities under
+       public health systems. For private and other ministry run facilities no population
+       catchment area would be assigned.
+       The principle of defining this linkage is that the denominator of the sub-unit aggregate
+       would provide the denominator for the administrative hierarchy e.g. all sub-centres
+       under one PHC are linked with it. Private and other ministry run health facilities data
+       will not be aggregated with the block data. Data of these facilities will be aggregated at
+       the district level.
+  b. Facility Services Domain: Each facility in India provides a set of services as mandated by
+       the respective administration. In addition a set of facilities also provide services of
+       alternate system of medicine. E.g. Ayurvedic, Homeopathy etc. For Allopathic system of
+       medicine list of services will come from LOINC & Procedure Codes. However in the case
+       of alternate system only name of system of medicine would be applicable as the
+       standard list of services from alternate system of medicine are not available. Code
+       directory on `Facility System of Medicine' and `Facility service master' will help define
+       services available in facilities.
+  c. Facility Human Resource Domain: Code directory Facility Human Resources Type
+       Master: Indicates the number of human resources available with the facility with their
+       designations.
+  d. Facility Infrastructure Domain:
+        i. Facility Bed Master: This will indicate number of beds available with facility.
+       ii. Facility Bed Type Master: This will indicate the type of beds available with the
+
+            facility- sanctioned, functional and available.
+
+II. People Identifiers: These are the identifiers used to identify individual patients,
+       relatives and various providers in the health system.
+
+  a. Patient Identifiers: Currently multiple patient identifiers are used across applications in
+       health care space in India. There is also a massive program allocating unique
+       identification number to individuals i.e. Aadhar Number. Aadhar number is 12 digit
+       integer allocated by Unique Identification Authority of India (UIDAI). The Health
+       Domain MDDS Committee proposes to use Aadhar Number as unique patient identifier.
+       However in case patient does not have Aadhar Number a provision has been made for
+       the use of Alternate ID, issued by any other competent authority e.g. Election ID,
+       Driving License ID, Ration Card ID, PAN Card ID, BPL ID etc. Provision has also been
+       made to identify unknown persons/dead bodies coming to emergency hospital wards in
+
+                                                               19
+    case of emergency or Mass Casualty Incident (MCI) e.g. John Doe and Jane Doe (widely
+    used placeholder for unidentified persons in emergency).
+b. Healthcare Provider Identifiers: Each provider would be given a unique identifier and
+    for this purpose individual registration number from respective registration councils
+    would be used. E.g. for Allopathic Doctors registration number given by MCI, for
+    Ayurvedic Physicians registration number from Central Council of Indian Medicine, and
+    for Nurses registration number given by Nursing council. Those providers who do not
+    have any registration authority (i.e. physiotherapist, paramedic workers, and
+    community health volunteers) - individual person UID or alternate UID would be used
+    for this purpose. Later on when a competent registration authority is put in place the
+    number can be captured just like other Providers after appropriate values in relevant
+    code directory has been updated.
+c. Other People Identifiers - e.g. Identifiers for Patients relative and next of kin.
+
+III.    Disease Identifiers: Each procedure and service is uniquely identified by a standard
+        code.
+   a.   Diagnosis Identifiers: e.g. ICD10 codes for diseases
+   b.   Output Identifiers: e.g. WHO Morbidity and Mortality list based on ICD10 codes, and
+        WHO ICF codes for functionality and disability.
+
+ IV.    Clinical Event Identifiers: This indicates Document Registry to match Encounter and
+    a.  Episode identifiers given by various healthcare applications.
+        Encounter Identifiers - Every time the patient meets a provider it is documented as an
+    b.  Encounter with a new Encounter ID. Encounter identifiers would apply to clinical, lab,
+  V.    radiology encounters. Physical Examination done by the Provider is considered as an
+        Encounter and documented as clinical notes with a specific Encounter Identifier.
+    A.  Episode Identifiers - A group of closely related encounters for the same patient will get
+ VI.    an Episode ID.
+VII.    Drug and Inventory Identifiers: Each drug whether generic or brand is given a unique
+        identifier. For generic names- drug list from National Formulary of India (NFI) is used
+        as the code directory. For brand names - the brand name code directory structure has
+        been defined but it is left to the application to take the code directory values from
+        appropriate source. However MoHFW is working on publishing Drug and Substances
+        codes as national extension of SNOMED CT. It is advisable to prefer this code set for
+        designing of respective application.
+        Item Identifiers: As discussed above, all items - consumables, semi-durables, durables
+        and equipment will also be given unique identifiers in the code directories.
+        Lab identifiers: For laboratory procedures LOINC codes are proposed for use as
+        identifiers.
+        Financial Identifiers
+
+          a. Source of Payment Identifiers e.g. Insurance Provider Identifier.
+
+        20
+             b. Billing Identifiers: Identifiers for services, procedures and medications billing.
+VIII. Other identifiers- For identifying each entity or event separately a unique ID is
+
+          proposed i.e. Medical Registration board ID, ambulance service providers ID,
+          ambulances ID, hospital departments ID etc.
+
+7. Common Data Element Entities
+
+Health Domain is very vast and to make it more readable, Health Domain MDDS
+Committee has created logical grouping of data elements named as entities, however this
+grouping should not be confused with data sets. Data sets are list of data elements required
+for certain program or application to function and should be created choosing relevant data
+elements from various entities e.g. Diabetes Data Set, Family Planning Data Set, Inpatient
+care Data Set. This grouping does not act as a binding to further development, regrouping or
+change in the Common Data Element list. Description of each entity is given below.
+
+SN  Entity                 Table-2: Description of Entities
+
+1 Generic                                               Description
+
+2 Person         Generic Entity contains data elements which can be applicable to
+                 various applications used in health domain. E.g. Time
+3 Patient
+4 Employee       Person is an individual with certain attributes associated with it. These
+                 relates to identity management of an individual in health care. E.g.
+5 Healthcare     Alternate Unique Identification Number(UID)
+       Provider
+                 A patient is any recipient of health care services. This entity list patient
+6 Source of      attributes as data elements. E.g. Patient Age
+       Payment
+                 An Employee is a person who is hired to provide health care services
+7 Bill           to a health delivery organisation in exchange for compensation under
+                 the ambit of a contract. Human Resource Management Related data
+                 elements are grouped under this entity. E.g. Employment Status,
+                 Employment Type.
+
+                 A health care provider is any individual that provides preventive,
+                 curative, promotional or rehabilitative health care services to
+                 individuals, families or communities. Under this entity Individual
+                 health service provider related data elements are grouped together.
+                 E.g. Unique Individual Health Care Provider ID
+
+                 Source of Payment in healthcare indicates who is paying for the service
+                 given to patient. This can be out of pocket by patient, insurance
+                 (public, private) or by provisioned through government budget,
+                 government reimbursement. Relevant data elements are grouped
+                 under this entity. E.g. Insurance Policy Type.
+
+                 A bill is a commercial document issued by a seller to a buyer,
+                 indicating the products, quantities, and agreed prices for products or
+                 services the seller has provided the buyer. This entity contains list of
+                 data elements which are related to billing for hospital purposes and for
+
+                 21
+SN  Entity                   Table-2: Description of Entities
+
+8 Facility                                                Description
+
+9 Episode          insurance purposes. E.g. Bill ID, Bill Type.
+
+10 Encounter       Any institution which is engaged in the delivery of health care services
+                   to the individuals, families or communities. This entity contains list of
+11 Advance         data elements which are related to health facility identification and
+       Directives  related attributes. E.g. Unique Facility ID, Facility Type Code.
+
+12 ADT             An episode of care consists of all clinically related services for one
+13 Emergency       patient for a discrete diagnostic condition from the onset of symptoms
+                   until the treatment is complete
+                   [http://www.ncmedsoc.org/non_members/pai/PAI-
+                   FinalWorkbookforVideo.pdf] Thus, for every new problem or set of
+                   problems that a person visits his/her clinical care provider, it is
+                   considered a new episode. Within that episode the patient will have
+                   one to many encounters with his/her clinical care providers till the
+                   treatment for that episode is complete. Even before the resolution of an
+                   episode, the person may have a new episode that is considered as a
+                   distinctly separate event altogether. Thus, there may be none, one or
+                   several ongoing active episodes. All resolved episodes are considered
+                   inactive. Hence they become part of the patient's past history. A
+                   notable point here is that all chronic diseases are considered active and
+                   may never get resolved during the life-time of the person, e.g., diabetes
+                   mellitus, hypertension, etc.
+
+                   A clinical encounter is defined by ASTM as "(1) an instance of direct
+                   provider/practitioner to patient interaction, regardless of the setting,
+                   between a patient and a practitioner vested with primary responsibility
+                   for diagnosing, evaluating or treating the patient's condition, or both,
+                   or providing social worker services. (2) A contact between a patient
+                   and a practitioner who has primary responsibility for assessing and
+                   treating the patient at a given contact, exercising independent
+                   judgment." Encounter serves as a focal point linking clinical,
+                   administrative and financial information. Encounters occur in many
+                   different settings -- ambulatory care, inpatient care, emergency care,
+                   home health care, field and virtual (telemedicine).
+                   [http://www.ncvhs.hhs.gov/040127p1.htm]
+
+                   An advance directive is a set of written instructions that a person gives
+                   that specify what actions should be taken for their health, if they are no
+                   longer able to make decisions due to illness or incapacity. E.g. Advance
+                   Directive Type
+
+                   ADT refers to Admission, Discharge & Transfer of a patient in a health
+                   facility. E.g. Admission Date, Admission Type
+
+                   Emergency care relates to the inpatient emergency care provided to the
+                   patient reaching to the emergency department of the health facility.
+
+                   22
+                 Table-2: Description of Entities
+
+SN  Entity           Description
+
+                 E.g. Patient Status, Ambulatory Status
+
+14 Outreach      Outreach is an activity of providing services to populations who might
+                 not otherwise have access to those services. A key component of
+                 outreach is that the groups providing it are not stationary, but mobile;
+                 in other words they are meeting those in need of outreach services at
+                 the locations where those in need are in addition to delivering services,
+                 outreach has an educational role, raising the awareness of existing
+                 services. E.g. Outreach Service Provider, Outreach Service Type etc.
+
+15 Disaster      Disaster response is the health care response to the disaster and consist
+       Response  data elements which are part of rescue, first aid, triage, transport to the
+                 facility and deceased management. E.g. Mass Casualty Incident Type.
+
+16 Examination Medical examination or clinical examination is the process by which a
+                              medical professional investigates the body of a patient for signs and
+                              symptoms of disease. Patient examination related data elements are
+                              grouped under this entity. E.g. Examination Type etc.
+
+17 Vital Signs   Vital signs are measures of various physiological statistics, often taken
+                 by health professionals, in order to assess the most basic body
+                 functions. i.e. Body Temperature, Blood Pressure. Relevant Data
+                 Elements are covered under this entity. E.g. Vital Sign Result Status
+
+18 Allergy       An allergy is a hypersensitivity disorder of the immune system.
+                 Allergic reactions occur when a person's immune system reacts to
+                 normally harmless substances in the environment. A substance that
+                 causes a reaction is called an allergen. Relevant Data Elements are
+                 grouped under this entity. E.g. Adverse Event Type.
+
+19 Clinical Notes Clinical Note is documentation of patient conditions, by medical
+                              service provider - which helps to reach diagnosis, acts as
+                              communication between two providers for medical care and also acts
+                              as historical reference document in patient case file.E.g. treatment
+                              summary, discharge notes etc
+
+20 Diagnosis     Diagnosis is the process of reaching to a conclusion by determining
+                 which disease or condition is affecting human health. Health
+                 Conditions (Diseases) related data elements are placed under this
+                 entity. E.g. Health Condition Type
+
+21 Laboratory    Lab entity covers data elements related for ordering laboratory
+                 services. E.g. Lab Order Code
+
+22 Radiology     Radiology entity covers data elements related for ordering Radiology
+                 services. E.g. Radiology Procedure Code
+
+23 Pharmacy      Pharmacy entity covers data elements related for ordering Pharmacy
+                 services. E.g. Medication Frequency, Dose
+
+                 23
+                     Table-2: Description of Entities
+
+SN     Entity            Description
+
+24 Immunisation Orders are indication for execution of certain tasks related to patient
+
+    Order      care, medication administration, disease prevention etc. Immunisation
+
+               Order Entity covers data elements related for ordering Immunisation
+
+               services. E.g. Immunization Administered Date, Immunisation product
+
+               code
+
+25 Clinical Order Orders are indication for execution of certain tasks related to patient
+                              care, medication administration, disease prevention etc. Clinical Order
+                              Entity covers data elements related for Clinical Orders. E.g. Order to
+                              admit date
+
+26 Procedure   A procedure (medical/non-medical) is a course of action intended to
+               achieve a result in the care of person with health problems. In this
+               entity health care procedure related data elements are listed. E.g.
+               Procedure Code, Procedure Type
+
+27 Blood Bank  A blood bank is a bank of blood or blood components, gathered as a
+               result of blood donation or collection, stored and preserved for later
+               use in blood transfusion. The term "blood bank" typically refers to a
+               division of a hospital where the storage of blood product occurs and
+               where proper testing is performed. However, it sometimes refers to a
+               collection center, and indeed some hospitals also perform collection.
+               Relevant data elements are grouped under this entity. E.g. Blood Bank
+               ID, Blood Group.
+
+28 Nursing     Nursing care is the care of individuals, families, and communities so
+               they may attain, maintain, or recover optimal health and quality of life.
+               In-patient nursing care related data elements are grouped under this
+               entity. E.g. Bed Side Procedure Indicator
+
+29 OT          Operation Theatre is a facility within a hospital where surgical
+               operations are carried out in a sterile environment. Relevant data
+               elements are grouped under this section. E.g. Anaesthesia Type,
+               Procedure Priority
+
+30 CSSD        Central Sterile Supply Department (CSSD) is essential department in
+               the hospital and supports sterile supply, processing, distribution for
+               various departments especially Operation Theatre. Relevant data
+               elements such as Sterilization Test ID are grouped under this section.
+
+31 Inventory   Inventory management is primarily about managing supplies and
+               stocks are required at different locations within a facility or within
+               many locations of a supply network. This entity includes data elements
+               required for inventory management for drug and non drug items in
+               health facilities. E.g. Drug ID, Supplier Name etc.
+
+32 Remission   Remission is a condition of being healthy after an episode of disease.
+               Relevant data elements are grouped under this entity. E.g. Remission
+
+                     24
+                      Table-2: Description of Entities
+
+SN  Entity                Description
+
+               Type.
+
+33 Complications Complication is an unfavourable evolution of a disease or a health
+                              condition or a therapy. Relevant Data Elements are grouped under this
+                              entity. E.g. Complication Code
+
+34 Relapse     Relapse is recurrence of past disease or condition. Relevant data
+               elements are grouped under this entity. E.g. Relapse Type
+
+35 Morbidity   Morbidity is a diseased state, or poor health due to any cause in a
+               person or in a population. Relevant data elements are grouped under
+               this entity. E.g. Morbidity Code
+
+36 Disability  Disability is the consequence of an impairment that may be physical,
+               cognitive, mental, sensory, emotional, developmental, or some
+               combination of these. Relevant data elements are grouped under this
+               entity. E.g. Disability Code.
+
+37 Mortality   Mortality refers to the death of an individual or incidence of Death in a
+               population. Relevant data elements are grouped under this entity. E.g.
+               Mortality Code.
+
+38 Ambulance   An ambulance is a vehicle for transportation of sick or injured people
+               to, from or between places of treatment for an illness or injury and in
+               some instances will also provide out of hospital medical care to the
+               patient. Relevant data elements are grouped under this entity. E.g.
+               Ambulance ID, Ambulance Distance Covered, Ambulance en route
+               event.
+
+39 Indicator   Indicator entity is created as placeholder for the aggregate data
+               elements and for reporting from population-based indicators. E.g.
+               Infant Mortality Rate etc.
+
+8. Using MDDS Standards
+
+A. Data Sets: MDDS gives common data elements which are grouped in certain entities.
+    The users who are involved in the designing of any new system may develop data sets
+    out of these common data elements for their purposes. Data sets are list of data elements
+    required for certain program or application to function and should be created by
+    choosing relevant data elements from various entities. Each sub-domain, e.g. Disease
+    Control Program, will not require all of the CDE therefore they must create their own
+    minimum data sets from the CDE. The details of few sample data sets are given in the
+    Annexure e.g. Drug Inventory, Diabetes Control, School Health Program Data Set etc.
+
+B. Standards Adoption for historical systems: Adoption of the Standards will vary by
+    organisation and IT system. Some organisations will be early movers owing to their
+    leadership and HR capacity to adopt the standard and undergo a rapid transformation,
+
+                      25
+    whereas others will lag behind, and then there will be few those may completely resist
+    the change.
+o Historical Applications: Some of the resistance to change will be genuinely rooted in
+    necessity to keep the past data and maintain the current operations. The leadership has
+    to make a hard decision about the duration of status-quo pending an imminent upgrade.
+    For such necessities point-to-point integration maybe considered in the interim e.g.
+    MCTS-HMIS.
+o Upgraded Systems: For this systems will have to map their data elements to the CDE so
+    that they can send the data in a standard format for interoperability. Slow movers will
+    update/upgrade the systems as per the standard wherever necessary e.g. non-compliant
+    data elements, non-compliant modules, and periodicity of reporting, facility masters,
+    and other masters. They have to fulfil the gaps between their data elements and related
+    master, and those required as per MDDS CDE and Code Directories. Meanwhile the
+    paper based records have to change their formats to match with upgraded systems and
+    build capacity to feed patient data & aggregate data to upgraded systems. For Example -
+    MCTS has data elements such as Hb < 7 and Hb > 7; Whereas CDE has data elements
+    such as Result Type, Result Status, Result Value and Result Reference Range. Over time
+    MCTS will have to upgrade such that it can accept data inputs as per MDDS standard,
+    aggregate it and convert it into outputs such as HB < 7 & HB > 7 without having entry of
+    this as separate data elements. Institutional capacity will have to be built to support this
+    change. Another Example - Peripheral paper based records will have to change their
+    formats as per MDDS to feed IDSP.
+o Clean Slate Systems: New systems to be built on MDDS standards. These systems will
+    be fully geared for Interoperability with all applications built on MDDS standard.
+    Though they will also go through a maturation cycle to completely comply to the
+    standard and in many ways may help the MDDS Health domain standard to grow.
+    Meanwhile as paper based recording shifts to e-recording based on MDDS standards, it
+    would be able to feed patient data & aggregate data to clean slate systems.
+    Given such a context, a Health Information Exchange using an Intelligent Gateway is a
+    preferred interoperability solution for an imperfect world of Healthcare including,
+    where Historical, Upgraded and clean slate applications, would all continue and
+    converge.
+
+                                Table 3: Standards Roll-out across Systems
+
+Historical    Enabling provider for    Reporting Aggregate     Recording Systems
+Systems           Quality of care                 Data
+                                                            Paper based records fed
+            Legacy System can        HMIS can take inputs   into MCTS at block
+            function as it is. E.g.  from MCTS in the       level.
+            MCTS can function as is  interim.
+
+Upgraded    Modify Data Elements     HMIS can take inputs   All entries are granular
+Systems     and Masters as per       from Upgraded MCTS in  to patient level
+            MDDS standard. E.g.      the interim.           aggregate data. Build
+            MCTS upgraded as per                            capacity to feed patient
+            CDE.                                            data.
+            Technical workarounds
+            for integration.
+
+                                     26
+Clean    Fully geared for           Create logical Aggregate  Recording of data in
+Slate    Interoperability with all  Data Elements [MIS]       EHR format. Automate
+Systems  applications built on      from common data          aggregation as per local
+         MDDS standard.             elements.                 reporting requirements
+
+C. Prospective Applications: Given the diversity of India, historical and clean state
+    applications will coexist at any point of time since the existing applications cannot be
+    retired overnight. For Example - TN and Delhi states have their own Drug Inventory
+    and Distribution systems and over a course of time, they have familiarized themselves
+    with the operation and usage of the system; Whereas Rajasthan, Maharashtra and
+    Punjab are adopting the e-Aushadhi system being developed by CDAC. Also each of
+    these e-Aushadhi implementations has a different code base owing to extreme
+    differences in masters e.g. organisation hierarchy, drug procurement and distribution
+    processes and implementation methodology. Even if CDAC upgrades e-Aushadhi to
+    MDDS standards, there are other disparate drug inventory systems (e.g. systems
+    functional in Tamil Nadu & West Bengal etc.) which may not be able to completely
+    interoperate e-Aushadhi.
+    To make these disparate systems interoperable, following three options can be explored:
+    Point-to-point, Broker based, and Exchange based patterns. However, point to point will
+    be expensive to maintain, broker systems may not be able to lookup a registry to locate
+    the source of data. This requires to setup a centralised data warehouse model for
+    reporting, which is a costly proposition in terms of maintainability and feasibility.
+    Exchange based pattern can be achieved by introducing an intelligent gateway to define
+    concept, code mapping and transformations at dynamic run time for all historical
+    applications and clean slate applications. This will lead to feasible interoperable solution.
+
+9. Interoperability Solution
+
+A. Different Models for Interoperability
+There could be numerous ways of integrating disparate applications; however the
+approaches are logically grouped into the following main categories of application
+integration. Each one has its own pros and cons-
+
+a. Point-to-point model: This approach by design is too expensive to write and maintain
+    because the resultant solution could end up with a spaghetti of approximately (X)n
+    point-to-point connections for all States and UTs.
+
+b. Broker Model: This model has some know inherent design challenges e.g. generating a
+    report on demand from a broker based model is not possible. The broker may not have a
+    Registry lookup access to locate the source of the data. The solution may not know the
+    location of data and cannot discover all applications. For Example - If drug distribution
+    related data is spread across three e-Aushadhi applications, the Non Intelligent Broker
+
+                                                            27
+    will have challenges to access the data from these three systems. This challenge can be
+    resolved if the logic of integration and data retrieval for all three applications is defined
+    in the Broker in advance during the design phase. The data need and integrating logic
+    are not static in nature in the given context so this design will always have a
+    maintainability and feasibility issue.
+    In the broker based system the only option is to have a centralised data warehouse
+    model for reporting. Given the size [~1.2 Billion] of India's population and the daily
+    transactions e.g. drug distribution is sure to become a bottleneck for any centralised data
+    warehouse model and will push it above and beyond its limit.
+c. Health Information Exchange Model: The concept of intelligent broker and Registry
+    architecture pattern appears to be better suited in the given context. This approach
+    allows to dynamically locate the data records and the application locations. This will
+    allow applications to serve requested data in a more optimal way. Also, this model
+    allows connecting throughout an array of heterogeneous applications removing the need
+    for complex point-to-point connectivity.
+
+B. Recommended Model for Interoperability: Health Information Exchange
+In a long run all public and private Health IT systems have to converge to a Health
+Information Exchange to realize the objective of Universal Health Coverage. This model
+addresses MDDS standards to ensure semantic interoperability across all applications, their
+data storage, privacy, security, integration, data retrieval, analysis and information usage.
+
+This model envisages the creation of local, regional and state Health Information Exchanges
+[HIE] that feed the National Health Information Network [NHIN]. A centralised Health
+Information Exchange [HIE] has to emerge for every state that will be used for exchanging
+health information. All public and private Health IT applications will be integrated with the
+HIE exchange following a decentralized model leaving their respective data repositories
+intact within application data centres/premises and applications exchanging their data using
+constellation of intelligent gateways and centralized registries.
+
+The HIE will have a data warehouse to analyse the consolidated public health data. A
+federated structure should be adopted where the data is pulled on-demand. Central data
+repository model is not a suggested route as it becomes unwieldy and too expensive over a
+period of time. By design, the HIE pulls up only a part of data that is required for
+consolidated data analysis or health record portability. The patient registry will have entries
+for the diseases being tracked and will also cater to population migrations where the
+portability of patient-based health record is important.
+
+The HIE will support the centralized Metadata registry and register the standard Metadata
+specifications for all Health domain concepts. The data from Different integrating
+applications will be transformed to these standard concepts based on Metadata registry
+lookups inside the intelligent gateways before passing the data to the requesting application.
+
+                                                            28
+Intelligent Gateway will have the built in logic to discover the applications which will
+provide the requested data based on the type of request generated from a requesting
+application or person. The gateway will be able to locate the records from different
+application repositories, apply dynamic transformations, codes and concept translations,
+any data aggregation logic, based on the predefined rules in the Intelligent Gateway.
+The HIE model will specify data analytics framework so that it can become flexible and
+capable of catering to local, District, State and National analysis and reporting requirements.
+This includes:
+a. National Data Warehouse - Define a National level data warehouse in the NHIN to
+
+    analyse the consolidated data and produce indicator based reports from source systems.
+b. Local Data Analytics -Define a local data mart in every State HIE. The exchange should
+
+    provide online analytical processing [OLAP] for the users at all levels to generate their
+    own reports needed for local action. The users should be able to save the report format
+    and define the frequency at which the reports should be populated with data. This will
+    significantly enhance acceptability, usability and adoption.
+
+The HIE will provide the flexibility to allow inputs in consolidated [District-wise or facility-
+wise] as well as granular [patient-based] models. Based on readiness, HIE will allow the
+States to decide the mode of data entry - consolidated, facility-wise or patient-based; as long
+as the published architecture and standards for vocabulary, data, input/output, storage,
+integration, hardware and network are followed. The HIE model envisages all public health
+IT systems to follow integration based on known standards such as HL7, DICOM, XML etc.
+Registries: - The heart of the HIE is a registry based model that has district and state level
+registries about disease, facility and patient. The registry may be indexed and searched by
+using unique identifiers. The registry will have metadata that points to the details in the
+source system. The indicators derived from the state disease registries should be rolled up to
+the central disease registry for reporting. However drill down should be available to get
+granular data on demand.
+
+                                                            29
+                 Figure 2: State Health Information Exchange [HIE]- Conceptual Architecture
+
+             Figure-3: National Health Information Network [NHIN]- Conceptual Architecture
+
+C. Benefits of Health Information Exchange
+   I. Historical applications can never be done away due to their current wide-spread
+         usage, substantially large database, user adoption and heavy investment. Using this
+         model all existing Historical and Clean state applications can be integrated to form a
+         unified Health Information Exchange based on a federated data model without any
+         disruption or application design changes in existing historical applications.
+
+                                                            30
+  II. The semantic interoperability in different applications can be ensured using a
+         centralized metadata registry using HIE based intelligent gateways having functions
+         to register, discover, transform, notify, query and retrieve concepts and their meta
+         data from centralized metadata registry. This model has already been successfully
+         implemented in Canada Infoway.
+
+ III. Integration with other domain applications is quite easy.
+IV. Lack of awareness in India towards the need of a HIE which is apprehended by
+
+         many as a complex thing to achieve which is just a negative perception and need to
+         be corrected by proper education of this model.
+
+                      Figure 4: State Health Information Exchange -Proposed Architecture
+
+10. Institutional Framework for MDDS implementation
+
+As compared to other domains, information requirement in health domain changes more
+rapidly and today's information systems and standards slowly becomes obsolete if not
+updated on a regular basis. There has been a surge in public health IT systems development
+under National Health Mission as noted by various Common Review Mission (CRM)
+reports. However each system was developed to cater local requirements and have followed
+their own standards leading to a situation where systems were not being able to exchange
+data. This adversely affects use of information. In addition data from private sector was not
+
+                                                            31
+available for generation of population-based analytics as required to assess universal health
+coverage.
+
+There is great need to make systems interoperate at various levels for seamless flow of
+information. Mission Mode Project has also documented the challenges of IT silos in health
+care and suggested that systems should be able to speak to each other using standards of
+interoperability. All this necessitates an institutional structure to be in place for information
+sharing among various systems and between various providers (public & private),
+supported by frameworks for standards implementation, certification and management.
+Globally such work is managed by National level eHealth Authority or similar institution. In
+India constitution of National Digital Health Authority (NDHA) is under process and
+management of standards could very well be taken up by the NDHA. With respect to the
+health IT standards the authority will be required to formulate policies around standard,
+facilitate implementation of standards and actively manage standards. For management of
+standards following major functions would be required.
+
+A. Managing repository of standards: Healthcare is a very diverse domain and to address
+    standardization, it needs a large set of data standards. . It is an error prone and difficult
+    task to manage these standards manually and would require automated management of
+    standards. DietY has a framework to address this purpose and it suffices the need of
+    health domain as well.
+
+B. Update & Upgrade Standards
+         a. Documenting specific standards request: As an iterative process the standards
+              management organisation has to work closely with the state public health
+              departments and private health sector to document various standards
+              requirements originating with new program and with new areas as they open up.
+         b. Organising standards consultations: The organisation has to arrange specific
+              standards consultations with participation from various stakeholders which will
+              discuss and recommend updation in the standards list.
+         c. Decision making: Once thorough deliberation is done on the prospective
+              standards and legitimate feedbacks are absorbed, a decision should be made on
+              the shape, size and form of standards. The decision can include the timelines and
+              mode of releasing the standards and guidelines for implementation.
+         d. Notifying the standards: All the competent stakeholders should be dully notified
+              using the prevalent mode of communication by standards organization. The
+              standards once notified should be available in public space for usage.
+
+C. Ensuring Compliance to standards
+         a. Certification: Prospective health IT applications have to undergo auditing and
+              testing to ensure compliance with the standards. This task should be done by a
+              `Standards Auditor Group' in which external empanelled experts should
+              participate with internal consultants. If any incentive mechanism is put in place
+
+                                                            32
+              for standards compliance, the applications which are not compliant can be
+              disqualified for incentive schemes.
+         b. Accreditation: Authority can accredit different health IT systems based on series
+              of evaluations and audits ensuring compliance with the standards.
+         c. Voluntary association: Currently private health sector is unregulated and does
+              not participate in information sharing. Private sector may voluntarily come
+              forward and adopt standards for recognition and certifications.
+D. Facilitate adoption/implementation:
+         a. Incentive Mechanism: The authority can provide incentives for system design,
+              implementation and maintenance if they comply with the MDDS standards.
+         b. Legislations: To ensure that systems collaborate and participate in information
+              sharing and exchange, a legal support needs to be in place in form of an `act'.
+         c. Others: Other mechanism should be carved out in consultation with various
+              stakeholders.
+
+                                 Figure 5: Standards Organization: Roles & Functions
+
+Standard Development Processes: For standards development and updation, participation
+of various stakeholders is required. Health Informatics Standards Forum can provide a
+platform for various stakeholders from industry, academia & implementers to participate
+and provide suggestions and feedbacks on standards under the guidance of National Digital
+Health Authority. Industry, state-users can submit standards requests through the forum to
+the standard committees or authority, which in turn will facilitate updation of standards.
+Health Informatics Standards forum should have participation from academia, health IT
+agencies, public health organisation, hospitals, insurance firms and international experts.
+The forum should meet twice a year however based on the necessity additional meetings can
+be arranged.
+
+                                                            33
+                                         Figure 6: Standard Development Process
+
+Vast amount of work has been globally done for the health IT standards development by
+governments, private organisation and by international NGOs. However keeping pace with
+these developments is only possible when the authority works closely with these institutions
+through partnerships from inception. In addition the authority should have easy access to
+documented studies, research publications on health IT standards. The authority should also
+collaborate with the other sectors such as insurance, IT, hospitals etc. to understand their
+needs and demands.
+
+11. Concluding Remarks
+
+The benefit at the decision making level will be an enabler to look across the health domain
+silos such as RCH, Malaria, TB, HIV and help to bring more meaningful decisions to the
+table with respect to resource planning & optimisation.
+After the MDDS standard compliance, the Field workers will not be burdened to report on
+multiple systems. The systems will have the flexibility to define its own data elements,
+forms, workflow, reporting frequency and report formats. That way it is easy to integrate the
+different implementations of the same architecture and aggregate the data at any level. Also
+it takes off the load from the field staff, as they have to report in one system. This will go a
+long way in improving the adoption of Health IT systems.
+
+                                                            34
+Abbreviations
+
+ADT     Admit, Discharge & Transfer
+BPL     Below Poverty Line
+CCI     Canadian Classification of Health Interventions
+C-DAC   Centre for Development of Advanced Computing
+CDE     Common Data Element
+CSSD    Central Sterile Services Department
+MeitY   Ministry of Electronics and Information Technology
+EHR     Electronic Health Record
+GoI     Government of India
+HL7     Health Level Seven
+ICD     International Classification of Diseases
+ICF     International Classification of Functioning, Disability and Health
+ID      Identifier
+IDSP    Integrated Disease Surveillance Project
+IT      Information Technology
+LOINC   Logical Observation Identifiers Names and Codes
+MCI     Medical Council of India
+MCTS    Mother & Child Tracking System
+MoHFW   Ministry of Health & Family Welfare
+NHSRC   National Health Systems Resource Centre
+NIC     National Informatics Centre
+OT      Operation Theatre
+PAN     Permanent Account Number
+RNTCP   Revised National TB Control Programme
+SNOMED  Systematized Nomenclature of Medicine
+UID     Unique Identification Number
+UIDAI   Unique Identification Authority of India
+WHO     World Health Organization
+
+               35
+References
+
+1. E-Governance Standards Accessed from https://egovstandards.gov.in/ on 15th July 2013.
+
+2. MDDS              Demographics            v1.1            Accessed                from
+
+https://egovstandards.gov.in/sites/default/files/Published_Standards/Metadata%20and%
+
+20Data%20Standards/MDDS_Demographic_Ver_1.1.pdf on 11th July 2013.
+
+3. Website of Ministry of Health & Family Welfare (http://mohfw.nic.in/ ) Accessed on 20th
+
+July 2013.
+
+4. Website of National Health Systems Resource Centre (www.nhsrcindia.org ) Accessed
+
+on 1st August 2013.
+
+5. Website of Medical Council of India (http://www.mciindia.org/ ) Accessed on 17th
+
+August 2013.
+
+6. Website of Rajasthan Medical Services Corporation (http://www.rmsc.nic.in/ ) Accessed
+
+on 15th August 2013.
+
+7. Website of IRDA. Accessed from www.irda.gov.in on 21st September 2013.
+
+8. Website of National Disaster Management Authority, Government of India
+
+(http://ndma.gov.in/ndma/index.htm) Accessed on 19th August 2013.
+
+9. NRHM HMIS Web Portal, www.nrhm-mis.nic.in Accessed on 11August 2013.
+
+10. NRHM Mother Child Tracking System, www.nrhm-mcts.nic.in/MCH Accessed on 18th
+
+September 2013.
+
+11. Website of Integrated Disease Surveillance Project (IDSP), (www.idsp.nic.in/ ) Accessed
+
+on 9th September 2013.
+
+12. Strategic Information Management System, National AIDS Control Organization
+
+(www.naco-sims.nic.in ) Accessed on 12th September 2013.
+
+13. Master Facility List Guidelines, WHO 2012 Accessed from
+
+http://www.who.int/healthinfo/systems/WHO_CreatingMFL_draft.pdf on 6th August
+
+2013.
+
+14. Master Facility List- Implementation Guide, Division of Health Information Systems
+
+Department of Standards and Regulatory Services Ministry of Medical Services, Kenya
+
+February 2010 http://www.ehealth.or.ke/facilities/ Accessed on 11 August 2013.
+
+15. HITSP Data Dictionary Component, Healthcare Information Technology Standards
+
+Panel.                Jan             2010.                 Accessed                 from
+
+http://wiki.siframework.org/file/view/HITSP_V1.0_2010_C154_-_Data_Dictionary.pdf
+
+on 8th August 2013.
+
+16. International Statistical Classification of Diseases and Related Health Problems 10th
+
+Revision, WHO Accessed from http://apps.who.int/classifications/icd10/browse/2010/en
+
+on 20th July 2013.
+
+17. Canadian Classification of Health Interventions (CCI Codes) Accessed from
+
+http://www.cihi.ca/cihi-ext-portal/pdf/internet/cci_vol3_2009_en on 18th July 2013.
+
+18. International Classification of Functioning, Disability and Health (ICF),WHO 2001,
+
+Accessed from http://apps.who.int/classifications/icfbrowser/ on 17th August 2013.
+
+19. LOINC Standards Accessed from https://loinc.org/ on 11th August 2013.
+
+20. Website      of        Standards         International   Accessed                from
+
+http://www.standardsinternational.net/ on 26th August 2013.
+
+21. Public Health Guide for Emergencies, Centre for Refugee & Disaster Response, John
+
+Hopkins Bloomberg School of Public Health, Accessed from
+
+http://www.jhsph.edu/research/centers-and-institutes/center-for-refugee-and-disaster-
+
+                                      36
+response/publications_tools/
+
+publications/_CRDR_ICRC_Public_Health_Guide_Book/Public_Health_Guide_for_Emer
+
+gencies on 10th September 2013.
+
+22. Additional Information Specification 0001: Ambulance Service Attachment Release 2.0,
+
+Based on HL7 CDA Standard Release 1.0, with supporting LOINC® Tables, CDA Ballot,
+
+August                 2003                          Accessed                    from
+
+http://www.hl7.org/documentcenter/public/wg/ca/AMBULANCE%20Additional%20Inf
+
+ormation%20Specification%20(Jan%202012%20Draft%20Copy).doc 8th September 2013.
+
+23. Management of Dead Bodies after Disasters: A Field Manual For First Responders, Pan
+
+American Health Organization, Washington 2006. Accessed from
+
+http://www.paho.org/disasters/ on 18th August 2013.
+
+24. Data Against Natural Disasters: Establishing Effective Systems for Relief, Recovery, and
+
+Reconstruction. The World Bank, Washington DC 2008. Accessed from www.ipcc-
+
+wg2.gov/njlite_download.php?id=6686 on 8th September 2013.
+
+25. Impact of Public Health Emergencies on Modern Disaster Taxonomy, Planning, and
+
+Response, Frederick M. Gregg G, Special Focus 2008 Accessed from
+
+http://www.ncbi.nlm.nih.gov/pubmed/18562943 on 9th September 2013.
+
+26. Special tabulation lists for mortality and morbidity, ICD-10, WHO.
+
+http://apps.who.int/classifications/icd10/browse/2010/en on 20th July 2013.
+
+27. Report on Medical Certification of Cause of Death 2008, Office of The Registrar General,
+
+India, Government of India, Accessed from http://www.censusindia.gov.in/2011-
+
+Documents/mccd_Report1/Report%20on%20Medical%20Certification%202.pdf on 8th
+
+August 2013.
+
+28. NSSO -71- the List of ailments with codes and working definitions. NSSO.
+
+29. Verbal Autopsy Standards: Ascertaining and attributing causes of death, The 2012 WHO
+
+verbal        autopsy         instrument,        WHO           Accessed          from
+
+http://www.who.int/healthinfo/statistics/verbalautopsystandards/en/ on 23 August 2013.
+
+30. Institutional Mechanism for Formulation of Domain specific Metadata and Data
+
+Standards in e-Governance, eGSI-IM:02, Version 1.0, April 2012, Department of
+
+Electronics and Information technology Ministry of Communications and Information
+
+Technology       Government           of         India,        Accessed          from
+
+http://egovernance.gov.in/policy/institutional-mechanism on 8th September 2013.
+
+31. The Signature Domain and Geographic Coordinates: A Standardized Approach for
+
+Uniquely Identifying a Health Facility Health Facility Assessment Technical Working
+
+Group       January    2007,          WP-07-91,      WHO.      Accessed          from
+
+http://www.cpc.unc.edu/measure/publications/wp-07-91/at_download/document on 11
+
+September 2013.
+
+32. United States of America Food and Drug Administration (FDA) - Medication Physical
+
+Form
+
+http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162038.
+
+htm Accessed on 12th September 2013.
+
+33. United States of America Food and Drug Administration (FDA) - Pharmaceutical Unit of
+
+Measurement
+
+http://www.fda.gov/forindustry/datastandards/structuredproductlabeling/ucm168397.ht
+
+m Accessed on 8th September 2013.
+
+34. United States of America Food and Drug Administration (FDA) - Medication Package
+
+Type
+
+                                      37
+    http://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162034.
+    htm Accessed on 3rd September 2013.
+35. United States of America Food and Drug Administration (FDA) - Route of
+    Administration
+    http://www.fda.gov/Drugs/DevelopmentApprovalProcess/FormsSubmissionRequireme
+    nts/ElectronicSubmissions/DataStandardsManualmonographs/ucm071667.htm
+    Accessed on 3rd September 2013.
+36. Rajasthan Medical Service Corporation for Equipments or Instruments
+    http://www.rmsc.nic.in/pdf/eel.pdf Accessed on 18th August 2013.
+37. API Textbook of Medicine Volume-I & II, Ninth Edition
+38. National Formulary of India. Accessed from http://www.cdsco.nic.in/NFI_2011.pdf on
+    12th September 2013.
+39. Website of Canada Health Infoway Accessed from https://www.infoway-inforoute.com/
+    on 11th October 2013.
+40. Metadata Online Registry METeOR, Australia Accessed from
+    http://meteor.aihw.gov.au/content/index.phtml/itemId/181162 on 12th October 2013.
+41. Website of Society of Health Information Systems Program (http://hispindia.org/ )
+    Accessed on 28th August 2013.
+42. DHIS 2 Software Accessed from http://www.dhis2.org/downloads on 13th September
+    2013.
+43. iHRIS Software Accessed from http://www.ihris.org/ on 13th September 2013.
+44. National eHealth Transformation Authority, NEHTA http://www.nehta.gov.au/ Accessed
+    on 18th October 2013.
+
+                                                            38
+

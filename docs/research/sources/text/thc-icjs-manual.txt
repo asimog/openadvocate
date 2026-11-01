@@ -1,0 +1,139 @@
+Interoperable Criminal Justice System
+ICJS LOGISTICS OF IMPLEMENTATION
+
+Interoperable Criminal Justice System (ICJS) aims to integrate CCTNS (Crime and Criminal Tracking Network and
+System) project with eCourts and ePrisons database in the first instance and with other pillars of judiciary like
+forensic labs, prosecution and juvenile homes etc. In order to build an effective criminal justice system across the
+country, it is essential that data across all pillars of criminal justice is interoperable and is accessible across all the
+pillars.
+
+The FIR and Charge sheet data is being fed by Police department in CCTNS software, the data of all FIRs and Charge
+sheets across India is available in ICJS. ICJS has provided API's to eCourts project so that data related to FIRs and
+Charge Sheet can be consumed in CIS thus minimizing or eliminating the need of data entry by court staff. To
+integrate the CIS application with ICJS the steps are as follows:
+
+1. CPCs to request eCommittee for integration of ICJS.
+2. eCommittee will direct ICJS team to provide APIs for respective state.
+3. One pilot location to be selected for implementation of ICJS.
+4. In CIS NC version 3.2, ICJS module is available.
+5. It is presumed that before initiating integration, Central Acts and State Acts are updated with National Codes
+
+     in CIS and relevant JSON is available in CIS for tagging. (If JSON is not available , facility is made available on
+     NJDG to create it through CPC login)
+6. As the two systems CCTNS and CIS will be talking to each other it is necessary that masters with common
+     codification is used in both software.
+
+                 a. Act
+                 b. Police Station
+                 c. District
+                 d. Taluka
+
+     ICJS team will have to map Act National Code available in CIS in the CCTNS/ICJS application.
+
+7. To connect to ICJS server, firewall clearance for port 443 and 80 is required from local server at Pilot location
+     to ICJS server. For this activity NIC Coordinator of the respective state should discuss with ICJS team at NIC
+     Delhi and get the clearance.
+
+8. Ensure that National Codification of following masters is available as JSON in CIS.
+                 a. Acts (Both Central and State)
+                 b. Police stations
+                 c. Districts
+                 d. Taluka
+9. For consuming FIR and Chargesheet from ICJS, updations are required in Police Station master for Last FIR
+     Number, Last FIR year for FIR Consumption and last Chargesheet date with time stamp for chargesheet. The
+     Consume program will consume FIR from the last FIR Number and Chargesheet date/ time.
+
+10. Options for Consume FIR and Consume Chargesheet are enabled in CIS which is to be used to consume FIR/
+     Chargesheet Police Station wise.
+
+11. If ICJS server is not connecting from local server, please check for port 80 and 443 firewall clearance.
+
+Act National Code Mapping
+National Codes of Acts are required to be mapped to the local act codesr. This is available in
+`Unification' -> `Mapping' menu.
+Police Station National Code Mapping
+
+National Codes of Police stations are required to be mapped to the local police station.
+
+Initialization of Last FIR Number and Last Chargesheet Date
+
+User needs to initialize value in field Last FIR No., FIRs after this number will be consumed in CIS. The value in fields
+Last Chargesheet Date indicates the initialization date for Charge sheet. Charge Sheet entered in ICJS system after
+this date will be consumed in CIS.
+ICJS Module is available in CIS 3.2, Dashboard of ICJS is displayed here.
+
+ICJS Configuration
+
+This option is used to check whether ICJS is properly configured. Admin can check whether National Codes of Act,
+Police Station and Districts are mapped in CIS as well as on ICJS side. User can check whether police station is
+initialized in respect of FIR number and Chargesheet date for consumption of data. User can also check whether
+ICJS URL https://icjs.gov.in is accessible from local server or not.
+Consume FIR
+
+The user can consume FIR details using Consume FIR option in ICJS menu. A table with following parameters is
+shown:
+· Police Station Code
+· Police station name
+· FIR Number
+· Total Records Available
+· Consume button for consuming data
+To check the FIR records available for consumption pertaining to respective police station, user has to click on
+`Refresh' button. Once refreshed, `Total records Available' field shows count of FIR available to consume for each
+police station. The FIR data is consumed on hitting the Consume button. The screen shot below shows number of
+FIR records available to consume for each police station, after clicking `Refresh' button.
+
+The screen shot below shows, Number of FIR records consumed pertaining to respective police station after
+clicking `Consume' button.
+This consumed data can be verified in `Verify FIR' option in ICJS menu. Here user needs to select police station and
+all FIR consumed for selected police station will be populated. After selecting FIR from the list, user can check the
+data received. There are 5 tabs of information viz police station and Occurrence of Offence, Acts, Complainant,
+Accused, Accused wise Act and investigating officer.
+After going through each tab user may reject or verify the data in the last tab of investigating officer. The message
+"Verified successfully" is displayed after clicking the Submit button.
+
+Consume Chargesheet
+
+The user can consume Chargesheet using Consume Chargesheet option in ICJS menu. A table with following
+parameters is shown:
+· Police Station Code
+· Police station name
+· Last Chargesheet Date till which Charge sheets are consumed
+· Total Records Available
+· Consume
+To check the Charge Sheet records available for consumption pertaining to respective police station, user has to
+click on `Refresh' button. Once refreshed, `Total records Available' field shows count of Charge Sheets available to
+consume for each police station. The Charge Sheet data is consumed on hitting the Consume button.
+The screen shot below shows number of Charge Sheet records available to consume for each police station, after
+clicking `Refresh' button.
+The Chargesheet data is consumed on hitting the Consume button. On hitting the refresh button, the total
+records available column shows the updated data. Once Charge sheet data is consumed, user can verify or reject it
+using `Verify Charge Sheet' option in ICJS menu. The user can verify the charge sheet based on chargesheet
+number, FIR number or date wise. The following details are fetched from consumed data:
+
+· E-Filing Case Details
+· Petitioner
+· Respondent
+· Extra Information
+· Subordinate Court
+· Act-Section
+· Police Station
+· MVC
+· Extra Party
+· Case Details
+· Fess
+· View Document
+· Witness Information
+
+On clicking each of the above tabs, more detailed information is displayed
+User may Verify or Return for correction option by selecting appropriate radio button as shown in the screen shot
+below. If chargesheet is verified user needs to select Case Type also.
+On clicking Submit, the case is verified and the message "Case Filed successfully" is displayed along with Filing
+number and CNR Number. Now the case is ready for scrutiny and registration in CIS.
+
+On clicking the link for Print Acknowledgement, the acknowledgment receipt is generated.
+If the radio button for Return for Correction is selected, the case is returned for correction and the reason for case
+return is to be entered in the Remark text box.
+
+After submitting, message "Case Rejected" is displayed. The acknowledgement slip is generated on clicking "Print
+Acknowledgement" link.
+

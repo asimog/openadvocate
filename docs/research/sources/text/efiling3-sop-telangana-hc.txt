@@ -1,0 +1,415 @@
+                              HIGH COURT OF TRIPURA
+                                        AGARTALA
+
+STANDARD OPERATING PROCEDURE (SOP) FOR E-FILING OF CASES IN THE
+                             DISTRICT JUDICIARY OF TRIPURA
+
+         The SOP is intended to cover the following types of cases filed by the private
+parties and institutional litigants in the Civil and Criminal Courts of the District Judiciary
+(including Family Courts) and Tribunals of Tripura over which the High Court of
+Tripura has supervisory jurisdiction:
+
+         a) Suits for money filed by banks and other financial institutions including
+             Commercial Suits and Commercial Appeals under the Commercial Courts Act,
+             2015;
+
+         b) Complaints filed in respect of the offence punishable under Section 138 of the
+             Negotiable Instrument Act, 1881;
+
+         c) Applications filed under Section 125 of the Code of Criminal Procedure, 1973
+             for grant of maintenance;
+
+         d) Regular Civil Suits, Petitions, Appeals, Applications, Revisions and Execution
+             Petitions filed under different statutes before any Civil Court of competent
+             jurisdiction in the District Judiciary;
+
+         e) Claim Petitions for compensation filed under the provisions of Motor Vehicles
+             Act, 1988;
+
+         f) Petitions and Applications filed under the provisions of the Arbitration and
+             Conciliation Act, 1996;
+
+         g) Petitions filed under the provisions of the Indian Succession Act, 1925;
+         h) Petitions filed in the District Courts under the provisions of the Guardian and
+
+             Wards Act, 1890;
+         i) Regular and Anticipatory Bail Applications filed in the District Courts;
+         j) Private Complaints filed with respect to criminal offences cognizable by a
+
+             Magistrate of competent jurisdiction under Section 190(1)(a) of the Code of
+             Criminal Procedure, 1973;
+         k) Criminal Appeals and Criminal Revision Petitions, Civil Appeals including
+             Civil Misc. Appeals filed in the District Court.
+
+Page | 1
+1) This SOP shall be effective immediately and shall be supplemental to the ONLINE
+
+ELECTRONIC FILING (E-FILING) OF CASES IN THE HIGH COURT AND
+
+SUBORDINATE COURTS OF TRIPURA RULES, 2021 (hereinafter referred to as
+
+           ). The Advocates / Govt. Pleaders / Litigants should follow the Rules
+
+notified by the High Court on 17th December, 2021 and the same is available in
+
+the official website of the High Court in the link
+
+https://thc.tripura.gov.in/page/Noticedettc.aspx?NoticeId=25002 .
+
+2) For the purpose  Administrator
+
+Rules, the High Court has nominated the Central Project Coordinator (CPC), High
+
+                    State Admin
+
+                    District Admin -Filing 3.0 portal.
+
+3) e-Filing of cases shall be applicable only for fresh filings and not in the pending
+
+cases as on date.
+
+4) User Manual and Video Tutorials on e-Filing Version 3.0 are available in the
+
+                                 VIDEO TUTORIALS                     MANUAL
+
+Advocates/litigants/other users are requested to go through the user manual
+
+and video tutorials indicated before to understand the process of advocate/user
+
+registration and other processes relating to e-Filing.
+
+5) For e-Filing, one should visit the portal https://filing.ecourts.gov.in/ and shall
+
+                                 from the drop-down menu and choose
+
+the appropriate role for the registration (viz. Advocate/ Clerk/Litigant/Govt.
+
+Pleader).
+
+6) Registration as an Advocate or Litigant on the portal
+
+https://filing.ecourts.gov.in/ is required for e-Filing of cases. Without
+
+registration, no one can e-File any case or pleadings or documents.
+
+7) Any Advocate willing/required to create User Account in eFiling 3.0
+
+(https://filing.ecourts.gov.in) must have Unique Advocate Code (A Unique
+
+Number allotted to an Advocate for identification by the eFiling software for eg.
+
+TR/WT0012/2022). If any advocate is not having the Unique Advocate Code
+
+then request may be made to the District Admin (Nodal Officer of the District
+
+Court Complex) by submitting the duly filled-in prescribed form (proforma given
+
+at the end of this SOP at Annexure- A)) along with a self attested legible copy of
+
+         Bar Council Enrolment Certificate for the purpose of creation of Unique
+Page | 2
+Advocate Code. Thereafter, the form submitted by the advocate needs to be sent
+
+by the District Admin to the State Admin for creation & allotment of the Unique
+
+Advocate Code. After creation of Unique Advocate Code by the State Admin,
+
+intimation shall be given to the District Admin as well as Advocate concerned
+
+through email. System Officers of respective District Courts shall make the
+
+necessary entry of the particulars of the Advocate as per the form in the CIS NC
+
+3.2 Master Database.
+
+8) The data of Advocates practicing in the Courts of the District Judiciary of Tripura
+
+as of December, 2021 is already imported in National Judicial Data Grid (NJDG).
+
+The Advocates already allotted with Unique Advocate Code may create
+
+their respective User Accounts in e-Filing 3.0 portal for filing cases
+
+electronically by using their Unique Advocate Code. Once they click New
+
+User? Register Here link, a page for registration will open and after
+
+entering their                                                         Bar
+
+Registration Number , their details will be automatically fetched and
+
+displayed. They only need to set a password for their user name and submit for
+
+OTP verification through their registered mobile number and email ID. Once OTP
+
+verification is completed and submitted, they can login using Bar Registration
+
+Number, mobile number, email ID send to them and start e-Filing.
+
+9) In cases where there is no mobile number or email ID or the mobile number and
+
+email ID are incorrect or inactive, they need to update the same and complete the
+
+process of OTP verification and submission after setting a password for login.
+
+Even though the advocate could login the portal, it will ask for OTP verification of
+
+mobile number and email ID                                        Update
+
+Practice Locations    adding districts to enable e-Filing of cases in those
+
+districts.
+
+10) For registration as Govt. Pleader, one shall have to register as an advocate. The
+
+                            portal means & includes Addl. Govt.
+
+Pleader, Public Prosecutor and Addl./Asst./Special Public Prosecutor.
+
+11) Litigant registration is the same as in the case of advocate registration.
+
+Verification is required only if the litigant wishes to file case as a party-in-person
+
+(without appointing an advocate). For verification, the litigant shall upload self-
+
+attested copy of his photo ID proof and after verification by the competent
+
+Page | 3
+authority, he can e-File a case. Verification process shall be completed as
+
+expeditiously as possible.
+
+12) The pleadings, documents, vakalatnama etc. shall be as per the relevant rules
+
+and shall be filed electronically in conformity with the Rules.
+
+13) Advocates/litigants filing a case electronically through the e-Filing software
+
+version 3.0 shall be required to make online payment of Court fees mandatorily
+
+through the e-Pay Portal (https://pay.ecourts.gov.in/epay/) integrated with the
+
+e-Filing software by different online modes viz. Debit Card, Credit Card, Internet
+
+Banking, UPI etc. and there shall be no liberty to make offline payment of Court
+
+fees in a case where it has been filed electronically through the e-Filing portal.
+
+The User Manual of the e-Pay portal is available in the official website of the High
+
+Court of Tripura in the link https://thc.nic.in/ePay-Final-USer-manual.pdf . For
+
+further reference, the notification dated 12th August, 2022 issued by the High
+
+Court of Tripura regarding the implementation of the facility of electronic
+
+payment of court fees may be referred by the advocate/litigants in the link
+
+https://thc.tripura.gov.in/page/Noticedettc.aspx?NoticeId=25265 .
+
+14) Physical/hard copies (pleadings and originals of documents alongwith payment
+
+acknowledgement of Court Fees finally submitted and accepted for registration) of
+
+e-Filed cases shall be filed by the advocates/litigants on the same day of e-Filing
+
+at the filing counter of the Court and as far as possible within the physical filing
+
+time specified by such courts under the applicable rules.
+
+15) Once e-Filing is accepted, the filing number will be notified to the
+
+advocate/litigant in person by SMS alert and / or email.
+
+16) The Sr. Sheristadar /Sheristadar or such other officer authorized in this behalf of
+
+the Filing Court shall scrutinize the e-Filed cases following the extant procedure
+
+(as currently being done in physical filings) and also as per the procedure laid
+
+down in the ONLINE ELECTRONIC FILING (E-FILING) OF CASES IN THE HIGH
+
+COURT AND SUBORDINATE COURTS OF TRIPURA, RULES, 2021 and thereafter
+
+register the case under the  Case Type For the purpose of
+
+defacement of the Court fees paid online by the advocates/litigants in a
+
+case e-Filed through the e-Filing software version 3.0, the respective Filing
+
+Courts shall deface the Court fees by using the Court Fees Defacement
+
+Periphery Software Module developed by the High Court of Tripura. The
+
+defacement of the Court Fees Challan paid online by the e-filer of a case will
+
+Page | 4
+ensure that the same Challan is not used again in another case. The process
+
+involves verification of GRN (Government Reference Number) generated by e-
+
+GRAS Portal upon online payment of Court Fees by the e-filer and defacement of
+
+the Court Fees Challan. This process is nothing but a replication of the extant
+
+practice of cancellation Court Fees Stamp (Impressed & Adhesive) by the Filing
+
+Courts to prevent its misuse subsequently.
+
+17) Miscellaneous Judicial cases [Misc.(J)] and Vakalatnama to be filed along with
+
+fresh cases shall be uploaded after scanning the duly signed and stamped
+
+applications /                              Uploading Pleadings
+
+along with the main proceedings.
+
+18) The Sr. Sheristadar /Sheristadar or such other officer authorized in this behalf
+
+shall verify the Miscellaneous Judicial cases [Misc (J)] filed as above (as pleadings
+
+along with new case) and after numbering of the main case it shall be numbered
+
+and registered as Misc.(J) cases.
+
+19) The facility for e-Filing through the web portal shall be available 24 hours of each
+
+day, subject to uptime and maintenance down time or other emergencies.
+
+Exemption from e-Filing shall be as per Rule 12 of the ONLINE ELECTRONIC
+
+FILING (E-FILING) OF CASES IN THE HIGH COURT AND SUBORDINATE COURTS
+
+OF TRIPURA RULES, 2021.
+
+20) The time for electronic filing of cases for the purpose of computing the period of
+
+limitation shall be as per Rule 13 of ONLINE ELECTRONIC FILING (E-FILING) OF
+
+CASES IN THE HIGH COURT AND SUBORDINATE COURTS OF TRIPURA RULES,
+
+2021.
+
+21) In cases where urgent and immediate reliefs are sought, even before physical
+
+production of the pleadings and documents e-filed, on an application stating the
+
+reason with an undertaking that physical filing will be done within the time
+
+prescribed by the Court, the Courts are not prohibited from passing urgent
+
+orders after recording its reasons for the same and ordering physical filing
+
+within such time as may be prescribed by the Court.
+
+22) Advocates/litigants may avail the services of the e-Sewa Kendra and e-Filing
+
+Help Desk Counters of the respective Court Complexes for any assistance relating
+
+to e-Filing of cases during the working hours of the Court on all working days.
+
+These places are equipped with All-In-One (AIO) Desktop Computers and
+
+Scanners supplied by the High Court. In case of any technical query or
+
+Page | 5
+        requirement of technical assistance, the advocates/litigants may contact with the
+        System Officers of the respective District Courts. e-Filling Help Line Numbers, if
+        any, notified by the respective District Courts may also be used by the
+        advocates/litigants for raising the issues faced or assistance required for e-Filing
+        of cases in the District Judiciary.
+   23) Assistance and clarification with respect to e-Filing of cases in the District
+         Judiciary of Tripura through e-Filing portal may also be sought via email at cpc-
+         trp@aij.gov.in and thc.itcell@indiancourts.nic.in .
+   24) Any issues/difficulties faced by the Advocates/Litigants as well as the concerned
+         Courts of a particular District Judiciary shall be escalated to the State Admin
+         (CPC, High Court of Tripura) by the District Admin (the Nodal Officer concerned
+         of the District Court Complex) if the same cannot be resolved locally.
+   25) Advocates/Advocate Clerks may participate in the hands on training/refresher
+         programme on e-Filing 3.0 which may be conducted from time to time by the
+         District Court Computer Committees to better acquaint themselves regarding the
+         process. Notice regarding such training shall be made available on the official
+         website of the concerned District Court.
+   26) The District Court Computer Committees shall keep the Advocate Master
+         Database in CIS NC 3.2 up-to-date by periodically updating the details of the
+         practicing advocates of the respective District & Sub-divisional Bar Associations
+         of the concerned District Judiciary especially Bar Registration Number, mobile
+         number and email address of such advocates under intimation to the High Court
+         by email at cpc-trp@aij.gov.in. The Advocate Master Database may be made
+         available by circulation to the respective District and Sub-divisional Bar
+         Associations and e-Sewa Kendra of the respective Court Complexes for the
+         purpose of accessing the same by any advocate practicing in the District
+         Judiciary.
+   27) The District Court Computer Committees shall also keep the details of the Govt.
+         Pleader, Addl. Govt. pleader, Public Prosecutor and Addl./Asst. P.P. of the
+         respective District Judiciary updated periodically under intimation to the High
+         Court by email at cpc-trp@aij.gov.in .
+   28) The District Court Computer Committees shall provide adequate training and
+         equip the ministerial staff of the Filing Courts in consumption, verification and
+
+Page | 6
+         registration of e-filed cases in CIS 3.2 for the purpose of capacity building and to
+         familiarize them in their transition to digital filing environment.
+
+                  This SOP only addresses the technical aspects and requirements of e-
+         Filing as a guide and does not extend to substantive matters such as enquiries,
+         trials and evidence.
+
+                                                                                (D. M. Jamatia)
+                                                                             Registrar General
+
+Page | 7
+                                                                              Annexure - A
+
+                                 HIGH COURT OF TRIPURA
+                                           AGARTALA
+
+                 Application Form for allotment of Unique Advocate Code
+
+TO BE FILLED BY THE ADVOCATE/GOVT. PLEADER/PUBLIC PROSECUTOR
+
+Name of          : IN CAPITAL LETTERS
+Advocate*
+                 : Male Female Transgender Date of                            -  -
+Gender*:                                                       Birth*:
+
+Mobile No.       : Mobile No.
+(Primary).*                                                    (Secondary).*
+
+Phone No.(office) :                         Phone (Res)
+
+Email ID*        :
+
+Bar Reg. No.*
+
+(Bar Council     :                          Reg. Date*                        -  -
+
+Enrolment No.)
+
+Address (with    :
+Area Pin code)*       City :
+
+                                            STATE:
+
+                                                                              Full Signature of the Advocate with date
+
+Enclo. Self-attested copy of Bar Council Enrollment Certificate
+
+                                                                                                        Verified & Forwarded by
+                                                                                   (Signature & Seal of the District Admin)
+
+                     FOR OFFICE USE ONLY (HIGH COURT OF TRIPURA)
+
+                 Advocate Code              TR/__________/______
+  (to be specified by the State Admin.)     TR
+
+                     CIS Code
+(same Advocate Code to be given by the CIS
+
+              Admin. in Court CIS)
+
+                                                  Signature of the State Admin
+                              (Central Project Co-ordinator, High Court of Tripura)
+
+Page | 8
+
