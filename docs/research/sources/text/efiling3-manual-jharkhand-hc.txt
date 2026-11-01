@@ -1,0 +1,2124 @@
+E-Filing System
+
+                             USER MANUAL
+Contents
+
+1. General Information ............................................................................................................................. 1
+2. Getting Started...................................................................................................................................... 4
+
+   2.1 Accessing the system .................................................................................................................... 4
+   2.2 Registering new users ................................................................................................................... 4
+   2.3 Forgot Password ........................................................................................................................... 7
+3. Profile Menu ......................................................................................................................................... 9
+   3.1 Profile Forms for Advocates.......................................................................................................... 9
+
+      3.1.1 Profile Details ........................................................................................................................ 9
+      3.1.2 Update Practice Locations .................................................................................................. 10
+      3.1.3 Verify Mobile Number/ Email ............................................................................................. 11
+      3.1.4 Upload Documents ............................................................................................................. 14
+      3.1.5 Record Oath ........................................................................................................................ 18
+   3.2 Profile Forms for Litigants........................................................................................................... 20
+      3.2.1 Profile Details ...................................................................................................................... 20
+      3.2.2 Verify Mobile Number/ Email ............................................................................................. 21
+   3.3 Profile Forms for Party-in-Person Litigant .................................................................................. 21
+   3.4 Profile Forms for Advocate Clerk ................................................................................................ 22
+      3.4.1 Profile Details ...................................................................................................................... 22
+      3.4.2 Verify Mobile/Email ............................................................................................................ 22
+      3.4.3 Join Advocate ...................................................................................................................... 23
+   3.5 Basic Profile................................................................................................................................. 25
+4. Dashboard........................................................................................................................................... 27
+   4.1 Opening Screen ........................................................................................................................... 27
+   4.2 Dashboard................................................................................................................................... 30
+      4.2.1 Draft Pleadings .................................................................................................................... 30
+      4.2.2 Completed Pleadings .......................................................................................................... 33
+      4.2.3 Draft IAs .............................................................................................................................. 36
+      4.2.4 Completed IAs ..................................................................................................................... 37
+      4.2.5 Objections ........................................................................................................................... 38
+      4.2.6 My Cases ............................................................................................................................. 39
+5. Help Section ........................................................................................................................................ 40
+6. Main Menu.......................................................................................................................................... 41
+   6.1 My Partners (only for Advocates) ............................................................................................... 41
+      6.1.1 Add Partner/ Associates/ Colleague ................................................................................... 41
+      6.1.2 Accept Partnership.............................................................................................................. 42
+      6.1.3 Revoke Partnership ............................................................................................................. 44
+      6.1.4 Accept Revocation .............................................................................................................. 45
+      6.1.5 My Partners Report............................................................................................................. 47
+   6.2 Case Filing ................................................................................................................................... 49
+      6.2.1 New Case Filing ................................................................................................................... 49
+      6.2.2 Manage Favourite Clients ................................................................................................... 62
+      6.2.3 Allocate cases (only for Government Pleader -DGP) .......................................................... 63
+      6.2.4 Allocated cases Report (only for Government Pleader -DGP) ............................................ 65
+      6.2.5 Case Editing (only for Litigant) ............................................................................................ 65
+   6.3 Vakalat ........................................................................................................................................ 68
+      6.3.1 Assign Partners to Case (For Advocates) ............................................................................ 68
+      6.3.2 Offer to Advocate (For Litigants) ........................................................................................ 70
+      6.3.3 Accept Offer (For Advocates).............................................................................................. 71
+      6.3.4 Print Vakalat (For Advocates) ............................................................................................. 72
+   6.4 Pleadings ..................................................................................................................................... 74
+      6.4.1 Use Templates..................................................................................................................... 74
+      6.4.2 Pleadings ............................................................................................................................. 75
+      6.4.3 Record Oath ........................................................................................................................ 86
+   6.5 e-Payments ................................................................................................................................. 89
+      6.5.1 Payments (For Advocate and Litigant) ................................................................................ 89
+      6.5.2 Court Fee Wallet (For Advocate)......................................................................................... 91
+   6.6 Applications................................................................................................................................. 95
+      6.6.1 Interlocutory Applications Filing (only for Advocate) ......................................................... 95
+      6.6.2 Submitted Applications (only for Advocates) ................................................................... 101
+      6.6.3 Application Authentication (only for Litigant) .................................................................. 102
+   6.7 Portfolio Menu.......................................................................................................................... 105
+      6.7.1 Search Cases...................................................................................................................... 105
+      6.7.2 My Cases ........................................................................................................................... 106
+6.7.3  Import Cases ..................................................................................................................... 112
+6.7.4  Export Cases ...................................................................................................................... 113
+6.7.5  Delete Cases...................................................................................................................... 114
+6.7.6  Planner .............................................................................................................................. 114
+                                                                                                                eFiling User Manual
+
+1. General Information
+
+     Introduction
+
+         eFiling service is specially designed for advocates and litigants to provide
+         convenience of working from home, reduce delays and minimize physical presence
+         of the parties in the court. The facility allows user to file a case online and upload all
+         the case documents from home. The system also features e-signing facility and oath
+         recording using in-system camera to ensure authentication of the document.
+
+     Audience
+
+         The document is intended for Advocates, Litigants, Party-in-person Litigant,
+         Government Pleaders and Advocate Clerks who need to frequently file cases and
+         upload documents.
+
+     Purpose of the document
+
+         The purpose of the document is to familiarize the different users with the services
+         available for them through eFiling 3.0.
+
+     Objectives of the document
+
+         The main objectives of the document are to enable the user to:
+          Register with eFiling system
+          File New Cases
+          Complete vakalat procedure
+          Upload Pleadings for cases
+          E-sign pleading for authentication
+          Record oath for pleadings
+          File IA
+          Online payments for court
+          Add or revoke partners
+          Manage exclusive portfolio
+
+                                                                                                                          1
+                                          eFiling User Manual
+
+Quick Reference            Ref.           Procedure in Short
+Sr Task                    Section
+No.                        2.2            Login screen  New User link
+1 Registration             3.1,           Profile MenuUpdate Profile
+2 Update Profile           3.2/3.3
+                           3.1            Profile MenuUpdate Profile
+3 Change Password                         Change Password
+                           6.7.2          Dashboard  My Cases
+4 View my Cases                           OR
+                                          Portfolio Menu  My Cases
+5 Import / Export cases from /to 6.7.3/   Portfolio Menu  Import Cases/
+                                          Export Cases
+mobile app                 6.7.4          Portfolio Menu Planner
+                                          Portfolio Menu Search Cases
+6 Manage Court Calendar    6.7.6          Portfolio Menu Search Cases
+                                          (search the case)  Case Number
+7 Search Cases (all)       6.7.1          link  Add Case button
+                                          Main Menu My Partners Add
+8 Add individual case to portfolio 6.7.1  Partner/Revoke Partner
+        (My Cases)
+                                          Main Menu  Case Filing New
+9 Add or Revoke Partners   6.1.1/         Case Filing
+        (for advocates)    6.1.3          Main Menu  ePayments
+                                          ePayments
+10 Enter Case Information  6.2.1          Main Menu Applications 
+                                          Interlocutory application Filing 
+11 Pay Fees (for cases)    6.5.1          Pay Fees
+                                          Main Menu  ePayments Court
+12 Court Fee Payment       6.6.1
+
+13 Add balance to Court Fee Wallet 6.5.2
+
+                                                                             2
+                                    eFiling User Manual
+
+14 Upload Case Documents     6.4.2  Fee Wallet
+                             4.2.1  Main Menu  Pleadings Pleadings
+15 View uploaded documents   4.2.1   Pleadings Upload tab
+        status                      Dashboard Draft Pleadings
+
+16 Submit Pleading to court         Dashboard Draft Pleading 
+                                    Submit
+
+Table: Procedure-wise Reference
+
+                                                                    3
+                                                                                                                eFiling User Manual
+
+2. Getting Started
+
+2.1 Accessing the system
+         Visit https://filing.ecourts.gov.in/to access the eFiling system.
+         Registered users can log in into the system by using username (bar code/ email/
+         mobile number/ unique code given at the time of registration) and password. If you
+         are not a registered user, follow the procedure for registration explained in the next
+         section.
+
+                                                 Fig: Log-in Menu
+
+2.2 Registering new users
+          Click on the `New User? Register here' link in the log-in screen. A registration
+             form will be displayed.
+
+                                                         Fig: New User link
+                                                                                                                          4
+                                                                                                                     eFiling User Manual
+
+Note: Government Pleaders do not need to register. They can directly log into the system.
+         For Advocates:
+         Fill in the following details in the registration form
+              Select the State in which the advocate is registered with the bar council.
+              Bar Registration Details - When you enter the Bar Registration number, click
+                  Verify. The system will verify the bar registration number with bar council data
+                  and fetch the contact details. A message is displayed at the top of the screen
+                  informing whether the verification was successful or not. Verify the fetched
+                  contact details and change, if required.
+                  Even if mobile number changed or user is not verified, he can still register with
+                  the eFiling system. The user will be verified by the bar council later.
+              Practice Place Details
+              Contact Details
+              Password
+              Once all details are filled in, click Generate OTP; `OTP sent to your mobile
+                  number' message is displayed. Enter the OTP received on your mobile and click
+                  Verify OTP. `User registered successfully' message will appear along with your
+                  unique code.
+
+                                           Fig: Register New User - Advocate
+         For Litigants:
+         Fill in the following details in the registration form
+          Personal Details - Select state where the case needs to be filed. If the party is an
+
+             organization, fill in the organization details also.
+
+                                                                                                                              5
+                                                                                                          eFiling User Manual
+
+ Place of Litigation
+ Contact Details
+ Password
+ Once all details are filled in, click Generate OTP; `OTP sent to your mobile number'
+
+    message is displayed. Enter the OTP received on your mobile and click Verify OTP.
+    `User registered successfully' message will appear along with your unique code.
+
+                                  Fig: Register New User - Litigant
+For Clerk:
+Fill in the following details in the registration form
+ Personal Details - Select state and enter other personal details such as name, DoB
+
+    etc.
+ Contact Details
+ Password
+ Once all details are filled in, click Generate OTP; `OTP sent to your mobile number'
+
+    message is displayed. Enter the OTP received on your mobile and click Verify OTP.
+    `User registered successfully' message will appear along with your unique code.
+
+                                                                                                                     6
+                                                                                                                eFiling User Manual
+
+                                        Fig: Register New User - Clerk
+
+                                   Fig: User Registration Success Message
+
+2.3 Forgot Password
+         If your password is lost or forgotten, click on the `Forgot Password' link on the log in
+         screen.
+          Select State and whether Advocate or Litigant
+          Enter Mobile No or Email and click Send OTP
+          Enter the OTP and click Verify OTP.
+
+                                                                                                                          7
+                                                                                                     eFiling User Manual
+
+ On OTP verification, user will receive one time password on the mobile and
+    email. Use this password to log-in into the system and then set a new password
+    from profile page.
+
+                                    Fig: Forgot Password
+
+             Fig: System message notifying password sent for logging in
+
+                                                                                                                8
+                                                                                                                eFiling User Manual
+
+3. Profile Menu
+
+    New users will land in profile page directly. Email/Mobile verification and user
+    verification is necessary to access the system.
+    Profile Forms: Some of the forms such as profile details, verify email/mobile are
+    common for all the users. However, other forms may differ depending on the services
+    available. List of forms for different users is given below
+     Profile details - Includes personal information; the form is available to all the users.
+
+         Litigants may opt for `party-in-person' through this form.
+     Verify email/ Mobile - compulsory form for all users for accessing the services.
+     Update practice locations - Only for Advocates, allows advocates to enter practice
+
+         locations.
+     Approve Clerk - Only for advocates, enables approval/rejection of the service
+
+         requests from clerks.
+     Upload documents/ Record Oath - Only for Advocates whose bar council verification
+
+         is pending and for party-in-person litigants.
+     Join Advocate - Only for Clerk
+    Note: User cannot access any other menu till e-mail verification is successful and user
+    (advocate and litigant user type) is verified.
+
+3.1 Profile Forms for Advocates
+3.1.1 Profile Details
+
+          Bar Registration Details appear automatically.
+          Enter the Contact Details such as Address, Pin Code, State/ UT, District, Landline
+
+             No. with STD code, and Advocate Name and Address in Local Language.
+          Click Submit
+          The message `User Profile Changes has been updated Successfully' is displayed.
+
+                                                                                                                          9
+                                                                                                                eFiling User Manual
+
+                                         Fig: Profile Details - Advocate
+
+                                 Fig: Profile Changes Updated Successfully
+3.1.2 Update Practice Locations
+
+         This form allows user to update his practice locations.
+          Select Update Practice Locations tab.
+          Enter High Court Details by selecting High Court and Bench from drop down list.
+          Enter District Court Details by selecting State and District from the drop down
+
+             list.
+             Note: The state of the Bar Council, with which the advocate is registered, cannot
+             be removed from the State list.
+          Click on Submit button.
+          The message `User Practice Locations Updated Successfully' is displayed.
+
+                                                                                                                        10
+                                                                                                                eFiling User Manual
+
+                                         Fig: Update Practice Location
+
+                             Fig: User Practice Locations Updated Successfully
+3.1.3 Verify Mobile Number/ Email
+
+         This form allows user to verify their mobile number and Email address in the profile.
+         Note: Initially Verify Mobile/Email tab is highlighted in Red. After verification, the
+         red highlight gets removed.
+          Select Verify Mobile Number/ Email tab.
+
+             - If a contact detail is previously verified, `Verified' icon and Edit button appears
+             in front of it. Edit button allows user to change the provided contact detail.
+             - If the contact is not verified, `Not verified' icon and fields for OTP verification
+             appears in front of the contact.
+          Verify the contact detail:
+             o Click on the Get OTP button. `OTP sent to [email/mobile no]' message is
+
+                  displayed.
+             o Enter the OTP and click Verify OTP.
+
+                                                                                                                        11
+                                                                                                     eFiling User Manual
+
+    o After successful verification, message will be displayed, `OTP Verified
+         Successfully'.
+
+    o Click on Submit button.
+    o The message, `Data updated Successfully' is displayed and the red highlight
+
+         of the tab is removed.
+ Edit the verified contact detail (if it needs to be changed):
+
+    o Edit the Mobile number or Email by clicking on Edit button.
+    o Click on Get OTP and then enter the OTP and verify.
+    o After successful verification, message will be displayed, `OTP Verified
+
+         Successfully'.
+
+                 Fig: Verify Mobile/ Email Screen (before verification)
+
+                          Fig: OTP verification for Email address
+
+                                                                                                              12
+                                                                                   eFiling User Manual
+
+             Fig: Email Verification Successful
+         Fig: User Changes Successfully updated
+Fig: Mobile and Email Verified (Red highlight removed)
+
+                                                                                              13
+                                                                                                                eFiling User Manual
+
+                                            Fig: Edit Mobile Number
+
+                                     Fig: Edit Mobile Number Successful
+3.1.4 Upload Documents
+
+         This form is used to upload and verify user documents. The tab appears only if the
+         advocate is not verified by bar council during registration process or if litigant opts
+         to act as party in person.
+          Select Upload Documents tab.
+          Select the documents for Bar Registration Certificate, Photo ID and Address
+
+             Proof by clicking on browse button.
+          Click on Upload to upload the selected documents. On upload, the document
+
+             appears in the verify documents list.
+          Select suitable verification option.
+
+                                                                                                                        14
+                                                                                               eFiling User Manual
+
+ If you want to e-sign, select the eSign button. You will be directed to C-DAC
+    site for e-signing. User needs to have a virtual ID for completing the e-signing
+    procedure. Virtual ID can be generated on UID (Aadhaar) site.
+
+ If the document is already digitally signed, check the Digitally Sign checkbox.
+ For OTP based verification-
+
+    o Click on OTP and then on Get OTP.
+    o OTP is sent to the registered mobile number.
+    o Verify the entered OTP.
+    o After successful verification of OTP, the process is completed.
+
+                              Fig: Upload Documents
+
+                             Fig: Select Document File
+                                                                                                         15
+                                                                        eFiling User Manual
+
+Fig: Document Uploaded Successfully
+         Fig: Verify Documents
+                                                                                    16
+                                                                    eFiling User Manual
+
+     Fig: OTP Authentication
+Fig: Prepare document for eSign
+
+                                                                                17
+                                                                                                                eFiling User Manual
+
+                               Fig: Uploaded Document - eSign Verification
+
+                                 Fig: Profile Document Signed Successfully
+3.1.5 Record Oath
+
+         This tab allows the advocate to record their oath with in-system video recording.
+         Similar to upload documents, this tab also appears only if the advocate is not
+         verified by bar council during registration process or if litigant opts to act as party in
+         person.
+          Select Record Oath tab.
+          Click on Start Recording. You can now record the oath.
+          After oath recording, upload the oath by clicking on Upload to Server button.
+
+                                                                                                                        18
+                                                                eFiling User Manual
+
+     Fig: Record Oath
+Fig: Oath recording status
+
+                                                                            19
+                                                                                                                eFiling User Manual
+
+                                        Fig: File uploaded Successfully
+
+3.2 Profile Forms for Litigants
+3.2.1 Profile Details
+
+          Personal Details appear automatically.
+          Enter the Contact Details such as Address, Pin Code, State/ UT, District, Landline
+
+             Number with STD code, and Advocate Name and Address in Local Language.
+          Click Submit
+          The message "User Profile Changes has been updated Successfully" is displayed.
+
+                                                                                                                        20
+                                 eFiling User Manual
+
+Fig: Profile Details - Litigant
+
+                         Fig: User Profile changes has been updated successfully
+3.2.2 Verify Mobile Number/ Email
+
+         Please refer section 3.2.3 (Profile Forms for Advocates- Verify Mobile Number/
+         Email) for this form. The form is same for Advocates and Litigants.
+3.3 Profile Forms for Party-in-Person Litigant
+         A litigant may choose to be party-in-person and contest the case on own.
+          In litigant profile details, enter the details and check I wish to appear as Party in
+
+             Person for my case checkbox; click Submit. (Refer section 3.3 for litigant profile
+             details.)
+          User Profile updated successfully message is displayed and two additional tabs
+             appear- Upload Documents and Record Oath.
+          Refer section 3.2.3 for Verify Mobile/ Email.
+          Refer sections 3.2.4 and 3.2.5 for Upload Documents and Record Oath tabs
+             respectively.
+
+                                                                                                                        21
+                                                                                                                     eFiling User Manual
+
+                                         Fig: Party in Person Litigant Profile Forms
+
+    3.4 Profile Forms for Advocate Clerk
+After logging in, the new users will land in profile page directly.
+
+    3.4.1 Profile Details
+     Enter the personal details under the Profile Details tab.
+
+                                                  Fig: Profile Details tab
+    3.4.2 Verify Mobile/Email
+This form allows user to verify their mobile number and Email address in the profile.
+Note: Initially Verify Mobile/Email tab is highlighted in Red. After verification, the red highlight gets
+removed.
+
+                                                                                                                             22
+                                                                                                                     eFiling User Manual
+
+ Select Verify Mobile Number/ Email tab.
+    If a contact detail is previously verified, `Verified' icon and Edit button appears in front of it. Edit
+    button allows user to change the provided contact detail.
+    If the contact is not verified, `Not verified' icon and fields for OTP verification appears in front of the
+    contact.
+
+ Verify the contact detail:
+    o Click on the Get OTP button. `OTP sent to [email/mobile no]' message is displayed.
+    o Enter the OTP and click Verify OTP.
+    o After successful verification, message will be displayed, `OTP Verified Successfully'.
+    o Click on Submit button.
+    o The message, `Data updated Successfully' is displayed.
+
+                                                Fig: Verify Mobile / Email
+    3.4.3 Join Advocate
+The tab enables to add advocates to whom the clerk will be assisting for data entry. Please note that the
+user cannot access eFiling services till advocate approves the clerk.
+ Select the advocate name from the Search advocate list and click submit. Success message will be
+    displayed.
+
+                                                                                                                             23
+                                                                                                          eFiling User Manual
+
+                               Fig: Join Advocate - Search Advocate
+
+                               Fig: Join Advocate - Success message
+ After selecting the advocate, his/her name appears in the list below along with the approval
+
+    status.
+Note: After the advocate approves the clerk, the `pending' status changes to `approved'.
+
+                                Fig: Join Advocate - Approval status
+                                                                                                                   24
+                                                                                                                eFiling User Manual
+
+3.5 Basic Profile
+         User can upload/ change photo and change password from this menu. The e-mail
+         and mobile number appear automatically after verification is successful.
+         User Verification Icon
+         For Advocate - If Bar Registration Number and the Mobile number of the advocate is
+         matched with the bar council data during registration, `Verified by Bar Council' icon
+         appears in the basic profile. If it is not matched during registration, the bar council
+         will verify the user after registration and then the icon will change to `Verified by Bar
+         Council'.
+         For litigant- When all the profile details of litigant are verified by the court, `verified
+         by court' icon appears in the basic profile.
+         Upload Picture/ Change Password:
+          Click Upload Profile Picture to add/change the profile picture. A message
+             window would pop-up prompting to choose the picture file.
+          Choose the file. If you wish to crop the picture, click Crop and Save.
+          The user can change password of the login by clicking on Change Password.
+
+                                      Fig: Upload/Change Profile Picture
+
+                                                                                                                        25
+                                                             eFiling User Manual
+
+Fig: Change Password
+
+                                                                          26
+                                                                                                                eFiling User Manual
+
+4. Dashboard
+
+4.1 Opening Screen
+         When a verified user logs in, following screen (dashboard) will appear. It shows -
+          latest status of your portfolio through dashboard
+          calendar of the current month with cases marked on respective dates
+          list of today's cases.
+         User may click on any date in the calendar to view case list for the selected date.
+
+                                               Fig: Opening Screen
+
+                                    Fig: Different Menus in eFiling System
+                                                                                                                        27
+                                                                                                                     eFiling User Manual
+
+Note: Depending on the requirements, the menu items are customised for each user type. Menu
+items for all types of users are described in detail in the following sections. User may refer to the
+required menu items.
+User types available:
+
+     Advocate
+     Government Pleader - DGP
+     Government Pleader - AGP
+     Litigant
+     Litigant - Party-in-person
+     Clerk
+User type-wise menu is given below for reference.
+
+                                          Fig: Main Menu Items for Advocates
+
+                                  Fig: Main Menu for Government Pleaders - DGP
+                                                                                                                             28
+                                                                               eFiling User Manual
+
+Fig: Main Menu for Government Pleaders - AGP
+            Fig: Main Menu for Litigant
+
+  Fig: Main Menu for Party-in-Person Litigant
+                                                                                          29
+                                                                                                                eFiling User Manual
+
+                                     Fig: Main Menu for Advocate Clerk
+
+4.2 Dashboard
+         Dashboard displays current status of the user's portfolio. It includes following
+         buttons:
+          Draft Pleadings
+          Completed Pleadings
+          Draft IAs
+          Completed IAs
+          Objections
+          My Cases
+         Note: For Advocate clerk user, dashboard of selected advocate is visible.
+
+4.2.1 Draft Pleadings
+         Displays history of all the uploaded pleadings and payment related actions taken for
+         a case. Service is also provided to final submit the pleadings/case to the court, if all
+         the formalities are complete.
+          Click the Draft Pleading button to view the list of cases. The list displays status of
+             all the pleadings activities related to a case. The details include efilling number/
+             case number, Case Title, Upload Pleading, Oath recording, ePayment and Action.
+          Click View Document button to view uploaded pleading.
+          ePayments column lists GRN number for all the completed payments. Select the
+             appropriate GRN (if applicable) for the document.
+          Click Submit for submitting the case to the court. Submission success message is
+             displayed along with the e-filing number and the case is removed from the
+             pleadings submission list.
+
+                                                                                                                        30
+                                                                                               eFiling User Manual
+
+Note:
+ The facility of final submission of the case is available only for Advocates,
+
+    Government pleaders and party-in-person litigants. Litigants and Clerks
+    cannot submit the case.
+ After submission, the case appears in the completed pleading tab and it is not
+    available for modifications or additional uploads till verification process is
+    completed in the court.
+
+                                Fig: Draft Pleadings
+
+                         Fig: View Uploaded Document
+                                                                                                         31
+                                                        eFiling User Manual
+
+ Fig: View File
+Fig: Select GRN
+
+                                                                      32
+                                                                                                                eFiling User Manual
+
+                                           Fig: Submission Successful
+4.2.2 Completed Pleadings
+
+         This button shows count of all the submitted pleadings and the status.
+          Click the Completed Pleadings button to view the list of all the pleadings
+          The report consists of e-Filing Number, Case Title, Upload Pleadings, Oath
+
+             Recording, ePayment details and Status.
+          Facility to view submitted documents and oath video is provided. Click on the
+
+             corresponding buttons to view the same.
+Note: View Status button appears only after the case verification is done in the court. On
+click, the status is displayed, whether verified or rejected.
+
+                                                                                                                        33
+                                                                            eFiling User Manual
+
+           Fig: Completed Pleadings
+Fig: Completed Pleadings: View Documents
+
+                                                                                       34
+                                                                        eFiling User Manual
+
+ Fig: Completed Pleadings: View File
+Fig: Completed Pleadings: View Video
+
+                                                                                    35
+                                                                                                                eFiling User Manual
+
+                                    Fig: Completed Pleadings: Play Video
+4.2.3 Draft IAs
+
+         This button shows count of all the incomplete IAs. These applications can be edited
+         through Applications menu.
+
+              Click the Draft IAs button to view the list. The details include Application, e-
+                  filing/ Case Number, Case Title, Date of filing, Authentication status.
+
+              The application can be viewed by clicking on View Application link.
+
+                                                   Fig: Draft IAs
+                                                                                                                        36
+                                                                                                                eFiling User Manual
+
+                                       Fig: Draft IAs - View Application
+4.2.4 Completed IAs
+
+         The button displays the number of completed applications. When the court fee for
+         an application is paid and it is authenticated by required parties, it is automatically
+         submitted to the court. All such submitted applications are listed under this
+         category.
+          Click on the Completed IAs button to view the list of submitted applications. The details
+
+             include Application, e-filing/ Case Number, Case Title, Date of filing,
+             Authentication status.
+          The application can be viewed by clicking on View Application link.
+
+                                                                                                                        37
+                                                                                                                eFiling User Manual
+
+                                               Fig: Completed IAs
+
+                                           Fig: Completed IAs - View Application
+4.2.5 Objections
+
+         All the objections raised by the court on the submitted case, pleadings or IAs are
+         reported here. Click on the button to view the objection details.
+
+                                                                                                                        38
+                                                                                                                eFiling User Manual
+
+                                                  Fig: Objections
+4.2.6 My Cases
+
+         This button shows the count of all the cases in the user portfolio. It includes efiled as
+         well as manually registered cases. Please refer section 6.7.2 for the details.
+
+                                                   Fig: My Cases
+                                                                                                                        39
+                                                                                                                eFiling User Manual
+
+5. Help Section
+
+    Help is available in the form of Tutorial Videos, FAQ and user manual. Additionally, you can view
+    descriptions of any open form by clicking on the orange question mark in the top right corner.
+
+                                                 Fig: Help Section
+
+                                                                                                                        40
+                                                                                                                eFiling User Manual
+
+6. Main Menu
+
+6.1 My Partners (only for Advocates)
+         The menu enables advocates to manage partners by adding or revoking
+         partnerships.
+
+6.1.1 Add Partner/ Associates/ Colleague
+         This submenu allows the user to add partner/ associates/ colleagues; which could be
+         of the same State or other state.
+          Select My Partners from the menu.
+          Select Add Partners/ Associates/ Colleagues.
+          Select the radio button for My State or Other State, indicating from which state
+             the partner is to be added.
+          On selecting My State, proceed to select Advocate. For Other State, select the
+             State first and then proceed.
+          Select the Advocate to be added in the My Partner list.
+             Note: Only the advocates registered with eFiling system can be added as
+             partners.
+          On selecting the advocate, the Bar Registration Number, Email and Mobile
+             Number are retrieved automatically.
+          Click on Submit to add the partner. Notification of your partnership request is
+             sent to the advocate automatically.
+         Note: Process of addition of the partner is complete only after acceptance of the
+         same from the partner.
+
+                                                                                                                        41
+                               eFiling User Manual
+
+Fig: Add Partner for My State
+
+                                         Fig: Add Partner for Other State
+
+                                     Fig: Partner Request sent successfully
+
+6.1.2 Accept Partnership
+         This submenu enables user to accept or reject partnership requests from other
+         advocates.
+          Select My Partners from the menu.
+          Select Accept Partnership. List of all the advocates who have sent the
+             partnership request to you is displayed.
+          Select Accept or Reject for accepting or rejecting the partnership request from
+             the other advocate. A dialogue box pops up to confirm the acceptance or
+             rejection.
+
+                                                                                                                        42
+                                                                                                     eFiling User Manual
+
+ Check the box to confirm and complete OTP verification (Get OTP, enter it and
+    click Submit).
+
+ The message "Partner Request updated successfully" for acceptance or
+    rejection will be displayed.
+
+                                   Fig: Accept Partnership
+
+                   Fig: Accept partnership Get OTP and Verification
+
+                         Fig: Partner request updated Successfully
+                                                                                                              43
+                                                                                                                eFiling User Manual
+
+6.1.3 Revoke Partnership
+         This submenu enables user to revoke existing partnership with an advocate.
+            Select My Partners from the menu.
+            Select Revoke Partnership. List of all the partnerships will be displayed.
+               Partnership details include Offered to Advocate/ Offered by Advocate, Date of
+               Offer, Date of Acceptance, Status (Accepted/ Offered) and a Revoke button.
+            Click Revoke in the required row for revoking the partnership. A confirmation
+               dialogue will appear. Click OK if you want to continue.
+            Check on the box to confirm and click Get OTP.
+            Enter the generated OTP and click on Submit.
+            The message `Revoked Successfully' will be displayed. The revoke request will
+               be sent to the respective advocate immediately.
+
+    Note: Process of Revocation of the partner is complete only after acceptance of the same
+    from the partner.
+
+                                            Fig: Revoke Partnership
+
+                                                                                                                        44
+                   eFiling User Manual
+
+Fig: Confirmation
+
+Fig: Get OTP
+
+                                           Fig: Revoked Successfully
+
+6.1.4 Accept Revocation
+         This submenu enables user to accept revocation requests sent by a partner.
+          Select My Partners from the menu.
+          Select Accept Revocation. List of all the revocation requests will be displayed.
+              For every request, details such as Revocation Initiated By, Date of Offer, Date of
+              Acceptance, Date of Revocation and a button for Accept will be displayed.
+          Click Accept in the required row to revoke the partnership with the advocate. A
+              dialogue box pops up to confirm the acceptance. Confirm by clicking OK.
+          Tick on the box and select Get OTP.
+          Enter the generated OTP and click on Submit.
+          The message `Revocation Accepted Successfully' will be displayed.
+
+                                                                                                                        45
+                                                                        eFiling User Manual
+
+         Fig: Accept Revocation
+
+ Fig: Get OTP for Accept Revocation
+
+Fig: Enter OTP and click on Verify OTP
+Fig: Revocation Accepted Successfully
+
+                                                                                    46
+                                                                                                                eFiling User Manual
+
+6.1.5 My Partners Report
+         This submenu generates report for Friendship Request and Revoked Request.
+          Select My Partners.
+          Select My Partners Report.
+          By default, report for Friendship Request is displayed with details such as
+             Partner Name, Advocate Code/ Bar No., Requested Date, Accepted/ Rejected
+             Date and Status (Pending/ Accepted).
+          To view the Revoked Request Report, click on the corresponding tab.
+          Select the radio button for Offered by Me or Accepted by Mein Revoked
+             Request. By default, Offered by Me radio button is selected. The details such as
+             Partner Name, Advocate Code/ Bar No., Requested Date, Accepted/ Rejected
+             Date and Status are displayed.
+
+                                            Fig: My Partners Report
+
+                                    Fig: Revoked Request Offered by Me
+
+                                                                                                                        47
+                                                                        eFiling User Manual
+
+Fig: Revoked Request Accepted by Me
+
+                                                                                    48
+                                                                                                                eFiling User Manual
+
+6.2 Case Filing
+    Facilities available under this menu are customised for different types of users. User
+    type-wise menu items are listed below.
+    Advocate/ Party-in-person Litigant/ Advocate Clerk:
+          New Case Filing
+          Manage Favourite Clients
+    Government Pleader - DGP:
+          New Case Filing
+          Manage Favorite Clients
+          Allocate Cases
+          Allocated Cases Report
+    Government Pleader - AGP: NA
+    Litigant:
+          Case Editing
+
+6.2.1 New Case Filing
+6.2.1.1 Initial Inputs
+
+             The initial inputs required to file a case are to be filled in this form.
+              Select Case Filing menu; select Initial Inputs tab.
+              Enter District/ Establishment Details where case needs to be filed.
+              Enter Case Type Details. If the selected case type is MVC, MVC tab appears
+
+                  to fill in the additional details.
+              Enter Party (client) Details.
+              Click on Submit.
+              The message `New Case Added' is displayed along with temporary E-Filing
+
+                  Number.
+
+                                                                                                                        49
+                                           eFiling User Manual
+
+         Fig: Initial Inputs
+
+         Fig: New Case Added Successfully
+
+6.2.1.2  Litigant
+
+         This tab is used to fill Litigant details. To access this tab, click Next button on the
+         Initial Input form. However, this tab is accessible only after successfully filing out
+         the Initial Input tab.
+
+         Note: It is required to fill the details of all the parties before clicking Next button.
+         Litigant may also enter these details using his login.
+
+         User can check previously saved litigant details by clicking the View Previous
+         Parties link in top right corner.
+
+                                           50
+                                                                                               eFiling User Manual
+
+Enter the following details-
+ Select the Type (Appellant/ Respondent).
+ Enter Personal Details.
+ Enter Contact Details.
+ Enter State Information.
+ Check on Other Information to fill more details.
+ Check Legal Heir Add to add legal heir. If this is checked, Legal Heir tab
+
+    appears after submission to add the legal heir details.
+ Enter information in Local Language.
+ If required, check on Add to Favorites. If a party is added as favorite, the
+
+    details of the litigant are saved for future use, thereby enabling easy and
+    quick access to frequent party details. Parties, added as favorite, can be
+    viewed/deleted through `Manage Favorite Clients'. However, this step is not
+    mandatory.
+ Click on Update to save the details.
+ If the Appellant or Respondent is an organization, check on Organization
+    Details after selecting the Type.
+ Select Organization Name and enter all above mentioned details and click on
+    Update to save the details.
+ When details of all the parties are entered, click on Next button. To check
+    whether all party details are entered, click on the View Previous Parties link
+    in the top right corner. The link is visible only if entered party details are
+    saved.
+
+                                                                                                         51
+                                                           eFiling User Manual
+
+Fig: Litigant Details
+                                                                        52
+                                                             eFiling User Manual
+
+                     Fig: Litigant details for Organization
+
+                     Fig: View Previous Parties
+
+6.2.1.3  Legal Heir
+
+         Legal Heir form enables user to enter details of the Heir. This is required in case
+         the petitioner dies after case filing. In such situations, the assigned legal heir
+         fights the case on behalf of the deceased.
+
+                                                             53
+                                                                    eFiling User Manual
+
+                      Fig: Legal Heir Form
+
+6.2.1.4 Fact Details
+
+This tab allows the user to enter fact details for the filed case.
+
+ After successfully filling Litigant details, proceed to next tab, that is, Fact
+    details.
+
+ Select Fact Date from the calendar.
+ Select Fact Time in hours and minutes.
+ Describe the details of the fact in the Fact text box.
+ The user can add more facts by clicking on Add More Fact.
+ Click on Save.
+
+                                                                    54
+                                                                                                                eFiling User Manual
+
+                                                 Fig: Fact Details
+6.2.1.5 Case Details
+
+             This tab allows user to enter more case details.
+              On successfully adding the fact details, proceed to next tab, that is, Case
+
+                  Details.
+              Enter Cause of Action.
+              Enter Date of Cause of Action.
+              Enter Important Information or Subject or Reason.
+              Enter Prayer.
+              Enter Valuation.
+              Enter Plaint in Local Language.
+              Enter Dispute arising out of details.
+              Enter Act Details. The user can add more than one act by selecting More
+
+                  Acts.
+              Enter details in Local Language.
+              Click on Save.
+
+                                                                                                                        55
+                                                                                                                eFiling User Manual
+
+                                                 Fig: Case Details
+6.2.1.6 MVC (only for MVC case type)
+
+             This tab is available only for MVC cases. Select the tab to fill the additional
+             information. The MVC form is to be filled after filling out the Case Details form.
+              Enter the MVC Information required such as Item Number, State, District,
+
+                  Taluka, Police Station, FIR Type, FIR Number and Year.
+              In MVC information, if Other Police Station is checked, additional details are
+
+                  required such as Other Police Station, FIR Type, FIR Number and Year.
+              Enter Accident Information Details such as Date of Accident, Place of
+
+                  Accident, Time of Accident, Type of Injury (Simple/ Serious/ Death/ Other)
+                  and Name.
+              Enter Claim Information such as Compensation Claimed and Insurance
+                  Company.
+              Enter Vehicle Information such as Vehicle Type, Vehicle Registration
+                  Number, Driving License and Issuing Authority.
+              Enter Name, Place of Accident and Issuing authority in Local Language.
+              Click on Save.
+              The message, "Record Added Successfully [eFiling Number]" is displayed.
+
+                                                                                                                        56
+                           eFiling User Manual
+
+         Fig: MVC details
+
+6.2.1.7  e-File
+
+         This tab is used for e-filing the case.
+          On successfully adding case details, proceed to e-File tab.
+          The e-File tab displays all the entered details of the case such as
+
+             Establishment Name, Case Type, Party Details, Litigant Details, Fact details
+             and Case details for review.
+          Click on eFile Case.
+             Note: Please ensure that all the entered case details are correct before
+             clicking on eFile Case button as the details cannot be modified after
+             submission of the case.
+          The message "Case registration is Successful" is displayed along with thee-
+             filing registration number. The case is now ready for further processing such
+             as upload pleadings etc.
+
+                           57
+                                                                    eFiling User Manual
+
+           Fig: eFile Case
+ Fig: Confirmation to file a case
+Fig: Case Registered Successfully
+
+                                                                                 58
+         eFiling User Manual
+
+6.2.1.8  Editing the existing e-filed cases
+         There is a provision to add or modify a case and view PDF of the case filed. These
+         buttons are provided on the upper right corner of the screen, in Case Filing tab.
+         The functionality of each tab is described below.
+
+         Note: Only draft cases can be edited. Once case is submitted through eFile tab, it
+         is not available for editing.
+
+          Fig: Buttons provided to add or modify a case and view PDF of the case
+
+          Add Case Button
+              This button is useful when the user has already filed a case, but requires
+                  another new case to file.
+              On clicking this button, the user is directed towards the screen of new
+                  case filling. Refer section 6.2.1 for new case filing details.
+
+          Edit Button
+             This service enables user to modify or delete a case.
+              This button allows user to select case from provided list that includes E-
+                  Filing Number, Litigant Name, Mobile Number and Action (Edit or
+                  Delete).
+              The Edit button allows user to edit the details of the selected case. The
+                  user is able to edit case from Litigant tab onwards, similar to new case
+                  filing.
+              The Delete button allows user to delete the selected case.
+
+                                                                                                                  59
+                                                                    eFiling User Manual
+
+Fig: Select Case to Edit/ Delete
+Fig: Delete Case - Confirmation
+
+   Fig: Delete Case - Success
+                                                                                60
+                                                                                                                eFiling User Manual
+
+ PDF Button
+    This button allows user to view PDF of the selected case.
+      Click on View button for the case to open the PDF.
+      The PDF includes all case details such as Litigant Information, Other Information,
+          Main Respondent, Fact Details, and Case Details.
+      The PDF is downloadable and printable.
+
+                                                   Fig: View PDF
+
+                                         Fig: PDF of the selected Case
+                                                                                                                        61
+                                                                                                                eFiling User Manual
+
+6.2.2 Manage Favourite Clients
+         This submenu enables user to manage regular clients for whom cases are filed
+         frequently. Details of these clients are fetched automatically while filing a new case.
+         Select Case Filing  Manage Favorite Clients.
+         A client information form will be displayed. Enter the required organizational
+             details in the form.
+         Please ensure that mobile number and email address are correct as these will be
+             used for authentication.
+        Note: If the client is added by a Government Pleader, the party / litigant will get
+        registered automatically to efiling system. However, if the client is added by an
+        Advocate, the party/ litigant needs to register with e-filing separately.
+
+                                    Fig: Add favourite client form
+         If details need to be modified, click on the edit (pen) icon at the top right corner.
+
+             List of all the available favourite clients will be displayed. Click on the Edit button
+             corresponding to the required client.
+
+                                                                                                                        62
+                                                                                                                eFiling User Manual
+
+                                  Fig: Edit/ Delete Favourite Client
+
+6.2.3 Allocate cases (only for Government Pleader -DGP)
+Allocate case to AGP:
+
+     Select Case Filing->Allocate Cases; Search Case option, total allocated/unallocated
+         cases count and list of Additional GPs will be displayed.
+
+     To search the case to be allocated, select existing case/new case option and enter
+         search keyword.
+         Details of the case will be displayed including case title, case/allocation status
+         (currently allocated to, draft pleadings and applications count) and court name.
+
+     Select the status radio button corresponding to the AGP to whom the case is to be
+         allocated and click Save
+
+     Once the case is allocated, check allocated cases count. Unallocated cases count
+         should decrease and allocated cases count should increase by number of cases
+         allocated.
+         Check counts for both new case as well as search my cases if allocation is done for
+         both type of cases.
+
+De-allocate a case:
+     Deselect the status radio button corresponding to the AGP and click Save. Such cases
+         are automatically transferred to DGP and are available for allocation.
+     Once the case is de-allocated, check allocated cases count. Unallocated cases count
+         should increase and allocated cases count should decrease by one.
+
+                                                                                                                        63
+                                                                                                                     eFiling User Manual
+
+    Transfer case to other AGP:
+          Select the status radio button corresponding to the AGP to whom the case is to be
+             transferred and click Save
+          Once the transfer is complete, check the name in `case allocated to' field. Name
+             of newly allocated AGP should appear.
+         Note: After final submission of new cases, they are not available for allocation.
+
+                                           Fig: Allocate case to AGP
+Note: Once a case allocated to AGP, it will not be visible to DGP in pleadings/ application/
+payments/ court fee wallet sections.
+
+                      Fig: Allocated cases are not visible to DGP for filing activities
+                                                                                                                             64
+                                                                                                                     eFiling User Manual
+
+    6.2.4 Allocated cases Report (only for Government Pleader -DGP)
+The menu enables user to view list of all allocated cases.
+
+     Click on Case Filing->Allocated Cases Report.
+     Check cases list with allocated AGP if cases are not allocated to anyone then DGP name
+
+         will be seen (current user).
+
+         Fig: Allocated Cases Report
+
+6.2.5 Case Editing (only for Litigant)
+
+This menu is available only for Litigant user. The advocate who has filed the case
+may not fill all the details. Using this submenu, the litigant can select the case and
+add the information. However, litigant cannot have final submission of the case. The
+final submission of the case can be done by advocate only.
+
+6.2.5.1  Select Case
+          Select Advocate from the drop down list.
+          The details such as Establishment Name, e-Filing Number, Relief Sought,
+
+             Litigant Name, Mobile Number and Action (Edit or Delete) are displayed.
+          If the litigant wishes to delete the case, click on delete button provided in the
+
+             Action column.
+          To edit the case, click on Edit button in the Action column.
+          On clicking the edit button, the screen automatically shifts to next tab, that
+
+             is, Litigant.
+
+                                        65
+         eFiling User Manual
+
+6.2.5.2                                     Fig: Select Case
+6.2.5.3  Litigant
+6.2.5.4  Refer section 6.2.1.2 (Same for advocate and litigant)
+6.2.5.5  Legal Heir
+6.2.5.6  Refer section 6.2.1.3 (Same for advocate and litigant)
+6.2.5.7  Fact Details
+         Refer section 6.2.1.4 (Same for advocate and litigant)
+         Case Details
+         Refer section 6.2.1.5(Same for advocate and litigant)
+         MVC (only for MVC case type)
+         Refer section 6.2.1.6 (Same for advocate and litigant)
+         e-File
+         Litigant can review all the entered case details under this tab.
+          Select e-File tab.
+          The e-File tab displays all the details of the case such as Establishment Name,
+
+             Case Type, Party Details, Litigant Details, Fact details and Case details.
+
+         66
+                                                        eFiling User Manual
+
+Fig: e-File Case
+
+                                                                      67
+                                                                                                                eFiling User Manual
+
+6.3 Vakalat
+         Vakalat allows user to formally assign lawyers to the cases. It includes following
+         steps-
+         1. Advocate assigns self and partner/s to the case.
+         2. Litigant appoints the lawyer by sending offer to the advocate.
+         3. Advocate accepts the offer to complete the process.
+         Lawyer's assignment to the case is complete only after all the three steps are done.
+         All the three steps can be completed with this menu. Send offer menu (step 2) is
+         visible only to Litigant.
+
+6.3.1 Assign Partners to Case (For Advocates)
+         This submenu allows the Advocate to assign self and partners to the client.
+         Note: The menu is visible only to the Advocates.
+          Select Vakalat.
+          Select Assign Partners to case.
+          Select search option - Search my case or New Case.
+             o For New Case, select e-Filing number from the dropdown list.
+             o Select Search My Case and enter any three characters of Search Keyword;
+                  list of cases will appear in the dropdown list, select the required case.
+
+                                Fig: Assign Partner to Case- Search My Case
+
+          The details for the selected case are displayed such as Name of the Appellant,
+             My Clients, and Establishment name. By default, all the clients are selected in the
+             My Clients list. If user wants to assign advocate only to particular client/s,
+             uncheck the other client/s.
+
+          Select the client by checking the name in the My Client list.
+
+                                                                                                                        68
+                                                                                                     eFiling User Manual
+
+ Click Search user button; if the user is found, his/her name appears in the
+    dropdown list of Select user. Select the required user from the dropdown list.
+
+Note: Please note that Client registration is mandatory; without registration of the
+client, users will not be found.
+ Select Name of the Advocate. By default, name of the advocate is selected as
+
+    Myself, meaning that the user himself is already assigned to the case. The user
+    may add more advocates (partners) for the case.
+ Check on the box below name of advocate to accept the partner.
+ Click on Submit; a success message will be displayed. On successful submission,
+    Litigant will be able to see this notification in his/her vakalat menu for further
+    processing.
+
+                                 Fig: Assign Partner to Case
+
+                                                                                                              69
+                                                                                                                eFiling User Manual
+
+                                 Fig: Assign Partner - e-Filed Cases Success
+
+6.3.2 Offer to Advocate (For Litigants)
+         This menu allows litigant user to send offer to the advocate.
+         Note: This menu is visible only to litigant user.
+          Select Vakalat.
+          Select Offer to Advocate. All the cases assigned by lawyer are visible.
+          Select the radio button for New Case or Existing Case.
+          Check the checkbox I wish to appoint ... for the required case in the table.
+          Click on Get OTP; OTP will be sent to your mobile; enter the OTP and click Verify.
+          On successful verification click Submit. A success message will be displayed.
+
+                                                                                                                        70
+                                                                                                                eFiling User Manual
+
+                                             Fig: Offer to Advocate
+
+                                       Fig: Offer to Advocate Successful
+6.3.3 Accept Offer (For Advocates)
+
+         This submenu allows Advocate user to accept offer from litigant.
+           Select Vakalat.
+           Select Accept Offer. All the cases for which litigant has sent the offer are
+
+              displayed.
+           Select the radio button for New Case or Existing Case.
+           Check on I accept the offer in the table.
+           Click on Get OTP for the mobile number. Enter the OTP and click on Verify.
+           On successful OTP verification, click Submit.
+           The message `Offer Accepted' is displayed.
+
+                                                                                                                        71
+                                                                                                                eFiling User Manual
+
+                                                 Fig: Accept Offer
+
+                                               Fig: Offer Accepted
+6.3.4 Print Vakalat (For Advocates)
+
+         Facility is provided to download the Vakalatnama for creating the physical document
+         after online vakalat procedure is completed.
+          Select Vakalat from main menu.
+          Select Print Vakalat from submenu.
+          Select radio button for New Case or Existing Case.
+          A list of all the cases for which vakalat procedure is completed online is
+
+             displayed. The details include e-Filing Number, Cause Title, Name of Litigant,
+             Advocate, and Mobile Number.
+
+                                                                                                                        72
+                                                                                                     eFiling User Manual
+
+ Click on the Download button for downloading the vakalatnama. The
+    downloaded file is in .odt format and can be edited.
+
+                                       Fig: Print Vakalat
+
+                                  Fig: Vakalatnama Sample
+
+                                                                                                              73
+                                                                                                                eFiling User Manual
+
+6.4 Pleadings
+         Pleadings are nothing but legal documents of the case, and this menu makes
+         provision to upload and authenticate such documents. Uploading needs to be done
+         by advocates; litigant can only authenticate the pleadings.
+
+6.4.1 Use Templates
+         The formats for legal documents such as Affidavit, Complaint, Petition and other
+         similar documents are standardized by the court. Since these documents are
+         regularly required for most of the cases, standard templates are provided for ease of
+         preparing the documents.
+          Select Pleadings.
+          Select Use Templates.
+          Select search option -Search my Case or New Cases.
+             o For Search my case, enter Search Keyword and then select a case from the
+                  dropdown list.
+             o For New Case, select e-Filing Number from the dropdown list.
+          The details of the case are displayed such as Name, My Clients, and
+             Establishment Name.
+          Select Type of Pleading from drop down list. Only applicable pleadings for the
+             selected case type appear in dropdown list.
+          Click on submit. Click on Open to download the template.
+          The downloaded template is in ODT format (Open Document Text), and can be
+             edited; it may then be converted to pdf format for uploading.
+
+                                                Fig: Use Template
+
+                                                                                                                        74
+                                                                                                                eFiling User Manual
+
+                                            Fig: A Template Sample
+6.4.2 Pleadings
+
+         This submenu allows user to upload their legal documents, provide indexing,
+         authorise signatories and e-Sign the pleadings.
+         The details of the submenu are described further below.
+6.4.2.1 Pleading Upload
+
+             This tab enables user to perform following actions:
+              Upload new legal documents (in PDF format) for a selected case
+              View/ Search previously uploaded documents
+              Merge uploaded documents
+              Upload New Documents
+
+                  Following steps are to be performed for uploading:
+                  Select the Case: Search the case for which documents need to be uploaded.
+                   Select suitable search option - Search my Case or New Case.
+
+                      o For Search My Case radio button, enter Search Keyword and select a
+                           case from the drop down list.
+
+                      o For New Case, select e-Filing number from the drop down list.
+                   The details of the case are displayed such as Name, My Clients, and
+
+                      Establishment Name.
+
+                                                                                                                        75
+                                                                                          eFiling User Manual
+
+Upload the Document:
+ Enter the file name (document name) in the text box provided.
+ Choose the file to be uploaded by clicking on Browse button and click
+
+    Add File.
+    The file name and file (in PDF format) is displayed in the table below.
+    Click on Submit button.
+ The message, `Addition Successful' will be displayed and the document
+    can be viewed in the table provided at the bottom of the form.
+
+                           Fig: Pleading Upload
+
+                 Fig: Addition of Pleading Successful
+                                                                                                    76
+                                                                                                                eFiling User Manual
+
+ View / Search Uploaded Documents:
+     Select Pleadings form main menu and again select Pleadings from sub menu.
+     A list of all previously uploaded documents is displayed. The details of the table
+         include Name of Litigant, File Name, Uploaded On, Status of the document and
+         Delete option.
+     Uploaded documents listed in the table can be searched with the help of filing
+         number or CNR number.
+     Digitally Signed and eSigned icons appear when the document is digitally signed or
+         e-signed.
+     The document can be viewed by clicking on the name of the document.
+
+                                                  Fig: Pleadings
+ Merge Uploaded Documents
+
+    This service allows user to combine two or more documents into one document.
+    Note: Please note that digitally signed documents cannot be merged.
+     Select the documents to be merged by checking the check boxes (in the Sr No
+
+         column) for the respective documents.
+     Click Merge Files button below the Cause Title.
+
+                                                                                                                        77
+                                                                                                                     eFiling User Manual
+
+          A dialogue box will pop up with files to be merged. Click on the file name button to
+             view the document. You may also change the sequence of files before merging by
+             dragging and dropping the file buttons at desired positions.
+
+          Enter the File Document Title and click Merge button.
+          The message, "Merged Successfully" is displayed.
+          On merging the files, a single document is formed and the individual files are
+
+             removed from the table. Merged icon appears in front of the single document.
+
+                                Fig: Pleading Table - Select Documents for Merging
+
+                                      Fig: Enter File Document Title for Merging
+Note: Click on the file name button to view the file. You may change the sequence of documents by
+dragging and dropping before merging.
+
+                                                                                                                             78
+                                                                       eFiling User Manual
+
+6.4.2.2                                Fig: Merging Successful
+         Indexing (For Advocates)
+
+         Indexing for the document is nothing but preparing index for the contents of the
+         document. This step is not mandatory; however, it is always better to index the
+         documents.
+
+         This tab also provides provision to authorize signatories, as to who will be signing
+         the documents. The details of both indexing and signatories are provided below.
+
+          Indexing
+
+             Indexing allows the user to create index for the selected document. It
+             provides more clear view of the contents of the document. Through indexing,
+             the user can jump to his required content without going through the whole
+             document.
+
+         Indexing can be done for individual as well as merged files.
+
+          Select Pleadings from the main menu.
+          Select Pleadings from the submenu.
+          Select Indexing tab.
+          Select radio button for New case or Existing Case. If `new cases' is
+
+             selected, only the e-filed cases are shown; if `existing case' is selected
+             manually filed and efiled, both types of cases are shown.
+             A table is shown with details Index Title, From Page Number, To Page
+             Number, and View Document. The title of each document is also
+             displayed, clicking on which will open the document.
+          To add index to the selected document
+
+                                                                       79
+                                                                                          eFiling User Manual
+
+    o Click on Add Index button.
+    o Enter the details for Index Title, From Page No., and To Page No.
+    o Click on Index Document button.
+    o The message, "Document Indexed Successfully" is displayed.
+ When indexing is complete, it is displayed in the table. The indexed parts
+    of the document can be viewed separately by clicking on the View
+    Document link in front of the index.
+ The index can be deleted by clicking on Delete button.
+
+                            Fig: Indexing form
+
+                              Fig: Add Index
+
+                 Fig: Document Indexed Successfully
+                                                                                                    80
+                                                                                                                eFiling User Manual
+
+                                      Fig: Indexing Appears in the Table.
+6.4.2.3 Pleading eSign (For Advocate and Litigant)
+
+         Pleading eSign tab enables user to assign signatories and e-sign a pleadings
+         (document). Multiple parties can e-sign a single document.
+ Authorize Signatories
+    This facility allows user to assign signatories for a document including the advocates or
+    clients. The service also enables to specify the mode of signing- whether it will be e-
+    signed or OTP verified by the signatory. Only the assigned advocates and clients are able
+    to sign the document. When a client is assigned as signatory by the advocate, he will be
+    able to see the document for e-signing under pleadings menu.
+     Click on Authorize Signatories to authorize who can sign the selected document.
+     Check the box for those who the user wishes to authorize. Check box is provided in
+         front of their names.
+     Select the method of signing, by selecting the radio button for eSign or OTP. For
+         OTP, enter the mobile number and the OTP is sent to that number.
+     Click on Submit button.
+     The message, "Signatory Authorized Successfully" is displayed. This signatory will
+         now be able to eSign/ OTP verify document through own login.
+
+                                                                                                                        81
+                                                                                               eFiling User Manual
+
+                            Fig: Authorize Signatories
+Fig: Signatory Authorized Successfully
+
+                                                                                                         82
+                                                                                                                eFiling User Manual
+
+ eSign Verification
+    Click on eSign button next to the party name. Click on Prepare PDF for e-sign and then
+    on Submit for e-signing. You will be directed to C-DAC site for e-signing. The procedure
+    requires aadhar based OTP verification.
+
+                                           Fig: Prepare PDF for eSign
+
+                                            Fig: Submit for eSigning
+                                                                                                                        83
+                                                                    eFiling User Manual
+
+Fig: Authentication for Aadhaar
+  Fig: Document eSigned Successfully
+                                                                                84
+                                                                                                                eFiling User Manual
+
+                                                 Fig: E-signed Document
+ OTP Verification
+
+     Click on Get OTP button in front of the desired document.
+     Click Get OTP.
+     Enter the OTP and click Verify.
+     OTP verification success message is displayed.
+
+                                              Fig: OTP Verification
+                                                                                                                        85
+                                                                                                                eFiling User Manual
+
+                                         Fig: OTP Verification Success
+
+6.4.3 Record Oath
+         This submenu allows user to record their oath online. The oath is a way of proof that
+         all the uploaded documents are true and verified.
+          Select Pleadings.
+          Select Record Your Oath.
+          Select radio button for New Case or Existing Case.
+          Select the required e-Filing Number.
+          Select the document.
+             The case details such as Establishment Name, Case Type, Cause Title, and Client
+             Name are displayed and the document is displayed in the right-side window.
+          Click on Record your Oath. A window with capture screen and oath affirmation
+             is displayed.
+          Click Start Recording to record the oath.
+          When oath recording is complete, click Upload to Server to upload the oath.
+          After oath recording the document is added in list of documents (left bottom
+             part of the screen) for which oath is recorded. The report can be downloaded in
+             the PDF, Excel or CSV formats.
+
+                                                                                                                        86
+                                                               eFiling User Manual
+
+   Fig: Oath Recording
+Fig: Start Oath Recording
+
+                                                                            87
+                                                                   eFiling User Manual
+
+Fig: Oath Recording in Process
+Fig: File uploaded Successfully
+
+                                                                               88
+                                                                                                                eFiling User Manual
+
+6.5 e-Payments
+         This menu facilitates the online transaction for different court payments.
+
+6.5.1 Payments (For Advocate and Litigant)
+         This submenu enables user to make payment to the court, through means of Court
+         Fee, Judicial Deposit, Fine, Penalty or Others. The type of payments may vary for
+         different states depending on the payment types enabled for that state.
+          Select ePayments from main menu.
+          Select Payments from submenu.
+          Select suitable search option - Search my Case or New Case.
+             o For Search My Case, enter the Search Keyword and select case from the drop
+                down list.
+             o For New Case, select e-Filing Number from drop down list.
+          The details of the case such as Appellant Name, My Case details and
+             Establishment details are displayed.
+          Select type of payment by clicking the required radio button. Only the payment
+             types which are applicable for the selected case type appear.
+          Enter the details such as Payee Name, Party Name, Mobile Number and
+             Amount to be paid for each payment type.
+          Check on I agree to above terms and conditions; Generate OTP button appears.
+          Click on Get OTP; the OTP is sent to the entered mobile number.
+          Enter the OTP generated and click on Verify.
+          The page is redirected to respective vendors for payment. (refer screenshots
+             below)
+          The transactions can be viewed by clicking on View Transactions button
+             provided on the right hand side.
+
+                                                                                                                        89
+                                                                                       eFiling User Manual
+
+                           Fig: e-Payment
+
+Fig: For payment, the site is redirected to respective vendor
+                         Fig: GRN Number
+                                                                                                 90
+                                                                                                                eFiling User Manual
+
+                                             Fig: Acknowledgement
+
+                                              Fig: View Transaction
+6.5.2 Court Fee Wallet (For Advocate)
+
+         This submenu is used to add money to your wallet establishment-wise to pay court
+         fee. Current available balance is visible on the right side. This is total of all the
+         establishment-wise wallet balances.
+         Note: The money added to the selected establishment can be used for that
+         establishment only, and cannot be used in other establishments.
+         To add balance:
+          Select e-Payments.
+
+                                                                                                                        91
+                                                                                                     eFiling User Manual
+
+ Select Court Fee Wallet. Current wallet balance (for all establishments) is
+    displayed on right hand side of the screen.
+
+ To add balance to wallet:
+    o Select District.
+    o Select Establishment Name. Click on the link "Wallet can be used.." to view
+         the establishments for which this wallet can be used for payment of court
+         fee.
+    o Check on I agree to above Terms and Conditions.
+    o Enter the amount to be added to Court Fee Wallet.
+    o Click on Get OTP.
+    o Enter OTP and click on Verify.
+    o The page is redirected to respective vendors for payment. (refer screenshots
+         below)
+    o On successful transaction, new balance is reflected on the screen.
+
+ Facilities to view Balance History, Transactions and Passbook are provided. Click
+    on the corresponding button to view the lists.
+
+   Fig: Court Fee Wallet and establishments for which the wallet is applicable
+
+                                                                                                              92
+                                                                         eFiling User Manual
+
+Fig: Acknowledgement court fee wallet
+
+           Fig: Transaction List
+           Fig: Balance History
+
+                                                                                     93
+                                                       eFiling User Manual
+
+Fig: Passbook
+
+                                                                     94
+                                                                                                                eFiling User Manual
+
+6.6 Applications
+         The menu enables user to file Interlocutory Applications. Only advocates can file the
+         applications and pay the fee. However, the application needs to be authenticated by
+         advocate as well by litigant. Accordingly, only authentication menu is available for
+         the litigant user.
+
+6.6.1 Interlocutory Applications Filing (only for Advocate)
+6.6.1.1 Applications
+
+             This tab allows user to file a new IA and edit/delete previous applications.
+              Select Interlocutory Applications Filing.
+              Select Applications.
+              Select radio button for Search My Cases or Cause List Date. By default,
+
+                  Search My Cases is selected.
+                  o For Search My Case, enter at least 3 characters of Search Keyword and
+
+                      select the case from the dropdown list.
+                  o For Cause List Date, select the date and select the case on that date by
+
+                      checking on Select Case on the right side of the table.
+              The details of the case are displayed.
+
+                                     Fig: Search Case by Search My Cases
+
+                                     Fig: Search Case by Cause List Date
+
+                                                                                                                        95
+                                                                                                                eFiling User Manual
+
+ File new Application
+     Select the required case by searching it.
+     Select Application from the dropdown list.
+     The Preamble, Prayer and Court Fee are retrieved on selecting the application. User
+         can change these, if required.
+     Enter text in Paragraph. The user can add more paragraphs by clicking on Add More.
+     Click on Submit button.
+     The message `Application Added Successfully' is displayed.
+
+                                              Fig: Application Filing
+
+                                     Fig: Application Added Successfully
+ Edit Applications
+
+      Click the link View Previous Application; list of all the applications for the selected
+          eFiling number or keyword is displayed.
+
+      The user is able to edit or delete application by clicking the corresponding icons.
+
+                                                                                                                        96
+                                                  eFiling User Manual
+
+                  Fig: View Previous Application
+
+6.6.1.2 Pay Fees
+
+This tab allows user to pay fees for the application filing using court fee wallet.
+
+ Select Applications.
+ Select Interlocutory Application Filing.
+ Select Pay Fees.
+ A table is displayed with entries of Application, PDE/ Case Number, Case
+
+    Title, and Court Fees for every establishment that is displayed.
+ The wallet balance for every establishment is also shown in the table.
+ To pay the fee, select the case for which the payment is to be made by
+
+    checking the check box provided on left in each case row, and then click on
+    Pay button on the bottom of the table.
+
+Note: Court fee wallet balance of one establishment cannot be used to pay fees in
+other establishment. Please ensure that enough balance is available in the wallet of
+the required establishment. If not, add balance through e-payment menu.
+
+ On clicking the Pay button, the message, "Payment Done Successfully
+    [Application Type][Amount]" is displayed.
+
+                                                                                     97
+                                                                  eFiling User Manual
+
+         Fig: Pay Fee
+
+6.6.1.3                           Fig: Payment Done Successfully
+         Authentication
+
+         The tab enables advocate to authenticate the application before submission. The
+         application needs to be authenticated by all the litigants and advocate before
+         final submission.
+
+          Select Application.
+          Select Interlocutory Application Filing.
+          Select Authentication.
+
+             An establishment-wise list of the applications is displayed with details such as
+             Application, e-Filing/ Case Number, Case Title and Authentication.
+          In the authentication column, status is displayed whether the application is
+             authenticated by the litigants.
+          Advocate authentication status is displayed at the bottom of the table.
+
+                                                                  98
+                                                                                                                eFiling User Manual
+
+                                    Fig: Application Authentication Form
+ Authentication Procedure
+
+     User may view the application by clicking on View Application link in Authentication
+         column.
+
+     Select the application to be authenticated by checking the checkbox I have viewed
+         the application and wish to submit in the application row.
+
+     Click the Authentication Pending button in front of advocate name at the bottom of
+         the table. A message for OTP verification is displayed.
+
+     Click Send OTP to receive the OTP on your registered mobile number; enter it and
+         click Verify.
+
+     On successful verification `Application Submitted Successfully' message is
+         displayed.
+         Note: Advocate may also authenticate of the Litigant's behalf by clicking the
+         Authentication Pending button in front of the litigant name. However, OTP is
+         received on the litigant's mobile number and with permission; it can be entered by
+         the advocate.
+
+                                                                                                                        99
+                                                                                   eFiling User Manual
+
+                    Fig: View Application
+Fig: Select (check) the Application to be Authenticated
+
+   Fig: Authentication Pending Button for Advocate
+            Fig: OTP Verification for Advocate
+                                                                                            100
+                                                                                                                eFiling User Manual
+
+                                   Fig: Application Submitted Successfully
+6.6.2 Submitted Applications (only for Advocates)
+
+         The service enables user to view report of all submitted or pending for submission
+         applications.
+          Select Applications from main menu.
+          Select Submitted Applications Report from submenu.
+          Select whether report for submitted or pending applications is to be generated
+          Specify the time period for which report needs to be generated and click on the
+
+             search icon.
+          A list with details including application type, d-filing no./ case number/ case title
+
+             and authentication status is displayed.
+          User may click on the view application link to see the application.
+
+                                     Fig: Submitted Applications
+                                                                                                                      101
+                                                                                                                eFiling User Manual
+
+                                       Fig: Pending Application
+
+6.6.3 Application Authentication (only for Litigant)
+         Litigants can authenticate an application using this menu.
+          Select Application.
+          Select Application Authentication.
+          Select Advocate from search advocate.
+          The information such as Application, PDE/ Case Number, Case Title and
+             Authentication is displayed in the table.
+          In the Authentication column, the user can view the document by clicking on
+             View Application.
+          To Authenticate the document:
+             o In authentication column, check on I have viewed the application and wish
+                  to submit.
+             o Click on Authentication Pending icon shown in front of the litigant name. A
+                  dialogue box will pop up with details of the Litigant namely Party Name and
+                  Mobile Number.
+             o Click on Get OTP beside mobile number to get the OTP.
+             o The OTP will be sent to the registered mobile number of the Litigant.
+             o Enter the OTP and click on Verify.
+             o The message, "Application Submitted Successfully" is displayed.
+
+                                                                                                                      102
+                                                                                               eFiling User Manual
+
+o When the Litigant authenticates the application, Authenticated sign appears
+    in the place of Authentication Pending button. The changes are visible to the
+    Advocate also.
+
+                         Fig: Application Authentication
+
+                               Fig: View Application
+
+                                                                                                        103
+                                                                         eFiling User Manual
+
+                Fig: Get OTP
+Fig: Application Submitted Successfully
+
+                                                                                   104
+                                                                                                                eFiling User Manual
+
+6.7 Portfolio Menu
+         This menu provides various utilities for the user such as searching cases, viewing in
+         your portfolio, importing and exporting cases and maintaining planner.
+
+           Fig: Portfolio Menu
+
+6.7.1 Search Cases
+         The service enables user to search cases with different options and add the searched
+         case to the portfolio, if required.
+
+6.7.1.1    CNR Search
+           Select the radio button CNR number and click Search. Details of the case with
+           given CNR number are displayed.
+           Click the Add Case button in case details for adding the case in your portfolio.
+
+           Fig: CNR Search Result
+                                                                                    105
+                                                                                                                eFiling User Manual
+
+6.7.1.2 Advance Search
+             Advance Search provide multiple options for search including Case Number,
+             Party Name, Filing Number, FIR Number, Advocate Name, Act, Case Type and
+             Caveat.
+              Select Advance Search
+              Select District and Establishment; different options for search are displayed.
+              Select the desired option and enter the required data. List of all the cases
+                  matching given search criteria is displayed.
+              To view all the case details of a particular case, click on the Case Number
+                  link. Click on Add Case button in the case details for adding the case in the
+                  portfolio.
+             Example search with Party Name is shown below.
+
+                                               Fig: Advance Search
+
+       Fig: Advance Search Example - Party Name Search
+
+6.7.2  My Cases
+       This menu allows user to:
+        View all the cases in the portfolio
+        Add clients to a particular case
+
+                                                        106
+                                   eFiling User Manual
+
+ Add events for a particular case
+ Remove case from the portfolio
+
+6.7.2.1  View Cases
+          The cases can be viewed Date wise or District wise. By default, cases are
+
+             displayed districtwise.
+          Refresh Cases allows refreshing the portfolio so that all the latest updates
+
+             are reflected in the list.
+          User may also choose to view only Pending cases or Disposed cases or Both
+
+             by selecting corresponding buttons. By default, both types of cases are listed.
+          Click on the district (or Date, if selected date-wise) row to expand the view
+
+             and see all cases list.
+          Click on the Case Number link to view individual case details.
+          Search option is provided in the top right corner to search cases in the
+
+             portfolio.
+
+          Fig: My Cases - Date wise, both (Pending and disposed)
+         Fig: My Cases - District wise, both (Pending and disposed)
+
+                                                                                                        107
+                                                   eFiling User Manual
+
+         Fig: Expanded view of district cases
+
+         Fig: Expanded View of cases for Datewise
+
+6.7.2.2  Add Clients, Events or Remove Cases
+          Select the required case and click on the Case Number to view case details. My
+
+             Clients, Events and Remove Case buttons are visible at the top right corner.
+          Click My Clients to add clients
+          Click Events to add events for the case.
+          Click Remove case to delete the case from the portfolio.
+
+           Further steps are explained in next part of this section.
+
+                                                   108
+                                eFiling User Manual
+
+             Fig: Case Details
+
+ Add Client
+
+ When user clicks on My Clients button, a list of existing clients is displayed.
+ To add new client, click on Add More button.
+ Enter the Litigant Name, Mobile, Email, Age and Address in the corresponding fields
+
+    and click Submit.
+ A success message will be displayed.
+
+             Fig: My Clients (existing)
+                                                                                       109
+                                                                                                                eFiling User Manual
+
+                                               Fig: Add New Client
+
+                                   Fig: Client Added Successfully Message
+ Add Events
+
+    The events added for a case are visible in the calendar under planner menu and can be
+    edited through planner.
+    To add a new event or edit/ delete existing event, click Events button. List of already
+    existing events and a form for entering a new event is displayed.
+     Enter Name, Date and Time for the new event; click Add.
+     A success message will be displayed and the new event is visible in the existing
+
+         events list.
+     To edit an event, click on the edit icon in the Action column. Details of the event are
+
+         displayed.
+                                                                                                                      110
+                                                                                                          eFiling User Manual
+
+ Change the required data and click Edit. Edited data is reflected in the list
+    immediately.
+
+ To delete an event, click delete icon in the Action column. The event gets removed
+    from the list.
+
+                                           Fig: Events
+
+                                    Fig: Event added Successfully
+
+                                                                                                                  111
+                                                    eFiling User Manual
+
+              Fig: Edit Event
+
+ Remove Case
+
+ To remove a case, click Remove Case button.
+ "Case Removed Successfully" message is displayed.
+
+                                     Fig: Remove Case Success Message
+
+6.7.3 Import Cases
+         The menu enables user to import cases from your mobile app portfolio.
+
+          To import cases, first export cases from your mobile app and save the file on
+             your machine.
+
+          Select Import Cases in the Portfolio menu of eFiling system.
+          The system will prompt for choosing the case file. Choose the file which you have
+
+             saved by exporting from mobile app. Specify whether the file contain district
+             court cases (DC) or high court cases (HC) by selecting corresponding radio button
+             and click Import.
+
+                                                                                                                      112
+                                                                                                                eFiling User Manual
+
+          A success message will be displayed and all the imported cases will be visible in
+             the portfolio in eFiling.
+
+                                        Fig: Import Cases- Choose File
+
+                                           Fig: Import Cases Success
+6.7.4 Export Cases
+
+         The menu enables user to export cases to your mobile application.
+         To export cases, select Export Cases in the portfolio menu.
+         A system pops up message to download the file; click Download.
+         Use the downloaded file to import cases in your mobile app.
+
+                                       Fig: Export Cases- Download file
+                                                                                                                      113
+                                                                                                                eFiling User Manual
+
+6.7.5 Delete Cases
+         The menu can be used to delete all the cases from the portfolio.
+         Note: This menu is not available for Clerk user.
+
+6.7.6 Planner
+         This service assists user to manage case calendar. With the facility, user can-
+          review the case calendar for planning
+          add/edit/remove events
+          remove a case from calendar
+         All cases dated in a month and existing events appear automatically in the calendar.
+
+                                                    Fig: Planner
+ Click the blue box to view Case details. A pop-up shows the list of cases scheduled on
+
+    the date.
+    o Click on the required case link to view details. All the case details are visible in a new
+
+         box with three buttons in the top right corner- My Clients, Events and Remove Case.
+          Click My Clients to add new clients.
+          Click Events to add new events
+          Click Remove Case to remove the case from the calendar.
+    Refer section 5.2.3 for more details about functionalities of these buttons.
+ Click on the Green box to view events. A pop-up shows the list of all the events
+    scheduled on the date.
+    o To edit the event, click edit icon in front of the required event. Event description and
+         date appears in a pop-up.
+
+                                                                                                                      114
+                                                                                                          eFiling User Manual
+
+o Edit the description and/or date and click Edit. Changes will reflect in the list
+    immediately.
+
+                              Fig: List of Cases scheduled for the date
+
+             Fig: Case Details with My Clients, Events and Remove Case buttons
+
+                                                                                                                  115
+                                                                          eFiling User Manual
+
+Fig: List of Events scheduled for the date
+                Fig: Edit Event
+                                                                                    116
+

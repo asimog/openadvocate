@@ -1,0 +1,353 @@
+HIGH COURT OF JAMMU & KASHMIR AND LADAKH
+
+                       (Office of the Registrar General at Srinagar)
+
+Subject:- Mentioning CNR Number on the left top in the heading
+                  portion of the first page in all Orders and judgments to
+                  facilitate integrated data management in ICMIS under
+                  'One Case One Data' initiative.
+
+                                        CIRCULAR
+
+No.: -c2 of 2026/RG  Dated: L(f.07.2026
+
+                  In continuation to the Circular No. 103 dated 22.02.2019 and in
+terms of the communication dated 02.06.2026 of Secretary General,
+Hon'ble Supreme Court of India (Copy enclosed as Annexure- "A"), it is
+hereby directed that all Judicial Officers posted in the District judiciary shall
+invariably use, wherever applicable, the standardized templates available in
+the Judgment Writing Module of CIS 4.0. In cases where, for any reason,
+the CNR number is not reflected in the manner envisaged in the
+communication dated 02.06.2026 of the Hon'ble Supreme Court, the same
+shall invariably be manually mentioned conspicuously, on the left top in the
+heading portion of the first page, of the orders and judgments.
+
+By Order.
+
+                     (M.K Sharm'
+
+                     Registrar General
+
+No.:          RG/GS  Dated: 14 .07.2026
+Copy to the:
+
+1. Principal Secretary to Hon'ble the chief Justice, High court of J&K and Ladakh;
+2. Secretary to Hon'ble Mr./Mrs. Justice
+
+                             for kind information of their Lordships;
+
+3. Secretary General, Hon'ble Supreme court of India;
+4. Registrar Vigilance, High court of J&K and Ladakh, Srinagar;
+5. Director, J&K Judicial Academy, Srinagar;
+6. Registrar Rules, High court of J&K and Ladakh, Srinagar;
+7. Registrar computers (I.T), High court of J&K and Ladakh, Srinagar;
+8. Registrar Judicial, High court of J&K and Ladakh, Jammu/Srinagar;
+9. All Principal District and Sessions Judge, UTs of J&K and Ladakh for information,
+
+    necessary action and with the request to circulate the same amongst all trial courts
+
+     under their jurisdiction.
+10. CPC, e-courts, High court of J&K and Ladakh, Srinagar for information.
+11. Incharge NIC, High court of J&K and Ladakh, Srinagar for uploading the same on the
+
+     official website of the High court.
+12. Incharge Library, High court of J&K and Ladakh, Jammu/Srinagar for information and
+
+     keeping the record of the same.
+13. Order File.
+
+                     \                                                              \o%
+
+                     Registrar General
+   Bharat Parashar                    Tel.: 011-23384661
+                                      Fax: 01 1-23386178
+       Secretary General  E-mail: sg.offlcesci.nic.in
+Supreme Court of India
+
+                               New Delhi,
+                          2nd June, 2026
+
+Subject:                  Mentioning CNR number in orders and
+                          judgments of High Courts and District
+                          Courts to facilitate integrated data
+                          management in ICMIS.
+
+Sir/Madam,
+
+        As you are aware, the "One Case One Data" initiative launched by the
+Hon'bie Chief Justice of India on 11th May, 2026, seeks to establish an
+integrated case-management ecosystem across the Indian judiciary. The
+primary objective of this initiative is to eliminate errors arising from
+repetitive manual entry of data as matters move from the District Courts or
+High Courts to the Supreme Court of India. To achieve foundational
+integration of data, enhance uniformity, and improve the integrity of case-
+related information maintained in this Hon'ble Court, coordinated efforts
+across all Courts are required.
+
+         A new module, implemented in this Hon'ble Court's Case Management
+software (ICMIS), enables electronic fetching of case-related information
+from the digital case-data repositories of High Courts and/or District Courts,
+thereby avoiding errors which otherwise get introduced during manual data-
+entry process. The entry of CNR number of the challenged matter is a key
+trigger point for this automatic retrieval. Accordingly, cooperation of the
+High Courts is solicited to ensure that the CNR number for every matter is
+duly reflected in their orders and judgments.
+   Bharat Parashar                                              Tel.: 011-23384661
+                                                                 Fax: 011-23386178
+       Secretary General                             E-mail: sg.officesci.nic.in
+Supreme Court of India
+
+        You are therefore requested to take appropriate steps so that,
+henceforth, the CNR number of each matter (whether in the High Court or in
+a District/Taluka Court) is reflected conspicuously - preferably in heading
+area - on the digital copies of orders and judgments (which are available on
+the NJDG) as well as on the certified copies. Wherever applicable,
+standardized templates (as per the enclosed manual) be used in the CIS to
+generate orders/judgments with CNRs. Adopting such practice will aid the
+Registry to smoothly and reliably fetch case-related information from earlier-
+courts using the new module, and accordingly, will immensely strengthen
+the One Case One Data initiative.
+
+         Your urgent personal intervention in this matter will be highly
+appreciated.
+
+With regards,
+
+                                                     Yours sincerely,
+
+                          (Bharat Parashar)
+
+End.: as above.
+
+To,
+         The Registrar Generals of all High Courts.
+Orders and Judgments
+
+          Case Information System (CIS)
+                        May 2026
+
+          eCommittee, Supreme Court of India
+Orders and Judgments in CIS
+
+Contents
+
+1 ORDERSANDJUDGMENTS                 1
+
+1.1       ORDERANDJUDGMENTTEMPLATES  1
+
+1.2       ORDERJUDGEMENTUPWADNG      2
+
+1.3       REPORTS                    3
+Orders and Judgments in CIS
+
+1 Orders and Judgments
+
+The Orders and Judgment facility in the Case Information System (CIS) facilitate courts to digitally
+generate, store, and publish judicial orders and judgments. It offers standardized templates for
+drafting orders and judgments. These facilities help reduces manual errors and ensures timely
+availability of judicial decisions for both court users and the public.
+
+Following facilities are available for orders and judgments-
+
+· Download templates -- individual or in bulk
+· Upload orders and judgements - individual or in bulk
+· View Reports
+
+1.1 Order and Judgment Templates
+
+1.1.1 Download template
+Templates are provided in CIS to generate orders and judgements. Standard case information required
+for drafting orders and judgments -- such as cause title, advocates representing the parties, date of
+filing, the presiding judge's name with designation, CNR, registration date, QR code etc. -- is
+automatically populated through the selected case template. The system generates these details
+seamlessly, reducing manual entry and ensuring accuracy. The downloaded templates are provided in
+an editable format (.odt files), allowing authorized users to make necessary modifications before
+finalization and digital signing.
+
+· Select the case from dropdown or by entering the case number; case title and case status will
+      be displayed
+
+· Select the template and click on 'Generate Template' button. Link will be displayed to
+     download the template. Click on the link to download the .odt file of the template.
+
+Navigation: Court Proceedings > Orders and Judgment > Orders and Judgment Template
+
+ft Can iaap I .nau a,sl Jnt.oant ienpnr R,pori
+
+                                                 Judgment Wuting
+                                                itci Ca.t tua Oynta, Cisit No
+
+                            t.C.A.l1000tVCO,.
+                   ''Vs*LOetN%S,,
+
+Cast Status eMmçi
+
+                                                I InnliMIn ijarnJ. CIa Jod5e,reel
+
+rlsct,urnec. T,qulatn ate g,vnn only to p,ovce ssselanc, atudani buseess. Its neconay 10 utIlity tIle contents and 1010 Snitatie trOdltcatOns 0e1011 yeneat  I ahipul
+
+                                                lily '* N5550.l tuNisIa
+
+                                                                        K-- .
+
+CIS provides 14 standardized templates for the generation of orders and judgments.
+
+                                                                                                                                                                       Page 1
+Orders and Judgments in CIS
+
+            dja                                                                                                                                    oOS·SO
+
+Cd,assesel
+
+            CI Ocstsna Csse ,i, citil                           Judgmefl WrStq
+            Case Swan D,s9o5td                         *sast case NO Oznt.,, Cast No
+
+                                       Tt,flpSt, Host Salad
+
+                                                             Es poSt ismsfltttsplatc
+                                                             CoS 0055tm5d
+                                                             Crastol P5,0 Jag0t5l
+                                                              Cesurnal R,tva* JalgJnenl
+                                                              C,ostal PaSca JodgoseoIACOUllTAL
+                                                              Cnmaal PoSes J-.oi5r0tl COPMTION
+                                                             C,n,nol 05st .l5lynso SPIOBASION
+                                                              Sunnwy possaseon of assist 505145 stlntss no CAispos I
+                                                              Son000ry MaflofoIOolol5 of 45001 ff05145 wifneos no CS fopoft
+
+                                                                   001011101501
+                                                              805510 of plaint
+                                                              Con,noflal 011105
+                                                              Gonoffisf 01655
+                                                              Ssnsnloy SoS 80100515 iodgeflfent
+
+1.1.2 Bulk template download
+Templates can be downloaded in bulk i.e. templates for multiple cases are downloaded simultaneously.
+
+Select template required for the required cases and click on 'Generate Template' button.
+
+A folder containing all the orders and judgments will be available for download. Click on 'Order
+Judgments' button to download the folder. Folder is downloaded in '.tar.gz' format.
+
+Navigation: Court Proceedings > Orders and Judgment> Bulk Templates
+
+         loso4005 I                                                                                                                                oo.e·o
+
+C...N..                                                                     Botla Yernpafos                                  · Typ.alO.d
+                                                                              *tsO I'0M5                                       EoptJadp.*1tspla**
+01...I MAfl3i2OISS.Ia USU
+                                       OIOICOQ54NO Wi..
+
+1.2 Order Judgement Uploading
+
+The form is used for uploading the order pdf, generated after editing the .odt template file.
+
+     · Select the case and upload the pdf file. File name is displayed after uploading. Uploaded pdf
+           can be reviewed by clicking the 'Preview' link
+
+     · Select the 'Order Date' and 'Type of Order'. If order is in local language, select the
+           corresponding checkbox. If the order is final order/judgment, select the corresponding
+           checkbox.
+
+     · Click on Upload button, success message will be displayed.
+
+                                                                                                                                                   Page 2
+Orders and Judgments in CIS
+
+ft i Cewn%,ocnndeOa I IY.*!M i.dodfl 'Add                                                                                                     0                    0I0·
+
+                                                                             CMICr.imred Ordo'
+
+                                           Cftbed -cme, CHOM23i2O!8
+                                                        0Mb! II
+                                                      Pnbe,n,, IO00000000e00O0d0I(
+
+                                                    boH.ni
+
+                                                                          on,IH8224b1Pb 5mn
+
+                                                 I.                  0!.
+
+                                                           b!d! 0*.
+
+                                                           el Qobe Cbn,5.22
+
+                                           bed,                      0
+
+                                                           O ma oMo7,0l,w.*bMed it,,. eac voitad led (One,, then,,, C,, be
+
+                                                                                                                                           o                 o 0·0
+
+                                                                             Ci Criminal Otdo'
+
+                                           4c,d ht!*d Cent, Sits,!
+                                                               010W!. 0
+                                                              'iOled
+
+                                                         L
+
+                                                  0*. tIle: J14.S7.2015 I
+
+                                                 'Tene!tJidoe Sited
+
+                                           be,, itloe*Ll,b!W!te U
+
+                                           bed bed. CJ,dm,,!I 0              1,7,01,2 above dl ..,*1,d e,d,nne,e !l.nr, ,ev S. 0,itsit ,.
+                                                          01 1,,
+
+                                                                                                =
+
+1.3 Reports
+
+1.3.1 Judgement/ Final Order Not Uploaded Report
+
+The report lists the cases for which orders are pending for uploading. User can also view the report for
+
+uploaded orders by selecting corresponding radio button. Report can be downloaded in PDF, Excel and
+
+CSV formats.                                                                                                                                     d=                C0.o·o
+
+ ft :.(t N :, .Is,:C,N, .-,:Oa, N. pCe,C,I Cv,:.... Capon
+
+                                                                          Jbdgme,wI'inat Ordor Not Uploaded Repon
+                                                                                       ned! tboo.d.d (.iteoee,.dan!
+
+                                                                             'Co,bho I.$HRIG1RISIOI HG.,:
+
+                                                                          NC,. Go!. 01.01.2025     0,05!. 10*7-2021
+
+                                                                          DISIRICTAND SESSIONS COURTSSOem
+                                                                          Principal Dioffict and Sanslona Judge,
+
+                                                                                    SARI ------,j
+                                                                          From Dots: 01.01-2026 T 0.1., 14-07-2026
+
+                                                                                        Order Not Uploaded
+
+      Sleet
+
+Nd..  C... N..                                                             P.1111.,., N.n,.                       Rflp.n.d.nI N....               0.1.04 SledS!..
+                                                                                    -                             .W
+                                                                                                                                                 0101.2025
+                                                                          10ocoot                          -  C.id!.dbon.e.n                     i24'.2225
+                                                                                                - - --
+                                                                                                              I'              IC!
+
+                                                                                                              list le110leO06C0P                 10-01.0125
+
+      51004.5 loS 0,5 rInd.                                                                                                                                        P,ulo,. L_.· 001!
+
+1.3.2 Uploaded and Not Uploaded Count
+It displays counts for orders that are pending upload and those that have been uploaded.
+
+                                                                                                                                                                   Page 3
+Orders and Judgments in CIS                                           Oo.·O
+
+ I C'ufl P4,Itt,k.V,
+
+                                  Order Uploaded; Not Uploaded Count
+                                        IIld IpiOJd uno
+
+                             Total P.O 010.00,, Not Upe6004. 4060
+
+                                                                      Page I 4
+

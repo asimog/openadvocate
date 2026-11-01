@@ -1,0 +1,525 @@
+    eCourts
+
+National Informatics Centre, SDU, Pune
+Table of Content
+
+Transformational Journey
+Case Information System
+Citizen Services
+eFiling
+NJDG
+NSTEP
+Virtual Courts
+Integration with Other Systems
+Facilities for Judicial officers
+Open APIs
+Judgement Search
+                                                  Transformational Journey -Towards Efficient Services and Transparency
+
+                Computerizati      Initiative by      eCourts Project                                         Phase II     Towards Digital
+                on of District     High Courts             Phase I                                 Improved Transparency         Courts
+
+                     Courts                                                                          and Litigant Centric
+                                                                                                              Services
+LOBIS
+
+ Pre 1997       1997-2003           2003-2010         2006-2009             2010-2014                2015-2018                 2019-2020
+
+ Implemente      Computeriz         Customizable         Formation of      Contemporary             NC CIS 2.0              Virtual courts
+  d in Supreme     ation             application           e-Committee      projects developed in   NC CIS 1.0 for High     e-Filing
+  Court & High     initiated in      software by                            Karnataka, Andhra,                              Integrated CIS with
+  Courts           the District      respective high     National Policy    Maharashtra, studied     Courts
+                   Courts            courts                and Action                               Services to              ICJS, Land Records,
+ Case status                                               Plan            Maharashtra model                                 Treasury Portals,
+  available on   Case status        Bombay HC did                           which was selected to    stakeholders            eChallan
+  COURTNIC         over query        the                 eCourts            be deployed across       through several        Open APIs published
+                   counter           Computerization       project          the country              service delivery
+                                     of subordinate                                                  channels
+                 Nanded              court by                              CIS implemented          Digital payments of
+                   district          developing                            Online citizen-centric    court fee, fine and
+                   court was         browser based                                                   penalty
+                   first in India    CIS on open                            services
+                   to                source                                National Judicial Data
+                   implements
+                   DCIS             Judinet concept                         Grid (NJDG)
+                                     was developed
+                                     for Maharashtra
+Case
+Information
+System
+Case Information System
+
+       o Use of free and open source (FOSS) technology
+       o Developed as a single unified product catering diversified
+
+          requirements of every high court
+       o Operates in bilingual mode
+       o Unique 16 character case number record (CNR) for each case in
+
+          the country
+       o Enabled with national masters
+       o Electronic process generation with QR code
+       o Lok Adalat/ Mediation module
+       o In-built templates for orders and judgments
+       o Integrated with
+
+             · ICJS
+             · eFiling
+             · ePay
+             · Virtual Courts
+             · Land Records
+             · MCA
+Case Information System
+Case Information System                                                        PHP
+
+                                  eCourtIS Application                    PostgreSQL
+
+                                             Modules implemented           Ubuntu OS
+ · Filing- scrutiny-registration                                       Developed and
+ · Daily proceedings/cause lists/disposal                               implemented
+ · Summons/notice generation
+ · Judgment/orders                                                      on complete
+ · Pendency monitoring features in the form of dashboards and reports   Open Source
+ · Citizen interface in the form of touch screen kiosk                   Technology
+Case Information System
+
+                    District courts
+
+                       · District Court = National Core v3.2 is implemented in 3413 court complexes across the
+                           country ^
+
+                    · High Court = HCNC v1.0 is implemented in 22 high courts*
+
+                       · District Court Bilingual application is implemented in
+                             o Marathi (Devnagiri): Maharashtra
+                             o Hindi (Devnagiri): Uttar Pradesh, Madhya Pradesh, Uttarakhand, Chhattisgarh
+                             o Kannada: Karnataka
+                             o Tamil: Tamil Nadu
+                             o Gujarati: Gujarat
+
+                    ^- not implemented in Arunachal Pradesh
+                    *- not implemented in Kerala, MP and Delhi
+Citizen
+Services
+Platforms for Service Delivery
+
+                                As per phase II document, 122 services
+                                are provided through various service
+                                delivery channels achieving 100%
+                                compliance
+
+                                Remaining 56 services were to be
+                                provided by the respective high courts
+                                as these services fall under periphery
+                                e.g. status of certified copy, online
+                                payments etc.
+eCourts Services Portal
+
+   e-Courts portal (http://ecourts.gov.in) is a one-stop solution for all stakeholders such as litigants,
+      advocates, government agencies, police and common citizens.
+
+   Portal is a centralized gateway and provides links to several initiative and services provided under eCourts
+      project
+
+   services.ecourts.gov.in for district courts and hcservices.ecourts.gov.in for high courts
+        - Provides case information to citizens from all courts in the country.
+
+       - Case status/cause lists/orders/judgments are available on the site.
+
+   Works in bilingual mode.
+   Information in local language is provided for those states which are using CIS in bilingual mode.
+   GIGW compliant and accessible.
+eCourts Services Portal - ecourts.gov.in
+ District Courts of India - services.ecourts.gov.in
+
+ Centralized portal for district courts providing
+    case information to citizens from all district
+    courts of the country.
+
+ Case status/court orders/cause lists/caveat
+    search are available on the site.
+
+                Current Status
+
+                 o Data from across 3413 district
+                     courts is available online.
+
+                 o 170 M case data of cases is
+                     available (pending + disposed)
+ High Courts of India - hcservices.ecourts.gov.in
+
+ Centralized portal for high courts providing
+    case information to citizens from all High
+    Courts of the country.
+
+ Case status/court orders/cause lists/caveat
+    search are available on the site.
+
+                Current Status
+
+                 o Data from across 24 high courts
+                     online.
+
+                 o 38.9 M case data of cases is
+                     available (pending + disposed)
+District Courts of India - districts.ecourts.gov.in
+
+· Web site for each district court
+· Information pertaining to respective district
+
+    court is provided on the web site.
+· Every district has separate domain.
+
+                   Current Status
+
+               727 district court websites are operational
+ High Courts of India - ecourts.gov.in/ecourts_home/static/highcourts
+
+· Web site for each high court
+· Information pertaining to respective high court
+
+    is provided on the web site.
+· Every high court has separate domain.
+
+                Current Status
+
+                 o Data from across 24 high courts
+                     online.
+
+                 o Total 3,89,47,828 cases (pending
+                     and disposed) and 6,62,82,97
+                     orders and judgments are
+                     available.
+ eCourts Services - Mobile App
+
+· Common app for district courts and high courts.
+· Available on android and iOS.
+· Facility to search and track case using QR code.
+· Portfolio of interested cases can be created for automatically tracking the future status. Useful for institutions and
+
+    advocates having multiple cases.
+· Calendar feature to view occupancy at a glance
+· Import/export facility available to take backup of portfolio cases and save it on local storage or google drive.
+
+                   Current Status
+
+                  o More than 50 Lakh android users
+                      have downloaded the mobile app
+                      from google playstore.
+
+                  o Average rating on google play
+                      store is 3.7 acquired from 48 k
+                      ratings.
+
+                  o 2,50,000 installs on iOS.
+ SMS Facility - SMS Push & Pull
+
+SMS Push
+SMS on occurrence of event in a case like filing, registration,
+adjournment, scrutiny, listing, transfer of case, disposal, uploading of
+order etc. is sent on mobile registered with the court.
+
+SMS Pull
+SMS pull facility can be used by a stakeholder to send 16 character CNR
+number of a case to 97668-99899, and get its current status.
+
+                   Current Status
+
+                  Around 3 lakh SMS are sent daily
+ Automated e-Mails - Email sent to Litigants, Advocates and Police Stations
+
+· E-Mails are automatically sent to Litigants, advocates and
+    police stations.
+
+· Daily cause lists (pertaining to their cases), events like next
+    dates, transfer of case, disposal etc is sent.
+
+· Copy of order, copy of judgment etc., in .pdf format is also
+    mailed. This is useful specially in family court cases where
+    judgment/order is not publicly available on the portal and
+    delivered in the email account of the litigant.
+
+                         Current Status
+
+                   More than 3.5 lakhs emails are sent daily
+Touch Screen Kiosks and Service Centre
+
+    · Touch screen kiosks are installed at various court
+         complexes across the country.
+
+    · Litigants and advocates can view case status, cause
+         lists etc., on kiosk.
+
+    · Same information can also be obtained from Judicial
+         Service Centre established at each court complex
+ ePayments - pay.ecourts.gov.in
+
+· Online payment of court fee, fine, penalty and judicial
+    deposits has been initiated online through pay.ecourts.gov.in.
+
+· ePayment portal is also integrated with state specific vendors
+    like SBI ePay, GRAS, eGRAS, JeGRAS, Himkosh, Rajkosh etc.
+
+                   Current Status
+
+     Type of Fee    Amount Collected*
+Court Fee
+Fine                44,04,14,049   >440 M
+Penalty
+Judicial Deposits   10,76,79,304   >107 M
+
+                    3,56,900       >0.3 M
+
+                    17,08,180      >1.7 M
+
+*Live in 18 States
+eFiling
+ eFiling 3.0                                                               Oath Recording
+                                                                           e-signing
+ The e-Filing system is a complete end to end solution developed for        Online Vakalat
+online filing of cases. Both Civil and Criminal cases can be filed before   Templates
+any High Court and District Court of the country wherever the e-Filing
+
+                               system is adopted.
+
+Key Features
+ Entire filing can be done in asynchronous mode without Advocate
+
+    and clients meeting each other
+ Submission of pleadings in the courts, video recording of Oath,
+
+    when Client, Advocate and Court are geographically situated at
+    different locations is now possible
+
+Client             Court
+
+        Advocates
+           office
+eFiling 3.0- Status           Current Status                      Details
+                                Status
+               Particular                     Maharashtra, Kerala, UP, Orissa
+                                 4 States
+Implemented in                   92,274
+Total Case Submitted       8,13,164 (>0.8 M)
+Total Document Submitted          7254
+Total Oath Recorded          31 States/ UTs
+Implementation pending in
+NJDG
+ National Judicial Data Grid - njdg.ecourts.gov.in
+
+ Web site for monitoring pendency and
+    disposal of the cases.
+
+ Acknowledged as innovation in ease
+    of doing business.
+
+ Developed using elastic search
+    technology.
+
+ Pendency and disposal monitoring on
+    various parameters like case type, age
+    of the case, stage, disposal nature etc
+    is available on the portal.
+National Judicial Data Grid - njdg.ecourts.gov.in
+
+#                  Particulars                         Status
+                                    678
+1 Total Districts                   3408
+                                    4,24,03,930
+2 Total Court Complexes             12,83,08,975
+                                    18,17,03,953
+3 Pending Cases - District Courts   25
+                                    59,55,907
+4 Disposed Cases - District Courts  3,37,69,618
+
+5 Total orders (District Courts)
+
+6 Total no. of High Courts
+
+7 Pending Cases - High Courts
+
+8 Disposed Cases - High Courts
+ Tool for management authorities - NJDG Intra
+
+· NJDG Intranet provides several
+    analytical tools and reports for
+    Management authorities
+
+· Access to the below dashboards
+    for courts under their jurisdiction
+
+      - Alert Dashboard
+      - Drilldown
+      - Pending Dashboard
+      - Disposed Dashboard
+      - Pending Drilldown
+      - Query Builder
+
+· Monitoring of all the applications
+    under eCourts project
+ Query Builder
+
+ Different reports are provided through
+    NJDG intra for effective decision
+    making
+
+ Query Builder enables customized
+    report generation. Various search
+    options are provided - user can select
+    different combinations of the options
+    to generate required report.
+NSTEP
+National Service and Tracking of Electronic Processes (NSTEP)
+National Service and Tracking of Electronic Processes (NSTEP)
+
+Total Processes consumed                    95,92,433         >9.5 M (95 Lakhs)
+Processes allocated to Bailiff              15,25,236         >1.5 M (15 Lakhs)
+Processes allocated to other messengers
+Delivery attempted                            97,499          >1.4 M (14 Lakhs)
+Delivered                                   14,17,085          >0.9 M (9 Lakhs)
+Implementation pending in                   9,20,858
+                                                          Gujarat, Orissa, Goa, J&K, Diu
+Non allocation (<25)                     Andaman Nicobar  and Daman, Nagaland, Kerala,
+                                                          Meghalaya, Chandigarh, West
+                                            13 States/UT
+                                                                Bengal, HP, Ladakh,
+                                                                    Uttarakhand
+Virtual Courts
+Virtual Courts - Online Adjudication - vcourts.gov.in
+
+   Key Features
+
+   · Virtual Court eliminates physical presence of offender/violator in the court.
+   · Number of judges performing judicial work in adjudicating traffic challans across the state can be
+
+        reduced virtually to single judge located in any part of the state.
+   · Electronic traffic challans are made available to the virtual court for adjudication.
+   · Virtual Judge can proceed adjudication of the cases online by imposing fine.
+   · On imposing the fine by virtual judge, violator gets the SMS on his/her mobile to visit portal
+
+        vcourts.gov.in and may pay the fine amount.
+   · On successful payment of the fine, the case is deemed disposed off.
+   · If violator, wish to contest the case, response is recorded by entering OTP on the portal. In such
+
+        eventuality the case is transferred to regular court for further hearing.
+Virtual Courts - Online Adjudication - vcourts.gov.in
+Virtual Courts - Online Adjudication - vcourts.gov.in
+
+                             Particular                            Status
+Implemented in                            15 States
+
+Proceedings completed in                  1,78,20,923 cases
+Fine paid in                              27,47,494 cases
+Total fine collected                      2,83,04,79,369
+Violators who choose to contest the case  1,44,891 cases
+Integration with
+other systems
+   Integration with other systems                Common Service Centres
+                                                 · Common Service Centers (CSCs) are access
+MCA Portal
+· CIS is integrated with MCA portal for              points for delivering services to citizens
+                                                     from rural and remote parts of the country.
+    fetching company related information         · e-Courts APIs are shared with CSCs.
+    specially email address for service of       · Citizens can get the status of their cases
+    summons electronically. Implemented as           through these centres.
+    pilot in Commercial Courts of Bombay,        · Those who are not connected on internet
+    Delhi, Karnataka, and Calcutta.                  platform or mobile app can get the services
+Land Records                                         through nearest CSC.
+· CIS is integrated with Land Records data in
+    Maharashtra, Haryana, Tamil Nadu and         LIMBS
+    Uttar Pradesh. Data pertaining to record of  · LIMBS mechanism is developed by
+    rights is now available with CIS and
+    information related to case for particular       Department of Legal Affairs Government of
+    survey number is shared with Land Records        India to provide status of litigation to
+    department through APIs                          central government institutions.
+                                                 · eCourts APIs are shared with LIMBS.
+Integration with Interoperable Criminal Justice System (ICJS)
+
+   · Inter-operable Criminal Justice System (ICJS) aims at integrating
+        · Crime and Criminals Tracking Network and Systems (CCTNS)
+        · e-Courts
+        · e-Prisons databases
+
+   · CCTNS shares FIR and Charge Sheet data in electronic form to eCourts application.
+   · Names of the accused, details of offence, time, date, place of occurrence, details of arrest, acts-
+
+       sections etc. is shared.
+   · Minimizes data entry on courts side.
+   · eCourts shares CNR number to the CCTNS through ICJS. Further updates about the case are made
+
+       available through APIs.
+Integration with Interoperable Criminal Justice System (ICJS)
+Integration Status
+
+Total Consumed        FIR*      Pending for   Total Consumed         Chargesheet       Pending for
+  1,11,23,667      Verified /   verification                  Verified / Rejected      verification
+                   Rejected     1,07,11,801                                             39,10,201
+                4,07,602/ 4260                52,45,848       13,35,647
+                                >10 M (1 Cr)                      / 0              >3.9 M (3.9 Lakhs)
+                                              >5.2 M (52
+>11 M (1.1 Cr)                                  Lakhs)
+
+*Implemented in 31 States
+
+· CIS is integrated with MCA portal for fetching company related information specially email
+    address for service of summons electronically. Implemented as pilot in Commercial Courts of
+    Bombay, Delhi, Karnataka, and Calcutta.
+
+· CIS is integrated with Land Records data in Maharashtra, Haryana, Tamil Nadu and Uttar
+    Pradesh.
+Facilities for Judicial
+Officers
+Facilities for Judicial Officers
+
+                                  SMS Alerts
+                                  · SMS alerts are provided to Judges when cases remain
+
+                                      undated in the court.
+                                  · More alerts can be provided.
+
+JustIS Mobile App                                          Dashboard Cause List
+
+· JustIS Mobile App, provided to judicial officers, helps
+    them to monitor pendency and disposal at finger tips.
+
+· Many reports are available in graphical and grid form.
+
+· Facility to tag important cases and mark short note for
+    such case is available. These cases are specially
+    marked when listed. Judge can identify the cases of
+    important nature on the cause list.
+
+· Total downloads: 17,402
+Open APIs
+Open APIs
+
+· Open APIs are developed and are being published for district courts.
+· These APIs may be used by institutional litigants (like government departments) to further develop their own
+
+     monitoring and compliance mechanism/ software to track and manage their cases.
+· This helps major stakeholders to proactively take actions on the courts directions and comply accordingly.
+· APIs can be used for particular state or for entire country.
+· Accordingly, user may have to apply in prescribed format to e-Committee (if data from entire country is required)
+
+     or respective high court (if data from specific state is required).
+· eCommittee or respective state can authorize the user for further use by providing authentication credentials.
+
+Current Status
+
+ APIs are published on Bharat API and are used by 19 Central users and 55 State users
+Open APIs
+Judgement Search
+  Free text judgment search for high courts
+
+Judgment Search
+· New portal for searching high court Judgments.
+· Facility to search judgments on various parameters like Case Type, Act, judge, decision date etc. including
+
+    combination of five free text search criteria
+· The system is integrated with high court NJDG and can leverage all the benefits of NJDG.
+· Developed using Elastic Search technology.
+Current Status
+· 74,15,356 (>7.4 M) judgments from across 23 high courts are currently available
+Judgment Search - Search High Court Judgments
+Thank You !
+

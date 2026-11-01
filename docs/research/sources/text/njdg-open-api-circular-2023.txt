@@ -1,0 +1,250 @@
+                            3.T- Ra .k-Rchrt / Government of India
+                                 1 -3-T171"/ Department of Atomic Energy
+
+                        .k-H-1.-cie43TTTPT / Secretariat Coordination Section
+
+                                                                 311:71 - 5-1-d/ Anushakti Bhavan,
+                                                                           H61'&io1 11th / C.S.M. Marg,
+                                                                           ads / Mumbai - 400 001
+
+                                                                        / Email: sectcord@dae.gov.in
+
+No.16/67/2020-SCS/E-File/301 .                                     Dated: -                 11 - 2020
+                                            troicho / ENDORSEMENT
+
+                    /:  National Judicial Data Grid - Regarding
+            Subject:                   *** * ** * *****
+
+             .34k cl-d Tatk-I ITT ffit 3117    tr,.1#1;nta                   02/11/2020
+                                                                               ·Cr-4
+3.1tY-U4-1  t F1L z11 A-50011/1T5/2018-Admn-IV(I)(A)               'i
+
+             t I
+
+                  A copy of D.O. Letter No. A-6001111T5/2018-Admn-IV( 1 )(A) dated 02/11/2020
+received from Ministry of Law & Justice, New Delhi on the above-mentioned subject is
+
+forwarded for information and necessary action.
+
+/ Encl.: 04 Pages.
+
+                                                     ig Irl dMait / N. J. Khanvilkar)
+
+                                               3931T3T31ilMt / Section Officer
+                                                          (022 -- 22862661)
+
+tuft Tra,ft             F+rzil- *II *AP co 0-9- * j4sbei *16141c1i sric· TiFITTer In] RI 1et , Iltria.
+
+All Administrative Heads of Constituent Units/PSUs/Aided Institutions of DAE.
+
+VitiWR / Copy also to:
+
+1. tr5f4 ·F13.-fr3Y     Lr3FH..:4171- / All Officers & Sections in DAE Secretariat.-DARPAN
+
+2. TTfa,     TfT53, 1:13faalTuftt urtsf/ Secretary, Staff Side, DAE Departmental Council.
+
+3. E-                / 16/67/2020-SCS/E-File.
+
+4. Head, CISD(DAE)- For uploading the same in DAE Website under SCS Corner. -Through PTS Portal .
+arlq -T.;.q -4-41·mr                                  w1W-4
+                                              fei
+Anoop Kumar Mendiratta
+                                                     SECRETARY
+            D.O. No. A-60011/IT/5/2018-Ad
+                                           DEPARTMENT OF LEGAL AFFAIRS
+                                              MINISTRY OF LAW & JUSTICE
+                                                 GOVERNMENT OF INDIA
+
+                                           Date: 2nd November, 2020
+
+Dear Secretary,
+
+          As you are aware, Government of India has been taking various steps from
+
+time to time with a view on reducing litigation involving Union Government and to
+increase effective monitoring of cases by Ministries/Departments. Legal Information
+Management & Briefing System (LIMBS) is one such step in this direction by the
+
+Department of Legal Affairs. Further, I would like to apprise that e-Courts project is
+
+being implemented in over 3200 Court Complexes in the District Judiciary and 25
+High Courts and their database of case details, orders and judgements are updated on
+a near real time basis. This has resulted in a huge database named 'National Judicial
+Data Grid (NJDG)' which captures both closed and live cases.
+
+          In order to utilize the captured data of NJDG database, e-Committee of the I\
+Hon'ble Supreme Court with the help of NIC has facilitated the creation of Open
+Application Programming Interfaces (APIs) to access this storehouse of c-Courts
+
+data, as apprised by Secretary (Justice). Open APIs may help Ministries
+/Departments to monitor their court cases through their customized applications with
+
+high degree of efficiency, transparency and compliance from a litigant's perspective.
+In this regard, a copy of D.O letter No. 12012/100/2020-eCourts dated 31.08.2020
+from the Secretary, Department of Justice is enclosed for your ready reference which
+also includes a set of simple guidelines explaining this facility and how to register for
+
+Open API access.
+
+3.  I request you to make use of this open API facility for effectively tracing and
+
+managing litigation in various courts.
+
+    With warm regards,                     Yours sincerely,
+
+                                                                  (Anoop Kumar Mendiratta)
+
+To All Secretaries of Ministries/Departments of Govt. of India (except the
+       Secretary, D/o. Justice).
+
+For information to:
+
+       Cabinet Secretary, Rashtrapati Bhavan, New Delhi.
+2. Secretary, D/o Justice, Jaisalmer House, Mansingh Road, New Delhi.
+3. PS to Hon'ble Mil.
+
+                                                                        r I
+
+                                                             ·
+
+                                                     AA TITl4 ft, 001
+
+                                WR,
+
+                      4th Floor, Shastri Bhawan, Dr. R.P. Road, New Delhi-110 001
+    Tel. : +91-11-23384205, 23387908, Fax : +91-11-23384403, E-mail : secylaw-dla@nic.in
+'17171 RC11,                                         ,(-1 re) a
+BARUN MITRA, IAS                                 IOU
+
+                                                  31)7 :/M1 Tbnci4/
+                                                    3.11R7 ti·ccoi ,/
+                                                   SECRETARY
+                                        DEPARTMENT OF JUSTICE
+                                      MINISTRY OF LAW & JUSTICE
+                                          GOVERNMENT OF INDIA
+
+D.O. No.12012/100/2020-eCourts        Dated the 31 0 August, 2020
+
+                  Amc.ra-gw.
+
+         The eCourts project has been implemented over 3200 court complexes in the
+District judiciary and 25 High Courts and their database of case details, orders and
+judgements are updated on a near real time basis. This National Judicial Data Grid (NJDG)
+database is a mine of data which captures both closed cases and ongoing matters at
+various stages of litigation. Its efficacy as an innovative case management tool has also
+been acknowledged by the World Bank. With a view to provide access to this storehouse
+of eCourts data, the eCommittee of the Supreme Court with the help of NIC has facilitated
+the creation of Open Application Programming Interfaces (APIs).
+
+         This Open API facility has now been made available to institutional litigants within
+the Government, including semi-Governmental and local bodies including PSUs. This
+Open API facility will allow the users to consume the available NJDG data thereby helping
+them in effectively tracking and managing their litigation in various courts. The APIs can be
+utilized by each user Department to make its own developments using the platform. The
+Open API for institutional litigants can help them keep track of cases centrally at an
+institutional level. Institutional litigants can now monitor the state of readiness in respect
+of their court cases and manage pendency. This will promote transparency, efficiency and
+compliance from the litigants' perspective.
+
+         Through this facility, the Central Project Coordinators on the National Judicial Data
+
+Grid can generate a unique department ID and authentication key for the user Department.
+
+Using the department ID and authentication key, each department can access the NJDG
+data using Open APIs. The institutional litigants to register themselves for Open API
+access will have to register themselves on the National API Exchange Platform (NAPIX)
+which is available on https://bharatapi.dov.in . A set of simple guidelines explaining this
+facility and how to register for Open API access is also being enclosed for information.
+
+         Since litigation in government departments is centrally monitored by Department of
+Legal Affairs including pendency monitoring, you may like to sensitize the various
+Department of this initiative so that they can initiate case management monitoring and
+compliance at the level of the department itself.
+
+Encl: AlA                             Yours sincerely,
+                                        (Barun Mitra)
+Shri Anoop Kumar Mendiratta,
+Secretary,
+Department of Legal Affairs,
+Ministry of Law & Justice,
+Shastri Bhawan, New Delhi -- 110 001
+
+ET3\8, 26 -T-. FIr*  ,T4      loot tli8. +91-11-23383674 tfiadVi +91-11-23384516. 4- lie secy-lusagov.in
+
+Jaisalmer House, 26 Mansingh Road, New Delhi-110011. Tel: ,91-11-23383674 (0), Fax +91-11-23384516, E-mail . secy-lus gov.in
+    SUPREME COURT OF INDIA                              Korb VII
+              E-COMMITTEE
+                                                     5. Fill the user subscription form.
+     REGISTRATION PROCESS FOR                        Click sign up subscriber button.
+           E-COURTS OPEN API
+                                                     .6"-,77,7"-----x1111111111111111111
+STEP 1: CREATE YOUR ACCOUNT
+1. Go to this website                                                API Emthange Platfurnie
+https://bharatapi.gov.in/store
+
+2. From the Home page, click on
+API REGISTRY at the top
+navigation menu.
+
+   National API Exchange Platform CD                 Creale your Amount
+
+        say or Electronizs & Information             Mseme·alnii .
+Ivo Natcnal Informatics Centre, Government of India  ..1.11rt ·
+
+· -  =:=GISTRY ·RESCRACES
+
+3. Click on the eCourts icon.
+
+                                   niqnsiir          6. The user will get a notification
+                                                     after successful creation of the
+4. Click on "Sign up" at the top                     account. The subscriber can log in
+navigation menu to create                            after approval of the e-Courts
+subscriber user.                                     administrator.
+
+                                                       API Store - Notification
+STEP 2 - APPLICATION FORM FOR                SUPREME COURT OF INDIA
+E-COURTS OPEN API                                     E-COMMITTEE
+
+1. The subscriber needs to fill the   Application form for e-Courts Open
+application form.                                            API
+
+2. Signature and seal of the officer  1. Name of the Department:
+have to be affixed.                   2. Type of Department: Central
+                                      Government/ State Government
+3. The countersignature of the
+                                      3. Ministry:
+Central Project Coordinator (CPC)     4. Address:
+                                      5. Name of the Contact Person:
+of the High Court should be           6. Designation:
+                                      7. Email:
+obtained for authentication and       8. Mobile No:
+                                      9. National API Exchange Platform
+approval. (e-mail IDs of CPC are      Subscriber User name:
+
+available in the following link:      Signature of Applicant
+                                      with date and seal
+tl         0 11_ e 115 1·10·  cr
+
+accus.p4)
+
+4. The scanned copy of the
+application to be sent to the e-
+Committee, Supreme Court of India
+at ecommittee@aij.gov.in
+
+5. e-Committee will approve the
+subscriber and provide Department
+ID and Authentication Key to the
+subscriber.
+
+6. Once Subscriber login is
+approved by e-Committee, the
+subscriber can log in to
+https://bharatapi.gov.in and sign in
+with the created credentials for the
+
+subscription of API.
+
+                                      Signature of Central Project
+                                      Coordinator of the High Court
+

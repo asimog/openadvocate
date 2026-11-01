@@ -1,0 +1,208 @@
+                                         RU-11-02-0107-230622/FACTSHEET
+
+                      Interoperable Criminal Justice System
+             Making Information Sharing in Judicial System Seamless
+
+             (Ministry of Home Affairs)
+
+                                                                     June 23, 2022
+
+Introduction:
+
+The Inter-operable Criminal Justice System (ICJS), conceptualised by the e-Committee,
+Supreme Court of India and implemented as a project under the Ministry of Home Affairs,
+seeks to enable seamless transfer of data and information among different pillars of the criminal
+justice system, like courts, police, jails and forensic science laboratories, from one platform.1
+
+The ICJS system would be made available through a dedicated and secure cloud-based
+infrastructure with high-speed connectivity. National Crime Records Bureau (NCRB) is
+responsible for the implementation of the project in association with National Informatics
+Centre (NIC). The project will be implemented in collaboration with the States and Union
+Territories.2
+
+Government of India has approved the Phase II of Inter-Operable Criminal Justice System
+
+(ICJS) project at a total cost of Rs. 3,375 Crore during the period from 2022-23 to 2025-
+
+26. The Phase II of the ICJS project will be a step towards ensuring effective and modern
+policing. The project will be implemented as a Central Sector Scheme.3
+
+Background:
+
+The necessity of implementation of Interoperable Criminal Justice System (ICJS) was initiated
+during 2013. The scope of the project mainly focused on integration of Crime and Criminal
+Tracking Networks and Systems (CCTNS) with e-Courts, e-Prisons, Forensic Labs,
+Fingerprints and Prosecution, the pillars of Criminal Justice System. Broadly, the project aims
+to provide search and visual analytics over various data sets and capacity to achieve "one data
+once entry" across all the pillars.
+
+Objectives:
+
+ Interoperable Criminal Justice System (ICJS) aims to integrate CCTNS (Crime and
+    Criminal Tracking Network and System) project with e-Courts and e-Prisons database in
+    the first instance and with other pillars of judiciary like forensic labs, prosecution and
+    juvenile homes etc. In order to build an effective criminal justice system across the country,
+    it is essential that data across all pillars of criminal justice is interoperable and is accessible
+    across all the pillars.4
+
+1 https://vikaspedia.in/e-governance/online-legal-services/interoperable-criminal-justice-
+
+system#:~:text=The%20Inter%2Doperable%20Criminal%20Justice,like%20courts%2C%20police%2C%20jails
+
+%20and
+2 https://pib.gov.in/Pressreleaseshare.aspx?PRID=1799232
+3 ibid
+4 https://thc.nic.in/user%20manual/ICJS-manual.pdf
+ Aggregation of searchable data sets in ICJS database from Court, Prison, Police and Finger
+    prints for carrying out National search for persons of interest and property.5
+
+ Development of Business Intelligence Dashboard for visualization of complete data to
+    display the current status of metrics and Key Performance Indicators for each pillar.6
+
+Structure of Inter-Operable Criminal Justice System:
+
+Inter-Operable Criminal Justice System (ICJS) is a national platform for enabling integration
+of the main IT system used for delivery of Criminal Justice in the country by five pillars
+namely:
+
+                                                Police (Crime &
+                                                     Criminal
+
+                                                  Tracking and
+                                                     Network
+                                                     Systems)
+
+e-Prisons for      e-Forensics for
+   Prisons         Forensic Labs
+
+e-Prosecution for  e-Courts for
+      Public          Courts
+
+   Prosecutors
+
+ In Phase-I of the ICJS project, individual IT systems have been implemented and
+    stabilized; also search of records have been enabled on these systems.
+
+ Under Phase-II, the system is being built on the principle of `one data one entry' whereby
+    data is entered only once in one pillar and the same is then available in all other pillars
+    without the need to re-enter the data in each pillar.
+
+Salient Features:
+
+ With the aid of the ICJS platform, the metadata of FIR and charge sheet can be accessed
+    by all the High Courts and subordinate courts.7
+
+ The ICJS platform is an effective tool for the case and court management, as all the relevant
+    information of a case will be available in real-time for use by the courts. Compliance of
+    judicial orders and summons can also be achieved expeditiously, ensuring effective time
+    management.8
+
+ The project will enable National level crime analytics to be published at an increased
+    frequency, which will help the policymakers as well as lawmakers in taking appropriate
+    and timely action.9
+
+ It will also enable Pan-India criminal/accused name search in the regional language for
+    improved inter-state tracking of criminal movement.10
+
+5 https://ncrb.gov.in/sites/default/files/NCRB_Journal_October_2019.pdf
+6 ibid
+7 https://ecommitteesci.gov.in/icjs/
+8 ibid
+9 https://districts.ecourts.gov.in/sites/default/files/ICJS-About-Us.pdf
+10 ibid
+Major Components of Interoperable Criminal Justice System
+
+Interoperability of  In order to build an effective criminal justice
+  data across all    system across the country, it is essential that
+                     data across all pillars of criminal justice is
+Pillars of criminal  interoperable and is accessible across all the
+  Justice System     pillars.
+
+National Crime &     This shall help in tracing a record from right
+  Criminal Data      from registering FIR against suspects to
+ Search across all   imprisonment of convicts till the
+       Pillars       imprisonment period involving court case
+                     details, trials/ judgments, prosecution &
+ MIS Dashboard       forensics information.
+  and Reporting
+                     FIR/Case/ Case pendency/ Prisons/ Prisoner
+  Data Analytics     status based information for investigation,
+                     search, case history, judgments provided,
+  Seamless data      and other details pertaining to criminal
+sharing across all   justice required from time to time.
+ pillars through a
+common Network       Forecasting/ Predictive Trends in Crimes
+                     reported region-wise, category-wise, and
+   Connectivity      basis other parameters for effective
+                     management & control of crimes in future.
+ Robust network
+    connectivity     It is essential that all sites are connected
+                     through a common, dedicated, high speed,
+                     robust & reliable network for seamless
+                     exchange & interoperability of data between
+                     all pillars of ICJS such as crime & criminal
+                     related data.
+
+                     Through this effectiveness of the existing
+                     criminal justice system will be enhanced.
+                     The network will enable the ICJS to leverage
+                     seamless inter-operability of crime and
+                     criminal data, etc.
+
+                                                                           Source
+                                    Outcomes
+
+Once the proposed project is implemented, it is expected that the justice delivery system would
+become speedy, transparent and accountable. Some of the key outcomes are listed below:11
+
+ The Investigating Officer (IO) can carry out the national search across the pillars that even
+    if the entries are wrong in one pillar (in case of historical data) other pillars assist the IO to
+    achieve the result.
+
+ The redundant data entry across the pillars would be reduced and the possibility of data
+    entry errors would be nullified.
+
+ The online availability of report reduces paper communication and wastage of time.
+
+ As Courts fixes the hearing dates after examining the availability of Forensic experts and
+    Prosecutors online, the possibility of frequently postponing the hearing would be drastically
+    reduced.
+
+ The alerts at one pillar would help the other pillar to make appropriate preparation in
+    advance.
+
+References:
+1. https://ecommitteesci.gov.in/icjs/
+2. https://www.mha.gov.in/
+3. https://pib.gov.in/Pressreleaseshare.aspx?PRID=1799232
+4. https://ncrb.gov.in/sites/default/files/NCRB_Journal_October_2019.pdf
+5. https://thc.nic.in/user%20manual/ICJS-manual.pdf
+6. https://districts.ecourts.gov.in/sites/default/files/ICJS-About-Us.pdf
+7. https://www.mha.gov.in/sites/default/files/WSDivision_SheRakshaVol2_08112019pdf_0.pdf
+
+Further Readings:
+1. https://timesofindia.indiatimes.com/india/inter-operable-criminal-justice-system-gets-govt-
+
+     approval/articleshow/89672333.cms
+2. https://indianexpress.com/article/india/govt-approves-project-to-connect-pillars-of-criminal-justice-system-
+
+     7780642/
+3. https://www.newindianexpress.com/nation/2022/feb/18/second-phase-of-inter-operable-criminal-justice-
+
+     system-project-approved-2421049.html
+4. https://www.deccanchronicle.com/151128/nation-current-affairs/article/interoperable-criminal-justice-
+
+     system-soon
+5. https://journalsofindia.com/criminal-tracking-network-and-systems-and-interoperable-criminal-justice-
+
+     system/
+
+Tweets:
+
+1. https://twitter.com/pibhomeaffairs/status/1494577579827015682
+2. https://twitter.com/_digitalindia/status/662472002100334594
+
+AG/HP/RC/SA/PS
+
+11 https://ncrb.gov.in/sites/default/files/NCRB_Journal_October_2019.pdf
+

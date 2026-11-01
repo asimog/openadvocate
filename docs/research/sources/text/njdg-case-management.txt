@@ -1,0 +1,1138 @@
+Court and Case Management through
+National Judicial Data Grid (NJDG)
+
+Circulated by
+eCommittee, Supreme Court of India
+                                                                                                   1
+
+Court & Case Management through NJDG
+
+Circulated by
+eCommittee, Supreme Court of India.
+
+Authored by,
+Ms.R. Arulmozhiselvi, M.L.,
+Member,(Human Resources)
+eCommittee, Supreme Court Of India.
+
+First Edition :October, 2021.
+
+                                          Disclaimer
+ This reference material circulated by eCommittee is meant solely for study and
+
+ training purposes. References made are indicative and may not be used for any
+ official or judicial reference.
+
+Page 1  Court and Case Management Through NJDG
+                                                                             2
+
+                           Table Of Content
+
+Circulated by eCommittee,SCI                                                 1
+
+Court & Case Management through NJDG                                         5
+
+1.Introduction                                                               5
+
+2. NJDG Access                                                               7
+
+2.1. Through NJDG webpage:                                                   7
+
+2.2. Through e-Committee website link:                                       7
+
+2.3. Through E-Courts services website:                                      7
+
+3. High Court NJDG                                                           8
+
+4. District and Taluka Courts NJDG                                           10
+
+5. Admin Login                                                               12
+
+5.1. Admin Main Tabs                                                         13
+
+5.2. Admin Sub menus                                                         13
+
+5.3. List of Admin Main Tabs with its Sub menus                              15
+
+5.4. Help Desk                                                               18
+
+5.5. Digital Inspection of a particular Court                                19
+
+5.6. DCMS (District Court Monitoring System) Report                          20
+
+5.7. Query Builder                                                           21
+
+5.8. Disposal of a Particular Judge                                          22
+
+5.9. Disposed case and orders                                                23
+
+5.10. Judicial Time Spent                                                    24
+
+5.11. Pendency report under Admin Login                                      25
+
+        5.11.1. Top 10 pendency wise States:                                 26
+
+        5.11.2. Top 10 pendency wise Districts in a State (Eg, Tamil Nadu):  26
+
+        5.11.3. Top 10 pendency wise Establishment within a District (Eg. Agra):
+        27
+
+5.12. Data not replicated report                                             27
+
+6.NJDG - Main Tabs                                                           30
+
+6.1. High Court NJDG -Main Tabs                                              30
+
+6.2. District and Taluka court -Main Tabs:                                   30
+
+Page 2                                           Court and Case Management Through NJDG
+                                                          3
+
+7. Alerts                                                 31
+
+7.1. Undated Cases                                        32
+
+7.2. Cases Listed Today                                   34
+
+        7.2.1. Cases Listed Today - District wise:        35
+
+        7.2.2. Cases Listed Today - Establishment wise:   35
+
+        7.2.3. Cases Listed Today - Court wise:           36
+
+7.3. More than 10 year old Cases Disposed in Last Month   37
+
+7.4. More than 3 Months excessive Dated Cases:            37
+
+7.5. Cases Under Objection                                37
+
+7.6. Cases Pending Registration                           38
+
+7.7. Total Courts                                         38
+
+7.8. Pre Trial Cases:                                     39
+
+7.9. Pre Litigation cases:                                39
+
+8. Drill Down                                             40
+
+8.1. Drill down Pending Cases Year Wise                   42
+
+8.2. Finding the Oldest case using the drill down option  43
+
+8.3. Drill down Case Type Wise                            44
+
+8.4. Drill down to Establishment wise data                45
+
+8.5. Drill Down to specific Cases Details                 46
+
+8.6. Drill down Stage Wise                                47
+
+8.7. Drill Down Institution & Disposal Data               48
+
+8.8. Drill Down - Cases filed by Woman                    48
+
+8.9. Drill Down - Cases filed by Senior Citizens          48
+
+8.10. Drill Down Delay Reason Wise cases                  50
+
+8.11. Case hearing history                                51
+
+8.12. Date wise proceedings                               52
+
+8.13. Transfer details of the case                        52
+
+9. Pending dashboard.                                     53
+
+9.1. Matter Type Pendency Pie Chart                       54
+
+9.2. Age wise pendency pie Chart                          55
+
+9.3. Stage wise pendency Pie chart                        56
+
+9.4. Institution versus Disposal                          57
+
+9.5. Delay reason pendency Chart                          57
+
+Page 3                                              Court and Case Management Through NJDG
+                                                             4
+
+10. Disposed Dashboard                                       58
+
+10.1. Case type wise disposal                                58
+
+10.2. Case Age wise disposal chart                           59
+
+10.3. Judge Wise Disposal                                    60
+
+10.4. Nature Wise Disposal                                   61
+
+10.5. Time to disposition                                    62
+
+11. Information Management                                   63
+
+11.1. Data Monitoring - Summary Report                       63
+
+11.2. Court Judge Report                                     64
+
+11.3. National Master - Summary Report                       65
+
+11.3.1. Establishment Wise Code Not Entered Report           66
+
+11.4. Under Trial Report                                     67
+
+        11.4.1. UnderTrial report of a Particular State:     67
+
+        11.4.2. UnderTrial report of a Particular District:  67
+
+12. NJDG Report Format:                                      68
+
+        12.1. Export to .pdf                                 68
+
+        12.2. Export to .xls                                 68
+
+        12.3. Export to csv                                  68
+
+                              -------Explore NJDG-------
+
+Page 4                                  Court and Case Management Through NJDG
+        5
+
+  Court & Case Management through NJDG
+
+1.Introduction
+
+National Judicial data grid (NJDJ) is the database where our entire judicial
+case data, including orders and judgements, are stored under the two heads:
+(i) District and Taluk Court NJDG; and (ii) High Court NJDG. National Judicial
+Data grid was inaugurated for public access on 19 September 2015 by
+Hon'ble Mr Justice Madan B. Lokur, then Judge in-charge of eCommittee
+Supreme Court of India. NJDG for High Courts was launched by the learned
+Attorney General of India, Shri. K. K. Venugopal in the august presence of
+Hon'ble Dr Justice Dhananjaya Y Chandrachud, Judge, Supreme Court of India
+& Chairperson of eCommittee at a virtual meeting held on 3 July 2020.
+
+NJDG data is available on a real-time basis. These statistics are updated every
+day by the respective Courts across the country through the Case
+Information System (CIS). NJDG got the stamp of the world bank and moved
+India 20 ranks forward in the ranking of countries under ease of doing
+business. Administrative login to NJDG will give greater details ,inputs and
+reports. The real-time statistics of NJDG can be used in multifarious ways by
+the administrative judges: (i) Court Management Tool; (ii) Case Management
+Tool; (iii) Policy Planning; (iv) Policy decision making; and (v) Digital inspection,
+etc.
+
+District and Taluk Court NJDG: As on 1 October 2021, the District and Taluk
+Court NJDG has details of Pending Cases: Civil Cases (10673184); Criminal
+
+Page 5  Court and Case Management Through NJDG
+                                                                                                   6
+
+Cases (26325882); Total cases (36184451); Disposed of Civil Cases
+(30594898); Disposed of Criminal Cases (81930711); Disposed of Total Cases
+(112525609); and Total orders of District Judiciary (155043519).
+
+High Court NJDG: As on 1 October 2021 is also a repository with details of
+Pending Cases: Civil Cases (5614787); Criminal Cases (4824697); Total Cases
+(4824697); Disposed of Civil Cases (20075171); Disposed of Criminal Cases
+(11673049); and Disposed of Total Cases (31748220).
+
+Query builder tool can be used to generate the customisable report as
+required by the High Courts and District Courts.
+
+Types of Reports: One can generate reports agewise, stagewise, case
+type-wise list, orders not uploaded list, undated cases list of every District,
+Taluk, High Court wise, Judgewise etc. Example: List of particular case type
+which are 20/30/40 years old from all District Courts; List of cases pending in
+District Courts which are stayed by High Court, Supreme Court; List of
+appeals pending with percentage of more than 5-year-old appeals; which
+court has the most number of appeals; List of the officers who have disposed
+of the Highest cases/Lowest cases; total number of Writ Petitions, First
+Appeals, Revisions, etc, can be easily known through the dashboard.
+
+All this at a click of the mouse which can be used by the Administrative
+Judges for further planning and instructions for reducing pendency and for
+effective Court and Case Management at the District and High Court level.
+
+Page 6  Court and Case Management Through NJDG
+        7
+
+                   2. NJDG Access
+
+2.1. Through NJDG webpage:
+
+NJDG can be accessed directly through the NJDG webpage. A simple Google
+search of the word "NJDG" will take one to the NJDG web page. Otherwise,
+one can click the following link to access NJDG webpage as well:
+https://njdg.ecourts.gov.in/njdgnew/index.php
+
+2.2. Through e-Committee website link:
+
+NJDG can also be accessed through the new eCommittee website
+(https://ecommitteesci.gov.in/). NJDG is provided under the tab of "Citizen's
+Corner" on the eCommittee's website. In order to access the NJDG on the
+eCommittee's website, one should proceed in the following order on the
+website Citizen corner --> CItizen centric services --> NJDG. Else, one can also
+access NJDG through Committee's website by using the following link:
+https://ecommitteesci.gov.in/service/national-judicial-data-grid/
+
+2.3. Through E-Courts services website:
+
+NJDG can also be accessed through the E-Courts services website
+(https://services.ecourts.gov.in/ecourtindia_v6/). One can click on the "NJDG"
+tab, which is made available on the top panel of the website, and it will take
+them directly to the NJDG webpage. One can use any one of these options to
+access the NJDG.
+
+Page 7  Court and Case Management Through NJDG
+                                                                                                   8
+
+                 3. High Court NJDG
+
+The home page of the NJDG welcomes you with colourful bands, with the
+"NJDG High Court" tab on the top right corner and the "NJDG (District and
+Taluka Courts of India" tab on the top left corner. To
+access the National Judicial Data Grid for High
+Courts, one needs to click the "High Court NJDG" tab
+available on the right side corner of the NJDG home page. It will open up the
+NJDG for the High Courts.
+
+The coloured statistical bands display real time statistics of High Courts
+under various headings, such as: Total No. of Civil Cases; Total No. of
+Criminal Cases; Total Cases; Civil Cases more than 1-year-old; Criminal Cases
+more than 1-year-old; Total No. of Cases more than 1-year-old.
+
+Page 8  Court and Case Management Through NJDG
+                                                                                                   9
+
+The home page of the High Court NJDG has three main tab options: (i) Drill
+Down; (ii) Pending Dashboard; and (iii) Disposed Dashboard. The screenshot
+of the NJDG High Court home page showing the tab options is also appended
+for ready reference. Each of the tabs has a variety of options bundled up,
+which is discussed in detail under separate headings.
+
+The NJDG High court home page also gives one the option of selecting the
+High Court and the respective High Court Bench from the drop-down list to
+set the desired statistics of any particular High Court or its Bench. For
+example, if Bombay High Court is selected in the first drop-down, it will
+display the corresponding Benches for the Bombay High Court from which
+one can then choose.
+
+Page 9  Court and Case Management Through NJDG
+                                                                                                  10
+
+        4. District and Taluka Courts NJDG
+
+To access the National Judicial Data Grid for District and Taluka Courts, one
+needs to click the "National Judicial Data Grid (District and Taluka Courts of
+India)" tab available on the left side corner of the NJDG home page. It will
+open up the NJDG for District and Taluka Courts of India.
+
+The coloured statistical bands display real time statistics under various
+headings, such as: Total No. of Civil Cases; Total No. of Criminal Cases; Total
+Cases of the Country; Civil Cases more than 1-year-old; Criminal Cases more
+than 1-year-old; and Total No. of cases more than 1-year-old.
+
+Page 10  Court and Case Management Through NJDG
+                                                                                                  11
+
+The NJDG District and Taluka Courts of India home page also displays a
+variety of statistics under five main tabs: (i) Drill Down; (ii) Pending
+Dashboard; (iii) Disposed Dashboard; (iv) Alerts; and (v) Information
+Management. Under Each of the tabs a variety of options are bundled up
+which is discussed in elaborate under separate headings.
+
+The home page also gives one the
+option of selecting the State and
+District from the drop-down list to get the desired statistics of any particular
+District. For example, when Andhra Pradesh is chosen in the State
+drop-down, the corresponding Districts from Andhra Pradesh are displayed
+in the District drop-down, from where one can choose the required District
+and get the NJDG data for that particular District.
+
+Page 11  Court and Case Management Through NJDG
+                                                                                                  12
+
+                 5. Admin Login
+
+Administrative Judges can use Admin login to NJDG for a variety of
+administrative purposes. This login for Admin can be created by the
+respective Central Project Coordinators of the High Courts for the portfolio
+Judges of High Courts, Principal District Judges, Chief Judicial Magistrates and
+other Administrative Registrars, as per the administrative requirement of
+each High Court. The login through the Admin user ID will open up a variety
+of tabs, as shown in the screenshot below, which can be used as a Court and
+Case Management tool by the Administrative Judges.
+
+Page 12  Court and Case Management Through NJDG
+                                                                                                  13
+
+5.1. Admin Main Tabs
+
+The Admin Login has several tab options in the NJDG as shown above under
+the following headings:
+
+                                             Dashboard
+
+                                             Administration
+                                             National Masters
+                                             News Section
+                                             Data Monitoring
+                                             Management Tools
+                                             Server Monitoring
+                                             NJDG Reports
+                                             DCMS
+                                             E-Pay
+                                             Virtual E-Pay
+                                             Open API
+                                             Defunct
+                                             Help Desk
+                                             CSC
+                                             Requirement.
+
+Page 13  Court and Case Management Through NJDG
+                                                                                                  14
+
+5.2. Admin Sub menus
+
+Under each of the main NJDG tabs, a bundle of sub-menus are available. For
+example, under the tab of "Data Monitoring", there are 15 sub-menus as
+shown in the screenshot above on the right. It includes options such as,
+Yearwise Victim Count, Email Sent Count, Mobile Email Details, Court
+Complex Report, Summary Report of Courts, etc. Similarly, under the tab
+"NJDG", several important sub-menus are made available, including Query
+Builder, Return Report, Judgewise Disposal, Establishmentwise Reports,
+Police Stationwise Pendency, Case Type Wise, etc. The list of sub-menus
+available under the "NJDG" tab is also captured in the screenshot herewith.
+These NJDG reports can be put to multiple uses. For example, if a crime
+meeting is arranged, the details of the station-wise pendency report of NJDG
+reports can be utilised for review and discussion of a crime meeting. These
+data are real-time statistics that can be put to use to improvise the efficiency
+of various Courts. The other tabs and its submenus are tabulated herewith
+for easy reference.
+
+Page 14  Court and Case Management Through NJDG
+                                                                                                  15
+
+5.3. List of Admin Main Tabs with its Sub menus
+
+Page 15  Court and Case Management Through NJDG
+         16
+
+Page 16  Court and Case Management Through NJDG
+         17
+
+Page 17  Court and Case Management Through NJDG
+                                                                                                  18
+
+5.4. Help Desk
+
+One very useful menu available for the admin user is the online "Help Desk"
+option. The status of the troubleshooting is displayed in regards to how
+many are resolved, unresolved and closed. Under the "Help Desk" option,
+one can login and enter the required Technical Help, which will be assigned a
+ticket number. The District level technical Admin users can make an entry of
+their troubleshooting in this option, which will then go to the State level team
+for resolving. If the troubleshooting relates to the District level or Taluk level
+issue, the same will be handled by the State team. Only when the issue
+relates to the National level, does it need to be forwarded by the State Admin
+to the National Level. Once the issue is resolved, it will be displayed as
+closed. The screen shot of the help desk below will speak more on this.
+
+Page 18  Court and Case Management Through NJDG
+                                                                                                  19
+
+5.5. Digital Inspection of a particular Court
+
+Another important Court Management tool available for an Admin user is the
+"Dashboard" option, where any Administrative Judge can log into the
+dashboard of any particular Court under their Judicial District. This menu is
+available only for the Admin users under the tab "Management Tools",
+through which the Administrative Judge can login directly to the CIS
+dashboard of any particular District Court or Taluk Court.
+
+For example, the screenshot above shows the Admin Login into the District
+Session Judge Court of Assam. Through this login, the Administrative Judge
+can get the total pending cases of that particular Court, the disposal of that
+particular Court for a given month, top pending cases (category wise) of that
+particular Court. The Admin user can also view the cases under Mediation
+and Lok Adalat of that particular Court. Hence, this menu provides for digital
+inspection of any Court under the District Judiciary by the Administrative
+Judges of the High Court, the Principal District Judge, or any Administrative
+Head. This tool is a way forward in attaining complete digital inspection
+without physically visiting the concerned Court.
+
+Page 19  Court and Case Management Through NJDG
+                                                                                                  20
+
+5.6. DCMS (District Court Monitoring System) Report
+
+Under the DCMS report, an Administrative Judge can effectively monitor the
+District Judiciary's work on any particular day. The report captures Cases
+Fixed for Evidence; Witnesses Examined; Issues Framed; Charges Framed,
+Arguments Heard; Part-heard Matters heard; disposal of Interlocutory
+Applications; Disposal of contested and uncontested Cases; Cases filed (Civil
+or Criminal) of any particular Court. This data, reagrding the work done, need
+to entered by every Court on a daily basis under DCMS through the CIS. If a
+Court examines 20 witnessess and it is not entered in CIS through DCMS,
+then the witness examination will be shown as 0. Hence, in the training
+programmes, the awareness and the importance of CIS data entry under
+DCMS is also stressed upon.
+
+Page 20  Court and Case Management Through NJDG
+         21
+
+5.7. Query Builder
+
+The "Query Builder" option available under the
+Admin login is the most useful Court and Case
+Management tool. Using "Query Builder", one can
+generate a variety of customized reports
+according to one's individual needs.
+
+                                                             Query Builder has a variety of
+                                                             options for generating reports
+                                                             from NJDG as shown in the
+                                                             screenshot herein. One can get a
+                                                             report of pending/disposed
+                                                             cases, with multiple search
+                                                             criteria and combinations such
+                                                             as case type, stagewise, act wise,
+                                                             party wise, as per registration
+                                                             date, filing date of any particular
+                                                             state, district, etc. It is
+                                                             recommended for everyone to
+                                                             try their hands in the "Query
+                                                             Builder" toption, which is the
+                                                             Akshayapatram of NJDG and has
+                                                             the potential to generate
+                                                             numerous combination reports
+needed for effective Court and Case Management.
+
+Page 21  Court and Case Management Through NJDG
+                                                                                                  22
+
+5.8. Disposal of a Particular Judge
+
+Under the Admin Login through the Dashboard, the Administrative Judge can
+check the disposal for a particular month by a particular Judge. Under this
+option, the entire list of cases disposed of by the Judge will be displayed. The
+Administrative Judge can check the time spent by the Court in disposing of
+the case, and can also directly view the orders and judgments of the
+particular Judge. This is a game-changer, which will pave the way for
+increased judicial efficiency and productivity.
+
+Page 22  Court and Case Management Through NJDG
+                                                                                                  23
+
+5.9. Disposed case and orders
+
+Through this tool, under "Disposed Case and Order", the entire history and
+lifespan of a case can be digitally inspected by an Administrative Judge. As
+stated earlier, the Administrative Judge can get the entire details of the
+disposed case including the case details, case status, case history, along with
+final orders and judgements.
+
+Page 23  Court and Case Management Through NJDG
+                                                                                                  24
+
+5.10. Judicial Time Spent
+
+A new option has been provided under NJDDG for capturing the "Judicial
+Time", spent case wise and also Judge wise. This option will help us to track
+the judicial time spent by the Judge for a particular period, and also to
+capture the judicial time spent in a particular case. During training
+programmes, awareness is created to ensure entries are made for this data
+so that in the coming years, this feature will also be one of the top
+administrative tools in finding out the judicial time spent by the Judges in the
+whole, and also to get figures for the judicial time spent case wise.
+
+Page 24  Court and Case Management Through NJDG
+                                                                                                  25
+
+5.11. Pendency report under Admin Login
+
+Under Admin Login, the pendency of cases of any District or establishment of
+a particular Court can be generated under this option. One can select the
+State, then select the District, then select the date for which the pendency
+report is needed and thereafter click on "Go" to generate the pending list of
+cases. The top 10 high pendency States, top 10 high pendency Districts within
+a state, top 10 high pendency establishments in one District, all can be
+generated and the screenshots of the same are appended below.
+
+This will be useful for an Administrative Judge to understand what is the
+workload of cases of a particular District or an establishment or a particular
+Court, and even decide whether there is any need for bifurcation of the
+Courts or not. Even while making a simple transfer of the staff, an
+Administrative Judge can find out the workload of any particular Court and
+the disposal of a particular Judge through the NJDG.
+
+Page 25  Court and Case Management Through NJDG
+                                                                                                  26
+5.11.1. Top 10 pendency wise States:
+
+5.11.2. Top 10 pendency wise Districts in a State (Eg, Tamil Nadu):
+
+Page 26  Court and Case Management Through NJDG
+                                                                                                  27
+5.11.3. Top 10 pendency wise Establishment within a District (Eg. Agra):
+
+5.12. Data not replicated report
+
+Whether all data is uploaded regularly by all Courts, if data is not uploaded,
+and from which IP address the data is not uploaded, can now all be obtained
+through the a click of a mouse by using the NJDG Admin login. Using this
+report, the IP number of the server from which data is not uploaded can be
+monitored by any Administrative Judge.
+
+This "Data Not uploaded" is displayed in the Home page of the Admin login.
+For example, here in Delhi there are 47 data uploading points and all have
+uploaded the data. Hence, it is shown as 0/47.
+
+Page 27  Court and Case Management Through NJDG
+                                                                                                  28
+
+In the second example, out of the total 7401 data entry points, data has not
+been uploaded in 2521 data entry points, which is shown as 2521/7401.
+
+If the Administrative Judge wants to know what are the 2521 IP points from
+where data has not been uploaded, the same can be obtained through the
+"Data Not Replicated Report" by selecting the concerned High Court/District
+Court.
+
+Page 28  Court and Case Management Through NJDG
+                                                                                                  29
+
+By selecting the High Court, one can get the report of the
+Court/establishment from where data has not been uploaded. The report
+also gives the Server IP, Client Server IP number (IP number is masked in the
+screenshot herein from display in public so as to maintain security). The
+report has another highlight which displays the duration from which the data
+has not been uploaded. Hence, it is no doubt an effective Court Management
+Tool to monitor data uploads.
+
+Page 29  Court and Case Management Through NJDG
+                                                                                                  30
+
+                  6.NJDG - Main Tabs
+
+6.1. High Court NJDG -Main Tabs
+
+Under the the High court NJDG, Data are available under the following three
+main tabs: Drill Down; Pendency Dashboard; and Disposed Dashboard.
+
+6.2. District and Taluka court -Main Tabs:
+
+The NJDG District and Taluka Court Data are available under the following
+five main tabs: Alerts; Drill Down; Pendency Dashboard; Disposed
+Dashboard; and Information Management.
+
+Page 30  Court and Case Management Through NJDG
+                                                                          31
+
+         7. Alerts
+
+Under "Alerts", one can get various real-time statistics under the following
+heads: Cases Listed today; Undated cases; 10 year old Cases disposed of last
+month; Excessive Dated cases; Cases under objection; cases pending for
+registration; Pre trial; and Pre litigation. The same are dealt with in detail
+hereunder.
+
+Page 31  Court and Case Management Through NJDG
+                                                                                                  32
+
+7.1. Undated Cases
+
+Under the "Undated Cases" option, one can get the list of cases that remain
+undated in any Court, or any establishment or any State. The list of undated
+cases can be generated State wise, District wise and the same can be
+monitored by the Administrative Judge.
+
+Each of the figures shown in the screenshot above are hyperlinked, and if
+clicked on, they will give the detailed report. For example, under undated
+cases, it is shown that 749679 cases are undated, and if that number is
+clicked on, then it will display the breakdown of the entire list, that too
+Statewise, and from which further drill down of the data can be obtained.
+
+Page 32  Court and Case Management Through NJDG
+         33
+
+Page 33  Court and Case Management Through NJDG
+                                                                                                  34
+
+7.2. Cases Listed Today
+
+Under the "Cases listed Today" option, one can get the total number of cases
+listed under Civil and Criminal category for any High Court. Further under the
+drill down, ond has the option of clicking on the number, through which one
+can get the details of those cases listed District wise, establishment wise, and
+Court wise. That option can be used to find out the workload of a particular
+Court, establishment, District, and High Court on any particular day.
+
+Page 34  Court and Case Management Through NJDG
+                                                                                                  35
+7.2.1. Cases Listed Today - District wise:
+
+7.2.2. Cases Listed Today - Establishment wise:
+
+Page 35  Court and Case Management Through NJDG
+                                                                                                  36
+7.2.3. Cases Listed Today - Court wise:
+
+Page 36  Court and Case Management Through NJDG
+                                                                                                  37
+
+7.3. More than 10 year old Cases Disposed in Last Month
+
+How many 10 years old cases were disposed of in the State or in a particular
+District or by a particular establishment or by a particular Court, are all now
+available at a click of a mouse for an Administrative Judge. The said data of
+disposal of more than 10 years old can be drilled down to various levels
+under this option.
+
+7.4. More than 3 Months excessive Dated Cases:
+
+This is an interesting option which records the excessive dated cases, where
+cases dated more than 3 months are captured under NJDG.
+
+7.5. Cases Under Objection
+
+"Cases Under Objection" notes the cases which are pending for being taken
+on the file and are at the stage of objection. Earlier under CIS, one could track
+the number of cases that are taken on file. However, it did not provide details
+of the cases which had been filed but not taken on file due to having been
+returned with objections, and now such pending objections cases can be
+viewed under this option.
+
+Page 37                     Court and Case Management Through NJDG
+                                                                                                  38
+
+7.6. Cases Pending Registration
+
+The cases which are pending registration can be viewed under this option.
+For example, certain cases may be filed but might not have been taken on
+file by the Registry for various reasons like want of Court fees, copies,
+documents, to fill up the blanks, etc. Hence, such types of cases that are
+pending for registration can be easily tracked through this option.
+
+7.7. Total Courts
+
+How many Judges/Courts are there in a district? How many Judges/Courts are
+there in a State or in our country? These questions often pop up for a variety
+of Administrative uses. These counts of Judges/Courts are now available
+under NJDG, which can be generated District wise/State wise/ Nation wise by
+clicking on the number in blue!
+
+Page 38  Court and Case Management Through NJDG
+                                                                                                  39
+
+7.8. Pre Trial Cases:
+
+Similarly, "Pre-Trial" cases and "Pre-Litigation" cases can also be generated
+using the options shown herein.
+
+7.9. Pre Litigation cases:
+
+Hence, the "Alerts" tab gives us a variety of crucial data. One point to
+remember is that all this data will be reflected in NJDG only when it is
+meticulously entered in CIS. Hence, the complete and accurate data entry is a
+must to reap the fruits of the NJDG reports.
+
+Page 39  Court and Case Management Through NJDG
+                                                                            40
+
+         8. Drill Down
+
+The "Drill Down" tab provided under NJDG is a very useful and interesting
+tool. Under this tab, the figures which are displayed in blue colour can be
+clicked on to further drill down the details. For example, on the screen one
+can see the year wise pendency of cases under various categories. One such
+category is 20-30 year cases and if the figure is clicked, it will further show up
+the break up details. Using this option, one can even find out the oldest case
+which is pending in the particular State or District or establishment or in a
+particular Court.
+
+The drill down main page provides the options for drill down under the
+following heads: Pending Cases (Year Wise); Case Type Wise; Institution;
+Disposal; Woman; Senior CItizen; and Delay Reason Wise.
+
+The Drill Down Main Page screenshot is appended herewith for ready
+reference and easy understanding. Remember, one only has to click on the
+blue coloured figures to watch the magic of the drill down option!
+
+Page 40  Court and Case Management Through NJDG
+         41
+
+Page 41  Court and Case Management Through NJDG
+                                                                                                  42
+
+8.1. Drill down Pending Cases Year Wise
+
+Using the drill down option under the heading "Pending Cases (Year Wise)",
+one can get the year-wise pendency of the civil, criminal and total cases
+under the following categories: above 30 years; 20-30 years; 10-20 years;
+5-10 years; 3-5 years; 1-3 years; and 0-1 years. The figures displayed in blue
+colour are hyperlinked, and if clicked on will give the further detailed
+breakup. Try your hands with a year wise drill down feature.
+
+Page 42  Court and Case Management Through NJDG
+                                                                                                  43
+
+8.2. Finding the Oldest case using the drill down option
+
+How to find an old pending case in a particular District? Here, for example,
+the pending cases of the particular District are displayed yearwise. Under
+that, if one clicks the cases "above 30 years", it gives the split up figures and
+one can see that there are 11 criminal cases shown which are more than 30
+years old. Now, when one clicks the figure 11, it will give them the further
+split up year wise, that is 1986, 1987 and 1997. Now, when one clicks on that
+1 under 1986, it shows them that the District and Session Judge Balasore is
+where the case is pending. Further, if one wanted to know what is the case
+number in that particular Court, then they would just have to click the 1 and
+
+Page 43  Court and Case Management Through NJDG
+                                                                                                  44
+
+it will give them the entire case history. Thus, an Administrative Judge sitting
+in his chamber can find out what are all the top pending cases in the District
+Judiciary in a particular District or in a particular Court and can issue
+directions for working towards its disposal, and these steps will fast track the
+disposal of the oldest cases under the said administrative unit.
+
+8.3. Drill down Case Type Wise
+
+Under the High Court NJDG, the Drill down option for the Cases Type Wise is
+displayed under the following heads: Writ Petition; First appeal; Second
+appeal; Case/Petition; Revision; Reference; Suit; Review; and Application.
+
+Page 44  Court and Case Management Through NJDG
+                                                                                                  45
+The NJDG for District and Taluka Court displays the case type wise details
+under the following heads: Original, Appeal; Application; and Execution.
+
+8.4. Drill down to Establishment wise data
+
+The year wise data drill down can also be further drilled down for a particular
+establishment. For example, if one wants to find out what are all the
+establishments which are available in a particular District, then it can also be
+obtained under this drill down facility. For example, the screen shot of
+establishment wise data of Ambala district in Haryana has been extracted
+herewith for ready reference. Hence, this NJDG data can also be used by
+Administrative heads at the District level for its Court and Case Management.
+
+Page 45  Court and Case Management Through NJDG
+                                                                                                  46
+
+8.5. Drill Down to specific Cases Details
+
+Using the drill down facility, the specific case details can be drilled down to a
+particular case. The entire case history of a case can be obtained under this
+specific case details. The order copy of the particular case can also be viewed
+
+Page 46  Court and Case Management Through NJDG
+                                                                                                  47
+
+8.6. Drill down Stage Wise
+
+The Stage Wise pendency list can work as a wonderful case management tool
+for any Administrative Judge or even for Judges of any particular Court. How
+many cases are pending for arguments? How many cases are pending for
+Appearance/service related? To get the Stagewise list of cases for the DIstrict
+and Taluka Courts, it can be drilled down under the Stagewise option. For
+implementation, one can now find out by the click of the mouse as to how
+many cases are pending for appearance and service which can be used as an
+effective Court and Case Management tool. Under this stage wise pendency
+list, the statistics are captured under the following heads: Appearance/
+service related; Compliance/Steps/Stay; Evidence/Argument/Judgement; and
+Pleadings/Issues/Charge, as shown in the screenshot herein.
+
+Page 47  Court and Case Management Through NJDG
+                                                                                                  48
+
+8.7. Drill Down Institution & Disposal Data
+
+8.8. Drill Down - Cases filed by Woman
+
+8.9. Drill Down - Cases filed by Senior Citizens
+
+The number of senior citizen cases that are pending in every State, and which
+District has the highest number of senior citizen cases, can all be drilled
+down under this option.
+
+Page 48  Court and Case Management Through NJDG
+         49
+
+Page 49  Court and Case Management Through NJDG
+                                                                                                  50
+
+8.10. Drill Down Delay Reason Wise cases
+
+As per the directions of the Supreme Court, a great concern has been to
+bring down the delay involved in the disposal of the cases and also to reduce
+the pendency of cases. As a way forward towards it, a new option has been
+introduced by the SCI to capture the delay reason involved in each case.
+Under this option, every Court in the country is now required to enter the
+"delay reason" for every case which is more than 2 years old and those delay
+reasons are tabled under various headings, such as, awaiting documents,
+difficult in securing the presence of important witnesses, non-availability of
+Counsel, etc. For example, many cases are tabled under one of the delay
+
+Page 50  Court and Case Management Through NJDG
+                                                                                                  51
+
+reasons for the pendency of the State. If you click on that option, it will
+further drill down into a variety of said options like stayed for other reasons,
+stayed by High court, stayed by Court other than the Supreme Court or High
+Court and stayed by Supreme Court. These said particulars under delay
+reasons are also reflected as graphical pie charts and graphical line charts.
+Using this option, any Administrative Judge right from the District level to the
+High Court level can find out, with the click of a mouse, as to how many cases
+are pending as stayed by the High Court or the Supreme Court, and it can be
+worked out to reduce the pendency of cases.
+
+8.11. Case hearing history
+
+Similarly by clicking on a particular case, each case proceeding on a particular
+data is captured under the history of case herein. Under the history of case,
+one can get the listing of the entire data of hearing by the particular Court
+and by clicking on the date on any particular data, the Administrative judge
+can get data on the said date in a particular case.
+
+Page 51  Court and Case Management Through NJDG
+                                                                                                  52
+
+8.12. Date wise proceedings
+
+And by clicking on that particular date from the case hearing history, it will
+open up into the date wise daily proceeding as shown herewith.
+
+8.13. Transfer details of the case
+
+The transfer details of the case, if entered meticulously in CIS, will be
+refelected in NJDG. With this, one can get the transfer details of the case
+from one Court to the other.
+
+Page 52  Court and Case Management Through NJDG
+                                                                                    53
+
+         9. Pending dashboard.
+
+Under pendency dashboard several Types of interactive Graphical charts are
+made available under the following heads are available:
+
+                         Matter Type Pendency Pie Chart
+                         Original Case Type Wise Disposal
+                         Age Wise Pendency Pie Chart/ line Chart
+                         Stage Wise Pendency Pie Chart
+                         Institution vs Disposal Chart
+                         Delay Reason wise Pendency Pie Chart
+
+Page 53  Court and Case Management Through NJDG
+                                                                                                  54
+
+9.1. Matter Type Pendency Pie Chart
+
+Under Matter wise pendency chart, one can get the pendency status Charts
+for Case types like Original; Appeal; Application; and Execution. There is a
+select option to select the particular type of case also. The interactive bar
+chart for the selected case is also displayed simultaneously.
+
+Page 54  Court and Case Management Through NJDG
+                                                                                                  55
+
+9.2. Age wise pendency pie Chart
+
+Under this category, one can get the age wise category of the cases from 0-1
+years, 3-5 years, 5-10 years, 10-20 years, 20-30 years and above 30 years
+cases. If an Administrative Judge wanted to know how many Civil revision
+cases are pending and what are their age wise pendency particulars, then it
+can be chosen from the drop box and they can get the age wise pendency
+details for "Civil Revision".
+
+Page 55  Court and Case Management Through NJDG
+                                                                                                  56
+
+9.3. Stage wise pendency Pie chart
+
+The cases are pending at various stages, such as, appearance/ service
+related, compliance /steps /stay,evidence / arguments/ judgment, and
+pleadings/ issues /charge. Those pendency charts can be obtained under this
+category, and stage wise pendency charts can also be generated for a
+particular case type. Here in the screenshot above, one can see the
+"Commercial Suit" is chosen in the drop box, which displays the stage wise
+pendency chart for commercial cases.
+
+Page 56  Court and Case Management Through NJDG
+                                                                                                  57
+
+9.4. Institution versus Disposal
+
+The comparative graphical chart of institution versus disposal for any
+particular year can be obtained using this option, and one can get the
+comparative graphical analysis regarding institution and disposal as well.
+
+9.5. Delay reason pendency Chart
+
+Page 57  Court and Case Management Through NJDG
+                                                                                                  58
+
+             10. Disposed Dashboard
+
+10.1. Case type wise disposal
+
+The matter type wise disposal pie chart gives case type wise disposal charts.
+Under High court NJDG, one can get the disposal chart for Writ, Second
+Appeal, First Appeal, Appeal and Petition categories. Under District and
+Taluka Court NJDG, one can get a disposal chart of Original cases, Appeal
+cases, Application and Execution. There is also an option to choose a
+particular case type and to get the disposal charts.
+
+Page 58  Court and Case Management Through NJDG
+                                                                                                  59
+
+10.2. Case Age wise disposal chart
+
+Under this category, one can get the age wise disposal chart supported by a
+line chart.
+
+Page 59  Court and Case Management Through NJDG
+                                                                                                  60
+
+10.3. Judge Wise Disposal
+
+If any Administrative Judge wants to know the disposal of cases by any
+particular Judge under his administrative unit, then it can be obtained under
+this Judge wise disposal option available under NJDG reports. This Judge wise
+
+disposal option can also be utilised to know the disposal of all the Judges in a
+particular unit, so that the administrative Judge will be able to find out which
+Judge is disposing which type of cases in his administrative unit. There is also
+another option under this category where the disposal by the Judge can be
+chosen for any particular period by selecting the datas. Here, in a given
+example, the District session Judge category is chosen from an establishment
+to find out the disposal of cases of the said Judges.
+
+Page 60  Court and Case Management Through NJDG
+                                                                                                  61
+
+10.4. Nature Wise Disposal
+
+Naturewise disposal charts give details on the variety of the disposal types
+like decreed, allowed, convicted, dismissed, discharged, etc.
+
+Page 61  Court and Case Management Through NJDG
+                                                                                                  62
+
+10.5. Time to disposition
+
+This option tracks the time taken for disposal of a particular case. This is very
+useful to find out what is the average time taken for the disposal of original
+suit appeal, suit application and execution, whether this one year or 1-2
+years or 2-3 years or more than 10 years. This option can be used for further
+study in analysing the road to disposal of the cases. This option will be
+reflected only if the concerned Courts are filling up the data regarding this
+option, and if these data are not filled up by the concerned Courts, it will not
+be reflected in NJDG and we will not be able to obtain this interesting data
+analysis. Hence, in the eCommittee training programmes, we have a strategy
+for filing up this data regarding time taken for disposition.
+
+Page 62  Court and Case Management Through NJDG
+                                                                                                  63
+
+             11. Information Management
+
+Under the "Information Management" tab, a variety of options for data
+maintenance is made available under the following five heads as shown in
+the screen shot herewith: Data Monitoring - Summary Report; Court Judge
+Report; National Master - Summary Report; Establishment Code Not Entered
+Report; and Under Trial Report.
+
+11.1. Data Monitoring - Summary Report
+
+The summary report available under data monitoring is a very
+comprehensive report on various aspects of Courts under the following
+heads: Statewise; Total Districts; Total Court complexes; Total
+establishments; Total Cases; Total Orders; and Orders Not Uploaded.
+
+Page 63  Court and Case Management Through NJDG
+         64
+
+11.2. Court Judge Report
+
+Under the Court Judge Report, the State Wise data can be viewed for the
+following: Presiding officers/Judge, Incharge Courts; Link Courts; Total Courts;
+Empty Courts; Inavalid JOCode Count; and Courts Closed But Cases Are
+Pending. The screen shot of the report is appended herewith for ready
+reference.
+
+Page 64  Court and Case Management Through NJDG
+                                                                                                  65
+
+11.3. National Master - Summary Report
+
+Under CIS National codes are used under various categories like Case Type;
+Purpose Type; Adjourn Type; DIsposal Type; and Act Type Code. The same
+needs to Updated in the Master List by the respective High Courts. To
+monitor this data entry this report of "Establishment code not entered" can
+be generated under the National Master - Summary Report available under
+the "Information Management" tab.
+
+Page 65  Court and Case Management Through NJDG
+                                                                                                  66
+
+11.3.1. Establishment Wise Code Not Entered Report
+
+National Code has been provided under Case type, Purpose Type, Adjourn
+Type, Disposal Type, Act type.For easy monitoring this establishment wise
+code not entered report can be generated and the concerned establishment
+can be asked to fill up the necessary national Code.
+
+Page 66  Court and Case Management Through NJDG
+                                                      67
+
+11.4. Under Trial Report
+
+NJDG showcases another important report, which is regarding the Under
+Trial Prisoners. The said "Under Trial Report" can be obtained for the whole
+State, with District wise breakup of figures. There is also another option
+through which the number of under trial prisoners in a particular District can
+also be viewed.
+
+11.4.1.  UnderTrial report of a Particular State:
+
+11.4.2.  UnderTrial report of a Particular District:
+
+Page 67                                               Court and Case Management Through NJDG
+                                                                                                  68
+
+        12. NJDG Report Format:
+
+The reports under NJDG can be generated under three formats. All the
+reports can be generated as PDF, Excel and CSV. The availability of these
+three types will help the administrative staff generate the report in editable
+formats and non editable formats. The editable formats under .xls and .csv
+will help to consolidate information according to the needs of their High
+Court. The screenshots of the three formats are appended herewith for
+ready reference.
+12.1. Export to .pdf
+
+12.2. Export to .xls
+
+12.3. Export to csv
+
+Page 68  Court and Case Management Through NJDG
+                                                                                                  69
+
+Click the link for High Court NJDG
+https://njdg.ecourts.gov.in/hcnjdgnew/?p=main/index
+
+Click the link for District and Taluka Court NJDG:
+https://njdg.ecourts.gov.in/njdgnew/?p=main/index
+
+Page 69  -------Explore NJDG-------
+
+                                                   Court and Case Management Through NJDG
+         70
+
+Page 70  Court and Case Management Through NJDG
+

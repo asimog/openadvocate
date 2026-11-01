@@ -1,0 +1,2280 @@
+F$PVSUT1SPKFDU
+
+                      Phase II
+
+          Objectives Accomplishment Report
+          As per Policy Action Plan Document
+
+                   eCommittee, Supreme Court of India
+
+                                                                                                                                                                         Page 1 of 69
+                                        Table of Contents
+
+Brief Introduction of eCourts Phase II
+
+Objectives Accomplishment Report                                                          4
+
+      1. Goal Posts to reach                                                                 8
+      2. Implementation Model                                                               17
+      3. Infrastructure Model                                                               19
+      4. System and Application Software for Court Processes                                19
+      5. Scanning Digitization & Digital Preservation of case records                       28
+      6. Video Conferencing for Courts and Jails                                            30
+                                                                       Page 2 of 69
+      7. Capacity Building Measures                                                             31
+      8. Judicial Process Re-engineering                                                        33
+      9. Work flow and Process Automation Tools & Measures                                      37
+      10. Judicial Knowledge Management System                                                  39
+      11. Human Resources                                                                       45
+      12. Service Delivery                                                                      45
+      13. Extra work done through not mentioned in the Policy Action Plan                       56
+      14. Statistics of Deliverables under Policy Action Plan                                   68
+
+Statistics of Objective Accomplishment                                                      68
+
+                                                                           Page 3 of 69
+Citizen Charter of Services                   69
+
+                             Page 4 of 69
+Brief Introduction:
+
+While the eCourts Mission Mode Project is undoubtedly one the most successful
+projects in the country, its success can be attributed to three systemic and structural
+management strategies. The Project has achieved several milestones and these have
+been made possible through three management strategies.
+
+Firstly, the entire Project has been conceptualized and implemented in Free and Open
+Source Software. This is perhaps the largest FOSS based project in the world and has
+resulted in an estimated saving of Rs. 340 crore to the Exchequer excluding huge
+recurrent cost of license fee and maintenance, simultaneously providing freedom to
+customise and use the system software.
+
+                                                                                                                                                                        Page 1 of 3
+
+                                                                                                                               Page 5 of 69
+Secondly, the core-periphery model has been utilized and implemented in the
+software development. The core is sacrosanct and is decided by the eCommittee and
+contains data that is available for policy and decision making at the national level -
+Supreme Court, Parliament and Central Government. Of course, the core data can be
+accessed and utilized for policy and decision making at the State level. The periphery
+modules are to be developed by each High Court and can be implemented through
+the available data in the core. Each High Court has full freedom to develop its
+periphery modules based on the High Court Rules, the Civil and Criminal Court
+Manuals. These periphery modules are intended for State level utilization - High
+Court and District Courts, State Legislature and State Government.
+
+Thirdly, the eCourts Project has been focussed on being citizen-centric, keeping the
+litigant in mind. This focus has resulted in remarkable coordination and teamwork
+between hundreds of judicial officers (Trainers and Master Trainers) and court staff
+(District System Administrators and System Administrators). Appreciating the
+importance and significance of the eCourts Project for expeditious and affordable
+
+                                                                                                                                                                        Page 2 of 3
+
+                                                                                                                               Page 6 of 69
+justice delivery, the Department of Justice, National Informatics Centre and other
+Central Government institutions coordinated and cooperated with the expert
+eCommittee team to bring success to the Project. It is through this teamwork that
+important software and applications such as Case Information System, eFiling,
+ePayment, National Service and Tracking of Electronic Processes, Video Conferencing,
+Virtual Court, National Judicial Data Grid, a variety of mobile applications and
+several others have been successfully tried, tested and implemented.
+
+The future continues to hold remarkable potential for development and growth.
+Available technology has been fully utilized in Phase II of the eCourts Project and
+several innovations made as the Project progressed. In Phase III of the eCourts Project,
+consolidation and growth using technological advancements are envisioned including
+(for example) migration to the cloud (tested and partly implemented already), big data
+mining and processing through block chain technology and artificial intelligence. The
+focus will remain affordable and expeditious justice delivery.
+
+                                                                                                                                                                        Page 3 of 3
+
+                                                                                                                               Page 7 of 69
+DELIVERABLES UNDER THE E-COURTS PROJECT AS PER POLICY
+
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+           Policy Action Plan phase II  No
+
+1 GOAL POSTS TO REACH                   5-8
+
+Case work Optimum automation of Case                 Possible work of automation of work flow is already done and completed
+                                                     in CIS 3.1. Work flow automation was gradually increased from DC CIS 1.0
+automation flow work flow 6                          to 3.1.
+                                                     Further work flow automation can be taken to new heights by High Courts
+Use of     Use of Computers by Section               using QR Code facilities already enabled. They may further equip it with
+Computers                                            QR Code Readers, High Speed Scanners, Hand held devices and WACOM
+           of Registry for day to day 6              screens. QR Code generation will be key to this automation which is
+                                                     already provided in DC CIS 3.1 and HC CIS 1.0. (Please refer to Annexure
+           processes and service delivery            C page 43, 46, 47, Annexure D, Page 162-165, 169 which will show
+                                                     instances of work flow automation)
+                                                     Day to day processes like cause list, daily proceedings, business, disposal
+                                                     and order and judgment uploading is done by Court Staff. Now they are
+                                                     comfortable with CIS and use of computer in the Courts has become
+                                                     indispensable. (Please refer Annexure J page 337 to 347 for more details)
+
+                                                                     Page 8 of 69
+Topic in     Detailed Description as given in P a g e              Present Status
+short
+             Policy Action Plan phase II  No
+
+                                                       Migrating from one version to another for entire country at more
+
+                                                       than 3500 locations and more than 6400 Court Establishments is
+
+                                                       a challenging task. However, due to upgrading software, this task
+
+                                                       was performed three times in phase II of the project. After
+
+                                                       migration to CIS 2.0, studying all suggestions, and keeping in
+
+                                                       mind goal posts like NSTEP, eFiling, ePay, Portfolio Management,
+
+                                                       mobile application CIS 3.0 is rolled out. After rolling out National
+
+Unified CIS  Unified CIS for all Courts         Core Version of CIS 3.0 all the District and Taluka Courts
+for all
+Courts                                    6
+
+                                                completed migration and 21 High Courts also migrated to
+
+                                                       National Core HC CIS 1.0. After migrating to CIS 3.0 one more
+
+                                                       version CIS 3.1 is rolled out mostly for ICJS, eFiling, sharing APIs
+
+                                                       etc. However, the Courts have again shown agility and migrated
+
+                                                       to CIS 3.1 within a short span of time. All these challenges are
+
+                                                       successfully met and Country in real sense has unified under one
+
+                                                       umbrella CIS which is unique in the world. (Please refer Annexure
+
+                                                       C page 43)
+
+                                                                                   Page 9 of 69
+Topic in      Detailed Description as given in P a g e  Present Status
+short
+              Policy Action Plan phase II     No
+
+                                                        Data is replicated by Slony tool. It is near realtime replication. Monitoring
+
+                                                        tools are given to the management users of NJDG. Management users
+
+                                                        can see places from where data is not uploaded and time lag since when
+
+Updation of Timely and regular updation                 data is not uploaded. Many High Courts have taken over management of
+                                                        their own servers and they are taking corrective measures with the help of
+data on of data on NJDG by all the 6                    these tools provided under NJDG. eCommittee regularly sends mails
+
+NJDG          Courts
+
+                                                        about locations where data is not replicated timely requesting the
+
+                                                        concerned to immediately replicate data so that it is available for litigants
+
+                                                        and lawyers. (Please refer to Annexure K page 350 to see the report)
+
+                                                        Provision is made in CIS, and all registers can be automatically generated
+
+                                                        in CIS. Practices of keeping books, registers differ from High Court to High
+
+Manual                                                  Court. Needs to the High Courts that had given their requirements have
+                                                        been met. In addition, report generation in PDF has been kept in
+Registers to  Discontinuation of Manual 6               periphery so that High Courts will be able to create customised reports to
+be                                                      cater their local needs. Karnataka, Madhya Pradesh, Himachal Pradesh,
+discontinued Registers
+
+.
+
+                                                        Punjab and Haryana are some of the High Courts that have done away
+
+                                                        with the practice of keeping Manual Registers.
+
+CFC Ideal Central Filing Centre for 6 The facility of Central Filing Centre (CFC) is available. (Please refer to
+              with sufficient infrastructure            Annexure J Page 339 and 340 to know more details)
+
+                                                                                                           Page 10 of 69
+Topic in  Detailed Description as given in P a g e                             Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                     In the Management Portal of NJDG, there is a special provision for
+
+                                                     performance assessment. Under NJDG tools there is a facility called Judge
+
+                                                     wise report. This report keeps open all options performance assessment.
+
+                                                     All the Judges can be compared or only District Judges or only Senior
+
+Performance J u d i c i a l P e r f o r m a n c e 6  Civil Judges or Junior Judges can be assessed through this facility. There
+                                                     is provision to identify the cases as per their weight given in norms set by
+assessment assessment through ICT                    the High Court. Apart from this facility, Query Builder provided in CIS gives
+
+                                                     options to generate such performance assessment reports. (Please refer
+
+                                                     Annexure K Page 351-353)
+
+Digitization Scanning and Digitization of 8          The Activity has gone out of the Scope of eCourts Project and Funds are
+                                                     transferred by the Government directly to State Governments under 14th
+              case record                            Finance Commission
+                                                     This is part of digitisation project therefore for component digitisation this
+Record    Court Record room                          activity will also go under 14th Finance Commission. Funds are not
+                                                     provided for this activity under eCourts Project.
+automation room management automation 8
+
+                                                                                               Page 11 of 69
+Topic in    Detailed Description as given in P a g e  Present Status
+short
+            Policy Action Plan phase II  No
+
+                                                      As on the date no hardware is provided for computerisation of Libraries in
+
+Library     Court           Libraries 8               District and Taluka Courts. It requires cloud infrastructure. Therefore
+computeriz                                            Infrastructure and robust connectivity are two prime requirements which
+ation       Computerizatioin
+
+                                                      are essential to implement this.
+
+                                                      Funds are allocated in Phase II of the Project and all High Courts have
+
+                                                      almost completed the activity of procuring the hardware. Training
+
+                                                      programmes for use VC have been organised for Judicial Officers, Jail
+
+                                                      Officials and Prosecutors at Police Training Centre, Ghaziabad. There has
+
+VC for      Video Conferencing for all the 6          been huge increase in use of VC in the year 2017, 2018 and in the year
+Courts &                                              2019. Number of calls and duration has gone to sky high. In the year 2019
+Jails       Courts with Jails
+
+                                                      there were 28,262 conference calls and 99,216 direct calls which is not
+
+                                                      even comparable with its contemporaries. VC usage of eCourts VC is
+
+                                                      above all other VC systems provided by NIC. ( Please see the statistics in
+
+                                                      Annexure F Page 193-206 for more details of Video Conferencing Usage)
+
+                                                                                        Page 12 of 69
+Topic in   Detailed Description as given in P a g e             Present Status
+short
+           Policy Action Plan phase II  No
+Legal aid
+Offices                                              Funds have been allocated to High Courts, some of the High Courts have
+
+WAN for                                              already purchased hardware, whereas, some High Courts are purchasing
+Courts
+                                                     Hardware like computers, printers, Projectors etc. Most of the High Courts
+Solar
+energy     Legal Offices (DLSA and TLSA) 6           have competed the activity of purchase of hardware item for Legal aid
+                                                     authorities. In CIS, modules like Lok-Adalat, Mediation are introduced
+           ICT enablement                            which are mainly concerned with work of DLSA and TLSC. With the help of
+
+                                                     these modules, District wise, State wise, National information about
+
+                                                     mediation, Lok Adalat, legal aid lawyers etc. can be accessed through
+
+                                                     NJDG. (Please see statistics detailed in Annexure - Page - )
+
+                                                     BSNL is doing this connectivity work under supervision of DoJ. There is
+
+           WAN Connectivity for all the 6            considerable progress in implementing WAN. Almost in all the States, the
+                                                     activity of WAN connectivity is in progress. DoJ is continuously conducting
+           Courts
+
+                                                     meeting and making follow up with BSNL.
+
+                                                     Funds have been allocated to High Courts for the said activity. Some of the
+
+           Solar energy for power 6                  High Courts have completed the work. In the Annexure of Funds details
+                                                     regarding funds released and utilised can be found. (Please see the
+           backup                                    Annexure Funds and check component wise details from Page No. 7
+
+                                                     onwards.)
+
+                                                                                                                   Page 13 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+Mobile
+App, SMS                                            eCourts Services Mobile app is launched. JustIS is mobile app
+etc.
+                                                    exclusively designed for Judicial Officers. Most of the Judicial
+
+                                                    Officers are making use of this management tool to manage their
+
+                                                    Judicial business on finger tips. Through the mobile app, facility
+
+                                                    of notification is provided. Facility of SMS of undated cases is
+
+                                                    rolled out to Judicial offers every morning. More than 29 lac
+
+          Mobile based service                      downloads till the date are registered on Android version of the
+          delivery through SMS and 6                eCourts Services Mobile App. SMS Pull and SMS Push are also
+          Mobile App. etc.                          made operational. Service Count can be seen from the
+
+                                                    Government portal of etaal.gov.in . Electronic Transaction Count
+
+                                                    shown on this portal firmly established that eCourts project is
+
+                                                    always amongst top five projects in the country and second best
+
+                                                    project amongst the mission mode projects in the country. Please
+
+                                                    refer to Annexure about performance of the project. (Please refer
+
+                                                    Annexure B Page 33-35, Annexure C Page 46, 47, 55,65, 66 & 69)
+
+                                                                    Page 14 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II    No
+
+Change    Change Management                     488 Master Trainers are trained under eCourts Phase-I and Phase-II of the
+Manageme                                        Project. District System Administrators (DSA) are also imparted training of
+nt                                              change management. These trainers have further trained officers and staff
+                                                members. Such Change Management Training are continuously under
+                                         6 taken after regular intervals. Change management Training was also given
+                                                to IIM Bengalore and University of Berkeley, California USA. Advance
+                                                training on use of CIS 3.1 has also been organised by eCommittee. Master
+                                                Trainers from all the High Courts were trained and asked to further train
+                                                the officers in the respective High Courts. (Training schedule, names of the
+                                                officers can be found in the Annexure F page Nos. 193-206)
+
+          Applications and databases                For shifting all the data to Cloud, it is necessary to have robust connectivity
+                                                    and so far, pilot project in Goa has been very successful and all the cases
+          used by the Courts will be                in Goa are managed in Cloud. The Pilot Project has been extended to one
+                                                    District in every State, in consolation with the Chief Justice of the Courts
+          hosted in cloud environment ,             and so far considerable success has been achieved. Out of 25 locations,
+                                                    12 locations have successfully been tested on cloud. It is expected that in
+Cloud     applications and databases 8              next few months all the data will be migrated to cloud and will be available
+                                                    for every District in the country.
+Computing used by the Courts will be                Considering large volume of information that is available under eCourts
+                                                    Project, it is imperative that data is migrated to cloud and managed locally.
+          hosted on cloud environment               (Please refer to Annexure C Page 71)
+
+          facilitated at State Data
+
+          Centres.
+
+                                                                    Page 15 of 69
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+           Policy Action Plan phase II  No
+
+           Document Management                       This is further extension of digitisation and as funds are not allocated
+
+DMS        system for digital archiving/ 8
+
+           storage/retrieval                         being under 14th Finance Commission.
+
+                                                     Business Intelligence Tools are developed under NJDG.
+
+                                                     Under menu `NJDG Reports' various tools have been provided viz. (a)
+
+BI Tools   Business Intelligence Tools               Query Builder (b) Case Type Wise (c) Stage wise (d) Judge wise (e) Police
+                                                     Station Wise (f) Return Reports. Apart from this, various reports are
+           enabled management 8                      provided under Data Monitoring caption. Almost 30 different reports are
+                                                     provided. Separate reports for ePay, Virtual Courts have been provided.
+           Information System
+
+                                                     (Please refer to Annexure E Page 173-192 and Annexure H Page 226-241,
+
+                                                     Annexure K Page 354-357 for more details regarding this topic)
+
+                                                     eOffice is given to High Courts and they have been told to adopt the
+
+                                                     same. However ,it was found that eOffice consists of administrative work
+
+Admin. Administrative Work Flow         8            flow allocation and its set up is on cloud, therefore, it may require funds for
+Work flow                                            the infrastructure of Cloud. This Cloud set up would connect High Courts
+automation Automation                                with District Court and Taluka Courts. Therefore, it would require robust
+
+                                                     connectivity and offline mode in the event of connectivity failure. Once
+
+                                                     WAN is fully setup this cloud infrastructure can be created for eOffice.
+
+                                                                                                                     Page 16 of 69
+Topic in  Detailed Description as given in P a g e              Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                          11..
+2 IMPLEMENTATION MODEL
+
+                                                          22
+
+PMU       PPMS portal will be                                   PMS is developed by eCommittee for its internal management purposes
+(Project  overhauled and revamped                               and it caters optimum needs. PPMS is maintained in FOSS based on GNU
+Manageme  with more useful and MIS like                         Cash. Its reports are regularly made available on eCourts Portal. (The portal
+nt Unit)  features in order to facilitate                       is Intra net based and accessible to users on NICnet only)
+          both PMU, through a more
+
+          robust form and than present. 17
+
+          The requirements for
+          resources like manpower of
+          infrastructure may be met
+          from Project Management and
+          Monitoring Budget (Head No.
+          17) of the eCourts Project
+
+              Mobile Application for                            This facility is provided in eCourts services Mobile Application which
+                                                                is already launched and presently being used by various stake
+Location on l o c a t i o n o f C o u r t s a n d 18            holders. Similarly this facility is already made available on eCourts
+                                                                National Portal.
+Mobile App
+
+              Number of Court Complexes
+
+                                                                                Page 17 of 69
+Topic in   Detailed Description as given in P a g e                                 Present Status
+short
+           Policy Action Plan phase II  No
+
+                                                               JO Code gives unique identity to the Judicial Officers. MH00520 is an
+
+JO Codes   Unique Identification Codes to                      illustrative JO Code. MH indicates Maharashtra State whereas 520 is
+                                                               unique code of that Officer. Likewise, every Judicial Officer is identified in
+           J u d i c i a l O f fi c e r s o f t h e 18         CIS with the help of JO Code. Using JO Code various facilities are given in
+
+           Country
+
+                                                               NJDG, JustIS mobile application.
+
+                                                               Establishment Codification is completed. Every court establishment is
+
+                                                               given unique code. With the help of this Code, every establishment can be
+
+                                                               exactly traced in any computer system or database. MHAU01 is one
+
+Establishme Unique Identification Codes to 18                  establishment code taken for example. MH denotes State Maharashtra, AU
+                                                               denotes District Aurangabad and 01 denotes District Court Establishment.
+nt codes Court Establishments
+
+                                                               This is how more than 6500 Court Establishments are given unique codes.
+
+                                                               Every case in the Country has unique CNR wherein first six digits indicate
+
+                                                               establishment Code.
+
+Laptops    L a p t o p s a n d Pr i n t e r s t o 20           Funds are allocated to all High Courts and most of them have made
+and                                                            purchases. Further details of funds can be seen in the Annexure of funds.
+printers'  Judicial Officers                                   (Please check details of Funds in Annexure - A, page No. 7-31)
+
+                                                          23-
+3 INSTITUTIONAL STRUCUTRE
+
+                                                          29
+
+                                                                                                    Page 18 of 69
+Topic in  Detailed Description as given in P a g e             Present Status
+short
+          Policy Action Plan phase II          No
+
+                                                          30-
+4 INFRASTRUCTURE MODEL
+
+                                                          45
+
+          JSC cum CFC will be utilised
+
+          along with other services for the                    These centres are already provisioned along with Common Filing Centre.
+
+JSC       l i t i g a n t s l i k e C a s e S t a t u s 30
+
+          Information, certified copies,                       (please refer to Annexure J Page 339 and 340)
+
+          enquiries etc.
+
+          In New Court Complexes,                              Within the funds made available and prescribed standards, infrastructure
+          provision of JSC-cum-CFC with
+
+JSC sufficient space and civil/ 30 is made ready for JSC cum CFC. From the data of funds it can be said that
+          electrical infrastructure will have                  fund allocated for this component has been fully utilised by all the High
+
+          to be ensured as primary
+
+          requirement.                                         Courts. (Please see Annexure A at page number 7)
+
+Server    As the server infrastructure will                    WAN connectivity is in progress in the parts of the country and after
+room      not be required at the Court                         establishing cloud connectivity with the cloud infrastructure, network
+          Complexes coming up on Cloud,                        rooms will be created at such locations
+
+          new Court complexes to be 31
+
+          computerised in phase II will
+          have Network Room instead of
+          Computer Server Room
+
+SYSTEM AND APPLICATION                         46-
+5 SOFTWARE FOR COURT PROCESSES 56
+
+                                                                                                                 Page 19 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II       No
+
+Integration  In order to achieve a seamless    46,     Vertical and Horizontal integration has been done in DC CIS NC 3.0 and
+             compatibility of application      48,     now it is integrated with HC CIS NC 1.0. Presently, in filing appeals or
+             and data of CIS across all        50      revision or like cases in High Courts which arise out of pending or
+             Courts of the Country, the CIS            disposed litigation in District and Taluka Courts, just by entering CNR No.
+             should be horizontally and                or Case Number, all the details of case pending or disposed by District or
+             vertically integrated,                    taluka Court are fetched which avoids duplicity of efforts in making data
+                                                       entry of parties. (Please refer to Annexure C Page 48 to read details of
+                                                       facility available in CIS 3.0)
+
+                                                       Establishment Transfer facility is made available in CIS 3.0. Using this
+
+                                                       facility cases can be transferred from one Establishment to another
+
+             By Horizontal integration CIS of 4 6 ,    establishment within some seconds. e.g. In Maharashtra Land
+
+Integration  one District will be able to export 4 8 , Acquisition Cases are first registered in District Courts and then those
+             to or import from case-data from
+                                                       cases are allocated in various Talukas within the District. This entire
+             another District Court.           50
+
+                                                       process is now being done by establishment Transfer. This is how
+
+                                                       horizontal integration is achieved. (Please refer to Annexure C page
+
+                                                       48, 54 to read details of facilities available in CIS 3.0 )
+
+                                                                                                                    Page 20 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II         No
+
+Integration  By vertical integration of CIS of   46,   Vertical Integration has been provisioned in DC CIS NC 3.0 and later versions.
+             Courts of different hierarchy will  48,   After roll out of CIS 1.0 in the High Courts, it is integrated with DC CIS NC 3.1.
+             be able to transmit data to and     50    Now, in filing appeals or revision or like cases in High Courts which arise out of
+             from each other e.g. a case               pending or disposed litigation in District and Taluka Courts, just entering CNR
+             record of lower court directly            No. or Case Number, all the details of case pending or disposed by District
+             being available to appellate              Court are fetched which avoids duplicity of efforts in making data entry of
+             court through secured                     parties and other important data fields. Thus, by using unified CIS in High Courts
+             authentication mechanism,                 and District Courts, seamless exchange of information has become possible.
+             likewise an order issued by               (Please read details of facilities available in CIS 3.0 at Annexure C pages 48, 54)
+             Higher Court being reflected on
+             lower Court System of the
+             concerned Court.
+
+Integration  One of the major baseline           46,   This is achieved in Telangana State. For Integrated Criminal Justice System
+             requirement of Case                 48,   (ICJS) it is necessary that not only FIR but Final Reports of Investigations
+             Information System to be            50    are entered in CCTNS software. If such Final Reports (Charge Sheets) are
+             refined and reengineered in               entered and available for electronic exchange, this can be achieved to
+             Phase II of the project will be           import data in CIS. This is successfully demonstrated in Warangal District
+             its readiness for                         of Telangana and replicated further in Hyderabad and other Districts. More
+             interoperability with the                 and more States are coming forward to establish similar interoperability
+             central layer to be operational           between Police Systems and eCourts. (Please see Annexure C pages 54,
+             in the Integrated Criminal                63 in support of this)
+             Justice System (ICJS) .
+
+                                                                       Page 21 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II      No
+Integration
+             The integration of CIS           46,      This facility is part of joint venture of eCourts and ICJS Project.
+             horizontal and vertical, as      48,      Requirements from the eCourts is - Courts should share data and web
+             mentioned above will only        50       services to the ICJS Team and similarly CCTNS has to share data of FIR and
+             ensure its being                          charge sheets to ICJS. Thus, CIS is able to transmit the requisite
+             communicative with Judiciary.             information to the targeted stake holders i.e. Police, Jails, FSL etc. In short,
+             The interoperability                      Police will share FIR No. and Charge Sheet information to the Court and in
+             compatibility of CIS is able to           return Court will give CNR status to the police which will give them real
+             export or transmit the                    time information of that case. (Please see Annexure C Page 63 in support
+             requisite information to the              the statements made here)
+             targeted stake holder that is
+             Police , Jails, FSL etc.
+
+                                                                       Page 22 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II  No
+
+                                                       For shifting all the data to Cloud, it is necessary to have robust
+
+                                                       connectivity and so far, pilot project in Goa has been very
+
+                                                       successful and all the cases in Goa are managed in Cloud. The
+
+             New version of CIS will be                Pilot Project has been extended to one District in every State, in
+
+             so developed that it is                   consolation with the Chief Justice of the Courts and so far
+
+Integration  compatible with Cloud 4 6 , considerable success has been achieved. Out of 25 locations, 12
+
+             Architecture and takes care
+
+                                                4 8 , locations have successfully been tested on cloud. It is expected
+
+             of the process
+
+             reengineering requirements 50 that in next few months all the data will be migrated to cloud and
+
+             as per on going process                   will be available for every District in the country.
+
+             reengineering exercise.                   Considering large volume of information that is available under
+
+                                                       eCourts Project, it is imperative that data is migrated to cloud and
+
+                                                       managed locally. (Please see Annexure C Page 71 in support of
+
+                                                       the statements made here)
+
+                                                                                                             Page 23 of 69
+Topic in  Detailed Description as given in P a g e              Present Status
+short
+          Policy Action Plan phase II  No
+HC CIS
+                                                    Process of Standardisation and unification of various key data
+
+          In order to ensure                        elements like case types, disposal types, purposes types and
+          uniformity of the Central                 adjournment types has been achieved. Every High Court has its
+          Processes and data                        own procedure, nomenclature and local practises. The trial courts
+          requirements and allowing                 in each state are using these practices since long. Therefore, it
+
+          variances of the local                    was difficult for these courts to give up the nomenclatures which
+          processes and data                        they were using since long. It was a big challenge to allow trial
+          requirements, a CIS based                 court to continue their local practises and still to have a uniform
+          on Core periphery model is                structure, so that data of the country can be collected at a single
+                                                    place under a common nomenclature. A process re-engineering
+                                                51  exercise was undertaken and after studying all the varied types
+          proposed to be deployed                   currently in use in various parts of the country common
+          for the High Courts also.                 nomenclatures were identified and then codification exercise was
+          An attempt will be made to                undertaken. Thus, uniformity of important data elements with
+          enable uniformity of data                 liberty to the States to use local nomenclatures was achieved.
+          structures with local                     (Please refer to Annexure C Pages 48, 54 and Annexure D Pages
+          variances so that horizontal
+          and vertical integration can
+          be made possible.
+
+                                                    87 to 154)                  Page 24 of 69
+Topic in  Detailed Description as given in P a g e                        Present Status
+short
+          Policy Action Plan phase II   No
+
+                                                    NIC has shared source Code of peripheral modules to all the
+
+                                                    States. For High Court entire table structure with field description
+
+                                                    is given. During process of migration knowledge transfer activity
+
+                                                    was conducted. After knowledge transfer various High courts
+
+          In order to ensure smooth                 could deploy their periphery structures and varied pattern of
+
+CIS       knowledge transfer and                    listing in the same unified software. In some States District Courts
+Manuals   continuity of development                 have implemented Copying Module and Nazarat Module as a
+                                                    part of periphery. Core Periphery Guidelines are approved by the
+          and customisation support for 51          eCommittee. The guidelines are circulated to all the High Courts
+
+          the CIS across the Courts, all
+          documentation relating to CIS
+
+          will be maintained properly.              with a request to follow them while developing periphery
+
+                                                    modules. (Please refer Page 48 of Annexure C in support of
+
+                                                    statement made here)
+
+                                                                                          Page 25 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II   No
+CIS
+Manuals   Documentation will involve                Audio video Tutorials relating to basic ICT Training, help videos regarding
+          functionalities Requirement               working with CIS for officers and staff members are uploaded on public
+
+          Specification Software                    platforms, Manuals of Case Management through CIS, separate Manuals
+
+          Requirement Specifications,               as per role of the users, ePay Manual, NSTEP Manual, efiling Manual and
+
+          Data Flow Diagram, Entity                 Six set of Manuals on CIS prepared by NIC Pune were circulated across the
+
+          Relationship Diagrams etc.                country by the eCommittee. Videos were uploaded on You tube channel
+
+          Software development team 51 named "Case Information System CIS". NJDG videos for management and
+
+          will have ensure this.                    remote administration were made available on release portal. Inbuilt help
+
+          There will be documentation               in CIS 3.0 is made available in the software itself. This instant help will be
+          of tutorials on coming                    available on screen to the user right at the time of using CIS. From any
+          versions of CIS with audio                screen help icon is clicked help is generated relevant to the menu
+          video content on the same. .              accessed by the user. (To know more about help videos, Manuals etc.
+                                                    please refer to Annexure F Pages 193 to 206)
+
+                                                                    Page 26 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II  No
+Unification
+             Meta data and data standards              Meta Data fields identified and codified Nationally. Case Type, Disposal
+             (MDDS). MDDS will be                      Types, Purpose Types and Adjournment Types are exclusively used in CIS
+                                                       and no where else. Therefore, it was necessary to achieve unification
+             finalised in coordination with 52         amongst various types used in different parts of the Country. Act Section
+                                                       Codification was available but it was only Act Number and year and it was
+             DoJ and High Courts.                      limited to individual State Legislature or Central Legislation. However, it
+                                                       was found that numbers of various Acts and year were conflicting and,
+                                                       therefore, there was need to frame schema to achieve goal of National
+                                                       Codification of Acts passed by Centre and States. Now this codification is
+                                                       complete. Codification of Investigation agencies was necessary as
+                                                       information is often needed as to how many cases of CBI or NIA are
+                                                       pending before the Courts. Delay Reasons mentioned in software are
+                                                       codified. Document, Nature, Writs received, Designation, and similar other
+                                                       fields are chosen for National Aggregation and their codification is also
+                                                       compete. Codes used in CIS are Census Codes for States, Districts, Taluka
+                                                       and villages. For police Stations National codes given by CCTNS and for
+                                                       jails National Codes for prisons given by ePrisons are used. All Norms of
+                                                       Government regarding standard meta data element are followed.
+                                                       However, there are 31 districts in Telangana where census codes are not
+                                                       available for such districts. This has created a block in proceeding ahead
+                                                       with the pace in the project particularly for the State which wants to go
+                                                       ahead fast. (Please refer Annexure D pages 87-154 to know more details
+                                                       of Unification and National Codification of MDDS)
+
+                                                                       Page 27 of 69
+   Topic in     Detailed Description as given in P a g e  Present Status
+   short
+                Policy Action Plan phase II  No
+   Unification
+                                                          After collecting case types from all Districts of all the States, and after
+
+                                                          studying them all to accommodate existing case types some common
+
+                                                          nomenclature were coined which are not too microscopic yet can
+
+                Case Type Standardisation 52              accommodate existing case types used by the Courts in the CIS. There
+                                                          after codification was done. This exercise was done to codify Case Types,
+                and Unification:
+
+                                                          Disposal Types, Purpose Types and Adjournment Types. Other Codification
+
+                                                          was done regarding so many data elements. (Please refer Annexure D
+
+                                                          pages 87-154 for more details regarding Unification and National Types)
+
+6  SCANNING, DIGITIZATION & DIGITAL 52-
+
+   PRESERVATION OF CASE RECORDS              56
+
+                 Basic records which has                  This activity is now out of scope of eCourts Project as fund has been
+                 undergone weeding process                directly given by Central Government to State Government under 14th
+                                                          Finance Commission
+   HC and DC will be scanned and digitised 53
+                                                          This activity is now out of scope of eCourts Project as fund has been
+                 with given specification of              directly given by Central Government to State Government under 14th
+                 PDF and water marking.                   Finance Commission
+
+                 FOSS DMS, Dspace will be                                                                                                              Page 28 of 69
+                 used, minimum necessary
+
+   DMS data entry, assessing the 54
+
+                 requirements of meta data for
+                 High Courts and District
+                 Courts.
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II           No
+
+Implement    As per chapter 2 to ensure                This activity is now out of scope of eCourts Project as fund has been
+ation        seamless integration and inter            directly given by Central Government to State Government under 14th
+model        operability amongst the                   Finance Commission
+
+             document repositories of the 54
+
+             Courts across the country.
+             Methodology and
+             specification determination.
+
+Preservatio  Porting soft copies in to DMS             This activity is now out of scope of eCourts Project as fund has been
+n, archival  for day to day use.                       directly given by Central Government to State Government under 14th
+etc          Technology of storage media               Finance Commission
+
+             Software used to access soft 54
+
+             copy of the data
+             Type of file in which soft
+             copies are saved
+
+             The software solutions for
+
+Trusted digital preservation to address                This activity is now out of scope of eCourts Project as fund has been
+                                                       directly given by Central Government to State Government under 14th
+Digital      t h e o b s o l e s c e n c e o f 55      Finance Commission
+
+Repositorie t e c h n o l o g y w i t h a v e r y
+
+s strategic and sophisticated
+
+             methodology.
+
+                                                                       Page 29 of 69
+   Topic in      Detailed Description as given in P a g e  Present Status
+   short
+                 Policy Action Plan phase II  No
+
+   OAIS          Open Archival Information                 This activity is now out of scope of eCourts Project as fund has been
+   Framework     System Framework provides                 directly given by Central Government to State Government under 14th
+                                                           Finance Commission
+                 methodology of software 55
+
+                 solutions for digital
+                 preservation .
+
+7  VIDEO CONFERECNING FOR                     57-
+
+   COURTS AND JAILS                           58
+
+   Coverage      Extending VC beyond remand                The activity is complete and presently being used for recording evidence,
+   of Court      - recording of evidence in                remand, meetings, and like purposes. The data of use of Video
+   Trail for VC  sensitive cases, legal aid cases          Conferencing can be found in Annexure wherein all the requisite details
+                                                           regarding use of VC by various High Courts is given. (Please refer
+                 between courts and jails , 57             Annexure F pages 193-206)
+
+                 sensitive cases of child abuse,           Vidyo desktop based software solution is used. Screen recording facility is
+                 domestic violence and sexual              available in Ubuntu-Linux Operating System customised and provided by
+                 abuse and similar like cases.             eCommittee. Vidyo Licenses are being managed through NIC. The
+                                                           licenses are about to expire and new licenses will have to be provisioned.
+   Type of VC    Software based VC Solutions               It will be necessary that for temporary sessions, browser based access to
+   Solutions     with 1MBPS bandwidth                      guests. Similarly if recording is necessary, facility to request for recording
+                 VC Sessions to be available               need to be provided through NIC. (Please refer Annexure F Pages
+                                                           193-206)
+                 f o r r e c o r d i n g w h e t h e r 58
+
+                 software based or studio
+                 based.
+
+                                                                           Page 30 of 69
+Topic in    Detailed Description as given in P a g e           Present Status
+short
+            Policy Action Plan phase II  No
+
+Document    Document sharing and                               In Vidyo based software solution, screen sharing facility is available
+VIsualizer                                                     wherein documents can be shared to the persons joined in VC.
+            viewing facility to be made 58
+
+            available.
+
+                                                          59-
+8 CAPACITY BUILDING MEASURES
+
+                                                          63
+
+              Keeping in view encouraging                      ICT Training is given in Phase I as well as Phase II. Training videos are also
+                                                               uploaded for basic ICT Training. Trainings in Phase II are also completed.
+ICT Training experience of Phase-I similar 59                  (Please refer to the Annexure I Page 242 for training details.)
+
+Education training programme will be
+              continued in Phase-II.
+
+              Full Fledged computer lab to                     Funds are allocated to all High Courts and most of them have mades
+                                                               purchases. (Please refer to the Annexure A page 7 for further details.)
+              the SJAs Phase II will provide
+
+              funds for infrastructure
+
+Computer Labs at SJA keeping view that lab has to 60
+
+              cater needs of ICT training of
+
+              at least 30 Judicial Officers at
+
+              a time.
+
+VC at SJA   Studio based VC Set Up for 61                      Fund are allocated to High Court for this activity. (Please refer to the
+                                                               Annexure A page 7 for further details.)
+            SJAs
+
+Video       Video Streaming and Webcast 61                     With assistance of NIC Video Streaming and Web Casting is made
+Streaming                                                      available and various programmes now a days are being web cast or live
+and         Portal                                             streaming is done.
+Webcast
+Portal
+
+                                                                               Page 31 of 69
+Topic in    Detailed Description as given in P a g e  Present Status
+short
+            Policy Action Plan phase II  No
+
+Learning    Learning Management System                Learning Management Solutions (LMS) needs to be provided to SJAs.
+eTools      (LMS) software application for            Almost in all the State Judicial Academies Computer Labs are installed.
+            administration,                           However, Learning Management Solutions (KOHA) was implemented in
+            documentation, tracking,                  Supreme Court of India. One training was also organised. It was decided
+                                                      that High Court will install KOHA and then integrated ILMS will be set up.
+            reporting and delivery of 62              However, despite resolution in Chief Justices Conference way back in the
+                                                      year 2014 there is no progress in setting up KOHA nor any separate cloud
+            eLearning education courses               infrastructure was provided under the project for this activity.
+            or training programme.
+            Trainee should be able to
+            access this system without
+            actually visiting the academy.
+
+Regular Attuning of mindsets to adopt                 Training programmes conducted from time to time. (Please refer to the
+                                                      Annexure I Pages 242-337 for further details.)
+Change new modes of working. 62
+
+Manageme M i n d s e t c h a n g e a n d
+nt Exercise attitudinal orientation
+
+ICT Training Entire gamut of electronic               Six Trainings are organised at National Police Academy Hyderabad. Please
+                                                      refer to the Annexure for further details. (Please refer Annexure I Page 247
+for         evidence , its preservation and 63        for further details)
+electronic
+
+evidence evidentiary value
+
+Post                                                  Training is completed for all CPCs and DSAs of all High Courts. In this
+                                                      Training all 24 CPCs, 75 DSAs is complete. These DSAs were asked to train
+Process re- Changed ways of working -                 Judicial Officers and Staff members. (Please refer to the Annexure I Page
+                                                      242 for training details.)
+engineerin  Redesigned/renewed court 63
+g Change
+            processes deploying new
+
+Manageme versions of CIS
+
+nt
+
+                                                                      Page 32 of 69
+Topic in  Detailed Description as given in P a g e         Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                      64-
+9 JUDICIAL PROCESS RE-ENGINEERING
+
+                                                      67
+
+1.                                                         Now Civil and Criminal Process templates provided in CIS are exactly as per
+                                                           format and contents as prescribed in the Code of Civil Procedure and Code of
+Automation Sending process to Courts 65                    Criminal Procedure . Electronic processes can be generated through CIS 3.1.
+                                                           Every Process generated has unique process ID and with QR Code. There is
+of Process and Parties through mail.                       provision of entering mail address either during entering information of
+                                                           witnesses or during generation of processes. Once process is published mails
+Serving                                                    are automatically sent on the entered mail address. Process generated are
+                                                           secured and cannot be easily edited for its contents.
+                                                           Apart from sending emails, there is dedicated system called NSTEP (National
+                                                           Service and Tracking of Electronic Processes) which electronically transmits
+                                                           digital processes from one Court Establishment to another or from Court to
+                                                           Police Station or Officer. Processes can be allocated to the bailiffs and after
+                                                           allocation allocated processes are reflected directly on the mobile devices of
+                                                           the bailiff. When bailiff goes for serving the process, onscreen signature with
+                                                           finger or device can be obtained, photograph of person or locked premises can
+                                                           be taken. GPS coordinates are captured and immediately the status of the
+                                                           service is replicated to the main NSTEP portal. Once status is updated all the
+                                                           processes show current status of service. This will greatly facilitate in reducing
+                                                           delay in process serving. (Please refer Page 161 to 165 of Annexure D to know
+                                                           more about this process of NSTEP)
+
+                                                                           Page 33 of 69
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+           Policy Action Plan phase II  No
+2. No
+manual                                               Facilities are made available in CIS to dispense with such Registers. Such
+Registers
+                                                     reports in the form of Registers can also be prepared by High Courts as
+
+                                                     per their own requirements under periphery development. Now some of
+
+           Registers for Institution and 65          the High Courts have done this whereas others are in process. There are
+                                                     some High Courts where Manual Registers are done away with. Statistical
+           Other Registers in eForm.
+
+                                                     Returns are not called from the Courts. They have made some periphery
+
+                                                     developments and after such developments these High Courts could do
+
+                                                     away with the returns and some registers in physical form.
+
+                                                                                                                 Page 34 of 69
+Topic in    Detailed Description as given in P a g e  Present Status
+short
+            Policy Action Plan phase II  No
+3. eFiling
+                                                      eFiling Portal is launched for District Courts and High courts. In Punjab,
+
+                                                      Haryana and Chandigarh High Court total 701 new cases and 379 Interim
+
+                                                      Applications are filed through efiling portal (https://efiling.ecourts.gov.in).
+
+                                                      In Delhi Central District 40 cases of Arbitration are filed using efiling. are
+
+                                                      filed through efiling. It caters requirement of the entire Country. It is
+
+                                                      already successfully tested by majority of the High Courts. Some of the
+
+                                                      Courts have gone live whereas some are in the process. In the eFiling
+
+                                                      software, facility of eSigning is provided so that those who do not possess
+
+            eFiling portal for High Courts 65         token for making digital signature on pdf documents, will be able to use
+                                                      facility of efiling using eSign facility. Through eFiling one can easily track
+            and District Courts.                      development in eFiled cases.
+
+                                                      Various new facilities are launched in eFiling. Portfolio management for
+
+                                                      advocates is given. Single account for entire country to eFile cases is
+
+                                                      provided. Online registration and verification is provided for advocates.
+
+                                                      Public Data entry and case data entry is provided so that where eFiling is
+
+                                                      yet to catch pace at least lawyers and litigants will start feeding the data of
+
+                                                      case without uploading documents. This will serve as foundation to launch
+
+                                                      eFiling. (Please refer to Manual made available on https://
+
+                                                      efiling.ecourts.gov.in for more details)
+
+                                                                                                Page 35 of 69
+    Topic in      Detailed Description as given in P a g e  Present Status
+    short
+                  Policy Action Plan phase II     No
+
+    4. Financial  Latest scientific method of               Nazarat Module is already given to all High Courts and its source code is
+    Book          book keeping suitable for                 already shared to all High Courts long back. In Karnataka Nazarat module
+    Keeping                                                 used for accounting purposes in the entire State.
+                  Courts is Double Entry System 66
+
+                  of Book Keeping .
+
+                  File movement, tracking, leave            Although directions are given by eCommittee to implement eOffice, it
+                                                            requires Hardware, customisation, training and support. NIC's Cloud
+                  management, personal                      infrastructure for eOffice is paid service and funds are required. eOffice
+                                                            requires Cloud set up to connect High Courts with District and Taluka
+    5.            information management                    Courts so that file movement, tracking etc. can be easily handled and will
+                                                            minimise delays. . For setting up cloud for each State, funds may be
+    Administrat system etc. are need of the                 required to be provisioned.
+
+    ive Process day. This needs detailed 66
+
+    Automation s t u d y a n d a d e q u a t e
+
+                  financing. This needs serious
+
+                  consideration.
+
+                  Will have to be studied using             The digitisation activity is separated from the project and funds are
+                                                            released to State Government under 14th Finance Commission.
+                  FOSS. Will have to be studied             Movement of digitised file will come into play one when digitisation
+    6. Exploring first and will be taken up only            project will be rolled on. However as of now funds are not allocated for
+                                                            District Court Digitization.
+    Courts paperless if cost effective. 67
+
+                  Facility for the judge to take
+
+                  notes and earmarking.
+
+10  WORK FLOW AND PROCESS                         64-
+
+    AUTOMATION TOOLS & MEASURES 67
+
+                                                                            Page 36 of 69
+Topic in      Detailed Description as given in P a g e  Present Status
+short
+              Policy Action Plan phase II         No
+
+              All Court Officials of Class I, II        As of now emails are created for all Court Establishments, and Judicial
+
+              and III will have to be                   Officers. Email creation process has been automated and as a result every
+
+1. email for  p r o v i d e d o f fi c i a l e m a i l 6 8 - mail account creation is approved at three level before it reaches
+Court JO      address. Every High Court will 69
+and Staff                                               committee. The entire process of approval and verification is done online.
+
+              be give Delegated Admin
+
+              Power.                                    The portal of email creation automation is provided on intranet i.e. NICnet.
+
+2. Digital    Digital Signature for Judicial 69         High Courts are already asked to give digital signature token for its
+Signature                                               Judicial Officers. Some fo the High Courts have already provided digital
+for Officer   Officer and Court Staff                   signatures token to the Judicial Officers, whereas some of the States are
+and Staff                                               yet to procure such token for making digital signatures.
+
+                                                        Mobile Application for NSTEP is launched. It is given to all the High Courts
+
+                                                        and now funds are allocated to High Courts for purchase of hand held
+
+                                                        devices. Training programme is arranged to give traning about this
+
+              It is required to modernise               application and methodology as to how process will reach to bailiff from
+
+3. Device     processing serving methods 6 9 - one Court to another. All CPCs and three DSAs of each State are given
+for Process
+Service       like PDAs or similar GPS - 70 training about use of NSTEP. Now High Courts have started generating
+
+              GPRS devices with camera.                 electronic processes through the CIS. States like Sikkim, Chhattisgarh have
+
+                                                        started use of NSTEP with use of mobile devices very effectively. (Please
+
+                                                        refer Annexure C Page 12 and Annexure D Page 161 to 165 to know more
+
+                                                        about NSTEP and Mobile app designed for bailiffs)
+
+                                                                                                           Page 37 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II    No
+
+4. eOffice   File management and tracking              This point is already discussed above where eOffice is already mentioned
+             software, Leave Management
+
+             System, Personal Information 70
+
+             Management System, Tour
+             Management System,
+
+5. Financial Financial Accounting Software
+
+Manageme with Payroll Management 70                    This is covered in eOffice Premium suite application
+
+nt           System
+
+6.           High Courts will be required              The activity is not covered as eCommittee controlled activity.
+eProcurem    to join the CPP ( Central Pubic
+ent
+             Procurement Portal) which is 70
+
+             available for State at least for
+             publishing tenders.
+
+7. Others    Other FOSS Applications for               No useful application such as Speech to Text are currently available on
+                                                       FOSS.
+             automation of work flow and 71
+
+             automation
+
+8.           All process automation                    All Applications developed under eCourts now can be integrated with
+Integration  solutions should be integrated            each other. This facility is presently being used for establishment transfers
+                                                       or appeal filing at District Court or High Court.
+             to avoid duplicity of efforts. 71
+
+             Ultimately it should lead to
+             Enterprise Resource Planning
+             (ERP).
+
+                                                                                                                       Page 38 of 69
+    Topic in  Detailed Description as given in P a g e  Present Status
+    short
+              Policy Action Plan phase II      No
+
+    JUDICIAL KNOWLEDGE                         72-
+
+11  MANAGEMENT SYSTEM                          76
+
+              Integrated Library                        KOHA Build is ready. Therefore software part is complete. Training was
+                                                        given to Supreme Court staff at National Judicial Academy, Bhopal.
+              Management Software (ILMS).               Thereafter High Courts were requested to install the KOHA from the
+                                                        website of OTG. However, installation part of KOHA is yet to happen.
+    JKMS      A FOSS ILMS software will                 Irrespective of this, ILMS using KOHA requires good amount of cloud
+                                                        infrastructure and sufficient WAN. In the Phase II document there is no
+    Knowledge have to be deployed for Court 72          provisioning of funds for this purpose.
+
+    Manageme
+
+    nt        Libraries similarly on model of
+
+              CIS deployment i.e. State
+
+              Level Cloud Environment.
+
+    Official  A Comprehensive Software                  Repositories of Judgements are available on NJDG. This data can be used
+    Case Law  Mechanisms in the form of                 for fruitful purposes in automation and analysis. Regarding Law Journals or
+    Journal   Legal Data Base which has                 Law Reports and its meta data regarding headnotes are concerned,
+                                                        appear to be critical issues and require deliberation and discussions on
+              repositories of judgements of 73          policy formation level. After such decision is communicated, development
+                                                        can start.
+              Supreme Court and all High
+              Courts
+              Provision of porting meta data
+              of Headnotes.
+
+                                                                        Page 39 of 69
+Topic in    Detailed Description as given in P a g e  Present Status
+short
+            Policy Action Plan phase II  No
+Data
+mining      NJDG data need to be stored               High Court and Trial Courts need to concentrate on entering data of all
+            methodically and required to              fields and elements religiously. Presently there are so many data elements
+Auto                                                  which are not filled in at the time of registration of case or doing updation
+pulling to  be mined and analysed for 74              or at the time of disposal of case. This needs supervision, and, conducting
+NJDG                                                  accuracy drives for feeding the gaps. (Please refer to Annexure E Page
+            meaningful assistance in                  173-192 and Annexure H Page 226-241, Annexure K Page 354-357 for
+Data        policy formation and decision             more details regarding this topic)
+Analytics   making.
+
+A. Data     Uploading mechanism will                  This activity is required to be done after cloud is commissioned
+Ware        shift from auto pull from State           successfully. Auto Pulling of data is enabled at Goa Cloud. However for
+Housing                                               other States it requires robust connectivity for setting up cloud for CIS.
+            Cloud installations which will 74         Therefore auto pulling data on NJDG for other States can be achieved
+                                                      only when Cloud is enabled. However Cloud cannot be commissioned for
+            ensure smooth updation of                 want of Connectivity.
+            data on NJDG
+
+            Data Analytics Tools in NJDG for 74       The activity is complete. (Please refer to Annexure E Page 173-192 and
+                                                      Annexure H Page 226-241, Annexure K Page 354-357 for more details
+            following purposes                        regarding this topic)
+
+            Process of extracting and                 NJDG Report gives 6 different kind of query building based reports. Query
+            storing data from various                 builder in NJDG gives almost all options to extract the desired data stored on
+                                                      NJDG. Dash Board, Judicial Time, Data not uploading reports, Administration
+            resources. 74                             reports, Data monitoring reports, ePay reports, Virtual Courts Reports etc. etc.
+                                                      Please refer to Annexure relating to NJDG for further information on this topic.
+            Various Dynamic and                       (Please refer to Annexure E Page 173-192 and Annexure H Page 226-241,
+            comprehensive Reports                     Annexure K Page 354-357 for more details regarding this topic)
+            generation.
+
+                                                                      Page 40 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+B. Data
+Mining                                              Dashboard for pending cases and disposed cases is separately shown on
+
+                                                    public portal. Drill down and alert pages show clear data figures which can
+
+                                                    be drilled down. Besides there is Management Portal of NJDG. Where
+
+                                                    there are many options to generate report, there is Query Builder which is
+
+                                                    able to generate reports as per inputs given. Using various permutations
+
+                                                    and combinations, desired reports can be generated. However, reports
+
+          Identifying hidden patterns in            will be possible only when data is entered at the Court level. At present
+          data. Meaningful and                      there are various data elements which are not entered while making case
+          Insightful Trends. Litigation             data entry e.g. Victim details, Investigating agency, writs, witnesses, more
+                                                    than one Acts applicable to cases, sections applicable, nature of civil and
+                                                75  criminal case, schedule of properties, type of document uploaded,
+                                                    punishment awarded, date of arrest, date of bail, date of release, surety
+          and Adjudication Trends and               details, designated or notified courts, name of the investigating officer etc.
+          Judicial Performance
+          Enhancement measures.
+
+                                                    These are important data elements and needs to be filled in at Court level.
+
+                                                    Depending on quality of data fed, the system will give meaningful results.
+
+                                                    If these details are filled in we may get more and more hidden patterns
+
+                                                    and meaningful insights. (Please see the maps, and charts prepared in
+
+                                                    from the data extracted through NJDG. Please refer to the Annexure E
+
+                                                    page 173 and Annexure H page 226, to know further details.)
+
+                                                                                                                 Page 41 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II  No
+C. Online
+Analytical   Querying multi dimensional                Query Builder, other NJDG reports, pending and disposed dash boards
+Processing   data base. Summation of data              can be seen on NJDG. Judge wise disposal is provided which gives fair
+                                                       idea about performance by Judge qua the other judges in his cadre in the
+D. BI Tools  base into highly complex 75               entire State. Return Report and performance assessment of Judicial
+                                                       Officers is under development and will be rolled out with in a week or so.
+             tables with summarised                    (Please refer to Annexure E Page 173-192 and Annexure H Page 226-241,
+             reports.                                  Annexure K Page 354-357 for more details regarding this topic)
+
+             Data Mining and OLAP will                 After standardisation and unification of Nomenclatures, National
+             form the engine for B.I. Tools            Codification of important data elements and converting PostgreSQL data
+             for NJDG which will help in               to elastic search database, made it possible to show nationwide statistics
+                                                       on NJDG. As such the objective mentioned is achieved. Now National
+             t h e m o s t i n f o r m a t i v e 75    Judicial Data Grid is the most informative management information
+                                                       system showing the information about pending and disposed cases in the
+             management information                    country in most powerful way and it can generate actionable information.
+             system.                                   Please refer above for necessity of entering important data fields and its
+                                                       impact on results generated on mining. (Please refer to Annexure E Page
+                                                       173-192 and Annexure H Page 226-241, Annexure K Page 354-357 for
+                                                       more details regarding this topic)
+
+                                                                       Page 42 of 69
+Topic in  Detailed Description as given in P a g e               Present Status
+short
+          Policy Action Plan phase II  No
+E. JMIS
+                                                    After standardisation and unification of Nomenclatures, National
+
+                                                    Codification of important data elements and converting
+
+                                                    PostgreSQL data to elastic search database, made it possible to
+
+                                                    show nationwide statistics on NJDG. As such the objective
+
+                                                    mentioned is achieved. National Judicial Data Grid has two faces
+
+                                                    one is the public portal where as other is the management portal.
+
+          J u d i c i a l M a n a g e m e n t 75    The management portal has a facility to create login users at a
+                                                    district or High Court level. The judicial management, planning
+          Information System                        monitoring and administrative decisions can be taken with the
+
+                                                    help of information generated through the National Judicial Data
+
+                                                    Grid. A mobile application is launched which exclusively deals
+
+                                                    with judicial management information system. This mobile
+
+                                                    application "JustIS" has become very popular among judges.
+
+                                                    (Please refer to Annexure C Page 65 in support of these
+
+                                                    statements)
+
+                                                                                 Page 43 of 69
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+F. Impact  Policy Action Plan phase II  No
+analysis
+           Litigation and Impact of                  Please refer to remarks given for data mining. The very remarks
+G. Impact  Analysis on any variations                will be applicable here. (Please refer to Annexure E Page 173-192
+analysis   governing factors relating                and Annexure H Page 226-241, Annexure K Page 354-357 for
+           t o l a w, a m e n d m e n t s , 76       more details regarding this topic)
+           jurisdictions, recruitments
+           etc. Adjudication Pattern
+           Analysis
+
+           Impact of Analysis on any                 Please refer to remarks given for data mining. The very remarks
+           variations governing
+           factors relating to law,                  will be applicable here.
+           amendments,
+           jurisdictions, recruitments               Query Builder, other NJDG reports, pending and disposed dash
+           etc.                                      boards can be seen on NJDG. Judge wise disposal is provided
+           J u d i c i a l Pe r f o r m a n c e 76   which gives fair idea about performance by Judge qua the other
+           enhancement measures                      judges in his cadre in the entire State. Return Report and
+           for policy makers and                     performance assessment of Judicial Officers is under
+           policy planners.                          development and will be rolled out with in a week or so. (Please
+           Comprehensive suit for                    refer to Annexure E Page 173-192 and Annexure H Page
+           these management                          226-241, Annexure K Page 354-357 for more details regarding
+           solutions will be called                  this topic)
+           JKMS.
+
+                                                                     Page 44 of 69
+Topic in  Detailed Description as given in P a g e               Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                            78-
+12 HUMAN RESOURCES
+
+                                                            82
+
+13 SERVICES DELIVERY 83-
+                                                            87
+
+     SERVICES UNDER THE PROJECT
+
+                                                                 eCourts Portal is most used portal which currently records more than 10
+
+                                                                 million hits every day. eCourts Portal shows pendency and disposal figures
+
+                                                                 of the District Courts and High Courts. eCourts portal contains Manuals
+
+                                                                 and FAQ and Help videos. eCourts Services Unified Portal is now made
+
+Web portal ECOURTS UNIFIED PORTAL 83 bilingual. It is the web page which not only shows labels in local language
+
+                                                                 but data generated is also in local language. e.g. cause list, case status
+
+                                                                 etc. are also shown in regional languages. (Please visit eCourts National
+
+                                                                 Unified Portal District Courts eCourts National Portal and High Court
+
+                                                                 eCourts Services Portal to know more about this topic.)
+
+                                                                                                                          Page 45 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+eFiling
+Portal                                              eFiling Portal is launched for District Courts and High courts. In Punjab,
+
+                                                    Haryana and Chandigarh High Court total 701 new cases and 379 Interim
+
+                                                    Applications are filed through efiling portal (https://efiling.ecourts.gov.in).
+
+                                                    In Delhi Central District 40 cases of Arbitration are filed using efiling. are
+
+                                                    filed through efiling. It caters requirement of the entire Country. It is
+
+                                                    already successfully tested by majority of the High Courts. Some of the
+
+                                                    Courts have gone live whereas some are in the process. In the eFiling
+
+          Filing of online cases at High            software, facility of eSigning is provided so that those who do not possess
+          Courts, District Courts and               token for making digital signature on pdf documents, will be able to use
+                                                    facility of efiling using eSign facility. Through eFiling one can easily track
+          Taluka Courts. Submitting 83              development in eFiled cases.
+                                                    Various new facilities are launched in eFiling. Portfolio management for
+          hard copies will have to be
+          submitted with in definitive
+          time line.
+
+                                                    advocates is given. Single account for entire country to eFile cases is
+
+                                                    provided. Online registration and verification is provided for advocates.
+
+                                                    Public Data entry and case data entry is provided so that where eFiling is
+
+                                                    yet to catch pace at least lawyers and litigants will start feeding the data of
+
+                                                    case without uploading documents. This will serve as foundation to launch
+
+                                                    eFiling. (Please visit eCourts National Portal where your will find link to
+
+                                                    eFiling. Please visit National eFiling Portal.
+
+                                                                                                    Page 46 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+eCourts
+National                                            Search of Judgments and orders is now separated, names of Judges can
+Portal
+                                                    be searched. Searching cases on name Judges is now possible on public
+
+                                                    portal. By giving any three letter of name or surname of judge one can
+
+                                                    easily locate the judge and then search the cases. There is bifurcation of
+
+                                                    interim and final orders/judgements while searching for orders. Caveat
+
+                                                    Status is also launched. In the Cause List, now one can search name or
+
+                                                    case number and there is no need to go through entire cases listed on the
+
+                                                    cause list to find desired case or party. Caveat Search is now made
+
+                                                    available. QR code facility is made operational on the portal. Any party can
+
+          More meaningful              84 take a print of cause title which gives basic information of the case along
+                                              with QR Code. This cause title can be pasted on the brief or docket and
+
+                                                    then case status can be found just by scanning QR Code with the help of
+
+                                                    mobile application. "Help Videos" and "How To" section is made more
+
+                                                    meaningful so that a litigant can access the website to extract desired
+
+                                                    results. Now "Knowledge Management" section makes this information
+
+                                                    available at one place and it makes litigant and stake holders to find it
+
+                                                    easily on the top of the website. ePay, eFIling and Virtual courts are added
+
+                                                    to it. Facility of search by CNR Number is made available on services
+
+                                                    portal. Court Complex Location is new facility made available on National
+
+                                                                    Page 47 of 69
+Topic in   Detailed Description as given in P a g e           Present Status
+short
+           Policy Action Plan phase II  No
+
+                                                     National Judicial Data Grid is based on huge process re-
+
+                                                     engineering work and technological innovation. Now case type
+
+National   National Judicial Data 84                 wise pendency, age wise pendency, purpose type wise
+Judicial   Grid                                      pendency, delay reason wise pendency, disposal type wise
+Data Grid                                            pendency, drill down reports and all those regular counts can be
+
+                                                     accessed through NJDG. (Please refer Annexure D pages
+
+                                                     87-154)
+
+                                                     Tools are provided to management users of NJDG wherein one
+
+                                                     can know whether data is uploaded, what is the time lag or delay,
+
+Provision to                                         whether server is properly functioning etc. One can also know as
+                                                     to when data was uploaded. These tools make monitoring of
+monitor Pr o v i s i o n t o m o n i t o r           uploading of data easy. eCommittee regularly sends alerts and
+uploading - u p l o a d i n g - D a t e o f 84       reminders to the High Courts highlighting the locations where
+Date of Uploading
+
+Uploading
+
+                                                     data is not replicated for more than two days. (Please refer to
+
+                                                     Annexure K Page 350 for more details)
+
+                                                                                            Page 48 of 69
+Topic in  Detailed Description as given in P a g e                  Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                    Automatic alerts are shown in red colour in NJDG when data is not
+
+                                                    uploaded. SMS alerts are given and mailing alerts are given to Judges and
+
+                                                    District System Administrators. In the JustIS mobile application, Judicial
+
+                                                    Officer can monitor updation of data limited to his own Court and easily
+
+                                                    know whether data is uploaded or not. As mobile application is
+
+Automatic                                           continuously updated, immediately one can gather status of the uploading
+                                                    of data. When the policy document was written at that time it was not
+triggers / Automatic triggers /alerts               conceived that the Mobile Application can be used for automatic alerts
+                                                    instead of SMS or mails. eCourts Services Mobile App gives information to
+alerts when data has when data has not been 84      the world at large whether data relating to any Court establishment is
+
+not been uploaded
+
+uploaded
+
+                                                    updated or not. Therefore, now not only judges but lawyers also come to
+
+                                                    know whether data has been uploaded or otherwise. Every morning
+
+                                                    Judges and DSAs receive SMS about undated cases and data uploading
+
+                                                    status. (Please refer to Annexure K page 358 to know more about these
+
+                                                    notifications)
+
+Alterts   Auto alerts of undated cases              Alerts for undated cases is provided through email, SMS and Dashboard.
+                                                    (As above)
+          through SMS email and Dash 84
+
+          Boards
+
+                                                                                    Page 49 of 69
+Topic in   Detailed Description as given in P a g e   Present Status
+short
+           Policy Action Plan phase II            No
+
+                                                      Pending and Disposal Dash Board of NJDG is based on Graphical Charts
+
+Graphical  Graphical Charts for reports of 84         and portal is made open to public at large. Pending and Disposed dash
+charts                                                board can be seen on on the public portal. (Please visit Pending Dash
+           NJDG                                       Board and Disposed Dash Board to know more about charts, graphs as
+
+                                                      visualisations of the data generated through NJDG)
+
+                                                      Judicial Performance Assessment report is provided in CIS. Query
+
+                                                      Builder can generate desired reports for performance assessment.
+
+                                                      Apart from that, norms laid down by High Court for disposal of cases
+
+                                                      can be generated through CIS and performance assessment report
+
+                                                      can be generated as per the requirements of the High Court. Judge
+
+Performanc J u d i c i a l P e r f o r m a n c e      wise disposal is provided in NJDG. A provision has been given to add
+                                                      weight to the case type and accordingly disposal of Judicial Officer
+e          A s s e s s m e n t M e c h a n i s m 84   can be compared not only on number of cases disposed but which
+
+assessment through NJDG
+
+                                                      type of cases and what number, how old etc. can be comparable
+
+                                                      parameters. The report is made available on Management Portal of
+
+                                                      NJDG which is available on NICnet to all High Courts and District
+
+                                                      Courts. Attempts are being made to make that report a complete
+
+                                                      solution for performance assessment.
+
+                                                                                                          Page 50 of 69
+Topic in   Detailed Description as given in P a g e                 Present Status
+short
+           Policy Action Plan phase II  No
+
+                                                     Report Generation and requirements vary from High court to High Court
+
+                                                     therefore statistical reports has been kept as part of periphery and High
+
+Perodical  All Periodical Returns of                 Courts can generate and customise all kinds of reports from their State
+returns                                              Data Servers. More than 80 different kinds of reports are provided in CIS.
+           District Judiciary to be made 84          More than 30 different kinds of reports are provided to management users
+                                                     of NJDG. Apart from that National Query Builder generates a unique
+           available through NJDG for
+           High Courts
+
+                                                     report accordingly to permutations and combinations selected while
+
+                                                     giving query.
+
+                                                     This has been done in DC CIS NC 3.1 and now it is integrated with HC CIS
+
+                                                     NC 1.0. While filing appeals or revision or like cases in High Courts which
+
+                                                     arise out of pending or disposed litigation in District and Taluka Courts,
+
+Communic   Communication Pipelines for               just by entering CNR No. or Case Number all the details of case pending
+ation                                                or disposed by District Court are fetched which avoids duplicity of efforts
+pipeline   Judicial Data Transmission 84             in making data entry of parties. The provision is being made for sending
+                                                     paper books to the High Court, so also NSTEP is under implementation at
+           from lowest court upto Apex
+           Court.
+
+                                                     High Court so that orders passed in any case can be immediately
+
+                                                     communicated to the Court concerned. Notification of stay, release etc.
+
+                                                     appear on the screen without any delay.
+
+                                                                                              Page 51 of 69
+Topic in      Detailed Description as given in P a g e  Present Status
+short
+              Policy Action Plan phase II  No
+
+              Pendency Arrears and                      This statement is provided in NJDG in graphical as well as drill down data
+                                                        pattern. Institution and Disposal is made available. In the Query Builder
+              Institution/Disposal                      one or more Acts can be selected along with set of Sections. Therefore,
+                                                        attempts are being made to save frequently required combo of Acts and
+Pendency Statement. This will be based                  Sections to Court and Parliament which can be saved as economic offence
+                                                        or offence against women, offence against child, Narcotics etc.
+Arrears and on Act Sections, offences viz. 84
+
+Institution/
+
+Disposal economic offences, offences
+
+              again women, children, senior
+
+              citizens etc.
+
+District      District Court Websites will be           District Court web sites have migrated to advanced version of Drupal.
+Court         deployed with functional                  District Court website has functional links to NJDG and eCourts Portal
+Websites                                                relating to services of case status, cause list and judgement/orders etc.
+              integrated links to National 85
+
+              eCourts Portal Case related
+              information
+
+GIGW and      GIGW and W3C Compliant                    All the compliances for GIGW and W3C are already made in eCourts Portal
+W3C                                                     however certificate has not been obtained by NIC.
+Compliant     website 85
+website
+
+Localisation  Localisation Project                      Now main eCourts Portal itself is made available as bilingual website.
+                                                        Besides that, data shown on such bilingual website is also in regional
+Project       Management Framework                      language. Apart from that on the district court website also provision is
+                                                        made for bilingual access of the information relating to cases.
+Manageme (LPMF)  for District Court 85
+
+nt            Websites so as to enable
+
+Framework content to be accessed in
+
+(LPMF)
+
+              local languages also.
+
+                                                                        Page 52 of 69
+Topic in     Detailed Description as given in P a g e                Present Status
+short
+             Policy Action Plan phase II  No
+
+Disabled     Disabled friendly website           eCourts Portal is disabled person friendly and certified by Authorised
+friendly                                  85
+website
+                                                 Agency.
+
+                                                       eCourts services Mobile Application is released. So far four versions of the
+
+                                                       mobile applications are released. The mobile application is extremely
+
+                                                       popular and till this date 29 lakh downloads are recorded. Rating of the
+
+                                                       app is 4.2 on google play store and can be said to be good rating for the
+
+                                                       mobile application. Mobile application, besides search of case status on
+
+                                                       different criteria, also gives facility of cause list and a small portfolio
+
+Mobile       Mobile Application                  management tool called "my cases" is given for management of cases
+                                          85
+Application
+                                                 saved in the mobile application. In the latest version of the mobile
+
+                                                       application majority of the High Courts and all District and Taluka Courts
+
+                                                       are covered. QR Code facility makes mobile application innovative and a
+
+                                                       tool of mobile governance. JustIS mobile app is also provided to Judicial
+
+                                                       Officers. It is an app which is exclusively designed for Judicial Officers
+
+                                                       keeping in view their requirements of management and information on
+
+                                                       finger tips.
+
+SMS          SMS Gateway                  86 SMS Gateway for the eCourts is obtained.
+Gateway
+
+Push SMS Push SMS                         86 Push SMS facility is operational in all District Courts and High Courts.
+
+                                                                                       Page 53 of 69
+Topic in   Detailed Description as given in P a g e                          Present Status
+short
+Pull SMS   Policy Action Plan phase II  No
+Email
+Facility   Pull SMS                     86 Pull SMS facility is made operational in all District Courts and High Courts.
+Kiosk
+           Emailing alerts                     Automated mailing facility is made operational at all District and Taluka
+CC with                                 86
+barcoding
+                                               Courts of the country.
+ePayment
+           I n f o r m a t i o n K i o s k W i t h 86  Information kiosk are being purchased by High Courts and facility is given
+                                                       in CIS to connect such kiosk with CIS. All Courts are have made available
+           Printing Facility                           this facility for benefits of litigants and lawyers.
+
+                                                       QR Code facility has been provided in CIS 3.1, QR Code provides unique
+
+                                                       identification to the case. It is now more accepted technology as
+
+                                                       compared to bar code. QR Code is comparatively cheaper to end users to
+
+           Certified copies online with 86             purchase devices read QR codes. (Now all mobile applications can read
+                                                       QR Code without any extra cost). High Courts have given tokens to
+           bar Coding
+
+                                                       Judicial Officers for digital signature and many District and Taluka Courts
+
+                                                       are using such digital signatures, before uploading copies of their
+
+                                                       judgments or orders.
+
+                                                       ePayment Gateway has been provided for payment of Court Fees where
+
+           ePayment Gateway                    there is facility of the State Government to accept Court Fees or Judicial
+                                        86
+
+                                               Deposits. The facility is provided under common unified portal https://
+
+                                                       pay.ecourts.gov.in
+
+                                                                                             Page 54 of 69
+Topic in  Detailed Description as given in P a g e          Present Status
+short
+          Policy Action Plan phase II  No
+
+                                                            This is made operational in Maharashtra, Haryana, Punjab, Himachal
+
+                                                            Pradesh, Andhra Pradesh on https://pay.ecourts.gov.in eCourt Fees is
+
+                                                            enabled for eight High Courts through Stock Holding Corporation.
+
+eCourt Fee eCourt Fee                         eCourts Fees is also made operational in eFiling Portal for Delhi, Punjab,
+                                       86
+
+                                              Andhra Pradesh, Telangana, Maharashtra, Haryana, Tamil Nadu, Himachal
+
+                                                            Pradesh etc. SBI ePay Gateway is used to Fine, Penalty an Other fee (Please
+
+                                                            visit eCourts National Pay Portal and please refer page 166 to 169
+
+                                                            Annexure D to know moe about ePay)
+
+                                                            This facility was requested by Maharashtra as pilot on pay.ecourts.gov.in
+
+Other     Other Payment                       and the same has provided with mechanism to make appropriate settings
+Payment                                86
+
+                                              on Administration portal of NJDG. Now various High Courts are making
+
+                                                            demand not only for District Courts but for High Courts also.
+
+          Portfolio Management System 87                    Portfolio Management services were given to UMANG, CSCs. API access is
+
+PMS
+
+                                                            shared to ICJS, CSC and LIMBS. (Please refer Annexure C Pages 69-71)
+
+              Inter operability of Other                    This facility as a part of ICJS is taken up at Telangana. Already this topics
+                                                            discussed above. (Please refer Annexure C Page 63 to know more about it)
+Interoperab ility C o m p o n e n t s o f J u s t i c e 87
+
+              Delivery System
+
+                                                                                                                           Page 55 of 69
+Topic in   Detailed Description as given in P a g e      Present Status
+short
+           Policy Action Plan phase II  No
+Litigant
+Charter    e C o u r t s Pro j e c t L i t i g a n t 87  Entire Litigant Charter Services is complete. Besides prescribed services
+                                                         some additional services are also given under Litigant Charter. (Please
+           Charter                                       refer Citizen Charter at the end of this report)
+
+EXTRA WORK DONE THOUGH NOT
+
+MENTIONED IN ACTION PLAN
+
+           What was proposed under policy action plan document was serving processes through mail and giving hand
+           held devices to bailiffs. However NSTEP is completely dedicated system of electronic transmission, tracking
+
+NSTEP      and repository of process status. Dedicated System where digital processes are generated in secured
+           manner, transmitted to authorised users from where processes are allocated to different jurisdictions and
+           local bailiffs. The processes are automatically transmitted to mobile devices of the bailiffs. Bailiffs can take
+           photograph, can take on screen signatures, GPS coordinates are captured and instantly process service status
+
+           can be updated upon portal from where it reaches to local software. Additionally processes can be served
+           through mail.
+           Only District Court website links were to be given in regional language but data shown will be fetched in
+
+Bilingual  English. However what is delivered is District Court web sites are given bilingual links and apart from that
+website    multilingual eCourts Portal has gone step ahead than what was proposed in the project Not only contents
+
+           in the website are in local language but data shown viz. cause list, case status, etc. is also in local language.
+
+                                                                         Page 56 of 69
+Topic in     Detailed Description as given in P a g e           Present Status
+short
+             Policy Action Plan phase II  No
+
+             Now any officer or staff can create online account under domain aij.gov.in or indiacourts.gov.in. Entire process
+
+Mailing is online and paper work is brought to zero. eCommittee Development Team has designed this system and
+automation presently it is used by all High Courts for step by step verification and authorisation for creating mails accounts
+
+             for Courts or Officers.
+
+             Many a time there are hundreds of parties in a case and typing names and addresses of such parties
+
+Templates    consumes enormous time. Some times mistakes do occur in typing such details, some times important
+of standard  elements like interest, set off or property disposal are missed. So to avoid this, templates are prepared which
+orders and   will capture all essential details of cause title of the judgment and also remind certain important elements in
+Judgments
+
+             specific types of cases.
+
+             Standard templates are provided in CIS 3.0 wherein standard Charge framing text content as provided in IPC
+
+             or CrPC are taken and with the help of software QR Code based Charge with all details of the case, court,
+
+Templates    Judge and offence charged can be crafted with in minutes. This will help the officers to devote maximum time
+of Issues .  to record evidence or hear arguments.
+Charge       All offences under IPC, other important Acts, charge can be framed within some minutes. It gives scope to
+framing
+
+             user to amend, edit or completely change the template text. It assists Judicial Officer to use his valuable time
+
+             for meaningful work rather than stereo type work.
+
+                                                                                Page 57 of 69
+Topic in     Detailed Description as given in P a g e                Present Status
+short
+             Policy Action Plan phase II  No
+
+             All Civil and Criminal Processes as provided under Code of Civil Procedure and Code of Criminal Procedure
+
+Intelligent  are provided in CIS 3.1. All details are fetched as per selection made by user. Creating intelligent process
+Templates    was really a huge task. It will save thousands of judicial hours of staff and judicial officers which previously
+for process  used to consume in preparing same processes time and again for different parties. Instant help is provided to
+generation   the user which will guide how to prepare processes. Help is so easy that any body who knows which process is
+
+             to be selected can generate and publish the processes.
+
+                                                                                     Page 58 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II  No
+
+             National Codification of Central Acts and State Act is provided by eCommittee. Schema is prepared
+
+             explaining logic as to how that codification should be done. All Central Acts Repository is created in the office
+
+             of eCommittee and it was circulated to all the High Courts. This Codification has helped a lot in NJDG and if it
+
+             is adopted by other agencies will create huge impact. eCommittee has supplied database of more than 2000
+
+             Central Acts and Rules updated with National Codes. Previously Acts were entered as free text entry in local
+
+             masters therefore there was no uniformity. In one State it is mentioned as IPC, in second State it was Indian
+
+             Penal Code in third State Penal Code in India. The chronological order of Acts in the master was also not
+
+             uniform or coherent between two establishments with in the same District. This was creating problem in
+
+Act Section  searching entire national database on the strength of Acts and Sections.
+Codificatio  It was necessary to know how many cases under Section 376 or 302 of the Indian Penal Code or like sections
+n
+
+             or Acts are pending in the country. It was not possible unless Act and Section uniformity its established
+
+             through a common mechanism which is acceptable and adoptable by all. Therefore, eCommittee supplied
+
+             Act database of more than 2000 Acts wherein every Central Act entry bears National Code which will be same
+
+             throughout the country.
+
+             Every State Legislature and Central Legislature give Act No. and year to each Act they pass. However, there are
+             various examples where Act No and Year are exactly identical but Statutes are different from State to State.
+             There are pre independence Laws which are adopted by various States and after adoption those are
+
+                                                                                                                                                           Page 59 of 69
+Topic in   Detailed Description as given in P a g e        Present Status
+short
+           Policy Action Plan phase II  No
+
+           Personalised Mobile Application for Judicial Officer to effectively manage court. Tools provided in JustIS
+
+JustIS     Mobile App has created a positive waive in the Judicial Officers in the Country. The app gives facility to Judge
+
+Mobile App effectively organise, manage and monitor his business in the Court. This is unique initiative of eCommittee,
+
+           Supreme Court of India
+
+           Instant help on the screen while using CIS Help is already provided through help videos, manuals.
+
+           However, staff or officers generally need help while actually working on CIS and many a times manuals or
+
+Help in CIS videos are not available instantly then and there. Therefore, instant click help for each and every section along
+
+           with photos explaining in detail about every small functionality in CIS. The only thing user has to do is to click
+
+           on help icon. The help section provided in CIS 3.0 runs 643 pages and hundreds of images.
+
+           Now in CIS instant help is provided to know whether offence is bailable or non-bailable, cognizable or non-
+
+           cognizable, what is the maximum sentence that can be imposed, whether offence can be tried by Magistrate
+
+Section    or Sessions Judge etc.
+Data base  A Huge data base in logical form is created which can be accessed by user to know punishment, nature
+           offence, type of sentence or the Court which can try particular offence. etc. This has given instant help to
+
+           Judicial Officers and staff while doing their day to day work. ( Please refer Annexure D page 77 to know more
+
+           about Act Section Codification and Uniformity)
+
+                                                                                                      Page 60 of 69
+Topic in     Detailed Description as given in P a g e  Present Status
+short
+             Policy Action Plan phase II  No
+
+             Almost 16 different help videos of mobile application are uploaded on you tube and there are lakhs of hits to
+
+Help         watch the videos.
+Videos of    There are different parameters on which a case can be searched. There are smart ways to manage portfolio
+Mobile       tool of my cases provided in the mobile app. For each search parameter, different video is released and
+Application
+
+             uploaded. These videos are being watched regularly by thousands of users daily.
+
+             It was felt that litigants also need help while accessing website. Therefore, help videos are created and
+
+Litigant     uploaded on you tube and eCourts website.
+Help videos  Videos are released in English and Hindi. There are lacs of hits from eCourts Portal which show that it was
+             necessary step for litigants to provide such audio video help material. (Please refer to Annexure G page 207
+
+             about public help videos.)
+
+Specialised  Police Station daily receives cause list of only those cases which belong that police station. Now police station
+Cause List   mail ID can be entered and such personalised services can be given to Police Stations or Jails. Various High
+to Police    Courts have started giving these services to police stations as it provides monitoring interface to police to
+Stations     keep an eye on the cases which are originated from their respective police stations.
+
+                                                                                              Page 61 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+
+          It is now possible that a litigant or Court can take print out of cause title of every case which contains QR
+
+          Code. Now every Judgment or Order of the Court will have QR Code. Every summons or warrant of the Court
+
+          will have QR Code, Every form generated will have QR Code. Every Case can be tracked with QR Code.
+
+          Mobile Application gives facility to scan QR Code and gives current status of the case.
+
+QR Code   QR Code printed on any paper has power to connect with current status of the Case. This power will connect
+          any QR Code with the current case status. Now Courts, Police, big Institutional litigants are pasting QR Code
+          bearing cause title to their dockets. So that every time case comes before them they automatically get current
+          status.
+
+          When a new case is filed, receipt of filing or registration generated through CIS bears QR Code, so that litigant
+          can scan QR Code any time in future and is able to get current status wherever desiresed.
+
+                                                                                                   Page 62 of 69
+Topic in    Detailed Description as given in P a g e  Present Status
+short
+            Policy Action Plan phase II  No
+CNR
+Number      Case Number Record (CNR) Number a unique concept is introduced.
+
+Unique      CNR Number is DNA of case which traces State, District, Court Establishment, case type and Case Number
+Process ID
+            and year of the case. As this number contains every information, while searching on the basis of CNR number,
+CPMS
+            user does not have to enter information about State, District, Court Complex, Case Type, Case Number and
+
+            year. Just one number saves lot of efforts which otherwise user had to put in to reach to particular menu to
+
+            search. QR Code has made it more easy as one need not have to write or type number, simply scan and
+
+            mobile app automatically searches the number and shows relevant details. This is how the journey started with
+
+            CNR has reached upto QR Code.
+
+            Every Process generated in CIS has unique ID. This ID contains CNR with additional details.
+
+            When any party or witness or accused receives a process with printed QR Code, and wants to know what
+
+            the case is about, what is the case status, the person has only to scan the QR Code and the case status will be
+
+            available. The Unique Process ID can help to track entire process history as one process generated at the
+
+            same time, in the same case, issued to different defendants, their Process IDs will not match with each other.
+
+            This will help in further technological upgradation and innovation.
+
+            Court Project Management System, is the tool developed by NIC for the purpose of configuring CIS product
+
+            according to the requirements of the respective State. It contains the repository of captions, menu items,
+
+            alerts, messages, functional variations, configuration of build for every state and bilingual requirement for
+
+            every state. When a new version is to be released, the relevant data is updated and the build is automatically
+
+            prepared through CPMS.
+
+                                                                                                         Page 63 of 69
+Topic in    Detailed Description as given in P a g e                           Present Status
+short
+            Policy Action Plan phase II  No
+
+eCourts     Intranet URL is shared with all the States and Districts for downloading the new releases for the CIS (both for
+release     District Courts and High Courts), patches, to view manuals, videos etc. Every single release is date wise
+portal      available on the release URL for the respective state. In all as on date, 390 releases in all are made and are well
+            documented since 2013 or since release of 1st National Core version for District Courts.
+
+            Unified High Court Services portal is now part of eCourts Portal. Now Case Status of 21 High Courts can be
+
+            searched on this services portal.
+
+Unified HC         Apart from Case Status, cause list, Judgement, order search can be made on this portal. CNR Number
+Services    search is also made available on this portal. Search on different parameters like party name, advocate name,
+Portal
+
+            case type, filing number is provided. From the data accessed it is found that the portal is accessed more for
+
+            obtaining copies of judgment and order than searching for case status or cause list.
+
+            Unification of Case Types of High Courts is completed and High Court CPC are requested get the National
+
+            Codes entered in CIS in Case Type Master.
+
+New NJDG    Majority of the High Courts have entered the National Codes and data has started reflecting on the NJDG
+for High    portal. NJDG is based on big data. It is now possible to see as to how many second appeals are pending the
+Court       country, how many writ petitions relating to service matters are pending in the country etc. It is possible to see
+
+            as to how many Tax related cases are pending in the country. Like wise many permutations and combinations
+
+            can be employed to see the data of High Courts at National level.
+
+                                                                                                  Page 64 of 69
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+           Policy Action Plan phase II  No
+
+           Sharing API was done as per the decision of the eCommittee to make available eCourts Services Mobile
+
+           Application on Umang Platform
+
+Umang Umang Mobile App is platform where all kind of services are connected through mobile governance.
+Mobile App Therefore, it was decided that services offered under the project need to reach maximum users through
+
+           Umang Mobile App. Accordingly API was shared. Umang has rolled out second version of eCourts Services
+
+           App and now it has facility of saving cases for portfolio management.
+
+           The API shared with LIMBS is CNR Number based requests are made to the NJDG server and if the number is
+
+LIMBS API  correct in that case such requests are honoured with information about the updated case status. This
+           integration is complete. Now more broader API is being shared where not only CNR number but request can
+
+           be made on various parameters like Case Number, Filing Number, Name of Party, Name of Advocate etc.
+
+           A common litigant who is not able to make search on mobile app or website is not able take benefits of such
+
+           developments. Common Service Centres (CSCs) are in number and they are spread across the country with
+
+CSC API    enormous growth. They have their own IT set up and they connect with such population which does not
+           means to use IT or does not know to use IT. Therefore, it was decided that with minimum charge of 5/- if the
+           litigant is informed about his case status with printed copy, it would serve the purpose. With this background, API is
+           shared with CSCs. Now the given API needs to augmented as many litigants do not know CNR number therefore it
+           was discussed that name, case number search can be given so that effective assistance can be provided to rural
+           population and they know their case status without dependency on any body.
+
+                                                                                  Page 65 of 69
+Topic in  Detailed Description as given in P a g e  Present Status
+short
+          Policy Action Plan phase II  No
+Open API
+          With rising demands for API (Umang, CSCs, ICJS, ePay Vendors, LIMBS etc.) it was felt that there should be
+Virtual
+Courts    broader policy and mechanisms to share eCourts data through API. At the same time, person seeking API
+
+          need to be registered entity whose traffic can be monitored. Therefore, eCourts APIs are prepared, its
+
+          documentation is complete and now it is waiting for Gateway clearance from NIC wherefrom APIs will be
+
+          made available. Presently API will be made available for Central and State Government only.
+
+          First Virtual Court is inaugurated at Tis-hajari Court, Delhi on 26.07.2019. Virtual Courts electronically consume
+
+          data of traffic challans from police system. Once data is consumed, the cases are allocated to Virtual Court. On
+
+          consumption of cases, Courts determines amount of fine and sends intimation to the violator. SMS and emails
+
+          are automatically sent to violators along with link of portal for payment of fine. The cases wherein violators
+
+          have not responded can be made over to the regular Court after prescribed period. The violator may pay fine
+
+          or claim to be tried. In Delhi and Haryana eChallan software has been integrated with Virtual Courts. So many
+
+          further avenues are opened by Virtual Courts which can be explored in days to come.
+
+                                                                                                       Page 66 of 69
+Topic in  Detailed Description as given in P a g e             Present Status
+short
+          Policy Action Plan phase II  No
+
+          During the meeting it was decided that service desk to be created exclusively for eCourts. S e r v i c e D e s k i s
+
+          ready. Now people can report grievance about the use of website, app, NJDG or any other similar issue either
+
+          by phone call or web request. The issue can be directed to concerned High Court or District Court as per the
+
+          information given by the person reporting grievance
+
+eCourts                                             The report is in conformity with the report placed before
+Service                                             the eCommittee in the meeting dated 30.07.2019
+Desk
+                                                                                                   (Yashwant A. Goswami)
+                                                                                             Member (Project Management)
+                                                                                     eCommittee, Supreme Court of India
+
+                                                                               Page 67 of 69
+Topic in   Detailed Description as given in P a g e  Present Status
+short
+           Policy Action Plan phase II    No
+
+                                                     *Pending execution with High Courts does not mean that all the High
+                                                     Courts are in process of completing the activity. It means that some of
+                                                     them or majority of them have completed the activity, whereas, some of
+                                                     them are in process of completing the same.
+
+                                                     **Activity of WAN has picked up a good pace and it is about to be
+                                                     completed at all District Locations in some of the States.
+
+S.N COUNT  STATISTICS OF                  COLOUR CODING USED TO IDENTIFY CATEGORY OF DELIVERABLES
+           DELIVERABLES UNDER
+1 110      POLICY ACTION PLAN
+2 83       DOCUMENT
+34
+43         Total Deliverables
+53
+6 17       Completed
+7 21
+           Execution in progress by
+           High Courts
+
+           Further progress depends
+           upon availability of WAN
+
+           Slow or little progress
+
+           Execution seems difficult for
+           various reasons above
+
+           Extra Deliverables
+
+                                                                                                   Page 68 of 69
+                                                      CITIZEN CHARTER
+
+SN Description of Service                             SMS Push SMS Pull  Email   Web               Mobile                  Kiosk  C/ P
+                                                                                                                      JSC
+                                                                          HC     HC                                          HC          C
+                                                                          HC     HC                  App                     HC          C
+                                                                          HC     HC                                          HC          C
+1 Case Filing Confirmation                                                                                                               C
+                                                                          HC     HC                                          HC          C
+2 Case Scrutiny Defect Notification                                       HC     HC                                          HC          C
+                                                                          HC     HC                                          HC          C
+3 Case Registration Confirmation                                          HC     HC                                          HC          C
+                                                                                 NA                                         NA           C
+4 Case Allocation Notification                                            NA     NA                                         NA           C
+                                                                          NA                                                NA           C
+5 Case Next Date Notification                                             NA                                                NA           C
+                                                                                                                            NA           C
+6 Process Issued Notification                                                                                               NA           P
+                                                                                                                            NA           P
+7 Case Listing Notification                                                                                                              P
+                                                                                                                                         P
+8 Case Disposed Notification                                                                                                             C
+                                                                                                                                         C
+9 Cause List                                          NA  NA                                                                             P
+                                                                                                                                         P
+10 Case Status Information                                                                                                               P
+                                                                                                                                         P
+11 Daily Orders/Proceeding                                                                                                               C
+12 Judgements                                                                                                                            C
+                                                                                                                                         C
+13 Online Certified Copy with 2D Bar Authentication'                                                                                     C
+                                                                                                                                         C
+14 Certified Copy Application Status                  HC  HC                                       HC  HC                                C
+                                                                                                                                         C
+15 Certified Copy Ready Notification                  HC  HC                                       HC  HC                                C
+
+16 Certified Copy Delivery Notification               HC  HC                                       HC  HC
+
+17 Caveat Filed Information
+
+18 Case Filed against Caveator
+
+19 Appeal / Revision filed against order/Judgment
+
+20 Digitally Signed Order                             HC  HC                                       HC  HC
+
+21 Digitally Signed Judgements                        HC  HC                                       HC  HC
+
+22 Digitally Signed Decrees                           HC  HC                                       HC  HC
+
+23 Digitally signed certified copies of case record   HC  HC                                       HC  HC
+
+24 Process Service through email                      NA  NA                                       NA  NA
+
+25 eCourt Fees                                            NA                                       NA  NA
+
+26 ePayments to Courts                                    NA                                       NA  NA
+
+27 eFiling of Cases to SC/HC/DC                           NA                                       NA  NA
+
+28 Regional Language DC website                       NA  NA                                       NA  NA
+
+29 Disabled Friendly website                          NA  NA                                       NA  NA
+30 Court Complex Location
+31 Case Transfer ( New service)                       NA  NA                                           NA
+
+                                                          NA
+
+                           Description of Service -->>> SMS Push SMS Pull Email  Web               Mobile                  Kiosk   Total
+                                                                                                                      JSC
+                                                                                                                           16     122
+                                                                                                     App                    8     56
+
+Provided by eCommittee                                18 14 20 21                                  17 16
+
+To be provided by High Courts 8                           8              8                      8  8   8
+
+Colour Code /short form used in the Chart -->>>           eCommittee HC High                       NA Applicable Not C/ P Periphery Core /
+                                                                                         Court
+
+                                                          1
+
+                                                                                                                                          Page 69 of 69
+

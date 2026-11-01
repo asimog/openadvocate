@@ -1,0 +1,468 @@
+Catchment Area of the Project
+Catchment Area of the Project
+
+· Total Number States and UTs:                      Two States and One Union Territory.
+· Total Number of Court Complexes:
+· Total Number of Court Establishments:             493 Total Court Complexes
+· Court Complexes of Core Judiciary :               713 Court Establishments
+
+· Court Complexes for Family Courts :               40 District Court Complexes and
+· Court Complexes of Industrial and Labour Courts:  371 Taluka Court Complexes
+· Court Complexes of Cooperative Courts:            25 Court Complexes
+· Court Complexes of School Tribunal:               26 Court Complexes
+                                                    21 Court Complexes
+
+                                                    10 Court Complexes
+  Catchment Area (Judicial Officers)
+
+· Total Number Judicial Officers: Maharashtra 2364 Judicial Officer
+· Covered Courts under Phase II: Maharashtra 2211 Courts
+· Not Covered Courts under Phase II: Maharashtra 52 Courts
+· Total Number Judicial Officers : Goa 51 Judicial Officers
+· Covered Courts under Phase II: Goa 45 Courts
+· Not Covered Courts under Phase II: Goa 8 Courts
+· Covered Courts under Phase II: Union Territories 6 Courts
+· Not Covered Courts under Phase II: Union Territories 2 Courts
+Funds under eCourts Phase - II
+                Component wise eCourts Fund Utilization
+
+                Scanners  USB Hard Disk
+                    6%            0% Kiosk
+                                            4%
+                                                LAN
+     Computers                                  6% Solar                                   DSC Tokens
+          30%                                                                                    0%
+                                                       2%
+Projector                                                Justice Clock                                 Smart Phones
+    1%                                                          0%                                            2%
+     Printers                                                                                                  Tech MP
+        4%                                                  Thin Client with DBM                                   0%
+                                                                         6%
+                                                                                                                   Site Preparation
+                                                                                  Servers
+                                                                                                                  Zoom License
+                                                Other
+                                                 8%                                                               eSeva Kendra
+
+                                                DG Set
+                                                  5%
+
+                                                Video Conferencing
+                                                           28%
+      eCourts Phase-II Fund Utilization
+
+S.N.  Description                                                   Amount
+
+1     Fund Received under Phase -II                         125,24,30,700
+                                                            125,19,68,986
+2     Total Fund Utilized
+                                                               4,61,714
+              Actual balance Fund in hand
+
+3
+
+        (Saved amount from eCourts Phase-II components and
+                    surrender amount of Site Preparation)
+Component wise State Fund Utilization
+
+                            iPad,  High Speed   System Officers
+    Display ...                     Scanners,   at District Court
+
+                3.5 Cr                  8.1Cr.
+
+AiO Computers,                                  Anti-Virus ,
+
+                                    13.72 Cr.
+
+                                                               Connectivity,
+                                                Bio-metric,
+
+                                   Laptop,
+Hybrid Video Conferencing
+Hybrid Video Conferencing Setup - HC
+Hybrid Video Conferencing Setup - HC
+Hybrid Video Conferencing Setup - HC
+Hybrid Video Conferencing Setup - DC
+Hybrid Video Conferencing Setup - DC
+     Hybrid Video Conferencing Setup - HC
+
+· All the Court rooms at Bombay, Benches at Nagpur and Aurangabad and
+   High Court of Bombay at Goa at equipped with Hybrid Video
+   Conferencing arrangement.
+
+· All 60 Court rooms in High Court are equipped with Hybrid VC
+
+   Arrangements.
+
+· Approximately 950 Court rooms of District and Taluka Courts in
+
+   Maharashtra are equipped with Hybrid Set up of video conferencing
+   arrangements.
+· All Central and District Prisons in Maharashtra and Goa are also equipped
+   with facility of video conferencing.
+e-Filing at High Court & District Courts
+                  E-Filing at High Court
+
+        Bench      New   Reply/Docs e-Filing CF Total e-Filing
+                  Cases
+ Bombay Original   7929  37494  19251     64674
+          Side
+                   3024  9457   7772      20253
+Bombay Appellate
+          Side      952   4740   1164       6856
+                   5372   1105   8611      15088
+   Nagpur Bench     167           227
+                  17444     47  37025        441
+Aurangabad Bench         52843            107312
+
+          Goa
+
+         Total
+E-Filing at Original Side BHC
+E-Filing at Appellate Side BHC
+E-Filing at Nagpur Bench
+E-Filing at Aurangabad Bench
+E-Filing at BHC at Goa
+E-Filing at District & Taluka Courts
+
+District Taluka  New Cases  Reply/Docs  Total e-Filing
+      Courts
+                 1,14,789   3,06,684     4,21,473
+Maharashtra
+Registration of Advocates for E-Filing at
+                    High Court
+
+ High Court  No. of Advocates Registered for e-filing
+
+High Court                    16,771
+Registration of Advocates for E-Filing at
+                    High Court
+Registration of Advocates for E-Filing at
+          District and Taluka Courts.
+
+District Courts  No. of Advocates Registered for e-filing
+
+Maharashtra                       51,245
+Registration of Advocates for E-Filing at
+          District and Taluka Courts.
+Registration of Advocates for E-Filing at
+          District and Taluka Courts.
+Paperless Courts, Efforts & Planning
+   Hardware required for paperless Courts.
+
+· All the Hon'ble Judges at Principal seat at Bombay, Benches at Nagpur
+   and Aurangabad and High Court of Bombay at Goa are provided with
+   Mac Book Pro laptops with M2 chipset.
+
+· All the Hon'ble Judges at Principal seat at Bombay, Benches at Nagpur
+   and Aurangabad and High Court of Bombay at Goa are provided with
+   iPad Pro 12.9 inches device with pencil. Thus writing interface is provided
+   to the Hon'ble Judges to facilitate annotations and notes taking on pdf
+   file.
+            Sensitization and Awareness
+
+· Hands on training session for all the Hon'ble Judges at Principal seat at
+   Bombay, Benches at Nagpur and Aurangabad and High Court of Bombay
+   at Goa is conducted under the directions of the then Hon'ble the Chief
+   Justice of High Court of Bombay (Full Court meeting was called only for
+   this training).
+
+· The Hon'ble Chairperson of the Computer Committee conducted the
+   training session with focus on applications in iPad which facilitate
+   paperless mode of working.
+
+· At present many High Court Judges are accessing their digitised case
+   files through their iPads, laptops and computer provided in the Court
+   room. It is indeed a proud moment that e-filed cases are not printed but
+   accessed through iPads or laptops.
+         Management for paperless Courts
+
+· There are certain case types wherein new cases can be instituted
+   adopting mode of e-filing only.
+
+· In such cases soft copies of the case files are shared to the Hon'ble
+   Judges through online mode. The e-filed cases are never printed or
+   shared in physical form with the Hon'ble Judges.
+
+· The Hon'ble Judges, now, have accustomed to read the soft copies on
+   their iPads. Often notes on digitised files are taken using tools provided
+   encouraging paperless mode of working in the High Court.
+
+· Staff of the High Court have also adjusted to paperless mode of working
+   and acquired skills to arrange case files which contains their remarks,
+   served notices/summons, reports, and orders passed by the Court from
+   time to time.
+        iPads for District and Taluka Courts
+
+· Every Judicial Officer in the State of Maharashtra is provided with iPad
+   and pen.
+
+· All the Judicial Officers in the State have undergone training about iPad
+   and making use of the iPad in paperless mode of working.
+
+· Many judges have started using iPad for paperless mode of working.
+
+· They download e-filed cases. They annotate the case files. They take
+   notes.
+
+· Judicial Officers use iPads for correcting their judgements and orders.
+   This mode of working is resulting in saving paper and printing. The
+   aggregate result of saving printing and paper is definitely saving the
+   environment.
+Use of iPads for paperless mode of work
+Use of iPads for paperless mode of work
+Use of iPads for paperless mode of work
+Use of iPads for paperless mode of work
+Use of iPads for paperless mode of work
+Data Driven Decisions & Data Accuracy
+                  Data Driven Decision
+
+· Large repository of data stored in CIS or NJDG can be put to use only
+   when the data entered is accurate and reliable.
+
+· Bombay High Court has taken corrective measures to improve the data
+   entered in CIS from time to time.
+
+· Data Accuracy exercise must have been conducted on dozens of times
+   only with an object that the data in CIS must be so accurate that it can be
+   acted upon for various administrative and policy decisions.
+
+· The Computer Committee of the Bombay High Court has taken decision
+   that business entered in CIS shall be primary record and printed copy of
+   roznama shall be the secondary. For this decision, the litigants in
+   Maharashtra are now habituated to read the business transacted in a case
+   on listed before the Court through the mobile app or the website.
+                  Data Driven Decision
+
+· The reports generated through NJDG are believable as data is accurate.
+
+· Act and Sections entered in a case are effectively monitored at the time of
+   institution. Seldom cases wherein entries are missed are captured in data
+   accuracy drives.
+
+· Office of SCMS Committee of the High Court used NJDG tools to provide
+   list of more than 10 years old, 20 years old, 30 years old cases pending
+   before 2000 officers.
+
+· Each Judicial Officer was supplied with list of cases which are to be
+   targeted for this year. The list is updated again after the Annual General
+   Transfers. This is possible only due to NJDG and data accuracy.
+        Monthly Planner for DCC and DPC
+
+·
+        Monthly Planner for DCC and DPC
+
+· A Monthly Planner concentrates on key areas under the eCourts Project. It
+   helps the District as a unit diagnose its problems of pendency and
+   bottlenecks in e-Governance.
+
+· The Monthly Planner is for District Court Computer Committees to
+   monitor regular updation and citizen centric services.
+
+· The Court Managers are primarily assigned with responsibilities to
+   generate different reports and place it before the Committee after
+   necessary analysis, as per the fixed schedule of subjects and week
+   mentioned in the Monthly Planner.
+
+· The Monthly Planner helps to supervise IT based initiatives and services
+   under eCourts Project, data accuracy in CIS and Data Driven Decisions
+   through the tools provided under NJDG.
+N-STEP
+USE OF NSTEP IN SERVICE
+
+          Particulars  Maharashtra  Goa  UT at DDS
+1 Number of Bailiffs        2490
+                                    133  8
+
+2 Process Consumed     13,42,038    53   1,576
+3 Processes Allocated  4,25,879
+                                    21   1,118
+
+4 Processes Delivered  3,79,006     19   94
+
+                       *2184 Smart Phones are provided to Bailiffs
+ICJS
+USE OF ICJS IN ELECTRONIC EXCHANGE
+
+   Particulars  Number of FIRs Number of
+                   Consumed Chargesheets
+                                           Consumed
+
+1 Maharashtra   22,73,057  13,32,985
+
+2  Goa          24,216     7749
+
+3 UTs of DDS    101        136
+VIRTUAL COURTS
+        Virtual Courts - Traffic Challan
+
+· 15th May 2020 first Virtual Court for traffic Challan was inaugurated at
+  Pune
+
+· On 31st October 2020 Virtual Court for Transport related Challans was
+  made operational.
+
+· The Government of Maharashtra adopted "One State One Challan"
+  system for generation of traffic challans.
+
+· Integration of Virtual Courts is completed with OSOC.
+
+· Now there is a reason to believe that the State Government is adopting
+  e-Challan system for generation of traffic challans. The Hon'ble Acting
+  Chief Justice asked to roll out virtual courts for all the Districts.
+e-Pay
+    e-Pay for District and Taluka Courts
+
+· For Court fees ePay (https://pay.ecourts.gov.in) is integrated with GRAS -
+  Government Receipt and Accounting System of Government of
+  Maharashtra.
+
+· For Judicial Deposits, Fine, Penalty and other payments ePay is
+  integrated with SBI ePay which ultimately connects with targeted bank
+  accounts opened for each Court Establishment.
+
+· The Government of Maharashtra issued Government Resolution to
+  permit opening and integration of targeted bank accounts.
+
+· Tripartite Agreement between Bombay High Court, SBI and Government
+  of Maharashtra is executed and as such 620 Court Establishments
+  were integrated with ePay facility for the litigants and lawyers.
+e-Pay for District and Taluka Courts
+e-Pay for District and Taluka Courts
+e-Pay for District and Taluka Courts
+               e-Pay for High Court
+
+· For Court fees ePay (https://pay.ecourts.gov.in) is integrated with GRAS -
+  Government Receipt and Accounting System of Government of
+  Maharashtra.
+
+· For Judicial Deposits, Fine, Penalty and other payments ePay is
+  integrated with SBI ePay which ultimately connects with targeted bank
+  accounts opened for each High Court Establishment.
+
+· The Government of Maharashtra issued Government Resolution to
+  permit opening and integration of targeted bank accounts.
+
+· Tripartite Agreement between Bombay High Court, SBI and Government
+  of Maharashtra is executed and as such 10 High Court Establishments
+  were integrated with ePay facility for the litigants and lawyers.
+e-Pay for High Court
+Digitisation
+                         Digitisation
+
+· Services of NICSI empanelled vendor DataSoft are hired under Contract.
+   Demonstration was given wherein it was ensured final output in DSpace is in
+   conformity with the SOP given by the eCommittee, Supreme Court of India.
+
+· Locations for scanning activities at Bombay, Nagpur, Aurangabad and Goa are
+   identified and necessary site preparations are done.
+
+· Four High end servers are deployed at Four Locations and testing completed.
+   1Gbps separate internet connectivity line obtained only for digitisation.
+
+· "BHC Ingestion" and "BHC Interact" two software are deployed at all four
+   locations and tested for entire scanning flow.
+
+· "BHC Connect" is software deployed at four locations which permits the District
+   and Taluka Courts to upload record and proceedings concerning any case at High
+   Court. After uploading, the record and proceeding becomes accessible to the
+   Hon'ble Judges in the cause-list along with main case record.
+BHC Ingestion
+BHC Ingestion
+BHC Ingestion
+BHC Ingestion
+BHC Interact
+BHC Interact
+BHC Connect
+BHC Connect
+BHC Connect
+eCopying
+eCopying
+eCopying
+eCopying - make online request -
+eCopying - Admin Monitoring interface
+eCopying - verification & Approval
+eCopying - verifying copy before eSign
+eCopying - auto-calculation of postal charges
+eCopying - referring to Sections
+TRAININGS
+                         TRAININGS
+
+· 32 various training programs were organized for Advocates, Registered
+  Clerks, Staff members, Law firms, on different dates at Mumbai, Nagpur,
+  Aurangabad and Goa.
+
+· For staff members almost Continuous Learning Programme was organised
+  for about three months after rolling out e-filing.
+
+· These training programs were organized by the High Court of Bombay.
+
+· Besides this, each District 13 training programs were conducted as per the
+  schedule given by the eCommittee, Supreme Court of India.
+
+· One ToT and one iPad Training programs were organized on 01st and 05th
+  May 2023. One training program consists almost 40 training separate
+  training session at each District.
+e-Filing Training for staff at High Court
+e-Filing Training for staff at Aurangabad
+e-Filing Training for staff at Aurangabad
+e-Filing Training for staff at Goa
+e-Filing Training for staff at High Court
+e-Filing Training for staff at High Court
+.e-Filing Training for staff at High Court
+e-Filing Training for Advocate Clerks
+e-Filing Training for Officers of HC
+e-Filing Training for Officers of Goa
+e-Filing Training for Officers of Goa
+iPad Training in all 39 Districts
+iPad Training in all 39 Districts
+iPad Training in all 39 Districts
+e-Initiatives
+E-Mail Automation Portal of BHC
+CIS Videos for Court staff in Marathi
+Uploading module for Neutral Citations
+Uploading module for Neutral Citations
+Chief Justice Office Module
+Annual General Transfers of JOs
+Annual General Transfers of JOs
+Annual General Transfers of JOs
+Annual General Transfers of JOs
+QGIS based demographic report module
+QGIS based demographic report module
+QGIS based demographic report module
+
+       Mumbai
+QGIS based demographic report module
+QGIS based demographic report module
+Disposal Norms - Module
+Investment Management- Module
+Leave Record Management
+Court Display System - CIS Periphery
+Office Info and Remarks - CIS Periphery
+R & P Information - CIS Periphery
+Report Builder- CIS Periphery
+File Tracking System- CIS Periphery
+Certified Copy System - CIS Periphery
+Decree System - CIS Periphery
+Recruitment Portal
+                 Recruitment Portal
+
+Recruitment Portal is designed for following posts.
+1. District Judges
+2. Civil Judge Junior Division
+3. Family Court Judge
+4. Court Manager
+5. Programmer
+6. Data Entry Operator
+7. Peon / Hamal
+8. Driver
+9. Associate on the Original Side of the High Court
+10. Clerk
+New Design of Recruitment portal is provided with Admin Module which facilitates screening of
+application, online verification of documents, eKYC based identification, sorting eligible
+applications based on multiple criteria viz. marks, caste, education, experience, etc.
+
+Bulk iterative work is avoided resulting in saving of human hours and expediting the process.
+Court Fee Calculator
+Thank you
+

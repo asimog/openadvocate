@@ -1,0 +1,1419 @@
+CASE INFORMATION SYSTEM
+                  (CIS)
+CIS VERSIONS
+
+ CIS DELHI VERSION
+
+   PHP-MYSQL (APACHE WEB SERVER)
+
+ CIS 1.0 (PUNE VERSION)
+
+   PHP-MYSQL (APACHE WEB SERVER)
+
+ CIS 2.0 (UNC)
+
+   PHP-PGSQL (APACHE WEB SERVER, ZEND, JSON)
+   CORE PERIPHERY MODEL, CNR NUMBER (CASE NUMBER RECORD), QRCODE,
+   CONCEPT OF ESTABLISHMENT, ORDER/JUDGMENT UPLOAD, NJDG,
+   ECOURTS WEB AND MOBILE SERVICES, SMS
+
+ CIS 3.0 (UNC)
+
+   PHP-PGSQL (APACHE WEB SERVER, ZEND, JSON, SLON)
+   EFILING, EPAYMENT, ICJS, NSTEP
+
+ CIS 4.0 (UNC)
+
+   TESTING PHASE, CLOUD
+CONCEPT OF CORE AND PERIPHERY
+
+ The core is a set of standard features that are created at a centralized level and
+  remain uniform across the country. The eCommittee decides what goes into the
+  core. It Means standard features are created at the centralized level which
+  cannot be modified and will remain uniform throughout our country for all states
+  at District court level.
+
+ The periphery modules are to be developed eCommittee or by each High Court
+  to meet its requirement and can be implemented through the available data in
+  the core.
+
+  CORE AND PERIPHERY CONCEPT IN CIS MASTERS
+
+    CORE: NATIONAL MASTERS
+
+    PERIPHERY: STATE MASTERS, LOCAL MASTERS & PERIPHERY
+      MASTERS
+CONCEPT OF CORE AND PERIPHERY
+
+ CIS UNC                                     E-Filing & E-Payment
+
+CORE AND IMPLEMENTED         Record Section  Copying Section Software
+ALL ACROSS INDIA             (DMS)
+
+ PERIPHERY                   NSTEP   CORE
+                                    CIS UNC
+SPECIFIC TO THE INDIVIDUAL                     Mobile Apps
+STATE OR REGION. DEVELOPED                     (JUSTIS)
+BY ECOMMITTEE OR HIGH COURT
+UNDER THE GUIDANCE AND
+SUPERVISION OF ECOMMITTEE.
+
+                             ICJS
+
+                                               SMS Module
+
+                                    PERIPHERY
+CONCEPT OF ESTABLISHMENT IN CIS
+
+Grouping of Courts based on its nature and jurisdiction.
+
+  DISTRICT & SESSIONS COURT COMPLEX
+  1. ESTABLISHMENT OF DISTRICT & SESSIONS JUDGE (CIVIL & CRIMINAL)
+
+      District & Sessions Court, Fast Track Court, Special Courts, Lok Adalat (DLSA), Commercial
+      Court
+  2. ESTABLISHMENT OF SR. CIVIL JUDGE (CIVIL)
+      Civil Courts of Sr. Civil Judge and Civil Judge, Lok Adalat (TLSC), Commercial Court
+  3. ESTABLISHMENT OF CHIEF JUDICIAL MAGISTRATE (CRIMINAL)
+      Criminal Courts of CJM and JM, JJB, Lok Adalat (TLSC)
+  4. ESTABLISHMENT OF JUDGE, FAMILY COURT (CIVIL & CRIMINAL)
+
+     Family Court
+
+  TALUKA COURT COMPLEX
+  1. ESTABLISHMENT OF SR. CIVIL JUDGE (CIVIL)
+
+     Civil Courts of Sr. Civil Judge and Civil Judge, Lok Adalat (TLSC)
+  2. ESTABLISHMENT OF CHIEF JUDICIAL MAGISTRATE (CRIMINAL)
+
+     Criminal Courts of CJM and JM, JJB, Lok Adalat (TLSC)
+CONCEPT OF ESTABLISHMENT IN CIS
+
+EXAMPLE
+
+         SICHEY DISTRICT & SESSIONS COURTS COMPLEX
+
+         Establishment of Principal District
+                   & Sessions Judge.
+
+             District & Sessions Court, Special Divisions,
+                       Commercial Court, Lok Adalat
+
+   Establishment of Chief                  Establishment of Sr. Civil Judge
+Judicial Magistrate (Criminal)                               (Civil)
+
+   CJM Court, JM Court, JJB, Lok Adalat  Sr. CJ Court, CJ Court, Commercial Court, Lok Adalat
+
+         Establishment of Judge, Family Court
+
+                                      Family Court
+CONCEPT OF ESTABLISHMENT IN CIS
+
+EXAMPLE
+
+         JORETHANG COURTS COMPLEX
+
+       Establishment of              Establishment of Civil Judge
+Judicial Magistrate (Criminal)                      (Civil)
+
+               JM Court, Lok Adalat                 CJ Court, Lok Adalat
+CONCEPT OF ESTABLISHMENT IN CIS
+
+IMPORTANT TO KNOW
+
+   A COURT COMPLEX SHOULD HAVE ONE CIS SERVER
+
+   THE NUMBER OF POSTGRES DATABASE IN CIS SERVER DEPENDS
+     UPON THE NUMBER OF ESTABLISHMENTS IN CIS
+
+   UPON TRANSFER OF A CASE FROM ONE COURT TO ANOTHER
+     COURT WITHIN THE SAME ESTABLISHMENT, THE CNR NUMBER,
+     FILING NUMBER AND REGISTRATION NUMBER DOES NOT CHANGE
+
+   UPON TRANSFER OF A CASE FROM ONE COURT TO ANOTHER
+     COURT OF ANOTHER ESTABLISHMENT, THE CNR NUMBER, FILING
+     NUMBER AND REGISTRATION NUMBER CHANGES
+CIS MASTERS
+
+   National Masters
+   State Masters
+   Local Masters
+   Periphery Masters
+   Unification  Mapping (National Codes)
+CIS MASTERS
+CIS MASTERS
+CIS MASTERS
+CIS : YEAR END INITIALIZATION
+
+                                     Year End Initialization is a option under CIS whereby the
+                                     option is provided to start new numbering on 1st January
+                                     of every calendar year because the filing number are
+                                     given based on the year for eg 1/2024 when the year
+                                     2024 started. When the new year starts one has to start
+                                     the new numbering and this can be done by using this
+                                     "year end initialization" which will wind up the previous
+                                     year number. Year end initialization need to be done not
+                                     only for Filing Number; Registration Number; Court Fees,
+                                     Appellate Number, PTN (Pretrial) Number.
+CIS: QUERY BUILDER
+
+   The Query Builder is used to generate queries on filling up the given fields and generating reports
+   dynamically. In Query Builder, you can build Custom Reports within seconds. You can get the reports
+   instantly by dynamically specifying the parameters. It is useful to create exclusive reports according to the
+   needs by specifying field and to get reports other than the standard reports available inbuilt in CIS.
+EFILING Version 2.0
+
+ The e­filing will consist of two major stages:
+
+ EFILING WEB PORTAL
+  Registered users i.e. advocate/ party in person filing their digital case content
+
+    through the e­filing web portal https://efiling.ecourts.gov.in/
+  And after the digital case content is scrutinized with option for return,resubmit and
+
+    accept
+  The digital case content on being accepted now becomes ready for consuming
+
+    under CIS.
+
+ DATA CONSUMING IN CIS
+
+  When the e-filed cases is consumed through CIS it is verified then rejected or
+    accepted
+
+  Once it is accepted the filing number is generated successfully under CIS as
+    shown in the screenshot
+
+  After generating eFiling number it goes through the usual procedure of FORA.
+EFILING  Advocate/Litigants Dashboard
+EFILING  District Admin Dashboard
+EFILING  Court Admin Dashboard (Establishment wise)
+EFILING  CIS (Consume and Verify)
+EFILING  CIS (efiling dashboard)
+EFILING  Filing Number
+
+ Physical Case Filing in the JSC
+SKNM01003162023
+
+ E-Filing
+ECSKNM01003162023
+NSTEP (National Service & Tracking of Electronic Processes)
+
+   The service of summons and processes by traditional methods are often a cause for inevitable delay in
+      speedy disposal of cases. NSTEP is a centralized process service tracking application comprising of a
+      web application and a complementary mobile app designed to streamline the process.
+
+   NSTEP Mobile App provided to bailiffs and process servers enable transparent tracking of service of
+      notices and summons in real-time.
+
+   Once the process is adopted through CIS software by the respective courts, it will become available on
+      the NSTEP web application in the electronic format. NSTEP web application enables allocation of
+      published processes to bailiffs if service is to be effected within their jurisdiction. It also facilitates
+      allocation of published processes to respective court establishments inter-district or inter-state.
+
+   The bailiffs can view the allocated processes on the NSTEP Mobile App. The Bailiffs can capture GPS
+      location, photo of the receiver or premises [where none is available to be served], the signature of the
+      receiver and on the spot recordal of reasons for service not being effected. The data captured is instantly
+      communicated to the central NSTEP application. From NSTEP web application data is then sent forward
+      to CIS enabling courts to track the status of service.
+
+   NSTEP thus accomplishes the following significant goals:
+
+   Enables serving of Notice/Summons in electronic form
+
+   Posting and recordal of realtime updates from remote locations reducing inordinate delays in process
+      service
+
+   Time required for serving Inter-district or Inter-state process by Post is drastically reduced by serving it in
+      electronic form
+
+   Transparent tracking of service of process and summons by all stakeholders
+NSTEP (National Service & Tracking of Electronic Processes)
+
+  NSTEP STAGES
+NSTEP (National Service & Tracking of Electronic Processes)
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Civil/Criminal Processes in CIS
+NSTEP (National Service & Tracking of Electronic Processes)
+NSTEP (National Service & Tracking of Electronic Processes)
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Sample e-Process
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Web Application https://nstep.ecourts.gov.in
+
+District Admin
+
+  User (Process Admin) Creation
+
+  Adding/Modifying Process Server Details
+
+  Tagging Process Server to the User (Process Admin)
+
+  Year Initialization
+
+  Viewing Various Reports
+
+  Viewing Process Status
+
+Court User (Process Admin)
+
+  Consume Data
+
+  Process Allocation
+
+  Process De-allocation
+
+  Transfer of process from one PS to another
+
+  View Process Status
+
+  View other various reports
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Web Application https://nstep.ecourts.gov.in
+District Admin Interface
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Web Application https://nstep.ecourts.gov.in
+Process Admin (Court User) Interface
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Mobile App Download Link https://nstep.ecourts.gov.in
+NSTEP (National Service & Tracking of Electronic Processes)
+
+MOBILE APP
+
+Process Server
+
+ View allocated processes
+ View e-processes
+ Capture photo
+ Take signature
+ Save location
+ Upload
+NSTEP (National Service & Tracking of Electronic Processes)
+
+MOBILE APP
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Customization of Processes (Summons/Notices) in CIS
+CIS Directory where templates of notice and summons are stored
+ /home/court/swecourtis/Notice/
+ /home/court/swecourtis/Summons/
+
+  CIS Directory where JSON file is stored
+   /home/court/swecourtis/process_master_jason/civil_process.json
+   /home/court/swecourtis/process_master_jason/criminal_process.json
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Notice Template
+NSTEP (National Service & Tracking of Electronic Processes)
+NSTEP (National Service & Tracking of Electronic Processes)
+NSTEP (National Service & Tracking of Electronic Processes)
+
+Corresponding
+JSON script
+E-Pay
+
+URL FOR EPAYMENT: https://pay.ecourts.gov.in/epay/
+E-Pay
+
+URL FOR EPAYMENT: https://pay.ecourts.gov.in/epay/
+
+Please note that the State of Sikkim is not there in the list of states eligible
+for eCourts ePayment.
+
+But alternatively ePayment can be done through the link provided in the
+website of High Court of Sikkim.
+https://hcs.gov.in/hcs/efiling
+The payment is processed through SBI collect.
+E-Pay
+JUSTIS APP
+
+JustIS Mobile App is developed for the Judges of District &
+Subordinate Courts in the country. The App is username/password
+protected. The App is a digital repository that provides all details about
+his/her court at the handset 24/7.
+
+Things to know:
+
+ The six digit JO Code of the JO should be the same that is entered in CIS.
+ The mobile number of the JO should be the same that is registered with the NJDG.
+JUSTIS APP
+
+Download link: https://justis.ecourts.gov.in/appstore/
+JUSTIS APP
+ICJS (Inter-operable Criminal Justice System)
+
+ICJS is an initiative of the e-Committee to enable seamless transfer of data and information
+among different pillars of the criminal justice system, like courts, police, jails and forensic
+science laboratories from one platform.
+
+With the aid of the ICJS platform, the metadata of FIR and charge sheet can be accessed by all
+the High Courts and subordinate courts. The information and Documents like FIR, case diary
+and charge sheet are uploaded by police in they CTNS software and also uploaded in PDF
+format for utilization by the courts. The ICJS platform is an effective tool for the case and
+court management, as all the relevant information of a case will be available in real-time for
+use by the courts.
+
+         CCTNS                                ICJS                                 CIS
+
+Crime and Criminal Tracking Network &  Inter-operable Criminal Justice System  Case Information System
+                      Systems
+ICJS (Inter-operable Criminal Justice System)
+
+  ICJS MODULE IN CIS
+   Consume FIR
+   Consume Chargesheet
+   Verify FIR
+   Verify Chargesheet
+ICJS (Inter-operable Criminal Justice System)
+ICJS (Inter-operable Criminal Justice System)
+ICJS (Inter-operable Criminal Justice System)
+ICJS (Inter-operable Criminal Justice System)
+MAINTENANCE AND MONITORING OF SERVERS
+
+ A routine preventative maintenance schedule should include tasks
+ such as:
+
+   Software updates: Regularly installing critical software patches and updates to
+    address security vulnerabilities and improve system stability.
+
+   Hardware diagnostics: Periodically checking hardware status and using
+    automated system monitoring utilities to identify potential hardware errors. Monitor
+    RAID Alarms. Monitor your RAID status; all servers should use RAID. A single
+    disk failure can cause a complete system failure.
+
+   Security audits: Reviewing user accounts, assessing system security, and
+    identifying and mitigating potential security risks.
+
+   Data backups: Ensuring that data is backed up regularly to protect against data
+    loss in the event of a disaster recovery scenario.
+
+   Monitoring tools: Using automated system monitoring utilities to track server
+    performance, network traffic, and disk usage.
+
+   Network utilization: Monitoring network utilization and ensuring that a server can
+    handle current and future demands.
+MAINTENANCE AND MONITORING OF SERVERS
+
+    The following is advised for maintaining an optimal environment for servers:
+     Temperature control: Keeping the server room temperature within the recommended range
+
+       to prevent overheating.
+     Dust and debris: Regularly cleaning the server room to prevent dust and debris from
+
+       accumulating in or around the server hardware.
+
+    To make the most of server maintenance, it's essential to avoid these common mistakes:
+     Neglecting regular maintenance: Skipping regular maintenance can lead to outdated software,
+
+       unaddressed security vulnerabilities, and eventual server failure.
+     Missing important security patches: Failing to install critical software patches can leave a server
+
+       vulnerable to security breaches.
+     Ignoring disk usage: Neglecting to monitor and manage disk usage can lead to disk space
+
+       shortages, impacting server performance and leading to potential data loss.
+     Overlooking network traffic: Failure to monitor network traffic and utilization can result in network
+
+       congestion and slowed server performance.
+     Inadequate backup strategy: Failing to establish a robust data backup strategy can result in data
+
+       loss during server crashes or failures.
+MAINTENANCE AND MONITORING OF SERVERS
+
+   How often should you conduct server
+   maintenance?
+MAINTENANCE AND MONITORING OF SERVERS
+
+  RAID SERVER
+
+    A RAID server uses a data storage virtualization technology that combines multiple
+       physical disk drive components into one or more logical units. This is done for the
+       purposes of data redundancy, performance improvement, or both.
+
+    RAID stands for Redundant Array of Independent Disks. It is a way of storing the
+       same data in different places on multiple hard disks or solid-state drives (SSDs) to
+       protect data in the case of a drive failure.
+
+    A RAID system consists of two or more drives working in parallel. In a RAID array, if
+       one disk fails, then the other disks will have the data ready to go.
+MAINTENANCE AND MONITORING OF SERVERS
+
+  TYPES OF RAID
+
+      Software RAID: Software in the operating system (OS) manages RAID.
+      Hardware RAID: A dedicated piece of hardware called a RAID controller manages
+
+        RAID.
+
+     Software RAID is usually cheaper, more flexible, and more compatible than hardware RAID. However, it
+     can have lower performance, higher resource consumption, and more complexity. This can burden your
+     CPU and cause poor performance.
+     Hardware RAID is more reliable and expensive. It can have a high level of system productivity,
+     especially for old systems with limited resources. Hardware RAID also uses its cache-memory for
+     making a backup copy and data recovery.
+MAINTENANCE AND MONITORING OF SERVERS
+  COMMANDS TO VIEW STATUS OF RAID
+
+     Software RAID: cat /proc/mdstat
+
+     Hardware RAID: lspci | grep -i raid
+BACKUP POLICY
+
+  A backup policy is a set of rules and procedures that describe making backup copies of
+    data for safekeeping. Data backup policy is an integral part for overarching data
+    protection, disaster recovery and continuity strategy. It is good practice to store two
+    copies of the data, one on-premises for rapid recovery, and the other in the cloud, where
+    data remains available in the event of a disruption.
+
+  An effective backup policy identifies the information to be copied and the frequency with
+    which one can perform backups, as well as the storage location where the backed-up data
+    will be stored.
+
+  A backup policy should include what data is to be protected, where to store the backup,
+    how often the backup should run, and how long to retain the backup copy.
+
+  3-2-1 rule of data backup should be adopted. 3 copies of data in 2 locations where 1
+    location is offsite.
+BACKUP POLICY
+
+  TYPES OF BACKUP
+
+      Full backup takes a complete copy of all data on the devices designated to be part of the
+        backup process. This backup is performed at the start of putting the backup policy into
+        practice. Full backup protects all the data and keeps it in one location for faster restoration
+        but takes a much longer time to perform.
+
+      Incremental backup only copies the data sets that have changed since the last backup.
+        This type of backup is the fastest to execute and can be performed as many times as an
+        organization deems necessary.
+
+      A differential backup copies all the data that has changed since the last full backup. This
+        backup provides with copies based on the same starting point when the last full backup
+        occurs, but it takes longer time and occupies larger storage space.
+BACKUP POLICY
+  CIS BACKUP
+
+    In CIS we need to backup
+    1)CIS software
+    2)CIS databases
+    3)Maintenance script
+BACKUP POLICY
+
+  CIS software includes the entire front end php software,
+  uploaded judgments and orders in pdf, generated processes in
+  pdf, uploaded case documents in pdf, user logs, SMS software,
+  consumed efiling and ICJS documents.
+
+  CIS software Directory to be backed up /home/court
+BACKUP POLICY
+
+  CIS Database includes the pgsql databases of CIS
+  establishments, CIS users, SMS and email.
+
+  Databases to be backed up:
+  1)Establishment databases e.g. nmcdcis, gangdcis, nmccjm,
+
+     gyldcis (district court complex has 4 databases and sub-divisional
+     court complex has 2 databases)
+  2)ecourtisuserdb
+  3)smsdb
+  4)emaildb
+BACKUP POLICY
+
+ Maintenance Script includes script for slony configuration,
+ authentication for document upload, test connections, test
+ database, data sharing with NJDG and backup of databases.
+
+ Software Directory to be backed up /home/maintenance
+
+ Please note:
+  Option 8 of maintenance script runs the script to backup CIS database
+
+    viz establishment databases and ecourtisuserdb. The backed up .sql
+    database backup file is stored in the location
+    /home/maintenance/db_backup
+  smsdb and emaildb has to be backed up manually using the sql dump
+    query
+
+        pg_dump -U postgres smsdb >/home/dump/smsdb15022024.sql
+        pg_dump -U postgres emaildb >/home/dump/emaildb15022024.sql
+RESTORING CIS IN A FRESH SERVER
+
+ In CIS we need to restore
+ 1)CIS software:
+ 2)CIS databases
+ 3)Maintenance script
+RESTORING CIS IN A FRESH SERVER
+
+ Restoring CIS software:
+  Copy court directory from the backup location and paste
+
+    inside /home directory of the server
+  Open terminal and run the command to grant user access and
+
+    permission to the court directory
+    chmod -R 777 /home/court
+  Restart apache web server
+    service apache2 restart
+RESTORING CIS IN A FRESH SERVER
+
+Restoring CIS Databases:
+
+ Create empty pgsql databases
+
+Establishment wise database like nmcdcis, gtkdcis, gylcjm etc, ecourtisuserdb, smsdb
+and emaildb
+
+Open terminal and run the command
+
+psql -U postgres -h localhost  (command to login to postgres)
+
+create database nmcdcis;       (command to create new database)
+
+ Restore data into empty databases from the .sql dump files
+
+   Open terminal and run the command
+   pg_dump -U postgres databasename >/path/databasebackup.sql
+
+example
+pg_dump -U postgres nmcdcis>/home/dbbackup/nmcdcis_15022024_dump.sql
+
+ Restart pgsql server
+
+      Open terminal and run the command
+      service postgresql restart
+RESTORING CIS IN A FRESH SERVER
+
+ Restoring Maintenance Script:
+  Copy maintenance directory from the backup location and paste
+
+    inside /home directory of the server
+  Open terminal and run the command to grant user access and
+
+    permission to the maintenance directory
+    chmod -R 777 /home/maintenance
+  Restart apache web server
+    service apache2 restart
+BASIC POSTGRES SQL COMMANDS                     (login to postgres)
+                                                (list the databases in the server)
+  psql -U postgres -h localhost                 (create database)
+  \l                                            (delete database)
+  CREATE DATABASE databasename;                 (connect to a database)
+  DROP DATABASE databasename;                   (list tables in a database)
+  \c databasename                               (create table in a database)
+  \dt
+  CREATE TABLE table_name ( column1 datatype,   (delete table in a database)
+                                                (view the entries in the table, where
+     column2 datatype, column3 datatype, ...);  clause, and, or, not, operators)
+  DROP TABLE table_name;                        (inserting values in a table)
+  SELECT * FROM tablename;
+                                                (updating contents of a table)
+  INSERT INTO tablename (column1,column2..)
+    VALUES (value1, value2, value3, ...);
+
+  UPDATE tablename SET column1 = value1,
+    column2 = value2, ... WHERE condition;
+BASIC POSTGRES SQL COMMANDS
+
+ DELETE FROM tablename WHERE condition;                       (deleting contents of a table)
+                                                              (add columns to an existing table)
+ ALTER TABLE tablename                                        (deletes column from an existing table)
+   ADD column_name datatype;                                  (rename column of an existing table)
+                                                              (creates full backup of database)
+ ALTER TABLE tablename
+   DROP COLUMN columnname;
+
+ ALTER TABLE tablename
+   RENAME COLUMN oldname to newname;
+
+ BACKUP DATABASE databasename
+   TO DISK = 'filepath';
+
+   Example
+   BACKUP DATABASE testdb TO DISK = 'D:\backups\testDB.bak';
+REMOTE SERVER ACCESS
+
+  Remote server access is the ability of users to access a server from any location. With
+  that access, users can manage files and data that are stored on a server.
+
+      File Manager (for accessing server files via SSH)
+      Remmina Remote Desktop Client (for accessing server via FTP, SSH and RDP)
+      AnyDesk (for accessing remote server desktop using DeskRt and TLS technology)
+      SSH [Secure Socket Shell] (for accessing server via terminal)
+REMOTE SERVER ACCESS
+
+  FILE MANAGER
+
+    Open File Manager (caga)
+    File  Connect to server
+    Enter IP, user and
+
+       password of the server
+REMOTE SERVER ACCESS
+  FILE MANAGER
+REMOTE SERVER ACCESS
+  FILE MANAGER
+REMOTE SERVER ACCESS
+  Remmina Remote Desktop Client
+
+                                 New Connection
+REMOTE SERVER ACCESS
+ Remmina Remote Desktop Client
+REMOTE SERVER ACCESS
+Remmina Remote Desktop Client
+REMOTE SERVER ACCESS
+
+  RDP (Remote Desktop Protocol)
+
+   RDP is a network communications protocol developed by Microsoft which allows
+   users to connect to another computer from a remote location.
+   For this the server needs to have RDP server installed and the client needs to have
+   RDP client installed.
+   Please note:
+    Remmina supports RDP and can be connected to the remote server using RDP
+
+       protocol provided there is RDP server installed in the server.
+    Linux/Ubuntu Server usually does not have RDP installed. We can install the same
+
+       using the command in the terminal:
+       sudo apt install xrdp -y
+REMOTE SERVER ACCESS
+
+   AnyDesk
+
+     Download URL : https://anydesk.com/en/downloads/linux
+REMOTE SERVER ACCESS
+
+SSH [Secure Socket Shell]
+
+  SSH stands for Secure Socket Shell. It is a network protocol that provides a secure
+  way to access remote computers. SSH encrypts all traffic between the two computers,
+  including passwords, commands, and output. This makes it a much more secure way
+  to access remote computers.
+
+  SSH is also used for file transfer. The secure copy (SCP) and file transfer protocol
+  (SFTP) commands use SSH to securely transfer files between computers.
+
+  It is a popular choice for system administrators who need to manage remote servers. It
+  is also used by developers who need to access remote development environments.
+  And it is used by regular users who need to securely access their home computers
+  from work or other locations.
+REMOTE SERVER ACCESS
+
+SSH [Secure Socket Shell]
+
+  Prerequisites:
+   An SSH client on the client machine
+   An SSH server on the remote machine
+   The IP address or name of the remote server
+  Commands to install SSH:
+   sudo apt install openssh-server
+   sudo apt install openssh-client
+  Configure SSH server
+   You may configure the default behavior of the OpenSSH server application by editing the
+
+     file /etc/ssh/sshd_config
+   There are many directives in the sshd configuration file controlling such things as
+
+     communication settings and authentication modes.
+REMOTE SERVER ACCESS                            (connects to the current user/default user)
+
+SSH [Secure Socket Shell]
+
+  Commands to access a remote server:
+   ssh SERVER IP or SERVER NAME
+  Example:
+
+                      ssh 10.182.94.3
+                      ssh court.namchi.com
+
+Specify a Username for SSH connection           (connects to the specified user)
+                     ssh root@10.182.94.3
+                     ssh root@court.namchi.com
+
+By default, the SSH server listens for a connection on port 22. If the port setting in the SSH config
+file has been changed, you'll need to specify the port.
+
+ssh 10.182.94.3 -p 3322                         (Connects on port 3322)
+
+ssh court.namchi.com -p 3322
+REMOTE SERVER ACCESS
+
+SSH [Secure Socket Shell]
+
+   Command to Copy a File Remotely over SSH with SCP
+
+       scp fileName user@remotehost:/path
+
+          Example
+
+        scp draftletter root@10.182.94.3:/home/court
+
+   Commands to know while using SSH and once logged into the remote server
+   pwd
+   ls
+   cd
+   cp
+   mv
+   mkdir
+   rm
+   ifconfig
+   clear
+   exit
+REMOTE SERVER ACCESS
+SSH [Secure Socket Shell]
+REMOTE SERVER ACCESS
+
+  What is the difference between
+  cp and scp commands ?????
+WAKE ON LAN
+
+     Wake-on-lan (also known with the "W.O.L" acronym) is a standard ethernet feature which
+     allows a machine to be turned on or woken up on the reception of a specific type of
+     network packet (the so called MagicPacket). The main advantage of this feature is that it
+     allows us to keep a machine in a low power consumption state, and be accessed only
+     when needed.
+
+     Wake-on-LAN is a special functionality that allows other devices to wake your device
+     remotely. It allows this functionality by setting your Ubuntu devices network driver to
+     accept a specially formatted packet called the "magic packet". You can also enable the
+     Wake-on-LAN functionality through your devices BIOS.
+WAKE ON LAN
+
+      Check if WOL is supported by your network/ethernet card
+      sudo apt install ethtool
+
+            (tool to install Ethtool an open-source application that allows you to change network driver
+            settings)
+      ip a or ifconfig
+            (Command to find out your Ethernet interface. Ethernet interface is the network card of your device)
+WAKE ON LAN
+
+ sudo ethtool <Your interface name> (find out whether your network card supports wake
+
+             on LAN)
+
+Supports Wake-on: g (this message indicates your PC supports Wake-On-LAN)
+
+Wake-on: g   (this message indicates Wake-On-LAN is enabled)
+
+ sudo ethtool --change <Your ethernet interface name> wol g                (enable WoL)
+ sudo ethtool --change <Your ethernet interface name> wol d                (disable WoL)
+
+ wakeonlan -i <IP Address> <MAC Address>
+
+      (To power on or wake up the device, type the following in terminal)
+PGADMIN 4 AND PHPPGADMIN
+
+  PgAdmin and PhpPgAdmin are freely available administration and
+  management tools for the Postgres Database. It provides numerous features,
+  such as a user-friendly graphical interface, local and remote session
+  management and compatibility with all Postgres versions.
+PGADMIN 4
+
+How to install PgAdmin4
+
+ sudo apt install curl      (Install curl requisite)
+
+ sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub |
+
+sudo apt-key add            (adding public key using curl)
+
+ sudo sh -c 'echo "deb
+  https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs)
+  pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+
+(add the pgAdmin repository and update the server's packages)
+
+ sudo apt install pgadmin4  (install pgadmin4)
+PGADMIN 4
+PGADMIN 4
+PHPPGADMIN
+
+   How to install PgAdmin4
+
+    sudo apt-get install postgresql postgresql-contrib phppgadmin
+    Open web browser and open: localhost/phppgadmin
+PHPPGADMIN
+SLONY
+
+ Slony is a trigger-based master to multiple slaves replication system for PostgreSQL.
+ Slony is an application-level logical replication implementation for PostgreSQL.
+ Rather, we could say that it is an external replication tool that requires a separate
+ installation and configuration.
+ Slon is a daemon that runs on each PostgreSQL node in Slony replication. These
+ daemons are used for processing configuration and replication events for each
+ PostgreSQL server. Each PostgreSQL server is called a "node".
+ All nodes together form a Slony "cluster".
+ Installing Slony
+  sudo apt-get update
+  sudo apt-get install slony1-bin
+SLONY
+
+Slony process is triggered in CIS Server while executing the maintenance script
+SLONY
+
+ Please note:
+ While running Option 5 (replicating initial complete database), the database at
+ the local server end and the remote server end should not be running any other slon
+ processes else database will not be replicated and will return an error. If such error is
+ displayed than we need to kill the existing slon processes at both ends before
+ running option 5.
+  ps -ef|grep slon|grep databasename (example ps -ef|grep slon|grep nmcdcis)
+
+  kill -9 3064 3070
+SLONY
+
+ Please note:
+ In order to consume data in CIS from eFiling and ICJS, Option 6 (sending daily
+ data slon process) should be running in the CIS Server.
+ If Option 6 is not executed than while consuming eFiling and ICJS data, error will be
+ displayed. This is because the CIS server, eFiling server and ICJS server are
+ exchanging or replicating data using slony.
+SLONY
+
+ What does Option 7 do ?
+SLONY
+
+ NJDG SERVERS
+
+    10.249.36.234 (database server)
+    10.248.118.141 (software server)
+PROGRAMMING LANGUAGE
+
+ A programming language is a set of instructions written by a programmer to
+ deliver instructions to the computer to perform and accomplish a task. This
+ set of instructions is usually viewed as code structured following a definite
+ programming language syntax. e.g BASIC, C++, Java, Python, HTML, PHP,
+ Perl, etc.
+ Generally speaking, a program is a set of instructions written in a particular
+ programming language to achieve a particular task.
+
+  WEB
+
+ There are several languages that are frequently used for web development. Some of the most
+ popular programming languages for web development include HTML/CSS, PHP, Python,
+ JavaScript, Java, Ruby, and Swift.
+
+  MOBILE
+
+ Swift (iOS) , Kotlin (Android), JavaScript, Java (Android), C++, Python etc.
+PROGRAMMING LANGUAGE USED IN CIS
+
+ CIS is a web-based application software developed using PHP-PGSQL where
+ PHP is the front end and PGSQL is the back end (database).
+
+ Along with the basic PHP-PGQSL architecture CIS also uses CakePHP, Zend,
+ CSS, Javascript, JSON and SLONY.
+
+ PHP stands for Hypertext Pre-processor. It is a general-purpose, open-source scripting
+ language that is used for web development. PHP is primarily used for server-side scripting.
+ PHP can be embedded into HTML. This makes it easier to include functionality to web pages.
+ PHP is used to create dynamic web pages.
+
+ Zend is an open source PHP framework. Zend framework contains collection of PHP packages
+ which can be used to develop web applications and services including pdf generation classes.
+
+ CakePHP is an open-source framework for the rapid development and maintenance of web
+ applications built in PHP. It is based on the concept of MVC architecture, (models, views and
+ controller) which helps to build PHP web applications easy and simple with less code.
+
+ JSON stands for JavaScript Object Notation. It is a lightweight, open standard file format and
+ data interchange format that uses human-readable text. JSON is based on JavaScript object
+ syntax and is often used to transmit data in web applications.
+PROGRAMMING LANGUAGE
+
+ Simple HTML code
+
+ <!DOCTYPE html>
+ <html>
+ <body>
+
+ <h1>My First Heading</h1>
+ <p>My first paragraph</p>
+
+ </body>
+ </html>
+
+  You can write this code in a text editor and save it as index.htm or index.html
+  Put this file in the default directory of the web server
+  Open browser and type the URL of the webserver e.g www.example.com,
+
+   10.182.94.3, localhost, etc
+  Navigate to this html file (e.g. localhost/index.htm)
+PROGRAMMING LANGUAGE
+PROGRAMMING LANGUAGE
+
+Simple PHP code to handle HTML.
+HTML Input form and display message using PHP
+
+index.html                                    welcome.php
+
+<!DOCTYPE HTML>                               <html>
+<html>                                        <body>
+<body>
+                                              Welcome <?php echo $_POST["name"]; ?><br>
+<form action="welcome.php" method="post">     Your email address is: <?php echo
+Name: <input type="text" name="name"><br>     $_POST["email"]; ?>
+E-mail: <input type="text" name="email"><br>
+<input type="submit">                         </body>
+</form>                                       </html>
+
+</body>
+</html>
+PROGRAMMING LANGUAGE
+
+Simple PHP code to handle HTML.
+HTML Input form and display message using PHP
+
+index.html                                     welcome.php
+PROGRAMMING LANGUAGE
+
+Simple PHP code to connect to postgres database and input data
+
+index.html                                    insert.php
+
+<!DOCTYPE HTML>                               <?php
+<html>
+<body>                                        $db = pg_connect("host=localhost port=5432
+                                              dbname=mydatabase user=postgres
+<form action="insert.php" method="post">      password=myadmin123");
+Name: <input type="text" name="name"><br>
+E-mail: <input type="text" name="email"><br>  $query = "INSERT INTO employee
+<input type="submit">                         ('$_POST[name]','$_POST[name_emp]',
+</form>                                       '$_POST[email]','$_POST[email_emp]')";
+                                              $result = pg_query($query);
+</body>                                       ?>
+</html>
+                                              Please note:
+                                              mydatabase is the name of the database and
+                                              employee is the name of the table where values are
+                                              to be inserted. The employee table should have the
+                                              column name_emp and email_emp
+PROGRAMMING LANGUAGE
+
+Simple PHP code to connect to postgres database and display data
+
+index.html                                get.php
+
+<!DOCTYPE HTML>                           <?php
+<html>
+<body>                                    $db = pg_connect("host=localhost port=5432
+                                          dbname=mydatabase user=postgres
+<form action="get.php" method="post">     password=myadmin123");
+<h1>Get Values</h1>
+<p>Want to get values from database?</p>  echo "<h1>Print Name and email:</h1>";
+<input type="submit">
+</form>                                   for ($row = 0; $row < pg_numrows($result); $row++)
+                                          {
+</body>                                   $firstname = pg_result($result, $row, 'name_emp');
+</html>                                   echo $firstname ." ";
+                                          $email = pg_result($result, $row, 'email_emp');
+                                          echo $email ." ";
+                                          }
+                                          ?>
+HARDWARE MANAGEMENT
+
+Simple PHP code to connect to postgres database and input data
+
+                index.html                    get.php
+Want to get values from     Print Name and email
+database?                   Deependra Dixit dd@yahoo.com
+EFORMS.NIC.IN (https://eforms.nic.in/)
+
+Users can apply online for various IT Services provided by National
+Informatics Centre (NIC) as listed below using a single e-Forms Portal
+
+ DNS Services
+ User eMail creation in the @NIC.IN and @GOV.IN domain
+ IMAP/POP Services
+ Video Conferenceing Services
+ NIC Cloud Services (MeghRaj)
+ VPN application form for New user, Existing user and Project.
+ SMS services and IP whitelisting
+ Wifi Services
+EFORMS.NIC.IN (https://eforms.nic.in/)
+EFORMS.NIC.IN (https://eforms.nic.in/)
+ARTIFICIAL INTELLIGENCE
+
+  What is AI and ML?
+
+  Artificial Intelligence:
+
+  It describes the action of machines accomplishing tasks that have historically
+  required human intelligence. It includes technologies like machine learning, pattern
+  recognition, big data, neural networks, self algorithms etc.
+
+  AI involves complex things such as feeding a particular data into the machine and
+  making it react as per the different situations.
+
+  It is basically about creating self-learning patterns where the machine can give
+  answers to the never answered questions like a human would ever do.
+
+  AI technology helps in analyzing data and thus can improve the efficiency of systems
+  like power management in cars, mobile devices, weather predictions, video and
+  image analysis. Example (Use): Self driving cars.
+
+  Machine Learning:
+
+  Machine learning (ML) is a type of artificial intelligence (AI) that allows software
+  applications to become more accurate at predicting outcomes without being explicitly
+  programmed to do so. Machine learning algorithms use historical data as input to
+  predict new output values.
+ARTIFICIAL INTELLIGENCE
+
+  Artificial Intelligence (AI) and Machine Learning (ML) to increase the
+   efficiency of the justice delivery system.
+
+  Also, to explore the use of AI in the judicial domain, the Supreme Court of
+   India has constituted an Artificial Intelligence Committee.
+
+  The committee has identified application of AI technology in Translation of
+   judicial documents, Legal research assistance and Process automation.
+
+  What are the possible uses of AI & ML in the Judiciary?
+
+  Increasing efficiency of Judiciary: It has the possibility of helping judges conduct
+   trials faster and more effectively thereby reducing the pendency of cases.
+
+  It will assist legal professionals in devoting more time in developing better legal
+   reasoning, legal discussion and interpretation of laws.
+
+  Creating Judge Analytics: After "training" the application on a huge historical set of
+   precedents, the application is capable of highlighting key points that are relevant in
+   specific contracts.This will help analyse thousands of previous cases and create a
+   `judge analytics'.
+ARTIFICIAL INTELLIGENCE
+
+ARTIFICIAL INTELLIGENCE COMMITTEE OF THE HIGH COURT OF SIKKIM
+
+1)Hon'ble Mr. Justice Bhaskar Raj Pradhan  Chairman
+  Judge, High Court of Sikkim              Member
+                                           Member
+2)District & Sessions Judge                Member-Convenor
+  Gangtok District
+
+3)Dr. L. P. Sharma
+  Sr. Technical Director, NIC, Gangtok
+
+4)Central Project Coordinator
+  High Court of Sikkim
+ARTIFICIAL INTELLIGENCE
+
+ SUPACE
+
+ Recently, the Chief Justice of India (CJI) launched an Artificial Intelligence (AI) based
+ portal `SUPACE' in the judicial system aimed at assisting judges with legal research.
+
+ SUPACE is short for Supreme Court Portal for Assistance in Court's Efficiency.
+
+ FACTS:
+
+  It is a tool that collects relevant facts and laws and makes them available to a judge.
+  It is not designed to take decisions, but only to process facts and to make them available to
+
+    judges looking for an input for a decision.
+  Initially, it will be used on an experimental basis by the judges of Bombay and Delhi High
+
+    Courts who deal with criminal matters.
+  It will produce results customized to the need of the case and the way the judge thinks.
+  This will be time saving. It will help the judiciary and the court in reducing delays and
+
+    pendency of cases.
+  AI will present a more streamlined, cost effective and time bound means to the fundamental
+
+    right of access to justice.
+  It will make the service delivery mechanism transparent and cost-efficient.
+DIGITIZATION OF CASE RECORDS
+
+ The Digital Preservation Standard Operating Procedure (SOP) focuses on the following
+ objectives.
+
+  Digital preservation of judicial records to cover digitized as well as born digital data (computer
+    generated electronic records) and address the looming challenges and threats of rapid
+    technological obsolescence.
+
+  Envisage an interoperable implementation model and trustworthy mechanism for digital
+    preservation of records for the Supreme Court of India, 25 High Courts and 672 district courts
+    for boosting efficiency, consistency and exchange of records / data between judicial entities.
+
+  Provide coverage to all major aspects of digital preservation, as defined by the international
+    standards. The document incorporates select ISO standards which are globally accepted,
+    auditable, recognized as best practices and are readily available.
+
+  Create Judicial Digital Repositories (JDRs), which will be audited and certified as per ISO
+    16363 for trustworthiness, interoperability and reliability.
+
+  The certified JDRs could be leveraged for building AI /ML based intelligent applications to
+    increase efficiency and accuracy of justice delivery system.
+DIGITIZATION OF CASE RECORDS
+
+ The various types of archival material/data in the courts comprise of data or judgments/orders
+ and other records collectively called as "COURT Holdings", or simply "artifacts." The following
+ types of holdings are being considered for digitization:
+
+  Fresh filed cases.
+  Documents received in pending cases.
+  Pending records
+  Disposed records (daily disposal).
+  Disposed records (before digitization initiated).
+  Electronic documents created (digitally signed) by different stakeholders.
+DIGITIZATION OF CASE RECORDS
+
+ Trained human resource for JDR
+
+ The roles described in this section require relevant domain expertise, knowledge of digital
+ preservation best practices, ability to conceptualize and develop technological solutions and
+ manage the digital preservation infrastructure.
+
+  Digital Archivist
+ A digital archivist is an expert competent to appraise, acquire, authenticate, preserve, and
+ provide access to records in digital form.
+  Digital Curator
+ A digital curator has the domain knowledge to improve the quality of information and the data
+ being stored in the digital repositories for present and future use.
+  Digital Repository Manager
+ A digital repository manager has the technical expertise to manage and support the workflows,
+ hardware and software infrastructure necessary for digital preservation.
+  Digital Repository Administrator / Archive Administrator
+ The digital repository administrator or archive administrator looks after the administration of
+ staff, budgets, facilities, logistics, and other support functions of the digital repository.
+  System administrators
+ Digital preservation is a highly technology driven activity, and therefore, a trusted digital
+ repository requires to be strongly supported and sustained by human resource with technical
+ skills in system / storage / network administration and cloud management.
+DIGITIZATION OF CASE RECORDS
+
+Relevant points:
+
+  Judicial Digital Repositories requires centralization at the High Court Level
+   for effective management with a separate disaster recovery site.
+
+  Pre-scanning activities (p.47)
+  Scanning specification (PPI and DPI) and output format (p.49)
+  File naming of digitized record (p.53)
+DIGITIZATION OF CASE RECORDS
+
+ DMS SERVER ISSUES??
+
+  Backup of software and database?
+  Backup of scanned file?
+  How is DMS server kept?
+  DMS in cloud environment?
+
+  
+
+ COPY SECTION SOFTWARE ISSUES?
+  Backup of software and database?
+  How is CSS server kept?
+  CSS in cloud environment?
+HARDWARE MANAGEMENT
+
+ MOU BETWEEN ECOMMITTEE, HIGH COURT OF SIKKIM AND GOVERNMENT
+ OF SIKKIM.
+
+  Purchase of ICT hardware to be made by High Court of Sikkim
+
+  Guidelines and funds for initial purchase provided by eCommittee
+
+  Recurring cost, repairs and maintenance to be born by the State
+   Government of Sikkim.
+NETWORK SWITCH
+
+Here are some differences between managed and unmanaged switches:
+ Configuration
+Unmanaged switches are designed to be used without any configuration, while managed
+switches are fully configurable and customizable.
+ Data
+Unmanaged switches allow connected devices to communicate with each other. Managed
+switches provide performance data and allow for better control of networks and data frames.
+ Monitoring
+Unmanaged switches have limited or no tools for monitoring network activity or performance.
+Managed switches allow for monitoring and alerting on the health of the network or device.
+ Network size
+Unmanaged switches are commonly used in smaller networks or home environments, while
+managed switches are ideal for larger networks requiring customization and control.
+ Cost
+Unmanaged switches can cost are cheaper than managed switches.
+NETWORK SWITCH
+
+Steps to configure a network switch
+
+  Set a management IP and default gateway
+
+The management IP address is where you can log in to the switch for future
+
+ administrative tasks. Once your management IP is set up, you can use it to SSH into
+ the switch and configure it over the network.
+  Set hostname and domain name
+ In addition to setting the IP address of the switch, you should give it a logical
+ hostname.
+  Set logins on virtual terminal and console port
+ Strong passwords are an important part of hardening a managed switch, so next we'll
+ add a password to all virtual terminal lines.
+  Enable SSH
+ At some point, you'll find yourself in need of access to your network devices, and
+ you're not physically in the same room as them.
+NETWORK SWITCH
+
+ Steps to configure a network switch
+
+  Create VLANs
+ One of the most obvious reasons to use a managed switch is the ability to create
+ VLANs to separate network segments.
+  Add access ports to a VLAN
+ After we create our VLANs, we can add ports to them. For example, to add ports 5, 6,
+ and 7 as access ports in VLAN 2.
+  Configure trunk ports
+ If you need one port to transmit traffic from multiple VLANs, you'll need to designate it
+ a "trunk port". To make a port a trunk port, we simply access its configuration and set
+ the mode to trunk.
+  Save configuration and reboot
+ When our configuration is complete, we can save our changes to the startup
+ configuration and reboot.
+SERVER AND NETWORK SECURITY
+
+What is server security?
+
+Server security is the process of safeguarding your servers from malware,
+unauthorized access, data breaches, misuse, disruption, and other types of
+threats. The goal of server security is to optimize the integrity, confidentiality,
+and availability of the resources your servers share and the services they
+provide.
+
+Server security includes a combination of technical and administrative
+measures, such as using cybersecurity software, complex passwords,
+disabling unnecessary services and ports, and optimizing user privileges on a
+need-to-access basis.
+SERVER AND NETWORK SECURITY
+
+    How to secure a server
+
+  Security software: Invest in advanced server security software.
+
+  Software updates: Regularly install security patches to plug vulnerabilities and improve security
+    features.
+
+  Login security: Enforce strong passwords and multi-factor authentication in your organization.
+
+  Firewalls: A good firewall will block unauthorized access and control incoming and outgoing network
+    traffic.
+
+  Restrict access: Provide server access to only those who need it. Leverage permissions and
+    access control to restrict what they can do.
+
+  Event logging: Monitor server logs and security events to detect and respond to security incidents.
+
+  Backups: Regularly back up server data to minimize disruptions from a cyber attack or disaster.
+
+  Use SSL/TLS certificates: For layered security, implement SSL/TLS certificates. And they help
+    verify servers and clients to prevent unauthorized access.
+
+  Use VPN for remote access: Enable remote access through a VPN server to enhance server
+    security and protect your assets from threats.
+
+  Physical security: With the focus on online server security threats, it's easy to forget about physical
+    security. However, physical security threats can be just as detrimental to server security. Regularly
+    check your hardware for vulnerabilities and ensure access is restricted.
+SERVER AND NETWORK SECURITY
+
+ What is network security?
+
+ Network security is defined as the activity created to protect the integrity of your
+ network and data.
+
+ Any action intended to safeguard the integrity and usefulness of your data and network
+ is known as network security. This is a broad, all-encompassing phrase that covers
+ software and hardware solutions, as well as procedures, guidelines, and setups for
+ network usage, accessibility, and general threat protection.
+
+ The most basic example of Network Security is password protection of your network
+SERVER AND NETWORK SECURITY
+
+ Types of Network Security
+
+  Access Control: Network Access Control ensures that only a handful of authorized personnel must
+    be able to work with the allowed amount of resources.
+
+  Antivirus and Anti-malware Software: This type of network security ensures that any malicious
+    software does not enter the network and jeopardize the security of the data. Malicious software like
+    Viruses, Trojans, and Worms is handled by the same. This ensures that not only the entry of the
+    malware is protected but also that the system is well-equipped to fight once it has entered.
+
+  Firewalls: A firewall is a network security device, either hardware or software-based, which monitors
+    all incoming and outgoing traffic and based on a defined set of security rules accepts, rejects, or
+    drops that specific traffic. Before Firewalls, network security was performed by Access Control Lists
+    (ACLs) residing on routers.
+
+  Application Security: Application security denotes the security precautionary measures utilized at
+    the application level to prevent the stealing or capturing of data or code inside the application. It also
+    includes the security measurements made during the advancement and design of applications, as
+    well as techniques and methods for protecting the applications whenever.
+
+  Intrusion Prevention System(IPS): An intrusion Prevention System is also known as Intrusion
+    Detection and Prevention System. It is a network security application that monitors network or
+    system activities for malicious activity. The major functions of intrusion prevention systems are to
+    identify malicious activity, collect information about this activity, report it, and attempt to block or stop
+    it.
+SERVER AND NETWORK SECURITY
+
+MAC BINDING
+MAC-binding means binding the media access control (MAC) address to a device's
+Internet Protocol (IP) address. Think about this as putting a nametag on every device
+that connects to a network. So, if there is a change to either the MAC address or the
+device's IP address, you will not be able to connect to that network.
+
+MAC-IP-port binding allows a device to filter packets and thus enhance security. With
+MAC-IP-port binding configured, a port checks whether the source MAC and IP
+addresses of an inbound packet is identical to the configured MAC-to-IP binding on the
+port. If so, it forwards the packet; otherwise, it discards the packet.
+
+MAC binding is usually performed on network switches and routers ton enhance
+network security.
+SERVER LOGS
+
+What is a log file?
+Log files are the primary data source for network monitoring. A log file is a computer-
+generated data file that contains information about usage patterns, activities, and
+operations within an operating system, application, server or another device. Log files
+show whether resources are performing properly and optimally and can help in
+identifying errors and threats.
+Linux event logs
+The Linux operating system is uniquely configured to generate and store log files.
+Linux creates a continuous timeline of events that take place on the system, including
+every event related to the server, kernel, and running applications. Linux places events
+in four distinct categories:
+ Application logs
+ Event logs
+ Service logs
+ System logs
+SERVER LOGS
+
+Where to find log files?
+
+Log files are typically plain ASCII text in a standard log file format and in UBUNTU
+SERVER most of them sit in the traditional system log subdirectory /var/log.
+
+Viewing log files
+
+ less command  (less logfile.log) [shift+g to go to end, ctrl+z to close]
+
+ dmesg         (dmesg logfile.log)
+
+ Head          (head logfile.log)
+
+ tail          (tail logfile.log)
+
+ more          (more logfile.log)
+
+ cat           (cat logfile.log)
+
+ Log File Viewer/System Log Viewer (GUI based)
+THANK YOU
+
