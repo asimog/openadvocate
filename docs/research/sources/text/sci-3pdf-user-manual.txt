@@ -1,0 +1,30 @@
+    USER MANUAL
+
+How to Access 3-PDFs
+    via e-Filing 2.0
+
+                                                            Version 1.0
+                                                            08.03.2024
+STEPS
+1. AORs to log into e-filing.
+2. In the Dashboard, go to ‘My Cases soon to be listed’. 3-PDFs can be accessed only for Court No.1. So,
+select any item number relating to Court No.1 under the ‘My cases soon to be listed’ option.
+3. Click on drop down arrow shown with the date and select Paper Book (3PDF) option.
+4. After clicking Paper Book (3PDF) option, user shall be able to download the Zip file containing the PDFs.
+
+OR
+After clicking on Paper Book (3PDF) zip file containing the paper book, ZIP file will be automatically
+downloaded.
+          5. Extract the downloaded .zip file.
+
+PDF Page
+
+Number 7. 6. Open PDF to see content of the downloaded paper-book PDF and navigate through book-markings.
+
+           Bookmarking
+7. Please cite PDF page number while referring to any document during course of hearing.
+
+* Depending on the availability of additional documents, at times the shared digitized paper-books may
+have only one PDF file (of Main document) or two PDF files (Main and Additional PDFs without ROP/OR
+PDF).
+

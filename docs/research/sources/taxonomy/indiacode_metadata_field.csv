@@ -1,0 +1,15 @@
+field,meaning,observed_example
+dc.identifier.act_id,Act identity (join key; Sections carry it),AC_CEN_5_0_202609_1791525105138
+dc.identifier.act_number,Act number,09
+dc.date.act_year,Act year,2026
+dc.date.enact_date,Enactment date,2026-04-09
+dc.date.enforcement_date,Enforcement date (search field; not in samples),
+dc.title / dc.title.long_title,Short title / long title,
+dc.identifier.state_id / state_name,Jurisdiction; 1 = CENTRAL,1 / CENTRAL
+dc.identifier.ministry_id / ministry_name,Administering ministry,5 / Ministry of Home Affairs
+dc.identifier.department_id / department_name,Department (State Acts),1139 / Revenue Department
+dc.identifier.section_id,Section identity,100467
+dc.identifier.section_number,Section number as printed,2
+dc.identifier.repealed / act_repealed,Repeal flags,false
+dc.identifier.collection,Item type (see indiacode_item_type),"ACT, SECTION, ACT_AMENDMENT"
+dc.identifier.uri,Handle URI; not identity (some point at test1.indiacode.nic.in),https://indiacode.gov.in/handle/123456789/620453

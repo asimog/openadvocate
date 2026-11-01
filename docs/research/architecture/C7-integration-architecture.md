@@ -24,8 +24,8 @@ Make the **ledger the kernel**. It already is the single authority over canonica
 |---|---|---|---|
 | Canonical state | `Ledger` in `packages/core/src/ledger.ts`: append-only, hash-chained, every event schema-validated | `append()` checks `OWNERS`, then `assertValid('LedgerEvent')`, then chains `prev` → `hashOf` [V] | In memory only. SQLite is Phase 5 in `docs/plan.md` [V] |
 | Authority | `OWNERS: Record<EventType, Actor['kind'][]>`, a static table of 13 event types × 7 actor kinds (`lawyer`, `notebook`, `verifier`, `studio`, `moto`, `pleading`, `court`) | lines 10–24 [V]. `verifyChain` re-checks owners when replaying (line 72) [V] | Enforced, but by **kind**, not by instance. Any code holding a `Ledger` can construct any `Actor` |
-| Schema / standard | `standard/schemas/ilo.schema.json` → `ilo.gen.ts` by codegen; ajv validation | `package.json` scripts, `core/src/validate.ts` [V] | Implemented. This is the Setu-adjacent seam (§7.2) |
-| Provenance / receipts | `core/src/receipt.ts`, `apps/cli/src/ilac.ts` (signed receipts; last commit "ilac verify requires the expected signer key") [V] | Implemented |
+| Schema / standard | `standard/schemas/ulos.schema.json` → `ulos.gen.ts` by codegen; ajv validation | `package.json` scripts, `core/src/validate.ts` [V] | Implemented. This is the Setu-adjacent seam (§7.2) |
+| Provenance / receipts | `core/src/receipt.ts`, `apps/cli/src/ulos.ts` (signed receipts; commit 6ac2def "ilac verify requires the expected signer key", before the rename to ulos) [V] | Implemented |
 | Layers | `notebook` (record), `citations` (verification), `studio` (argument + MOTO), `pleading` (SLP state machine, defects, limitation), `matter` (composed views) | `docs/architecture.md`, package dirs [V] | Implemented as libraries. Dependencies point downward only [V] |
 | Workflow | `packages/pleading/src/machine.ts` + `guards.ts`: an explicit SLP state machine that writes `pleading.transitioned` | [V] | Implemented, hard-wired for SLP |
 | Agent / model path | `studio/src/moto.ts`: `ArgumentModel` port, "the only generative port in the system". `fixtureModel` for tests. A real provider (OpenRouter or local) is a comment only | lines 12–33, 65 [V] | Port exists. No runtime, no tool-calling, no budget |
@@ -163,7 +163,7 @@ There are three parts, and none is a new "framework": (1) the `task.*` protocol 
 | Kernel service | Exists? | Note |
 |---|---|---|
 | Ledger (append, validate, chain, `OWNERS`) | Yes | Extended: `OWNERS` checks grants (§8) |
-| Schema registry (ILO + extension-declared event/record schemas, namespaced) | Partially (ILO only) | Extensions may add **namespaced** event types `x.<extId>.*`, which never override core types |
+| Schema registry (ULOS + extension-declared event/record schemas, namespaced) | Partially (ULOS only) | Extensions may add **namespaced** event types `x.<extId>.*`, which never override core types |
 | Matter and document identity (`source.added`, revisions by hash) | Partially | Revision events are added for the editor (§7.1) |
 | Extension registry and lifecycle | No | New, small |
 | Capability grants and consent | No | New |
@@ -238,7 +238,7 @@ Process isolation alone is not a sandbox: a Node child can still read the disk. 
 
 ### 5.6 Versioning
 
-There is one public API version (`engines.openadvocate`) covering three surfaces: the JSON-RPC methods, the manifest schema, and the ILO schema version. The ILO is a standard, so it should version independently from the app (owned by the standards workstream). The host supports N and N-1 API majors through an adapter shim.
+There is one public API version (`engines.openadvocate`) covering three surfaces: the JSON-RPC methods, the manifest schema, and the ULOS schema version. The ULOS is a standard, so it should version independently from the app (owned by the standards workstream). The host supports N and N-1 API majors through an adapter shim.
 
 ---
 
@@ -269,7 +269,7 @@ The SLP module = `in.openadvocate.slp`, which contributes the `slp` workflow (to
 
 ```
 states, transitions { from, to, guard: validatorId[] | requiresDecision: lawyer }
-requiredDocuments (by ILO document type), deadlines (tool: limitation), rulesVersion
+requiredDocuments (by ULOS document type), deadlines (tool: limitation), rulesVersion
 ```
 
 The host evaluates guards by running the named validators and appends `pleading.transitioned` (or `x.<ext>.transitioned`) only when they pass. Human approval points are transitions whose guard requires a lawyer-actor event. **Do not build a generic engine.** The declaration is data the SLP code already implies. The second workflow (Bail, Writ) is the test of whether it generalises.
@@ -292,15 +292,15 @@ What the editor *needs from the host*, and nothing more:
 | Events | Subscribes to `document.*` and `citation.verified` to mark stale citations |
 | Permissions | `documents.read:matter`, `documents.propose`, `tool.invoke:citations.*` |
 
-New kernel event types needed: `document.revision.proposed`, `document.revision.accepted`. **These belong in the ILO schema, so coordinate them with the standards workstream rather than adding them unilaterally.** This is consistent with C6 §5 ("Editor ↔ host interface: typed, in-process call through a host object; not filesystem"). The one refinement here: that host object should be *the same* scoped API every extension receives, not a bespoke editor API.
+New kernel event types needed: `document.revision.proposed`, `document.revision.accepted`. **These belong in the ULOS schema, so coordinate them with the standards workstream rather than adding them unilaterally.** This is consistent with C6 §5 ("Editor ↔ host interface: typed, in-process call through a host object; not filesystem"). The one refinement here: that host object should be *the same* scoped API every extension receives, not a bespoke editor API.
 
 ### 7.2 Setu Commons (internals owned elsewhere)
 
-The repo's `standard/` (ILO schema, ontology, codegen, `examples/`) is the current consumption seam [V]. How Open Advocate consumes Setu:
+The repo's `standard/` (ULOS schema, ontology, codegen, `examples/`) is the current consumption seam [V]. How Open Advocate consumes Setu:
 
 - **Schemas:** the kernel's schema registry loads published Setu schema versions (pinned, hash-verified), and codegen produces types. The app never forks the taxonomy.
 - **Identifiers:** court, case, citation and document identifiers are resolved by a `knowledge`/`connector` contribution implementing Setu's resolver interface, whatever Setu defines. **This document does not define that interface.**
-- **Compatibility:** `engines` in the manifest references the ILO/Setu version. The host refuses events whose schema version it cannot validate.
+- **Compatibility:** `engines` in the manifest references the ULOS/Setu version. The host refuses events whose schema version it cannot validate.
 - **Ownership:** Setu publishes, Open Advocate validates and stores. Open Advocate never becomes Setu's registry.
 
 ### 7.3 Court connectors
@@ -359,7 +359,7 @@ Proofs 1–3 need no Electron and no new dependencies.
 | A5 | Execution models R1 | none | In-process (first-party) + child process (third-party, runtimes) | WASM, workers, hosted | Node permission flags as the R1 sandbox | Proof 4 | Proposed |
 | A6 | Agent runtime | `ArgumentModel` port | Out-of-process `agentRuntime` contribution, Pi via adapter | Embed Pi, custom loop | Runtime swappable without host change | Proof 4 | Proposed, pending Pi RPC check |
 | A7 | Authority | `OWNERS` by kind | Kind table + per-extension grants, grants on the ledger | Grants outside the ledger | Consent is auditable | Proof 1 | Proposed |
-| A8 | Document revisions | none (editor workstream) | `document.revision.proposed/accepted` in ILO, bound to base hash | Editor owns storage | Needs the standards workstream to agree | Editor team review | Open |
+| A8 | Document revisions | none (editor workstream) | `document.revision.proposed/accepted` in ULOS, bound to base hash | Editor owns storage | Needs the standards workstream to agree | Editor team review | Open |
 | A9 | Module concept | `pleading` package | Module = extension bundle, no extra registry | Separate module system | One registry | Proof 3 | Proposed |
 | A10 | Persistence | in-memory Ledger | Unchanged here: SQLite per `plan.md` Phase 5. Extension state is either ledger events or private KV per extension | Postgres, graph DB | No new store | — | Deferred |
 

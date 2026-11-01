@@ -1,0 +1,6 @@
+code,label,fees
+A1,Urgent Certified,Rs 5 urgency + Rs 10 per certification + Rs 1 per page
+A2,Ordinary Urgent Copy,Rs 5 urgency + Rs 1 per page
+B,Ordinary Certified Copy,Rs 10 per certification + Rs 1 per page
+C,Ordinary Copy,Rs 1 per page
+D,Digital Copy (Authenticated Copy),first digital copy free; emailed; QR-verifiable; digitally signed

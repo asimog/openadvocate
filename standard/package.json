@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./schema": "./schemas/ilo.schema.json",
-    "./ontology": "./ontology/ilo.jsonld"
+    "./schema": "./schemas/ulos.schema.json",
+    "./ontology": "./ontology/ulos.jsonld"
   }
 }

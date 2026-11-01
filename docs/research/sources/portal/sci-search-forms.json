@@ -1,0 +1,2799 @@
+{
+ "case-status-diary-no/": {
+  "url": "https://www.sci.gov.in/case-status-diary-no/",
+  "title": "Diary number | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "diary_no",
+    "id": "diary_no",
+    "label": "Diary Number *"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Diary year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Diary number",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:33:46.619Z"
+ },
+ "case-status-party-name/": {
+  "url": "https://www.sci.gov.in/case-status-party-name/",
+  "title": "Party Name | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "party_type",
+    "id": "party_type",
+    "label": "Petitioner / Respondent *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "any",
+      "Any"
+     ],
+     [
+      "P",
+      "Petitioner"
+     ],
+     [
+      "R",
+      "Respondent"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "party_name",
+    "id": "party_name",
+    "label": "Party's Name *"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Diary Year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "party_status",
+    "id": "party_status",
+    "label": "Status *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "P",
+      "Pending"
+     ],
+     [
+      "D",
+      "Disposed"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Party Name",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:33:50.792Z"
+ },
+ "case-status-aor-name/": {
+  "url": "https://www.sci.gov.in/case-status-aor-name/",
+  "title": "Error 404 | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "s",
+    "id": "",
+    "label": "Search"
+   }
+  ],
+  "headings": [
+   "404 Not Found, Sorry For the Inconvenience",
+   "Error 404: Page Not Found",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:33:56.833Z"
+ },
+ "case-status-court/": {
+  "url": "https://www.sci.gov.in/case-status-court/",
+  "title": "Court | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_status_court",
+    "id": "case_status_court",
+    "label": "Court *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "4",
+      "Supreme Court"
+     ],
+     [
+      "1",
+      "High Court"
+     ],
+     [
+      "3",
+      "District Court"
+     ],
+     [
+      "5",
+      "State Agency"
+     ]
+    ]
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_status_state",
+    "id": "case_status_state",
+    "label": "State *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ]
+    ]
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_status_bench",
+    "id": "case_status_bench",
+    "label": "Bench",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ]
+    ]
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_status_case_type",
+    "id": "case_status_case_type",
+    "label": "Case Type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "case_no",
+    "id": "case_no",
+    "label": "Case Number"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Case Year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "listing_date",
+    "id": "listing_date",
+    "label": "Order Date *"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Court",
+   "November 2026",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:01.141Z"
+ },
+ "case-status-caveat/": {
+  "url": "https://www.sci.gov.in/case-status-caveat/",
+  "title": "Error 404 | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "s",
+    "id": "",
+    "label": "Search"
+   }
+  ],
+  "headings": [
+   "404 Not Found, Sorry For the Inconvenience",
+   "Error 404: Page Not Found",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:05.975Z"
+ },
+ "judgements-case-no/": {
+  "url": "https://www.sci.gov.in/judgements-case-no/",
+  "title": "Case Number | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_type",
+    "id": "case_type",
+    "label": "Select case type *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "case_no",
+    "id": "case_no",
+    "label": "Case Number *"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Diary year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Case Number",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:10.294Z"
+ },
+ "judgements-diary-no/": {
+  "url": "https://www.sci.gov.in/judgements-diary-no/",
+  "title": "diary number | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "diary_no",
+    "id": "diary_no",
+    "label": "Diary Number *"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Diary year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "diary number",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:15.888Z"
+ },
+ "judgements-judgement-date/": {
+  "url": "https://www.sci.gov.in/judgements-judgement-date/",
+  "title": "Judgment Date | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "from_date",
+    "id": "from_date",
+    "label": "From Date *"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "to_date",
+    "id": "to_date",
+    "label": "To Date *"
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Judgment Date",
+   "November 2026",
+   "November 2026",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:22.553Z"
+ },
+ "judgements-party-name/": {
+  "url": "https://www.sci.gov.in/judgements-party-name/",
+  "title": "Error 404 | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "s",
+    "id": "",
+    "label": "Search"
+   }
+  ],
+  "headings": [
+   "404 Not Found, Sorry For the Inconvenience",
+   "Error 404: Page Not Found",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:29.587Z"
+ },
+ "judgements-constitution-bench/": {
+  "url": "https://www.sci.gov.in/judgements-constitution-bench/",
+  "title": "Error 404 | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "s",
+    "id": "",
+    "label": "Search"
+   }
+  ],
+  "headings": [
+   "404 Not Found, Sorry For the Inconvenience",
+   "Error 404: Page Not Found",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:36.661Z"
+ },
+ "daily-order-case-no/": {
+  "url": "https://www.sci.gov.in/daily-order-case-no/",
+  "title": "Case Number | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "case_type",
+    "id": "case_type",
+    "label": "Select case type *",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "case_no",
+    "id": "case_no",
+    "label": "Case Number *"
+   },
+   {
+    "tag": "select",
+    "type": "select-one",
+    "name": "year",
+    "id": "year",
+    "label": "Diary year *",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   },
+   {
+    "tag": "input",
+    "type": "text",
+    "name": "siwp_captcha_value",
+    "id": "siwp_captcha_value_0",
+    "label": "Please enter the answer to the given CAPTCHA question? *"
+   },
+   {
+    "tag": "input",
+    "type": "submit",
+    "name": "submit",
+    "id": "",
+    "label": ""
+   },
+   {
+    "tag": "input",
+    "type": "reset",
+    "name": "",
+    "id": "",
+    "label": ""
+   }
+  ],
+  "headings": [
+   "Case Number",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:42.098Z"
+ },
+ "cause-list/": {
+  "url": "https://www.sci.gov.in/cause-list/",
+  "title": "Cause List | Supreme Court of India | India",
+  "fields": [
+   {
+    "tag": "input",
+    "type": "search",
+    "name": "s",
+    "id": "search",
+    "label": " "
+   }
+  ],
+  "headings": [
+   "Cause List",
+   "Cause Lists at a Glance",
+   "Cause List",
+   "November 2026",
+   "November 2026",
+   "November 2026",
+   "Index",
+   "Download App From"
+  ],
+  "retrieved": "2026-11-01T16:34:47.015Z"
+ }
+}

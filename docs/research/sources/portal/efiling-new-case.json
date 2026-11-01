@@ -1,0 +1,76 @@
+{
+ "url": "https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/",
+ "title": "eFiling Services | New Case Filing",
+ "fields": [
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "selTagState_input_search",
+   "label": "Search"
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "selDistrict_input_search",
+   "label": "Search"
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "selEstablishment_input_search",
+   "label": "Search"
+  },
+  {
+   "tag": "input",
+   "type": "radio",
+   "name": "fcasetype",
+   "id": "fcivil",
+   "label": "Civil"
+  },
+  {
+   "tag": "input",
+   "type": "radio",
+   "name": "fcasetype",
+   "id": "fcriminal",
+   "label": "Criminal"
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "selMainCaseType_input_search",
+   "label": "Search"
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "selCaseType_input_search",
+   "label": "Search"
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "fparty_name",
+   "id": "fparty_name",
+   "label": "Plaintiff *",
+   "maxlength": 100,
+   "required": true
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "fparty_mobile",
+   "id": "fparty_mobile",
+   "label": "Mobile Number *",
+   "maxlength": 10,
+   "required": true
+  }
+ ],
+ "tables": [],
+ "text": "A-\nA\nA+\nA\nA\neFiling Services\nMy Partners \nCase Filing \nVakalat \nPleadings \nePayments \nApplications \nPortfolio \nSelect State or High Court:\nDelhi\nSearch\n \nUser name\n[REDACTED]\nHelp\n Initial Inputs\n  Litigant\n  Fact Details\n Case Details\n  e-File\n\n\nInitial Input Form\n\nFields marked with * are mandatory.\n\nDistrict/Establishment\nNote: Following fields are Compulsar\nSelect District *\nSelect District\nSearch\nSelect District\nCentral\nSelect Establishment *\nSelect an Option\nSearch\nCase Types\nNote: Following fields are Compulsar\nNature *\nNature\n Civil    Criminal\nRelief Sought *\nSelect Case\nSearch\nCase Type *\nSelect an Option\nSearch\nParty Details\nNote: Following fields are Compulsar\n\n\nPlaintiff *\nMobile Number *\n\n\n Submit    Reset\nB7   Version : 3.0 © 2026 eFiling Services eCommittee Supreme Court of India. All Rights Reserved.",
+ "retrieved": "2026-11-01T16:13:44.646Z"
+}

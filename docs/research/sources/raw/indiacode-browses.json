@@ -1,0 +1,152 @@
+{
+  "_embedded" : {
+    "browses" : [ {
+      "id" : "dateissued",
+      "browseType" : "flatBrowse",
+      "dataType" : "date",
+      "sortOptions" : [ {
+        "name" : "title",
+        "metadata" : "dc.title"
+      }, {
+        "name" : "dateissued",
+        "metadata" : "dc.date.issued"
+      }, {
+        "name" : "dateaccessioned",
+        "metadata" : "dc.date.accessioned"
+      } ],
+      "order" : "ASC",
+      "type" : "browse",
+      "metadata" : [ "dc.date.issued" ],
+      "_links" : {
+        "items" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/dateissued/items"
+        },
+        "entries" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/dateissued/entries"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/dateissued"
+        }
+      }
+    }, {
+      "id" : "author",
+      "browseType" : "valueList",
+      "dataType" : "text",
+      "sortOptions" : [ {
+        "name" : "title",
+        "metadata" : "dc.title"
+      }, {
+        "name" : "dateissued",
+        "metadata" : "dc.date.issued"
+      }, {
+        "name" : "dateaccessioned",
+        "metadata" : "dc.date.accessioned"
+      } ],
+      "order" : "ASC",
+      "type" : "browse",
+      "metadata" : [ "dc.contributor.*", "dc.creator" ],
+      "_links" : {
+        "entries" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/author/entries"
+        },
+        "items" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/author/items"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/author"
+        }
+      }
+    }, {
+      "id" : "title",
+      "browseType" : "flatBrowse",
+      "dataType" : "title",
+      "sortOptions" : [ {
+        "name" : "title",
+        "metadata" : "dc.title"
+      }, {
+        "name" : "dateissued",
+        "metadata" : "dc.date.issued"
+      }, {
+        "name" : "dateaccessioned",
+        "metadata" : "dc.date.accessioned"
+      } ],
+      "order" : "ASC",
+      "type" : "browse",
+      "metadata" : [ "dc.title" ],
+      "_links" : {
+        "items" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/title/items"
+        },
+        "entries" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/title/entries"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/title"
+        }
+      }
+    }, {
+      "id" : "subject",
+      "browseType" : "valueList",
+      "dataType" : "text",
+      "sortOptions" : [ {
+        "name" : "title",
+        "metadata" : "dc.title"
+      }, {
+        "name" : "dateissued",
+        "metadata" : "dc.date.issued"
+      }, {
+        "name" : "dateaccessioned",
+        "metadata" : "dc.date.accessioned"
+      } ],
+      "order" : "ASC",
+      "type" : "browse",
+      "metadata" : [ "dc.subject.*" ],
+      "_links" : {
+        "entries" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/subject/entries"
+        },
+        "items" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/subject/items"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/subject"
+        }
+      }
+    }, {
+      "id" : "srsc",
+      "browseType" : "hierarchicalBrowse",
+      "facetType" : "subject",
+      "vocabulary" : "srsc",
+      "type" : "browse",
+      "metadata" : [ "dc.subject" ],
+      "_links" : {
+        "vocabulary" : {
+          "href" : "https://indiacode.gov.in/server/api/submission/vocabularies/srsc/"
+        },
+        "items" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/srsc/items"
+        },
+        "entries" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/srsc/entries"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/browses/srsc"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/browses?size=9999"
+    },
+    "search" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/browses/search"
+    }
+  },
+  "page" : {
+    "size" : 1000,
+    "totalElements" : 5,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

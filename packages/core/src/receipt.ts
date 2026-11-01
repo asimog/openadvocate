@@ -1,7 +1,7 @@
 import { ed25519 } from '@noble/curves/ed25519.js';
 import { bytesToHex, hexToBytes, utf8ToBytes } from '@noble/hashes/utils.js';
 import { canonical, sha256 } from './hash.ts';
-import type { Receipt, SignedReceipt } from './ilo.gen.ts';
+import type { Receipt, SignedReceipt } from './ulos.gen.ts';
 import { assertValid } from './validate.ts';
 
 export const newSigningKey = (): Uint8Array => ed25519.utils.randomSecretKey();

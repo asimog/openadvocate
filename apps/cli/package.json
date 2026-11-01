@@ -2,6 +2,6 @@
   "name": "@vakilbench/cli",
   "private": true,
   "type": "module",
-  "bin": { "ilac": "./src/ilac.ts" },
+  "bin": { "ulos": "./src/ulos.ts" },
   "dependencies": { "@vakilbench/core": "workspace:*" }
 }

@@ -1,0 +1,1006 @@
+{
+ "url": "https://delhihighcourt.nic.in/app/get-case-type-status",
+ "title": "High Court of Delhi",
+ "fields": [
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "",
+   "id": "",
+   "label": "",
+   "options": [
+    [
+     "Hindi",
+     "Hindi"
+    ]
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "case_type",
+   "id": "case_type",
+   "label": "",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "ADMIN.REPORT",
+     "ADMIN.REPORT"
+    ],
+    [
+     "ARB.A.",
+     "ARB.A."
+    ],
+    [
+     "ARB. A. (COMM.)",
+     "ARB. A. (COMM.)"
+    ],
+    [
+     "ARB.P.",
+     "ARB.P."
+    ],
+    [
+     "BAIL APPLN.",
+     "BAIL APPLN."
+    ],
+    [
+     "CA",
+     "CA"
+    ],
+    [
+     "CA (COMM.IPD-CR)",
+     "CA (COMM.IPD-CR)"
+    ],
+    [
+     "C.A.(COMM.IPD-GI)",
+     "C.A.(COMM.IPD-GI)"
+    ],
+    [
+     "C.A.(COMM.IPD-PAT)",
+     "C.A.(COMM.IPD-PAT)"
+    ],
+    [
+     "C.A.(COMM.IPD-PV)",
+     "C.A.(COMM.IPD-PV)"
+    ],
+    [
+     "C.A.(COMM.IPD-TM)",
+     "C.A.(COMM.IPD-TM)"
+    ],
+    [
+     "CAVEAT(CO.)",
+     "CAVEAT(CO.)"
+    ],
+    [
+     "CC(ARB.)",
+     "CC(ARB.)"
+    ],
+    [
+     "CCP(CO.)",
+     "CCP(CO.)"
+    ],
+    [
+     "CCP(REF)",
+     "CCP(REF)"
+    ],
+    [
+     "CEAC",
+     "CEAC"
+    ],
+    [
+     "CEAR",
+     "CEAR"
+    ],
+    [
+     "CHAT.A.C.",
+     "CHAT.A.C."
+    ],
+    [
+     "CHAT.A.REF",
+     "CHAT.A.REF"
+    ],
+    [
+     "CMI",
+     "CMI"
+    ],
+    [
+     "CM(M)",
+     "CM(M)"
+    ],
+    [
+     "CM(M)-IPD",
+     "CM(M)-IPD"
+    ],
+    [
+     "C.O.",
+     "C.O."
+    ],
+    [
+     "CO.APP.",
+     "CO.APP."
+    ],
+    [
+     "CO.APPL.(C)",
+     "CO.APPL.(C)"
+    ],
+    [
+     "CO.APPL.(M)",
+     "CO.APPL.(M)"
+    ],
+    [
+     "CO.A(SB)",
+     "CO.A(SB)"
+    ],
+    [
+     "C.O.(COMM.IPD-CR)",
+     "C.O.(COMM.IPD-CR)"
+    ],
+    [
+     "C.O.(COMM.IPD-GI)",
+     "C.O.(COMM.IPD-GI)"
+    ],
+    [
+     "C.O.(COMM.IPD-PAT)",
+     "C.O.(COMM.IPD-PAT)"
+    ],
+    [
+     "C.O. (COMM.IPD-TM)",
+     "C.O. (COMM.IPD-TM)"
+    ],
+    [
+     "CO.EX.",
+     "CO.EX."
+    ],
+    [
+     "CONT.APP.(C)",
+     "CONT.APP.(C)"
+    ],
+    [
+     "CONT.CAS(C)",
+     "CONT.CAS(C)"
+    ],
+    [
+     "CONT.CAS.(CRL)",
+     "CONT.CAS.(CRL)"
+    ],
+    [
+     "CO.PET.",
+     "CO.PET."
+    ],
+    [
+     "C.REF.(O)",
+     "C.REF.(O)"
+    ],
+    [
+     "CRL.A.",
+     "CRL.A."
+    ],
+    [
+     "CRL.C.REF.",
+     "CRL.C.REF."
+    ],
+    [
+     "CRL.L.P.",
+     "CRL.L.P."
+    ],
+    [
+     "CRL.M.C.",
+     "CRL.M.C."
+    ],
+    [
+     "CRL.M.(CO.)",
+     "CRL.M.(CO.)"
+    ],
+    [
+     "CRL.M.I.",
+     "CRL.M.I."
+    ],
+    [
+     "CRL.O.",
+     "CRL.O."
+    ],
+    [
+     "CRL.O.(CO.)",
+     "CRL.O.(CO.)"
+    ],
+    [
+     "CRL.REF.",
+     "CRL.REF."
+    ],
+    [
+     "CRL.REV.P.",
+     "CRL.REV.P."
+    ],
+    [
+     "CRL.REV.P.(MAT.)",
+     "CRL.REV.P.(MAT.)"
+    ],
+    [
+     "CRL.REV.P.(NDPS)",
+     "CRL.REV.P.(NDPS)"
+    ],
+    [
+     "CRL.REV.P.(NI)",
+     "CRL.REV.P.(NI)"
+    ],
+    [
+     "C.R.P.",
+     "C.R.P."
+    ],
+    [
+     "CRP-IPD",
+     "CRP-IPD"
+    ],
+    [
+     "C.RULE",
+     "C.RULE"
+    ],
+    [
+     "CS(COMM)",
+     "CS(COMM)"
+    ],
+    [
+     "CS(COMM) INFRA",
+     "CS(COMM) INFRA"
+    ],
+    [
+     "CS(OS)",
+     "CS(OS)"
+    ],
+    [
+     "CS(OS) GP",
+     "CS(OS) GP"
+    ],
+    [
+     "CUSAA",
+     "CUSAA"
+    ],
+    [
+     "CUS.A.C.",
+     "CUS.A.C."
+    ],
+    [
+     "CUS.A.R.",
+     "CUS.A.R."
+    ],
+    [
+     "CUSTOM A.",
+     "CUSTOM A."
+    ],
+    [
+     "DEATH SENTENCE REF.",
+     "DEATH SENTENCE REF."
+    ],
+    [
+     "DEMO",
+     "DEMO"
+    ],
+    [
+     "EDC",
+     "EDC"
+    ],
+    [
+     "EDR",
+     "EDR"
+    ],
+    [
+     "EFA(COMM)",
+     "EFA(COMM)"
+    ],
+    [
+     "EFA(OS)",
+     "EFA(OS)"
+    ],
+    [
+     "EFA(OS)  (COMM)",
+     "EFA(OS) (COMM)"
+    ],
+    [
+     "EFA(OS)(IPD)",
+     "EFA(OS)(IPD)"
+    ],
+    [
+     "EL.PET.",
+     "EL.PET."
+    ],
+    [
+     "ETR",
+     "ETR"
+    ],
+    [
+     "EX.F.A.",
+     "EX.F.A."
+    ],
+    [
+     "EX.P.",
+     "EX.P."
+    ],
+    [
+     "EX.S.A.",
+     "EX.S.A."
+    ],
+    [
+     "FAO",
+     "FAO"
+    ],
+    [
+     "FAO (COMM)",
+     "FAO (COMM)"
+    ],
+    [
+     "FAO-IPD",
+     "FAO-IPD"
+    ],
+    [
+     "FAO(OS)",
+     "FAO(OS)"
+    ],
+    [
+     "FAO(OS) (COMM)",
+     "FAO(OS) (COMM)"
+    ],
+    [
+     "FAO(OS)(IPD)",
+     "FAO(OS)(IPD)"
+    ],
+    [
+     "GCAC",
+     "GCAC"
+    ],
+    [
+     "GCAR",
+     "GCAR"
+    ],
+    [
+     "GTA",
+     "GTA"
+    ],
+    [
+     "GTC",
+     "GTC"
+    ],
+    [
+     "GTR",
+     "GTR"
+    ],
+    [
+     "I.A.",
+     "I.A."
+    ],
+    [
+     "I.P.A.",
+     "I.P.A."
+    ],
+    [
+     "ITA",
+     "ITA"
+    ],
+    [
+     "ITC",
+     "ITC"
+    ],
+    [
+     "ITR",
+     "ITR"
+    ],
+    [
+     "ITSA",
+     "ITSA"
+    ],
+    [
+     "LA.APP.",
+     "LA.APP."
+    ],
+    [
+     "LPA",
+     "LPA"
+    ],
+    [
+     "MAC.APP.",
+     "MAC.APP."
+    ],
+    [
+     "MAT.",
+     "MAT."
+    ],
+    [
+     "MAT.APP.",
+     "MAT.APP."
+    ],
+    [
+     "MAT.APP.(F.C.)",
+     "MAT.APP.(F.C.)"
+    ],
+    [
+     "MAT.CASE",
+     "MAT.CASE"
+    ],
+    [
+     "MAT.REF.",
+     "MAT.REF."
+    ],
+    [
+     "MISC. APPEAL (FEMA)",
+     "MISC. APPEAL (FEMA)"
+    ],
+    [
+     "MISC. APPEAL(PBPTA)",
+     "MISC. APPEAL(PBPTA)"
+    ],
+    [
+     "MISC. APPEAL(PMLA)",
+     "MISC. APPEAL(PMLA)"
+    ],
+    [
+     "OA",
+     "OA"
+    ],
+    [
+     "OCJA",
+     "OCJA"
+    ],
+    [
+     "O.M.P.",
+     "O.M.P."
+    ],
+    [
+     "O.M.P. (COMM)",
+     "O.M.P. (COMM)"
+    ],
+    [
+     "OMP (CONT.)",
+     "OMP (CONT.)"
+    ],
+    [
+     "O.M.P. (E)",
+     "O.M.P. (E)"
+    ],
+    [
+     "O.M.P. (E) (COMM.)",
+     "O.M.P. (E) (COMM.)"
+    ],
+    [
+     "O.M.P.(EFA)(COMM.)",
+     "O.M.P.(EFA)(COMM.)"
+    ],
+    [
+     "O.M.P. (ENF.)",
+     "O.M.P. (ENF.)"
+    ],
+    [
+     "OMP (ENF.) (COMM.)",
+     "OMP (ENF.) (COMM.)"
+    ],
+    [
+     "O.M.P.(I)",
+     "O.M.P.(I)"
+    ],
+    [
+     "O.M.P.(I) (COMM.)",
+     "O.M.P.(I) (COMM.)"
+    ],
+    [
+     "O.M.P. (J) (COMM.)",
+     "O.M.P. (J) (COMM.)"
+    ],
+    [
+     "O.M.P. (MISC.)",
+     "O.M.P. (MISC.)"
+    ],
+    [
+     "O.M.P.(MISC.)(COMM.)",
+     "O.M.P.(MISC.)(COMM.)"
+    ],
+    [
+     "O.M.P.(T)",
+     "O.M.P.(T)"
+    ],
+    [
+     "O.M.P. (T) (COMM.)",
+     "O.M.P. (T) (COMM.)"
+    ],
+    [
+     "O.REF.",
+     "O.REF."
+    ],
+    [
+     "RC.REV.",
+     "RC.REV."
+    ],
+    [
+     "RC.S.A.",
+     "RC.S.A."
+    ],
+    [
+     "RERA APPEAL",
+     "RERA APPEAL"
+    ],
+    [
+     "REVIEW PET.",
+     "REVIEW PET."
+    ],
+    [
+     "RFA",
+     "RFA"
+    ],
+    [
+     "RFA(COMM)",
+     "RFA(COMM)"
+    ],
+    [
+     "RFA-IPD",
+     "RFA-IPD"
+    ],
+    [
+     "RFA(OS)",
+     "RFA(OS)"
+    ],
+    [
+     "RFA(OS)(COMM)",
+     "RFA(OS)(COMM)"
+    ],
+    [
+     "RFA(OS)(IPD)",
+     "RFA(OS)(IPD)"
+    ],
+    [
+     "RSA",
+     "RSA"
+    ],
+    [
+     "SCA",
+     "SCA"
+    ],
+    [
+     "SDR",
+     "SDR"
+    ],
+    [
+     "SERTA",
+     "SERTA"
+    ],
+    [
+     "ST.APPL.",
+     "ST.APPL."
+    ],
+    [
+     "STC",
+     "STC"
+    ],
+    [
+     "ST.REF.",
+     "ST.REF."
+    ],
+    [
+     "SUR.T.REF.",
+     "SUR.T.REF."
+    ],
+    [
+     "TEST.CAS.",
+     "TEST.CAS."
+    ],
+    [
+     "TR.P.(C)",
+     "TR.P.(C)"
+    ],
+    [
+     "TR.P.(C.)",
+     "TR.P.(C.)"
+    ],
+    [
+     "TR.P.(CRL.)",
+     "TR.P.(CRL.)"
+    ],
+    [
+     "VAT APPEAL",
+     "VAT APPEAL"
+    ],
+    [
+     "W.P.(C)",
+     "W.P.(C)"
+    ],
+    [
+     "W.P.(C)-IPD",
+     "W.P.(C)-IPD"
+    ],
+    [
+     "WP(C)(IPD)",
+     "WP(C)(IPD)"
+    ],
+    [
+     "W.P.(CRL)",
+     "W.P.(CRL)"
+    ],
+    [
+     "WTA",
+     "WTA"
+    ],
+    [
+     "WTC",
+     "WTC"
+    ],
+    [
+     "WTR",
+     "WTR"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "case_number",
+   "id": "case_number",
+   "label": "Case Number :"
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "case_year",
+   "id": "case_year",
+   "label": "",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "2026",
+     "2026"
+    ],
+    [
+     "2025",
+     "2025"
+    ],
+    [
+     "2024",
+     "2024"
+    ],
+    [
+     "2023",
+     "2023"
+    ],
+    [
+     "2022",
+     "2022"
+    ],
+    [
+     "2021",
+     "2021"
+    ],
+    [
+     "2020",
+     "2020"
+    ],
+    [
+     "2019",
+     "2019"
+    ],
+    [
+     "2018",
+     "2018"
+    ],
+    [
+     "2017",
+     "2017"
+    ],
+    [
+     "2016",
+     "2016"
+    ],
+    [
+     "2015",
+     "2015"
+    ],
+    [
+     "2014",
+     "2014"
+    ],
+    [
+     "2013",
+     "2013"
+    ],
+    [
+     "2012",
+     "2012"
+    ],
+    [
+     "2011",
+     "2011"
+    ],
+    [
+     "2010",
+     "2010"
+    ],
+    [
+     "2009",
+     "2009"
+    ],
+    [
+     "2008",
+     "2008"
+    ],
+    [
+     "2007",
+     "2007"
+    ],
+    [
+     "2006",
+     "2006"
+    ],
+    [
+     "2005",
+     "2005"
+    ],
+    [
+     "2004",
+     "2004"
+    ],
+    [
+     "2003",
+     "2003"
+    ],
+    [
+     "2002",
+     "2002"
+    ],
+    [
+     "2001",
+     "2001"
+    ],
+    [
+     "2000",
+     "2000"
+    ],
+    [
+     "1999",
+     "1999"
+    ],
+    [
+     "1998",
+     "1998"
+    ],
+    [
+     "1997",
+     "1997"
+    ],
+    [
+     "1996",
+     "1996"
+    ],
+    [
+     "1995",
+     "1995"
+    ],
+    [
+     "1994",
+     "1994"
+    ],
+    [
+     "1993",
+     "1993"
+    ],
+    [
+     "1992",
+     "1992"
+    ],
+    [
+     "1991",
+     "1991"
+    ],
+    [
+     "1990",
+     "1990"
+    ],
+    [
+     "1989",
+     "1989"
+    ],
+    [
+     "1988",
+     "1988"
+    ],
+    [
+     "1987",
+     "1987"
+    ],
+    [
+     "1986",
+     "1986"
+    ],
+    [
+     "1985",
+     "1985"
+    ],
+    [
+     "1984",
+     "1984"
+    ],
+    [
+     "1983",
+     "1983"
+    ],
+    [
+     "1982",
+     "1982"
+    ],
+    [
+     "1981",
+     "1981"
+    ],
+    [
+     "1980",
+     "1980"
+    ],
+    [
+     "1979",
+     "1979"
+    ],
+    [
+     "1978",
+     "1978"
+    ],
+    [
+     "1977",
+     "1977"
+    ],
+    [
+     "1976",
+     "1976"
+    ],
+    [
+     "1975",
+     "1975"
+    ],
+    [
+     "1974",
+     "1974"
+    ],
+    [
+     "1973",
+     "1973"
+    ],
+    [
+     "1972",
+     "1972"
+    ],
+    [
+     "1971",
+     "1971"
+    ],
+    [
+     "1970",
+     "1970"
+    ],
+    [
+     "1969",
+     "1969"
+    ],
+    [
+     "1968",
+     "1968"
+    ],
+    [
+     "1967",
+     "1967"
+    ],
+    [
+     "1966",
+     "1966"
+    ],
+    [
+     "1965",
+     "1965"
+    ],
+    [
+     "1964",
+     "1964"
+    ],
+    [
+     "1963",
+     "1963"
+    ],
+    [
+     "1962",
+     "1962"
+    ],
+    [
+     "1961",
+     "1961"
+    ],
+    [
+     "1960",
+     "1960"
+    ],
+    [
+     "1959",
+     "1959"
+    ],
+    [
+     "1958",
+     "1958"
+    ],
+    [
+     "1957",
+     "1957"
+    ],
+    [
+     "1956",
+     "1956"
+    ],
+    [
+     "1955",
+     "1955"
+    ],
+    [
+     "1954",
+     "1954"
+    ],
+    [
+     "1953",
+     "1953"
+    ],
+    [
+     "1952",
+     "1952"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "captchaInput",
+   "id": "captchaInput",
+   "label": ""
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "caseTable_length",
+   "id": "dt-length-0",
+   "label": "entries per page",
+   "options": [
+    [
+     "50",
+     "50"
+    ],
+    [
+     "100",
+     "100"
+    ],
+    [
+     "200",
+     "200"
+    ],
+    [
+     "-1",
+     "All"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "search",
+   "name": "",
+   "id": "dt-search-0",
+   "label": "Search:"
+  }
+ ],
+ "tables": [
+  [
+   [
+    "S.No.",
+    "Diary No. / Case No.[STATUS]",
+    "Petitioner Vs. Respondent",
+    "Listing Date / Court No."
+   ],
+   [
+    "No data available in table"
+   ]
+  ]
+ ],
+ "text": "Sitemap\nContact\nFeedback\nFAQs\nSkip to Main Content\nScreen Reader Access\nA+\nA\nA -\nA\nA\nHindi\nHindi\nHigh Court of Delhi\nHome\nJudges\nAdministration\ne-Services\nPublic Notices\nRules & Guidelines\nHome\nCASE STATUS\nCASE WISE\nBack\nCASE WISE\nPARTY NAME\nADVOCATE NAME\nDIARY NO\nCase Type:\nSelect\nADMIN.REPORT\nARB.A.\nARB. A. (COMM.)\nARB.P.\nBAIL APPLN.\nCA\nCA (COMM.IPD-CR)\nC.A.(COMM.IPD-GI)\nC.A.(COMM.IPD-PAT)\nC.A.(COMM.IPD-PV)\nC.A.(COMM.IPD-TM)\nCAVEAT(CO.)\nCC(ARB.)\nCCP(CO.)\nCCP(REF)\nCEAC\nCEAR\nCHAT.A.C.\nCHAT.A.REF\nCMI\nCM(M)\nCM(M)-IPD\nC.O.\nCO.APP.\nCO.APPL.(C)\nCO.APPL.(M)\nCO.A(SB)\nC.O.(COMM.IPD-CR)\nC.O.(COMM.IPD-GI)\nC.O.(COMM.IPD-PAT)\nC.O. (COMM.IPD-TM)\nCO.EX.\nCONT.APP.(C)\nCONT.CAS(C)\nCONT.CAS.(CRL)\nCO.PET.\nC.REF.(O)\nCRL.A.\nCRL.C.REF.\nCRL.L.P.\nCRL.M.C.\nCRL.M.(CO.)\nCRL.M.I.\nCRL.O.\nCRL.O.(CO.)\nCRL.REF.\nCRL.REV.P.\nCRL.REV.P.(MAT.)\nCRL.REV.P.(NDPS)\nCRL.REV.P.(NI)\nC.R.P.\nCRP-IPD\nC.RULE\nCS(COMM)\nCS(COMM) INFRA\nCS(OS)\nCS(OS) GP\nCUSAA\nCUS.A.C.\nCUS.A.R.\nCUSTOM A.\nDEATH SENTENCE REF.\nDEMO\nEDC\nEDR\nEFA(COMM)\nEFA(OS)\nEFA(OS) (COMM)\nEFA(OS)(IPD)\nEL.PET.\nETR\nEX.F.A.\nEX.P.\nEX.S.A.\nFAO\nFAO (COMM)\nFAO-IPD\nFAO(OS)\nFAO(OS) (COMM)\nFAO(OS)(IPD)\nGCAC\nGCAR\nGTA\nGTC\nGTR\nI.A.\nI.P.A.\nITA\nITC\nITR\nITSA\nLA.APP.\nLPA\nMAC.APP.\nMAT.\nMAT.APP.\nMAT.APP.(F.C.)\nMAT.CASE\nMAT.REF.\nMISC. APPEAL (FEMA)\nMISC. APPEAL(PBPTA)\nMISC. APPEAL(PMLA)\nOA\nOCJA\nO.M.P.\nO.M.P. (COMM)\nOMP (CONT.)\nO.M.P. (E)\nO.M.P. (E) (COMM.)\nO.M.P.(EFA)(COMM.)\nO.M.P. (ENF.)\nOMP (ENF.) (COMM.)\nO.M.P.(I)\nO.M.P.(I) (COMM.)\nO.M.P. (J) (COMM.)\nO.M.P. (MISC.)\nO.M.P.(MISC.)(COMM.)\nO.M.P.(T)\nO.M.P. (T) (COMM.)\nO.REF.\nRC.REV.\nRC.S.A.\nRERA APPEAL\nREVIEW PET.\nRFA\nRFA(COMM)\nRFA-IPD\nRFA(OS)\nRFA(OS)(COMM)\nRFA(OS)(IPD)\nRSA\nSCA\nSDR\nSERTA\nST.APPL.\nSTC\nST.REF.\nSUR.T.REF.\nTEST.CAS.\nTR.P.(C)\nTR.P.(C.)\nTR.P.(CRL.)\nVAT APPEAL\nW.P.(C)\nW.P.(C)-IPD\nWP(C)(IPD)\nW.P.(CRL)\nWTA\nWTC\nWTR\nCase Number :\nYear:\nSelect\n2026\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010\n2009\n2008\n2007\n2006\n2005\n2004\n2003\n2002\n2001\n2000\n1999\n1998\n1997\n1996\n1995\n1994\n1993\n1992\n1991\n1990\n1989\n1988\n1987\n1986\n1985\n1984\n1983\n1982\n1981\n1980\n1979\n1978\n1977\n1976\n1975\n1974\n1973\n1972\n1971\n1970\n1969\n1968\n1967\n1966\n1965\n1964\n1963\n1962\n1961\n1960\n1959\n1958\n1957\n1956\n1955\n1954\n1953\n1952\n5145  \nEnter Captcha Code Here :\nSubmit\n50\n100\n200\nAll\nentries per page\n\t\nSearch:\nS.No.\n\tDiary No. / Case No.[STATUS]\n\tPetitioner Vs. Respondent\n\tListing Date / Court No.\n\nNo data available in table\nShowing 0 to 0 of 0 entries\n\t\n«‹›»\nDisclaimer : The content of this site is only for information purpose. Users are advised not to depend on the information and use it for official purpose. Neither the High Court of Delhi nor the National Informatics Centre , Ministry of Information Technology, Government of India is responsible for any damages arising in contract from the use of the content of this site.\ne-Visitor Pass\ne-Library\nAccessibility Services\ne-Sewa Kendra & Accessiblity Helpline\nMACT & Labour Courts Dashboard\nनिर्णय हिंदी\nForms & Performas\nMonthly Report on MPs/MLAs Cases in District Court\nHumour in Court\nWhatsApp Services\nFAQ's\nTelephone Directory\nLive Streaming\nSexual Harassment Complaints\nHigh Court of Delhi\n\nDownload App From\n\nContact us Feedback\n\nFollow Us :\n\nPrivacy Policy Copyright Policy Hyperlinking and Framing Policy Accessibility Statement Help\n\nCopyright © 2024 Content Owned by High Court of Delhi. All Rights Reserved.\n\nVisitors: 207611265\n\nPage last updated on: 26-03-2025",
+ "retrieved": "2026-11-01T15:41:04.103Z"
+}

@@ -1,0 +1,19 @@
+{
+    "advancedFilterLabels": {
+    "title": "Title",
+    "title_all": "Long Title",
+    "dateIssued": "Date",
+    "date_act_year": "Act Year",
+    "date_enact_date": "Enact Date",
+    "date_enforcement_date": "Enforcement Date",
+    "identifier_act_number": "Act Number",
+    "identifier_ministry": "Ministry Name",
+    "identifier_department": "Department Name"
+  },
+  "allowedOperatorsInOrder": [
+    "contains",
+    "notcontains",
+    "equals",
+    "notequals"
+  ]
+}

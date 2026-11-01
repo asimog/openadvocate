@@ -1,0 +1,856 @@
+{
+ "url": "https://directory.apisetu.gov.in/api-collection/lawascode",
+ "title": "APIs | APISetu",
+ "fields": [
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "codeLang",
+   "id": "",
+   "options": [
+    [
+     "",
+     "Select Code Snippet"
+    ],
+    [
+     "c_libcurl",
+     "C"
+    ],
+    [
+     "csharp_restsharp",
+     "C#-restsharp"
+    ],
+    [
+     "csharp_httpclient",
+     "C#-httpclient"
+    ],
+    [
+     "go_native",
+     "Go"
+    ],
+    [
+     "java_asynchttp",
+     "Java-asynchttp"
+    ],
+    [
+     "java_nethttp",
+     "Java-nethttp"
+    ],
+    [
+     "java_okhttp",
+     "kotlin"
+    ],
+    [
+     "java_unirest",
+     "Java-unirest"
+    ],
+    [
+     "javascript_jquery",
+     "JavaScript-jquery"
+    ],
+    [
+     "javascript_xhr",
+     "JavaScript-xhr"
+    ],
+    [
+     "node_native",
+     "NodeJs-native"
+    ],
+    [
+     "node_request",
+     "NodeJs-request"
+    ],
+    [
+     "node_unirest",
+     "NodeJs-unirest"
+    ],
+    [
+     "node_axios",
+     "NodeJs-axios"
+    ],
+    [
+     "node_fetch",
+     "NodeJs-fetch"
+    ],
+    [
+     "objc_nsurlsession",
+     "objc-nsurlsession"
+    ],
+    [
+     "ocaml_cohttp",
+     "OCaml-cohttp"
+    ],
+    [
+     "php_curl",
+     "PHP-curl"
+    ],
+    [
+     "php_http1",
+     "PHP-http1"
+    ],
+    [
+     "php_http2",
+     "PHP-http2"
+    ],
+    [
+     "powershell_webrequest",
+     "PowerShell-webrequest"
+    ],
+    [
+     "powershell_restmethod",
+     "PowerShell-restmethod"
+    ],
+    [
+     "python_python3",
+     "Python-python3"
+    ],
+    [
+     "python_requests",
+     "Python-requests"
+    ],
+    [
+     "r_httr",
+     "R"
+    ],
+    [
+     "ruby_native",
+     "Ruby"
+    ],
+    [
+     "shell_curl",
+     "Shell-curl"
+    ],
+    [
+     "shell_httpie",
+     "Shell-httpie"
+    ],
+    [
+     "shell_wget",
+     "Shell-wget"
+    ],
+    [
+     "swift_nsurlsession",
+     "Swift-nsurlsession"
+    ]
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "",
+   "id": "servers",
+   "options": [
+    [
+     "https://lawascode.negd.in/laac-api",
+     "https://lawascode.negd.in/laac-api - Production"
+    ]
+   ]
+  }
+ ],
+ "links": [
+  [
+   "API Directory",
+   "https://directory.apisetu.gov.in/"
+  ],
+  [
+   "About Us",
+   "https://apisetu.gov.in/about-marketplace/"
+  ],
+  [
+   "Explore APIs",
+   "https://directory.apisetu.gov.in/"
+  ],
+  [
+   "Explore API Setu",
+   "https://docs.apisetu.gov.in/document-central/explore-apisetu/"
+  ],
+  [
+   "Utilities",
+   "https://apisetu.gov.in/utilities"
+  ],
+  [
+   "API Policy",
+   "https://apisetu.gov.in/api-policy"
+  ],
+  [
+   "Data Standards",
+   "https://apisetu.gov.in/data-standard"
+  ],
+  [
+   "Developers",
+   "https://apisetu.gov.in/developer"
+  ],
+  [
+   "Digilocker",
+   "https://apisetu.gov.in/digilocker"
+  ],
+  [
+   "Standard Operating Procedure",
+   "https://apisetu.gov.in/sop"
+  ],
+  [
+   "Information Videos",
+   "https://apisetu.gov.in/information-videos"
+  ],
+  [
+   "Health & Wellness",
+   "https://directory.apisetu.gov.in/search/category/health-&-wellness"
+  ],
+  [
+   "Agriculture, Rural & Environment",
+   "https://directory.apisetu.gov.in/search/category/agriculture,-rural-&-environment"
+  ],
+  [
+   "Science, IT & Communications",
+   "https://directory.apisetu.gov.in/search/category/science,-it-&-communications"
+  ],
+  [
+   "Travel & Tourism",
+   "https://directory.apisetu.gov.in/search/category/travel-&-tourism"
+  ],
+  [
+   "Public Safety, Law & Justice",
+   "https://directory.apisetu.gov.in/search/category/public-safety,-law-&-justice"
+  ],
+  [
+   "Banking, Financial Services and Insurance",
+   "https://directory.apisetu.gov.in/search/category/banking,-financial-services-and-insurance"
+  ],
+  [
+   "Others",
+   "https://directory.apisetu.gov.in/search/category/others"
+  ],
+  [
+   "Utility",
+   "https://directory.apisetu.gov.in/search/category/utility"
+  ],
+  [
+   "Transport & Infrastructure",
+   "https://directory.apisetu.gov.in/search/category/transport-&-infrastructure"
+  ],
+  [
+   "Identity Docs",
+   "https://directory.apisetu.gov.in/search/category/identity-docs"
+  ],
+  [
+   "Defence & Armed Forces",
+   "https://directory.apisetu.gov.in/search/category/defence-&-armed-forces"
+  ],
+  [
+   "Sports & Culture",
+   "https://directory.apisetu.gov.in/search/category/sports-&-culture"
+  ],
+  [
+   "Social Welfare & Empowerment",
+   "https://directory.apisetu.gov.in/search/category/social-welfare-&-empowerment"
+  ],
+  [
+   "Business & Entrepreneurship",
+   "https://directory.apisetu.gov.in/search/category/business-&-entrepreneurship"
+  ],
+  [
+   "Skills & Employment",
+   "https://directory.apisetu.gov.in/search/category/skills-&-employment"
+  ],
+  [
+   "Housing & Shelter",
+   "https://directory.apisetu.gov.in/search/category/housing-&-shelter"
+  ],
+  [
+   "Education & Learning",
+   "https://directory.apisetu.gov.in/search/category/education-&-learning"
+  ],
+  [
+   "Government & Public Sector",
+   "https://directory.apisetu.gov.in/search/category/government-&-public-sector"
+  ],
+  [
+   "Blog",
+   "https://blog.apisetu.gov.in/"
+  ],
+  [
+   "Dashboard",
+   "https://dashboard.apisetu.gov.in/"
+  ],
+  [
+   "Log In",
+   "https://partners.apisetu.gov.in/signin"
+  ],
+  [
+   "Create Account",
+   "https://partners.apisetu.gov.in/signup"
+  ],
+  [
+   "Log In",
+   "https://apisetu.gov.in/signin"
+  ],
+  [
+   "Create Account",
+   "https://apisetu.gov.in/signin"
+  ],
+  [
+   "About Us",
+   "https://apisetu.gov.in/about-marketplace"
+  ],
+  [
+   "Explore APIs",
+   "https://directory.apisetu.gov.in/"
+  ],
+  [
+   "Explore API Setu",
+   "https://docs.apisetu.gov.in/document-central/explore-apisetu/"
+  ],
+  [
+   "Utilities",
+   "https://apisetu.gov.in/utilities"
+  ],
+  [
+   "API Policy",
+   "https://apisetu.gov.in/api-policy"
+  ],
+  [
+   "Data Standards",
+   "https://apisetu.gov.in/data-standard"
+  ],
+  [
+   "Developers",
+   "https://apisetu.gov.in/developer"
+  ],
+  [
+   "Digilocker",
+   "https://apisetu.gov.in/digilocker"
+  ],
+  [
+   "Standard Operating Procedure",
+   "https://apisetu.gov.in/sop"
+  ],
+  [
+   "Information Videos",
+   "https://apisetu.gov.in/information-videos"
+  ],
+  [
+   "Health & Wellness",
+   "https://directory.apisetu.gov.in/search/category/health-&-wellness"
+  ],
+  [
+   "Agriculture, Rural & Environment",
+   "https://directory.apisetu.gov.in/search/category/agriculture,-rural-&-environment"
+  ],
+  [
+   "Science, IT & Communications",
+   "https://directory.apisetu.gov.in/search/category/science,-it-&-communications"
+  ],
+  [
+   "Travel & Tourism",
+   "https://directory.apisetu.gov.in/search/category/travel-&-tourism"
+  ],
+  [
+   "Public Safety, Law & Justice",
+   "https://directory.apisetu.gov.in/search/category/public-safety,-law-&-justice"
+  ],
+  [
+   "Banking, Financial Services and Insurance",
+   "https://directory.apisetu.gov.in/search/category/banking,-financial-services-and-insurance"
+  ],
+  [
+   "Others",
+   "https://directory.apisetu.gov.in/search/category/others"
+  ],
+  [
+   "Utility",
+   "https://directory.apisetu.gov.in/search/category/utility"
+  ],
+  [
+   "Transport & Infrastructure",
+   "https://directory.apisetu.gov.in/search/category/transport-&-infrastructure"
+  ],
+  [
+   "Identity Docs",
+   "https://directory.apisetu.gov.in/search/category/identity-docs"
+  ],
+  [
+   "Defence & Armed Forces",
+   "https://directory.apisetu.gov.in/search/category/defence-&-armed-forces"
+  ],
+  [
+   "Sports & Culture",
+   "https://directory.apisetu.gov.in/search/category/sports-&-culture"
+  ],
+  [
+   "Social Welfare & Empowerment",
+   "https://directory.apisetu.gov.in/search/category/social-welfare-&-empowerment"
+  ],
+  [
+   "Business & Entrepreneurship",
+   "https://directory.apisetu.gov.in/search/category/business-&-entrepreneurship"
+  ],
+  [
+   "Skills & Employment",
+   "https://directory.apisetu.gov.in/search/category/skills-&-employment"
+  ],
+  [
+   "Housing & Shelter",
+   "https://directory.apisetu.gov.in/search/category/housing-&-shelter"
+  ],
+  [
+   "Education & Learning",
+   "https://directory.apisetu.gov.in/search/category/education-&-learning"
+  ],
+  [
+   "Government & Public Sector",
+   "https://directory.apisetu.gov.in/search/category/government-&-public-sector"
+  ],
+  [
+   "Blog",
+   "https://blog.apisetu.gov.in/"
+  ],
+  [
+   "Dashboard",
+   "https://dashboard.apisetu.gov.in/"
+  ],
+  [
+   "Delhi",
+   "https://directory.apisetu.gov.in/search/location/delhi"
+  ],
+  [
+   "Central Government",
+   "https://directory.apisetu.gov.in/search/org-type/central-government"
+  ],
+  [
+   "Government & Public Sector",
+   "https://directory.apisetu.gov.in/search/category/government-&-public-sector"
+  ],
+  [
+   "Legal & Judiciary",
+   "https://directory.apisetu.gov.in/search/category/legal-&-judiciary"
+  ],
+  [
+   "Subscribe",
+   "https://consume.apisetu.gov.in/consumer/lawascode"
+  ],
+  [
+   "Subscribe",
+   "https://partners.apisetu.gov.in/org/consumer/apiview/lawascode/apisetu_apisetu_Nyaykoshv1_0_1_0_0.yaml"
+  ],
+  [
+   "Try in Sandbox",
+   "https://sandbox.api-setu.in/org-collections/lawascode"
+  ],
+  [
+   "Documentation",
+   "https://directory.apisetu.gov.in/api-collection/lawascode#collection01"
+  ],
+  [
+   "Contact Nyaykosh API Support",
+   "mailto:support@nyaykosh.in"
+  ],
+  [
+   "Government Open Data License - India GODL",
+   "https://data.gov.in/government-open-data-license-india"
+  ],
+  [
+   "About Us",
+   "https://apisetu.gov.in/aboutus"
+  ],
+  [
+   "Explore APIs",
+   "https://directory.apisetu.gov.in/"
+  ],
+  [
+   "SOP for API Access",
+   "https://apisetu.gov.in/sop"
+  ],
+  [
+   "Blog",
+   "https://blog.apisetu.gov.in/"
+  ],
+  [
+   "FAQs",
+   "https://apisetu.gov.in/faq"
+  ],
+  [
+   "Dashboard",
+   "https://dashboard.apisetu.gov.in/"
+  ],
+  [
+   "Utilities",
+   "https://apisetu.gov.in/utilities"
+  ],
+  [
+   "API Policy",
+   "https://apisetu.gov.in/api-policy"
+  ],
+  [
+   "Data Standards",
+   "https://apisetu.gov.in/data-standard"
+  ],
+  [
+   "Developers",
+   "https://apisetu.gov.in/developer"
+  ],
+  [
+   "Digilocker",
+   "https://apisetu.gov.in/digilocker"
+  ],
+  [
+   "Information Videos",
+   "https://apisetu.gov.in/information-videos"
+  ],
+  [
+   "Privacy Policy",
+   "https://docs.apisetu.gov.in/document-central/privacy-policy"
+  ],
+  [
+   "Terms of Use",
+   "https://docs.apisetu.gov.in/document-central/terms-of-use"
+  ],
+  [
+   "Contact Us",
+   "https://apisetu.gov.in/contact"
+  ]
+ ],
+ "text": "Government of India\nEnglish (English)\nAPI Directory\nAbout Us\nExplore APIs\nResources\nExplore by Sector\nBlog\nDashboard\nLog In\nCreate Account\n Back\nNyaykosh-NeGD\n DelhiCentral GovernmentGovernment & Public SectorLegal & Judiciary\n\nSubscribe\n\nAPIs CollectionsAbout\nTry in Sandbox\nNyaykosh - Indian Legislation & Compliance Simulator API\nGet Act\nGet Site\nGet Navigation\nList Acts\nGet Law Xml\nEvaluate\nGet Law Personas\nList Personas\nGet Law Provisions\nGet Persona\nHealth\nGet Law\nGet Law Provision\nGet Categories\nGet Act Rules\nGet Law Pdf\nGet Law Amendments\nGet Law Penalties\nList Laws\nNyaykosh APIs\nNyaykosh - Indian Legislation & Compliance Simulat...Get Act\nDocumentationPerformanceAlertsAPIs Consumers\nSelect Code Snippet\nC\nC#-restsharp\nC#-httpclient\nGo\nJava-asynchttp\nJava-nethttp\nkotlin\nJava-unirest\nJavaScript-jquery\nJavaScript-xhr\nNodeJs-native\nNodeJs-request\nNodeJs-unirest\nNodeJs-axios\nNodeJs-fetch\nobjc-nsurlsession\nOCaml-cohttp\nPHP-curl\nPHP-http1\nPHP-http2\nPowerShell-webrequest\nPowerShell-restmethod\nPython-python3\nPython-requests\nR\nRuby\nShell-curl\nShell-httpie\nShell-wget\nSwift-nsurlsession\nNyaykosh - Indian Legislation & Compliance Simulator API\n 1.0.0 \nOAS 3.0\n\nOpen-access REST API for Indian legislation (Nyaykosh): a machine-readable\ncatalogue of Acts with their provisions, personas, amendments and penalties,\nplus a compliance simulator that evaluates a persona's answers against the\ncodified rules of an Act.\n\n\n\n\n[Updated on 14th August 2026]\n\nContact Nyaykosh API Support\nGovernment Open Data License - India GODL\nServers\nhttps://lawascode.negd.in/laac-api - Production\nContent\n\nSite content used by the front end (branding, navigation, categories) and the public read-only view of Acts and their codified rules under /v1/public/acts.\n\nGET\n/v1/site\nGet Site\nGET\n/v1/navigation\nGet Navigation\nGET\n/v1/categories\nGet Categories\nGET\n/v1/public/acts\nList Acts\nGET\n/v1/public/acts/{act_id}\nGet Act\nGET\n/v1/public/acts/{act_id}/rules\nGet Act Rules\nLaws\n\nPublic catalogue of Acts - details, provisions, personas, amendments, penalties, and XML/PDF exports.\n\nGET\n/v1/laws\nList Laws\nGET\n/v1/laws/{slug}\nGet Law\nGET\n/v1/laws/{slug}/penalties\nGet Law Penalties\nGET\n/v1/laws/{slug}/provisions\nGet Law Provisions\nGET\n/v1/laws/{slug}/personas\nGet Law Personas\nGET\n/v1/laws/{slug}/amendments\nGet Law Amendments\nGET\n/v1/laws/{slug}/provisions/{provision_slug}\nGet Law Provision\nGET\n/v1/laws/{slug}/xml\nGet Law Xml\nGET\n/v1/laws/{slug}/pdf\nGet Law Pdf\nMeta\n\nService health and liveness.\n\nGET\n/health\nHealth\nSimulator\n\nCompliance simulator - personas, their questionnaires, and rule evaluation.\n\nGET\n/v1/simulator/personas\nList Personas\nGET\n/v1/simulator/personas/{persona_id}\nGet Persona\nPOST\n/v1/simulator/evaluate\nEvaluate\nSchemas\nActAmendment\nActChapter\nActDetail\nActImportResult\nActLink\nActPersona\nActPersonaCreate\nActRule\nActSection\nActSectionCreate\nActSummary\nAdminProfile\nAdminStats\nAmendmentCreate\nBody_commit_act_import_v1_admin_acts_import_post\nBody_commit_import_v1_admin_rules_import_post\nBody_preview_act_import_v1_admin_acts_import_preview_post\nBody_preview_import_v1_admin_rules_preview_post\nBody_update_act_xml_v1_admin_acts__act_id__xml_put\nComplianceRule\nHTTPValidationError\nImportCommitResult\nImportIssue\nImportPreview\nLaw\nLawCreate\nLawUpdate\nLoginRequest\nNavLink\nPenalty\nPermissionOut\nPersona\nProvision\nRoleCreate\nRoleOut\nRoleUpdate\nRuleResult\nSimulateRequest\nSimulatorResult\nTokenResponse\nTriggerEvent\nUserActiveUpdate\nUserCreate\nUserDetail\nUserOut\nUserPasswordUpdate\nUserPermissionsUpdate\nUserRoleUpdate\nValidationError\nAbout Us\nExplore APIs\nSOP for API Access\nBlog\nFAQs\nDashboard\nUtilities\nAPI Policy\nData Standards\nDevelopers\nDigilocker\nInformation Videos\nPowered By\n\nDigital India Corporation (DIC)\n\nNational e-Governance Division (NeGD) Ministry of Electronics & IT (MeitY) Government of India\n\nWebsite designed & developed by National eGovernance Division (NeGD)\nPrivacy Policy\nTerms of Use\nContact Us\n\nAPIs | APISetu",
+ "network": [
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api-collection/lawascode",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/css/296b69cbae51f7d3.css",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/css/5eba565778d84e0c.css",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/webpack-96dcf56691d949f9.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/0c428ae2-e9ce20db1aed5bde.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/framework-467b11a89995b152.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/825-43783e3b23f99830.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/0b308cfb-7a1380432d99ca9d.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/261-d6e803ef0400fe5f.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/api-collection/%5BapiName%5D-378d7b6f78e3f800.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/372-8339771174e47790.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/SBOs7dMIB0lJb80GBTCwc/_buildManifest.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/main-c900692f5f767977.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/SBOs7dMIB0lJb80GBTCwc/_ssgManifest.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/logo_1-new.png",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/chatbot.png",
+   200
+  ],
+  [
+   "GET",
+   "https://cdn.apisetu.gov.in/portal/assets/fonts/Raleway-Bold.woff",
+   200
+  ],
+  [
+   "GET",
+   "https://cdn.apisetu.gov.in/portal/assets/fonts/Raleway-Regular.woff2",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/image%2074.png",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/Indian-Flag.png",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/_app-23b434314879e397.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/252f366e-2fb8f5473d57a70e.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/38-9cb1b80ce0c66f9b.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/index-67ff94d69f36f475.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/css/da2fe7bf4874a552.css",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/252f366e-2fb8f5473d57a70e.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/38-9cb1b80ce0c66f9b.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/index-67ff94d69f36f475.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/multilingual/languages",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/deviceId",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/category",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/list?q=%7B%22facets%22%3A%5B%22total_api%22%5D%2C%22hitsPerPage%22%3A5%2C%22facetFilters%22%3A%5B%5B%22subdomainName%3Alawascode%22%5D%5D%7D",
+   200
+  ],
+  [
+   "GET",
+   "https://cdn.apisetu.gov.in/logo/issuers/141779.png",
+   200
+  ],
+  [
+   "GET",
+   "https://cdn.apisetu.gov.in/portal/assets/fonts/Raleway-Medium.woff",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/eb6e03f4.1a6c93ffc81b87d4.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/801.8a1385694c117747.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/multilingual/selected?deviceId=93b5b223-417f-4dbb-8829-ff66b41e0d6e",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/auth/generate-headers",
+   200
+  ],
+  [
+   "GET",
+   "https://cf-media.api-setu.in/specfiles/apisetu_apisetu_Nyaykoshv1_0_1_0_0.yaml",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/ae51ba48-c14af1196cbd37b4.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/31664189-9114efbdcd332ec7.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/b637e9a5-c167dea4d7e5c9a2.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/75fc9c18-2449465f7bc1ba39.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/7779ef99-c85f5cb621ee6849.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/54-ce52823db494bde8.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/488-19e79b8c2c3685d9.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/location/%5BstateName%5D-a301ab9f7ac6e5dd.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/org-type/%5BauthName%5D-c4aa221e9d6b572f.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/category/%5BcatName%5D-d3008429e2af5fd2.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/ae51ba48-c14af1196cbd37b4.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/css/a7f634be9186bce7.css",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/css/5eba565778d84e0c.css",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/31664189-9114efbdcd332ec7.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/7779ef99-c85f5cb621ee6849.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/category/%5BcatName%5D-d3008429e2af5fd2.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/75fc9c18-2449465f7bc1ba39.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/location/%5BstateName%5D-a301ab9f7ac6e5dd.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/54-ce52823db494bde8.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/b637e9a5-c167dea4d7e5c9a2.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/488-19e79b8c2c3685d9.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/_next/static/chunks/pages/search/org-type/%5BauthName%5D-c4aa221e9d6b572f.js",
+   200
+  ],
+  [
+   "GET",
+   "https://directory.apisetu.gov.in/api/subscriptionlog?objectId=141779&page=1&limit=50&search=&sort=desc",
+   200
+  ],
+  [
+   "POST",
+   "https://www.google-analytics.com/g/collect?v=2&tid=G-J2L01VFFB7&gtm=45je6as1h1v9226884616za208zd9226884616xf1&_p=1793556863548&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&cid=647963525.1793554929&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B8.0.0.0%7CChromium%3B156.0",
+   204
+  ]
+ ],
+ "retrieved": "2026-11-01T18:14:29.547Z"
+}

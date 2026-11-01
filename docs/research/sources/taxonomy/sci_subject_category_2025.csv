@@ -1,0 +1,183 @@
+group,group_name,code,description
+01,"ADMIRALTY, MARITIME LAWS, PORTS AND SHIPPING",0101,"Admiralty, Maritime Laws, Ports and Shipping"
+01,"ADMIRALTY, MARITIME LAWS, PORTS AND SHIPPING",01P,PIL related to the subject category
+02,APPOINTMENT OF CONSTITUTIONAL FUNCTIONARIES,0201,Appointment of High Court Judges
+02,APPOINTMENT OF CONSTITUTIONAL FUNCTIONARIES,0202,"Appointment of Governors/Lt. Governors, Appointment of Ministers, Appointment of Attorney General, Advocate General, Chief Election Commissioner, Election Commissioners, Chairman and Members of Union Public Service Commission and State Public Service Commissions, and other constitutional functionaries"
+02,APPOINTMENT OF CONSTITUTIONAL FUNCTIONARIES,02P,PIL related to the subject category
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0301,"Section 11 petitions filed before the Supreme Court under Arbitration & Conciliation Act, 1996"
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0302,"SLPs relating to appointment of arbitrator, arising out of applications under Section 8, removal of arbitrator, termination of mandate of arbitrator under Arbitration Act, 1940, and Arbitration and Conciliation Act, 1996."
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0303,Matters arising out of orders passed under Sections 9 and 17 of the Arbitration Act
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0304,"Challenge to arbitral award, matters relating to execution under Section 36, under Section 34/Section 37 of the 1996 Act and challenges to arbitral award under 1940 Act"
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0305,Challenge to/enforcement of a foreign arbitral award
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,0306,"Matters arising out of other forms of ADR; conciliation, negotiation, Lok Adalat and Mediation Act"
+03,ARBITRATION LAW AND OTHER ALTERNATIVE DISPUTE RESOLUTION,03P,PIL related to the subject category
+04,ARMED FORCES AND PARA MILITARY FORCES,0401,"Appeals under Sections 30 and 31 of the Armed Forces Tribunal Act, 2007"
+04,ARMED FORCES AND PARA MILITARY FORCES,0402,"SLPs and Writ Petitions pertaining to armed forces and para military forces, including recruitment/appointment, court martial, disciplinary action, pension, emoluments, salary and other incidental matters."
+04,ARMED FORCES AND PARA MILITARY FORCES,04P,PIL related to the subject category
+05,AVIATION LAWS / AIRPORTS,0501,Aviation Laws & Airports
+05,AVIATION LAWS / AIRPORTS,05P,PIL related to the subject category
+06,BANKING,0601,"RBI Act and Banking Regulation Act, 1949"
+06,BANKING,0602,"Securitization and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002, debt recovery by banks, financial institutions, cooperative banks and negotiable instruments [other than criminal prosecution]"
+06,BANKING,0603,"Mortgage, pledge, hypothecation, bank guarantee, Money Lending Acts"
+06,BANKING,06P,PIL related to the subject category
+07,"BAR COUNCIL, BAR ASSOCIATIONS, ADVOCATES, OTHER PROFESSIONAL BODIES",0701,"Appeals to the Supreme Court under Advocates Act, 1961"
+07,"BAR COUNCIL, BAR ASSOCIATIONS, ADVOCATES, OTHER PROFESSIONAL BODIES",0702,"Enrolment, professional misconduct, disciplinary action against advocates, elections to Bar Councils/Bar Associations, advocate strike"
+07,"BAR COUNCIL, BAR ASSOCIATIONS, ADVOCATES, OTHER PROFESSIONAL BODIES",0703,"Matters relating to other professional bodies, e.g., Doctors, Dentists, Chartered Accountants, Architects, etc."
+07,"BAR COUNCIL, BAR ASSOCIATIONS, ADVOCATES, OTHER PROFESSIONAL BODIES",07P,PIL related to the subject category
+08,BENAMI TRANSACTION ACT,0801,Benami Transaction Act
+08,BENAMI TRANSACTION ACT,08P,PIL related to the subject category
+09,CIVIL LAW,0901,"SLPs arising out of interlocutory applications in civil proceedings, amendment of pleadings, time limits for pleadings, interim injunction, addition/deletion of parties etc."
+09,CIVIL LAW,0902,"Execution of decrees, matters arising out of Order XXI, of the Code of Civil Procedure, 1908"
+09,CIVIL LAW,0903,"Partnership Act, the Sales of Goods Act, 1930, Contract Act, 1872"
+09,CIVIL LAW,0904,"Transfer of Property Act, 1882 and Specific Relief Act, 1963 – matters arising out of suit for specific performance, declaration, injunction, possession or cancellation of deeds/documents"
+09,CIVIL LAW,0905,"Any matter arising out of Civil suit/proceedings, which is not covered in any of the above categories"
+09,CIVIL LAW,09P,PIL related to the subject category
+10,"COMPANY LAW, SICK INDUSTRIES INCLUDING DISINVESTMENT",1001,"Company Law, Sick industries including disinvestment"
+10,"COMPANY LAW, SICK INDUSTRIES INCLUDING DISINVESTMENT",10P,PIL related to the subject category
+11,COMPENSATION,1101,Motor vehicle accident compensation
+11,COMPENSATION,1102,Compensation due to railway accidents/incidents under the Railways Act
+11,COMPENSATION,1103,"Compensation, not covered under the Motor Vehicles Act,1988 and Railways Act"
+11,COMPENSATION,11P,PIL related to the subject category
+12,COMPETITON LAWS/ MRTP,1201,"Competition Laws/ Monopolies and Restrictive Trade Practices Act, 1969"
+12,COMPETITON LAWS/ MRTP,12P,PIL related to the subject category
+13,CONSUMER DISPUTES AND RERA,1301,"Appeals under Section 23 of Consumer Protection Act, 1986 and/or under Section 67 of Consumer Protection Act, 2019"
+13,CONSUMER DISPUTES AND RERA,1302,SLPs/Writ Petitions relating to consumer protection
+13,CONSUMER DISPUTES AND RERA,1303,"SLPs/Writ Petitions relating to the Real Estate (Regulation and Development) Act, 2016/disputes between builders and buyers – allotment, cancellation, fixation of price of flats/plots and return of deposits"
+13,CONSUMER DISPUTES AND RERA,13P,PIL related to the subject category
+14,CONTEMPT OF COURT,1401,"Civil contempt including Suo Moto contempt petition, including appeals/SLPs arising out of civil contempt petitions before the High court"
+14,CONTEMPT OF COURT,1402,"Criminal contempt including Suo Moto contempt petition, including appeals/SLPs arising out of criminal contempt petitions before the High court 14 P: PIL related to the subject category"
+15,CRIMINAL LAW,1501,"Offences against women, including sexual offences, harassment, domestic violence, dowry, trafficking etc."
+15,CRIMINAL LAW,1502,"Offences against children, including the Protection of Children from Sexual Offences Act, 2012"
+15,CRIMINAL LAW,1503,"Prevention of Corruption Act, 1988, Lokayukta Act of different States"
+15,CRIMINAL LAW,1504,"Narcotic Drugs and Psychotropic Substances Act, 1985"
+15,CRIMINAL LAW,1505,"Drugs and Cosmetics Act, Food Adulteration, Weights and Measures, Legal Metrology"
+15,CRIMINAL LAW,1506,"Scheduled Castes and the Scheduled Tribes (Prevention of Atrocities) Act, 1989, Protection of Civil Rights Act, 1955"
+15,CRIMINAL LAW,1507,"Prevention of Terrorism Act (POTA) and National Security Act (NSA), Conservation of Foreign Exchange and Prevention of Smuggling Activities Act (COFEPOSA), Unlawful Activities (Prevention) Act (UAPA), Terrorist and Disruptive Activities (Prevention) Act (TADA)"
+15,CRIMINAL LAW,1508,"Negotiable Instruments Act, 1881"
+15,CRIMINAL LAW,1509,"Prevention of Money Laundering Act, 2002"
+15,CRIMINAL LAW,1510,Juvenile Justice (Care and Protection of Children) Act
+15,CRIMINAL LAW,1511,Criminal matters other than covered by the aforesaid categories
+15,CRIMINAL LAW,1512,Criminal writ petition [not in the nature of PIL]
+15,CRIMINAL LAW,15P,"PIL related to the subject category *Note A: Each of the above categories from 1501-1511 would have further markers/indicators as follows: • D - Cases where death sentence is imposed. • LI- Cases where life sentence is imposed • TEN- Cases where sentence of more than 10 years` imprisonment is imposed. • FIVE- Cases where sentence between 5 years to 10 years` imprisonment is imposed. • TTF- Cases where sentence of 2 years to 5 years is imposed. • TWO- Cases where sentence upto 2 years imposed including fine only. • RB- SLPs arising out of Regular Bail applications, suspension of sentence. • AB- SLPs arising out of anticipatory Bail applications. • CB- Matters filed for cancellation of bail/challenging grant of regular bail or anticipatory bail • MISC- SLPs arising out of quashing applications, orders framing charge, summoning orders, interim orders in criminal matters withdrawal of prosecution, orders for further investigation/re-investigation etc. • COMP- Matters filed by the state Government/complaint against acquittals or reduction of sentence. • PRE-Matters related to Parole/Furlough/Remission and Pre-mature release. • V – Matters relating to validity/vires of any Act. Note B: In Criminal matters, wherever there is conviction or allegation relating to special offences under 1501 to 1511 that would prevail. For example, if there is an allegation of IPC/Bharatiya Nyaya Sanhita offences and POCSO offences, the matter would be categorized as 1502. In Criminal matters, if there are 2 special offences invoked. For example, POCSO Act or SC/ST are invoked, the cases fall under the following categories: • Wherever the offence against women, it would fall under 1501. • There is an offence against child [including girl child], the same would come under 1502. • Wherever NDPS Act is invoked, it would come under 1504. • Wherever Money Laundering is invoked, it would fall under 1509."
+16,DIRECT TAXATION,1601,"Income Tax Act, 1961, Wealth Tax Act, 1957, Gift Tax Act, 1958, Excess Profits Tax Act, 1940, Business Profit Tax Act, 1947 [other than matters covered by categories 1602-1605]"
+16,DIRECT TAXATION,1602,"International Taxation, Double Tax Avoidance Agreement (DTAA), Transfer Pricing"
+16,DIRECT TAXATION,1603,"Settlement Commission, Voluntary Disclosure Schemes, Black money"
+16,DIRECT TAXATION,1604,Penalties/Prosecution under Income Tax Act and other Direct Tax Statutes
+16,DIRECT TAXATION,1605,"Matters challenging validity of the Direct Tax Statutes, Circulars, Orders, Notifications, Rules"
+16,DIRECT TAXATION,1606,Others
+16,DIRECT TAXATION,16P,PIL related to the subject category
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1701,"Schools viz. admissions, examinations, tuition fees, recognition, management, grant-in-aid, Right to Education Act"
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1702,"Colleges (UG/PG) - admissions, examinations, tuition fees, affiliation, management, grant-in-aid"
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1703,"Central/State/Deemed Universities, UGC Act/Regulations- including admission, examination, tuition fees, management, grant–in-aid"
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1704,"Medical/Dental/Ayush/Homeopathy colleges/Universities - admissions, examinations, fixation of fees, recognition, affiliation, management, grant-in- aid"
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1705,"Professional Education Institutes i.e. Engineering colleges/ Law colleges admissions, examinations, fixation of fees, recognition, affiliation, management, grant–in-aid"
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1706,Reservation in educational institutions
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",1707,Other Educational bodies such as coaching institutions.
+17,"EDUCATIONAL INSTITUTIONS – ADMISSION, MANAGEMENT, GRANT, RECOGNITION",17P,PIL related to the subject category
+18,ELECTION AND DELIMITATION LAWS,1801,Election of President and Vice President of India
+18,ELECTION AND DELIMITATION LAWS,1802,"Representation of People Act, 1951, elections of MPs/MLAs/MLCs"
+18,ELECTION AND DELIMITATION LAWS,1803,"Disqualification under the RP Act, 1951 and Tenth Schedule of the Constitution of India"
+18,ELECTION AND DELIMITATION LAWS,1804,"Elections to Gram Panchayats, Zila Parishads, Municipal Corporations, other local bodies, Cooperative Societies/ Universities, including disqualification and reservation of seats"
+18,ELECTION AND DELIMITATION LAWS,1805,Elections in Sports bodies/organizations
+18,ELECTION AND DELIMITATION LAWS,1806,Delimitation of constituencies and other disputes relating to election not covered by the above
+18,ELECTION AND DELIMITATION LAWS,18P,PIL related to the subject category
+19,"ENERGY LAWS-ELECTRICITY, PETROLEUM, OIL AND NATURAL GAS",1901,"Energy Laws-Electricity, Petroleum, Oil and Natural Gas"
+19,"ENERGY LAWS-ELECTRICITY, PETROLEUM, OIL AND NATURAL GAS",1902,Dealership and distribution of Petroleum products.
+19,"ENERGY LAWS-ELECTRICITY, PETROLEUM, OIL AND NATURAL GAS",19P,PIL related to the subject matter
+20,ENVIRONMENTAL LAWS,2001,"Environment (Protection) Act, 1986, Indian Forest Act, 1927, Wildlife (Protection) Act, 1972, Biological Diversity Act 2002, Coastal Regulation Zone (CRZ), Pollution Laws, Prevention of cruelty to animals, all other Acts, Rules, Regulations dealing with environment, ecology, conservation including environmental clearance"
+20,ENVIRONMENTAL LAWS,2002,"Appeal under Section 22 of the National Green Tribunal, 2010"
+20,ENVIRONMENTAL LAWS,20P,PIL related to the subject matter
+21,FAMILY LAWS,2101,"Marriage, divorce, restitution of conjugal rights, judicial separation, alimony, maintenance, petitions arising out of Section 125 of the Code of Criminal Procedure, 1973/Section 144 of the Bhartiya Nagarik Suraksha Sanhita, 2023"
+21,FAMILY LAWS,2102,"Custody of children, including guardianship and maintenance"
+21,FAMILY LAWS,2103,Adoption of children
+21,FAMILY LAWS,2104,"Matters relating to children, Juvenile Justice Act, pregnancy, IVF and surrogacy [excluding criminal matters]"
+21,FAMILY LAWS,2105,"Succession, Inheritance, devolution of property, gift, partition amongst family members"
+21,FAMILY LAWS,2106,"Senior Citizens Act, 2007"
+21,FAMILY LAWS,21P,PIL related to the subject matter
+22,HABEAS CORPUS AND PREVENTIVE DETENTION,2201,Habeas Corpus and preventive detention writ petitions filed under Article 32 of the Constitution before Supreme Court of India
+22,HABEAS CORPUS AND PREVENTIVE DETENTION,2202,SLPs arising out of Habeas Corpus and Preventive Detention matters before the High Court
+22,HABEAS CORPUS AND PREVENTIVE DETENTION,22P,PIL related to the subject category
+23,"HOUSING AND BUILDING - MUNICIPAL LAWS - HOUSING AND BUILDING PERMITS, SLUMS REHABILITATION, DEMOLITION, ENCROACHMENT/ REMOVAL OF ENCROACHMENT, SEALING AND URBAN PLANNING",2301,"Housing and Building-matters relating to Municipal Laws, housing and building permits, slums rehabilitation, demolition encroachment/removal of encroachment, sealing and urban planning (other than RERA)"
+23,"HOUSING AND BUILDING - MUNICIPAL LAWS - HOUSING AND BUILDING PERMITS, SLUMS REHABILITATION, DEMOLITION, ENCROACHMENT/ REMOVAL OF ENCROACHMENT, SEALING AND URBAN PLANNING",2302,Matters relating to Development Authorities
+23,"HOUSING AND BUILDING - MUNICIPAL LAWS - HOUSING AND BUILDING PERMITS, SLUMS REHABILITATION, DEMOLITION, ENCROACHMENT/ REMOVAL OF ENCROACHMENT, SEALING AND URBAN PLANNING",23P,PIL related to the subject category
+24,INDIRECT TAXATION,2401,"Customs Act, Customs Tariff Act, Export, Import and Anti-Dumping duty"
+24,INDIRECT TAXATION,2402,"Central Excise Act, Central Excise Tariff Act"
+24,INDIRECT TAXATION,2403,Central Sales Tax Act
+24,INDIRECT TAXATION,2404,"Value Added Tax (VAT), State Sales Tax Act"
+24,INDIRECT TAXATION,2405,Service Tax
+24,INDIRECT TAXATION,2406,"Goods and Services Tax, Integrated Goods and Services Tax, State Goods and Services Tax, UT Goods and Services Tax."
+24,INDIRECT TAXATION,2407,"Entry tax, motor vehicle tax, purchase tax, entertainment tax, terminal tax, octroi, toll tax, professional tax, Gold Control Act, Hotel Receipts Tax Act, Water and sewage Tax, luxury tax, Cess Acts"
+24,INDIRECT TAXATION,2408,Prosecutions under Indirect Tax Statutes
+24,INDIRECT TAXATION,2409,"Matters challenging validity of Indirect Tax Statutes, Circulars, Orders, Notification, Rules"
+24,INDIRECT TAXATION,2410,Others
+24,INDIRECT TAXATION,24P,PIL related to the subject category
+25,"INSOLVENCY LAWS AND INSOLVENCY AND BANKRUPTCY CODE, 2016",2501,"Insolvency Laws and Insolvency and Bankruptcy Code, 2016"
+25,"INSOLVENCY LAWS AND INSOLVENCY AND BANKRUPTCY CODE, 2016",25P,PIL related to the subject category
+26,INSURANCE LAWS/ REGULATIONS,2601,Insurance Laws & Regulations
+26,INSURANCE LAWS/ REGULATIONS,26P,PIL related to the subject category
+27,INTELLECTUAL PROPERTY RIGHTS LAW AND INFORMATION TECHNOLOGY,2701,"Copyright, patent, trade mark, design, passing off"
+27,INTELLECTUAL PROPERTY RIGHTS LAW AND INFORMATION TECHNOLOGY,2702,"Information Technology, Data protection"
+27,INTELLECTUAL PROPERTY RIGHTS LAW AND INFORMATION TECHNOLOGY,27P,PIL related to the subject matter
+28,JUDICIARY,2801,Appointment/ termination/ removal of judicial officers and their any service condition
+28,JUDICIARY,2802,Appointment/termination of Chairman/ Vice-Chairman/ Members of statutory tribunals [other than covered under Category 40]
+28,JUDICIARY,2803,"Employees of Supreme Court, High Courts, District Courts and/or Tribunals"
+28,JUDICIARY,2804,Other than matters covered by categories 2801 to 2803 28 P: PIL related to the subject category
+29,LABOUR AND INDUSTRIAL LAWS,2901,"Appointment, retrenchment, termination, dismissal, removal, disciplinary proceedings against labour/workmen"
+29,LABOUR AND INDUSTRIAL LAWS,2902,"Payment of wages, bonus, provident fund, gratuity, service benefits, benefits under ESIC Act, 1948, compensation under Workmen’s Compensation Act, 1923 (now Employees Compensation Act, 1923) and payment of overtime wages and minimum wage."
+29,LABOUR AND INDUSTRIAL LAWS,2903,"Contract labour i.e. engagement, regularization, abolition of contract labour"
+29,LABOUR AND INDUSTRIAL LAWS,2904,"Labour welfare legislations e.g. Factories Act, trade unions and other labour matters"
+29,LABOUR AND INDUSTRIAL LAWS,2905,Bonded labour and child labour
+29,LABOUR AND INDUSTRIAL LAWS,29P,PIL related to the subject category
+30,LAND ACQUISITION AND REQUISITION,3001,"Challenge to land acquisition, lapsing of acquisition, de-reservation, requisition and de-requisition of property and others"
+30,LAND ACQUISITION AND REQUISITION,3002,Compensation for land acquisition
+30,LAND ACQUISITION AND REQUISITION,30P,PIL related to the subject category
+31,"LAND LAWS, AGRICULTURAL TENANCY, LAND REVENUE",3101,"Abolition of jamindari/Jagirs/Inams/Estates, land reform legislations, agricultural tenancy, including prohibition of transfer of land belonging to SC/ST"
+31,"LAND LAWS, AGRICULTURAL TENANCY, LAND REVENUE",3102,"Revenue laws of States, including preemption, collection of land revenue, mutations, correction of land records, etc"
+31,"LAND LAWS, AGRICULTURAL TENANCY, LAND REVENUE",3103,"Land Ceiling Laws including Urban Land Ceiling Act, Repeal Act and State Land Ceiling Laws and consolidation laws"
+31,"LAND LAWS, AGRICULTURAL TENANCY, LAND REVENUE",31P,PIL related to the subject category
+32,"LOTTERIES, BETTING, GAMBLING",3201,"Lotteries, betting, gambling 32 P: PIL related to the subject category"
+33,"MINES MINERALS, MINING LEASES",3301,"Grant/renewal and/or cancellation of reconnaissance permits, prospecting licenses and/or mining leases, payment of royalty under any Central or State statute"
+33,"MINES MINERALS, MINING LEASES",3302,"Minor Minerals, State laws and Minor Minerals Concessions rules"
+33,"MINES MINERALS, MINING LEASES",3303,Others [but not including environmental clearance]
+33,"MINES MINERALS, MINING LEASES",33P,PIL related to the subject category
+34,"MOTOR VEHICLES LAWS- PERMITS, LICENSES AND OTHERS",3401,"Motor Vehicles Laws- Permits, Licenses and others (other than accident compensation) 34 P: PIL related to the subject category"
+35,ORIGINAL SUITS IN SUPREME COURT / DISPUTES INTER-STATE WATER DISPUTES,3501,Original Suits in Supreme Court/Inter-State Water disputes 35 P: PIL related to the subject category
+36,"PERSONS WITH DISABILITIES ACT, 2016 AND MENTAL HEALTH CARE ACT, 2017",3601,"Rights of Persons with Disabilities Act, 2016 and Mental Health Care Act, 2017 36 P: PIL related to the subject category"
+37,PROPERTY TAX,3701,Property Tax
+37,PROPERTY TAX,37P,PIL related to the subject category
+38,"PUBLIC TRUST, RELIGIOUS ENDOWMENTS, WAQFS",3801,"Management, administration of temples, waqfs and other religious institutions, including appointment/ removal of trustees, executive officers, members of waqfs boards"
+38,"PUBLIC TRUST, RELIGIOUS ENDOWMENTS, WAQFS",3802,Other Public trusts and charitable endowments
+38,"PUBLIC TRUST, RELIGIOUS ENDOWMENTS, WAQFS",38P,PIL related to the subject category
+41,RENT CONTROL AND PUBLIC PREMISES (EVICTION) ACT,4101,"State Rent Control Act, rent disputes and eviction"
+41,RENT CONTROL AND PUBLIC PREMISES (EVICTION) ACT,4102,Public Premises (Eviction) Act 41 P: PIL related to the subject category
+42,"SEBI ACT AND SECURITIES LAWS INCLUDING FORWARD CONTRACT REGULATION ACT, 1952 AND SECURITIES CONTRACTS (REGULATION) ACT, 1956",4201,"SEBI Act and Securities Laws including Forward Contract Regulation Act, 1952 and Securities Contracts (Regulation) Act, 1956"
+42,"SEBI ACT AND SECURITIES LAWS INCLUDING FORWARD CONTRACT REGULATION ACT, 1952 AND SECURITIES CONTRACTS (REGULATION) ACT, 1956",42P,PIL related to the subject category
+43,SERVICE LAWS,4301,"Appointment, Compassionate appointment, temporary appointment, recruitment, probation and confirmation, suspension, reduction in rank, termination, dismissal, removal, retirement, disciplinary proceedings against employees"
+43,SERVICE LAWS,4302,"Promotion, seniority, payment of salary, bonus, provident fund, service benefits, equal pay for equal work, pay scales, transfer"
+43,SERVICE LAWS,4303,"Regularization, contract employees, ad-hoc employees, daily wage employees"
+43,SERVICE LAWS,4304,"Retiral benefits, pension"
+43,SERVICE LAWS,4305,Reservation in employment and other affirmative action.
+43,SERVICE LAWS,4306,Matters involving ‘disputed caste certificate’
+43,SERVICE LAWS,4307,"Matters relating to appointment of Law officers, public prosecutors, government pleaders, etc"
+43,SERVICE LAWS,4308,Matters relating to members/staff of statutory commissions except for subject category 40
+43,SERVICE LAWS,43P,PIL related to the subject category
+44,"STATE EXCISE - TRADING IN LIQUOR- PRIVILEGES, LICENSES DISTILLERIES/ BREWERIES",4401,"State Excise-Trading in Liquor-Privileges, Licences Distilleries Breweries"
+44,"STATE EXCISE - TRADING IN LIQUOR- PRIVILEGES, LICENSES DISTILLERIES/ BREWERIES",44P,PIL related to the subject category
+45,TELEGRAPH &TELECOM LAWS,4501,Telegraph & Telecom laws
+45,TELEGRAPH &TELECOM LAWS,45P,PIL related to the subject category
+46,TENDERS/LICENSES/ LEASES,4601,"Tenders/licenses/leases invited by Union/ UTs/ Central public sector undertakings, including cancellation/ award of tenders."
+46,TENDERS/LICENSES/ LEASES,4602,"Tenders/licenses/leases invited by the State Governments/ local bodies/ State public sector undertakings, including cancellation/award of tenders."
+46,TENDERS/LICENSES/ LEASES,46P,PIL related to the subject category
+47,TRANSFER PETITIONS,4701,Transfer Petitions under Article 139A(1) of the Constitution
+47,TRANSFER PETITIONS,4702,Transfer Petitions under Article 139A(2) of the Constitution
+47,TRANSFER PETITIONS,4703,Civil Transfer Petitions under Section 25 of CPC
+47,TRANSFER PETITIONS,4704,"Criminal Transfer Petition under Section 406 Cr.P.C./Section 446 of the Bharatiya Nagarik Suraksha Sanhita, 2023"
+48,OTHERS,4801,"Matters arising under RTI Act,"
+48,OTHERS,4802,Matters arising under MSME Act
+48,OTHERS,4803,"Matters relating to Citizenship, Foreigners"
+48,OTHERS,4804,"Petition arising out of suit valuation, Registration, Stamp Act, Court fees Act."
+48,OTHERS,4805,Matters not falling under any other category.
+48,OTHERS,4806,Challenge to Constitutional Amendments
+48,OTHERS,48P,"Other PIL matters ***** ***** ***** MAPPING CHART - FROM OLD SUBJECT CATEGORY TO NEW SUBJECT CATEGORY ● “*”- Marked on old categories indicates that it does not clearly map to new category. The categories are color-coded as: Categories clearly mapped (Could be Automatically mapped) Categories that are mapped into definite options New Categories Categories that could not be mapped into definitive options Old Category New Category Mapping 0101 - Labour Matters - Dismissal 2901 - Labour and Industrial Laws - Appointment, retrenchment, termination, dismissal, removal, disciplinary proceedings against labour/workmen 0102 - Labour Matters - Retrenchment 2901 - Labour and Industrial Laws - Appointment, retrenchment, termination, dismissal, removal, disciplinary proceedings against labour/workmen 0103 - Labour Matters - Contract Labour 2903 - Labour and Industrial Laws - Contract labour i.e. engagement, regularization, abolition of contract labour 0104* - Labour Matters - Matters relating to wages, bonus, ad-hoc, casual daily wages & their regularisation 2902 - Labour and Industrial Laws - Payment of wages, bonus, provident fund, gratuity, service benefits, benefits under ESIC Act, 1948, compensation under Workmen's Compensation Act, 1923 (now Employees Compensation Act, 1923)and payment of overtime wages and minimum wage. 2903 - Labour and Industrial Laws - Contract labour i.e. engagement, regularization, abolition of contract labour 0105 - Labour Matters - Matters relating to Workmen Compensation Act 2902 - Labour and Industrial Laws - Payment of wages, bonus, provident fund, gratuity, service benefits, benefits under ESIC Act, 1948, compensation under Workmen's Compensation Act, 1923 (now Employees Compensation Act, 1923)and payment of overtime wages and minimum wage."
+39,REFERENCE UNDER ARTICLE 143 OF THE CONSTITUTION OF INDIA,39,(group has no sub-codes)
+40,"REFERENCE UNDER ARTICLE 317(1); FOR REMOVAL OF CHAIRPERSON/MEMBER OF TRIBUNAL/COMMISSION/ AUTHORITY UNDER ANY CENTRAL LAW WHERE INQUIRY HAS TO BE CONDUCTED BY THE SUPREME COURT",40,(group has no sub-codes)

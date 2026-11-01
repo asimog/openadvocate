@@ -1,4 +1,4 @@
-import type { Citation } from './ilo.gen.ts';
+import type { Citation } from './ulos.gen.ts';
 
 export const normalise = (s: string): string =>
   s

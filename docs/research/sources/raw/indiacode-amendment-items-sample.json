@@ -1,0 +1,298 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : [ {
+    "filter" : "identifier_collection",
+    "operator" : "equals",
+    "value" : "ACT_AMENDMENT",
+    "label" : "ACT_AMENDMENT"
+  } ],
+  "sort" : null,
+  "configuration" : null,
+  "type" : "discover",
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals"
+    }
+  },
+  "_embedded" : {
+    "searchResult" : {
+      "_embedded" : {
+        "objects" : [ {
+          "hitHighlights" : null,
+          "type" : "discover",
+          "_links" : {
+            "indexableObject" : {
+              "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5"
+            }
+          },
+          "_embedded" : {
+            "indexableObject" : {
+              "id" : "040288a7-510e-4144-ab78-f096645ab6a5",
+              "uuid" : "040288a7-510e-4144-ab78-f096645ab6a5",
+              "name" : "The Delegated Legislation Provisions (Amendment) Act, 1985",
+              "handle" : "123456789/617073",
+              "metadata" : {
+                "dc.date.accessioned" : [ {
+                  "value" : "2026-07-29T04:28:24Z",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.act_year" : [ {
+                  "value" : "1972",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.date.issued" : [ {
+                  "value" : "1986",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_name" : [ {
+                  "value" : "General Insurance Business (Nationalisation) Act",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.act_number" : [ {
+                  "value" : "57",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.collection" : [ {
+                  "value" : "ACT_AMENDMENT",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.identifier.uri" : [ {
+                  "value" : "http://test.indiacode.nic.in/handle/123456789/617073",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "The Delegated Legislation Provisions (Amendment) Act, 1985",
+                  "language" : null,
+                  "authority" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "inArchive" : true,
+              "discoverable" : true,
+              "withdrawn" : false,
+              "lastModified" : "2026-08-11T17:06:28.757854Z",
+              "entityType" : null,
+              "type" : "item",
+              "_links" : {
+                "accessStatus" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/accessStatus"
+                },
+                "bundles" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/bundles"
+                },
+                "identifiers" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/identifiers"
+                },
+                "mappedCollections" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/mappedCollections"
+                },
+                "owningCollection" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/owningCollection"
+                },
+                "relationships" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/relationships"
+                },
+                "version" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/version"
+                },
+                "templateItemOf" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/templateItemOf"
+                },
+                "thumbnail" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/thumbnail"
+                },
+                "submitter" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5/submitter"
+                },
+                "self" : {
+                  "href" : "https://indiacode.gov.in/server/api/core/items/040288a7-510e-4144-ab78-f096645ab6a5"
+                }
+              }
+            }
+          }
+        } ]
+      },
+      "page" : {
+        "number" : 0,
+        "size" : 1,
+        "totalPages" : 970,
+        "totalElements" : 970
+      },
+      "_links" : {
+        "next" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&page=1&size=1"
+        },
+        "last" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&page=969&size=1"
+        },
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&size=1"
+        }
+      }
+    },
+    "facets" : [ {
+      "name" : "dateIssued",
+      "facetType" : "date",
+      "facetLimit" : 12,
+      "minValue" : "0002-11-30",
+      "maxValue" : "9668-11-25",
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 12
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/dateIssued?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&size=12"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "1950 - 1959",
+          "count" : 46,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B1950%20TO%201959%5D,equals"
+            }
+          }
+        }, {
+          "label" : "1960 - 1969",
+          "count" : 79,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B1960%20TO%201969%5D,equals"
+            }
+          }
+        }, {
+          "label" : "1970 - 1979",
+          "count" : 126,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B1970%20TO%201979%5D,equals"
+            }
+          }
+        }, {
+          "label" : "1980 - 1989",
+          "count" : 207,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B1980%20TO%201989%5D,equals"
+            }
+          }
+        }, {
+          "label" : "1990 - 1999",
+          "count" : 114,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B1990%20TO%201999%5D,equals"
+            }
+          }
+        }, {
+          "label" : "2000 - 2009",
+          "count" : 162,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B2000%20TO%202009%5D,equals"
+            }
+          }
+        }, {
+          "label" : "2010 - 2019",
+          "count" : 135,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B2010%20TO%202019%5D,equals"
+            }
+          }
+        }, {
+          "label" : "2020 - 2026",
+          "count" : 100,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.dateIssued=%5B2020%20TO%202026%5D,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "identifier_collection",
+      "facetType" : "text",
+      "facetLimit" : 10,
+      "openByDefault" : true,
+      "page" : {
+        "number" : 0,
+        "size" : 10
+      },
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&size=10"
+        }
+      },
+      "_embedded" : {
+        "values" : [ {
+          "label" : "ACT_AMENDMENT",
+          "count" : 970,
+          "authorityKey" : null,
+          "type" : "discover",
+          "_links" : {
+            "search" : {
+              "href" : "https://indiacode.gov.in/server/api/discover/search/objects?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals&f.identifier_collection=ACT_AMENDMENT,equals"
+            }
+          }
+        } ]
+      }
+    }, {
+      "name" : "itemtype",
+      "facetType" : "text",
+      "facetLimit" : 5,
+      "openByDefault" : true,
+      "_links" : {
+        "self" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/facets/itemtype?dsoType=ITEM&f.identifier_collection=ACT_AMENDMENT,equals"
+        }
+      },
+      "_embedded" : {
+        "values" : [ ]
+      }
+    } ]
+  }
+}

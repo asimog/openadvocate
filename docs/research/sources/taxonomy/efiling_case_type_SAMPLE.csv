@@ -1,0 +1,11 @@
+relief_sought,value,local_code,national_code,label
+civ-appeal,73~5012,73,5012,Any Other Appeal
+civ-appeal,45~5012,45,5012,First Appeal/Civil Appeal
+civ-appeal,59~5002,59,5002,Judicial separation
+civ-appeal,72~5012,72,5012,Second Appeal/Civil Appeal
+civ-appeal,43~5012,43,5012,Setting aside a decree obtained by fraud
+civ-arb,24~5007,24,5007,Arbitration Petition
+civ-arb,74~5016,74,5016,Setting aside of Arbitration Award
+crl-bail,50~6005,50,6005,Anticipatory Bail
+crl-bail,49~6007,49,6007,Cancellation of Bail
+crl-bail,68~6005,68,6005,Regular Bail

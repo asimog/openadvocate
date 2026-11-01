@@ -2,13 +2,13 @@
 
 *Canonical document C3: master research, architecture and engineering blueprint. C3 is the authority for decision IDs (D1–D35) and the MVP stage list (Stage 0–5, post-MVP P1–P4). Research current to 30 October 2026.*
 
-*Companion canon:* `C1-literature-review.md` (papers behind every [A]), `C2-prior-art-repos-review.md` (repositories behind every [S]), `C4-master-product-plan.md` (modules and user journeys), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver specification, manifest and receipt, conformance suites CT-01–CT-16). This document decides *how it is built*.
+*Companion canon:* `C1-literature-review.md` (papers behind every [A]), `C2-prior-art-repos-review.md` (repositories behind every [S]), `C4-master-product-plan.md` (modules and user journeys), `C5-master-standards-and-ontology-plan.md` (ULOS schemas, ontology, NVS/CVS/RTS, INSC resolver specification, manifest and receipt, conformance suites CT-01–CT-16). This document decides *how it is built*.
 
 ---
 
 ## The answer in one paragraph
 
-Build **one open TypeScript harness that obeys one published contract** (ILO v0.1, JSON Schema 2020-12; C5) and ship it as a **Windows desktop application**: an Electron workspace delivered as a signed `.exe` installer with auto-update, one workspace per matter, a **built-in Chromium browser** (where the lawyer, not the software, solves any CAPTCHA), a **built-in Docxodus DOCX editor** with tracked changes, an embedded SQLite matter store and step journal, a local hash-chained ledger, and **model access through an OpenRouter adapter (BYO key) or a local OpenAI-compatible endpoint**. Inside the MVP: matters, documents and evidence, the **W3 Notebook & case graph** (SUPACE-referenced document intelligence), **citation verification** (INSC: Supreme Court official sources → AWS Open Data → Indian Kanoon via webfetch), the defect checker, the ledger and verification-manifest export, the review UI, the **Research & Argument Studio** (LegRAA-referenced research layer, precedent graph with treatment, Case Conference) and, as a separate module, the **MOTO Argument Hypothesis Exploration Engine** that feeds candidate arguments back into the Studio for the lawyer to accept or reject. Agents never write the record: schemas compile into the only write tools, agents submit typed patches that a deterministic kernel validates and commits, retractions cascade through `dependsOn` edges, external actions wait in an outbox, and every reported state transition is gated on fresh evidence bound to the exact version it attests. Every check runs **deterministic gates first**; **Jev and Clef** (System One decision models) score what survives; a **separate Verifier/Eval agent** measures conformance against the three open standards (NVS, CVS, RTS). The gateway and website follow immediately after the MVP; macOS/Linux builds and commercial services come later.
+Build **one open TypeScript harness that obeys one published contract** (ULOS v0.1, JSON Schema 2020-12; C5) and ship it as a **Windows desktop application**: an Electron workspace delivered as a signed `.exe` installer with auto-update, one workspace per matter, a **built-in Chromium browser** (where the lawyer, not the software, solves any CAPTCHA), a **built-in Docxodus DOCX editor** with tracked changes, an embedded SQLite matter store and step journal, a local hash-chained ledger, and **model access through an OpenRouter adapter (BYO key) or a local OpenAI-compatible endpoint**. Inside the MVP: matters, documents and evidence, the **W3 Notebook & case graph** (SUPACE-referenced document intelligence), **citation verification** (INSC: Supreme Court official sources → AWS Open Data → Indian Kanoon via webfetch), the defect checker, the ledger and verification-manifest export, the review UI, the **Research & Argument Studio** (LegRAA-referenced research layer, precedent graph with treatment, Case Conference) and, as a separate module, the **MOTO Argument Hypothesis Exploration Engine** that feeds candidate arguments back into the Studio for the lawyer to accept or reject. Agents never write the record: schemas compile into the only write tools, agents submit typed patches that a deterministic kernel validates and commits, retractions cascade through `dependsOn` edges, external actions wait in an outbox, and every reported state transition is gated on fresh evidence bound to the exact version it attests. Every check runs **deterministic gates first**; **Jev and Clef** (System One decision models) score what survives; a **separate Verifier/Eval agent** measures conformance against the three open standards (NVS, CVS, RTS). The gateway and website follow immediately after the MVP; macOS/Linux builds and commercial services come later.
 
 ---
 
@@ -34,7 +34,7 @@ Durations are omitted. Development is done with AI coding agents; the bottleneck
 
 | Part | What it is | Status |
 |---|---|---|
-| **1. Indian Legal AI Commons** | Open standards: ILO ontology, document/paragraph identity, NVS/CVS/RTS verification standards, AI-origin manifest and receipt, connector permission model, `@ilac/*` SDKs, conformance suites | The **contract layer** every component validates against (C5) |
+| **1. Indian Legal AI Commons** | Open standards: ULOS ontology, document/paragraph identity, NVS/CVS/RTS verification standards, AI-origin manifest and receipt, connector permission model, `@ulos/*` SDKs, conformance suites | The **contract layer** every component validates against (C5) |
 | **2. Open Code of Litigation (Vakilbench workspace)** | Open-source local GUI workspace for litigation: per-matter workspace, all core modules, built-in browser and editor, BYO key, full audit trail | **The MVP**, shipped as a Windows installer |
 | **3. Gateway, website, commercial** | Hosted gateway and website (P1), other desktop OSes (P2), connectors (P3), commercial services (P4) | **After MVP**; only the seams are designed now |
 
@@ -44,7 +44,7 @@ Durations are omitted. Development is done with AI coding agents; the bottleneck
 
 | Stage | Name | Delivers |
 |---|---|---|
-| **Stage 0** | Windows shell, installer, journal | Hardened Electron shell; signed NSIS installer + auto-update (internal channel); typed IPC; BYO key in Windows Credential Manager; OpenRouter + local endpoint adapter; SQLite step journal; ILO core schemas + tool compiler; patch kernel; ledger chain + `ilac` CLI; Verifier/Eval agent skeleton |
+| **Stage 0** | Windows shell, installer, journal | Hardened Electron shell; signed NSIS installer + auto-update (internal channel); typed IPC; BYO key in Windows Credential Manager; OpenRouter + local endpoint adapter; SQLite step journal; ULOS core schemas + tool compiler; patch kernel; ledger chain + `ulos` CLI; Verifier/Eval agent skeleton |
 | **Stage 1** | Matters, documents, ingest | Matter service, vault, document version DAG, ingest worker (OCR sidecar), line model, anchors, pdf.js anchor layer, evidence-package export/import, AWS SC mirror + profiling, ontology seed from SC/HC metadata, built-in browser with BrowserCapture |
 | **Stage 2** | Notebook + NVS | W3 Notebook & case graph: logic-gate extraction, NVS gates G1–G7, Jev/Clef extraction scoring, Notebook editor, anchored chatbot, review UI, agent + runtime verifier, retrieval |
 | **Stage 3** | Citation verifier CVS + editor + manifest | INSC parser and resolver chain (SC → AWS → Indian Kanoon webfetch), L1/L2 deterministic, L3 with Jev/Clef, Docxodus editor with agent proposals, defect checker, cascade engine, production, AI-origin manifest + receipt, outbox |
@@ -82,7 +82,7 @@ C3 is the authority for these IDs. Other documents cite this register directly.
 | D6 | Loop pattern | Pattern B (bounded turn as a step) default; Pattern C (loop node) for MOTO and Case Conference | — | Keeps any framework's call order out of replay [I] |
 | D7 | Fallback loop | **OpenAI Agents JS core** behind `AgentRuntime` | — | Serialisable `RunState`; same language [S] |
 | D8 | Model access | **OpenRouter adapter only** (chat completions + Decisions API) with BYO key, plus optional local OpenAI-compatible endpoint (Ollama, llama.cpp, vLLM; incl. `/v1/systemone`) | — | One choke point for keys, data labels and recording; OpenRouter gives multi-provider failover and serves Clef [V] |
-| D9 | Contracts | **ILO JSON Schema 2020-12 is the source**; types, validators, write tools, MCP/OpenAPI ops generated | — | Ontology-to-tools compilation [A, arXiv 2602.03439] |
+| D9 | Contracts | **ULOS JSON Schema 2020-12 is the source**; types, validators, write tools, MCP/OpenAPI ops generated | — | Ontology-to-tools compilation [A, arXiv 2602.03439] |
 | D10 | Write path | **Patch kernel**: RFC 6902 proposals via compiled tools; schema + shapes + role + invariants; commit with ledger event in one transaction | — | PatchBoard: 84.6% vs 30.8% task success at ~45k vs ~368k tokens [A, abstract-level] |
 | D11 | Retraction | `dependsOn` + **typed cascade invalidation**; export gated on zero open flags | — | MemTX [A] |
 | D12 | External effects | **Outbox**, payload-bound approval, reconciliation on unknown outcome | — | Cordon [A] |
@@ -132,13 +132,13 @@ C3 is the authority for these IDs. Other documents cite this register directly.
 
 ### 2.2 What a top professional adds
 
-Write **failure semantics before features** (timeout, duplicate delivery, partial write, stale read, unknown outcome, for every boundary). Publish a **threat model per data path** (hostile PDFs, injection through pleadings, web content, model egress, third-party tools). Enforce an **ownership matrix in code** (dependency-cruiser rules). Insist on a **second implementation** of the contract from Stage 0 (the `ilac` CLI verifies an evidence package without the GUI). Treat **expert-labelling throughput** as the scarcest resource. Design the **review queue as a capacity problem**: items ranked by materiality, never bulk-approved. **Move rules from prompts into code**: prompt-only enforcement leaked prohibited content in 30 of 120 runs while contract-owned validators leaked none [A, arXiv 2607.08028].
+Write **failure semantics before features** (timeout, duplicate delivery, partial write, stale read, unknown outcome, for every boundary). Publish a **threat model per data path** (hostile PDFs, injection through pleadings, web content, model egress, third-party tools). Enforce an **ownership matrix in code** (dependency-cruiser rules). Insist on a **second implementation** of the contract from Stage 0 (the `ulos` CLI verifies an evidence package without the GUI). Treat **expert-labelling throughput** as the scarcest resource. Design the **review queue as a capacity problem**: items ranked by materiality, never bulk-approved. **Move rules from prompts into code**: prompt-only enforcement leaked prohibited content in 30 of 120 runs while contract-owned validators leaked none [A, arXiv 2607.08028].
 
 ### 2.3 Hidden requirements
 
 | Requirement | Failure if missed | Mechanism |
 |---|---|---|
-| Derived paragraph numbers never pass as the court's | "para 18" the court never printed | `ilo:para-derived` scheme with extractor version |
+| Derived paragraph numbers never pass as the court's | "para 18" the court never printed | `ulos:para-derived` scheme with extractor version |
 | Reporter headnotes are not judgment text | Pinpoint lands in SCR headnote | `ReporterBlock` excluded from paragraph sequence |
 | Missing from corpus ≠ non-existent | Real recent judgment reported as fabricated | `coverageWindow`; `unresolved/outside_corpus_coverage` |
 | Two identifiers before L1 `verified` | Misread `nc_display` maps to wrong Work | INSC + SCR page, or CNR + date |
@@ -167,11 +167,11 @@ Write **failure semantics before features** (timeout, duplicate delivery, partia
 
 ### 3.1 Layers
 
-The **contract layer** (ILO schemas, JSON-LD contexts, shapes, normalisation profile, generated tools) is the only thing every layer agrees on. The **harness core** orchestrates. **Domain services** own state, one kind each, and each hosts the **patch kernel** for its own types. **Engines** (Notebook, CVS, Studio, MOTO) are domain modules built on the harness. **Adapters** bind ports. The **workspace UI** captures and displays; it owns nothing persistent. The **Verifier/Eval agent** sits outside the generating path entirely.
+The **contract layer** (ULOS schemas, JSON-LD contexts, shapes, normalisation profile, generated tools) is the only thing every layer agrees on. The **harness core** orchestrates. **Domain services** own state, one kind each, and each hosts the **patch kernel** for its own types. **Engines** (Notebook, CVS, Studio, MOTO) are domain modules built on the harness. **Adapters** bind ports. The **workspace UI** captures and displays; it owns nothing persistent. The **Verifier/Eval agent** sits outside the generating path entirely.
 
 ```mermaid
 flowchart TB
-  subgraph Contract["Contract layer (open): ILO v0.1 - C5"]
+  subgraph Contract["Contract layer (open): ULOS v0.1 - C5"]
     SCH[JSON Schema 2020-12] --- CTX[JSON-LD contexts] --- SHP[Shapes / invariants] --- NORM[Quote normalisation profile]
     SCH --> GEN[Generators: TS types, Ajv validators,<br/>write tools, MCP/OpenAPI ops]
   end
@@ -297,7 +297,7 @@ sequenceDiagram
 
 ```mermaid
 flowchart LR
-  A2[Agent turn: RFC 6902 patch proposals<br/>via compiled ILO write tools] --> K1
+  A2[Agent turn: RFC 6902 patch proposals<br/>via compiled ULOS write tools] --> K1
   subgraph K["Patch kernel (owning service)"]
     K1[1 schema - Ajv] --> K2[2 shapes] --> K3[3 role and grant] --> K4[4 invariants + standard gates<br/>NVS G1-G7 / CVS / RTS T1-T5] --> K5[5 commit: state + outbox row + ledger event]
   end
@@ -306,13 +306,13 @@ flowchart LR
   K5 --> CASCADE[Cascade engine] --> FLAGS[Open flags block export]
 ```
 
-The harness never writes a domain table. Each service writes its own state, an outbox row if needed, and its ledger event in **one SQLite transaction**. Agents can only express writes through tools generated from ILO schemas (`ilo.proposeNotebookItem`, `ilo.proposeStatement`, `ilo.linkAuthority`, `ilo.proposePrecedentEdge`, `ilo.proposeArgument`, `ilo.proposeAmendment`, …). The graph has **two layers**: the **reference layer** (Works, INSC identities, statutes, court and bench registry, public precedent graph, concepts) is versioned and read-only to agents; the **matter layer** is agent-proposable and may only link into the reference layer.
+The harness never writes a domain table. Each service writes its own state, an outbox row if needed, and its ledger event in **one SQLite transaction**. Agents can only express writes through tools generated from ULOS schemas (`ulos.proposeNotebookItem`, `ulos.proposeStatement`, `ulos.linkAuthority`, `ulos.proposePrecedentEdge`, `ulos.proposeArgument`, `ulos.proposeAmendment`, …). The graph has **two layers**: the **reference layer** (Works, INSC identities, statutes, court and bench registry, public precedent graph, concepts) is versioned and read-only to agents; the **matter layer** is agent-proposable and may only link into the reference layer.
 
 ### 3.5 Component specification
 
 | Component | Responsibility | Interfaces | Technology | Failure modes | Replacement |
 |---|---|---|---|---|---|
-| Workspace shell | Windows, IPC broker, key custody, signing, updates | Typed IPC generated from ILO ops | Electron, electron-builder (NSIS), electron-updater | Renderer compromise → main holds keys | CEF |
+| Workspace shell | Windows, IPC broker, key custody, signing, updates | Typed IPC generated from ULOS ops | Electron, electron-builder (NSIS), electron-updater | Renderer compromise → main holds keys | CEF |
 | Workspace UI | Display and capture only | IPC client | React + TS; pdf.js with our anchor layer | Stale view → CAS at service | — |
 | Browser pane | Court and research sites; lawyer-driven capture | `BrowserCapture` | `WebContentsView`, `persist:matter-<id>` session, downloads to vault | Portal change → capture still valid, fields `unparsed` | — |
 | Editor | Client only; edits become versions | Document API | Docxodus WASM; .NET sidecar for compare if needed; Word handoff | Fidelity loss → three-oracle gate | LibreOffice compare |
@@ -322,7 +322,7 @@ The harness never writes a domain table. Each service writes its own state, an o
 | Ingest worker | Parse/OCR runs (recorded) | `ingest()` | Utility process, no network; pypdfium2, pdfplumber, Docling, PaddleOCR, Tesseract (Python sidecar, bundled) | Low confidence → second reader, review | — |
 | Notebook & case graph | Notebook items, statements, edges, chronology; bitemporal | `NotebookService`, `CaseGraphService` | SQLite tables, CTEs | Contradictions kept + `contradicts` | — |
 | Legal knowledge | Works/Expressions/Manifestations, equivalence, coverage, provenance; ontology instances | `LegalKnowledgeService` | SQLite + AWS mirror (DuckDB at ingest) | Upstream withdrawal → `withdrawn_upstream` | — |
-| Verification (CVS) | VerificationRecords, receipts | `CitationResolver`, `VerificationService` | `@ilac/verification`; deterministic L1/L2; L3 Jev/Clef + generative assessor | Source down → `not_checked` | — |
+| Verification (CVS) | VerificationRecords, receipts | `CitationResolver`, `VerificationService` | `@ulos/verification`; deterministic L1/L2; L3 Jev/Clef + generative assessor | Source down → `not_checked` | — |
 | Studio | Research organisation, precedent graph, arguments, Case Conference | `StudioService`, `PrecedentGraphService` | SQLite; playbooks | Treatment unanchored → rejected by T3 | — |
 | MOTO engine | Candidate argument generation and validation | `HypothesisEngine` | Separate package; Pattern C loop | Budget breach → gate | — |
 | Defect rules | Rule packs, defect results | `RulesEngine` | GoRules Zen tables + statecharts | Weakening patch rejected | — |
@@ -343,7 +343,7 @@ The harness never writes a domain table. Each service writes its own state, an o
 | Bundled sidecars | Python OCR runtime (embedded distribution) and Docxodus .NET (self-contained) shipped as signed binaries with hashes pinned in the build manifest |
 | Secrets | OpenRouter key and signing key via OS credential store (Windows Credential Manager through `keytar`-class binding or Electron `safeStorage`) |
 | Data location | `%LOCALAPPDATA%\Vakilbench`; matters relocatable to any folder (e.g. a BitLocker volume) |
-| Reproducibility | Lockfiles, SBOM, build provenance; `ilac` CLI shipped alongside for offline receipt verification |
+| Reproducibility | Lockfiles, SBOM, build provenance; `ulos` CLI shipped alongside for offline receipt verification |
 | Platform | Windows 10 22H2+ and Windows 11, x64 (arm64 later); macOS/Linux in P2 with no code change behind the shell |
 
 ---
@@ -471,7 +471,7 @@ Order recorded per attempt is part of the record. The display order above tries 
 - **`ResolutionAttempt`** `{tier: T1|T2|T3, source, acquisitionMode, startedAt, outcome: resolved|not_found|skipped|error, reason?, manifestation?, coverageWindow?}`; closed reasons incl. `captcha_required_user_absent`, `user_declined`, `rate_limited`, `outside_corpus_coverage`, `source_unavailable`.
 - **Technical axis** (L1, L2): `verified | failed | unresolved | not_checked | not_applicable` with reason (`unparseable`, `identifier_conflict`, `metadata_mismatch`, `wrong_pinpoint`, `misquotation`, `paragraph_scheme_absent`, …).
 - **Semantic axis** (L2 semantic, L3): `supported | partially_supported | unsupported | contradicted | unresolved`, with assessor ids, `method: model | human | model_then_human`, and System One scores (`model`, question id, wording hash, probabilities).
-- **`authorityLevel`**: A (T1), B (T2), C (T3). Display badges (`VERIFIED_PRIMARY / VERIFIED_SECONDARY / CONFLICT / FAILED / UNVERIFIED`) are derived by `ilo.summaryBadge`, never stored.
+- **`authorityLevel`**: A (T1), B (T2), C (T3). Display badges (`VERIFIED_PRIMARY / VERIFIED_SECONDARY / CONFLICT / FAILED / UNVERIFIED`) are derived by `ulos.summaryBadge`, never stored.
 - **`hallucinationClass`** aligned to draft Reg 3(1)(z): `fabricated_authority`, `misattributed_authority`, `wrong_pinpoint`, `misquotation`, `misstated_holding`, `nonexistent_provision`, `superseded_provision`, `unsupported_proposition`.
 - **`attestsHash`**: hash of the exact draft version and occurrence.
 
@@ -486,7 +486,7 @@ Order recorded per attempt is part of the record. The display order above tries 
 | Isolation | `persist:matter-<id>` session per matter; no Node, no preload, `sandbox: true` |
 | Trigger | Lawyer clicks *Capture* or a download starts; main intercepts `will-download`, writes to vault, hashes |
 | Recorded | URL, final URL, time, title, DOM snapshot (hash; bytes in vault), screenshot hash, PDF sha256, response headers, TLS certificate fingerprint, the citation/query it served |
-| Typed result | `ilo:SourceCapture` linked to a `Manifestation`, with a T1 `ResolutionAttempt {acquisitionMode: in_session_human}` |
+| Typed result | `ulos:SourceCapture` linked to a `Manifestation`, with a T1 `ResolutionAttempt {acquisitionMode: in_session_human}` |
 | Parsing | Versioned per-portal extractors; failed parse leaves capture valid, fields `unparsed` |
 | Indian Kanoon webfetch | Same capture record when fetched through the pane; a direct fetch on click records URL, time, response hash |
 | Never | CAPTCHA solving, background crawling, agent form submission |
@@ -501,7 +501,7 @@ A court, registry or opposing advocate must be able to check a filing's verifica
 | Hash-binding | The receipt carries the SHA-256 of the produced PDF and of each draft block, never the text. Each claim is an anchored tuple over **public** identifiers: `(2024 INSC 412, para 18, lines 4–7, quoteHash)` |
 | Public canonical identifiers | INSC neutral citations, CNR numbers, provision version dates; the checker re-derives the quote hash from its own copy of the public judgment (eSCR, ICMIS, AWS mirror) |
 | Signed receipts | RFC 8785 canonical JSON in a DSSE envelope, signed with the advocate-tool key (Ed25519); public keys published in a registry; any byte change to the PDF or receipt breaks verification |
-| Offline verification | `ilac verify receipt.json filing.pdf` on an air-gapped registry machine: checks signature, PDF digest, schema validity, and re-runs L1/L2 against its own corpus copy |
+| Offline verification | `ulos verify receipt.json filing.pdf` on an air-gapped registry machine: checks signature, PDF digest, schema validity, and re-runs L1/L2 against its own corpus copy |
 | Conformance as certification | The CT suites are published; a tool passing them can be certified as a class |
 
 ```mermaid
@@ -724,13 +724,13 @@ After N failures, tasks declared `fallback: deterministic` (chronologies, citati
 
 **Pattern C** (MOTO, Case Conference): the loop is an interpreter `loop` node with a budget; each generator and validator call is its own step; the validator's verdict gates each iteration's acceptance; notes go to `run_scratch`.
 
-**Ontology-to-tools compilation.** `@ilac/ontology` emits, per ILO type with a write operation: a tool definition (name@version, input schema, `actionClass`, side-effect class, replay policy, description hash), the kernel validator chain and the MCP/OpenAPI operation. The model-visible tool set is compiled tools ∩ step allowlist ∩ grant; the registry rejects allowlists with overlapping declared capabilities.
+**Ontology-to-tools compilation.** `@ulos/ontology` emits, per ULOS type with a write operation: a tool definition (name@version, input schema, `actionClass`, side-effect class, replay policy, description hash), the kernel validator chain and the MCP/OpenAPI operation. The model-visible tool set is compiled tools ∩ step allowlist ∩ grant; the registry rejects allowlists with overlapping declared capabilities.
 
 ### 10.4 Migration paths
 
 | Trigger | Move | Unchanged |
 |---|---|---|
-| Custom loop falls behind | `AgentRuntime` → OpenAI Agents core | Playbooks, manifests, ledger, ILO objects |
+| Custom loop falls behind | `AgentRuntime` → OpenAI Agents core | Playbooks, manifests, ledger, ULOS objects |
 | Server profile (P1) | `DurableRunner` → server runner | Interpreter logic, kernels, ledger |
 | Docxodus editing insufficient | `DocumentEngine` → LibreOffice compare (labelled degraded) + Word handoff | Version DAG, proposals |
 | Electron untenable | Shell → CEF | Everything behind IPC |
@@ -741,7 +741,7 @@ The swap test (V-14) proves this on every release.
 
 ## 11. Memory and retrieval: five owners, one read path, never a transcript
 
-**Governing rule.** An agent's conversation dies with the turn. Nothing becomes part of the matter until an owning kernel accepts it as an ILO object with an evidence anchor or a counsel decision, a verification record where it is displayed as reliable, and a ledger event.
+**Governing rule.** An agent's conversation dies with the turn. Nothing becomes part of the matter until an owning kernel accepts it as an ULOS object with an evidence anchor or a counsel decision, a verification record where it is displayed as reliable, and a ledger event.
 
 | Memory | Holds | Owner | Write rule | Read path |
 |---|---|---|---|---|
@@ -759,7 +759,7 @@ The swap test (V-14) proves this on every release.
 
 | Table | Key columns |
 |---|---|
-| `ilo_object` | `id (urn:ilo:…)`, `type`, `schema_version`, `content_hash`, `hash_profile`, `body json`, `matter_id`, `valid_from`, `valid_to`, `recorded_at`, `superseded_at` |
+| `ulos_object` | `id (urn:ulos:…)`, `type`, `schema_version`, `content_hash`, `hash_profile`, `body json`, `matter_id`, `valid_from`, `valid_to`, `recorded_at`, `superseded_at` |
 | `notebook_item` | `id`, `kind`, `status`, `anchors json`, `gate_results json`, `decision_scores json`, `epistemic_type` |
 | `statement` | `id`, `subtype`, `asserted_by`, `epistemic_status`, `classification_method`, `human_review_id` |
 | `evidence_ref` | `id`, `work`, `expression`, `manifestation`, `selector json`, `quote_hash` |
@@ -804,7 +804,7 @@ stateDiagram-v2
 | Storage | Bytes in vault (sha256 = Manifestation id); metadata, versions, heads in document service |
 | Parsing | Born-digital: pypdfium2 + pdfplumber geometry. Layout: Docling. OCR for scanned English pages: PaddleOCR + Tesseract second reader; VLM text only aligned onto geometry anchors |
 | Corpus-first step | Corpus-profiling job over the AWS SC objects (null rates, headnote presence, printed paragraph numbers by decade, text layer) sets OCR/CER targets for scanned English judgments by decade |
-| Paragraphs | `court-printed` vs `ilo:para-derived` with extractor version; SCR headnote and "Case Law Referred" are `ReporterBlock`s outside the sequence; paragraph count stored so an overflow pinpoint fails L2 |
+| Paragraphs | `court-printed` vs `ulos:para-derived` with extractor version; SCR headnote and "Case Law Referred" are `ReporterBlock`s outside the sequence; paragraph count stored so an overflow pinpoint fails L2 |
 | Hashes per Work | PDF sha256; JCS sha256 of raw source JSON; per-passage `quoteHash` under normalisation profile |
 | References | Selector chain `ParagraphSelector → FragmentSelector(page) → TextQuoteSelector / TextPositionSelector / PdfBoxSelector` (W3C Web Annotation), coarse-to-fine fallback |
 | Versions | Version DAG with exact-head CAS; stale saves become branches |
@@ -827,7 +827,7 @@ A Cordis-inspired registry reimplemented in ~1–2k lines of TS. Rule packs and 
 
 | Kind | Format | Who changes it |
 |---|---|---|
-| Executable capability (tool) | Generated from ILO | Release |
+| Executable capability (tool) | Generated from ULOS | Release |
 | Service | TS module | Developers |
 | Plugin | Signed npm package; `iloRange`, `harnessRange` | First-party in-process; third-party out of process, Read/Prepare only |
 | Profile | `base → forum (signed rule pack) → matter type → chamber → user`, YAML + JSON Schema | Forum/matter by us; chamber by its admin |
@@ -946,11 +946,11 @@ erDiagram
 | AWS SC parquet | `title`, `petitioner`, `respondent`, `judge`, `author_judge`, `citation`, `case_id`, `cnr`, `decision_date`, `disposal_nature`, `nc_display`, `path`, `raw_html` | `Work`, `Expression` (INSC, SCR), `Party`, `Judge`, `Bench` (strength derived), `Disposal`, `Court`; INSC↔SCR equivalence |
 | HC dataset metadata | `cnr`, `decision_date`, court, bench, order number | HC `Work` identity (P3 resolver; reference data loaded in MVP where useful) |
 | Judgment text | paragraph structure, citations, provisions cited | `Passage`, `legal_reference`, `PrecedentEdge` |
-| From scratch (no metadata) | Notebook kinds, statement subtypes, treatment vocabulary, argument structure | ILO classes defined in C5 |
+| From scratch (no metadata) | Notebook kinds, statement subtypes, treatment vocabulary, argument structure | ULOS classes defined in C5 |
 | Format standards | JSON Schema, JSON-LD, PROV-O, W3C Web Annotation selectors; Akoma Ntoso optional for statutes | Serialisation and interop |
-| Law and Justice Wiki | concept pages | Non-normative glossary (`ilo-concepts`) |
+| Law and Justice Wiki | concept pages | Non-normative glossary (`ulos-concepts`) |
 
-**Portability.** Outbound calls in MVP: the OpenRouter routes the user configured, Indian Kanoon on click, the AWS bucket for mirror sync, the update feed, and sites the user browses. The evidence package (ILO objects, manifests, response-store subset, ledger proof, manifestations, captures) is the vendor-neutral export.
+**Portability.** Outbound calls in MVP: the OpenRouter routes the user configured, Indian Kanoon on click, the AWS bucket for mirror sync, the update feed, and sites the user browses. The evidence package (ULOS objects, manifests, response-store subset, ledger proof, manifestations, captures) is the vendor-neutral export.
 
 ---
 
@@ -1042,7 +1042,7 @@ All available repositories are usable inputs (D30). Integration: **D** depend, *
 
 ## 19. TypeScript contracts
 
-ILO types (`EvidenceReference`, `NotebookItem`, `LegalStatement`, `VerificationRecord`, `PrecedentEdge`, `RunManifest`, `ContextManifest`, `PermissionGrant`, `ApprovalRecord`, `AiOriginManifest`, `VerificationReceipt`, `SourceCapture`, …) are generated from C5's schemas into `@ilac/ontology`. The ports below are hand-written and illustrative.
+ULOS types (`EvidenceReference`, `NotebookItem`, `LegalStatement`, `VerificationRecord`, `PrecedentEdge`, `RunManifest`, `ContextManifest`, `PermissionGrant`, `ApprovalRecord`, `AiOriginManifest`, `VerificationReceipt`, `SourceCapture`, …) are generated from C5's schemas into `@ulos/ontology`. The ports below are hand-written and illustrative.
 
 ```ts
 // ---- shared primitives ----
@@ -1050,9 +1050,9 @@ import type {
   EvidenceReference, NotebookItem, LegalStatement, VerificationRecord, PrecedentEdge,
   RunManifest, ContextManifest, PermissionGrant, ApprovalRecord, ActionClass,
   AiOriginManifest, VerificationReceipt, SourceCapture,
-} from "@ilac/ontology";
+} from "@ulos/ontology";
 
-type Urn = `urn:ilo:${string}`;
+type Urn = `urn:ulos:${string}`;
 type Sha256 = `sha256:${string}`;
 type IsoDate = string;      // law time
 type IsoInstant = string;   // record time
@@ -1293,26 +1293,26 @@ interface EvalAgent {
 
 ## 20. After MVP
 
-**P1 Gateway and website (immediately after MVP).** Same contract and services on a server profile for shared matters and the hosted gateway: Postgres + pgvector, a durable server runner behind `DurableRunner`, witnessed ledger checkpoints and RFC 3161 timestamps, OIDC accounts, relationship-based access control with ethical walls, single-tenant deployment in AWS ap-south-1, and a public website (downloads, documentation, conformance results). Profile-parity test: identical ILO outputs on both profiles modulo ids and timestamps.
+**P1 Gateway and website (immediately after MVP).** Same contract and services on a server profile for shared matters and the hosted gateway: Postgres + pgvector, a durable server runner behind `DurableRunner`, witnessed ledger checkpoints and RFC 3161 timestamps, OIDC accounts, relationship-based access control with ethical walls, single-tenant deployment in AWS ap-south-1, and a public website (downloads, documentation, conformance results). Profile-parity test: identical ULOS outputs on both profiles modulo ids and timestamps.
 
 **P2 macOS and Linux builds.** Same Electron code; platform signing/notarisation; capture parity test across OSes.
 
 **P3 Connectors and High Courts.** eCourts and `sci.gov.in` case files via BrowserCapture (human CAPTCHA only); HC resolver over the HC dataset with identity `(cnr, decision_date, order_number)`; per-court neutral-citation registry; regional-language OCR for HC/district records.
 
-**P4 Commercial.** Managed hosting, chamber collaboration, hearing rehearsal and simulation, custom models and knowledge bases; each consumes ILO objects and adds no core state; none is a dependency of the open workspace or the Commons.
+**P4 Commercial.** Managed hosting, chamber collaboration, hearing rehearsal and simulation, custom models and knowledge bases; each consumes ULOS objects and adds no core state; none is a dependency of the open workspace or the Commons.
 
 ---
 
 ## 21. Roadmap: MVP stages in detail
 
-Every stage ships running code in the Windows workspace, the ILO artefacts it needs (C5) and passing conformance suites, and closes only on a **signed receipt bundle** naming the commit and the CT and Eval-agent results produced from it (D34). From Stage 1 every stage extends GM-01 end to end.
+Every stage ships running code in the Windows workspace, the ULOS artefacts it needs (C5) and passing conformance suites, and closes only on a **signed receipt bundle** naming the commit and the CT and Eval-agent results produced from it (D34). From Stage 1 every stage extends GM-01 end to end.
 
 ### Stage 0 — Windows shell, installer, journal
 
 | Item | Content |
 |---|---|
 | Goal | A signed installer puts the app on a clean Windows machine; a trivial playbook runs on the SQLite journal, proposes patches through a generated tool, the kernel commits objects and ledger events idempotently, a gate refuses stale evidence, a signed RunManifest is emitted |
-| Components | Electron shell (hardened), electron-builder NSIS, electron-updater (internal channel), typed IPC, Credential Manager key storage, OpenRouter + local `ModelProvider`/`DecisionProvider` with recorded-fixture backend, ILO 0.1 core schemas, codegen, tool compiler, kernel chain, RFC 8785 + `hashProfile`, normalisation profile, interpreter (`task`, `gate`, `outbox`), custom loop, response store, ledger + chain verifier, DSSE, `ilac` CLI, Eval agent skeleton |
+| Components | Electron shell (hardened), electron-builder NSIS, electron-updater (internal channel), typed IPC, Credential Manager key storage, OpenRouter + local `ModelProvider`/`DecisionProvider` with recorded-fixture backend, ULOS 0.1 core schemas, codegen, tool compiler, kernel chain, RFC 8785 + `hashProfile`, normalisation profile, interpreter (`task`, `gate`, `outbox`), custom loop, response store, ledger + chain verifier, DSSE, `ulos` CLI, Eval agent skeleton |
 | Tests | Install/upgrade/uninstall on Windows 10/11; property tests (JCS, normalisation); replay with first-divergence; kill-at-gate chaos ≥ 1,000 faults; forged and edit-after-approval tests; ownership rules |
 | Acceptance | CT-01; zero duplicate/missing ledger events; zero stale approvals accepted; loop < 1,000 lines; invalid object cannot be expressed; update applied only with valid signature |
 
@@ -1401,7 +1401,7 @@ Three rules: **(1) generator ≠ judge** (different families; Clef + Clef-flash 
 | V-11 | Approvals | Tampering, replay, payload swap, edit-after-approval: zero accepted |
 | V-12 | DOCX fidelity | Zero invalid packages; 100% revision/comment counts; block-id ≥ 99.5% |
 | V-13 | Rendering | Page drift 0; locked-block fingerprint matches PDF |
-| V-14 | Replaceability | Swap loop, editor engine, model route: identical ILO outputs |
+| V-14 | Replaceability | Swap loop, editor engine, model route: identical ULOS outputs |
 | V-15 | Permissions | Zero cross-matter reads; zero Commit without approval; third-party tools cannot Commit; MOTO cannot write the argument board |
 | V-16 | Fault injection | Corrupt OCR, poisoned PDFs, malformed portal HTML fail closed |
 | V-17 | Security | Action-level attack success 0; three-arm ablation reported; Electron audit |
@@ -1426,7 +1426,7 @@ Three rules: **(1) generator ≠ judge** (different families; Clef + Clef-flash 
 
 | # | Experiment | Decides | Pass condition |
 |---|---|---|---|
-| E1 | Loop, kernel and journal gate test (custom loop vs OpenAI Agents core on the SQLite journal; kill mid-gate/mid-commit; edit after approval) | D1, D5, D7, D10, D13 | Zero duplicate ledger writes; identical ILO outputs; stale approval refused |
+| E1 | Loop, kernel and journal gate test (custom loop vs OpenAI Agents core on the SQLite journal; kill mid-gate/mid-commit; edit after approval) | D1, D5, D7, D10, D13 | Zero duplicate ledger writes; identical ULOS outputs; stale approval refused |
 | E2 | Docxodus in Electron (WASM editor + .NET sidecar over the three-oracle corpus incl. ≥ 50 SC filings; installer size, cold start) | D19 | V-12 met and editing usable; else Docxodus as engine and Word handoff as editing surface |
 | E3 | Patch kernel vs direct structured output on GM-01 and 20 golden judgments | D9, D10 | Zero schema-invalid commits at ≤ tokens and ≥ extraction F1 |
 | E4 | BrowserCapture on the three SC portals and Indian Kanoon webfetch on Windows | D22, D24 | Captures re-verify; no CAPTCHA automation reachable from agent code |
@@ -1436,8 +1436,8 @@ Three rules: **(1) generator ≠ judge** (different families; Clef + Clef-flash 
 ### 23.2 First engineering tasks
 
 1. Stand up the hardened Electron shell with signed NSIS build, electron-updater internal channel, typed IPC and Credential Manager key storage.
-2. Write ILO 0.1 core schemas, codegen and the tool compiler; implement RFC 8785 hashing, the normalisation profile and the INSC/SCR parser with published vectors.
-3. Build the ledger, chain verifier and `ilac` CLI; the SQLite journal interpreter with `task`, `gate`, `outbox`; run E1.
+2. Write ULOS 0.1 core schemas, codegen and the tool compiler; implement RFC 8785 hashing, the normalisation profile and the INSC/SCR parser with published vectors.
+3. Build the ledger, chain verifier and `ulos` CLI; the SQLite journal interpreter with `task`, `gate`, `outbox`; run E1.
 4. Implement the OpenRouter `ModelProvider` and `DecisionProvider` with the local endpoint backend and response store; run E5 and E6.
 5. Mirror the AWS SC metadata, run the corpus-profiling job, seed the ontology from its fields, and publish the profile as the Stage 1–3 baseline.
 6. Scaffold `@vakil/eval` with the first held-out set and planted-defect generators, owned outside the builders' repository.

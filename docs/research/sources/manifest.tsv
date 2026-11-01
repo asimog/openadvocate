@@ -14,7 +14,7 @@ sikkim-cis.pdf	https://sikkimjudicialacademy.nic.in/sites/default/files/PPTs/CIS
 thc-icjs-manual.pdf	https://thc.nic.in/user%20manual/ICJS-manual.pdf	2026-11-01	3851282	PDF document, version 1.4, 12 
 ecourts-doc-2025-09-a.pdf	https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2025/09/202509151335602412.pdf	2026-11-01	1044327	PDF document, version 1.4, 2 p
 ecourts-doc-2025-09-b.pdf	https://cdnbbsr.s3waas.gov.in/s3dcf6070a4ab7f3afbfd2809173e0824b/uploads/2025/09/20250908594074369.pdf	2026-11-01	1048170	PDF document, version 1.5, 2 p
-ecourts-doc-2026-05.pdf	https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/05/2026051113.pdf	2026-11-01	522895	PDF document, version 1.7, 3 p
+sci-circular-icmis-auto-retrieval-2026-05-11.pdf	https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/05/2026051113.pdf	2026-11-01	522895	PDF document, version 1.7, 3 p
 jkhc-cir-20-2026.pdf	https://jkhighcourt.nic.in/upload/orders&cir/Cir_20_14072026.pdf	2026-11-01	7322468	PDF document, version 1.7
 pib-icjs-2022.pdf	https://static.pib.gov.in/WriteReadData/specificdocs/documents/2022/jun/doc202262367401.pdf	2026-11-01	582477	PDF document, version 1.7, 4 p
 apisetu-sop-v0.pdf	https://cdn.apisetu.gov.in/portal/assets/sop-apisetu-v0.pdf	2026-11-01	786439	PDF document, version 1.5, 5 p
@@ -40,3 +40,27 @@ ecli-aca-europe-warsaw-2011.pdf	https://aca-europe.eu/seminars/Warsaw2011/Exp_Mv
 pib-ai-judiciary-2026-02.pdf	https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026211785401.pdf	2026-11-01	914592	PDF document, version 1.7, 8 p
 doj-lok-sabha-replies-budget-2026.pdf	https://www.doj.gov.in/static/uploads/2026/04/c393f1e761f310476a68fe8f1f87c16a.pdf	2026-11-01	13436086	PDF document, version 1.5
 pib-prid-2226283.html	https://www.pib.gov.in/PressReleasePage.aspx?PRID=2226283&reg=3&lang=1	2026-11-01	358451	HTML document, ASCII text, wit
+sci-citizens-charter-2025-10.pdf	https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/10/2025101955.pdf	2026-11-01	943149	PDF document, version 1.7
+sci-notice-case-categories-2025-04-17.pdf	https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/04/2025041745.pdf	2026-11-01	1770768	PDF document, version 1.3
+sci-efm-2.0-manual.pdf	user-supplied: Downloads/eFM_2.0_Manual.pdf	2026-11-01	5177297	PDF document, version 1.7
+sci-efm-3.0-manual.pdf	user-supplied: Downloads/eFM_3.0_Manual.pdf	2026-11-01	8989092	PDF document, version 1.7
+sci-3pdf-user-manual.pdf	user-supplied: Downloads/3pdf_user_manual.pdf	2026-11-01	1255996	PDF document, version 1.6
+cis-4.0-case-management-manual.pdf	user-supplied: Downloads/202505301448950165.pdf	2026-11-01	4077755	PDF document, version 1.4
+ecourts-services-mobile-app-4.0-manual.pdf	user-supplied: Downloads/20260604975119747.pdf	2026-11-01	8763881	PDF document, version 1.7
+hc-judgement-search-portal-manual.pdf	user-supplied: Downloads/20230906928229668.pdf	2026-11-01	2103857	PDF document, version 1.4
+apisetu-indiacode-openapi-1.0.0.yaml	https://cf-media.api-setu.in/specfiles/apisetu_legislative_IndiaCodeAPI_v1_1_0_0.yaml	2026-11-01	24967	ASCII text
+apisetu-nyaykosh-openapi-1.0.0.yaml	https://cf-media.api-setu.in/specfiles/apisetu_apisetu_Nyaykoshv1_0_1_0_0.yaml	2026-11-01	44556	ASCII text
+lawascode-openapi.json	https://lawascode.negd.in/laac-api/openapi.json	2026-11-01	53121	JSON text data
+lawascode-health.json	https://lawascode.negd.in/laac-api/health	2026-11-01	15	JSON text data
+lawascode-laws-sample.json	https://lawascode.negd.in/laac-api/v1/laws	2026-11-01	160996	JSON text data
+lawascode-categories.json	https://lawascode.negd.in/laac-api/v1/categories	2026-11-01	85	JSON text data
+indiacode-community-collections.json	https://indiacode.gov.in/assets/dynamic-json/community-collections.json	2026-11-01	80049	json
+indiacode-advanced-filter.json	https://indiacode.gov.in/assets/dynamic-json/advancedFilter.json	2026-11-01	471	json
+indiacode-states.json	https://indiacode.gov.in/assets/dynamic-json/states.json	2026-11-01	7812	json
+indiacode-browses.json	https://indiacode.gov.in/server/api/discover/browses?size=9999	2026-11-01	4379	json
+indiacode-central-laws-items-sample.json	https://indiacode.gov.in/server/api/discover/search/objects?sort=dc.date.accessioned,DESC&page=0&size=3&configuration=collection&scope=69a0c1fb-7b22-4481-b16a-1dc59b5d02e6	2026-11-01	55901	json
+indiacode-collections.json	https://indiacode.gov.in/server/api/discover/search/objects?size=9999&dsoType=COLLECTION	2026-11-01	394091	json
+indiacode-dspace-root.json	https://backend.indiacode.gov.in/server/api	2026-11-01	9430	json
+indiacode-facet-identifier-collection.json	https://indiacode.gov.in/server/api/discover/facets/identifier_collection?page=0&size=100	2026-11-01	6732	json
+indiacode-section-items-sample.json	https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals&size=2&dsoType=ITEM	2026-11-01	21966	json
+indiacode-amendment-items-sample.json	https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT_AMENDMENT,equals&size=1&dsoType=ITEM	2026-11-01	11189	json

@@ -18,7 +18,7 @@ The repository is named Vakilbench (Open Advocate is the product discussion name
 | Module discovery/install/lifecycle | **None.** Packages are pnpm workspace deps compiled into the app | Absent [V] |
 | Updater | electron-updater planned (C2, plan Phase 5) | Proposed [V] |
 | Agent execution | Studio/MOTO propose `claim.proposed`; model provider planned (Phase 4) | Partial [V] |
-| Provenance, audit | Ledger events + signed receipts (`receipt.ts`, `apps/cli/ilac`) | Implemented [V] |
+| Provenance, audit | Ledger events + signed receipts (`receipt.ts`, `apps/cli/src/ulos.ts`) | Implemented [V] |
 | Editor | **Historical decision D19: Docxodus in-app editor**, agent edits only as tracked changes authored `Agent:<role>:<run_id>`, revision→run map in ledger, gated on a Stage 3 spike over 30 SC-format DOCX files (C2 §9) | Proposed, spike not run [V] |
 | Drafting today | The SLP is a state machine (`packages/pleading`); no DOCX output in code (`grep docx` empty) | Absent [V] |
 

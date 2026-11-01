@@ -18,7 +18,7 @@ A duty to verify is not a specification. What counts as a verified citation? Whi
 
 ## Three parts
 
-**1. Indian Legal AI Commons (open standard).** A Court-governable, openly published standard anyone can implement: an ontology built from Supreme Court and High Court judgment metadata; canonical document and paragraph identity with page, line and quote anchors; three verification standards; an AI-origin manifest and signed verification receipt bound to the document by hash; open SDKs (`@ilac/*`), the `ilac` CLI and conformance suites CT-01–CT-16.
+**1. Indian Legal AI Commons (open standard).** A Court-governable, openly published standard anyone can implement: an ontology built from Supreme Court and High Court judgment metadata; canonical document and paragraph identity with page, line and quote anchors; three verification standards; an AI-origin manifest and signed verification receipt bound to the document by hash; open SDKs (`@ulos/*`), the `ulos` CLI and conformance suites CT-01–CT-16.
 
 **2. Open Code of Litigation (open-source Windows app).** A local workspace for advocates, fully open source, bring-your-own key (OpenRouter) or a local model. It is the reference implementation of the Commons.
 

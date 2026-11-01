@@ -5,7 +5,7 @@ We are building three products on one open standard.
 | # | Product | What it is | Status |
 |---|---|---|---|
 | 1 | **Vakilbench workspace** | An open-source desktop app for advocates: document intelligence, citation verification, research, a case graph that remembers, and an SLP that moves through procedure step by step | Building |
-| 2 | **The open standard and a simulated Supreme Court** | ILO: JSON Schemas, an ontology and verification rules. Plus a simulated Supreme Court that shows the standard working: it serves judgments and case records, checks filings for defects, verifies receipts and grades the workspace with an evaluation agent | Building |
+| 2 | **The open standard and a simulated Supreme Court** | ULOS: JSON Schemas, an ontology and verification rules. Plus a simulated Supreme Court that shows the standard working: it serves judgments and case records, checks filings for defects, verifies receipts and grades the workspace with an evaluation agent | Building |
 | 3 | **Commercial service** | Hosting, chamber collaboration and custom models on the same harness and standard | Deferred |
 
 ## The problem
@@ -43,7 +43,7 @@ The simulated Supreme Court plays the court's side of the standard:
 
 ## MVP
 
-Windows desktop app. Supreme Court SLPs (criminal first). English documents. Offline-first, no account, bring your own model key or a local model. The GUI is the product and is tested from the first commit. The `ilac` CLI is a backend tool for verifying receipts.
+Windows desktop app. Supreme Court SLPs (criminal first). English documents. Offline-first, no account, bring your own model key or a local model. The GUI is the product and is tested from the first commit. The `ulos` CLI is a backend tool for verifying receipts.
 
 ## Not doing
 

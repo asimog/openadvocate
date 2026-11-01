@@ -1,0 +1,162 @@
+Judgement Search Portal
+
+(Digital Repository of High Court Judgements)
+
+eCommittee Supreme Court of India
+Table of Content
+
+1. Introduction:
+2. Judgement search portal Home page -
+2. Keyword search options
+
+    2.1. Phrases search option
+    2.2. All words search option:
+    2.3. Any words search option:
+3. Search within search:
+    3.1.Court search option
+    3.2. Judge search option
+    3.3.Act/Section search option
+    3.4.Decision date search option:
+4. Related Topics options:
+    4.1.High Court wise filtering option:
+    4.2.Judgewise filtering option
+    4.3.Disposal Yearwise filtering option
+5. Search results
+6. Free PDF download
+7. Accessibility compliance:
+8. Conclusion:
+     Judgement Search Portal
+
+       (Digital Repository of High Court Judgements)
+
+1.Introduction:
+
+Judgments & Final Orders search portal is a repository of judgments pronounced
+by various High Courts in the country. It provides the facility to search
+judgments and orders based on several search criteria. The most important
+feature of this portal is that it has a free text search engine, which culls out
+judgments based on a given keyword in the search box provided. Users can
+search on various criteria like High Court, Hon’ble Judge name, case number,
+acts, section, name of parties, decision date and disposal nature. A combination
+of several search options will assist the stakeholders in getting the desired
+results. The embedded filtering feature allows further filtering on available
+results, thus adding value to the search.
+
+2.Judgement search portal Home page -
+The Judgement search portal has a simple, user-friendly search page where one
+can make keyword searches based on Phrases, All words, any word . To make a
+simple keyword search
+
+    ● Choose from Phrases/ All words/ any word
+    ● Enter Captcha
+    ● Click search
+    ● The search result will be displayed
+
+2. Keyword search options
+
+The Keyword search provided in the Home page can be made under three options
+i.e.Phrases,all word , any word search as shown hereunder.
+2.1.Phrases search option
+Under Phrases one can type any phrase and search for citations only with that
+phrases. For example for searching a phrase “ maintenance to parents” will fetch
+the citations only with teh complete phrase .
+
+2.2.All words search option :
+All word options can be used to search citations with all teh search words in the
+citation. For example, to search for “ Maintenance to parents and children”, and
+when you click all words, one can get the citations having all teh words in it as
+shown in teh screenshot herein
+
+2.3. Any words search option:
+Sometimes, you want to search the judgement having any one of the words. For
+example, here we have tried to search maintenance for parents and children, and
+if any one word appears, then that judgement will be fetched.
+
+3.Search within search:
+The judgement search portal also provides an interesting search within the
+search
+
+The search within search option is provided under four tabs Court; Judge;
+Act/Section, and Decision date.
+3.1.Court search option
+The court option can be used for searching within the main search results. To
+further filter teh search results based on courts one can fill up the relevant fields
+under the court tab and can get the desired results.
+
+3.2.Judge search option
+Under the Judge tab, the citations got under the main search can be further
+filtered using the Judge name. Type the Judge name and filter teh search results
+based on Judge's name
+
+3.3.Act/Section search option
+Under the Act/Section tab, the citations under the main search can be further
+filtered using the Act/Section name. Type the needed act /section and filter the
+search results based on the Act/Section.
+
+3.4.Decision date search option:
+The search can also be made based on the decision date . The search results
+obtained under the main search can be further filtered under decision date using
+past week, past month past year or defined custom time range. Try your hands
+and search within your search basethe d on the decision date
+4. Related Topics options:
+
+The search results can also be filtered using a related topics search. The related
+topics options provide further filtering of search under High court wise,
+Judgewise, Yearwise options
+
+4.1.High Court wise filtering option:
+The Judgements search can be further filtered using Court option. Under this
+related topic option the number of Judgements High Court wise will be shown.
+And further drill down can be made using this related topics court option
+4.2.Judgewise filtering option
+The Judgements search can be further filtered using the Judge option. Under this
+related topic option, the number of Judgements judge wise will be shown. And
+further drill down can be made using these related topics Judge option
+
+4.3.Disposal Yearwise filtering option
+The Judgements search can be further filtered using the DIsposal year wise
+option. Under this related topic option, the number of Judgements disposed
+based on the year will be shown. And further drill down can be made using these
+related topics disposal year wise option
+
+5. Search results
+
+The search results contain various details like the case number and cause title;
+CNR Number; Date of Registration; Date of Disposal, Nature of Disposal,
+
+Act/Sections, Judges who delivered the judgments,Year of Disposal/Decision
+
+6. Free PDF download
+
+The portal is user-friendly with the free downloadable option of the High Court
+
+Judgements. It saves the cost spent by the stakeholders like of the stakeholders
+
+litigants, advocates, Judges and others. The  Judgement search portal
+
+serves as a one-stop authenticated, unified portal for all Judgments and orders of
+
+the High Court of India.
+
+7. Accessibility compliance:
+
+The portal is accessibility compliant, and the judgments are Digitally accessible
+for PwD.The portal is accessible with audio and visual Captachs.
+
+8. Link to access Judgement search portal
+Click the link to access the Judgement search portal
+https://judgments.ecourts.gov.in/pdfsearch/index.php
+
+9.Conclusion:
+
+The Judgement search portal is a free citizen-centric service for all stakeholders,
+including litigants, advocates, and Judges. Police offices and it is available 24*7.
+The portal is user-friendly with the free downloadable option of the High Court
+Judgements. It saves the cost spent by the stakeholders. The portal is
+accessibility compliant, and the judgments are Digitally accessible for PwD. The
+Judgement search portal serves as a one-stop authenticated, unified portal for all
+Judgments and orders of the High Court of India. And this judgement search
+portal is based on the constitutional mandate of the Right to access Justice
+guaranteed under Article 21 of the Constitution, which Encompasses the right to
+access judgment/orders.
+

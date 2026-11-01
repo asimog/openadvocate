@@ -21,8 +21,8 @@ const matter: Matter = {
   id: 'gm-01',
   title: 'R. Kumar v. State',
   forum: 'Supreme Court of India',
-  caseType: 'SLP(Crl)',
-  impugnedOrder: { court: 'High Court of Delhi', caseNumber: 'BAIL APPLN. 1234/2026', date: '2026-08-14' },
+  caseType: { scheme: 'sci-case-type', code: '2', label: 'SPECIAL LEAVE PETITION (CRIMINAL)' },
+  impugnedOrder: { court: 'High Court of Delhi', caseType: 'BAIL APPLN.', caseNumber: 'BAIL APPLN. 1234/2026', date: '2026-08-14' },
   petitionerInCustody: true,
 };
 
@@ -47,6 +47,17 @@ test('extract without its kind discriminant is invalid', () => {
   assert.deepEqual(validate('Extract', { id: 'e1', kind: 'date', value: '2024-06-28', role: 'offence', anchor, extractor }), []);
   assert.notDeepEqual(validate('Extract', { id: 'e1', value: '2024-06-28', role: 'offence', anchor, extractor }), []);
   assert.notDeepEqual(validate('Extract', { id: 'e1', kind: 'date', value: '2024-06-28', role: 'offence', anchor, extractor, invented: 1 }), []);
+});
+
+test('court identifiers keep the shapes the courts issue', () => {
+  assert.deepEqual(validate('Cnr', 'SCIN010692861986'), []);
+  assert.deepEqual(validate('Cnr', 'HCBM060000522019'), []);
+  assert.notDeepEqual(validate('Cnr', 'DLHC01-014074-2018'), [], 'the displayed form is kept in ExternalId.displayed, not as the value');
+  assert.deepEqual(validate('NeutralCitation', { scheme: 'INSC', year: 2023, number: 1 }), []);
+  const bns = { source: 'indiacode', actId: 'AC_CEN_5_0_202609_1791525105138', sectionNumber: '2', sectionId: '100467' };
+  assert.deepEqual(validate('LegislationRef', bns), []);
+  assert.notDeepEqual(validate('LegislationRef', { ...bns, actId: 'BNS' }), []);
+  assert.deepEqual(validate('Matter', { ...matter, specialCategory: 'bail', impugnedOrder: { ...matter.impugnedOrder, courtType: 'high-court', cnr: 'DLHC010140742018' } }), []);
 });
 
 test('write ownership: only the notebook records extracts, MOTO cannot', () => {

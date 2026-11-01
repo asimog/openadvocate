@@ -1,6 +1,6 @@
 import { sha256 as nobleSha256 } from '@noble/hashes/sha2.js';
 import { bytesToHex, utf8ToBytes } from '@noble/hashes/utils.js';
-import type { Hash } from './ilo.gen.ts';
+import type { Hash } from './ulos.gen.ts';
 
 // RFC 8785 subset: sorted keys, no whitespace, integers only so number formatting never varies.
 export function canonical(value: unknown): string {

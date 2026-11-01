@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "ulos": "urn:ulos:0.1#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "oa": "http://www.w3.org/ns/oa#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "subClassOf": { "@id": "rdfs:subClassOf", "@type": "@id" },
+    "domain": { "@id": "rdfs:domain", "@type": "@id" },
+    "range": { "@id": "rdfs:range", "@type": "@id" },
+    "label": "rdfs:label",
+    "comment": "rdfs:comment",
+    "schema": "ulos:jsonSchemaDef"
+  },
+  "@graph": [
+    { "@id": "ulos:Court", "@type": "rdfs:Class", "label": "Court", "comment": "A court in the Indian hierarchy: Supreme Court, High Court, Sessions Court, Magistrate." },
+    { "@id": "ulos:Bench", "@type": "rdfs:Class", "label": "Bench", "comment": "The judges who decided a judgment. Its strength decides which precedent binds." },
+    { "@id": "ulos:Judge", "@type": "rdfs:Class", "label": "Judge" },
+    { "@id": "ulos:Party", "@type": "rdfs:Class", "label": "Party", "schema": "Party" },
+    { "@id": "ulos:Case", "@type": "rdfs:Class", "label": "Case", "comment": "A proceeding identified by a case number and, where present, a CNR." },
+    { "@id": "ulos:Matter", "@type": "rdfs:Class", "subClassOf": "ulos:Case", "label": "Matter", "comment": "The advocate's working unit: one proposed SLP against one impugned order.", "schema": "Matter" },
+
+    { "@id": "ulos:Source", "@type": "rdfs:Class", "subClassOf": "prov:Entity", "label": "Source", "comment": "Immutable bytes, identified by SHA-256. The root of all evidence.", "schema": "Source" },
+    { "@id": "ulos:TextLayer", "@type": "rdfs:Class", "subClassOf": "prov:Entity", "label": "Text layer", "comment": "Lines read from a source by two or more independent engines.", "schema": "TextLayer" },
+    { "@id": "ulos:Anchor", "@type": "rdfs:Class", "subClassOf": "oa:TextQuoteSelector", "label": "Anchor", "schema": "Anchor" },
+
+    { "@id": "ulos:Extract", "@type": "rdfs:Class", "subClassOf": "prov:Entity", "label": "Extract", "comment": "A datum read deterministically from a source by the Notebook. The record layer. Never generated.", "schema": "Extract" },
+    { "@id": "ulos:DateExtract", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Date" },
+    { "@id": "ulos:PartyExtract", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Party mention" },
+    { "@id": "ulos:StatuteExtract", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Statute mention" },
+    { "@id": "ulos:CaseNumberExtract", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Case number" },
+    { "@id": "ulos:AmountExtract", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Amount" },
+    { "@id": "ulos:CitationMention", "@type": "rdfs:Class", "subClassOf": "ulos:Extract", "label": "Citation mention", "comment": "A citation as it appears in a document, before verification." },
+    { "@id": "ulos:ExtractCheck", "@type": "rdfs:Class", "subClassOf": "prov:Activity", "label": "Extract check", "schema": "ExtractCheck" },
+
+    { "@id": "ulos:Judgment", "@type": "rdfs:Class", "subClassOf": "prov:Entity", "label": "Judgment", "schema": "Judgment" },
+    { "@id": "ulos:Paragraph", "@type": "rdfs:Class", "label": "Paragraph", "comment": "A numbered judgment paragraph with its voice: facts, submission, analysis, holding or order.", "schema": "Paragraph" },
+    { "@id": "ulos:Citation", "@type": "rdfs:Class", "label": "Citation", "schema": "Citation" },
+    { "@id": "ulos:NeutralCitation", "@type": "rdfs:Class", "subClassOf": "ulos:Citation", "label": "INSC neutral citation", "schema": "NeutralCitation" },
+    { "@id": "ulos:ReportCitation", "@type": "rdfs:Class", "subClassOf": "ulos:Citation", "label": "Law report citation", "schema": "ReportCitation" },
+    { "@id": "ulos:Statute", "@type": "rdfs:Class", "label": "Statute" },
+    { "@id": "ulos:ProvisionVersion", "@type": "rdfs:Class", "label": "Provision version", "comment": "A section's text in force over a date interval, e.g. IPC s.302 until 30 June 2024, BNS s.103 from 1 July 2024." },
+    { "@id": "ulos:CitationVerification", "@type": "rdfs:Class", "subClassOf": "prov:Activity", "label": "Citation verification", "schema": "CitationVerification" },
+
+    { "@id": "ulos:Claim", "@type": "rdfs:Class", "subClassOf": "prov:Entity", "label": "Claim", "comment": "A novel proposition from the Research Studio or MOTO. The only generated content in the system.", "schema": "Claim" },
+    { "@id": "ulos:CaseConference", "@type": "rdfs:Class", "subClassOf": "prov:Activity", "label": "Case Conference", "comment": "A human-chaired review where the advocate accepts, rejects or defers claims." },
+    { "@id": "ulos:ConferenceDecision", "@type": "rdfs:Class", "label": "Conference decision", "schema": "ConferenceDecision" },
+
+    { "@id": "ulos:Pleading", "@type": "rdfs:Class", "label": "Pleading", "comment": "A filing modelled as a procedural state machine, not a document." },
+    { "@id": "ulos:PleadingState", "@type": "rdfs:Class", "label": "Pleading state", "schema": "PleadingState" },
+    { "@id": "ulos:Defect", "@type": "rdfs:Class", "label": "Filing defect", "comment": "A breach of a Supreme Court filing rule, with the rule cited.", "schema": "Defect" },
+    { "@id": "ulos:Receipt", "@type": "rdfs:Class", "label": "Verification receipt", "schema": "Receipt" },
+
+    { "@id": "ulos:anchoredBy", "@type": "rdf:Property", "domain": "ulos:Extract", "range": "ulos:Anchor" },
+    { "@id": "ulos:readFrom", "@type": "rdf:Property", "domain": "ulos:Anchor", "range": "ulos:Source" },
+    { "@id": "ulos:verifies", "@type": "rdf:Property", "domain": "ulos:CitationVerification", "range": "ulos:CitationMention" },
+    { "@id": "ulos:resolvesTo", "@type": "rdf:Property", "domain": "ulos:CitationVerification", "range": "ulos:Judgment" },
+    { "@id": "ulos:hasParagraph", "@type": "rdf:Property", "domain": "ulos:Judgment", "range": "ulos:Paragraph" },
+    { "@id": "ulos:decidedBy", "@type": "rdf:Property", "domain": "ulos:Judgment", "range": "ulos:Bench" },
+    { "@id": "ulos:overrules", "@type": "rdf:Property", "domain": "ulos:Judgment", "range": "ulos:Judgment", "comment": "Valid only when the overruling bench is at least as large and the judgment is later." },
+    { "@id": "ulos:distinguishes", "@type": "rdf:Property", "domain": "ulos:Judgment", "range": "ulos:Judgment" },
+    { "@id": "ulos:followed", "@type": "rdf:Property", "domain": "ulos:Judgment", "range": "ulos:Judgment" },
+    { "@id": "ulos:groundedIn", "@type": "rdf:Property", "domain": "ulos:Claim", "comment": "Range is an Extract, a CitationVerification or an accepted Claim." },
+    { "@id": "ulos:decides", "@type": "rdf:Property", "domain": "ulos:ConferenceDecision", "range": "ulos:Claim" },
+    { "@id": "ulos:impugns", "@type": "rdf:Property", "domain": "ulos:Matter", "range": "ulos:Judgment" },
+    { "@id": "ulos:inState", "@type": "rdf:Property", "domain": "ulos:Pleading", "range": "ulos:PleadingState" },
+    { "@id": "ulos:governedBy", "@type": "rdf:Property", "domain": "ulos:Matter", "range": "ulos:ProvisionVersion" }
+  ]
+}

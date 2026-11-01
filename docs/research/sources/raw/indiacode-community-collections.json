@@ -1,0 +1,3039 @@
+{
+  "generated_at": "2025-10-27T12:06:48.981113Z",
+  "communities": [
+    {
+      "name": "Andaman and Nicobar Islands",
+      "id": "aa4dba27-9551-49ed-92de-b3b32b5b0333",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "86d0a325-91b4-495d-adee-2ab352e43dab"
+        },
+        {
+          "name": "Annexure",
+          "id": "828e7cc2-a7d6-4098-85b6-df3a366bc9d1"
+        },
+        {
+          "name": "Appendix",
+          "id": "f6673c55-7cab-4944-9c3a-11dbbcd945b0"
+        },
+        {
+          "name": "Circular",
+          "id": "44396337-300a-455a-9429-9719132971d1"
+        },
+        {
+          "name": "Form",
+          "id": "38ed108b-3169-4f7b-9ca2-c630f6b3a024"
+        },
+        {
+          "name": "Notification",
+          "id": "f9579f91-9e46-4527-be8f-189abb6155c0"
+        },
+        {
+          "name": "Order",
+          "id": "92a8d20f-e755-493f-937a-b4adc38b42a6"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "f73dad4a-b0e2-43eb-b4a1-1396f75b5caa"
+        },
+        {
+          "name": "Ordinance",
+          "id": "2878ebf7-4b2a-4851-8626-b1606cd17519"
+        },
+        {
+          "name": "Preamble",
+          "id": "1106800d-6268-4c8f-bd25-27de368b7481"
+        },
+        {
+          "name": "Regulation",
+          "id": "ee280945-c806-42c7-8d62-e9a343e6d4d6"
+        },
+        {
+          "name": "Rule",
+          "id": "03a43989-3d46-4b38-ba00-13efb3351607"
+        },
+        {
+          "name": "Schedule",
+          "id": "a2d91aa7-4743-4f67-8c82-eaffe286931a"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "4031e97e-7d21-4488-99c7-db61e792bf4a"
+        },
+        {
+          "name": "Schordrule",
+          "id": "ede031a8-0d66-4a61-a708-8e03bf310438"
+        },
+        {
+          "name": "Section",
+          "id": "837cd6b9-dcdd-4080-bef0-00490d6ddb8d"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "378ca534-5ca9-4737-9c06-677cc61c5667"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "a437a5eb-f68e-45a5-9eaf-786d6488418d"
+        },
+        {
+          "name": "Statute",
+          "id": "37cf67a9-63b3-4607-922f-0bbf0130e9a6"
+        }
+      ]
+    },
+    {
+      "name": "Andhra Pradesh",
+      "id": "bd41570a-ba81-4bef-987c-20a1cda1689f",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "42473c6a-4519-4ba0-b3cf-48c944e4df4d"
+        },
+        {
+          "name": "Annexure",
+          "id": "b3dd7e10-3541-447c-b184-40d416621078"
+        },
+        {
+          "name": "Appendix",
+          "id": "1bd5016b-1ccd-45e1-9c8d-bf3b6f6c0375"
+        },
+        {
+          "name": "Circular",
+          "id": "2bcb11ff-3939-49eb-b0f6-d81986f8abb4"
+        },
+        {
+          "name": "Form",
+          "id": "d75ea87c-698b-46f9-9b0f-23baad0f5511"
+        },
+        {
+          "name": "Notification",
+          "id": "47250897-74f2-4c3e-ac26-45d9427efeb0"
+        },
+        {
+          "name": "Order",
+          "id": "3dbb8447-71a2-4611-989a-7726eac9e7fd"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "74cdecee-6279-4fe2-9717-b6906ca944bc"
+        },
+        {
+          "name": "Ordinance",
+          "id": "b4f70745-4a0c-4289-ab4c-db3bb34c875b"
+        },
+        {
+          "name": "Preamble",
+          "id": "75f11af5-5421-4c82-9dc1-54fd30961459"
+        },
+        {
+          "name": "Regulation",
+          "id": "2444ab02-82f0-46b0-9542-bda2798bebf7"
+        },
+        {
+          "name": "Rule",
+          "id": "3dfd55f7-a2bc-4e2b-b796-a1555c7f778d"
+        },
+        {
+          "name": "Schedule",
+          "id": "8d664b5a-394c-4ce4-8053-14f9964c1f04"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "39c4acd0-f558-474e-8cda-776346a0381f"
+        },
+        {
+          "name": "Schordrule",
+          "id": "d788e801-6571-42b0-ba9a-6ed01b97c9cf"
+        },
+        {
+          "name": "Section",
+          "id": "56e31da6-0c22-4f3b-a037-ae31b7bc140e"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "cd17cbd3-7a0e-4f7e-bc14-5d7c5bdd998c"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "4837d6ed-0fac-4c28-ba48-50e05ab2cf1a"
+        },
+        {
+          "name": "Statute",
+          "id": "425d6cd2-60dc-4464-a61f-acf97cebc88a"
+        }
+      ]
+    },
+    {
+      "name": "Arunachal Pradesh",
+      "id": "37fc613b-7fef-4e7e-a87b-fc96d394c5ff",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "d548c06e-8a96-4218-9549-19ea4ed147fb"
+        },
+        {
+          "name": "Annexure",
+          "id": "1210190e-4e5a-4eb9-be8f-d84669c3ce98"
+        },
+        {
+          "name": "Appendix",
+          "id": "2165827c-e73d-452f-82c4-185a3f104c57"
+        },
+        {
+          "name": "Circular",
+          "id": "2b21570a-cf61-448d-8efb-128ad2e584f7"
+        },
+        {
+          "name": "Form",
+          "id": "27e05621-16d4-4e5b-9a94-9ce23a5bf517"
+        },
+        {
+          "name": "Notification",
+          "id": "117c314b-7695-439e-827a-aa97fe45daac"
+        },
+        {
+          "name": "Order",
+          "id": "a7254d72-db55-4141-84cd-643931868cbc"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "91278646-9b72-45da-aef2-7f69706d7d28"
+        },
+        {
+          "name": "Ordinance",
+          "id": "65755324-3efe-48a8-9015-bad2906a9ee0"
+        },
+        {
+          "name": "Preamble",
+          "id": "09a8c9c3-84d5-4508-8402-d44f62266189"
+        },
+        {
+          "name": "Regulation",
+          "id": "3bbf8fd8-85b8-4a81-9cb2-f8b061d4dad0"
+        },
+        {
+          "name": "Rule",
+          "id": "5e33e6d8-c45b-49dd-adad-592d34205250"
+        },
+        {
+          "name": "Schedule",
+          "id": "5e6fc9c5-7e48-47e2-891c-0ff43e6ed4f6"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "56f14384-2ffb-47f8-9b2f-acad317142e9"
+        },
+        {
+          "name": "Schordrule",
+          "id": "2ecae980-d081-408d-ae8f-effd431260c3"
+        },
+        {
+          "name": "Section",
+          "id": "29c0b131-cf37-4d6f-bcf2-456fd97f3f04"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "8eb5979f-8f43-4f17-bfc4-b07492de0a71"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "5af27bd6-4780-4e50-b5df-26debb160c03"
+        },
+        {
+          "name": "Statute",
+          "id": "50b278c7-fa67-45ce-bf0b-8c00df444932"
+        }
+      ]
+    },
+    {
+      "name": "Assam",
+      "id": "0b5fa463-16d8-4694-8755-acbc6558b7ed",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "fd57fc24-15ff-463b-815d-42aaef0ebfbb"
+        },
+        {
+          "name": "Annexure",
+          "id": "897222e5-4fdd-4142-a5c2-3309428753f5"
+        },
+        {
+          "name": "Appendix",
+          "id": "d99ced3a-3cff-4aec-86c7-4bf99de9d6ea"
+        },
+        {
+          "name": "Circular",
+          "id": "8efe6e8b-c756-44b6-86fb-1f3553df7a8a"
+        },
+        {
+          "name": "Form",
+          "id": "df7b721c-fbb1-4332-9ace-5810f7f84aac"
+        },
+        {
+          "name": "Notification",
+          "id": "2b3be673-f580-461b-bac2-fb73ecfe73f6"
+        },
+        {
+          "name": "Order",
+          "id": "c29c58b9-4a20-494c-8883-8a66a6371087"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "702c084b-d39d-4276-a37e-7f867c2f1db0"
+        },
+        {
+          "name": "Ordinance",
+          "id": "be84367d-0b45-4518-8a7f-62237e4c36e2"
+        },
+        {
+          "name": "Preamble",
+          "id": "ea218856-614f-4b14-a832-dc53e1859707"
+        },
+        {
+          "name": "Regulation",
+          "id": "6b03704f-82c7-4de7-8239-95021713db4c"
+        },
+        {
+          "name": "Rule",
+          "id": "f338f53a-03d2-4e2c-b50f-8c4ef8c6abf9"
+        },
+        {
+          "name": "Schedule",
+          "id": "1cf902fc-ebd0-4304-9db2-f3f03430c744"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "595f2ea2-2495-4740-a0ac-811883cac52c"
+        },
+        {
+          "name": "Schordrule",
+          "id": "dbfd09fa-c1b9-4438-adae-47175f7b9d3d"
+        },
+        {
+          "name": "Section",
+          "id": "ee027076-d69a-447a-a454-53bcf68bf9b8"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "8deda2d6-cf55-46ba-910d-ef71bace666f"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "0915a7e6-b51e-47b9-b486-6861eb8d327a"
+        },
+        {
+          "name": "Statute",
+          "id": "42e99f3a-2736-4b47-9068-432cf8e1804f"
+        }
+      ]
+    },
+    {
+      "name": "Bihar",
+      "id": "374b519b-fe97-474e-898d-31b55a6ead70",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "393e3d1f-99f7-4561-b80e-5230aac18403"
+        },
+        {
+          "name": "Annexure",
+          "id": "816f2aec-983f-4dc6-b724-9ba10c914f74"
+        },
+        {
+          "name": "Appendix",
+          "id": "be22db1b-4a00-4cde-a6e9-541cc7564bba"
+        },
+        {
+          "name": "Circular",
+          "id": "7ae93493-1621-47b5-993c-6000fab3416a"
+        },
+        {
+          "name": "Form",
+          "id": "6c7acf5f-dfcb-4d66-84b2-c4c7a03724d2"
+        },
+        {
+          "name": "Notification",
+          "id": "d01e800c-53fa-41ec-a2fb-9d2e9840aa4b"
+        },
+        {
+          "name": "Order",
+          "id": "c06b1698-906f-4bfd-a32a-9391493aa9e7"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "625826df-0976-480f-949d-04e703edf45c"
+        },
+        {
+          "name": "Ordinance",
+          "id": "2e80d8ad-b1fe-4522-95ea-e14860c79d78"
+        },
+        {
+          "name": "Preamble",
+          "id": "21ff3a3b-95ae-4bf4-ab91-654e7851d88f"
+        },
+        {
+          "name": "Regulation",
+          "id": "47ffa47c-bd1d-4ad7-be6d-9c70e9295815"
+        },
+        {
+          "name": "Rule",
+          "id": "697bd917-fbd1-4aab-8679-a22838ab9f04"
+        },
+        {
+          "name": "Schedule",
+          "id": "2abb9518-0935-4b7a-8233-2629bf7d4436"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "d5dd14d1-8c28-4147-968d-7fbef6cdc75e"
+        },
+        {
+          "name": "Schordrule",
+          "id": "fefd7587-c870-409d-8a26-646e4478bcc8"
+        },
+        {
+          "name": "Section",
+          "id": "0a87587b-4a36-4b14-b8e6-98c9be308c22"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "f3de2c88-605e-4d2e-9ccb-ec070ebe0a42"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "2afed623-8497-4dd6-b091-e3f5368b3011"
+        },
+        {
+          "name": "Statute",
+          "id": "4c77a516-6f94-4224-a262-3c4457b4864c"
+        }
+      ]
+    },
+    {
+      "name": "CENTRAL",
+      "id": "f467b316-98f0-4c08-a722-a2627e45bc19",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "69a0c1fb-7b22-4481-b16a-1dc59b5d02e6"
+        },
+        {
+          "name": "Annexure",
+          "id": "fc9fc8d5-2f04-4174-9868-3bf586bfa1fa"
+        },
+        {
+          "name": "Appendix",
+          "id": "d29784c1-4be6-4958-aff5-20bf7cd54786"
+        },
+        {
+          "name": "Circular",
+          "id": "f21fcf2d-39f9-4c81-99ce-f67e1fe59276"
+        },
+        {
+          "name": "Form",
+          "id": "b826bfab-6422-4d80-ac9a-0f8d32afc3ab"
+        },
+        {
+          "name": "Notification",
+          "id": "2dc61937-74ce-4961-a098-7446a07d1063"
+        },
+        {
+          "name": "Order",
+          "id": "d146af66-cbea-460f-a32f-c68183142e25"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "0f5c0558-ce6f-4107-8e3e-1c71778fdfdc"
+        },
+        {
+          "name": "Ordinance",
+          "id": "5d29c5ee-7656-4400-97bf-f4ef22ee2d97"
+        },
+        {
+          "name": "Preamble",
+          "id": "16547733-89ab-4be9-9989-61a35b95bdae"
+        },
+        {
+          "name": "Regulation",
+          "id": "a263e968-8733-4776-af8e-7aab521858e4"
+        },
+        {
+          "name": "Rule",
+          "id": "da7bfea8-3973-4961-b873-d99e9f48512f"
+        },
+        {
+          "name": "Schedule",
+          "id": "d903af19-5f67-412a-bf91-746219562bb1"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "c965d622-16b3-40f0-b9b5-9d69b89d309c"
+        },
+        {
+          "name": "Schordrule",
+          "id": "acd67435-8fcb-4f89-840f-bddd27bd3dc7"
+        },
+        {
+          "name": "Section",
+          "id": "9a5b5f4a-4ccf-4cef-9820-0d33f8a6707f"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "af6010bf-08cc-47eb-bdf7-8e9a6411aba4"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "b53ddda5-2e24-4f3b-9773-3babb01b8a77"
+        },
+        {
+          "name": "Statute",
+          "id": "e0de65c2-e02f-4a9f-b7b1-3aec12d416f1"
+        }
+      ]
+    },
+    {
+      "name": "Chandigarh",
+      "id": "412d78e1-9110-411f-b5b4-537f4da907f1",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "52e82145-f958-466c-ac43-81e5666b016f"
+        },
+        {
+          "name": "Annexure",
+          "id": "53ff39fe-2434-45ec-9019-ed67080c77ea"
+        },
+        {
+          "name": "Appendix",
+          "id": "f5559640-d8a0-4362-bde1-4f1fd9dae0ba"
+        },
+        {
+          "name": "Circular",
+          "id": "19a5cd32-80b1-4283-b73e-0d1a2f60f367"
+        },
+        {
+          "name": "Form",
+          "id": "3d2ab78c-6267-494b-82c4-c630a25a5b0a"
+        },
+        {
+          "name": "Notification",
+          "id": "083c2177-1795-4c5d-b8f9-06c254b2bf76"
+        },
+        {
+          "name": "Order",
+          "id": "5f01d901-e6a6-4c60-8d62-3c5bfda4b56b"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "7b31e5dc-1322-420c-aa81-4ef604215edd"
+        },
+        {
+          "name": "Ordinance",
+          "id": "3195891f-45a5-4ebd-bb5f-6974642f2f06"
+        },
+        {
+          "name": "Preamble",
+          "id": "ab3158d8-4910-4532-8ca1-bf541a8bf08e"
+        },
+        {
+          "name": "Regulation",
+          "id": "13016424-48f6-42ce-8b61-da9c39baa79b"
+        },
+        {
+          "name": "Rule",
+          "id": "0f8727d6-e2cb-45e5-98e1-045973e4347c"
+        },
+        {
+          "name": "Schedule",
+          "id": "dfc70d3a-aeea-4916-8a54-6abad939dafd"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "5c935b7e-ff51-4a87-ab8d-0dd6515db84e"
+        },
+        {
+          "name": "Schordrule",
+          "id": "0b33aa3e-b6f0-4826-9f76-d6013ff89b42"
+        },
+        {
+          "name": "Section",
+          "id": "fd3861b1-4cc5-421f-a998-6d9b4bd2b030"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "fa09803c-71da-4382-92c1-b91deed990f9"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "eb05e7db-aa75-4d49-9744-a3cc9f74c3e8"
+        },
+        {
+          "name": "Statute",
+          "id": "3fd4f423-6783-4a91-a704-cfcb9a43ad62"
+        }
+      ]
+    },
+    {
+      "name": "Chhattisgarh",
+      "id": "ea554ae4-28f2-4981-a7c3-7e4b07da4d67",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "24bd1bfe-0436-471f-8450-66eb66150c6b"
+        },
+        {
+          "name": "Annexure",
+          "id": "78636085-36bb-48bf-861f-5758d9867814"
+        },
+        {
+          "name": "Appendix",
+          "id": "52d9ec2c-8d3c-46a6-b595-0c8eccba34a6"
+        },
+        {
+          "name": "Circular",
+          "id": "e9395fe5-a771-48f8-919a-574accf2b474"
+        },
+        {
+          "name": "Form",
+          "id": "c6d18947-4e8c-43c6-a86a-a4b4ef34a156"
+        },
+        {
+          "name": "Notification",
+          "id": "bc339ca7-e18a-4972-af5a-bf3519512568"
+        },
+        {
+          "name": "Order",
+          "id": "c9841e24-6ec9-4281-886b-eeced5a74f2f"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "09dd2295-9035-4f10-9565-7fe9f08a3127"
+        },
+        {
+          "name": "Ordinance",
+          "id": "46f54640-3a0d-40b8-8b85-56ff8da606fa"
+        },
+        {
+          "name": "Preamble",
+          "id": "08389faf-7c21-449a-8aa1-c6ed328a69e8"
+        },
+        {
+          "name": "Regulation",
+          "id": "b0a55293-2b53-4109-a88b-8b7c3717eaf5"
+        },
+        {
+          "name": "Rule",
+          "id": "7f6c33fa-b0d7-485c-adc3-865bf0a96911"
+        },
+        {
+          "name": "Schedule",
+          "id": "face41c5-f161-4b5f-bf93-4eac6b2a94da"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "8b53b88c-fcde-46a0-a0d2-423b31f40aa5"
+        },
+        {
+          "name": "Schordrule",
+          "id": "545e7874-0b1d-4ee4-8b2d-47e8bd143c7d"
+        },
+        {
+          "name": "Section",
+          "id": "58f4818f-dd47-40c2-ae6a-92fed6181c3b"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "21482408-97c6-4ee8-ba98-bdbf305ff813"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "21ec1d00-dca2-4bb0-be48-8577bbeebb47"
+        },
+        {
+          "name": "Statute",
+          "id": "37ff3488-3fc1-44b9-a684-2dbb1f3e152b"
+        }
+      ]
+    },
+    {
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "id": "f88fc48f-31cf-444f-82b1-34a5c918e3c3",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "15a36246-53e9-4a6e-8ea7-18d5251b5084"
+        },
+        {
+          "name": "Annexure",
+          "id": "1a73e826-1a33-4689-99ef-454d7966bd2e"
+        },
+        {
+          "name": "Appendix",
+          "id": "cc0cad06-f53b-401e-b598-e3e5ebacd695"
+        },
+        {
+          "name": "Circular",
+          "id": "859b46ed-1233-4143-b40e-dddbd1b24387"
+        },
+        {
+          "name": "Form",
+          "id": "5d266d48-bd31-4698-a9d2-026428603a36"
+        },
+        {
+          "name": "Notification",
+          "id": "c74a3781-ffc5-48c4-b302-10090d0f5e5e"
+        },
+        {
+          "name": "Order",
+          "id": "8894d602-29bd-4f99-b8cd-6c936622cb35"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "0a24cd5b-7706-4151-98f5-8f827f9f7e04"
+        },
+        {
+          "name": "Ordinance",
+          "id": "29323cf1-e998-4220-922d-b76a97361dcc"
+        },
+        {
+          "name": "Preamble",
+          "id": "1d5af78e-72ac-49eb-9866-b6fd3a312f07"
+        },
+        {
+          "name": "Regulation",
+          "id": "60aa0850-11fe-4663-9811-c757e7f8afd8"
+        },
+        {
+          "name": "Rule",
+          "id": "42b34ab5-7293-44b8-8c9d-c9b2ae7eb244"
+        },
+        {
+          "name": "Schedule",
+          "id": "1a271a8b-6a5e-4f8f-aa79-b40ede790da9"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "338ea480-9f52-48d6-b029-35fd62ac8230"
+        },
+        {
+          "name": "Schordrule",
+          "id": "769c6c2e-d291-4b52-9a1d-6199875b930f"
+        },
+        {
+          "name": "Section",
+          "id": "5734cc4b-e3c4-4884-9295-55c4617b1605"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "95a5eeea-546a-4dab-b3bd-9d087bcb7a9d"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "b225dd20-8383-40d1-b2a1-c65977d524d5"
+        },
+        {
+          "name": "Statute",
+          "id": "56ef66d0-6dc6-4bb5-a862-df7872a3cb2a"
+        }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "id": "3669f28b-fc9d-4d11-8f50-ae6a9040aea6",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "fab45c37-d2d4-4719-818a-b6358754e5a4"
+        },
+        {
+          "name": "Annexure",
+          "id": "19f0682e-d66c-4f29-8caf-0f68f2a11c3f"
+        },
+        {
+          "name": "Appendix",
+          "id": "4c94c834-dd37-42e4-8794-fa22d2d2dc59"
+        },
+        {
+          "name": "Circular",
+          "id": "0575043e-ed49-4af9-a049-369e4de2f1fa"
+        },
+        {
+          "name": "Form",
+          "id": "d15f7824-f163-433e-be8a-e1639764bbd4"
+        },
+        {
+          "name": "Notification",
+          "id": "6215ed7a-e2ae-46e4-b23a-901f16f3bdc8"
+        },
+        {
+          "name": "Order",
+          "id": "e85b9825-47e5-4dd6-ad20-5842195c60b4"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "ac64a1ae-d261-4827-aa94-1f269dc84c01"
+        },
+        {
+          "name": "Ordinance",
+          "id": "dd4d3f45-36c3-4169-bc5d-578ef4663905"
+        },
+        {
+          "name": "Preamble",
+          "id": "873086ba-0d75-4885-b8a8-a7f92f08670f"
+        },
+        {
+          "name": "Regulation",
+          "id": "c590661f-a83d-4c0f-ac77-f6f489692bff"
+        },
+        {
+          "name": "Rule",
+          "id": "021a68fd-47d5-459d-86f3-6323dbacafc5"
+        },
+        {
+          "name": "Schedule",
+          "id": "bbb11c35-057c-4b8e-aa0e-049a519e8483"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "bef785e3-c50a-4842-a3bb-e1a2f326db01"
+        },
+        {
+          "name": "Schordrule",
+          "id": "fb029a80-a2b5-4a61-8c0d-e0f883070392"
+        },
+        {
+          "name": "Section",
+          "id": "da91161b-20db-4fcc-895b-4d3f0a0aa412"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "920786c0-238f-4316-86cf-b4a757280baf"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "c1a7f544-4793-4d46-8f06-aa7864d725fa"
+        },
+        {
+          "name": "Statute",
+          "id": "0a8f77a5-6182-4f4d-b63b-9a03008f91f3"
+        }
+      ]
+    },
+    {
+      "name": "Goa",
+      "id": "5787502c-6e12-4733-88e3-ec8a9844a0c8",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "c2a07a3c-ea2e-4041-ac66-df0760fbd3e8"
+        },
+        {
+          "name": "Annexure",
+          "id": "71793e09-45cb-49a4-af85-92a76f3f37d3"
+        },
+        {
+          "name": "Appendix",
+          "id": "cf11dc22-0d21-4172-b1da-6422ec8021c1"
+        },
+        {
+          "name": "Circular",
+          "id": "822e7830-c0e2-4092-ad62-a3ce0b20cd1f"
+        },
+        {
+          "name": "Form",
+          "id": "55fc9c5f-ca5d-4882-aba0-15196682a421"
+        },
+        {
+          "name": "Notification",
+          "id": "145cbb31-dd19-44ba-b92f-c652f4a549ba"
+        },
+        {
+          "name": "Order",
+          "id": "77c7b017-2c46-4e9e-af56-8277cc0ccd20"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "a2efd961-72b5-4643-8422-2c3bed486b6c"
+        },
+        {
+          "name": "Ordinance",
+          "id": "5308f5c7-0f67-4a9d-bf73-9dc93549d3b1"
+        },
+        {
+          "name": "Preamble",
+          "id": "7cd5e299-5fac-49e2-bbce-0d1ab49f9474"
+        },
+        {
+          "name": "Regulation",
+          "id": "8eff4551-6778-4f94-9e54-e4c6907bd009"
+        },
+        {
+          "name": "Rule",
+          "id": "ad6f9443-2d2d-4d76-abaf-9f3a9202040f"
+        },
+        {
+          "name": "Schedule",
+          "id": "111a23a7-f3bc-4af0-a002-6bf947269a5e"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "d42d47cb-e98d-4ee9-a966-79ee6f60bdde"
+        },
+        {
+          "name": "Schordrule",
+          "id": "fccc92b7-4ea0-48e5-959f-a20459356efc"
+        },
+        {
+          "name": "Section",
+          "id": "75bd61e7-dc67-4593-a28c-4653f3e808e5"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "04792771-5745-4102-a9f3-f58366f37aac"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "790adf24-3f15-4087-8173-232be76f0a14"
+        },
+        {
+          "name": "Statute",
+          "id": "91acd4e1-7fda-45e4-bbdc-0c6e229602eb"
+        }
+      ]
+    },
+    {
+      "name": "Gujarat",
+      "id": "298a0601-b69d-4a07-9d0b-1fe30a6012bc",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "3462be4c-8ad3-4e62-b346-5ada678cb832"
+        },
+        {
+          "name": "Annexure",
+          "id": "bcd48744-8527-48d0-a2fb-98435e921b55"
+        },
+        {
+          "name": "Appendix",
+          "id": "4a12d41b-84dc-42e8-a6ad-8113252f7af2"
+        },
+        {
+          "name": "Circular",
+          "id": "6f96c8c5-653d-4ecb-b873-a42272ae3e80"
+        },
+        {
+          "name": "Form",
+          "id": "11a45b5f-f036-4153-a386-d586cb4271a2"
+        },
+        {
+          "name": "Notification",
+          "id": "8f738c55-797a-4cb3-9ca4-0bdc877a2154"
+        },
+        {
+          "name": "Order",
+          "id": "479a0648-812d-4856-ae85-8efef8e217c0"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "6d53c173-7e83-45a2-b75e-bdc607e144a8"
+        },
+        {
+          "name": "Ordinance",
+          "id": "841a7d62-87ce-4162-ae45-d5b4c8cbace3"
+        },
+        {
+          "name": "Preamble",
+          "id": "380158ec-d310-4b79-822e-11fa1a306df2"
+        },
+        {
+          "name": "Regulation",
+          "id": "3d68aeb1-9257-456d-847c-554e186f089f"
+        },
+        {
+          "name": "Rule",
+          "id": "3ebeaf96-a255-4564-9ba1-8e2db0d4b7a7"
+        },
+        {
+          "name": "Schedule",
+          "id": "b9089c4f-2460-4dc5-934b-2c7c5f946b32"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "416c1929-34e5-4179-80b2-73e7aa48f3c5"
+        },
+        {
+          "name": "Schordrule",
+          "id": "ba3f60d4-9d55-4406-8e57-11c1ae637dc5"
+        },
+        {
+          "name": "Section",
+          "id": "45095441-c430-4688-aaca-bf04a387159b"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "731a201d-105d-4d40-a72b-ea88e8369e4e"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "e0f5836d-2aea-4356-a59b-da01c33d1ce6"
+        },
+        {
+          "name": "Statute",
+          "id": "343a1400-97fb-47bb-a142-f20af1f11b1c"
+        }
+      ]
+    },
+    {
+      "name": "Haryana",
+      "id": "c1328da3-1cca-4124-b94b-e1ac407b764a",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "9903d06c-ff3b-4467-b463-3ad5dbfe200d"
+        },
+        {
+          "name": "Annexure",
+          "id": "4c395365-ed76-4773-bccb-45b6cfc0838c"
+        },
+        {
+          "name": "Appendix",
+          "id": "3a791716-48c2-4476-a3dd-90efba1a9f42"
+        },
+        {
+          "name": "Circular",
+          "id": "7db6bfb4-4b3c-4231-bebf-91de246701dd"
+        },
+        {
+          "name": "Form",
+          "id": "e5e83111-f480-4181-8b1d-f6a357035268"
+        },
+        {
+          "name": "Notification",
+          "id": "3ce83c40-7aff-4ab4-8c21-b72d06b1d4c0"
+        },
+        {
+          "name": "Order",
+          "id": "9e8c487c-1f44-4d84-8954-409656d6e4ed"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "368cf6b3-6abf-4715-8ee6-3e035ad4b92f"
+        },
+        {
+          "name": "Ordinance",
+          "id": "abb120cb-2e95-47f8-852f-74a909b426b1"
+        },
+        {
+          "name": "Preamble",
+          "id": "66eec884-f5f7-4be7-b9fc-e4907869d2ff"
+        },
+        {
+          "name": "Regulation",
+          "id": "351019d5-a0ef-4678-abe3-d26d92e67711"
+        },
+        {
+          "name": "Rule",
+          "id": "7ab0942d-776a-4445-84c1-f88e02b95385"
+        },
+        {
+          "name": "Schedule",
+          "id": "31dcdbd5-2331-4d07-83b3-a096b10b3856"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "18cda45c-df33-40f7-8a4e-a098766605e6"
+        },
+        {
+          "name": "Schordrule",
+          "id": "21bcf672-5fb6-4f7a-855b-54a67476ddc9"
+        },
+        {
+          "name": "Section",
+          "id": "d2e4af01-9057-433f-8708-00ce468a411b"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "8beaed6d-dd05-4aa7-9bbd-1e8b88f2aec8"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "5ba5b65f-7cca-492c-9f41-783e3056cca0"
+        },
+        {
+          "name": "Statute",
+          "id": "ee762d29-5ae3-41ad-a476-b5cdb81b8767"
+        }
+      ]
+    },
+    {
+      "name": "Himachal Pradesh",
+      "id": "2f5dfe13-848a-4494-a0d2-256792bc5344",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "f086eea6-73be-425f-a857-ee690fdd7cdb"
+        },
+        {
+          "name": "Annexure",
+          "id": "5130b05e-9b0c-4065-8acd-9493f573b8ef"
+        },
+        {
+          "name": "Appendix",
+          "id": "a87ee721-7d66-4519-86ee-c3989443d8a8"
+        },
+        {
+          "name": "Circular",
+          "id": "c186a5ee-1ef8-4927-ae7e-e223f2699595"
+        },
+        {
+          "name": "Form",
+          "id": "a8469093-c3d0-4ab4-9236-02ca08ea91bd"
+        },
+        {
+          "name": "Notification",
+          "id": "82df041f-3233-4b16-858a-c0552a05738e"
+        },
+        {
+          "name": "Order",
+          "id": "6df60971-df2c-4f2d-bb21-f4fbcbae0096"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "c701c668-67cc-433b-b9c4-3920732eeb44"
+        },
+        {
+          "name": "Ordinance",
+          "id": "360072de-6074-4efe-bac2-904dc046b84e"
+        },
+        {
+          "name": "Preamble",
+          "id": "bc7529a4-903d-485a-bc97-88cd943f28ef"
+        },
+        {
+          "name": "Regulation",
+          "id": "45aafcf6-e4b8-491e-baef-982c1aded7f1"
+        },
+        {
+          "name": "Rule",
+          "id": "73d3cbc1-70f5-4fd8-859d-38fed1c9615d"
+        },
+        {
+          "name": "Schedule",
+          "id": "a9d7a693-f5b4-4484-b809-91b784563bd9"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "d8a20815-bd1e-496c-866b-6465ea2c36ab"
+        },
+        {
+          "name": "Schordrule",
+          "id": "909f6a49-d0e0-4acd-b185-c8d005b841d7"
+        },
+        {
+          "name": "Section",
+          "id": "4d921719-6524-4fde-be27-b4b6023d771d"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "1b04da94-ffa3-44e7-83b7-1c1322c48a05"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "ff564f1b-855b-466b-85d4-6238da807059"
+        },
+        {
+          "name": "Statute",
+          "id": "3147faf1-b619-44a0-adb9-7b1a9c596519"
+        }
+      ]
+    },
+    {
+      "name": "Jammu and Kashmir",
+      "id": "e3af9c56-7593-4fec-9ea7-d44c3e360447",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "69319435-db60-4e4e-890c-cec006f27790"
+        },
+        {
+          "name": "Annexure",
+          "id": "3193e913-6eba-4fdb-847c-15ef85e564c3"
+        },
+        {
+          "name": "Appendix",
+          "id": "4ae04479-8d18-47a7-91e5-385db98caf5f"
+        },
+        {
+          "name": "Circular",
+          "id": "e6cfee3f-eaf6-44dc-a4ae-552a1c49053c"
+        },
+        {
+          "name": "Form",
+          "id": "ffaaea55-04b3-46eb-bf2a-228df18ba808"
+        },
+        {
+          "name": "Notification",
+          "id": "574d1990-ecf4-4bac-94ac-26d21f3769c6"
+        },
+        {
+          "name": "Order",
+          "id": "2fc36ecd-91bc-4da1-8758-e363d279c50d"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "80d190ef-9f28-459e-b980-41e943b850ee"
+        },
+        {
+          "name": "Ordinance",
+          "id": "ca9d492c-ead5-4cf9-ba10-6ea5155062a6"
+        },
+        {
+          "name": "Preamble",
+          "id": "82ab7bdd-bc6a-4d3b-adc6-5e0a2e3cac91"
+        },
+        {
+          "name": "Regulation",
+          "id": "985e83da-3635-4879-8764-b3973500ed6f"
+        },
+        {
+          "name": "Rule",
+          "id": "4f6cbcbf-ca28-40e5-9421-381ecf51dc22"
+        },
+        {
+          "name": "Schedule",
+          "id": "febcb8ee-388b-43ea-b28c-b25cc9fb159d"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "ceea6fb8-7e29-4415-831a-fa08910fd1e5"
+        },
+        {
+          "name": "Schordrule",
+          "id": "12e7761c-2e33-4740-bd17-22f516d85e07"
+        },
+        {
+          "name": "Section",
+          "id": "f59bee37-fb6a-4adb-b54c-4dc86e7f3796"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "d5f857a6-1055-464c-8f6f-d2a597b9f947"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "3dd62329-bea5-4276-919e-b689bc908046"
+        },
+        {
+          "name": "Statute",
+          "id": "8a68b9e7-aeb0-4db0-bdf9-76e389340c36"
+        }
+      ]
+    },
+    {
+      "name": "Jharkhand",
+      "id": "d38a1b83-a1d9-424c-97a9-63144b4e7611",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "bd4ae9d1-725e-445f-be29-d2ba9756e2f3"
+        },
+        {
+          "name": "Annexure",
+          "id": "64e415de-8f84-4abc-9a67-9022d716e2fe"
+        },
+        {
+          "name": "Appendix",
+          "id": "f803104e-e443-4fda-8561-b6098f725b5f"
+        },
+        {
+          "name": "Circular",
+          "id": "bb5e5b5c-de0a-4437-86cc-35a2e8e89811"
+        },
+        {
+          "name": "Form",
+          "id": "6f401134-b891-414d-a82b-dbae17fd04bf"
+        },
+        {
+          "name": "Notification",
+          "id": "2b05cf54-a7e3-4ecd-97b7-7dcd9c7e582f"
+        },
+        {
+          "name": "Order",
+          "id": "3a681422-fcc0-4d75-9b88-1f992d330f47"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "ebbbbbc7-f8c8-4b86-acd6-9426b4738b80"
+        },
+        {
+          "name": "Ordinance",
+          "id": "d68d1bd6-1c8e-445b-8fbe-e9b8249fa873"
+        },
+        {
+          "name": "Preamble",
+          "id": "60ae6173-e806-4f11-b156-5915ef691e8f"
+        },
+        {
+          "name": "Regulation",
+          "id": "6db11bfb-fe24-4ea1-bb06-ece4d50a5478"
+        },
+        {
+          "name": "Rule",
+          "id": "256aa547-8473-40d2-b476-f42af7f9e9c4"
+        },
+        {
+          "name": "Schedule",
+          "id": "49f7c2e8-ca6f-4bbf-bed8-767d98699027"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "5c4a5917-7051-403d-95df-d4e08993502c"
+        },
+        {
+          "name": "Schordrule",
+          "id": "30a3346c-d2cb-4848-8294-742eed3c7dab"
+        },
+        {
+          "name": "Section",
+          "id": "5b8a53b5-dede-49c9-bcb7-99c6db9e1a56"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "a5a3d7e0-9363-4064-bdaf-eb7931a81ec5"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "6de9e894-b2e1-4538-9cf2-e492a8c8b4d3"
+        },
+        {
+          "name": "Statute",
+          "id": "269ed42a-fc4d-49f2-83d9-304aaecb8285"
+        }
+      ]
+    },
+    {
+      "name": "Karnataka",
+      "id": "a273b32e-ea24-4b73-ae62-7b0fd613c5e3",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "960261cd-2b69-4ed0-916f-c52423f1253d"
+        },
+        {
+          "name": "Annexure",
+          "id": "a679c210-33f3-4810-a417-bad9ea4adcd0"
+        },
+        {
+          "name": "Appendix",
+          "id": "551ac791-e2c2-476b-8d62-224f395eae08"
+        },
+        {
+          "name": "Circular",
+          "id": "e0f0cf81-6b2c-4a19-88ab-5053430dff8f"
+        },
+        {
+          "name": "Form",
+          "id": "b1c925c2-c493-4c5f-8e26-59f00a2db091"
+        },
+        {
+          "name": "Notification",
+          "id": "0aa98fc2-f3c3-4700-9f2a-77c6f44bcc74"
+        },
+        {
+          "name": "Order",
+          "id": "07b073bc-16b1-4fb2-a81e-0f277c2d92a2"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "2fb575ca-0175-422b-b6e2-28481d337cb2"
+        },
+        {
+          "name": "Ordinance",
+          "id": "d81f42bb-0678-4c1e-8e87-0d120072e0c2"
+        },
+        {
+          "name": "Preamble",
+          "id": "2691ef70-b161-4373-b6f9-989aa9be17bc"
+        },
+        {
+          "name": "Regulation",
+          "id": "2a0bc9a5-3920-4750-83b1-f7db3cbd888a"
+        },
+        {
+          "name": "Rule",
+          "id": "a9b6f4ea-dfbe-4ad8-88a7-8eb3a83c23ee"
+        },
+        {
+          "name": "Schedule",
+          "id": "d3a6ed05-0d60-488e-ba6d-6a45cf968e27"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "7592ed61-54ee-4c0a-b175-289b5907917b"
+        },
+        {
+          "name": "Schordrule",
+          "id": "c5ac511a-c557-47ec-8a3d-322b3b2e4630"
+        },
+        {
+          "name": "Section",
+          "id": "a927feba-e292-4b96-a1ea-9bfdcb80afec"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "5ccf5b8e-1f6b-4194-a2c5-43b1a14afcb4"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "142eea15-9134-4b1e-8a21-ee2a8b13a5bb"
+        },
+        {
+          "name": "Statute",
+          "id": "4fd2e498-492f-4916-bb95-49f30838eef3"
+        }
+      ]
+    },
+    {
+      "name": "Kerala",
+      "id": "638d29d3-d254-4fb7-ab87-47012d0dcc7f",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "f7de458a-b3c8-485c-9701-a92cd6f8d05d"
+        },
+        {
+          "name": "Annexure",
+          "id": "28f1d6c7-fd61-4ccb-b617-0601df0ea0f2"
+        },
+        {
+          "name": "Appendix",
+          "id": "97bfe50d-466b-46c2-8bb6-8b5fe12986b9"
+        },
+        {
+          "name": "Circular",
+          "id": "f2e89ce1-1c7b-40aa-a687-498920dfe77a"
+        },
+        {
+          "name": "Form",
+          "id": "1d987aee-2e37-49d9-aa85-d93fa5f03a6b"
+        },
+        {
+          "name": "Notification",
+          "id": "58e71b4c-fc6d-49ee-975e-d1115ab3d577"
+        },
+        {
+          "name": "Order",
+          "id": "65b4cb9b-675a-4377-9d35-f10a1ae4cffe"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "85fe5cca-abbb-477b-a088-b1c0f03b8c24"
+        },
+        {
+          "name": "Ordinance",
+          "id": "f06b141c-70ef-43e3-b018-53a06647abf5"
+        },
+        {
+          "name": "Preamble",
+          "id": "fe972b68-7a69-416e-abbf-344fd16a28e3"
+        },
+        {
+          "name": "Regulation",
+          "id": "8afc2f0e-8705-4cd0-83aa-5c96eeaf8574"
+        },
+        {
+          "name": "Rule",
+          "id": "9956508e-8659-4a6d-9e43-0d409e0187df"
+        },
+        {
+          "name": "Schedule",
+          "id": "cefa63bb-a330-4f57-83ef-122dcf2b5bad"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "d6090f71-8794-4fb2-ae04-fde48ed57fc5"
+        },
+        {
+          "name": "Schordrule",
+          "id": "1177d167-fb92-4fb5-b44f-3f66ed1d57fb"
+        },
+        {
+          "name": "Section",
+          "id": "66764ccb-1dff-4e47-ba76-d31193d6faff"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "7265c28b-0f69-4e94-a294-a6febb34b92f"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "7dc1f6b1-01ea-41fe-8c43-23df5fe89e3d"
+        },
+        {
+          "name": "Statute",
+          "id": "8f7a87bc-f968-463a-b93a-c25d14c15f1c"
+        }
+      ]
+    },
+    {
+      "name": "Ladakh",
+      "id": "ba7c6bfc-e000-40b4-b3fe-0edda573b49e",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "e74fad3a-da14-4b06-96eb-6b36c371ca7e"
+        },
+        {
+          "name": "Annexure",
+          "id": "b64d7e2d-51a0-406b-a46a-11464b167bfd"
+        },
+        {
+          "name": "Appendix",
+          "id": "7375761e-c346-433a-a28e-fc5ad0acb3b1"
+        },
+        {
+          "name": "Circular",
+          "id": "59bb2c76-6e55-452e-99a1-a04d74ece19c"
+        },
+        {
+          "name": "Form",
+          "id": "9318fc9b-4cd7-4bd0-9ff4-7b5741535d2b"
+        },
+        {
+          "name": "Notification",
+          "id": "8bbca540-3fd5-46a8-a58d-7156604575e8"
+        },
+        {
+          "name": "Order",
+          "id": "317e85c2-9320-4d47-9a2f-8cfafd2734d7"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "8df023b0-4fba-4592-9856-1c7d6cf517db"
+        },
+        {
+          "name": "Ordinance",
+          "id": "9637375c-c9d9-4f62-b9c2-f7656c599070"
+        },
+        {
+          "name": "Preamble",
+          "id": "ee0dfd1a-6b69-4be8-acde-e8895eb4f6b7"
+        },
+        {
+          "name": "Regulation",
+          "id": "18af1a1a-73f4-4e57-a6e7-5cc7afb7574c"
+        },
+        {
+          "name": "Rule",
+          "id": "741f0c3b-9f19-48a1-9669-628d95dc17d3"
+        },
+        {
+          "name": "Schedule",
+          "id": "7c922ae4-d7ce-4bc3-987b-33d365c59512"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "b6462e3a-8b78-4fe5-9005-efa567901d03"
+        },
+        {
+          "name": "Schordrule",
+          "id": "3a6e2594-a595-4db1-bbc8-36ad27992323"
+        },
+        {
+          "name": "Section",
+          "id": "95e45dbb-c94f-49c2-8187-b78f5437ef9e"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "b854e271-6849-4f67-b193-464ccd4e1e84"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "277dde24-9174-4762-b238-837c11ce3f5a"
+        },
+        {
+          "name": "Statute",
+          "id": "080bdca0-8ba5-4c27-ad11-6e0ffc7dec97"
+        }
+      ]
+    },
+    {
+      "name": "Lakshadweep",
+      "id": "486141fd-a11c-41c2-8eb4-264d1e7d32a5",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "f67f62d5-96c2-4e4e-8b85-784802b0b974"
+        },
+        {
+          "name": "Annexure",
+          "id": "5a39f367-24c8-4675-91c8-1ebb9a201476"
+        },
+        {
+          "name": "Appendix",
+          "id": "7f9f9564-53c4-4df4-9f99-6985d6ca3f5b"
+        },
+        {
+          "name": "Circular",
+          "id": "3d720dd3-8f51-4810-985f-571df4ef3a83"
+        },
+        {
+          "name": "Form",
+          "id": "3b7a7576-2480-4008-a61d-d559129c6984"
+        },
+        {
+          "name": "Notification",
+          "id": "b76539e9-0879-48f5-8cc1-5056b8c9dbce"
+        },
+        {
+          "name": "Order",
+          "id": "dd7d2c18-1e27-43ce-ac65-d9aca92d5e06"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "49fc2807-6019-4910-bc86-632678d5be12"
+        },
+        {
+          "name": "Ordinance",
+          "id": "fe746978-5d5d-4174-ae6b-254be2dd09f3"
+        },
+        {
+          "name": "Preamble",
+          "id": "a3aea081-ba0a-4c52-aa4e-fa39b0a01026"
+        },
+        {
+          "name": "Regulation",
+          "id": "f01e5c05-f9ae-4403-b3b9-e02036ced470"
+        },
+        {
+          "name": "Rule",
+          "id": "e9e90106-ff3d-4a70-b731-2cf8d407f4f7"
+        },
+        {
+          "name": "Schedule",
+          "id": "5212a1e8-8be6-48c1-9d7b-967d5cfc40c3"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "b5faad4a-3936-46e7-a25b-ed74bdb9d48a"
+        },
+        {
+          "name": "Schordrule",
+          "id": "09be6425-1ef6-4fa7-9e0a-7609bb3c26ef"
+        },
+        {
+          "name": "Section",
+          "id": "5e28516c-750b-4c95-a1c9-fa47d134a561"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "b61d43cb-acb8-4db0-ab5f-ab54f605c0ae"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "ec6a45d9-0d99-4ed3-9b03-980b8c1b2acd"
+        },
+        {
+          "name": "Statute",
+          "id": "1b655e30-2776-4492-b0b0-265dd6e94500"
+        }
+      ]
+    },
+    {
+      "name": "Madhya Pradesh",
+      "id": "6122ce0b-a8b9-40ab-b48a-e215839beda2",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "a49dac57-a4c2-4f8c-9f2d-8d97234abd84"
+        },
+        {
+          "name": "Annexure",
+          "id": "66429870-7495-4c78-84f0-807cb2348e57"
+        },
+        {
+          "name": "Appendix",
+          "id": "c69d86c5-9f91-402e-ab06-d4d0bde3e133"
+        },
+        {
+          "name": "Circular",
+          "id": "7ba192d8-45c8-4068-a8e0-03836775f109"
+        },
+        {
+          "name": "Form",
+          "id": "7ef21bba-16fd-40a0-8cca-3f8ccae22c04"
+        },
+        {
+          "name": "Notification",
+          "id": "6d10aae0-d92d-4d48-a0f1-9b65505d059a"
+        },
+        {
+          "name": "Order",
+          "id": "0197bab0-b903-44e4-a07b-f82ad218dc5d"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "a82afbcc-8da8-4638-88d9-be037ec3dbb2"
+        },
+        {
+          "name": "Ordinance",
+          "id": "3966ef4f-fdd3-4167-8104-d129f5a6a1e8"
+        },
+        {
+          "name": "Preamble",
+          "id": "c69ca73f-c6d9-4259-9c24-893c34834274"
+        },
+        {
+          "name": "Regulation",
+          "id": "ccaf27ff-47bc-4688-bc3b-cac22ced039c"
+        },
+        {
+          "name": "Rule",
+          "id": "f5b8aa82-6808-4222-b710-bc465ca99b94"
+        },
+        {
+          "name": "Schedule",
+          "id": "48b61d77-fca2-41db-9bce-a83f80c19736"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "2a848ca5-6396-457e-ad63-67e54e39f18e"
+        },
+        {
+          "name": "Schordrule",
+          "id": "25867d05-fe0e-407b-b015-c429d3fe6bca"
+        },
+        {
+          "name": "Section",
+          "id": "f30d1176-e47c-4206-9493-9e493fe121e9"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "fe007aa7-1539-4f8b-9f09-a89e603fa7da"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "2d173736-5908-4ecc-a9b2-1a208fb4dc34"
+        },
+        {
+          "name": "Statute",
+          "id": "a7aaa76c-6d05-4a13-bd60-bb5920410743"
+        }
+      ]
+    },
+    {
+      "name": "Maharashtra",
+      "id": "a7d86087-8156-4e75-915c-745b930bcab4",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "829fe264-6afa-4d1f-a0fa-ceb3f4d15477"
+        },
+        {
+          "name": "Annexure",
+          "id": "b1b4027d-e359-4a66-80f0-63514a0f7a6e"
+        },
+        {
+          "name": "Appendix",
+          "id": "801f125a-aceb-46d4-825e-32af047065ef"
+        },
+        {
+          "name": "Circular",
+          "id": "d68843b9-c629-42dd-a5f6-5307e1b9edea"
+        },
+        {
+          "name": "Form",
+          "id": "5130282a-7220-49e8-a703-e332bf7fb9f7"
+        },
+        {
+          "name": "Notification",
+          "id": "32715353-ef48-460d-9cf7-212db69f3dc0"
+        },
+        {
+          "name": "Order",
+          "id": "8104c25c-32b6-4266-a5ef-408892e070df"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "c20802cf-48fd-455f-9cda-86d2ae284e0e"
+        },
+        {
+          "name": "Ordinance",
+          "id": "1c725af3-a719-47e7-8703-5d2b9fd3aa03"
+        },
+        {
+          "name": "Preamble",
+          "id": "6097714f-8809-4ba9-a665-48f616e60cd2"
+        },
+        {
+          "name": "Regulation",
+          "id": "64592750-5382-4e88-8c22-c1d306bbd21d"
+        },
+        {
+          "name": "Rule",
+          "id": "b1433936-4a8a-43d9-9b5e-e702f7d56f3b"
+        },
+        {
+          "name": "Schedule",
+          "id": "26ac399c-b75c-4552-914c-ffb77134e189"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "4c8e5dc4-9ec6-4ef2-8387-0075782c6dc0"
+        },
+        {
+          "name": "Schordrule",
+          "id": "07d317b0-3698-4c93-8a4c-19452473221d"
+        },
+        {
+          "name": "Section",
+          "id": "aa5aa811-566d-4c62-a050-5ee8bd2790a2"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "7a5744b8-5c3b-4052-8cb4-1068816ae62a"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "ae60ea4a-b831-4f88-a331-616fecc0d3a4"
+        },
+        {
+          "name": "Statute",
+          "id": "cfd5c088-3da0-42a5-91e9-a3dc44292ee6"
+        }
+      ]
+    },
+    {
+      "name": "Manipur",
+      "id": "2809e55a-baac-4e04-b4ff-17010dbccf0a",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "3a89c229-5d3f-487d-ad18-66810487d574"
+        },
+        {
+          "name": "Annexure",
+          "id": "d5a9726c-bd27-4021-a428-adcbf3dc1f62"
+        },
+        {
+          "name": "Appendix",
+          "id": "d69f408f-cd9b-4279-8879-00eddc45d298"
+        },
+        {
+          "name": "Circular",
+          "id": "fb78eb20-907c-4d6c-85f0-aa34faa74ad8"
+        },
+        {
+          "name": "Form",
+          "id": "bc9084e5-e114-479f-8db5-832153a53a39"
+        },
+        {
+          "name": "Notification",
+          "id": "bc639e43-68c6-46ee-99d4-02f68d497965"
+        },
+        {
+          "name": "Order",
+          "id": "b13ce98a-4eda-4e3c-b309-87c49878194c"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "f0f9e936-7dc5-428d-be2e-f1b5fbca4ab0"
+        },
+        {
+          "name": "Ordinance",
+          "id": "a92a9920-0404-4323-9699-cc24f50cfce7"
+        },
+        {
+          "name": "Preamble",
+          "id": "b671a95a-dcfa-4abf-8bcb-942bc9a445ad"
+        },
+        {
+          "name": "Regulation",
+          "id": "aa87b6ff-5e18-42b8-932b-780cde1a6970"
+        },
+        {
+          "name": "Rule",
+          "id": "62d54fd4-f0b3-49be-a6d9-6a3453acf90f"
+        },
+        {
+          "name": "Schedule",
+          "id": "2055c9da-7db3-421b-91ad-adfaf6c2952c"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "0e8f2d6c-352d-4cca-a9f8-54caec06eddc"
+        },
+        {
+          "name": "Schordrule",
+          "id": "2f75b2ab-295b-4cfe-b27e-c51d24557aa0"
+        },
+        {
+          "name": "Section",
+          "id": "7b26d27f-b43a-44df-b66d-089d29fc5ebe"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "881fc802-bfc8-4528-be95-fba5d7c7c208"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "302b1e7a-47a9-4908-acb4-64ed730fb062"
+        },
+        {
+          "name": "Statute",
+          "id": "b7b96e0d-f9b1-47c5-b675-2dfa43bda3d7"
+        }
+      ]
+    },
+    {
+      "name": "Meghalaya",
+      "id": "822afe65-8c01-43fe-9e2c-a17e1a3abe80",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "abbe897c-4569-450a-944f-9c85d0d2df4d"
+        },
+        {
+          "name": "Annexure",
+          "id": "ef456afe-7acc-4d6d-ba50-63c3470836fb"
+        },
+        {
+          "name": "Appendix",
+          "id": "44940352-293c-4eaf-99ea-9c5c221d278f"
+        },
+        {
+          "name": "Circular",
+          "id": "e3297358-6329-4a75-97b2-0a1cfd2ee668"
+        },
+        {
+          "name": "Form",
+          "id": "865c4f0d-043f-43cc-abbf-cd1254b23d7d"
+        },
+        {
+          "name": "Notification",
+          "id": "e632b158-9bbe-47a0-b7c9-7561e895927f"
+        },
+        {
+          "name": "Order",
+          "id": "2406460f-305d-421c-ba5c-591db38f7d74"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "43ab0cfa-9e9e-4b57-b574-f0b08b4cffa2"
+        },
+        {
+          "name": "Ordinance",
+          "id": "9a5b95c1-2c88-4cca-9960-cdd47e8f2a73"
+        },
+        {
+          "name": "Preamble",
+          "id": "bbac01bb-424a-4fa5-a2c2-7ed3778a3a3e"
+        },
+        {
+          "name": "Regulation",
+          "id": "267923d7-8b57-420f-8564-16cb03a07fb3"
+        },
+        {
+          "name": "Rule",
+          "id": "9a9e688c-3aa3-49d5-b27f-ed0ca72c1068"
+        },
+        {
+          "name": "Schedule",
+          "id": "6977bb65-40d9-4840-b0b1-c62a3ed050f2"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "cafe1a13-a909-4039-935d-b8b619598bf6"
+        },
+        {
+          "name": "Schordrule",
+          "id": "dbda0d56-2118-4df9-b936-4f12747e243b"
+        },
+        {
+          "name": "Section",
+          "id": "5b958e8f-9657-4f60-a137-7bc33721f04a"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "469a5758-5e96-438e-a05c-71f30d0e2c04"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "4f47b354-2600-410f-8636-a1e1ffc84144"
+        },
+        {
+          "name": "Statute",
+          "id": "f522576b-0c24-4574-a283-506039da64b3"
+        }
+      ]
+    },
+    {
+      "name": "Mizoram",
+      "id": "6c0d2522-bd5a-479b-bda6-68da90301ad5",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "968a74cb-3576-4274-8696-1e44dfaa2782"
+        },
+        {
+          "name": "Annexure",
+          "id": "f9c828ad-1e95-4815-85db-1ef04db2718e"
+        },
+        {
+          "name": "Appendix",
+          "id": "8006176e-95b6-4ac4-8d70-e83e5dd0de59"
+        },
+        {
+          "name": "Circular",
+          "id": "b5fd8ada-5dbb-4c22-8906-8658a227285d"
+        },
+        {
+          "name": "Form",
+          "id": "c6eaae28-0389-4123-b641-d3598b20261a"
+        },
+        {
+          "name": "Notification",
+          "id": "6cc680c3-aae3-46bd-9f59-1acecc7cee63"
+        },
+        {
+          "name": "Order",
+          "id": "a2a16810-c054-4e33-b9dc-ac9b16735c1d"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "b62cebe1-5c0c-4abd-8439-22e9c8f0f9ef"
+        },
+        {
+          "name": "Ordinance",
+          "id": "8944f4cf-635c-4c73-9a7b-3e9ae6ac3d97"
+        },
+        {
+          "name": "Preamble",
+          "id": "27080385-0e23-4329-9723-9b23354c7641"
+        },
+        {
+          "name": "Regulation",
+          "id": "0d91469d-39e4-436c-b8ac-9fd46128c122"
+        },
+        {
+          "name": "Rule",
+          "id": "56c48cd3-84b4-4a50-a129-6f399dc05bf7"
+        },
+        {
+          "name": "Schedule",
+          "id": "202e1702-032e-4c9e-93ab-e0ea8aed0ac4"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "9b384640-239e-40d2-bb3b-3ca0f3bd00bd"
+        },
+        {
+          "name": "Schordrule",
+          "id": "efbf42d6-f1f8-40d1-9663-25ddb8e97aae"
+        },
+        {
+          "name": "Section",
+          "id": "5cfb551d-60eb-4e26-8f86-7355fad29d89"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "a260b7c4-7ca7-4e26-8634-882eccb2ce8f"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "037801b9-c612-4472-b824-2be7af11d63f"
+        },
+        {
+          "name": "Statute",
+          "id": "cc1e7cae-e6c7-4a9b-a21c-91ab6c7cffef"
+        }
+      ]
+    },
+    {
+      "name": "Nagaland",
+      "id": "25361ec3-e3ac-4fc1-9202-fafae0613dd6",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "8d828482-977c-46fe-9a89-e302b236bc34"
+        },
+        {
+          "name": "Annexure",
+          "id": "de84371a-1d08-49f9-bbb9-2e3f890df31b"
+        },
+        {
+          "name": "Appendix",
+          "id": "c81f3021-64a2-4219-8ddb-2fa73effa1bd"
+        },
+        {
+          "name": "Circular",
+          "id": "94f366fe-2837-4040-8fb2-d9ffc80339da"
+        },
+        {
+          "name": "Form",
+          "id": "de3b68f6-4a02-413c-8a85-68bf16b92c0c"
+        },
+        {
+          "name": "Notification",
+          "id": "3d0fa2a7-3375-408f-ba64-c6d4c5874d2b"
+        },
+        {
+          "name": "Order",
+          "id": "897ca0de-73db-44b2-bd80-da7fe002b313"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "ff365098-573b-4934-b0a9-86cb23319aec"
+        },
+        {
+          "name": "Ordinance",
+          "id": "2c5098b9-47a1-4419-b9e6-8684e06124fb"
+        },
+        {
+          "name": "Preamble",
+          "id": "912721d6-95b2-41dc-81d2-bfb247667674"
+        },
+        {
+          "name": "Regulation",
+          "id": "68e6315d-ac1e-4001-a39d-68f61b58b367"
+        },
+        {
+          "name": "Rule",
+          "id": "2c088cdf-8e94-4949-9a11-f5cf634bdab7"
+        },
+        {
+          "name": "Schedule",
+          "id": "f1322d1b-f865-4b39-939e-991c5a50c9cc"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "8223e09c-8882-4ac8-903f-e5896eb5fe5a"
+        },
+        {
+          "name": "Schordrule",
+          "id": "7512453f-352f-407a-abba-3b57f8ea9f6e"
+        },
+        {
+          "name": "Section",
+          "id": "4e04e4e2-296d-4826-aa94-3a585f22f6ac"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "862f1484-7781-4acf-a965-339503ec56e3"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "37146b6c-9331-4be1-880e-c42f166c38b1"
+        },
+        {
+          "name": "Statute",
+          "id": "aa8dca54-a5eb-40a1-b97b-4fcb649240c4"
+        }
+      ]
+    },
+    {
+      "name": "Odisha",
+      "id": "0520eb78-194f-44b6-b0fd-a5249c627ae9",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "e90d7d35-bc7b-4919-bcfc-a5c598e70333"
+        },
+        {
+          "name": "Annexure",
+          "id": "85add3a8-237f-46a4-a2a7-11b4362d81e9"
+        },
+        {
+          "name": "Appendix",
+          "id": "59c84476-413b-4ddd-aeb9-5b6261f343f4"
+        },
+        {
+          "name": "Circular",
+          "id": "d05f9dac-7865-45f6-96f8-43e6c7af815b"
+        },
+        {
+          "name": "Form",
+          "id": "10d5a5ff-0c21-4134-bf9c-c84e85f56ed6"
+        },
+        {
+          "name": "Notification",
+          "id": "89a4de08-ddaf-40b7-9ae2-0600e627bba7"
+        },
+        {
+          "name": "Order",
+          "id": "0db41e8a-fa83-4916-bbf2-9230cd5036c9"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "1e6d29f0-b528-49d3-b662-5821233c190d"
+        },
+        {
+          "name": "Ordinance",
+          "id": "3679cb13-5e3c-47f6-af99-5340f7414c4e"
+        },
+        {
+          "name": "Preamble",
+          "id": "a2c77dd3-255f-4c14-afc0-e7732bb19fda"
+        },
+        {
+          "name": "Regulation",
+          "id": "c596351f-2b95-4570-8fb0-120a16afab4d"
+        },
+        {
+          "name": "Rule",
+          "id": "b89cb8e4-84c5-4067-8aa7-4b4b34a4cb59"
+        },
+        {
+          "name": "Schedule",
+          "id": "89d949d4-2b13-4c59-90b6-8b041f288062"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "787f6068-17f3-4fdc-bab4-f2bfe7820bc2"
+        },
+        {
+          "name": "Schordrule",
+          "id": "795c3f3b-810e-4f59-b8b2-30b82756ac36"
+        },
+        {
+          "name": "Section",
+          "id": "4691e7d9-3c04-4cc9-9bb3-cb7b1e1d756e"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "7807a80e-de39-47c9-98f8-4795ab7bc683"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "2950c3d6-d029-46b5-8468-72d9ee367ab1"
+        },
+        {
+          "name": "Statute",
+          "id": "507c9ba5-1255-45e6-9192-8866af28940b"
+        }
+      ]
+    },
+    {
+      "name": "Pondicherry",
+      "id": "75b8f931-4f0b-434d-a62b-a325817a7ba1",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "c07ee7a6-a75f-47d7-bb96-1716976540d4"
+        },
+        {
+          "name": "Annexure",
+          "id": "10137a0a-e0c8-4dae-9e35-3cb3aecd9cf9"
+        },
+        {
+          "name": "Appendix",
+          "id": "13bb3074-78b6-4cc7-8ed4-18c4a0ce58b1"
+        },
+        {
+          "name": "Circular",
+          "id": "cf263f4a-68b7-4aa9-9b5a-5d7ae92c8ee3"
+        },
+        {
+          "name": "Form",
+          "id": "b3397b3b-c74b-4a0d-b562-185dbb296976"
+        },
+        {
+          "name": "Notification",
+          "id": "8bef4537-d8f0-4ce4-adbd-b96b971b4957"
+        },
+        {
+          "name": "Order",
+          "id": "07030d08-d96c-4799-864c-014abc7b2928"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "73d0fafb-eedd-40aa-8ca7-15ba5760cc44"
+        },
+        {
+          "name": "Ordinance",
+          "id": "98ec43d1-b0bf-4b13-b3c2-c9ceb0961edf"
+        },
+        {
+          "name": "Preamble",
+          "id": "12f90761-2cbb-4cd6-a9b4-7561e5553138"
+        },
+        {
+          "name": "Regulation",
+          "id": "8ff88880-910a-44a0-993a-b2b86c392cd6"
+        },
+        {
+          "name": "Rule",
+          "id": "cc135063-5c49-4bda-b90d-eb73b560e96c"
+        },
+        {
+          "name": "Schedule",
+          "id": "3fdf8611-9736-4ffe-b605-919db709acc4"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "0bb6beda-f94a-4fb1-98ac-c5780b32e5e1"
+        },
+        {
+          "name": "Schordrule",
+          "id": "be5fbe00-0acf-4809-99ce-5479f8333f2f"
+        },
+        {
+          "name": "Section",
+          "id": "1d4aeb33-b805-4d8a-b184-32a87f7a8ffc"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "ff1d983f-cf57-4870-9cdb-9da822524718"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "b5140642-1bfc-42ef-94fa-263a69cd499b"
+        },
+        {
+          "name": "Statute",
+          "id": "b2bb6dc4-712a-4f98-92bc-610796143dbc"
+        }
+      ]
+    },
+    {
+      "name": "Punjab",
+      "id": "81a9a476-09e5-4c08-b75e-b0d01eab4a9e",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "5aa32dfd-bf0a-4ff2-b610-8c4c7ea2c68b"
+        },
+        {
+          "name": "Annexure",
+          "id": "c321fad7-0ea8-46ad-b6a0-de514defa54c"
+        },
+        {
+          "name": "Appendix",
+          "id": "29397a6e-b304-49d9-8669-64a1a54ab5f7"
+        },
+        {
+          "name": "Circular",
+          "id": "3e0cb5d9-c990-4a07-9025-9d5155d90b12"
+        },
+        {
+          "name": "Form",
+          "id": "92c57349-e4a8-4825-9579-b933194b839d"
+        },
+        {
+          "name": "Notification",
+          "id": "e44a5fd0-c3b5-4202-b2ee-d0743ab676ec"
+        },
+        {
+          "name": "Order",
+          "id": "82c40b59-4d95-45e3-b150-b8466882c974"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "dd3b7f54-675d-4497-b3b4-7335c21318fd"
+        },
+        {
+          "name": "Ordinance",
+          "id": "af61fa02-e761-49ed-ac6d-ae2f3a317e9c"
+        },
+        {
+          "name": "Preamble",
+          "id": "ca5d0aa7-ead9-46bd-bd08-d39b38fd3015"
+        },
+        {
+          "name": "Regulation",
+          "id": "7c3f570a-5ce5-4caf-9d0a-993b9ccebf2f"
+        },
+        {
+          "name": "Rule",
+          "id": "1f183339-5825-4aa3-b58f-40eb3b751217"
+        },
+        {
+          "name": "Schedule",
+          "id": "2ab8d297-40e8-4a7a-8b16-bc61ff9e4507"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "01afb46f-64de-4813-ba58-d2ddad77e0db"
+        },
+        {
+          "name": "Schordrule",
+          "id": "fb5febc3-d599-4181-be83-9466d1da311d"
+        },
+        {
+          "name": "Section",
+          "id": "3ba98df0-895e-4705-b297-f855b77bbb23"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "6a2dd049-908a-437c-bc8d-4929afecf40f"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "570a34d5-8400-4da9-a026-dfd2b12dfe98"
+        },
+        {
+          "name": "Statute",
+          "id": "024279f5-a1a3-4087-a2a7-fa2e399355c2"
+        }
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "id": "1ff54a39-9b71-49f0-baf8-8e76d5a879c0",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "0467f6df-ce14-4899-be3a-3e34af983728"
+        },
+        {
+          "name": "Annexure",
+          "id": "766c792a-d769-488e-a635-d7a87658d22a"
+        },
+        {
+          "name": "Appendix",
+          "id": "96d80278-631c-4699-a57e-46ee6545c209"
+        },
+        {
+          "name": "Circular",
+          "id": "0985caec-da22-40f1-95e2-05779dd85884"
+        },
+        {
+          "name": "Form",
+          "id": "a01c47d6-8a06-4f93-970c-3569a75f4f5d"
+        },
+        {
+          "name": "Notification",
+          "id": "64e94c7e-91f4-46c1-ac7f-27323b0b41fc"
+        },
+        {
+          "name": "Order",
+          "id": "dbc27a4a-47af-4728-b902-9fe43d2b33d4"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "d328203f-5dc8-4104-9e6d-8d02b9dff1f1"
+        },
+        {
+          "name": "Ordinance",
+          "id": "815b3c8b-9147-4e1d-82af-87eecef189f6"
+        },
+        {
+          "name": "Preamble",
+          "id": "3d4644b5-b492-4e33-a98e-366a38922d1e"
+        },
+        {
+          "name": "Regulation",
+          "id": "c24f5b51-ec02-4b23-9f81-32bac351d63b"
+        },
+        {
+          "name": "Rule",
+          "id": "00913c65-3fa7-46c5-a05f-90b28d2d2c59"
+        },
+        {
+          "name": "Schedule",
+          "id": "61c0e119-816f-4897-a843-4929745bd0e9"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "e70d533f-4d45-4ecd-8838-531e60879c9f"
+        },
+        {
+          "name": "Schordrule",
+          "id": "5bfede70-8697-4e70-b93d-d485e2fcaa09"
+        },
+        {
+          "name": "Section",
+          "id": "b4f14eea-717f-464c-bdee-7372c895ae43"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "b57c0161-033f-4392-bdc1-ea35cf930400"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "585e132f-edbe-46ab-b47e-885473a49bb9"
+        },
+        {
+          "name": "Statute",
+          "id": "fd002a9b-4a18-4d79-9b34-688f1d7194cb"
+        }
+      ]
+    },
+    {
+      "name": "Sikkim",
+      "id": "a3332b34-1b52-483d-87d1-22f810ca1a1e",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "f3278e66-0877-4994-9b40-85e707ef32d1"
+        },
+        {
+          "name": "Annexure",
+          "id": "7124dba6-acbc-45ea-87f0-d3437602cca1"
+        },
+        {
+          "name": "Appendix",
+          "id": "11f0a085-8f46-466f-a175-4293e6f34308"
+        },
+        {
+          "name": "Circular",
+          "id": "cf5dc607-8596-4d97-965e-ca7bfe3fcc1b"
+        },
+        {
+          "name": "Form",
+          "id": "98defd81-c3d6-498b-8db6-7fdb0f93584f"
+        },
+        {
+          "name": "Notification",
+          "id": "f2d3b409-93e0-472e-b517-625cc2417f67"
+        },
+        {
+          "name": "Order",
+          "id": "35c7617f-14a0-4f18-8ade-e749e5ff2f9c"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "707fd29f-ca58-43f3-9c26-4a734041c0f6"
+        },
+        {
+          "name": "Ordinance",
+          "id": "ba1667f2-1883-4ab9-ad15-a824d1fe16b8"
+        },
+        {
+          "name": "Preamble",
+          "id": "a874bfee-4cd7-43ff-bf6c-108567292ff8"
+        },
+        {
+          "name": "Regulation",
+          "id": "73b385ea-76b3-4335-9e5c-c7c17833a5ee"
+        },
+        {
+          "name": "Rule",
+          "id": "3372471e-935d-4f4b-92e2-77b73ca4456c"
+        },
+        {
+          "name": "Schedule",
+          "id": "6f90905a-df1c-4016-862e-36016ee6971e"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "5e703e84-667e-4a2b-9126-82f1dc59ad8e"
+        },
+        {
+          "name": "Schordrule",
+          "id": "4664d3e6-8417-4cc4-b1c3-eefd38017129"
+        },
+        {
+          "name": "Section",
+          "id": "bf2a5b3a-6e36-479a-ab43-72d2ff557a62"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "500a6ce3-6636-46eb-b151-0f4237b49fe1"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "3e36a085-6314-4175-b633-d5f2afc5a051"
+        },
+        {
+          "name": "Statute",
+          "id": "d91a0918-1964-4c29-a356-984a536e99c5"
+        }
+      ]
+    },
+    {
+      "name": "Tamil Nadu",
+      "id": "5192bc04-1a44-4a14-809e-d959d6f17413",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "07e8cfc0-8e72-4f42-bbac-5dd79d56e1aa"
+        },
+        {
+          "name": "Annexure",
+          "id": "5380d0c6-ec59-4aef-87ce-0063dc0f226d"
+        },
+        {
+          "name": "Appendix",
+          "id": "768d52d8-4960-4393-b531-f7e9889057ef"
+        },
+        {
+          "name": "Circular",
+          "id": "7be6e727-23d4-4d7a-98c5-050dee3ed362"
+        },
+        {
+          "name": "Form",
+          "id": "d61866ae-3783-42d0-9830-e03c59eae94c"
+        },
+        {
+          "name": "Notification",
+          "id": "f3d5c3f6-def5-4afe-a199-e4020192f08c"
+        },
+        {
+          "name": "Order",
+          "id": "29fea667-aa5c-4390-9c4a-829420c9ba5e"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "9d58b060-1325-49c8-9758-57e79dfb753e"
+        },
+        {
+          "name": "Ordinance",
+          "id": "1b50e093-e87e-4239-bae1-8672d94b7096"
+        },
+        {
+          "name": "Preamble",
+          "id": "054dcf06-7849-44b2-ab16-24bb7ae006e4"
+        },
+        {
+          "name": "Regulation",
+          "id": "bf43ae0c-0909-4514-9565-7e02f67f65d2"
+        },
+        {
+          "name": "Rule",
+          "id": "c6488fcb-50a3-47b3-9743-d4fc7529dc8e"
+        },
+        {
+          "name": "Schedule",
+          "id": "e9eb8bc9-3989-471d-8439-1e21640fa1d3"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "1ef17e71-ec50-49af-bdcd-700e34af40d3"
+        },
+        {
+          "name": "Schordrule",
+          "id": "f0c507f8-de7a-437b-82f1-9cfe60b75902"
+        },
+        {
+          "name": "Section",
+          "id": "f77ffc85-4c77-4bda-a76c-5f4254e60898"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "8d0ff6b9-e80c-472f-ba15-26dc36b6a977"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "e06295ad-4f92-4398-9eb7-61184da9ef2b"
+        },
+        {
+          "name": "Statute",
+          "id": "6426cc10-e878-4448-9eee-8103350ec9d6"
+        }
+      ]
+    },
+    {
+      "name": "Telangana",
+      "id": "63a13e3c-4624-41c4-b765-a3dc8cec7315",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "054717c0-5b42-4260-905b-1549c82885af"
+        },
+        {
+          "name": "Annexure",
+          "id": "0c41e7bb-b3ce-4b7a-bfd5-124dff2df22e"
+        },
+        {
+          "name": "Appendix",
+          "id": "cb72724b-a5fa-4cef-a683-5ac5d7a88f15"
+        },
+        {
+          "name": "Circular",
+          "id": "cb4eb865-9fd5-4d73-93e3-3fed940fdda7"
+        },
+        {
+          "name": "Form",
+          "id": "d86928d9-0b16-49f3-bd4d-8d3c77179192"
+        },
+        {
+          "name": "Notification",
+          "id": "96be2d76-3832-42de-926c-aeaf35c6755d"
+        },
+        {
+          "name": "Order",
+          "id": "62856151-3249-4cd1-a545-97a1e86dbf40"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "717065ce-e9f1-4d49-b700-edf341b680aa"
+        },
+        {
+          "name": "Ordinance",
+          "id": "4e51d9b9-554f-4597-b273-857a65f182ac"
+        },
+        {
+          "name": "Preamble",
+          "id": "438c8163-f950-4a42-b751-c4550118b2ad"
+        },
+        {
+          "name": "Regulation",
+          "id": "0688b6a8-89bd-4a6e-b7f2-9cc26c411215"
+        },
+        {
+          "name": "Rule",
+          "id": "7bbf6b34-8430-4e47-8d59-ba8e9295114a"
+        },
+        {
+          "name": "Schedule",
+          "id": "1b76e31d-9cda-4347-8944-d1bd88f4c12a"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "49f00553-93cc-46a4-b5c0-a4aad8d8127f"
+        },
+        {
+          "name": "Schordrule",
+          "id": "0562f42d-6903-4b51-8eff-ba2cc3941bff"
+        },
+        {
+          "name": "Section",
+          "id": "4f7016ce-af6d-46fa-8cad-ead6dd40e1bf"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "99e1358b-28f1-4934-a6ce-3fb95ac81f48"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "41c9b144-d808-4b14-b3a1-5ab9f1788728"
+        },
+        {
+          "name": "Statute",
+          "id": "503d6b20-13b9-4adb-ab43-7426084369c2"
+        }
+      ]
+    },
+    {
+      "name": "Tripura",
+      "id": "f4a6d3af-0395-4d1b-be4a-080a4112ce14",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "e3ccc3b5-59d8-484b-87c5-a0ba5a5f0293"
+        },
+        {
+          "name": "Annexure",
+          "id": "7bd4dd85-d2e0-43ac-89f9-dd09b40f9647"
+        },
+        {
+          "name": "Appendix",
+          "id": "be61e52b-bbfe-4bd4-922a-1cbfef7be6b1"
+        },
+        {
+          "name": "Circular",
+          "id": "0e80efef-7b75-42cc-ad54-d2f8b51daf55"
+        },
+        {
+          "name": "Form",
+          "id": "7e9b0dcf-6abd-4322-91c7-97b17f8ecba9"
+        },
+        {
+          "name": "Notification",
+          "id": "c4d88975-134c-4eed-babb-3012934b0baa"
+        },
+        {
+          "name": "Order",
+          "id": "146355ab-16d2-4f86-a444-9a07c23a550b"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "3085cf68-afe4-437d-b457-b82499124736"
+        },
+        {
+          "name": "Ordinance",
+          "id": "6fb997a4-ad96-4c56-a619-5ed3eb2c58e1"
+        },
+        {
+          "name": "Preamble",
+          "id": "331df4a8-ec85-4662-a736-f1391ea1494f"
+        },
+        {
+          "name": "Regulation",
+          "id": "54dae189-f86d-49ef-acbd-8388e48e1ff9"
+        },
+        {
+          "name": "Rule",
+          "id": "fefaeef7-f679-4ae6-9abe-cf860d882b40"
+        },
+        {
+          "name": "Schedule",
+          "id": "3f219be9-9936-4d98-a188-89ba4858f8d3"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "3ffa2ea9-0713-4c23-866a-c8068671f42e"
+        },
+        {
+          "name": "Schordrule",
+          "id": "7344268d-800c-461b-bbea-07f1a3d9a533"
+        },
+        {
+          "name": "Section",
+          "id": "60c623e0-2500-43e5-b9ae-6327a41924e9"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "c88f04c4-f9be-44c5-ac5c-0ec4ee115bb0"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "0f12a0a5-09fe-477c-b38d-a525688e8aa3"
+        },
+        {
+          "name": "Statute",
+          "id": "812795d6-ff9f-4fb5-a00a-416300ef94ca"
+        }
+      ]
+    },
+    {
+      "name": "Uttarakhand",
+      "id": "2a81358e-e2dd-4648-a7ac-f7f4b4c1f4f8",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "49260583-8718-46b3-a602-578081256c3e"
+        },
+        {
+          "name": "Annexure",
+          "id": "f64a42dc-9bd6-4133-884e-98cf8cf4f0d1"
+        },
+        {
+          "name": "Appendix",
+          "id": "edc9909a-4a3c-4c76-a506-d195f42e98f8"
+        },
+        {
+          "name": "Circular",
+          "id": "b183f644-2600-4be1-be3d-7191285f66a0"
+        },
+        {
+          "name": "Form",
+          "id": "169aeb4b-f384-4f66-a30f-64e28ce9088f"
+        },
+        {
+          "name": "Notification",
+          "id": "f55e7136-2b48-40ac-9711-b0cc0dd3581b"
+        },
+        {
+          "name": "Order",
+          "id": "567cf0c5-9b39-4580-8f0d-969a70c01d84"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "edb2f7a8-1a80-4833-946a-62add797170b"
+        },
+        {
+          "name": "Ordinance",
+          "id": "d23be860-9c69-432e-b4d9-d40d305f9fe4"
+        },
+        {
+          "name": "Preamble",
+          "id": "f8df6957-2dc1-40a8-9c3a-118dcf5cf0dc"
+        },
+        {
+          "name": "Regulation",
+          "id": "34e47571-e9e6-4d3a-85fa-8bbbc9e1d2b3"
+        },
+        {
+          "name": "Rule",
+          "id": "3dd5fa44-0c6d-4787-9c51-6b1d6383b42b"
+        },
+        {
+          "name": "Schedule",
+          "id": "7bf763dc-ede0-4ef8-afb5-8e49ac1e1e47"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "7ea0bec6-1fa4-45f2-b71b-cf18beb92183"
+        },
+        {
+          "name": "Schordrule",
+          "id": "18123ca7-3229-4c21-8939-8ebb2deba5c5"
+        },
+        {
+          "name": "Section",
+          "id": "76206ddd-7fb5-4819-9703-e74c0723c349"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "92573ea7-3506-40cd-a393-b241b0115701"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "9857cacf-8669-42cd-9615-d63986deac8f"
+        },
+        {
+          "name": "Statute",
+          "id": "1254fcb7-03ce-4fe9-84a2-90e241a21b40"
+        }
+      ]
+    },
+    {
+      "name": "Uttar Pradesh",
+      "id": "6135e1cc-c0fa-46c4-a7f8-e76901f33e1e",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "2f024a57-64fd-40c0-b2d0-ec0fa87200d1"
+        },
+        {
+          "name": "Annexure",
+          "id": "4a93d108-0561-4354-9d28-389d9452ea64"
+        },
+        {
+          "name": "Appendix",
+          "id": "250d5f90-147c-4098-a100-88ab8a483630"
+        },
+        {
+          "name": "Circular",
+          "id": "f1034c27-012e-4171-a4fc-1accc598a549"
+        },
+        {
+          "name": "Form",
+          "id": "aea18ba0-43af-4d67-81f8-4e43a397a6cb"
+        },
+        {
+          "name": "Notification",
+          "id": "35d11c2c-d7d0-419b-a5a9-27cfddab7f53"
+        },
+        {
+          "name": "Order",
+          "id": "ac7d62b6-d048-4b22-8701-6f2cc8ac95c4"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "f0c108d0-dfe1-461e-bbb1-584c4e70c119"
+        },
+        {
+          "name": "Ordinance",
+          "id": "caa07d14-9bdb-4580-bb26-a3d84909a32d"
+        },
+        {
+          "name": "Preamble",
+          "id": "f022863b-ea58-4ee5-b9e6-b53f37f2d780"
+        },
+        {
+          "name": "Regulation",
+          "id": "8baa3e7f-3fe7-49e3-bcc1-03ec7a71faf3"
+        },
+        {
+          "name": "Rule",
+          "id": "37b84e29-5670-46ea-8944-ab61b98a1d58"
+        },
+        {
+          "name": "Schedule",
+          "id": "01f97a15-fe6e-46cc-94a0-02303278084c"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "6c717219-0ffb-4f4c-bb58-cbe7ab259c6f"
+        },
+        {
+          "name": "Schordrule",
+          "id": "ecb28e73-f430-436f-932b-bf7a801ec67d"
+        },
+        {
+          "name": "Section",
+          "id": "194645aa-5197-4dd9-aa55-e8933de97dc0"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "10f30557-59c5-44b5-824e-61234da90284"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "f6dfb552-3c71-460f-b7de-dd0eb230748c"
+        },
+        {
+          "name": "Statute",
+          "id": "80089f79-feb6-42ef-8ac3-a3d6e3353d36"
+        }
+      ]
+    },
+    {
+      "name": "West Bengal",
+      "id": "e0dab548-10ed-4f21-8b7a-2cd5a2edbbbc",
+      "collections": [
+        {
+          "name": "Acts",
+          "id": "b3859ed1-00f9-4a80-9c81-950b7402a953"
+        },
+        {
+          "name": "Annexure",
+          "id": "db7be5c7-477f-4c3f-b786-db86cc179c14"
+        },
+        {
+          "name": "Appendix",
+          "id": "0f15d136-3f06-4b57-8c63-4c453dd62e82"
+        },
+        {
+          "name": "Circular",
+          "id": "ee3c3785-f4e3-4350-b4e6-fbc0333f367e"
+        },
+        {
+          "name": "Form",
+          "id": "3cec2612-6391-45cb-87b9-95fdf2a82686"
+        },
+        {
+          "name": "Notification",
+          "id": "6e0bff3b-13a6-4f35-a3f7-7e4831231c74"
+        },
+        {
+          "name": "Order",
+          "id": "000de901-6ab8-4558-bbee-61d934c1f799"
+        },
+        {
+          "name": "Order Footnote",
+          "id": "3d11c3db-93de-4277-a767-232a203e95c7"
+        },
+        {
+          "name": "Ordinance",
+          "id": "85d5a50c-26f8-4211-bee7-377a2927f2af"
+        },
+        {
+          "name": "Preamble",
+          "id": "e897b177-0df3-4ceb-a3bb-fe124b05cbda"
+        },
+        {
+          "name": "Regulation",
+          "id": "7cfbddda-ac32-4fc4-8223-7e58b733a58e"
+        },
+        {
+          "name": "Rule",
+          "id": "e48fc45f-0cb7-4b4c-b784-a47138709992"
+        },
+        {
+          "name": "Schedule",
+          "id": "83c109d0-c6e6-48db-8172-4655bb5ec04c"
+        },
+        {
+          "name": "Schedule Order",
+          "id": "e814ca09-a8dd-4a7c-bfaf-2fe51f1322f5"
+        },
+        {
+          "name": "Schordrule",
+          "id": "597b3f82-2ab7-47c9-bd77-c01989493680"
+        },
+        {
+          "name": "Section",
+          "id": "9521f3e9-ad5b-4726-bdc7-cdd7c5f726e2"
+        },
+        {
+          "name": "Section Link Detail",
+          "id": "be607d8b-cb9e-410c-adba-10ebcc79aa20"
+        },
+        {
+          "name": "Section Page Note",
+          "id": "ec5a431b-80d4-4d44-a939-615ea4725d64"
+        },
+        {
+          "name": "Statute",
+          "id": "0e055a3e-b8bf-423e-8318-9754c6bd3575"
+        }
+      ]
+    }
+  ]
+}

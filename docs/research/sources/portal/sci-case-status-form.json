@@ -1,0 +1,530 @@
+{
+ "url": "https://www.sci.gov.in/case-status-case-no/",
+ "title": "Case Number | Supreme Court of India | India",
+ "fields": [
+  {
+   "tag": "input",
+   "type": "search",
+   "name": "s",
+   "id": "search",
+   "label": ""
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "case_type",
+   "id": "case_type",
+   "label": "Select case type *",
+   "required": true,
+   "options": [
+    [
+     "",
+     "--Select--"
+    ],
+    [
+     "1",
+     "SPECIAL LEAVE PETITION (CIVIL)"
+    ],
+    [
+     "2",
+     "SPECIAL LEAVE PETITION (CRIMINAL)"
+    ],
+    [
+     "3",
+     "CIVIL APPEAL"
+    ],
+    [
+     "4",
+     "CRIMINAL APPEAL"
+    ],
+    [
+     "5",
+     "WRIT PETITION (CIVIL)"
+    ],
+    [
+     "6",
+     "WRIT PETITION(CRIMINAL)"
+    ],
+    [
+     "7",
+     "TRANSFER PETITION (CIVIL)"
+    ],
+    [
+     "8",
+     "TRANSFER PETITION (CRIMINAL)"
+    ],
+    [
+     "9",
+     "REVIEW PETITION (CIVIL)"
+    ],
+    [
+     "10",
+     "REVIEW PETITION (CRIMINAL)"
+    ],
+    [
+     "11",
+     "TRANSFERRED CASE (CIVIL)"
+    ],
+    [
+     "12",
+     "TRANSFERRED CASE (CRIMINAL)"
+    ],
+    [
+     "13",
+     "SPECIAL LEAVE TO PETITION (CIVIL)..."
+    ],
+    [
+     "14",
+     "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+    ],
+    [
+     "15",
+     "WRIT TO PETITION (CIVIL)..."
+    ],
+    [
+     "16",
+     "WRIT TO PETITION (CRIMINAL)..."
+    ],
+    [
+     "17",
+     "ORIGINAL SUIT"
+    ],
+    [
+     "18",
+     "DEATH REFERENCE CASE"
+    ],
+    [
+     "19",
+     "CONTEMPT PETITION (CIVIL)"
+    ],
+    [
+     "20",
+     "CONTEMPT PETITION (CRIMINAL)"
+    ],
+    [
+     "21",
+     "TAX REFERENCE CASE"
+    ],
+    [
+     "22",
+     "SPECIAL REFERENCE CASE"
+    ],
+    [
+     "23",
+     "ELECTION PETITION (CIVIL)"
+    ],
+    [
+     "24",
+     "ARBITRATION PETITION"
+    ],
+    [
+     "25",
+     "CURATIVE PETITION(CIVIL)"
+    ],
+    [
+     "26",
+     "CURATIVE PETITION(CRL)"
+    ],
+    [
+     "27",
+     "REF. U/A 317(1)"
+    ],
+    [
+     "28",
+     "MOTION(CRL)"
+    ],
+    [
+     "31",
+     "DIARYNO AND DIARYYR"
+    ],
+    [
+     "32",
+     "SUO MOTO WRIT PETITION(CIVIL)"
+    ],
+    [
+     "33",
+     "SUO MOTO WRIT PETITION(CRIMINAL)"
+    ],
+    [
+     "34",
+     "SUO MOTO CONTEMPT PETITION(CIVIL)"
+    ],
+    [
+     "35",
+     "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+    ],
+    [
+     "37",
+     "REF. U/S 14 RTI"
+    ],
+    [
+     "38",
+     "REF. U/S 17 RTI"
+    ],
+    [
+     "39",
+     "MISCELLANEOUS APPLICATION"
+    ],
+    [
+     "40",
+     "SUO MOTO TRANSFER PETITION(CIVIL)"
+    ],
+    [
+     "41",
+     "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+    ],
+    [
+     "9999",
+     "Unknown"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "case_no",
+   "id": "case_no",
+   "label": "Case Number *",
+   "required": true
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "year",
+   "id": "year",
+   "label": "Case Year *",
+   "required": true,
+   "options": [
+    [
+     "2026",
+     "2026"
+    ],
+    [
+     "2025",
+     "2025"
+    ],
+    [
+     "2024",
+     "2024"
+    ],
+    [
+     "2023",
+     "2023"
+    ],
+    [
+     "2022",
+     "2022"
+    ],
+    [
+     "2021",
+     "2021"
+    ],
+    [
+     "2020",
+     "2020"
+    ],
+    [
+     "2019",
+     "2019"
+    ],
+    [
+     "2018",
+     "2018"
+    ],
+    [
+     "2017",
+     "2017"
+    ],
+    [
+     "2016",
+     "2016"
+    ],
+    [
+     "2015",
+     "2015"
+    ],
+    [
+     "2014",
+     "2014"
+    ],
+    [
+     "2013",
+     "2013"
+    ],
+    [
+     "2012",
+     "2012"
+    ],
+    [
+     "2011",
+     "2011"
+    ],
+    [
+     "2010",
+     "2010"
+    ],
+    [
+     "2009",
+     "2009"
+    ],
+    [
+     "2008",
+     "2008"
+    ],
+    [
+     "2007",
+     "2007"
+    ],
+    [
+     "2006",
+     "2006"
+    ],
+    [
+     "2005",
+     "2005"
+    ],
+    [
+     "2004",
+     "2004"
+    ],
+    [
+     "2003",
+     "2003"
+    ],
+    [
+     "2002",
+     "2002"
+    ],
+    [
+     "2001",
+     "2001"
+    ],
+    [
+     "2000",
+     "2000"
+    ],
+    [
+     "1999",
+     "1999"
+    ],
+    [
+     "1998",
+     "1998"
+    ],
+    [
+     "1997",
+     "1997"
+    ],
+    [
+     "1996",
+     "1996"
+    ],
+    [
+     "1995",
+     "1995"
+    ],
+    [
+     "1994",
+     "1994"
+    ],
+    [
+     "1993",
+     "1993"
+    ],
+    [
+     "1992",
+     "1992"
+    ],
+    [
+     "1991",
+     "1991"
+    ],
+    [
+     "1990",
+     "1990"
+    ],
+    [
+     "1989",
+     "1989"
+    ],
+    [
+     "1988",
+     "1988"
+    ],
+    [
+     "1987",
+     "1987"
+    ],
+    [
+     "1986",
+     "1986"
+    ],
+    [
+     "1985",
+     "1985"
+    ],
+    [
+     "1984",
+     "1984"
+    ],
+    [
+     "1983",
+     "1983"
+    ],
+    [
+     "1982",
+     "1982"
+    ],
+    [
+     "1981",
+     "1981"
+    ],
+    [
+     "1980",
+     "1980"
+    ],
+    [
+     "1979",
+     "1979"
+    ],
+    [
+     "1978",
+     "1978"
+    ],
+    [
+     "1977",
+     "1977"
+    ],
+    [
+     "1976",
+     "1976"
+    ],
+    [
+     "1975",
+     "1975"
+    ],
+    [
+     "1974",
+     "1974"
+    ],
+    [
+     "1973",
+     "1973"
+    ],
+    [
+     "1972",
+     "1972"
+    ],
+    [
+     "1971",
+     "1971"
+    ],
+    [
+     "1970",
+     "1970"
+    ],
+    [
+     "1969",
+     "1969"
+    ],
+    [
+     "1968",
+     "1968"
+    ],
+    [
+     "1967",
+     "1967"
+    ],
+    [
+     "1966",
+     "1966"
+    ],
+    [
+     "1965",
+     "1965"
+    ],
+    [
+     "1964",
+     "1964"
+    ],
+    [
+     "1963",
+     "1963"
+    ],
+    [
+     "1962",
+     "1962"
+    ],
+    [
+     "1961",
+     "1961"
+    ],
+    [
+     "1960",
+     "1960"
+    ],
+    [
+     "1959",
+     "1959"
+    ],
+    [
+     "1958",
+     "1958"
+    ],
+    [
+     "1957",
+     "1957"
+    ],
+    [
+     "1956",
+     "1956"
+    ],
+    [
+     "1955",
+     "1955"
+    ],
+    [
+     "1954",
+     "1954"
+    ],
+    [
+     "1953",
+     "1953"
+    ],
+    [
+     "1952",
+     "1952"
+    ],
+    [
+     "1951",
+     "1951"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "siwp_captcha_value",
+   "id": "siwp_captcha_value_0",
+   "label": "Please enter the answer to the given CAPTCHA question? *",
+   "maxlength": 8
+  },
+  {
+   "tag": "input",
+   "type": "submit",
+   "name": "submit",
+   "id": "",
+   "label": ""
+  },
+  {
+   "tag": "input",
+   "type": "reset",
+   "name": "",
+   "id": "",
+   "label": ""
+  }
+ ],
+ "tables": [],
+ "text": "SKIP TO MAIN CONTENT\nभारत का सर्वोच्च न्यायालय\nSUPREME COURT OF INDIA\nभारत का सर्वोच्च न्यायालय\nSupreme Court of India\n|| यतो धर्मस्ततो जय: ||\nHome\nAbout Us\nJudges\nCollegium Resolutions\nServices\ne-Services\nAdvocates\nHome\nServices\nCase Number\nCase Number\n Diary Number  Case Number  CNR Number  AOR Code  Party Name  Court\n\nAll fields marked with * are required\n\nSelect case type *\n--Select--\nSPECIAL LEAVE PETITION (CIVIL)\nSPECIAL LEAVE PETITION (CRIMINAL)\nCIVIL APPEAL\nCRIMINAL APPEAL\nWRIT PETITION (CIVIL)\nWRIT PETITION(CRIMINAL)\nTRANSFER PETITION (CIVIL)\nTRANSFER PETITION (CRIMINAL)\nREVIEW PETITION (CIVIL)\nREVIEW PETITION (CRIMINAL)\nTRANSFERRED CASE (CIVIL)\nTRANSFERRED CASE (CRIMINAL)\nSPECIAL LEAVE TO PETITION (CIVIL)...\nSPECIAL LEAVE TO PETITION (CRIMINAL)...\nWRIT TO PETITION (CIVIL)...\nWRIT TO PETITION (CRIMINAL)...\nORIGINAL SUIT\nDEATH REFERENCE CASE\nCONTEMPT PETITION (CIVIL)\nCONTEMPT PETITION (CRIMINAL)\nTAX REFERENCE CASE\nSPECIAL REFERENCE CASE\nELECTION PETITION (CIVIL)\nARBITRATION PETITION\nCURATIVE PETITION(CIVIL)\nCURATIVE PETITION(CRL)\nREF. U/A 317(1)\nMOTION(CRL)\nDIARYNO AND DIARYYR\nSUO MOTO WRIT PETITION(CIVIL)\nSUO MOTO WRIT PETITION(CRIMINAL)\nSUO MOTO CONTEMPT PETITION(CIVIL)\nSUO MOTO CONTEMPT PETITION(CRIMINAL)\nREF. U/S 14 RTI\nREF. U/S 17 RTI\nMISCELLANEOUS APPLICATION\nSUO MOTO TRANSFER PETITION(CIVIL)\nSUO MOTO TRANSFER PETITION(CRIMINAL)\nUnknown\n--Select--\nCase Number *\nCase Year *\n2026\n2025\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\n2010\n2009\n2008\n2007\n2006\n2005\n2004\n2003\n2002\n2001\n2000\n1999\n1998\n1997\n1996\n1995\n1994\n1993\n1992\n1991\n1990\n1989\n1988\n1987\n1986\n1985\n1984\n1983\n1982\n1981\n1980\n1979\n1978\n1977\n1976\n1975\n1974\n1973\n1972\n1971\n1970\n1969\n1968\n1967\n1966\n1965\n1964\n1963\n1962\n1961\n1960\n1959\n1958\n1957\n1956\n1955\n1954\n1953\n1952\n1951\n2026\nPlease enter the answer to the given CAPTCHA question? *\n \n\n\n\n\n\nAccessibility\nCitizen's Charter\nGuided Tour\nFAQs\nWebcast\nIndia Code\nPay Scales\nTelephone Directory\nArgument Transcripts\nAccounts\nSteps taken during COVID-19\nEmployee Corner\nOfficers Servant Rules\nImportant Links\nOfficers / Officials\nDownload App From\n\nWebsite Policies Contact Us Help Disclaimer Web Information Manager Web Technical Manager\n\nContent Owned by Supreme Court Of India ,\n\nDeveloped and hosted by National Informatics Centre,\nMinistry of Electronics & Information Technology, Government of India\n\nLast Updated: Oct 31, 2026\n\n   ",
+ "retrieved": "2026-11-01T15:40:59.553Z"
+}

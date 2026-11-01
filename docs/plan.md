@@ -4,7 +4,7 @@ Scaffold first: the standard, the core and a GUI test harness exist before any f
 
 ## Phase 0. Standard, core, scaffold
 
-- ILO JSON Schema and ontology. Types generated from the schema, with a CI check that they are current.
+- ULOS JSON Schema and ontology. Types generated from the schema, with a CI check that they are current.
 - Ledger that validates every event against the schema and enforces write ownership.
 - Hashing, receipts, citation grammar and the Jev/Clef port, all isomorphic (same code in the GUI and the CLI).
 - Workspace GUI shell with panels and a Playwright test. CI on Windows and Linux.

@@ -16,5 +16,5 @@ export type PleadingContext = {
   condonationSought: boolean;
   receiptSigned: boolean;
   aiDisclosure: boolean;
-  registry?: { defects: Defect[] } | { diary: string };
+  registry?: { defects: Defect[] } | { diary: { number: number; year: number }; cnr: string };
 };

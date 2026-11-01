@@ -1,4 +1,4 @@
-import type { Score } from './ilo.gen.ts';
+import type { Score } from './ulos.gen.ts';
 
 // The Jev/Clef port. A decision model answers a yes/no question about a state with a probability.
 // Its score is a second, independent opinion recorded next to deterministic checks; it never decides alone.

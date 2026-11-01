@@ -3,7 +3,11 @@ import { matterContext } from '@vakilbench/matter';
 import { checkDefects, currentState } from '@vakilbench/pleading';
 
 export type Filing = { events: readonly LedgerEvent[]; receipt: SignedReceipt; document: Uint8Array };
-export type RegistryResult = { diary: string } | { defects: Defect[] };
+export type Diary = { number: number; year: number };
+export type RegistryResult = { diary: Diary; cnr: string } | { defects: Defect[] };
+
+// Shaped like sci.gov.in: CNR SCIN010692861986 is diary 69286/1986 (research C6 §1e).
+export const sciCnr = ({ number, year }: Diary): string => `SCIN01${String(number).padStart(6, '0')}${year}`;
 
 // Advocates-on-Record enrol their signing key once, out of band. A receipt signed by any other
 // key is refused, however well formed.
@@ -33,5 +37,6 @@ export function fileSLP(filing: Filing, today: IsoDate): RegistryResult {
 
   const defects = checkDefects(matterContext(signed, { today, receiptSigned: true }));
   if (defects.length > 0) return { defects };
-  return { diary: `D-${today.slice(0, 4)}-${receipt.receipt.document.slice(0, 6)}` };
+  const diary = { number: (parseInt(receipt.receipt.document.slice(0, 5), 16) % 999_999) + 1, year: Number(today.slice(0, 4)) };
+  return { diary, cnr: sciCnr(diary) };
 }

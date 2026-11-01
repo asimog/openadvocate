@@ -1,0 +1,3931 @@
+{
+ "Case Number": {
+  "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+  "tables": [],
+  "selects": [
+   {
+    "name": "sess_state_code",
+    "options": [
+     [
+      "0",
+      "Select Highcourt"
+     ],
+     [
+      "13",
+      "Allahabad High Court"
+     ],
+     [
+      "1",
+      "Bombay High Court"
+     ],
+     [
+      "16",
+      "Calcutta High Court"
+     ],
+     [
+      "6",
+      "Gauhati High Court"
+     ],
+     [
+      "29",
+      "High Court for State of Telangana"
+     ],
+     [
+      "2",
+      "High Court of Andhra Pradesh"
+     ],
+     [
+      "18",
+      "High Court of Chhattisgarh"
+     ],
+     [
+      "26",
+      "High Court of Delhi"
+     ],
+     [
+      "17",
+      "High Court of Gujarat"
+     ],
+     [
+      "5",
+      "High Court of Himachal Pradesh"
+     ],
+     [
+      "12",
+      "High Court of Jammu and Kashmir and Ladakh"
+     ],
+     [
+      "7",
+      "High Court of Jharkhand"
+     ],
+     [
+      "3",
+      "High Court of Karnataka"
+     ],
+     [
+      "4",
+      "High Court of Kerala"
+     ],
+     [
+      "23",
+      "High Court of Madhya Pradesh"
+     ],
+     [
+      "25",
+      "High Court of Manipur"
+     ],
+     [
+      "21",
+      "High Court of Meghalaya"
+     ],
+     [
+      "11",
+      "High Court of Orissa"
+     ],
+     [
+      "22",
+      "High Court of Punjab and Haryana"
+     ],
+     [
+      "9",
+      "High Court of Rajasthan"
+     ],
+     [
+      "24",
+      "High Court of Sikkim"
+     ],
+     [
+      "20",
+      "High Court of Tripura"
+     ],
+     [
+      "15",
+      "High Court of Uttarakhand"
+     ],
+     [
+      "10",
+      "Madras High Court"
+     ],
+     [
+      "8",
+      "Patna High Court"
+     ]
+    ]
+   },
+   {
+    "name": "court_complex_code",
+    "options": [
+     [
+      "0",
+      "Select Bench"
+     ],
+     [
+      "1",
+      "Principal Bench at Delhi"
+     ]
+    ]
+   },
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "0",
+      "Select case type"
+     ],
+     [
+      "83",
+      "ARB.A.(ARBITRATION APPEAL)-83"
+     ],
+     [
+      "102",
+      "ARB. A. (COMM.)(COMMERCIAL ARBITRATION U/S 37(2))-102"
+     ],
+     [
+      "40",
+      "ARB.P.(ARBITRATION APPL.)-40"
+     ],
+     [
+      "8",
+      "BAIL APPLN.(BAIL APPLICATION)-8"
+     ],
+     [
+      "2",
+      "CA(CAVEAT)-2"
+     ],
+     [
+      "161",
+      "CA (COMM.IPD-CR)(CA (COMM.IPD-CR))-161"
+     ],
+     [
+      "162",
+      "C.A.(COMM.IPD-GI)(C.A.(COMM.IPD-GI))-162"
+     ],
+     [
+      "159",
+      "C.A.(COMM.IPD-PAT)(C.A.(COMM.IPD-PAT))-159"
+     ],
+     [
+      "166",
+      "C.A.(COMM.IPD-PV)(C.A.(COMM.IPD-PV))-166"
+     ],
+     [
+      "160",
+      "C.A.(COMM.IPD-TM)(C.A.(COMM.IPD-TM))-160"
+     ],
+     [
+      "21",
+      "CAVEAT(CO.)(CAVEAT(CO.))-21"
+     ],
+     [
+      "61",
+      "CC(ARB.)(CIVIL CONTEMPT REFERENCE (ARBITRATION))-61"
+     ],
+     [
+      "59",
+      "CCP(CO.)(CIVIL CONTEMPT PET.)-59"
+     ],
+     [
+      "11",
+      "CCP(REF)(CCP(REF))-11"
+     ],
+     [
+      "117",
+      "CEAC(C. EXCISE ACT CASE)-117"
+     ],
+     [
+      "37",
+      "CEAR(C. EXCISE ACT REF.)-37"
+     ],
+     [
+      "94",
+      "CHAT.A.C.(CHARTED ACC. CASES)-94"
+     ],
+     [
+      "113",
+      "CHAT.A.REF(CHARTED ACC. REF.)-113"
+     ],
+     [
+      "79",
+      "CMI(CMI)-79"
+     ],
+     [
+      "70",
+      "CM(M)(CIVIL MISC(MAIN))-70"
+     ],
+     [
+      "152",
+      "CM(M)-IPD(CM(M)-IPD)-152"
+     ],
+     [
+      "55",
+      "C.O.(CIVIL ORIGINAL)-55"
+     ],
+     [
+      "75",
+      "CO.APP.(COMPANY APPEAL)-75"
+     ],
+     [
+      "88",
+      "CO.APPL.(C)(CO.APPL.(C))-88"
+     ],
+     [
+      "20",
+      "CO.APPL.(M)(CO.APPL.(M))-20"
+     ],
+     [
+      "78",
+      "CO.A(SB)(APPEALS UNDER 10F OF THE COMPANIES ACT A)-78"
+     ],
+     [
+      "165",
+      "C.O.(COMM.IPD-CR)(C.O.(COMM.IPD-CR))-165"
+     ],
+     [
+      "163",
+      "C.O.(COMM.IPD-GI)(C.O.(COMM.IPD-GI))-163"
+     ],
+     [
+      "164",
+      "C.O.(COMM.IPD-PAT)(C.O.(COMM.IPD-PAT))-164"
+     ],
+     [
+      "158",
+      "C.O. (COMM.IPD-TM)(C.O. (COMM.IPD-TM))-158"
+     ],
+     [
+      "133",
+      "CO.EX.(COMPANY EXEC. APPEAL)-133"
+     ],
+     [
+      "95",
+      "CONT.APP.(C)(CIV. CONTEMPT APPEAL)-95"
+     ],
+     [
+      "127",
+      "CONT.CAS(C)(CIV. CONTEMPT PET.)-127"
+     ],
+     [
+      "119",
+      "CONT.CAS.(CRL)(CRIMINAL CONTEMPT)-119"
+     ],
+     [
+      "43",
+      "CO.PET.(COMPANY PETITION)-43"
+     ],
+     [
+      "16",
+      "CO.SEC.REF(COMPANY SECRETARY REFERENCE)-16"
+     ],
+     [
+      "168",
+      "C.REF.(CIVIL REFERENCE)-168"
+     ],
+     [
+      "85",
+      "C.REF.(O)(CIVIL REFERENCE (O))-85"
+     ],
+     [
+      "92",
+      "CRL.A.(CRIMINAL APPEAL)-92"
+     ],
+     [
+      "36",
+      "CRL.C.REF.(CRL. CONTEMPT REF.)-36"
+     ],
+     [
+      "97",
+      "CRL.L.P.(CRIMINAL MISC.APPL.)-97"
+     ],
+     [
+      "28",
+      "CRL.M.C.(CRIMINAL MISC(MAIN))-28"
+     ],
+     [
+      "77",
+      "CRL.M.(CO.)(CRIMINAL MISC.(COMPANY SIDE))-77"
+     ],
+     [
+      "12",
+      "CRL.M.I.(CRL.M.I.)-12"
+     ],
+     [
+      "10",
+      "CRL.O.(CRIMINAL ORIGINAL)-10"
+     ],
+     [
+      "108",
+      "CRL.O.(CO.)(CRIMINAL ORIGINAL(COMPANY SIDE))-108"
+     ],
+     [
+      "115",
+      "CRL.REF.(CRL. REF.)-115"
+     ],
+     [
+      "105",
+      "CRL.REV.P.(CRIMINAL REVISION)-105"
+     ],
+     [
+      "171",
+      "CRL.REV.P.(MAT.)(CRIMINAL REVISION OF MATRIMONIAL MATTERS)-171"
+     ],
+     [
+      "170",
+      "CRL.REV.P.(NDPS)(CRIMINAL REVISION FOR NDPS ACT)-170"
+     ],
+     [
+      "169",
+      "CRL.REV.P.(NI)(CRIMINAL REVISION FOR NI ACT)-169"
+     ],
+     [
+      "68",
+      "C.R.P.(CIVIL REVISION)-68"
+     ],
+     [
+      "150",
+      "CRP-IPD(CRP-IPD)-150"
+     ],
+     [
+      "42",
+      "C.RULE(CIVIL RULE(ORIGINAL SIDE))-42"
+     ],
+     [
+      "51",
+      "CS(COMM)(CIVIL SUIT COMMERCIAL)-51"
+     ],
+     [
+      "138",
+      "CS(COMM) INFRA(CS(COMM) INFRA)-138"
+     ],
+     [
+      "122",
+      "CS(OS)(CIVIL SUIT)-122"
+     ],
+     [
+      "19",
+      "CS(OS) GP(SUIT FOR GUARDIAN SHIP ACT)-19"
+     ],
+     [
+      "137",
+      "CS(OS) INFRA(CS(OS) INFRA)-137"
+     ],
+     [
+      "15",
+      "CUSAA(CUSTOM ACT APPEAL)-15"
+     ],
+     [
+      "116",
+      "CUS.A.C.(CUSTOM ACT CASES)-116"
+     ],
+     [
+      "96",
+      "CUS.A.R.(CUSTOM ACT REF.)-96"
+     ],
+     [
+      "86",
+      "CUSTOM A.(CUSTOM.A)-86"
+     ],
+     [
+      "104",
+      "DEATH SENTENCE REF.(MURDER REFENCE)-104"
+     ],
+     [
+      "32",
+      "EDR(ESTATE DUTY REF.)-32"
+     ],
+     [
+      "144",
+      "EFA(COMM)(APPEAL FROM ORDER OF EXECUTION PASSED BY COMMERCIAL COURT ADJ 144)-144"
+     ],
+     [
+      "73",
+      "EFA(OS)(EX. Ist APP.(OS))-73"
+     ],
+     [
+      "62",
+      "EFA(OS) (COMM)(EXECUTION FIRST APPEALS COMMERCIAL)-62"
+     ],
+     [
+      "151",
+      "EFA(OS)-IPD(EFA(OS)-IPD)-151"
+     ],
+     [
+      "154",
+      "EFA(OS)(IPD)(EFA(OS)(IPD))-154"
+     ],
+     [
+      "3",
+      "EL.PET.(ELECTION PETITION)-3"
+     ],
+     [
+      "114",
+      "ETR(EXPEND. TAX REF.)-114"
+     ],
+     [
+      "90",
+      "EX.F.A.(EXECUTION Ist APPEAL)-90"
+     ],
+     [
+      "56",
+      "EX.P.(EXECUTION PETITION)-56"
+     ],
+     [
+      "91",
+      "EX.S.A.(EXECUTION IInd APP.)-91"
+     ],
+     [
+      "24",
+      "FAO(FIRST APP.FROM ORDER)-24"
+     ],
+     [
+      "142",
+      "FAO (COMM)(COMMERCIAL APPELLATE)-142"
+     ],
+     [
+      "148",
+      "FAO-IPD(FAO-IPD)-148"
+     ],
+     [
+      "112",
+      "FAO(OS)(Ist APP. FR.ORDER OS)-112"
+     ],
+     [
+      "67",
+      "FAO(OS) (COMM)(FIRST APPEAL FROM ORDERS COMMERCIAL)-67"
+     ],
+     [
+      "153",
+      "FAO(OS)-IPD(FAO(OS)-IPD)-153"
+     ],
+     [
+      "157",
+      "FAO(OS)(IPD)(FAO(OS)(IPD))-157"
+     ],
+     [
+      "128",
+      "GCAC(GOLD CONT.ACT CASE)-128"
+     ],
+     [
+      "118",
+      "GCAR(GOLD CONT.ACT REF.)-118"
+     ],
+     [
+      "131",
+      "GTA(GIFT TAX APPEALS)-131"
+     ],
+     [
+      "93",
+      "GTC(GIFT TAX CASES)-93"
+     ],
+     [
+      "74",
+      "GTR(GIFT TAX REF.)-74"
+     ],
+     [
+      "54",
+      "I.P.A.(INDIGENT PERSON APPLICATION)-54"
+     ],
+     [
+      "39",
+      "ITA(INCOME TAX APPEAL)-39"
+     ],
+     [
+      "29",
+      "ITC(INCOME TAX CASES)-29"
+     ],
+     [
+      "107",
+      "ITR(INCOME TAX REF.)-107"
+     ],
+     [
+      "35",
+      "ITSA(INCOME TAX IInd APP.)-35"
+     ],
+     [
+      "9",
+      "LA.APP.(APPEALS UNDER LAND ACQUISATION ACT)-9"
+     ],
+     [
+      "38",
+      "LPA(LETTER PATENT APPEAL)-38"
+     ],
+     [
+      "58",
+      "MAC.APP.(APPEALS PERTAINING TO MOTOR ACC. CLAIMS)-58"
+     ],
+     [
+      "132",
+      "MAT.(MAT.CAS.)-132"
+     ],
+     [
+      "7",
+      "MAT.APP.(APPEALS IN MATRIMONIAL CASES)-7"
+     ],
+     [
+      "26",
+      "MAT.APP.(F.C.)(MAT.APPEAL-FAMILY COURT)-26"
+     ],
+     [
+      "121",
+      "MAT.CASE(MAT.CASES)-121"
+     ],
+     [
+      "30",
+      "MAT.REF.(MATRIMONIAL REF.)-30"
+     ],
+     [
+      "173",
+      "MISC. APPEAL (FEMA)(MISC. APPEAL (FEMA))-173"
+     ],
+     [
+      "174",
+      "MISC. APPEAL(PBPTA)(MISC. APPEAL(PBPTA))-174"
+     ],
+     [
+      "143",
+      "MISC. APPEAL(PMLA)(MISCELLANEOUS APPEAL(PMLA))-143"
+     ],
+     [
+      "87",
+      "OA(ORIGINAL APPEAL)-87"
+     ],
+     [
+      "125",
+      "OCJA(ORIGINAL CIVIL JURIDICTION APPEAL)-125"
+     ],
+     [
+      "4",
+      "O.M.P.(ORGL. MISC. PETITION)-4"
+     ],
+     [
+      "64",
+      "O.M.P. (COMM)(COMMERCIAL ARBITRATION U/S 34)-64"
+     ],
+     [
+      "139",
+      "O.M.P. (COMM) INFRA(O.M.P. (COMM) INFRA)-139"
+     ],
+     [
+      "136",
+      "OMP (CONT.)(U/S 27 (5) ARB. &amp; CONCILIATION ACT, 1996)-136"
+     ],
+     [
+      "48",
+      "O.M.P. (E)(ORIGINAL MISC. PETTITON EVIDENCE SEC.)-48"
+     ],
+     [
+      "49",
+      "O.M.P. (E) (COMM.)(COMMERCIAL ARBITRATION U/S 27)-49"
+     ],
+     [
+      "65",
+      "O.M.P.(EFA)(COMM.)(COMMERCIAL ARBITRATION U/S 48)-65"
+     ],
+     [
+      "172",
+      "O.M.P. (ENF.)(NON-COMMERCIAL ARBITRATION U/S 17 OR 36)-172"
+     ],
+     [
+      "50",
+      "OMP (ENF.) (COMM.)(COMMERCIAL ARBITRATION U/S 36)-50"
+     ],
+     [
+      "66",
+      "O.M.P.(I)(ORIGINAL MISC. PETITION INTERIM SECTION)-66"
+     ],
+     [
+      "99",
+      "O.M.P.(I) (COMM.)(COMMERCIAL ARBITRATION U/S 9)-99"
+     ],
+     [
+      "140",
+      "OMP (INFRA)(OMP (INFRA))-140"
+     ],
+     [
+      "101",
+      "O.M.P. (J) (COMM.)(COMMERCIAL ARBITRATION U/S 16)-101"
+     ],
+     [
+      "135",
+      "O.M.P. (MISC.)(ORIGINAL MISC. PETITION (MISC.))-135"
+     ],
+     [
+      "123",
+      "O.M.P.(MISC.)(COMM.)(ORIGINAL MISC.PETITION(MISC.) COMMERCIAL)-123"
+     ],
+     [
+      "17",
+      "O.M.P.(T)(ORIGINAL MISC. PETITION (TERMINATE))-17"
+     ],
+     [
+      "100",
+      "O.M.P. (T) (COMM.)(COMMERCIAL ARBITRATION U/S 14 &amp; 15)-100"
+     ],
+     [
+      "71",
+      "O.REF.(CIVIL REF.)-71"
+     ],
+     [
+      "60",
+      "RC.REV.(REVISSION PET. UNDER RENT CONTROL ACT)-60"
+     ],
+     [
+      "25",
+      "RC.S.A.(SEC. APP. FROM ORDER)-25"
+     ],
+     [
+      "47",
+      "REPORT(VOL. LIQUIDATIN)-47"
+     ],
+     [
+      "145",
+      "RERA APPEAL(REAL ESTATE REGULATORY AUTHORITY APPEAL)-145"
+     ],
+     [
+      "22",
+      "RFA(REGULAR FIST APPEAL)-22"
+     ],
+     [
+      "141",
+      "RFA(COMM)(APPEAL FROM ORIGINAL DECREE PASSED BY COMMERCIAL COURT ADJ)-141"
+     ],
+     [
+      "146",
+      "RFA-IPD(RFA-IPD)-146"
+     ],
+     [
+      "33",
+      "RFA(OS)(REG.Ist APP.(OS))-33"
+     ],
+     [
+      "52",
+      "RFA(OS)(COMM)(REGULAR FIRST APPEALS COMMERCIAL)-52"
+     ],
+     [
+      "149",
+      "RFA(OS)-IPD(RFA(OS)-IPD)-149"
+     ],
+     [
+      "167",
+      "RFA(OS)(IPD)(RFA(OS)(IPD))-167"
+     ],
+     [
+      "155",
+      "RF(OS)(IPD)(RF(OS)(IPD))-155"
+     ],
+     [
+      "23",
+      "RSA(REG. IInd APPEAL)-23"
+     ],
+     [
+      "89",
+      "SCA(SUPREME COURT APPL.)-89"
+     ],
+     [
+      "34",
+      "SDR(STAMP DUTY REF.)-34"
+     ],
+     [
+      "98",
+      "SERTA(SERVICE TAX APPEAL)-98"
+     ],
+     [
+      "31",
+      "ST.APPL.(SALES TAX CASES)-31"
+     ],
+     [
+      "84",
+      "STC(SALES TAX CASE)-84"
+     ],
+     [
+      "109",
+      "ST.REF.(SALES TAX REF.)-109"
+     ],
+     [
+      "126",
+      "SUR.T.REF.(SUR TAX REF.)-126"
+     ],
+     [
+      "53",
+      "TEST.CAS.(PROBATE CASE)-53"
+     ],
+     [
+      "103",
+      "TR.P.(C.)(TRANSFER PETITION U/S SEC 24 CPC)-103"
+     ],
+     [
+      "44",
+      "TR.P.(C)(TRANSFER PETITION UNDER SECTION 24 CPC)-44"
+     ],
+     [
+      "76",
+      "TR.P.(CRL.)(TRANSFER PETAITION FOR TRANSFER OF CRL.P)-76"
+     ],
+     [
+      "63",
+      "VAT APPEAL(VAT APPEAL NO.)-63"
+     ],
+     [
+      "147",
+      "W.C.(C)-IPD(WRIT PETITION (C)-IPD)-147"
+     ],
+     [
+      "134",
+      "W.P.(C)(CIVIL WRITS)-134"
+     ],
+     [
+      "156",
+      "WP(C)(IPD)(WP(C)(IPD))-156"
+     ],
+     [
+      "27",
+      "W.P.(CRL)(CRIMINAL WRITS)-27"
+     ],
+     [
+      "130",
+      "WTA(WEALTH TAX CASE)-130"
+     ],
+     [
+      "110",
+      "WTC(WEALTH TAX CASES)-110"
+     ],
+     [
+      "111",
+      "WTR(WEALTH TAX REF.)-111"
+     ]
+    ]
+   }
+  ]
+ },
+ "Filing Number": {
+  "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+  "tables": [],
+  "selects": [
+   {
+    "name": "sess_state_code",
+    "options": [
+     [
+      "0",
+      "Select Highcourt"
+     ],
+     [
+      "13",
+      "Allahabad High Court"
+     ],
+     [
+      "1",
+      "Bombay High Court"
+     ],
+     [
+      "16",
+      "Calcutta High Court"
+     ],
+     [
+      "6",
+      "Gauhati High Court"
+     ],
+     [
+      "29",
+      "High Court for State of Telangana"
+     ],
+     [
+      "2",
+      "High Court of Andhra Pradesh"
+     ],
+     [
+      "18",
+      "High Court of Chhattisgarh"
+     ],
+     [
+      "26",
+      "High Court of Delhi"
+     ],
+     [
+      "17",
+      "High Court of Gujarat"
+     ],
+     [
+      "5",
+      "High Court of Himachal Pradesh"
+     ],
+     [
+      "12",
+      "High Court of Jammu and Kashmir and Ladakh"
+     ],
+     [
+      "7",
+      "High Court of Jharkhand"
+     ],
+     [
+      "3",
+      "High Court of Karnataka"
+     ],
+     [
+      "4",
+      "High Court of Kerala"
+     ],
+     [
+      "23",
+      "High Court of Madhya Pradesh"
+     ],
+     [
+      "25",
+      "High Court of Manipur"
+     ],
+     [
+      "21",
+      "High Court of Meghalaya"
+     ],
+     [
+      "11",
+      "High Court of Orissa"
+     ],
+     [
+      "22",
+      "High Court of Punjab and Haryana"
+     ],
+     [
+      "9",
+      "High Court of Rajasthan"
+     ],
+     [
+      "24",
+      "High Court of Sikkim"
+     ],
+     [
+      "20",
+      "High Court of Tripura"
+     ],
+     [
+      "15",
+      "High Court of Uttarakhand"
+     ],
+     [
+      "10",
+      "Madras High Court"
+     ],
+     [
+      "8",
+      "Patna High Court"
+     ]
+    ]
+   },
+   {
+    "name": "court_complex_code",
+    "options": [
+     [
+      "0",
+      "Select Bench"
+     ],
+     [
+      "1",
+      "Principal Bench at Delhi"
+     ]
+    ]
+   }
+  ]
+ },
+ "FIR Number": {
+  "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+  "tables": [],
+  "selects": [
+   {
+    "name": "sess_state_code",
+    "options": [
+     [
+      "0",
+      "Select Highcourt"
+     ],
+     [
+      "13",
+      "Allahabad High Court"
+     ],
+     [
+      "1",
+      "Bombay High Court"
+     ],
+     [
+      "16",
+      "Calcutta High Court"
+     ],
+     [
+      "6",
+      "Gauhati High Court"
+     ],
+     [
+      "29",
+      "High Court for State of Telangana"
+     ],
+     [
+      "2",
+      "High Court of Andhra Pradesh"
+     ],
+     [
+      "18",
+      "High Court of Chhattisgarh"
+     ],
+     [
+      "26",
+      "High Court of Delhi"
+     ],
+     [
+      "17",
+      "High Court of Gujarat"
+     ],
+     [
+      "5",
+      "High Court of Himachal Pradesh"
+     ],
+     [
+      "12",
+      "High Court of Jammu and Kashmir and Ladakh"
+     ],
+     [
+      "7",
+      "High Court of Jharkhand"
+     ],
+     [
+      "3",
+      "High Court of Karnataka"
+     ],
+     [
+      "4",
+      "High Court of Kerala"
+     ],
+     [
+      "23",
+      "High Court of Madhya Pradesh"
+     ],
+     [
+      "25",
+      "High Court of Manipur"
+     ],
+     [
+      "21",
+      "High Court of Meghalaya"
+     ],
+     [
+      "11",
+      "High Court of Orissa"
+     ],
+     [
+      "22",
+      "High Court of Punjab and Haryana"
+     ],
+     [
+      "9",
+      "High Court of Rajasthan"
+     ],
+     [
+      "24",
+      "High Court of Sikkim"
+     ],
+     [
+      "20",
+      "High Court of Tripura"
+     ],
+     [
+      "15",
+      "High Court of Uttarakhand"
+     ],
+     [
+      "10",
+      "Madras High Court"
+     ],
+     [
+      "8",
+      "Patna High Court"
+     ]
+    ]
+   },
+   {
+    "name": "court_complex_code",
+    "options": [
+     [
+      "0",
+      "Select Bench"
+     ],
+     [
+      "1",
+      "Principal Bench at Delhi"
+     ]
+    ]
+   },
+   {
+    "name": "police_st_code",
+    "options": [
+     [
+      "0",
+      "Select police station"
+     ],
+     [
+      "1",
+      "ADARSH NAGAR 1"
+     ],
+     [
+      "2",
+      "ALIPUR 2"
+     ],
+     [
+      "136",
+      "AMAN VIHAR 136"
+     ],
+     [
+      "137",
+      "AMAR COLONY 137"
+     ],
+     [
+      "3",
+      "AMBEDKAR NAGAR 3"
+     ],
+     [
+      "4",
+      "ANAND PARBAT 4"
+     ],
+     [
+      "204",
+      "ANAND TOWN GUJRAT 204"
+     ],
+     [
+      "5",
+      "ANAND VIHAR 5"
+     ],
+     [
+      "238",
+      "ANAND VIHAR RAILWAY STATION 238"
+     ],
+     [
+      "278",
+      "ANANTNAG JAMMU AND KASHMIR 278"
+     ],
+     [
+      "134",
+      "ANTI-CORRUPTION BRANCH 134"
+     ],
+     [
+      "6",
+      "ASHOK VIHAR 6"
+     ],
+     [
+      "192",
+      "BABA HARI DASS NAGAR 192"
+     ],
+     [
+      "7",
+      "BADARPUR 7"
+     ],
+     [
+      "273",
+      "BADOT UTTAR PRADESH 273"
+     ],
+     [
+      "285",
+      "BAHADURGARH HARYANA 285"
+     ],
+     [
+      "319",
+      "BANIYADHER U.P. 319"
+     ],
+     [
+      "237",
+      "BANUR DISTT PATIALA PUNJAB 237"
+     ],
+     [
+      "267",
+      "BARADARI BARELLI UP 267"
+     ],
+     [
+      "8",
+      "BARA HINDU RAO 8"
+     ],
+     [
+      "156",
+      "BARAKHAMBA ROAD 156"
+     ],
+     [
+      "258",
+      "BARAUT DISTT. BAGHPAT UP 258"
+     ],
+     [
+      "232",
+      "BASANT VIHAR DEHRADUN 232"
+     ],
+     [
+      "128",
+      "BAWANA 128"
+     ],
+     [
+      "163",
+      "BEGAM PUR 163"
+     ],
+     [
+      "9",
+      "BHAJAN PURA 9"
+     ],
+     [
+      "166",
+      "BHALSWA DAIRY 166"
+     ],
+     [
+      "164",
+      "BHARAT NAGAR 164"
+     ],
+     [
+      "337",
+      "BHIMTAL NAINTAL 337"
+     ],
+     [
+      "344",
+      "BHONDSI DISTRICT GURUGRAM HARYANA 344"
+     ],
+     [
+      "138",
+      "BINDAPUR 138"
+     ],
+     [
+      "216",
+      "BOKARO JHARKHAND 216"
+     ],
+     [
+      "289",
+      "BOKHERA KOTA CITY RAJASTHAN 289"
+     ],
+     [
+      "145",
+      "BURARI 145"
+     ],
+     [
+      "272",
+      "BURTOLLA KOLKATA 272"
+     ],
+     [
+      "333",
+      "CANTT. KANPUR CITY 333"
+     ],
+     [
+      "131",
+      "CBI 131"
+     ],
+     [
+      "294",
+      "CHAMARAJPET BANGALORE CITY KARNATAKA 294"
+     ],
+     [
+      "256",
+      "CHANDIGARH SOUTH SECTOR 256"
+     ],
+     [
+      "127",
+      "CHANDNI CHOWK 127"
+     ],
+     [
+      "10",
+      "CHANDNI MAHAL 10"
+     ],
+     [
+      "11",
+      "CHANKYA PURI 11"
+     ],
+     [
+      "187",
+      "CHEENAI 187"
+     ],
+     [
+      "150",
+      "CHHAWLA 150"
+     ],
+     [
+      "12",
+      "CHITTRANJAN PARK 12"
+     ],
+     [
+      "253",
+      "CID BHARARI SHIMLA HIMACHAL PRADESH 253"
+     ],
+     [
+      "281",
+      "CID JAIPUR 281"
+     ],
+     [
+      "293",
+      "CITY FEROZEPUR PUNJAB 293"
+     ],
+     [
+      "202",
+      "CITY KOTWALI 202"
+     ],
+     [
+      "240",
+      "CITY ROHTAK 240"
+     ],
+     [
+      "205",
+      "CITY SANGRUR 205"
+     ],
+     [
+      "13",
+      "CIVIL LINES 13"
+     ],
+     [
+      "301",
+      "CIVIL LINES ALLAHABAD 301"
+     ],
+     [
+      "251",
+      "CIVIL LINES AMRITSAR PUNJAB 251"
+     ],
+     [
+      "254",
+      "CIVIL LINES GURGAON 254"
+     ],
+     [
+      "324",
+      "CIVIL LINES HISAR HARYANA 324"
+     ],
+     [
+      "304",
+      "CIVIL LINES PATIALA 304"
+     ],
+     [
+      "313",
+      "CIVIL LINES ROHTAK HARYANA 313"
+     ],
+     [
+      "14",
+      "CONNAUGHT PLACE 14"
+     ],
+     [
+      "157",
+      "CRIME AND RAILWAY 157"
+     ],
+     [
+      "297",
+      "CRIME BRANCH ECONOMIC OFFENCE WING CID BHUBANESHYWAR ORDISHA 297"
+     ],
+     [
+      "264",
+      "CRIME BRANCH SRINAGAR JAMMU AND KASHMIR 264"
+     ],
+     [
+      "161",
+      "CRIME WOMEN CELL 161"
+     ],
+     [
+      "345",
+      "CUSTOMS 345"
+     ],
+     [
+      "15",
+      "DABRI 15"
+     ],
+     [
+      "331",
+      "DADRI GAUTAM BUDH NAGAR UTTAR PRADESH 331"
+     ],
+     [
+      "16",
+      "DARYA GANJ 16"
+     ],
+     [
+      "17",
+      "DEFENCE COLONY 17"
+     ],
+     [
+      "18",
+      "DELHI CANTT. 18"
+     ],
+     [
+      "19",
+      "DESHBANDHU GUPTA ROAD 19"
+     ],
+     [
+      "265",
+      "DHARAMPUR SOLAN HIMACHAL PRADESH 265"
+     ],
+     [
+      "183",
+      "DHAULA KUAN 183"
+     ],
+     [
+      "242",
+      "DIBRUGARH ASSAM 242"
+     ],
+     [
+      "20",
+      "DILSHAD GARDEN 20"
+     ],
+     [
+      "268",
+      "DIRECTORATE OF ENFORCEMENT 268"
+     ],
+     [
+      "198",
+      "DIRECTORATE OF REVENUE INTELLIGENCE 198"
+     ],
+     [
+      "180",
+      "DOMESTIC AIRPORT 180"
+     ],
+     [
+      "228",
+      "DONA PAULA GOA 228"
+     ],
+     [
+      "21",
+      "DWARKA 21"
+     ],
+     [
+      "262",
+      "DWARKA SECTOR TWENTY THREE 262"
+     ],
+     [
+      "196",
+      "DWARKA SOUTH 196"
+     ],
+     [
+      "144",
+      "ECONOMIC OFFENCE WING 144"
+     ],
+     [
+      "270",
+      "EOW MUMBAI 270"
+     ],
+     [
+      "22",
+      "FARASH BAZAR 22"
+     ],
+     [
+      "184",
+      "FARIDABAD CENTRAL 184"
+     ],
+     [
+      "312",
+      "FARIDABAD OUTSIDE 312"
+     ],
+     [
+      "173",
+      "FATEHPUR BERI 173"
+     ],
+     [
+      "261",
+      "FEROZEPUR JHIRKA MEWAT HARYANA 261"
+     ],
+     [
+      "23",
+      "GANDHI NAGAR 23"
+     ],
+     [
+      "326",
+      "GAUTAM BUDH NAGAR SECTOR FIFTY EIGHT NOIDA UP 326"
+     ],
+     [
+      "325",
+      "GAUTAM BUDH NAGAR SECTOR THIRTY NINE U.P. 325"
+     ],
+     [
+      "189",
+      "GAZI PUR 189"
+     ],
+     [
+      "24",
+      "GEETA COLONY 24"
+     ],
+     [
+      "323",
+      "GHAT LODIA AHMEDABAD GUJRAT 323"
+     ],
+     [
+      "25",
+      "GOKULPURI 25"
+     ],
+     [
+      "292",
+      "GOMTI NAGAR LUCKNOW 292"
+     ],
+     [
+      "322",
+      "GOVIND NAGAR MATHURA UP 322"
+     ],
+     [
+      "155",
+      "GOVIND PURI 155"
+     ],
+     [
+      "26",
+      "GREATER KAILASH 26"
+     ],
+     [
+      "186",
+      "G.T.B. ENCLAVE 186"
+     ],
+     [
+      "315",
+      "GULBARGA RURAL KARNATAKA 315"
+     ],
+     [
+      "311",
+      "GURGAON SECTOR SEVENTEEN/EIGHTEEN 311"
+     ],
+     [
+      "300",
+      "HAILAKANDI ASSAM 300"
+     ],
+     [
+      "27",
+      "HARI NAGAR 27"
+     ],
+     [
+      "159",
+      "HARSH VIHAR 159"
+     ],
+     [
+      "28",
+      "HAUZ KHAS 28"
+     ],
+     [
+      "29",
+      "HAUZ QAZI 29"
+     ],
+     [
+      "30",
+      "HAZARAT NIZAMMUDDIN 30"
+     ],
+     [
+      "31",
+      "HAZARAT NIZAMMUDDIN RLY. STATION. 31"
+     ],
+     [
+      "234",
+      "HUBLI DHARWAD KARNATAKA 234"
+     ],
+     [
+      "126",
+      "I.G.I.AIRPORT 126"
+     ],
+     [
+      "33",
+      "INDERPURI 33"
+     ],
+     [
+      "248",
+      "INDIRAPURAM GHAZIABAD 248"
+     ],
+     [
+      "32",
+      "I.P.ESTATE 32"
+     ],
+     [
+      "167",
+      "JAFFARABAD 167"
+     ],
+     [
+      "34",
+      "JAFFARPUR 34"
+     ],
+     [
+      "35",
+      "JAFFARPUR KALAN 35"
+     ],
+     [
+      "249",
+      "JAGADHRI CITY YAMUNA NAGAR JAGADHRI CITY 249"
+     ],
+     [
+      "170",
+      "JAGAT PURI 170"
+     ],
+     [
+      "347",
+      "JAHANGIRABAD DISTRICT BULANDSHAHAR UTTAR PRADES 347"
+     ],
+     [
+      "231",
+      "JAHANGIRPUR,DISTRICT SURAT,GUJARAT 231"
+     ],
+     [
+      "36",
+      "JAHANGIR PURI 36"
+     ],
+     [
+      "220",
+      "JAIPUR CITY GANDHI NAGAR 220"
+     ],
+     [
+      "146",
+      "JAIT PUR 146"
+     ],
+     [
+      "37",
+      "JAMA MASJID 37"
+     ],
+     [
+      "271",
+      "JAMA SADAR JHARKHAND 271"
+     ],
+     [
+      "142",
+      "JAMIA NAGAR 142"
+     ],
+     [
+      "38",
+      "JANAKPURI 38"
+     ],
+     [
+      "260",
+      "JANGDIALA GURU AMRITSAR PUNJAB 260"
+     ],
+     [
+      "257",
+      "JORABAGAN KOLKATA 257"
+     ],
+     [
+      "185",
+      "J.P.NAGAR BARODA 185"
+     ],
+     [
+      "245",
+      "JUHU MAHARASHTRA MUMBAI 245"
+     ],
+     [
+      "176",
+      "JYOTI NAGAR 176"
+     ],
+     [
+      "338",
+      "JYOTI NAGAR JAIPUR SOUTH 338"
+     ],
+     [
+      "339",
+      "KAIRANA DISTRICT MUJJAFANAGAR UP 339"
+     ],
+     [
+      "291",
+      "KAIRANA DISTRICT MUZZAFARNAGAR UP 291"
+     ],
+     [
+      "39",
+      "KALKAJI 39"
+     ],
+     [
+      "222",
+      "KALKAJI MANDIR METRO STATION 222"
+     ],
+     [
+      "40",
+      "KALYAN PURI 40"
+     ],
+     [
+      "41",
+      "KAMLA MARKET 41"
+     ],
+     [
+      "42",
+      "KANJHAWALA 42"
+     ],
+     [
+      "225",
+      "KANKADBAG PATNA BIHAR 225"
+     ],
+     [
+      "43",
+      "KAPASHERA 43"
+     ],
+     [
+      "140",
+      "KARAWAL NAGAR 140"
+     ],
+     [
+      "44",
+      "KAROL BAGH 44"
+     ],
+     [
+      "334",
+      "KASHIMIRA DISTT THANE MAHARASHTRA 334"
+     ],
+     [
+      "45",
+      "KASHMERE GATE 45"
+     ],
+     [
+      "212",
+      "KASHMIRI GATE METRO STATION 212"
+     ],
+     [
+      "259",
+      "KASNA GAUTAM BUDH NAGAR UP 259"
+     ],
+     [
+      "213",
+      "KAVI NAGAR GHAZIABAD 213"
+     ],
+     [
+      "46",
+      "KESHAV PURAM 46"
+     ],
+     [
+      "47",
+      "KHAJOORI KHAS 47"
+     ],
+     [
+      "296",
+      "KHURJA U.P. 296"
+     ],
+     [
+      "154",
+      "KHYALA 154"
+     ],
+     [
+      "48",
+      "KIRTI NAGAR 48"
+     ],
+     [
+      "181",
+      "K.N.KATJU MARG 181"
+     ],
+     [
+      "221",
+      "KORBA CHHATISGARSH 221"
+     ],
+     [
+      "235",
+      "KOREGAON PARK PUNE MAHARASHTRA 235"
+     ],
+     [
+      "49",
+      "KOTLA MUBARAKPUR 49"
+     ],
+     [
+      "50",
+      "KOTWALI 50"
+     ],
+     [
+      "280",
+      "KOTWALI BHARATPUR RAJASTHAN 280"
+     ],
+     [
+      "298",
+      "KOTWALI DEHAT BULANDSHAHAR UTTAR PRADESH 298"
+     ],
+     [
+      "340",
+      "KOTWALI DISTT. SAGAR MADHYA PRADESH 340"
+     ],
+     [
+      "274",
+      "KOTWALI JALPAIGURI WEST BENGAL 274"
+     ],
+     [
+      "219",
+      "KOTWALI MORADABAD UP 219"
+     ],
+     [
+      "214",
+      "KOTWALI NAGAR ETAH UP 214"
+     ],
+     [
+      "229",
+      "KOTWALI ROORKEE HARIDWAR 229"
+     ],
+     [
+      "51",
+      "KRISHNA NAGAR 51"
+     ],
+     [
+      "209",
+      "KUSHAIGUDA 209"
+     ],
+     [
+      "52",
+      "LAHORI GATE 52"
+     ],
+     [
+      "53",
+      "LAJPAT NAGAR 53"
+     ],
+     [
+      "223",
+      "LASADI GATE MEERUT 223"
+     ],
+     [
+      "308",
+      "LAXMI SAGAR BHUVNESHWAR ODISHA 308"
+     ],
+     [
+      "328",
+      "LINE PAR BAHADURGARH 328"
+     ],
+     [
+      "287",
+      "LINK ROAD GHAZIABAD 287"
+     ],
+     [
+      "54",
+      "LODHI COLONY 54"
+     ],
+     [
+      "288",
+      "LONI GHAZIABAD 288"
+     ],
+     [
+      "191",
+      "LUNAWADA 191"
+     ],
+     [
+      "310",
+      "MADAN MOHAN GATE AGRA 310"
+     ],
+     [
+      "269",
+      "MADHOTANDA UTTAR PRADESH 269"
+     ],
+     [
+      "201",
+      "MADHUBAN 201"
+     ],
+     [
+      "174",
+      "MADHU VIHAR 174"
+     ],
+     [
+      "199",
+      "MADIPUR 199"
+     ],
+     [
+      "342",
+      "MAGADH MEDICAL DISTT. GAYA BIHAR 342"
+     ],
+     [
+      "309",
+      "MAHILA THANA BANNI PARK WEST DISST. JAIPUR RAJASTHAN 309"
+     ],
+     [
+      "346",
+      "MAHILA THANA DISTRICT GAZIABAD 346"
+     ],
+     [
+      "306",
+      "MAHILA THANA DISTT. JODHPUR EAST 306"
+     ],
+     [
+      "330",
+      "MAHILA THANA GAUTAM BUDH NAGAR 330"
+     ],
+     [
+      "252",
+      "MAHILA THANA PATIALA PUNJAB 252"
+     ],
+     [
+      "217",
+      "MAHILA THANA SADAR MURADABAD 217"
+     ],
+     [
+      "227",
+      "MAHILA THANA SIKAR RAJASTHA 227"
+     ],
+     [
+      "169",
+      "MAHINDRA PARK 169"
+     ],
+     [
+      "55",
+      "MAHIPALPUR 55"
+     ],
+     [
+      "243",
+      "MAINPURI KOTWAI UTTAR PRADESH 243"
+     ],
+     [
+      "56",
+      "MALVIYA NAGAR 56"
+     ],
+     [
+      "57",
+      "MANDAWALI 57"
+     ],
+     [
+      "58",
+      "MANDIR MARG 58"
+     ],
+     [
+      "59",
+      "MANGOLPURI 59"
+     ],
+     [
+      "60",
+      "MANSAROVER PARK 60"
+     ],
+     [
+      "250",
+      "MASOORI DISTT. GHAZIABAD 250"
+     ],
+     [
+      "61",
+      "MAURIS NAGAR 61"
+     ],
+     [
+      "148",
+      "MAURYA ENCLAVE 148"
+     ],
+     [
+      "62",
+      "MAYAPURI 62"
+     ],
+     [
+      "63",
+      "MAYUR VIHAR 63"
+     ],
+     [
+      "64",
+      "MEHRAULI 64"
+     ],
+     [
+      "171",
+      "MIYAWALI 171"
+     ],
+     [
+      "65",
+      "MODEL TOWN 65"
+     ],
+     [
+      "66",
+      "MOTI NAGAR 66"
+     ],
+     [
+      "329",
+      "MUBBALANIPALEN VISAKHAPATNAM 329"
+     ],
+     [
+      "67",
+      "MUKHERJEE NAGAR 67"
+     ],
+     [
+      "203",
+      "MUNDKA 203"
+     ],
+     [
+      "286",
+      "MURAD NAGAR 286"
+     ],
+     [
+      "68",
+      "NABI KARIM 68"
+     ],
+     [
+      "210",
+      "NAGINA BIJNOR 210"
+     ],
+     [
+      "69",
+      "NAJAFGARH 69"
+     ],
+     [
+      "236",
+      "NAMKUM RANCHI JHARKHAND 236"
+     ],
+     [
+      "244",
+      "NAMUKUM RANCHI JHARKHAND 244"
+     ],
+     [
+      "143",
+      "NANAK PURA 143"
+     ],
+     [
+      "70",
+      "NAND NAGRI 70"
+     ],
+     [
+      "71",
+      "NANGLOI 71"
+     ],
+     [
+      "72",
+      "NARAINA 72"
+     ],
+     [
+      "133",
+      "NARCOTIC CELL, KAMLA MARKET 133"
+     ],
+     [
+      "73",
+      "NARELA 73"
+     ],
+     [
+      "74",
+      "NARELA INDUSTRIAL AREA 74"
+     ],
+     [
+      "226",
+      "NARNAUND HARYANA 226"
+     ],
+     [
+      "336",
+      "NAUPADA THANE MAHARASHTRA 336"
+     ],
+     [
+      "160",
+      "N.C.B. R.K.PURAM 160"
+     ],
+     [
+      "152",
+      "NEB SARAI 152"
+     ],
+     [
+      "246",
+      "NEHRU COLONY DEHRADUN UTTRAKHAND 246"
+     ],
+     [
+      "75",
+      "NEW ASHOK NAGAR 75"
+     ],
+     [
+      "76",
+      "NEW DELHI 76"
+     ],
+     [
+      "130",
+      "NEW DELHI RAILWAY STATION 130"
+     ],
+     [
+      "77",
+      "NEW FRIENDS COLONY 77"
+     ],
+     [
+      "206",
+      "NIA 206"
+     ],
+     [
+      "151",
+      "NIHAL VIHAR 151"
+     ],
+     [
+      "303",
+      "NIT FARIDABAD HARYANA 303"
+     ],
+     [
+      "233",
+      "N.M.JOSHI MARG MUMBAI 233"
+     ],
+     [
+      "317",
+      "NORTH AVENUE 317"
+     ],
+     [
+      "215",
+      "NORTH PARGANA WEST BENGAL 215"
+     ],
+     [
+      "78",
+      "OKHLA INDUSTRIAL AREA 78"
+     ],
+     [
+      "79",
+      "OLD DELHI RAILWAY STATION 79"
+     ],
+     [
+      "80",
+      "PAHARGANJ 80"
+     ],
+     [
+      "81",
+      "PALAM AIRPORT 81"
+     ],
+     [
+      "332",
+      "PALTAN BAZAR ASSAM 332"
+     ],
+     [
+      "341",
+      "PANCHKULA SECTOR V PANCHKULA 341"
+     ],
+     [
+      "135",
+      "PANDAV NAGAR 135"
+     ],
+     [
+      "247",
+      "PANIPAT CITY 247"
+     ],
+     [
+      "343",
+      "PARK SITE MUMBAI 343"
+     ],
+     [
+      "299",
+      "PARK STEET KOLKOTTA 299"
+     ],
+     [
+      "82",
+      "PARLIAMENT STREET 82"
+     ],
+     [
+      "83",
+      "PASCHIM VIHAR 83"
+     ],
+     [
+      "84",
+      "PATEL NAGAR 84"
+     ],
+     [
+      "290",
+      "PILUKHWA 290"
+     ],
+     [
+      "283",
+      "PILUKHWA DISTRICT HAPUR 283"
+     ],
+     [
+      "263",
+      "POWAI MUMBAI 263"
+     ],
+     [
+      "85",
+      "PRASAD NAGAR 85"
+     ],
+     [
+      "86",
+      "PRASHANT VIHAR 86"
+     ],
+     [
+      "87",
+      "PRATAP NAGAR 87"
+     ],
+     [
+      "88",
+      "PREET VIHAR 88"
+     ],
+     [
+      "168",
+      "PUL PRAHLADPUR 168"
+     ],
+     [
+      "89",
+      "PUNJABI BAGH 89"
+     ],
+     [
+      "241",
+      "QAISER BAGH LUCKNOW 241"
+     ],
+     [
+      "200",
+      "QUTAB MINAR MATRO 200"
+     ],
+     [
+      "162",
+      "RAJAGARDEN METRO STATION 162"
+     ],
+     [
+      "307",
+      "RAJGARH DISTRICT CHURU RAJASTHAN 307"
+     ],
+     [
+      "91",
+      "RAJINDER NAGAR 91"
+     ],
+     [
+      "277",
+      "RAJINDER NAGAR RAIPUR CHATTISGARH 277"
+     ],
+     [
+      "92",
+      "RAJOURI GARDEN 92"
+     ],
+     [
+      "282",
+      "RAM SHAHER HIMACHAL PRADES 282"
+     ],
+     [
+      "175",
+      "RANHOLA 175"
+     ],
+     [
+      "177",
+      "RANI BAGH 177"
+     ],
+     [
+      "179",
+      "RANJEET NAGAR 179"
+     ],
+     [
+      "147",
+      "RITHALA METRO 147"
+     ],
+     [
+      "90",
+      "R.K.PURAM 90"
+     ],
+     [
+      "129",
+      "R.M.D. 129"
+     ],
+     [
+      "93",
+      "ROHINI 93"
+     ],
+     [
+      "94",
+      "ROHINI-I 94"
+     ],
+     [
+      "193",
+      "ROHINI NORTH 193"
+     ],
+     [
+      "95",
+      "ROOP NAGAR 95"
+     ],
+     [
+      "224",
+      "RPF HAZARAT NIZAMUDDIN 224"
+     ],
+     [
+      "97",
+      "SADAR BAZAR 97"
+     ],
+     [
+      "172",
+      "SAFDARJUNG ELCLAVE 172"
+     ],
+     [
+      "190",
+      "SAGAR PUR 190"
+     ],
+     [
+      "153",
+      "SAKET 153"
+     ],
+     [
+      "98",
+      "SANGAM VIHAR 98"
+     ],
+     [
+      "349",
+      "SARABHA NAGAR LUDHIANA CITY PUNJAB 349"
+     ],
+     [
+      "99",
+      "SARAI ROHILLA 99"
+     ],
+     [
+      "100",
+      "SARAI ROHILLA RLY. STATION 100"
+     ],
+     [
+      "101",
+      "SARASWATI VIHAR 101"
+     ],
+     [
+      "102",
+      "SARITA VIHAR 102"
+     ],
+     [
+      "121",
+      "SAROJINI NAGAR 121"
+     ],
+     [
+      "158",
+      "S.B.DAIRY 158"
+     ],
+     [
+      "103",
+      "SEELAMPUR 103"
+     ],
+     [
+      "104",
+      "SEEMA PURI 104"
+     ],
+     [
+      "211",
+      "SGM NAGAR FARIDABAD 211"
+     ],
+     [
+      "105",
+      "SHAHDARA 105"
+     ],
+     [
+      "106",
+      "SHAKARPUR 106"
+     ],
+     [
+      "188",
+      "SHAKURBASTI 188"
+     ],
+     [
+      "107",
+      "SHALIMAR BAGH 107"
+     ],
+     [
+      "141",
+      "SHASTRI PARK 141"
+     ],
+     [
+      "239",
+      "SIKAR RAJASTHAN 239"
+     ],
+     [
+      "279",
+      "SILIGURI DARJEELING 279"
+     ],
+     [
+      "275",
+      "SIRSA HARYANA 275"
+     ],
+     [
+      "178",
+      "SONIA VIHAR 178"
+     ],
+     [
+      "327",
+      "SOUTH AVENUE 327"
+     ],
+     [
+      "208",
+      "SOUTH CAMPUS 208"
+     ],
+     [
+      "96",
+      "S.P. BADLI 96"
+     ],
+     [
+      "132",
+      "SPECIAL BRANCH LODHI ROAD 132"
+     ],
+     [
+      "302",
+      "SRIKAKULAM ICHAPURAM ANDHRA PRADESH 302"
+     ],
+     [
+      "108",
+      "SRINIWAS PURI 108"
+     ],
+     [
+      "109",
+      "SUBZI MANDI 109"
+     ],
+     [
+      "110",
+      "SULTAN PURI 110"
+     ],
+     [
+      "165",
+      "SUNLIGHT COLONY 165"
+     ],
+     [
+      "197",
+      "SURAT CRIME BRANCH 197"
+     ],
+     [
+      "255",
+      "SUSHANT LOK GURGAON 255"
+     ],
+     [
+      "139",
+      "SWAROOP NAGAR 139"
+     ],
+     [
+      "348",
+      "TARA NAGAR DISTT. CHURU RAJASTHAN 348"
+     ],
+     [
+      "218",
+      "TAWRU GURGAON 218"
+     ],
+     [
+      "284",
+      "THELUPUR VARANASI 284"
+     ],
+     [
+      "111",
+      "TILAK MARG 111"
+     ],
+     [
+      "112",
+      "TILAK NAGAR 112"
+     ],
+     [
+      "113",
+      "TIMAR PUR 113"
+     ],
+     [
+      "230",
+      "TIRUPPUR TAMILNADU 230"
+     ],
+     [
+      "335",
+      "TOURISH POLICE STATION TRC SRINAGAR JAMMU AND KASHMIR 335"
+     ],
+     [
+      "114",
+      "TOWN HALL 114"
+     ],
+     [
+      "115",
+      "TRILOK PURI 115"
+     ],
+     [
+      "116",
+      "TUGLAQ ROAD 116"
+     ],
+     [
+      "318",
+      "TUTICORIN TAMIL NADU 318"
+     ],
+     [
+      "295",
+      "UDAIPUR RAJASTHAN 295"
+     ],
+     [
+      "194",
+      "UDYOG NAGAR 194"
+     ],
+     [
+      "276",
+      "URBAN STATE ROHTAK 276"
+     ],
+     [
+      "125",
+      "USMANPUR 125"
+     ],
+     [
+      "117",
+      "UTTAM NAGAR 117"
+     ],
+     [
+      "118",
+      "VASANT KUNJ 118"
+     ],
+     [
+      "182",
+      "VASANT KUNJ SOUTH 182"
+     ],
+     [
+      "119",
+      "VASANT VIHAR 119"
+     ],
+     [
+      "266",
+      "VASCO POLICE STATION GOA 266"
+     ],
+     [
+      "320",
+      "VIGILANCE 320"
+     ],
+     [
+      "305",
+      "VIGILANCE AND ANTI COR. PALAKKAD KERALA 305"
+     ],
+     [
+      "149",
+      "VIJAY VIHAR 149"
+     ],
+     [
+      "120",
+      "VIKAS PURI 120"
+     ],
+     [
+      "122",
+      "VIVEK VIHAR 122"
+     ],
+     [
+      "314",
+      "WAKAD MAHARASHTRA 314"
+     ],
+     [
+      "316",
+      "WAZIR GANJ LUCKNOW UTTAR PRADESH 316"
+     ],
+     [
+      "123",
+      "WELCOME COLONY 123"
+     ],
+     [
+      "321",
+      "W FOUR AWPS KILPAUK 321"
+     ],
+     [
+      "207",
+      "YAMUNA DEPOT.METRO EAST 207"
+     ],
+     [
+      "124",
+      "ZAFFAR PUR 124"
+     ]
+    ]
+   }
+  ]
+ },
+ "Act": {
+  "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+  "tables": [],
+  "selects": [
+   {
+    "name": "sess_state_code",
+    "options": [
+     [
+      "0",
+      "Select Highcourt"
+     ],
+     [
+      "13",
+      "Allahabad High Court"
+     ],
+     [
+      "1",
+      "Bombay High Court"
+     ],
+     [
+      "16",
+      "Calcutta High Court"
+     ],
+     [
+      "6",
+      "Gauhati High Court"
+     ],
+     [
+      "29",
+      "High Court for State of Telangana"
+     ],
+     [
+      "2",
+      "High Court of Andhra Pradesh"
+     ],
+     [
+      "18",
+      "High Court of Chhattisgarh"
+     ],
+     [
+      "26",
+      "High Court of Delhi"
+     ],
+     [
+      "17",
+      "High Court of Gujarat"
+     ],
+     [
+      "5",
+      "High Court of Himachal Pradesh"
+     ],
+     [
+      "12",
+      "High Court of Jammu and Kashmir and Ladakh"
+     ],
+     [
+      "7",
+      "High Court of Jharkhand"
+     ],
+     [
+      "3",
+      "High Court of Karnataka"
+     ],
+     [
+      "4",
+      "High Court of Kerala"
+     ],
+     [
+      "23",
+      "High Court of Madhya Pradesh"
+     ],
+     [
+      "25",
+      "High Court of Manipur"
+     ],
+     [
+      "21",
+      "High Court of Meghalaya"
+     ],
+     [
+      "11",
+      "High Court of Orissa"
+     ],
+     [
+      "22",
+      "High Court of Punjab and Haryana"
+     ],
+     [
+      "9",
+      "High Court of Rajasthan"
+     ],
+     [
+      "24",
+      "High Court of Sikkim"
+     ],
+     [
+      "20",
+      "High Court of Tripura"
+     ],
+     [
+      "15",
+      "High Court of Uttarakhand"
+     ],
+     [
+      "10",
+      "Madras High Court"
+     ],
+     [
+      "8",
+      "Patna High Court"
+     ]
+    ]
+   },
+   {
+    "name": "court_complex_code",
+    "options": [
+     [
+      "0",
+      "Select Bench"
+     ],
+     [
+      "1",
+      "Principal Bench at Delhi"
+     ]
+    ]
+   },
+   {
+    "name": "actcode",
+    "options": [
+     [
+      "object(PDO)",
+      ""
+     ],
+     [
+      "959 (0) {\n}\n0",
+      "Select act type"
+     ],
+     [
+      "178",
+      "15"
+     ],
+     [
+      "210",
+      "182"
+     ],
+     [
+      "180",
+      "2"
+     ],
+     [
+      "206",
+      "78"
+     ],
+     [
+      "195",
+      "79"
+     ],
+     [
+      "228",
+      "ADV"
+     ],
+     [
+      "209",
+      "ANTI HIJACKING ACT"
+     ],
+     [
+      "2",
+      "ANTI -HIJACKING ACT, 1982"
+     ],
+     [
+      "127",
+      "ANTIQUITIES &amp; ART TREASURERS ACT, 1972"
+     ],
+     [
+      "179",
+      "ARBI"
+     ],
+     [
+      "227",
+      "ARBITRATION"
+     ],
+     [
+      "170",
+      "ARBITRATION ACT1940"
+     ],
+     [
+      "225",
+      "ARBITRATION ACT 1940"
+     ],
+     [
+      "202",
+      "ARBITRATION AND CONCILIATION ACT"
+     ],
+     [
+      "165",
+      "ARBITRATION &amp; CONCILIATION ACT, 1996"
+     ],
+     [
+      "181",
+      "ARMS"
+     ],
+     [
+      "52",
+      "ARMS ACT"
+     ],
+     [
+      "148",
+      "BENAMI TRANSACTIONS PROHIBITION ACT, 1988"
+     ],
+     [
+      "197",
+      "BOMBAY"
+     ],
+     [
+      "157",
+      "BOMBAY PREVENTION OF BEGGING ACT, 1959"
+     ],
+     [
+      "3",
+      "BONDED LABOUR SYSTEM (ABOLITION) ACT, 1976"
+     ],
+     [
+      "186",
+      "CANTONMENT ACT"
+     ],
+     [
+      "114",
+      "CENTRAL EXCISE ACT"
+     ],
+     [
+      "155",
+      "CENTRAL EXCISE AND SALT ACT"
+     ],
+     [
+      "126",
+      "CHILD LABOUR(PROHIBITION &amp; REGULATION) ACT, 1986"
+     ],
+     [
+      "182",
+      "CHILD MARRIAGE RESTRAINT ACT"
+     ],
+     [
+      "4",
+      "CINEMATOGRAPH ACT, 1952"
+     ],
+     [
+      "173",
+      "CINEMATOGRAPHY"
+     ],
+     [
+      "187",
+      "CIVIL"
+     ],
+     [
+      "162",
+      "CODE OF CIVIL PROCEDURE"
+     ],
+     [
+      "57",
+      "CODE OF CRIMINAL PROCEDURE"
+     ],
+     [
+      "203",
+      "COMPANIES ACT"
+     ],
+     [
+      "99",
+      "COMPANIES ACT 1956"
+     ],
+     [
+      "45",
+      "CONSERVATION OF FOREIGN EXCHANGE AND PREVENTION OF SMUGLING ACTIVITIES ACT,1974"
+     ],
+     [
+      "200",
+      "CONSTITUTION"
+     ],
+     [
+      "43",
+      "CONSTITUTION OF INDIA"
+     ],
+     [
+      "199",
+      "CONSUMER"
+     ],
+     [
+      "236",
+      "CONTAMPT"
+     ],
+     [
+      "216",
+      "CONTEMPT"
+     ],
+     [
+      "131",
+      "CONTEMPT OF COURTS ACT"
+     ],
+     [
+      "63",
+      "CONTRACT LABOUR (REGULATION AND ABOLITION) ACT, 1970"
+     ],
+     [
+      "80",
+      "COPY RIGHT ACT"
+     ],
+     [
+      "211",
+      "CPC"
+     ],
+     [
+      "196",
+      "CRIMINAL"
+     ],
+     [
+      "115",
+      "CRIMINAL LAW AMENDMENT ORDINANCE 1944"
+     ],
+     [
+      "41",
+      "CUSTOM ACT"
+     ],
+     [
+      "142",
+      "DANGEROUS DRUGS ACT"
+     ],
+     [
+      "160",
+      "DELHI AGRICULTURAL CATLE PREVENTION ACT"
+     ],
+     [
+      "191",
+      "DELHI BUILDING AND OTHER CONSTRUCTION WORKERS"
+     ],
+     [
+      "68",
+      "DELHI DEVELOPMENT ACT"
+     ],
+     [
+      "124",
+      "DELHI EXCISE ACT"
+     ],
+     [
+      "218",
+      "DELHI HIGH COURT"
+     ],
+     [
+      "188",
+      "DELHI MUNICIPAL CORPORATION ACT"
+     ],
+     [
+      "69",
+      "DELHI MUNICIPAL CORPORATION ACT, 1957"
+     ],
+     [
+      "192",
+      "DELHI NURSING HOMES REGISTRATION ACT, 1953"
+     ],
+     [
+      "73",
+      "DELHI POLICE ACT"
+     ],
+     [
+      "212",
+      "DELHI TREES CONSERVATION ACT"
+     ],
+     [
+      "5",
+      "DOWRY PROHIBITION ACT, 1961"
+     ],
+     [
+      "151",
+      "DRC ACT"
+     ],
+     [
+      "64",
+      "DRUGS AND COSMETIC ACT 1940"
+     ],
+     [
+      "6",
+      "DRUGS (CONTROL) ACT, 1950"
+     ],
+     [
+      "128",
+      "DRUGS &amp; MAGIC REMEDIES (OBJECTIONABLE ADVERTISEMENTS) ACT, 1954"
+     ],
+     [
+      "132",
+      "EMPLOYEES PENSION SCHEME ACT"
+     ],
+     [
+      "119",
+      "EMPLOYEES PROVIDENT FUND &amp; MISC. PROVISION ACT, 1952"
+     ],
+     [
+      "91",
+      "EMPLOYEES STATE INSURANCE ACT"
+     ],
+     [
+      "90",
+      "ENVIRONMENT PROTECTION ACT"
+     ],
+     [
+      "87",
+      "ESSENTIAL COMMODITIES ACT, 1955"
+     ],
+     [
+      "198",
+      "EVIDENCE"
+     ],
+     [
+      "83",
+      "EXCISE ACT"
+     ],
+     [
+      "10",
+      "EXPLOSIVE SUBSTANCES ACT, 1908"
+     ],
+     [
+      "205",
+      "EXTRADITION ACT"
+     ],
+     [
+      "166",
+      "FACTORIES ACT, 1948"
+     ],
+     [
+      "11",
+      "FATAL ACCIDENTS ACT, 1855"
+     ],
+     [
+      "189",
+      "FLAG CODE OF INDIA ACT 2002"
+     ],
+     [
+      "12",
+      "FOOD SAFETY AND STANDARDS ACT, 2006"
+     ],
+     [
+      "220",
+      "FOREGNERS ACT"
+     ],
+     [
+      "139",
+      "FOREIGN CONTRIBUTION (REGULATION) ACT, 2010"
+     ],
+     [
+      "62",
+      "FOREIGN EXCHANGE MANAGEMENT ACT"
+     ],
+     [
+      "133",
+      "FOREIGN EXCHANGE REGULATION ACT, 1973"
+     ],
+     [
+      "112",
+      "GAMBLING ACT"
+     ],
+     [
+      "152",
+      "GOLD CONTROL ACT, 1968"
+     ],
+     [
+      "110",
+      "HARYANA APARTMENT HONOURSHIP ACT, 1983"
+     ],
+     [
+      "215",
+      "HIGH"
+     ],
+     [
+      "107",
+      "HINDU MARRIAGE ACT"
+     ],
+     [
+      "122",
+      "IMMEGRATION ACT"
+     ],
+     [
+      "88",
+      "IMMORAL TRAFFIC (PREVENTION) ACT 1956"
+     ],
+     [
+      "150",
+      "IMPORT AND EXPORT CONTROL ACT, 1947"
+     ],
+     [
+      "138",
+      "INCOME TAX ACT, 1961"
+     ],
+     [
+      "106",
+      "INDECENT REPRESENTATION OF WOMEN ACT"
+     ],
+     [
+      "120",
+      "INDIAN ELECTRICITY ACT"
+     ],
+     [
+      "213",
+      "INDIAN FOREST ACT 1927"
+     ],
+     [
+      "1",
+      "INDIAN PENAL CODE"
+     ],
+     [
+      "85",
+      "INDIAN TELEGRAPH ACT"
+     ],
+     [
+      "144",
+      "INDUSTRIAL DISPUTE ACT, 1947"
+     ],
+     [
+      "208",
+      "INDUSTRIAL DISPUTES ACT"
+     ],
+     [
+      "14",
+      "INFORMATION TECHNOLOGY ACT, 2000"
+     ],
+     [
+      "95",
+      "INSECTICIDES ACT, 1968"
+     ],
+     [
+      "15",
+      "JUVENILE JUSTICE (CARE AND PROTECTION OF CHILDREN) ACT, 2000"
+     ],
+     [
+      "121",
+      "LEGAL METROLOGY ACT, 2009"
+     ],
+     [
+      "233",
+      "LIMITATION ACT"
+     ],
+     [
+      "67",
+      "MAHARASHTRA CONTROL OF ORGANISED CRIME ACT"
+     ],
+     [
+      "167",
+      "MINIMUM WAGES ACT, 1948"
+     ],
+     [
+      "185",
+      "MOTOR"
+     ],
+     [
+      "77",
+      "MOTOR VEHICLE ACT"
+     ],
+     [
+      "100",
+      "MUNICIPAL CORPORATION ACT 1957"
+     ],
+     [
+      "129",
+      "MUSLIM WOMEN(PROTECTION OF RIGHTS ON DIVORCE) ACT, 1986"
+     ],
+     [
+      "16",
+      "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES ACT, 1985"
+     ],
+     [
+      "17",
+      "NARCOTIC DRUGS AND PSYCHOTROPIC SUBSTANCES (REGULATION OF CONTROLLED SUBSTANCE) ORDER, 1993"
+     ],
+     [
+      "18",
+      "NEGOTIABLE INSTRUMENTS ACT, 1881"
+     ],
+     [
+      "78",
+      "NEW DELHI MUNICIPAL COUNCIL ACT, 1994"
+     ],
+     [
+      "19",
+      "OFFICIAL SECRETS ACT, 1923"
+     ],
+     [
+      "20",
+      "PASSPORTS ACT, 1967"
+     ],
+     [
+      "169",
+      "POCSO"
+     ],
+     [
+      "137",
+      "POTA"
+     ],
+     [
+      "25",
+      "PRE-COCEPTION AND PRE-NATAL DIAGNOSTIC TECHNIQUES (PROHIBITION OF SEX SELECTION) ACT, 1994"
+     ],
+     [
+      "79",
+      "PREVENETION OF CORRUPTION ACT, 1947"
+     ],
+     [
+      "175",
+      "PREVENTION AND CONTROL OF POLLUTION ACT"
+     ],
+     [
+      "149",
+      "PREVENTION OF ATROCITIES"
+     ],
+     [
+      "26",
+      "PREVENTION OF BLACKMARKETING AND MAINTENANCE OF SUPPLIES OF ESSENTIAL COMMODITIES ACT, 1980"
+     ],
+     [
+      "161",
+      "PREVENTION OF CRUELTY TO ANIMAL ACT"
+     ],
+     [
+      "29",
+      "PREVENTION OF DAMAGE TO PUBLIC PROPERTY ACT, 1984"
+     ],
+     [
+      "42",
+      "PREVENTION OF FOOD ADULTERATION"
+     ],
+     [
+      "34",
+      "PREVENTION OF MONEY-LAUNDERING ACT, 2002"
+     ],
+     [
+      "136",
+      "PRIZE CHIT &amp; MONEY CIRCULATION SCHEME (BANNING) ACT, 1978"
+     ],
+     [
+      "97",
+      "PROBATION OF OFFENDER ACT"
+     ],
+     [
+      "164",
+      "PROTECTION OF CHILD OF SEXUAL OFFENCE ACT"
+     ],
+     [
+      "84",
+      "PROTECTION OF CIVIL RIGHT ACT"
+     ],
+     [
+      "35",
+      "PROTECTION OF PLANT VARIETIES AND FARMERS RIGHTS ACT, 2001"
+     ],
+     [
+      "36",
+      "PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005"
+     ],
+     [
+      "37",
+      "PUBLIC PREMISES (EVICTION OF UNAUTHORISED OCCUPANTS) ACT, 1971"
+     ],
+     [
+      "103",
+      "PUNJAB EXCISE ACT"
+     ],
+     [
+      "134",
+      "RAILWAY PROPERTY (UNLAWFUL POSSESSION) ACT, 1966"
+     ],
+     [
+      "39",
+      "REGISTRATION OF FOREIGNERS ACT, 1939"
+     ],
+     [
+      "153",
+      "REGULATION OF PRODUCTION SUPPLY AND DISTRIBUTION ACT, 1992"
+     ],
+     [
+      "53",
+      "RESERVE BANK OF INDIA ACT"
+     ],
+     [
+      "40",
+      "SCHEDULED CASTES AND SCHEDULED TRIES (PREVENTION OF ATROCITIES) ACT, 1989"
+     ],
+     [
+      "59",
+      "SEBI ACT"
+     ],
+     [
+      "159",
+      "SECURITISATION AND RECONSTRUCTION OF FINANCIAL ASSETS AND ENFORCEMENT OF SECURITY INTEREST ACT, 2002"
+     ],
+     [
+      "117",
+      "STANDARD OF WEIGHTS AND MEASUREMENT (ENF) ACT, 1985"
+     ],
+     [
+      "98",
+      "TADA(P) ACT"
+     ],
+     [
+      "221",
+      "THE ANCIENT MONUMENT &amp; ARCH.SITES &amp; REMAINS ACT 1958"
+     ],
+     [
+      "177",
+      "THE DELHI MEDICAL COUNCIL ACT 1997"
+     ],
+     [
+      "168",
+      "THE FOREIGNERS ACT, 1946"
+     ],
+     [
+      "82",
+      "THE INDIAN STAMP ACT, 1899"
+     ],
+     [
+      "154",
+      "THE MAINTENANCE AND WELFARE OF PARENTS AND SENIOR CITIZENS ACT, 2007"
+     ],
+     [
+      "156",
+      "THE PAYMENT AND SETTLEMENT SYSTEMS ACT"
+     ],
+     [
+      "207",
+      "THE WORKING JOURNALISTS AND OTHER NEWSPAPER EMPLOYEES (CONDITIONS OF SERVICES) AND MISCELLANEOUS PROVISIONS ACT 1955"
+     ],
+     [
+      "140",
+      "TRADE MARKS AND MERCHANDISE ACT"
+     ],
+     [
+      "116",
+      "TRANSPLANTATION OF HUMAN ORGANS ACT, 1994"
+     ],
+     [
+      "76",
+      "UNLAWFUL ACTIVITIES ACT"
+     ],
+     [
+      "224",
+      "VOLUME V"
+     ],
+     [
+      "143",
+      "WAQF BOARD ACT"
+     ],
+     [
+      "184",
+      "WEALTH TAX ACT"
+     ],
+     [
+      "109",
+      "WILD LIFE (PROTECTION) ACT"
+     ]
+    ]
+   }
+  ]
+ },
+ "Case Type": {
+  "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+  "tables": [],
+  "selects": [
+   {
+    "name": "sess_state_code",
+    "options": [
+     [
+      "0",
+      "Select Highcourt"
+     ],
+     [
+      "13",
+      "Allahabad High Court"
+     ],
+     [
+      "1",
+      "Bombay High Court"
+     ],
+     [
+      "16",
+      "Calcutta High Court"
+     ],
+     [
+      "6",
+      "Gauhati High Court"
+     ],
+     [
+      "29",
+      "High Court for State of Telangana"
+     ],
+     [
+      "2",
+      "High Court of Andhra Pradesh"
+     ],
+     [
+      "18",
+      "High Court of Chhattisgarh"
+     ],
+     [
+      "26",
+      "High Court of Delhi"
+     ],
+     [
+      "17",
+      "High Court of Gujarat"
+     ],
+     [
+      "5",
+      "High Court of Himachal Pradesh"
+     ],
+     [
+      "12",
+      "High Court of Jammu and Kashmir and Ladakh"
+     ],
+     [
+      "7",
+      "High Court of Jharkhand"
+     ],
+     [
+      "3",
+      "High Court of Karnataka"
+     ],
+     [
+      "4",
+      "High Court of Kerala"
+     ],
+     [
+      "23",
+      "High Court of Madhya Pradesh"
+     ],
+     [
+      "25",
+      "High Court of Manipur"
+     ],
+     [
+      "21",
+      "High Court of Meghalaya"
+     ],
+     [
+      "11",
+      "High Court of Orissa"
+     ],
+     [
+      "22",
+      "High Court of Punjab and Haryana"
+     ],
+     [
+      "9",
+      "High Court of Rajasthan"
+     ],
+     [
+      "24",
+      "High Court of Sikkim"
+     ],
+     [
+      "20",
+      "High Court of Tripura"
+     ],
+     [
+      "15",
+      "High Court of Uttarakhand"
+     ],
+     [
+      "10",
+      "Madras High Court"
+     ],
+     [
+      "8",
+      "Patna High Court"
+     ]
+    ]
+   },
+   {
+    "name": "court_complex_code",
+    "options": [
+     [
+      "0",
+      "Select Bench"
+     ],
+     [
+      "1",
+      "Principal Bench at Delhi"
+     ]
+    ]
+   },
+   {
+    "name": "case_type44",
+    "options": [
+     [
+      "0",
+      "Select case type"
+     ],
+     [
+      "83",
+      "ARB.A.(ARBITRATION APPEAL)-83"
+     ],
+     [
+      "102",
+      "ARB. A. (COMM.)(COMMERCIAL ARBITRATION U/S 37(2))-102"
+     ],
+     [
+      "40",
+      "ARB.P.(ARBITRATION APPL.)-40"
+     ],
+     [
+      "8",
+      "BAIL APPLN.(BAIL APPLICATION)-8"
+     ],
+     [
+      "2",
+      "CA(CAVEAT)-2"
+     ],
+     [
+      "161",
+      "CA (COMM.IPD-CR)(CA (COMM.IPD-CR))-161"
+     ],
+     [
+      "162",
+      "C.A.(COMM.IPD-GI)(C.A.(COMM.IPD-GI))-162"
+     ],
+     [
+      "159",
+      "C.A.(COMM.IPD-PAT)(C.A.(COMM.IPD-PAT))-159"
+     ],
+     [
+      "166",
+      "C.A.(COMM.IPD-PV)(C.A.(COMM.IPD-PV))-166"
+     ],
+     [
+      "160",
+      "C.A.(COMM.IPD-TM)(C.A.(COMM.IPD-TM))-160"
+     ],
+     [
+      "21",
+      "CAVEAT(CO.)(CAVEAT(CO.))-21"
+     ],
+     [
+      "61",
+      "CC(ARB.)(CIVIL CONTEMPT REFERENCE (ARBITRATION))-61"
+     ],
+     [
+      "59",
+      "CCP(CO.)(CIVIL CONTEMPT PET.)-59"
+     ],
+     [
+      "11",
+      "CCP(REF)(CCP(REF))-11"
+     ],
+     [
+      "117",
+      "CEAC(C. EXCISE ACT CASE)-117"
+     ],
+     [
+      "37",
+      "CEAR(C. EXCISE ACT REF.)-37"
+     ],
+     [
+      "94",
+      "CHAT.A.C.(CHARTED ACC. CASES)-94"
+     ],
+     [
+      "113",
+      "CHAT.A.REF(CHARTED ACC. REF.)-113"
+     ],
+     [
+      "79",
+      "CMI(CMI)-79"
+     ],
+     [
+      "70",
+      "CM(M)(CIVIL MISC(MAIN))-70"
+     ],
+     [
+      "152",
+      "CM(M)-IPD(CM(M)-IPD)-152"
+     ],
+     [
+      "55",
+      "C.O.(CIVIL ORIGINAL)-55"
+     ],
+     [
+      "75",
+      "CO.APP.(COMPANY APPEAL)-75"
+     ],
+     [
+      "88",
+      "CO.APPL.(C)(CO.APPL.(C))-88"
+     ],
+     [
+      "20",
+      "CO.APPL.(M)(CO.APPL.(M))-20"
+     ],
+     [
+      "78",
+      "CO.A(SB)(APPEALS UNDER 10F OF THE COMPANIES ACT A)-78"
+     ],
+     [
+      "165",
+      "C.O.(COMM.IPD-CR)(C.O.(COMM.IPD-CR))-165"
+     ],
+     [
+      "163",
+      "C.O.(COMM.IPD-GI)(C.O.(COMM.IPD-GI))-163"
+     ],
+     [
+      "164",
+      "C.O.(COMM.IPD-PAT)(C.O.(COMM.IPD-PAT))-164"
+     ],
+     [
+      "158",
+      "C.O. (COMM.IPD-TM)(C.O. (COMM.IPD-TM))-158"
+     ],
+     [
+      "133",
+      "CO.EX.(COMPANY EXEC. APPEAL)-133"
+     ],
+     [
+      "95",
+      "CONT.APP.(C)(CIV. CONTEMPT APPEAL)-95"
+     ],
+     [
+      "127",
+      "CONT.CAS(C)(CIV. CONTEMPT PET.)-127"
+     ],
+     [
+      "119",
+      "CONT.CAS.(CRL)(CRIMINAL CONTEMPT)-119"
+     ],
+     [
+      "43",
+      "CO.PET.(COMPANY PETITION)-43"
+     ],
+     [
+      "16",
+      "CO.SEC.REF(COMPANY SECRETARY REFERENCE)-16"
+     ],
+     [
+      "168",
+      "C.REF.(CIVIL REFERENCE)-168"
+     ],
+     [
+      "85",
+      "C.REF.(O)(CIVIL REFERENCE (O))-85"
+     ],
+     [
+      "92",
+      "CRL.A.(CRIMINAL APPEAL)-92"
+     ],
+     [
+      "36",
+      "CRL.C.REF.(CRL. CONTEMPT REF.)-36"
+     ],
+     [
+      "97",
+      "CRL.L.P.(CRIMINAL MISC.APPL.)-97"
+     ],
+     [
+      "28",
+      "CRL.M.C.(CRIMINAL MISC(MAIN))-28"
+     ],
+     [
+      "77",
+      "CRL.M.(CO.)(CRIMINAL MISC.(COMPANY SIDE))-77"
+     ],
+     [
+      "12",
+      "CRL.M.I.(CRL.M.I.)-12"
+     ],
+     [
+      "10",
+      "CRL.O.(CRIMINAL ORIGINAL)-10"
+     ],
+     [
+      "108",
+      "CRL.O.(CO.)(CRIMINAL ORIGINAL(COMPANY SIDE))-108"
+     ],
+     [
+      "115",
+      "CRL.REF.(CRL. REF.)-115"
+     ],
+     [
+      "105",
+      "CRL.REV.P.(CRIMINAL REVISION)-105"
+     ],
+     [
+      "171",
+      "CRL.REV.P.(MAT.)(CRIMINAL REVISION OF MATRIMONIAL MATTERS)-171"
+     ],
+     [
+      "170",
+      "CRL.REV.P.(NDPS)(CRIMINAL REVISION FOR NDPS ACT)-170"
+     ],
+     [
+      "169",
+      "CRL.REV.P.(NI)(CRIMINAL REVISION FOR NI ACT)-169"
+     ],
+     [
+      "68",
+      "C.R.P.(CIVIL REVISION)-68"
+     ],
+     [
+      "150",
+      "CRP-IPD(CRP-IPD)-150"
+     ],
+     [
+      "42",
+      "C.RULE(CIVIL RULE(ORIGINAL SIDE))-42"
+     ],
+     [
+      "51",
+      "CS(COMM)(CIVIL SUIT COMMERCIAL)-51"
+     ],
+     [
+      "138",
+      "CS(COMM) INFRA(CS(COMM) INFRA)-138"
+     ],
+     [
+      "122",
+      "CS(OS)(CIVIL SUIT)-122"
+     ],
+     [
+      "19",
+      "CS(OS) GP(SUIT FOR GUARDIAN SHIP ACT)-19"
+     ],
+     [
+      "137",
+      "CS(OS) INFRA(CS(OS) INFRA)-137"
+     ],
+     [
+      "15",
+      "CUSAA(CUSTOM ACT APPEAL)-15"
+     ],
+     [
+      "116",
+      "CUS.A.C.(CUSTOM ACT CASES)-116"
+     ],
+     [
+      "96",
+      "CUS.A.R.(CUSTOM ACT REF.)-96"
+     ],
+     [
+      "86",
+      "CUSTOM A.(CUSTOM.A)-86"
+     ],
+     [
+      "104",
+      "DEATH SENTENCE REF.(MURDER REFENCE)-104"
+     ],
+     [
+      "32",
+      "EDR(ESTATE DUTY REF.)-32"
+     ],
+     [
+      "144",
+      "EFA(COMM)(APPEAL FROM ORDER OF EXECUTION PASSED BY COMMERCIAL COURT ADJ 144)-144"
+     ],
+     [
+      "73",
+      "EFA(OS)(EX. Ist APP.(OS))-73"
+     ],
+     [
+      "62",
+      "EFA(OS) (COMM)(EXECUTION FIRST APPEALS COMMERCIAL)-62"
+     ],
+     [
+      "151",
+      "EFA(OS)-IPD(EFA(OS)-IPD)-151"
+     ],
+     [
+      "154",
+      "EFA(OS)(IPD)(EFA(OS)(IPD))-154"
+     ],
+     [
+      "3",
+      "EL.PET.(ELECTION PETITION)-3"
+     ],
+     [
+      "114",
+      "ETR(EXPEND. TAX REF.)-114"
+     ],
+     [
+      "90",
+      "EX.F.A.(EXECUTION Ist APPEAL)-90"
+     ],
+     [
+      "56",
+      "EX.P.(EXECUTION PETITION)-56"
+     ],
+     [
+      "91",
+      "EX.S.A.(EXECUTION IInd APP.)-91"
+     ],
+     [
+      "24",
+      "FAO(FIRST APP.FROM ORDER)-24"
+     ],
+     [
+      "142",
+      "FAO (COMM)(COMMERCIAL APPELLATE)-142"
+     ],
+     [
+      "148",
+      "FAO-IPD(FAO-IPD)-148"
+     ],
+     [
+      "112",
+      "FAO(OS)(Ist APP. FR.ORDER OS)-112"
+     ],
+     [
+      "67",
+      "FAO(OS) (COMM)(FIRST APPEAL FROM ORDERS COMMERCIAL)-67"
+     ],
+     [
+      "153",
+      "FAO(OS)-IPD(FAO(OS)-IPD)-153"
+     ],
+     [
+      "157",
+      "FAO(OS)(IPD)(FAO(OS)(IPD))-157"
+     ],
+     [
+      "128",
+      "GCAC(GOLD CONT.ACT CASE)-128"
+     ],
+     [
+      "118",
+      "GCAR(GOLD CONT.ACT REF.)-118"
+     ],
+     [
+      "131",
+      "GTA(GIFT TAX APPEALS)-131"
+     ],
+     [
+      "93",
+      "GTC(GIFT TAX CASES)-93"
+     ],
+     [
+      "74",
+      "GTR(GIFT TAX REF.)-74"
+     ],
+     [
+      "54",
+      "I.P.A.(INDIGENT PERSON APPLICATION)-54"
+     ],
+     [
+      "39",
+      "ITA(INCOME TAX APPEAL)-39"
+     ],
+     [
+      "29",
+      "ITC(INCOME TAX CASES)-29"
+     ],
+     [
+      "107",
+      "ITR(INCOME TAX REF.)-107"
+     ],
+     [
+      "35",
+      "ITSA(INCOME TAX IInd APP.)-35"
+     ],
+     [
+      "9",
+      "LA.APP.(APPEALS UNDER LAND ACQUISATION ACT)-9"
+     ],
+     [
+      "38",
+      "LPA(LETTER PATENT APPEAL)-38"
+     ],
+     [
+      "58",
+      "MAC.APP.(APPEALS PERTAINING TO MOTOR ACC. CLAIMS)-58"
+     ],
+     [
+      "132",
+      "MAT.(MAT.CAS.)-132"
+     ],
+     [
+      "7",
+      "MAT.APP.(APPEALS IN MATRIMONIAL CASES)-7"
+     ],
+     [
+      "26",
+      "MAT.APP.(F.C.)(MAT.APPEAL-FAMILY COURT)-26"
+     ],
+     [
+      "121",
+      "MAT.CASE(MAT.CASES)-121"
+     ],
+     [
+      "30",
+      "MAT.REF.(MATRIMONIAL REF.)-30"
+     ],
+     [
+      "173",
+      "MISC. APPEAL (FEMA)(MISC. APPEAL (FEMA))-173"
+     ],
+     [
+      "174",
+      "MISC. APPEAL(PBPTA)(MISC. APPEAL(PBPTA))-174"
+     ],
+     [
+      "143",
+      "MISC. APPEAL(PMLA)(MISCELLANEOUS APPEAL(PMLA))-143"
+     ],
+     [
+      "87",
+      "OA(ORIGINAL APPEAL)-87"
+     ],
+     [
+      "125",
+      "OCJA(ORIGINAL CIVIL JURIDICTION APPEAL)-125"
+     ],
+     [
+      "4",
+      "O.M.P.(ORGL. MISC. PETITION)-4"
+     ],
+     [
+      "64",
+      "O.M.P. (COMM)(COMMERCIAL ARBITRATION U/S 34)-64"
+     ],
+     [
+      "139",
+      "O.M.P. (COMM) INFRA(O.M.P. (COMM) INFRA)-139"
+     ],
+     [
+      "136",
+      "OMP (CONT.)(U/S 27 (5) ARB. &amp; CONCILIATION ACT, 1996)-136"
+     ],
+     [
+      "48",
+      "O.M.P. (E)(ORIGINAL MISC. PETTITON EVIDENCE SEC.)-48"
+     ],
+     [
+      "49",
+      "O.M.P. (E) (COMM.)(COMMERCIAL ARBITRATION U/S 27)-49"
+     ],
+     [
+      "65",
+      "O.M.P.(EFA)(COMM.)(COMMERCIAL ARBITRATION U/S 48)-65"
+     ],
+     [
+      "172",
+      "O.M.P. (ENF.)(NON-COMMERCIAL ARBITRATION U/S 17 OR 36)-172"
+     ],
+     [
+      "50",
+      "OMP (ENF.) (COMM.)(COMMERCIAL ARBITRATION U/S 36)-50"
+     ],
+     [
+      "66",
+      "O.M.P.(I)(ORIGINAL MISC. PETITION INTERIM SECTION)-66"
+     ],
+     [
+      "99",
+      "O.M.P.(I) (COMM.)(COMMERCIAL ARBITRATION U/S 9)-99"
+     ],
+     [
+      "140",
+      "OMP (INFRA)(OMP (INFRA))-140"
+     ],
+     [
+      "101",
+      "O.M.P. (J) (COMM.)(COMMERCIAL ARBITRATION U/S 16)-101"
+     ],
+     [
+      "135",
+      "O.M.P. (MISC.)(ORIGINAL MISC. PETITION (MISC.))-135"
+     ],
+     [
+      "123",
+      "O.M.P.(MISC.)(COMM.)(ORIGINAL MISC.PETITION(MISC.) COMMERCIAL)-123"
+     ],
+     [
+      "17",
+      "O.M.P.(T)(ORIGINAL MISC. PETITION (TERMINATE))-17"
+     ],
+     [
+      "100",
+      "O.M.P. (T) (COMM.)(COMMERCIAL ARBITRATION U/S 14 &amp; 15)-100"
+     ],
+     [
+      "71",
+      "O.REF.(CIVIL REF.)-71"
+     ],
+     [
+      "60",
+      "RC.REV.(REVISSION PET. UNDER RENT CONTROL ACT)-60"
+     ],
+     [
+      "25",
+      "RC.S.A.(SEC. APP. FROM ORDER)-25"
+     ],
+     [
+      "47",
+      "REPORT(VOL. LIQUIDATIN)-47"
+     ],
+     [
+      "145",
+      "RERA APPEAL(REAL ESTATE REGULATORY AUTHORITY APPEAL)-145"
+     ],
+     [
+      "22",
+      "RFA(REGULAR FIST APPEAL)-22"
+     ],
+     [
+      "141",
+      "RFA(COMM)(APPEAL FROM ORIGINAL DECREE PASSED BY COMMERCIAL COURT ADJ)-141"
+     ],
+     [
+      "146",
+      "RFA-IPD(RFA-IPD)-146"
+     ],
+     [
+      "33",
+      "RFA(OS)(REG.Ist APP.(OS))-33"
+     ],
+     [
+      "52",
+      "RFA(OS)(COMM)(REGULAR FIRST APPEALS COMMERCIAL)-52"
+     ],
+     [
+      "149",
+      "RFA(OS)-IPD(RFA(OS)-IPD)-149"
+     ],
+     [
+      "167",
+      "RFA(OS)(IPD)(RFA(OS)(IPD))-167"
+     ],
+     [
+      "155",
+      "RF(OS)(IPD)(RF(OS)(IPD))-155"
+     ],
+     [
+      "23",
+      "RSA(REG. IInd APPEAL)-23"
+     ],
+     [
+      "89",
+      "SCA(SUPREME COURT APPL.)-89"
+     ],
+     [
+      "34",
+      "SDR(STAMP DUTY REF.)-34"
+     ],
+     [
+      "98",
+      "SERTA(SERVICE TAX APPEAL)-98"
+     ],
+     [
+      "31",
+      "ST.APPL.(SALES TAX CASES)-31"
+     ],
+     [
+      "84",
+      "STC(SALES TAX CASE)-84"
+     ],
+     [
+      "109",
+      "ST.REF.(SALES TAX REF.)-109"
+     ],
+     [
+      "126",
+      "SUR.T.REF.(SUR TAX REF.)-126"
+     ],
+     [
+      "53",
+      "TEST.CAS.(PROBATE CASE)-53"
+     ],
+     [
+      "103",
+      "TR.P.(C.)(TRANSFER PETITION U/S SEC 24 CPC)-103"
+     ],
+     [
+      "44",
+      "TR.P.(C)(TRANSFER PETITION UNDER SECTION 24 CPC)-44"
+     ],
+     [
+      "76",
+      "TR.P.(CRL.)(TRANSFER PETAITION FOR TRANSFER OF CRL.P)-76"
+     ],
+     [
+      "63",
+      "VAT APPEAL(VAT APPEAL NO.)-63"
+     ],
+     [
+      "147",
+      "W.C.(C)-IPD(WRIT PETITION (C)-IPD)-147"
+     ],
+     [
+      "134",
+      "W.P.(C)(CIVIL WRITS)-134"
+     ],
+     [
+      "156",
+      "WP(C)(IPD)(WP(C)(IPD))-156"
+     ],
+     [
+      "27",
+      "W.P.(CRL)(CRIMINAL WRITS)-27"
+     ],
+     [
+      "130",
+      "WTA(WEALTH TAX CASE)-130"
+     ],
+     [
+      "110",
+      "WTC(WEALTH TAX CASES)-110"
+     ],
+     [
+      "111",
+      "WTR(WEALTH TAX REF.)-111"
+     ]
+    ]
+   }
+  ]
+ },
+ "retrieved": "2026-11-01T16:15:21.248Z"
+}

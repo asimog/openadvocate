@@ -1,0 +1,40 @@
+{
+ "url": "https://hcservices.ecourts.gov.in/hcservices/",
+ "title": "Home - eCourt India High Courts Services",
+ "fields": [
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "captcha",
+   "id": "captcha",
+   "label": "*Enter Captcha",
+   "maxlength": 6
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "cino",
+   "id": "cino",
+   "label": "Enter CNR Number , for example MHAU019999992015",
+   "maxlength": 16,
+   "required": true
+  },
+  {
+   "tag": "input",
+   "type": "button",
+   "name": "",
+   "id": "searchbtn",
+   "label": ""
+  },
+  {
+   "tag": "input",
+   "type": "reset",
+   "name": "",
+   "id": "",
+   "label": ""
+  }
+ ],
+ "tables": [],
+ "text": "इ-कमिटी, उच्चतम न्यायालय, भारत\nE-COMMITTEE, SUPREME COURT OF INDIA\nSkip to main content\nAccessibility options\nउच्च न्यायालय सेवाएं\neCourts Services\nHigh Courts of India\nHome\ne-Committee\nSupreme Court\nHigh Courts\nDistrict Courts\nNJDG\nContact Us\nWelcome to e-Courts services\nSearch Menu\n\nCNR Number\n\nCase Status\n\nCourt Orders\n\nCause List\n\nCaveat Search\n\nWe have updated the High Court services website theme. Please clear your browser cache and refresh the page to view the updated theme properly.\nDownload latest eCourts Services Mobile App :      \nCaptchaCaptcha\n  \n*Enter Captcha \nHow to\n\n1.If you know the CNR Number of the Case, enter the 16 alphanumeric CNR Number without any – (hyphen) or space..\n2.On Clicking the Search button, the current status and entire history of the Case will be shown.\n3.If you don’t know the CNR number of the case, then it can be searched by other options like Case Registration Number, Party Name, Advocate Name etc. For this, click on the Case Status image, which is shown on the left hand side menu.\nSEARCH BY CNR NUMBER\nEnter CNR Number , for example MHAU019999992015\n \n\n  \n\nNote : If you don't have CNR Number then use other options from 'Search Menu section'.\n\n  How to\nIf you know the CNR Number of the Case, enter the 16 alphanumeric CNR Number without any – (hyphen) or space.\nOn Clicking the search button, the current status and entire history of the case will be shown.\nIf you don’t know the CNR number of the Case then it can be searched by other options like Case Registration Number, Party Name, Advocate Name etc. For this, click on the Case Status image, which is shown on the left hand side menu.\nUseful Links\nAbout Us\nNewsLetter\nSite map\nContact Us\nWeb Information Manager\nTerms and Conditions\nCopy Right Policy\nHyper Linking Policy\nPrivacy Policy\nAccessibility Statement\nScreen Reader Access\nDisclaimer\n\nContent Owned by eCommittee, Supreme Court of India.\n\nThis site is designed, hosted and maintained by National Informatics Centre (NIC) Ministry of Electronics & Information Technology, Government of India.\n\nLast Updated : 08-10-2026\n\nFollow Us\n\nS2\n\nVersion :3.0\n\n     ",
+ "retrieved": "2026-11-01T15:41:06.180Z"
+}

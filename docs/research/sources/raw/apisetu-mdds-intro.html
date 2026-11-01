@@ -1,0 +1,1126 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Introduction &mdash; Meta Data and Data Standards  documentation</title>
+    
+
+    
+    <style>
+
+        /*.wy-nav-content {
+        margin-top: -50px !important;
+        }*/
+
+
+        /*.wy-menu-vertical ul {
+           height: 550px;
+           overflow-y: scroll;
+        } */
+
+        .fa.fa-twitter{
+            font-family:sans-serif;
+            }
+        .fa.fa-twitter::before{
+        content:"𝕏";
+        font-size:1.2em;
+        }
+
+        #challenges {
+            padding: 0
+        }
+
+        #solution {
+            padding: 0;
+        }
+
+        #api-setu-flow {
+            padding: 0;
+        }
+
+
+        #publisher-registration-api-publishing {
+            padding: 0;
+        }
+
+        #consumer-registration-api-subscription {
+            padding: 0;
+        }
+
+        #summary {
+            padding: 25px 0 0 0;
+        }
+
+        #logging-and-monitoring {
+            padding: 0;
+        }
+
+        #ci-cd-pipeline-automated-build-and-deployment {
+            padding: 0;
+        }
+
+        #deployment-flow {
+            padding: 0;
+        }
+
+        #the-backbone-of-partners-data-exchange {
+            padding: 0;
+        }
+
+        #api-management-features {
+            padding: 0;
+        }
+
+        #role-based-features {
+            padding: 0;
+        }
+
+        #open-api-initiatives {
+            padding: 0;
+        }
+
+        #api-setu-use-cases-across-key-sectors {
+            padding: 0;
+        }
+
+        #government-to-citizen-g2c-services {
+            padding: 0;
+        }
+
+        #digital-document-verification-digilocker-integration {
+            padding: 0;
+        }
+
+        #government-to-business-g2b-services {
+            padding: 0;
+        }
+
+        #business-registration-compliance {
+            padding: 0;
+        }
+
+        #education-employment {
+            padding: 0;
+        }
+
+        #automated-student-scholarship-verification {
+            padding: 0;
+        }
+
+        #digital-employment-verification {
+            padding: 0;
+        }
+
+        #vendor-onboarding {
+            padding: 0;
+        }
+
+        #finance-sector {
+            padding: 0;
+        }
+
+
+        #insurance-sector {
+            padding: 0;
+        }
+
+        #healthcare {
+            padding: 0;
+        }
+
+        #for-publishers {
+            padding: 0;
+        }
+
+        #for-consumers {
+            padding: 0;
+        }
+
+        .reference.internal.image-reference {
+            margin: 30px 0;
+            display: block;
+        }
+
+        .document section h1 {
+            margin-top: -90px !important
+        }
+
+        .wy-nav-content {
+		  padding-top: 100px;  /* adjust based on your header height */
+		}
+
+		.document section h1,
+		.document section h2,
+		.document section h3,
+		.document section h4,
+		.document section h5,
+		.document section h6 {
+		  scroll-margin-top: 100px; /* safe offset for sticky header */
+		}
+
+        body {
+            font-family: "Nunito", Helvetica, Arial, sans-serif !important;
+            font-size: 15px !important;
+            font-weight: 400 !important;
+            color: #5f6368 !important;
+            line-height: 1.4em !important;
+        }
+
+        a.btn-custom {
+            color: #fff;
+            padding: 12px 30px;
+            min-width: 120px;
+            outline: 0;
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: none;
+            background: linear-gradient(-90deg, #ff9100 18%, #ff6f00 86%);
+        }
+
+        a.btn-custom:hover {
+            box-shadow: 2px 2px 20px 0px rgb(20 20 20 / 30%);
+        }
+
+        table tr td {
+            word-wrap: break-word !important
+        }
+
+        
+
+
+        .wy-side-nav-search .wy-dropdown>a,
+        .wy-side-nav-search>a {
+            color: #222 !important
+        }
+
+        .wy-menu-vertical a {
+            color: #222 !important
+        }
+
+        .wy-menu-vertical a:hover {
+            color: #fff !important;
+            background: #ff8400 !important
+        }
+
+        blockquote {
+            font-size: 14px !important;
+            border-left: 0px !important;
+            padding-left: 0 !important
+        }
+
+        h1 {
+            font-size: 28px !important;
+        }
+
+        h2 {
+            font-size: 22px !important;
+        }
+
+        hr {
+            border: 1px solid #e1e4e5 !important;
+            margin: 24px 0 !important;
+            height: 0px !important
+        }
+
+        h1,
+        .h1 {
+            margin-bottom: 10px !important;
+            line-height: 40px !important
+        }
+
+        p {
+            line-height: 20px !important;
+            font-size: 15px !important;
+            margin: 0 0 10px !important;
+        }
+
+        .wy-menu-vertical li.toctree-l1.current>a {
+            border-bottom: 1px solid #ededed !important;
+            border-top: 1px solid #ededed !important;
+        }
+
+        .wy-side-nav-search input[type="text"] {
+            border-color: #ccc !important;
+            box-shadow: none !important
+        }
+
+        @media only screen and (min-width: 480px) {
+            /*header {
+                position: fixed !important
+            } */
+
+            .wy-nav-side {
+                left: none !important;
+                top:0;
+                background: #f8f9fa !important
+            }
+        }
+
+
+        footer {
+            z-index: 1000
+        }
+
+        .wy-side-scroll {
+            overflow-y: hidden !important
+        }
+
+        .wy-menu-vertical header,
+        .wy-menu-vertical p.caption {
+            height: 20px !important
+        }
+
+        @media only screen and (max-width: 481px) {
+            /*
+ .footer{display:none !important}
+ */
+
+            #mainmenu {
+                display: none !important
+            }
+
+            .wy-nav-top {
+                background: none !important
+            }
+
+            .wy-nav-top a {
+                color: #35404e !important;
+            }
+
+            .wy-nav-top i {
+                color: #35404e !important;
+            }
+
+            section {
+                padding: 60px 0 90px 0 !important;
+            }
+
+            /* .wy-nav-content {
+                padding: 50px 1.618em !important;
+            }*/
+
+            .wy-nav-side {
+                background: #f8f9fa !important;
+                left: none !important;
+            }
+        }
+
+
+        .lower-footer a {
+            margin-right: 15px;
+        }
+
+        .follow-icons li {
+            display: inline-block;
+        }
+
+        .follow-icons .fb:hover {
+            color: #3b5998 !important;
+        }
+
+        .follow-icons .tweet:hover {
+            color: #00acee !important;
+        }
+
+        .follow-icons .lin:hover {
+            color: #0A66C2 !important;
+        }
+
+        .follow-icons .yt:hover {
+            color: #c4302b !important;
+        }
+
+        .widget ul li {
+            margin-bottom: 10px;
+        }
+
+        footer a:hover {
+            color: #FF7500 !important;
+        }
+
+        #mainmenu {
+            font-size: 0.75rem;
+
+        }
+
+        #mainmenu>li {
+            font-weight: 600 !important;
+        }
+
+        .btn-custom1 {
+            background: #09314D;
+            border-radius: 0.375rem;
+            padding: .625rem 1.5rem;
+            color: #fff !important;
+            font-size: 0.875rem;
+            border: 1px solid #fff;
+            font-weight: 700
+        }
+
+        .btn-custom1:hover {
+            background: #fff;
+            border: 1px solid #09314D !important;
+            color: #09314D !important;
+        }
+
+        .btn-custom2 {
+            background: #fff;
+            border-radius: 0.375rem;
+            padding: .625rem 1.5rem;
+            color: #09314D !important;
+            font-size: 0.875rem;
+            border: 1px solid #09314D !important;
+            font-weight: 700;
+        }
+
+        .btn-custom2:hover {
+            background: #09314D;
+            border: 1px solid #09314D !important;
+            color: #fff !important;
+        }
+
+        .main-navigation a {
+            display: inline-block;
+            font-size: 0.75rem;
+        }
+
+        #mainmenu li li {
+            font-size: 0.75rem !important;
+        }
+
+        footer {
+            background: #fff !important;
+            color: #6B7280 !important;
+            padding: 0px 0 0 0;
+        }
+
+        .widget01 {
+            position: relative;
+        }
+
+        .widget01 a {
+            color: #6B7280
+        }
+
+        .widget01 .fUl a {
+            font-size: .75rem !important;
+        }
+
+        .lower-footer a {
+            color: #6B7280 !important;
+        }
+
+        .follow-icons a {
+            font-size: 1.35rem;
+            margin-right: 15px;
+            border: 2px solid #6B7280;
+            width: 35px;
+            height: 35px;
+            padding: 0;
+            text-align: center;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        footer .fUl {
+            display: flex;
+            flex-direction: column;
+            row-gap: .75rem;
+        }
+
+        .lower-footer a {
+            font-size: 0.75rem !important;
+        }
+
+
+        @media only screen and (max-width: 620px) {
+            .follow-icons {
+                position: relative !important;
+            }
+
+            .txtplcinmbl .logo {
+                width: 80px !important;
+            }
+
+            .footer {
+                text-align: left !important;
+            }
+
+            .lower-footer {
+                font-size: 0.75rem !important;
+                text-align: center !important;
+            }
+
+        }
+
+        .fUl a:visited {
+            color: #6B7280 !important;
+        }
+    </style>
+
+    <link rel="icon" href="https://cdn.apisetu.gov.in/ndh/smart/images/apisetu_icon.png" type="image/gif"
+        sizes="16x16">
+    <!-- CSS Files
+================================================== -->
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/bootstrap-grid.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/bootstrap-reboot.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/owl.theme.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/owl.transitions.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/jquery.countdown.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/style_v20.css" rel="stylesheet" type="text/css" />
+
+
+    <link id="colors" href="https://cdn.apisetu.gov.in/ndh/smart/css/colors/scheme-ndh.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.apisetu.gov.in/ndh/smart/css/coloring.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/css\rtd_sphinx_search.min.css" type="text/css" />
+
+    
+    
+
+    
+    
+
+    
+
+    
+    <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+    <![endif]-->
+    
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./"
+        src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js\rtd_sphinx_search.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Target Audience" href="Target%20Audience.html" />
+    <link rel="prev" title="Meta Data and Data Standards" href="index.html" /> 
+
+   <!-- Force scroll-to-top fix -->
+    <script>
+      // Force scroll to top on every full page load
+      window.addEventListener("beforeunload", function () {
+        window.scrollTo(0, 0);
+      });
+
+      window.addEventListener("load", function () {
+        window.scrollTo(0, 0);
+      });
+
+      // Extra guard: if browser restores position, override
+      setTimeout(function () {
+        window.scrollTo(0, 0);
+      }, 100);
+
+      // Ensure sidebar link clicks also reset scroll
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll(".wy-menu-vertical a.reference.internal").forEach(function (link) {
+          link.addEventListener("click", function () {
+            setTimeout(function () {
+              window.scrollTo(0, 0);
+            }, 50);
+          });
+        });
+      });
+    </script>
+
+</head>
+
+<body class="wy-body-for-nav" style="display: block; background-size: cover;">
+      <header class="header-light transparent scroll-light clone smaller"
+                        style="height:auto ; background:#fff !important;position:sticky !important">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex justify-content-between">
+                                        <div class="align-self-center header-col-left logoinmblvw">
+                                            <!-- logo begin -->
+                                            <div>
+                                                <a href="https://www.apisetu.gov.in">
+                                                    <img class="img-fluid" alt="" style="height : 40px"
+                                                        src="https://cdn.apisetu.gov.in/ndh/smart/images/logo_1.png" />
+                                                </a>
+
+                                                <a href="https://docs.apisetu.gov.in/document-central/privacy-policy/"
+                                                    style="display:inline; border-radius:0.25rem;font-size:.75rem !important; margin:8px 0; padding:.25rem 0.5rem !important; min-width:auto ; color:#ffffff !important;"
+                                                    class="btn-custom">
+                                                    Docs
+                                                </a>
+
+                                            </div>
+                                            <!-- logo close -->
+                                        </div>
+
+
+                                        <div class="align-self-center ml-auto header-col-mid">
+
+                                            <!-- mainmenu begin -->
+                                            <ul id="mainmenu">
+                                                <li>
+                                                    <a class="btn-custom d-block d-lg-none d-xl-none "
+                                                        href="https://partners.apisetu.gov.in/signin"
+                                                        style="text-align: center; color: #fff;background-color:#ff9100;"><i
+                                                            class="fa fa-fw fa-paper-plane "></i> Sign In</a>
+                                                </li>
+
+
+                                                <li>
+                                                    <a href="https://directory.apisetu.gov.in/">Explore APIs</a>
+
+                                                </li>
+
+
+
+                                                <li class=" d-none d-lg-block d-md-block">
+                                                    <a href="#"> Resources</a>
+                                                    <ul>
+                                                        <li><a href="https://docs.apisetu.gov.in/document-central/explore-apisetu/">Explore API Setu</a>
+                                                        </li>
+                                                        <li><a href="https://apisetu.gov.in/utilities">Utilities</a>
+                                                        </li>
+                                                        <li><a href="https://apisetu.gov.in/api-policy">API Policy</a>
+                                                        </li>
+                                                        <li><a href="https://apisetu.gov.in/data-standard">Data
+                                                                Standards</a></li>
+                                                        <li><a href="https://apisetu.gov.in/developer">Developers</a>
+                                                        </li>
+                                                       
+                                                        <li><a href="https://apisetu.gov.in/digilocker">DigiLocker</a>
+                                                        </li>
+                                                        <li><a href="https://apisetu.gov.in/sop">Standard Operating
+                                                                Procedure</a></li>
+                                                        <li><a href="https://apisetu.gov.in/information-videos">Information
+                                                                Videos
+                                                            </a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class=" d-none d-lg-block d-md-block">
+                                                    <a href="#"> Category</a>
+                                                    <ul style="width:540px">
+                                                        <div class="row">
+                                                            <div class="col-sm-6">
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/banking,-financial-services-and-insurance">Banking,
+                                                                        Financial Services and Insurance</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/sports-&-culture">Sports
+                                                                        & Culture</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/identity-docs">Identity
+                                                                        Docs</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/defence-&-armed-forces">Defence
+                                                                        & Armed Forces</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/social-welfare-&-empowerment">Social
+                                                                        Welfare & Empowerment</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/business-&-entrepreneurship">Business
+                                                                        & Entrepreneurship</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/skills-&-employment">Skills
+                                                                        & Employment</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/utility">Utility</a>
+                                                                </li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/government-&-public-sector">Government
+                                                                        & Public Sector</a></li>
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/public-safety,-law-&-justice">Public
+                                                                        Safety, Law & Justice</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/agriculture,-rural-&-environment">Agriculture,
+                                                                        Rural & Environment</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/travel-&-tourism">Travel
+                                                                        & Tourism</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/housing-&-shelter">Housing
+                                                                        & Shelter</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/education-&-learning">Education
+                                                                        & Learning</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/health-&-wellness">Health
+                                                                        & Wellness</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/science,-it-&-communications">Science,
+                                                                        IT & Communications</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/transport-&-infrastructure">Transport
+                                                                        & Infrastructure</a></li>
+                                                                <li><a
+                                                                        href="https://directory.apisetu.gov.in/search/category/others">Others</a>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="https://blog.apisetu.gov.in/">Blog</a>
+
+                                                </li>
+                                                <li>
+                                                    <a href="https://apisetu.gov.in/joinus"> Join Us</a>
+                                                </li>
+                                                <li class="d-block d-lg-none d-xl-none"><a
+                                                        href="https://www.apisetu.gov.in/api-policy">API Policy</a></li>
+                                                <li class="d-block d-lg-none d-xl-none"><a
+                                                        href="https://www.apisetu.gov.in/data-standard">Data
+                                                        Standards</a>
+                                                </li>
+                                                <li class="d-block d-lg-none d-xl-none"><a
+                                                        href="https://apisetu.gov.in/developer"> Developer</a></li>
+                                                <li class="d-block d-lg-none d-xl-none"><a
+                                                        href="https://apisetu.gov.in/joinus"> Join Us</a></li>
+
+
+                                                <li class=" d-block d-lg-none d-xl-none"><a
+                                                        href="https://apisetu.gov.in/aboutus">About Us</a></li>
+                                                <li class=" d-block d-lg-none d-xl-none"><a
+                                                        href="https://docs.apisetu.gov.in/document-central/terms-of-use/">Terms
+                                                        of Use</a></li>
+                                                <li class=" d-block d-lg-none d-xl-none"><a href="https://docs.apisetu.gov.in/document-central/privacy-policy/
+">Privacy Policy</a></li>
+
+                                                <li class=" d-block d-lg-none d-xl-none"><a
+                                                        href="https://apisetu.gov.in/contact">Contact Us</a>
+                                                </li>
+
+
+                                            </ul>
+
+                                        </div>
+
+                                        <div class="align-self-center ml-auto header-col-right">
+
+
+                                        </div>
+
+
+                                        <div
+                                            class="align-self-center ml-auto header-col-right d-none d-lg-block d-xl-block">
+                                            <a class="btn-custom2" href="https://partners.apisetu.gov.in/signin">Sign
+                                                In</a>
+                                            <a class="btn-custom1 " href="https://partners.apisetu.gov.in/signup">Create
+                                                Account</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+    <div class="container">
+        <div class="row">
+
+            <div id="wrapper" style="width:98% !important; margin:auto">
+                <div class="col-md-12">
+                  
+                </div>
+                <div class="col-12">
+
+                     
+                    <div class="wy-grid-for-nav">
+                        
+                        <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+
+                            <div class="wy-side-scroll">
+                                <div class="wy-side-nav-search"
+								 
+								 style="background: #efefef !important">
+
+							  
+
+							  <a href="index.html" class="icon icon-home">
+								
+								Meta Data and Data Standards
+							  </a>
+
+							  
+								
+								
+							  
+
+							  
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+							  
+							</div>
+
+
+                                
+                                <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation"
+                                    aria-label="main navigation" >
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#scope">Scope</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#applicability">Applicability</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Target%20Audience.html">Target Audience</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Type%20of%20Standard%20Document%20and%20Enforcement%20Category.html">Type of Standard Document and Enforcement Category</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Definitions%20and%20Acronyms.html">Definitions and Acronyms</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Specifications%20of%20Generic%20data%20Elements%20and%20their%20Metadata.html">Specifications of Generic data Elements and their Metadata</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Steps%20Procedure%20for%20using%20Repository%20of%20Generic%20Data.html">Steps Procedure for using Repository of Generic Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Annexure.html">Annexure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="References.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="List%20of%20Contributors.html">List of Contributors</a></li>
+</ul>
+
+                                    
+                                    
+                                </div>
+                                
+                            </div>
+                    </div>
+                    </nav>
+
+                    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"
+                        style=" background:#fff !important; ">
+
+                        
+                        <nav class="wy-nav-top" aria-label="top navigation">
+                            
+                            <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+                            <a href="index.html">Meta Data and Data Standards</a>
+                            
+                        </nav>
+
+
+                        <div class="wy-nav-content" style="background:#fff !important; width:100% !important">
+                            
+                                <div class="rst-content" >
+                                    
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+        
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+                                    <div role="main" class="document" itemscope="itemscope"
+                                        itemtype="http://schema.org/Article">
+                                        <div itemprop="articleBody">
+                                            
+  <section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">¶</a></h1>
+<blockquote>
+<div><p>Presently most of the e-Governance applications are operating in silos. For a successful e- Governance system there is a need for seamless sharing and exchange of data among departmental applications. Semantic interoperability among e-Governance applications requires that precise meaning of exchanged information is understood across applications. There is a need for commonly accepted data definitions for the various elements used in Governance systems. Hence, standardization of data elements is the prerequisite for systematic development of e-Governance applications.</p>
+<p>Data Standards may be defined as the agreed upon terms for defining and sharing data. Data Standards promote the consistent recording of information and are fundamental to the efficient exchange of information. They provide the rules for structuring information, so that the data entered into a system can be reliably read, sorted, indexed, retrieved, communicated between systems, and shared. They help protect the long-term value of data.</p>
+<p>Once the data standards are in place, there is a need to manage data, information, and knowledge. Metadata of standardized data elements can be used for this purpose.</p>
+<p>Metadata is structured information that describes, explains, locates or otherwise makes it easier to retrieve, use or manage an information resource. Metadata is often called data about data or information about information. A metadata is a matter of context or perspective -what is metadata to one person or application can be data to another person or application.</p>
+<p>In other words, Metadata facilitates the user by providing access to the raw data through which the user can have an understanding of the actual data. Hence, Metadata is an abstraction layer that masks the underlying technologies, making the data access friendlier to the user.</p>
+<p>The initial report prepared by Working group on Data and Metadata Standards for Application Domains, under the Chairmanship of Prof. C.R. Muthukrishnan, IIT-M, Chennai was used as a base document by the Expert Committee on Data and Metadata Standards.</p>
+</div></blockquote>
+<section id="scope">
+<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this heading">¶</a></h2>
+<p>The data elements can be categorized in two categories - Generic data elements and Custom data elements. The Generic data elements are usually defined as commonly used data elements in e-Governance applications across different domains. Custom data elements are derived from generic data elements, specific to the requirements of an application within a domain. In the present version of the Data and Metadata Standards (MDDS), <strong>generic data elements common across all domain applications, generic data elements for Person Identification and generic data elements for Land Region Codification</strong> have been identified and standardized.</p>
+<p>In this document, the nomenclature of Generic data elements and their business formats have been specified. Also, the Metadata for each of these elements has been specified.</p>
+<p>Further, the values of certain generic data elements need to be controlled and defined in advance, for using them uniformly across the domain applications. The values of such generic data elements are specified in their respective <a href="#id1"><span class="problematic" id="id2">**</span></a>Code directories*. In this document, the code directories relevant to the generic data elements for Person Identification and</p>
+<p>Land Region Codification have been identified. The owners, attributes, formats and values of codes in these code directories are also included.</p>
+<p>The e-Governance applications would adopt metadata of these data elements for designing the databases / forms to ensure seamless interoperability while interchanging data.</p>
+</section>
+<section id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this heading">¶</a></h2>
+<p>The adoption of Data Standards for use across e-Governance systems will enable easier, efficient exchange and processing of data. It will also remove ambiguities and inconsistencies in the use of data. Inevitably the migration to these new Standards may appear at the outset to be costly and time-consuming to some parts of government. However this burden should be outweighed by reduced development costs through the use of the agreed XML schemas that use these Standards. It will also be easier and cheaper to use these Standards from the outset in systems development rather than making changes during the lifetime of the systems.</p>
+<p>Data and Metadata Standards provide a way for information resources in electronic form to communicate their existence and their nature to other electronic applications (e.g. via HTML or XML) or search tools and to permit exchange of information between applications.</p>
+<p>The objective of this document is to define the data Standards to enable semantic interoperability and management of this data with the help of Metadata Standards.</p>
+</section>
+<section id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this heading">¶</a></h2>
+<p>The present document “Data and Metadata Standards- Demographic” focuses on Person Identification and Land Region codifications. It includes the following:</p>
+<ol class="loweralpha simple">
+<li><p>Mechanism for allocation of reference no. to the identified Generic data elements, and their grouping</p></li>
+<li><dl class="simple">
+<dt>Generic data elements specifications like:</dt><dd><ul class="simple">
+<li><p>Generic data elements, common across all Domain applications</p></li>
+<li><p>Generic data elements for Person identification</p></li>
+<li><p>Generic data elements for Land Region Codification</p></li>
+<li><p>Data elements to describe Address of a Premises, where a Person resides</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Specifications of Code Directories like:</dt><dd><ul class="simple">
+<li><p>Ownership with rights to update</p></li>
+<li><p>Identification of attributes of the Code directories</p></li>
+<li><p>Standardization of values in the Code directories</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Metadata of Generic Data Elements</dt><dd><ul class="simple">
+<li><p>Identification of Metadata Qualifiers</p></li>
+<li><p>Metadata of the data elements</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Illustration of data elements to describe:</dt><dd><ul class="simple">
+<li><p>A Person identification</p></li>
+<li><p>Address of a premises</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ol>
+</section>
+<section id="applicability">
+<h2>Applicability<a class="headerlink" href="#applicability" title="Permalink to this heading">¶</a></h2>
+<p>This Standard would be applicable to all e-Governance applications in India as per the Government’s Policy on Open Standards (refer <a class="reference external" href="http://egovstandards.gov.in/policy/policy-on-open-standards-for-e-governance/">http://egovstandards.gov.in/policy/policy-on-open-standards-for-e-governance/</a> )</p>
+</section>
+</section>
+
+
+                                        </div>
+                                        
+                                    </div>
+                                    <div style="width:100%;">
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Target%20Audience.html" class="btn btn-neutral float-right" title="Target Audience" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Meta Data and Data Standards" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Ministry of Electronics &amp; IT (MeitY), Government of India.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+
+                
+
+                <script type="text/javascript">
+                    jQuery(function () {
+                        SphinxRtdTheme.Navigation.enable(true);
+      });
+
+
+
+
+                </script>
+
+                
+                
+                
+                 
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <div>
+
+
+        <footer class="footer" style="position: relative; border-top:1px solid #D1D5DB">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-lg-3 col-sm-3">
+                        <div class="widget">
+
+                            <a href="https://apisetu.gov.in/" target="_blank" rel="noopener noreferrer"
+                                style="display:inline-block; max-width:90%; margin:0px 0 10px 0 !important; border-radius:4px;">
+                                <img alt="" class="" src="https://cdn.apisetu.gov.in/ndh/smart/images/logo_1.png"
+                                    style="height:3rem">
+                        </a>
+
+
+                            <ul class="follow-icons" style="position:absolute; bottom:0">
+                                <li><a href="https://www.facebook.com/OfficialDigitalIndia/" target="_blank" rel="noopener noreferrer"
+                                        class="fb"><i class="fa fa-facebook-official"></i></a></li>
+                                <li><a href="https://twitter.com/_DigitalIndia" target="_blank" rel="noopener noreferrer" class="tweet"><i
+                                            class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/9341137" target="_blank" rel="noopener noreferrer" class="lin"><i
+                                            class="fa fa-linkedin-square"></i></a></li>
+                                <li><a href="https://www.youtube.com/digitalindiaofficial" target="_blank" rel="noopener noreferrer" class="yt"><i
+                                            class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+
+                          
+                            <div class="spacer-20"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-1 col-lg-1 ">
+                    </div>
+
+
+                    <div class="col-6 col-sm-2 col-lg-2 ">
+                        <div class="widget">
+                            <ul class="fUl">
+                                <li><a href="https://apisetu.gov.in/aboutus">About Us</a></li>
+                                <li><a href="https://directory.apisetu.gov.in/">Explore APIs</a></li>
+                                <li><a href="https://apisetu.gov.in/sop">SOP for API Access</a></li>
+                                <li><a href="https://blog.apisetu.gov.in/">Blog</a></li>
+                                <li><a href="https://apisetu.gov.in/joinus" target="_blank" rel="noopener noreferrer">Join Us</a></li>
+                                <li><a href="https://dashboard.apisetu.gov.in/">Dashboard</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-6 col-sm-2 col-lg-2">
+                        <div class="widget">
+                            <ul class="fUl">
+                                <li> <a href="https://apisetu.gov.in/utilities">Utilities</a></li>
+                                <li> <a href="https://apisetu.gov.in/api-policy">API Policy</a></li>
+                                <li> <a href="https://apisetu.gov.in/data-standard">Data Standards</a></li>
+                                <li> <a href="https://apisetu.gov.in/developer">Developers</a></li>
+                                <li><a href="https://apisetu.gov.in/digilocker">DigiLocker</a></li>
+                                <li><a href="https://apisetu.gov.in/information-videos">Information Videos</a></li>
+                                <!-- <li> <a href="<?php // echo base_url('statistics'); ?>">Statistics</a></li>-->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-1 col-lg-1 ">
+                    </div>
+
+                    <div class="col-12 col-sm-3 col-lg-3">
+                        <div class="widget">
+                            <p class="txtplcinmbl" id="mob">
+                                Powered By <a href="https://www.digitalindia.gov.in/" target="_blank" rel="noopener noreferrer"><img alt=""
+                                        class="logo"
+                                        src="https://cdn.apisetu.gov.in/ndh/smart/images/Digital-india-black.png"
+                                        style="width:80px;"></a>
+                            </p>
+                            <p><strong>Digital India Corporation (DIC)</strong>
+                                <span style="font-size:13px; display:block ; margin-bottom:30px">National e-Governance
+                                    Division (NeGD)<br>
+                                    Ministry of Electronics & IT (MeitY)<br>
+                                    Government of India</span>
+                              
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class=" lower-footer">
+                    <div class="row">
+                        <div class="col-sm-8 col-lg-8 col-md-8">
+                            <p>Website designed & developed by National eGovernance Division (NeGD)</p>
+                        </div>
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                            <a href="https://apisetu.gov.in/contact" class="float-sm-right">Contact Us</a>
+                            <a href="https://docs.apisetu.gov.in/document-central/terms-of-use/"
+                                class="float-sm-right">Terms of Use</a>
+                            <a href="https://docs.apisetu.gov.in/document-central/privacy-policy/"
+                                class="float-sm-right">Privacy Policy</a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,868 @@
+openapi: 3.0.3
+info:
+  title: IndiaCode API
+  description: >-
+    IndiaCode is a comprehensive database of all Central enactments in force and
+    their subordinate legislation, as amended or issued from time to time. It
+    simplifies access to updated Central Acts and their associated subordinate
+    legislation through a user-friendly and accessible digital platform.
+
+
+    The database also includes legislation enacted by State Governments and
+    Union Territory Administrations, along with their respective subordinate
+    legislation.
+
+
+    API Groups
+
+
+    1. IndiaCode Core Bitstream GET APIs (Metadata & Download/View Content)
+
+
+    Retrieves bitstream metadata and enables users to download or view the
+    associated content of legislative documents.
+
+
+    2. IndiaCode Discover/Browse GET APIs
+
+
+    Enables browsing and discovery of legislative resources and related
+    repository content.
+
+
+    3. IndiaCode Collections REST API
+
+
+    Retrieves information about collections containing legislative documents and
+    related resources.
+
+
+    4. IndiaCode Communities REST GET APIs
+
+
+    Retrieves information about repository communities and their associated
+    legislative resources.
+
+
+    5. IndiaCode Discover/Search GET APIs
+
+
+    Enables searching for legislative documents and related resources based on
+    specified search criteria.
+
+
+    [Updated on 27th October 2026]
+  version: 1.0.0
+  termsOfService: https://indiacode.gov.in/info/term-of-use
+  contact:
+    name: IndiaCode
+    url: https://indiacode.gov.in/home
+servers:
+  - url: https://beta.api-setu.in
+    description: UAT Server
+security:
+  - clientId: []
+  - apiKey: []
+paths:
+  /molj/indiacode/srv/server/api/core/bitstreams/{uuid}:
+    get:
+      tags:
+        - Bitstream APIs
+      summary: Fetch Bitstream Metadata
+      description: >-
+        Returns bitstream details (name, size, checksum, mimeType, bundle
+        reference) by UUID.
+      operationId: getBitstreamMetadata
+      parameters:
+        - name: uuid
+          in: path
+          description: Bitstream UUID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Bitstream metadata retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/BitstreamMetadata'
+            application/hal+json:
+              schema:
+                $ref: '#/components/schemas/BitstreamMetadata'
+        '404':
+          description: Bitstream not found
+  /molj/indiacode/srv/server/api/core/{uuid}/content:
+    get:
+      tags:
+        - Bitstream APIs
+      summary: View or Download Bitstream Content File
+      description: >-
+        Streams binary content of the bitstream file (PDF, Image, Video,
+        Document, etc.).
+      operationId: getBitstreamContent
+      parameters:
+        - name: uuid
+          in: path
+          description: Bitstream UUID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Binary file payload stream
+          content:
+            application/octet-stream:
+              schema:
+                type: string
+                format: binary
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+            image/jpeg:
+              schema:
+                type: string
+                format: binary
+            image/png:
+              schema:
+                type: string
+                format: binary
+            application/msword:
+              schema:
+                type: string
+                format: binary
+            application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+              schema:
+                type: string
+                format: binary
+            '*/*':
+              schema:
+                type: string
+                format: binary
+        '401':
+          description: Unauthorized to access bitstream file
+        '403':
+          description: Forbidden / Restricted bitstream file access
+        '404':
+          description: Bitstream file not found
+  /molj/indiacode/srv/server/api/discover/browses:
+    get:
+      tags:
+        - Browse APIs
+      summary: Fetch list of browse indexes
+      description: >-
+        Returns available browse indexes configured in DSpace (e.g., author,
+        title, dateissued, subject)
+      responses:
+        '200':
+          description: List of browse indexes retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      browses:
+                        type: array
+                        items:
+                          type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      browses:
+                        type: array
+                        items:
+                          type: object
+  /molj/indiacode/srv/server/api/discover/browses/{browseId}:
+    get:
+      tags:
+        - Browse APIs
+      summary: Fetch specific browse index details
+      description: Returns configuration details of a specific browse index by ID
+      parameters:
+        - name: browseId
+          in: path
+          description: ID of the browse index (e.g., author, title, subject, dateissued)
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Browse index details
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+        '404':
+          description: Browse index not found
+  /molj/indiacode/srv/server/api/discover/browses/{browseId}/entries:
+    get:
+      tags:
+        - Browse APIs
+      summary: Fetch entries for a browse index
+      description: >-
+        Returns terms/entries (authors, subjects, titles) for a given browse
+        index
+      parameters:
+        - name: browseId
+          in: path
+          description: Browse index ID (e.g., author, subject)
+          required: true
+          schema:
+            type: string
+        - name: starts_with
+          in: query
+          description: Prefix filter for browse entries
+          required: false
+          schema:
+            type: string
+        - name: value
+          in: query
+          description: Exact or starting value term filter
+          required: false
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page number
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Page size
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sort field and direction
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Browse entries list retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                  page:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                  page:
+                    type: object
+  /molj/indiacode/srv/server/api/discover/browses/{browseId}/items:
+    get:
+      tags:
+        - Browse APIs
+      summary: Fetch items for a browse index entry
+      description: >-
+        Returns list of items associated with a browse index or specific entry
+        value
+      parameters:
+        - name: browseId
+          in: path
+          description: Browse index ID
+          required: true
+          schema:
+            type: string
+        - name: startsWith
+          in: query
+          description: Filter items starting with value
+          required: false
+          schema:
+            type: string
+        - name: value
+          in: query
+          description: Filter items matching exact entry value
+          required: false
+          schema:
+            type: string
+        - name: scope
+          in: query
+          description: Community or Collection UUID scope
+          required: false
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page number
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Page size
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sort parameter
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of items matching browse criteria
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+  /molj/indiacode/srv/server/api/core/collections:
+    get:
+      tags:
+        - Collections APIs
+      summary: Fetch list of collections
+      description: Returns a paginated list of all collections in DSpace
+      parameters:
+        - name: page
+          in: query
+          description: Page number (0-indexed)
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Number of items per page
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sorting parameters (e.g., dc.title,asc)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response returning collection list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      collections:
+                        type: array
+                        items:
+                          type: object
+                  page:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      collections:
+                        type: array
+                        items:
+                          type: object
+                  page:
+                    type: object
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not Found
+  /molj/indiacode/srv/server/api/core/collections/{uuid}:
+    get:
+      tags:
+        - Collections APIs
+      summary: Fetch collection by UUID
+      description: Returns details of a specific collection by its unique identifier (UUID)
+      parameters:
+        - name: uuid
+          in: path
+          description: UUID of the collection
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Collection details retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+                  uuid:
+                    type: string
+                  handle:
+                    type: string
+                  metadata:
+                    type: object
+                  type:
+                    type: string
+                  _links:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  name:
+                    type: string
+                  uuid:
+                    type: string
+                  handle:
+                    type: string
+                  metadata:
+                    type: object
+                  type:
+                    type: string
+                  _links:
+                    type: object
+        '404':
+          description: Collection not found
+  /molj/indiacode/srv/server/api/core/communities:
+    get:
+      tags:
+        - Communities APIs
+      summary: Fetch list of communities
+      description: Returns a paginated list of communities in DSpace
+      parameters:
+        - name: page
+          in: query
+          description: Page index (0-based)
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Number of communities per page
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sort field and direction (e.g. dc.title,asc)
+          required: false
+          schema:
+            type: string
+        - name: top
+          in: query
+          description: Set to true to retrieve only top-level communities
+          required: false
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Communities list retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      communities:
+                        type: array
+                        items:
+                          type: object
+                  page:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      communities:
+                        type: array
+                        items:
+                          type: object
+                  page:
+                    type: object
+        '401':
+          description: Unauthorized
+        '404':
+          description: Not Found
+  /molj/indiacode/srv/server/api/core/communities/{uuid}:
+    get:
+      tags:
+        - Communities APIs
+      summary: Fetch single community by UUID
+      description: Returns details of a specific community by its unique identifier (UUID)
+      parameters:
+        - name: uuid
+          in: path
+          description: UUID of the community
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Community details retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  uuid:
+                    type: string
+                  name:
+                    type: string
+                  handle:
+                    type: string
+                  metadata:
+                    type: object
+                  type:
+                    type: string
+                  _links:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                  uuid:
+                    type: string
+                  name:
+                    type: string
+                  handle:
+                    type: string
+                  metadata:
+                    type: object
+                  type:
+                    type: string
+                  _links:
+                    type: object
+        '404':
+          description: Community not found
+  /molj/indiacode/srv/server/api/core/communities/{uuid}/subcommunities:
+    get:
+      tags:
+        - Communities APIs
+      summary: Fetch sub-communities of a community
+      description: >-
+        Returns paginated list of child sub-communities under a specified parent
+        community UUID
+      parameters:
+        - name: uuid
+          in: path
+          description: Parent Community UUID
+          required: true
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page index (0-based)
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Page size
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sorting field
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of sub-communities retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+        '404':
+          description: Community not found
+  /molj/indiacode/srv/server/api/core/communities/{uuid}/collections:
+    get:
+      tags:
+        - Communities APIs
+      summary: Fetch collections under a community
+      description: >-
+        Returns paginated list of collections belonging to a specified community
+        UUID
+      parameters:
+        - name: uuid
+          in: path
+          description: Community UUID
+          required: true
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page index (0-based)
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Page size
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sorting field
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of collections retrieved successfully
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+        '404':
+          description: Community not found
+  /molj/indiacode/srv/server/api/discover/search/:
+    get:
+      tags:
+        - Search APIs
+      summary: Fetch search endpoints summary
+      description: Returns discovery search root information
+      responses:
+        '200':
+          description: Search service description
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+  /molj/indiacode/srv/server/api/discover/search/objects:
+    get:
+      tags:
+        - Search APIs
+      summary: Execute search query across DSpace repository
+      description: >-
+        Main search endpoint supporting full-text query, scoping, filtering,
+        facets, and pagination
+      parameters:
+        - name: query
+          in: query
+          description: Search query string (e.g. keywords, title, author)
+          required: false
+          schema:
+            type: string
+        - name: scope
+          in: query
+          description: UUID of Community or Collection to limit search scope
+          required: false
+          schema:
+            type: string
+        - name: dsoType
+          in: query
+          description: DSpace Object type filter (ITEM, COLLECTION, COMMUNITY)
+          required: false
+          schema:
+            type: string
+        - name: configuration
+          in: query
+          description: Discovery search configuration name (e.g. default)
+          required: false
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page index (0-based)
+          required: false
+          schema:
+            type: integer
+            default: 0
+        - name: size
+          in: query
+          description: Results per page
+          required: false
+          schema:
+            type: integer
+            default: 20
+        - name: sort
+          in: query
+          description: Sorting clause (e.g., score,desc or dc.title,asc)
+          required: false
+          schema:
+            type: string
+      responses:
+        '200':
+          description: >-
+            Search results containing matched objects, page info, and facet
+            results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      searchResult:
+                        type: object
+                        properties:
+                          _embedded:
+                            type: object
+                            properties:
+                              objects:
+                                type: array
+                                items:
+                                  type: object
+                  page:
+                    type: object
+            application/hal+json:
+              schema:
+                type: object
+                properties:
+                  _embedded:
+                    type: object
+                    properties:
+                      searchResult:
+                        type: object
+                        properties:
+                          _embedded:
+                            type: object
+                            properties:
+                              objects:
+                                type: array
+                                items:
+                                  type: object
+                  page:
+                    type: object
+        '400':
+          description: Invalid search parameters
+  /molj/indiacode/srv/server/api/discover/search/facets/{facetName}:
+    get:
+      tags:
+        - Search APIs
+      summary: Fetch facet values for search
+      description: Returns facet values and counts for a specific search facet
+      parameters:
+        - name: facetName
+          in: path
+          description: Name of the facet (e.g., author, subject, dateIssued, entityType)
+          required: true
+          schema:
+            type: string
+        - name: query
+          in: query
+          description: Filter facet values by search query
+          required: false
+          schema:
+            type: string
+        - name: scope
+          in: query
+          description: Community or Collection scope UUID
+          required: false
+          schema:
+            type: string
+        - name: page
+          in: query
+          description: Page index
+          required: false
+          schema:
+            type: integer
+        - name: size
+          in: query
+          description: Facet entries per page
+          required: false
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Facet values list
+          content:
+            application/json:
+              schema:
+                type: object
+            application/hal+json:
+              schema:
+                type: object
+components:
+  schemas:
+    BitstreamMetadata:
+      type: object
+      properties:
+        id:
+          type: string
+        uuid:
+          type: string
+        name:
+          type: string
+        sizeBytes:
+          type: integer
+          format: int64
+        checkSum:
+          type: object
+          properties:
+            checkSumAlgorithm:
+              type: string
+            value:
+              type: string
+        sequenceId:
+          type: integer
+        type:
+          type: string
+        _links:
+          type: object
+          additionalProperties: true
+  securitySchemes:
+    clientId:
+      type: apiKey
+      in: header
+      name: X-APISETU-CLIENTID
+    apiKey:
+      type: apiKey
+      in: header
+      name: X-APISETU-APIKEY

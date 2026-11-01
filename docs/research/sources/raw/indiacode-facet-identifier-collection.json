@@ -1,0 +1,236 @@
+{
+  "id" : null,
+  "scope" : null,
+  "query" : null,
+  "appliedFilters" : null,
+  "sort" : null,
+  "configuration" : null,
+  "name" : "identifier_collection",
+  "facetType" : "text",
+  "facetLimit" : 10,
+  "openByDefault" : true,
+  "prefix" : null,
+  "type" : "discover",
+  "page" : {
+    "number" : 0,
+    "size" : 100
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://indiacode.gov.in/server/api/discover/facets/identifier_collection?size=100"
+    }
+  },
+  "_embedded" : {
+    "values" : [ {
+      "label" : "SECTION",
+      "count" : 74865,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SECTION,equals"
+        }
+      }
+    }, {
+      "label" : "NOTIFICATION",
+      "count" : 20934,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=NOTIFICATION,equals"
+        }
+      }
+    }, {
+      "label" : "ACT",
+      "count" : 11392,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT,equals"
+        }
+      }
+    }, {
+      "label" : "RULE",
+      "count" : 7886,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=RULE,equals"
+        }
+      }
+    }, {
+      "label" : "CIRCULAR",
+      "count" : 2911,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=CIRCULAR,equals"
+        }
+      }
+    }, {
+      "label" : "REGULATION",
+      "count" : 2062,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=REGULATION,equals"
+        }
+      }
+    }, {
+      "label" : "ORDER",
+      "count" : 1292,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ORDER,equals"
+        }
+      }
+    }, {
+      "label" : "SCHEDULE",
+      "count" : 1149,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SCHEDULE,equals"
+        }
+      }
+    }, {
+      "label" : "ACT_AMENDMENT",
+      "count" : 970,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACT_AMENDMENT,equals"
+        }
+      }
+    }, {
+      "label" : "SCHORDRULE",
+      "count" : 764,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SCHORDRULE,equals"
+        }
+      }
+    }, {
+      "label" : "CENTRAL_ORDINANCE",
+      "count" : 661,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=CENTRAL_ORDINANCE,equals"
+        }
+      }
+    }, {
+      "label" : "ORDINANCE",
+      "count" : 544,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ORDINANCE,equals"
+        }
+      }
+    }, {
+      "label" : "STATUTE",
+      "count" : 367,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=STATUTE,equals"
+        }
+      }
+    }, {
+      "label" : "REGULATION_US_240",
+      "count" : 236,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=REGULATION_US_240,equals"
+        }
+      }
+    }, {
+      "label" : "FORM",
+      "count" : 93,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=FORM,equals"
+        }
+      }
+    }, {
+      "label" : "SCHEDULEORDER",
+      "count" : 72,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=SCHEDULEORDER,equals"
+        }
+      }
+    }, {
+      "label" : "APPENDIX",
+      "count" : 46,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=APPENDIX,equals"
+        }
+      }
+    }, {
+      "label" : "ANNEXURE",
+      "count" : 8,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ANNEXURE,equals"
+        }
+      }
+    }, {
+      "label" : "ACTS_NOT_ENFORCED",
+      "count" : 3,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ACTS_NOT_ENFORCED,equals"
+        }
+      }
+    }, {
+      "label" : "REPEAL_ACTS",
+      "count" : 2,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=REPEAL_ACTS,equals"
+        }
+      }
+    }, {
+      "label" : "ORDERFOOTNOTE",
+      "count" : 1,
+      "authorityKey" : null,
+      "type" : "discover",
+      "_links" : {
+        "search" : {
+          "href" : "https://indiacode.gov.in/server/api/discover/search/objects?f.identifier_collection=ORDERFOOTNOTE,equals"
+        }
+      }
+    } ]
+  }
+}

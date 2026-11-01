@@ -1,0 +1,54 @@
+{
+ "url": "https://verdictfinder.sci.gov.in/elk_frontend/",
+ "title": "Home | Judgements and orders search",
+ "fields": [
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "search",
+   "id": "search",
+   "placeholder": "Enter keyword"
+  },
+  {
+   "tag": "input",
+   "type": "radio",
+   "name": "text-filter",
+   "id": "phrase",
+   "placeholder": ""
+  },
+  {
+   "tag": "input",
+   "type": "radio",
+   "name": "text-filter",
+   "id": "allwords",
+   "placeholder": ""
+  },
+  {
+   "tag": "input",
+   "type": "radio",
+   "name": "text-filter",
+   "id": "anywords",
+   "placeholder": ""
+  },
+  {
+   "tag": "input",
+   "type": "text",
+   "name": "",
+   "id": "captcha-input",
+   "placeholder": "Enter CAPTCHA"
+  }
+ ],
+ "links": [
+  [
+   "Home",
+   "https://verdictfinder.sci.gov.in/elk_frontend/#"
+  ],
+  [
+   "Supreme Court",
+   "https://www.sci.gov.in/"
+  ]
+ ],
+ "text": " \nSUPREME COURT OF INDIA\nJudgments and Orders\nHome\nSupreme Court\nPhrase\nAll Words\nAny Words\n4hK2j2\nSearch\n\nEnter keywords or any free text and find specific judgments and orders\n\nVersion: 1.0\n\n© 2025 Supreme Court of India. All Rights Reserved\n\nB1",
+ "network": [],
+ "retrieved": "2026-11-01T18:14:07.678Z"
+}

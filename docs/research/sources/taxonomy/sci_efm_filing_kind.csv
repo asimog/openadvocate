@@ -1,0 +1,6 @@
+label,identifier_used
+New Case,"draft e-filing number DRAFT-EC-SCIN01-...-YYYY, then Diary Number"
+Misc. Doc.,Diary Number or Registration Number
+I.A.,Diary Number/Year or Registration Number
+Caveat,
+AI Assisted Case Filing- New,"SLP(C) and SLP(Crl) only; OCR PDF up to 50 MB; output Extracted Metadata JSON, checked by the user"

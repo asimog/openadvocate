@@ -1,6 +1,6 @@
 # Master Product Plan: Vakilbench (Open Code of Litigation)
 
-*Canonical document C4 of 5. Companion canon: `C1-literature-review.md` (papers and policy), `C2-prior-art-repos-review.md` (repositories used as inputs), `C3-master-research-and-architecture.md` (architecture, contracts, data model, decision register, roadmap), `C5-master-standards-and-ontology-plan.md` (ILO schemas, ontology, NVS/CVS/RTS, INSC resolver, manifest and receipt, conformance suites CT-01 to CT-16). Decision IDs (D1 to D35) and stages (Stage 0 to 5, P1 to P4) are those of the C3 register. Current to 30 October 2026.*
+*Canonical document C4 of 5. Companion canon: `C1-literature-review.md` (papers and policy), `C2-prior-art-repos-review.md` (repositories used as inputs), `C3-master-research-and-architecture.md` (architecture, contracts, data model, decision register, roadmap), `C5-master-standards-and-ontology-plan.md` (ULOS schemas, ontology, NVS/CVS/RTS, INSC resolver, manifest and receipt, conformance suites CT-01 to CT-16). Decision IDs (D1 to D35) and stages (Stage 0 to 5, P1 to P4) are those of the C3 register. Current to 30 October 2026.*
 
 ## 0. How to read this plan
 
@@ -18,7 +18,7 @@ This plan decides what the product is, which modules it has, what each must do, 
 
 **Vakilbench** is an open-source, local-first litigation workspace for an Indian advocate: "Open Code of Litigation", OpenCode for law. It ships as a **Windows desktop application**: an Electron app delivered as a signed `.exe` installer with auto-update, with the complete harness source open (D3). One workspace per matter holds the matter's documents and evidence, its Notebook and case graph, citation and defect checkers, a Research & Argument Studio with a precedent graph and Case Conference, a separate argument-hypothesis engine, a built-in Chromium browser, a built-in DOCX editor, and a hash-chained ledger that exports a verification manifest with each filing. The lawyer brings an OpenRouter key or a local model (D8). There is no server, account or gateway in the MVP (D33).
 
-Vakilbench is also the first conforming implementation of an **open verification standard**: three Commons standards, NVS (Notebook facts), CVS (citations) and RTS (research and precedent traceability) (D23), against which facts, citations and treatment can be checked as Supreme Court practice requires. The standards, SDK, `ilac` CLI and conformance suites ship with the MVP.
+Vakilbench is also the first conforming implementation of an **open verification standard**: three Commons standards, NVS (Notebook facts), CVS (citations) and RTS (research and precedent traceability) (D23), against which facts, citations and treatment can be checked as Supreme Court practice requires. The standards, SDK, `ulos` CLI and conformance suites ship with the MVP.
 
 **Guarantees enforced in code, not by model judgement:**
 - Agents never write the record. They submit typed patch proposals through schema-compiled tools; a deterministic kernel validates and commits each with a ledger event (D9, D10).
@@ -60,7 +60,7 @@ The MVP is the Windows application with all modules in §4 at MVP scope, built a
 
 | Stage | Name | Delivers | Closes on |
 |---|---|---|---|
-| Stage 0 | Windows shell, installer, journal | Hardened Electron shell; signed NSIS installer and internal auto-update channel; typed IPC; BYO key in Windows Credential Manager; OpenRouter and local endpoint adapter; SQLite step journal; ILO core schemas and tool compiler; patch kernel; ledger chain and `ilac` CLI; Verifier/Eval agent skeleton | CT-01; installer installs, updates and uninstalls cleanly on Windows 10/11; kill-and-resume with zero duplicate ledger events |
+| Stage 0 | Windows shell, installer, journal | Hardened Electron shell; signed NSIS installer and internal auto-update channel; typed IPC; BYO key in Windows Credential Manager; OpenRouter and local endpoint adapter; SQLite step journal; ULOS core schemas and tool compiler; patch kernel; ledger chain and `ulos` CLI; Verifier/Eval agent skeleton | CT-01; installer installs, updates and uninstalls cleanly on Windows 10/11; kill-and-resume with zero duplicate ledger events |
 | Stage 1 | Matters, documents, ingest | Matter service; vault (CAS); document version DAG; ingest worker (Python OCR sidecar); line model; paragraph schemes incl. `ReporterBlock`; anchors and selectors; pdf.js anchor layer; evidence-package export/import; AWS SC corpus mirror and profiling; ontology seed from SC/HC metadata; built-in browser with BrowserCapture | CT-03; anchors survive re-OCR ≥ 99% |
 | Stage 2 | Notebook + NVS | Logic-gate extraction; NVS gates G1 to G7; Jev/Clef extraction scoring; Notebook editor; anchored chatbot; review UI; one agent plus runtime verifier; retrieval | CT-14; Eval agent NVS report |
 | Stage 3 | Citation verifier CVS + editor + manifest | INSC parser; resolver T1 → T2 → T3; L1/L2 deterministic; L3 with Jev/Clef and generative assessor; Docxodus editor with tracked-change proposals; defect checker; cascade engine; DOCX and PDF/A production; AI-origin manifest and receipt; outbox | CT-02, CT-04, CT-08, CT-09; GM-01 end to end; Eval agent CVS report |
@@ -88,7 +88,7 @@ Run on a clean Windows 10 or 11 machine by an advocate outside the build team.
 | 11 | Ask the drafting agent to strengthen ground C from the accepted argument | W4, W8 | Tracked-change proposal with provenance comment; nothing applied until accepted |
 | 12 | Run the defect check | W6 | Defect memo by SC Registry category, each with a rule citation |
 | 13 | Review queue | W10 | Unresolved items cannot be bulk-approved; overrides need a rationale |
-| 14 | Export the filing package | W9 | DOCX/PDF + AI-origin manifest + receipt + declaration draft; `ilac verify` passes on a second machine; one changed PDF byte fails it (CT-08) |
+| 14 | Export the filing package | W9 | DOCX/PDF + AI-origin manifest + receipt + declaration draft; `ulos verify` passes on a second machine; one changed PDF byte fails it (CT-08) |
 | 15 | Kill the app mid-proposal; reopen | W0, W9 | Run resumes; zero duplicate or missing ledger events |
 
 ### 2.4 MVP exit gates
@@ -97,7 +97,7 @@ Run on a clean Windows 10 or 11 machine by an advocate outside the build team.
 2. CT-01 to CT-16 green in CI on Windows 10 and 11.
 3. Eval agent (W13) reports for NVS, CVS and RTS on held-out sets meet each module's acceptance targets.
 4. INSC resolver: L1 existence recall ≥ 99%, L2 pinpoint recall ≥ 90%, zero false `verified` on planted misquotes.
-5. The `ilac` CLI, written against the spec rather than app internals, verifies every package the app emits.
+5. The `ulos` CLI, written against the spec rather than app internals, verifies every package the app emits.
 6. Signed public installer published; auto-update from the previous build succeeds; uninstall leaves matter folders intact.
 
 ## 3. Product shape
@@ -130,7 +130,7 @@ flowchart LR
 
 **SUPACE and LegRAA** are the Supreme Court's own AI tools; their internals are not public. Vakilbench uses only their publicly described functions as references: SUPACE for Notebook document intelligence (W3), LegRAA for the research layer and human-in-the-loop argument work (W11) (D28). The code is our own, built from available repositories (C2). Because there is no reference implementation, conformance is measured against the published NVS/CVS/RTS standards by the separate Eval agent (W13).
 
-**Ontology.** ILO is built from the Supreme Court judgments dataset metadata (AWS Open Data parquet fields: title, petitioner, respondent, judge, author_judge, citation, case_id, cnr, decision_date, disposal_nature, nc_display, path and others) plus the High Court dataset, and from scratch where metadata is missing. JSON Schema 2020-12, JSON-LD, PROV-O and W3C Web Annotation selectors are the format standards; Akoma Ntoso is optional for statutes; the Law and Justice Wiki is a non-normative glossary (D29; C5).
+**Ontology.** ULOS is built from the Supreme Court judgments dataset metadata (AWS Open Data parquet fields: title, petitioner, respondent, judge, author_judge, citation, case_id, cnr, decision_date, disposal_nature, nc_display, path and others) plus the High Court dataset, and from scratch where metadata is missing. JSON Schema 2020-12, JSON-LD, PROV-O and W3C Web Annotation selectors are the format standards; Akoma Ntoso is optional for statutes; the Law and Justice Wiki is a non-normative glossary (D29; C5).
 
 **Language.** Supreme Court records are in English (official translations exist separately, for example through SUVAS). The MVP targets English documents; Hindi and regional-language OCR and records are post-MVP (P3, with High Courts and district courts).
 
@@ -203,7 +203,7 @@ Each module is specified under the same headings: purpose; capabilities; compone
 
 **Purpose.** Make the matter the unit of everything: files, Notebook, runs, drafts, research, decisions and exports live inside one matter.
 
-**Capabilities.** Create a matter with forum (SC; HC as parse-only), case type from the SC case-type list, parties and aliases, our side, stage, and governing-date rule (offence date, cause-of-action date, filing date, manual) so statute lookups are point-in-time. Matter dashboard (documents, open review items, citations by status, research issues, drafts, last export). Export and import a matter as an ILO evidence package (CT-03). Linked matters for appeal and transfer chains.
+**Capabilities.** Create a matter with forum (SC; HC as parse-only), case type from the SC case-type list, parties and aliases, our side, stage, and governing-date rule (offence date, cause-of-action date, filing date, manual) so statute lookups are point-in-time. Matter dashboard (documents, open review items, citations by status, research issues, drafts, last export). Export and import a matter as an ULOS evidence package (CT-03). Linked matters for appeal and transfer chains.
 
 **Components.** Matter service; profile composer (forum pack + matter-type pack, e.g. "SC + criminal bail"); package exporter/importer; party registry with alias table (used by W3 and W5 gates).
 
@@ -324,7 +324,7 @@ The Notebook mirrors the publicly described SUPACE workflow: file preview (searc
 
 **Verification.** Deterministic: every proposal validated by the owning kernel (schema, shapes, role, invariants) before commit; Proof-or-Stop on every "verified" claim (D13). Runtime verifier checks each generated sentence against cited sources. Jev/Clef: W6 substantive-defect templates applied to draft paragraphs (`unsupported_fact`, `fact_vs_submission`, `date_inconsistent`). Eval agent: gold questions, unsupported-span rate, critic partition audit, swap test.
 
-**Acceptance.** Correct passage in top 5 for ≥ 90% of 30 to 50 gold questions per golden matter; 100% of generated sentences carry a provenance state; zero unresolved material claims in a draft marked ready; zero drafting changes applied without acceptance; critic manifests contain zero privileged inputs; swap test (custom loop ↔ Agents JS core) changes no ILO object; manifest re-render matches its hash on 100% of sampled calls.
+**Acceptance.** Correct passage in top 5 for ≥ 90% of 30 to 50 gold questions per golden matter; 100% of generated sentences carry a provenance state; zero unresolved material claims in a draft marked ready; zero drafting changes applied without acceptance; critic manifests contain zero privileged inputs; swap test (custom loop ↔ Agents JS core) changes no ULOS object; manifest re-render matches its hash on 100% of sampled calls.
 
 **Failure modes.** Topical-overlap citations (caught by W5 L2/L3); drafting that degrades strong text (proposals and diff review); prompt injection via fetched pages (injection guard, confirmation); overconfident summaries (no raw confidence shown).
 
@@ -417,7 +417,7 @@ The Notebook mirrors the publicly described SUPACE workflow: file preview (searc
 
 **Purpose.** Record what happened in the matter so it can be proved to an outsider, and export with each filing a machine-verifiable account of AI use and verification answering draft Reg 43(3)–(4).
 
-**Capabilities.** Matter timeline of ledger events; "replay this output" (re-render any context manifest); filing package: DOCX/PDF, citation audit table, defect memo, open issues, **AI-origin manifest** (systems and model versions used, nature and extent of assistance per task, outputs accepted and by whom, verification steps and results per citation and claim, Jev/Clef scores and bands, Eval-agent conformance level of the build), **receipt** binding the manifest to the SHA-256 of the exact PDF, and a **declaration draft** generated from the manifest per Reg 43(3); "declaration-only" path for AI used outside the app; offline verification with `ilac verify`; BSA s.63(4) certificate draft with Part A pre-filled.
+**Capabilities.** Matter timeline of ledger events; "replay this output" (re-render any context manifest); filing package: DOCX/PDF, citation audit table, defect memo, open issues, **AI-origin manifest** (systems and model versions used, nature and extent of assistance per task, outputs accepted and by whom, verification steps and results per citation and claim, Jev/Clef scores and bands, Eval-agent conformance level of the build), **receipt** binding the manifest to the SHA-256 of the exact PDF, and a **declaration draft** generated from the manifest per Reg 43(3); "declaration-only" path for AI used outside the app; offline verification with `ulos verify`; BSA s.63(4) certificate draft with Part A pre-filled.
 
 **Components.** Append-only ledger (RFC 8785 canonical JSON, SHA-256 chain, Ed25519 signed checkpoints with a local key; D18); context-manifest store; manifest builder; receipt signer (DSSE envelope); declaration template engine (template is data); s.63(4) draft generator.
 
@@ -431,7 +431,7 @@ The Notebook mirrors the publicly described SUPACE workflow: file preview (searc
 
 **Failure modes.** Over-disclosure of privileged content (inputs referenced by hash by default); final notified regulation text differing (template updated without code change); local key loss (chain still verifiable by hash; new key event re-anchors).
 
-**Stage.** Stage 0 (chain, `ilac` CLI); Stage 3 (manifest, receipt, declaration).
+**Stage.** Stage 0 (chain, `ulos` CLI); Stage 3 (manifest, receipt, declaration).
 
 ### W11. Research & Argument Studio (LegRAA-referenced)
 
@@ -512,20 +512,20 @@ A separate module with its own package and playbooks (D27). It generates and str
 | Deliverable | What it is |
 |---|---|
 | Specification site | Versioned NVS, CVS, RTS; evidence reference; AI-origin manifest and receipt; JSON Schema sources, JSON-LD contexts, shapes, test vectors |
-| `@ilac/ontology` | Types and validators generated from the schemas |
-| `@ilac/evidence` | Evidence references, selectors, quote normalisation, package export/import |
-| `@ilac/notebook` | NVS item schema, deterministic gate, ledger-derived status |
-| `@ilac/verification` | Citation parser, resolver interfaces, L1/L2 checks, verification records, receipt build and verify |
-| `@ilac/precedent` | RTS treatment edges and gates |
-| `@ilac/conformance` | CT-01 to CT-16, GM-01, planted-defect sets |
-| `ilac` CLI | `ilac verify <package>`, `ilac check-citations <docx|pdf>`, `ilac conformance <impl>`; written against the spec, offline-capable |
+| `@ulos/ontology` | Types and validators generated from the schemas |
+| `@ulos/evidence` | Evidence references, selectors, quote normalisation, package export/import |
+| `@ulos/notebook` | NVS item schema, deterministic gate, ledger-derived status |
+| `@ulos/verification` | Citation parser, resolver interfaces, L1/L2 checks, verification records, receipt build and verify |
+| `@ulos/precedent` | RTS treatment edges and gates |
+| `@ulos/conformance` | CT-01 to CT-16, GM-01, planted-defect sets |
+| `ulos` CLI | `ulos verify <package>`, `ulos check-citations <docx|pdf>`, `ulos conformance <impl>`; written against the spec, offline-capable |
 | Reference resolver | INSC resolver over the AWS mirror with SC-official and Indian Kanoon adapters |
 
-**Zero-text-upload verification.** The Commons standardises the grammar of proof, not the engine: schemas and verification rules are published, implementation code is not required to conform. Verification is hash-bound: a manifest and receipt carry hashes of the document, paragraphs and quoted public text plus canonical public identifiers, so a registry or court checks a filing without any draft or client text being uploaded. Receipts are signed (Ed25519) and verified offline by anyone holding the PDF, manifest and receipt with the open `ilac` CLI.
+**Zero-text-upload verification.** The Commons standardises the grammar of proof, not the engine: schemas and verification rules are published, implementation code is not required to conform. Verification is hash-bound: a manifest and receipt carry hashes of the document, paragraphs and quoted public text plus canonical public identifiers, so a registry or court checks a filing without any draft or client text being uploaded. Receipts are signed (Ed25519) and verified offline by anyone holding the PDF, manifest and receipt with the open `ulos` CLI.
 
 **Requirements.** The CLI is independent of app internals; every verification works offline given the AWS mirror and the package; every record names its resolving source and snapshot date; outcome vocabularies are versioned; schemas validated against every row of the SC metadata, with failures quarantined and reported.
 
-**Acceptance.** CT suites green against the app and the CLI; 100% of SC metadata rows validate or appear in a quarantine report; `ilac verify` detects 100% of CT-08 tampering; a developer outside the team implements "verify an INSC citation to L2" from the spec and passes CT-04.
+**Acceptance.** CT suites green against the app and the CLI; 100% of SC metadata rows validate or appear in a quarantine report; `ulos verify` detects 100% of CT-08 tampering; a developer outside the team implements "verify an INSC citation to L2" from the spec and passes CT-04.
 
 ## 6. Court and Bar requirements on the product
 

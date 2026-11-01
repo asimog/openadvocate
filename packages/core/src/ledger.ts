@@ -1,5 +1,5 @@
 import { hashOf } from './hash.ts';
-import type { Actor, EventBody, Hash, LedgerEvent } from './ilo.gen.ts';
+import type { Actor, EventBody, Hash, LedgerEvent } from './ulos.gen.ts';
 import { assertValid } from './validate.ts';
 
 export type EventType = EventBody['type'];

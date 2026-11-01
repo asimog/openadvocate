@@ -1,0 +1,53 @@
+list,entries,source_element,url,retrieved_utc,note
+sci_case_type,39,SCI case status form <select name=case_type>,https://www.sci.gov.in/case-status-case-no/,2026-11-01T15:40:59.553Z,
+dhc_site_case_type,150,delhihighcourt.nic.in case status <select name=case_type>,https://delhihighcourt.nic.in/app/get-case-type-status,2026-11-01T15:41:04.103Z,
+ecourts_hc_state_code,25,hcservices <select name=sess_state_code>,https://hcservices.ecourts.gov.in/hcservices/#,2026-11-01T16:15:21.248Z,
+dhc_cis_bench,1,hcservices <select name=court_complex_code>,https://hcservices.ecourts.gov.in/hcservices/#,2026-11-01T16:15:21.248Z,
+dhc_cis_case_type,155,"hcservices Case Number tab <select name=case_type>, High Court of Delhi",https://hcservices.ecourts.gov.in/hcservices/#,2026-11-01T16:15:21.248Z,
+dhc_cis_police_station,348,hcservices FIR tab <select name=police_st_code>,https://hcservices.ecourts.gov.in/hcservices/#,2026-11-01T16:15:21.248Z,
+dhc_cis_act_RAW_BROKEN,156,hcservices Act tab <select name=actcode>,https://hcservices.ecourts.gov.in/hcservices/#,2026-11-01T16:15:21.248Z,"Portal returned a PHP debug dump (object(PDO)); labels are numbers, not act names. Not usable as a code list."
+efiling_selMainCaseType,15,e-Filing 3.0 New Case Filing <select name=selMainCaseType>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_extraporg_name,25,e-Filing 3.0 New Case Filing <select name=extraporg_name>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_resinsurance_name,35,e-Filing 3.0 New Case Filing <select name=resinsurance_name>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fextra_salutation,8,e-Filing 3.0 New Case Filing <select name=fextra_salutation>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fextra_father_flag,19,e-Filing 3.0 New Case Filing <select name=fextra_father_flag>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fextra_caste,6,e-Filing 3.0 New Case Filing <select name=fextra_caste>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fstate_code,37,e-Filing 3.0 New Case Filing <select name=fstate_code_extra_off>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fstate_code_extra_off,37,e-Filing 3.0 New Case Filing <select name=fstate_code_extra_off_lh>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fstate_code_extra_alt,37,e-Filing 3.0 New Case Filing <select name=fstate_code_extra_alt_lh>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fpolice_privates,2,e-Filing 3.0 New Case Filing <select name=fpolice_privates>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fpolice_dist,11,e-Filing 3.0 New Case Filing <select name=fpolice_dist>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fir_type,3,e-Filing 3.0 New Case Filing <select name=fir_type>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_finvestigation_agency,20,e-Filing 3.0 New Case Filing <select name=finvestigation_agency>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fsession_magistrate,4,e-Filing 3.0 New Case Filing <select name=fsession_magistrate>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_fstate_id,37,e-Filing 3.0 New Case Filing <select name=fstate_id3>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_ftype_of_employment,4,e-Filing 3.0 New Case Filing <select name=ftype_of_employment>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_finsurancecompany,35,e-Filing 3.0 New Case Filing <select name=finsurancecompany[]>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_ffir_type_code,3,e-Filing 3.0 New Case Filing <select name=ffir_type_code>,https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:35.775Z,
+efiling_establishment_delhi_central,5,e-Filing <select name=selEstablishment> after District=Central(8),https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:15:46.484Z,
+efiling_relief_sought_civ,15,"e-Filing <select name=selMainCaseType>, Nature=civ",https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:16:07.352Z,
+efiling_relief_sought_crl,10,"e-Filing <select name=selMainCaseType>, Nature=crl",https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:16:16.866Z,
+efiling_case_type_SAMPLE,10,"e-Filing <select name=selCaseType>, DLCT01, sampled for 3 relief groups",https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/,2026-11-01T16:17:10.921Z,Sample only; value = local~national code.
+sci_lower_court_type,4,sci.gov.in/case-status-court <select name=case_status_court>,https://www.sci.gov.in/case-status-court/,2026-11-01T16:35:18.163Z,
+sci_lower_court_state,36,"same, <select name=case_status_state> (Court=High Court)",https://www.sci.gov.in/case-status-court/,2026-11-01T16:35:18.163Z,Many states have value 0 = no HC of that state in SCI master
+sci_lower_court_case_type_delhi_hc,761,"same, Court=High Court(1), State=Delhi(490506)",https://www.sci.gov.in/case-status-court/,2026-11-01T16:35:46.632Z,SCI-internal ids; not CIS codes
+sci_lower_court_bench_delhi_district,12,"same, Court=District Court(3), State=Delhi",https://www.sci.gov.in/case-status-court/,2026-11-01T16:35:53.107Z,"* suffix observed on some labels, meaning undocumented"
+sci_lower_court_case_type_delhi_district,1038,"same, Court=District Court(3), State=Delhi",https://www.sci.gov.in/case-status-court/,2026-11-01T16:35:53.107Z,SCI-internal ids
+sci_party_type,3,sci.gov.in/case-status-party-name <select name=party_type>,https://www.sci.gov.in/case-status-party-name/,2026-11-01T16:33:50.792Z,
+sci_case_status_filter,2,sci.gov.in/case-status-party-name <select name=party_status>,https://www.sci.gov.in/case-status-party-name/,2026-11-01T16:33:50.792Z,
+sci_subject_category_2025,182,"SCI Notice F.No.11/Judl./2025 (17 Apr 2025) Annexure A, w.e.f. 21 Apr 2025",https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2025/04/2025041745.pdf,2026-11-01,"Parsed from PDF; groups 39/40 have no sub-codes"
+sci_efm_special_category,6,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) New Case 1; same list in eFM 2.0",https://efiling3.sci.gov.in,2026-11-01,Labels from manual text; screenshots not analysed
+sci_efm_earlier_court_type,4,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) New Case 5; sci.gov.in case-status-court",https://efiling3.sci.gov.in,2026-11-01,No Earlier Court defaults Court Type to Supreme Court
+sci_efm_filing_kind,5,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) How to e-file",https://efiling3.sci.gov.in,2026-11-01,
+sci_efm_new_case_tabs,9,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025)",https://efiling3.sci.gov.in,2026-11-01,eFM 2.0 has no Additional Party or Check List tab
+sci_efm_scrutiny_status,2,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) How to check defects",https://efiling3.sci.gov.in,2026-11-01,
+sci_efm_representation_option,3,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) Misc. Doc. and I.A.",https://efiling3.sci.gov.in,2026-11-01,
+sci_ecopying_category,5,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) eCopying 3.2",https://efiling3.sci.gov.in,2026-11-01,
+sci_ecopying_capacity,4,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) eCopying 2",https://efiling3.sci.gov.in,2026-11-01,
+sci_efm_user_type,5,"raw/sci-efm-3.0-manual.pdf (SCeFM 3.0 manual, revised 18.11.2025) User registration; raw/sci-efm-2.0-manual.pdf",https://efiling3.sci.gov.in,2026-11-01,
+sci_3pdf_part,3,raw/sci-3pdf-user-manual.pdf v1.0 (08.03.2024),https://efiling.sci.gov.in,2026-11-01,"Court No. 1 only at v1.0; some paper books have only Main, or Main + Additional. Cite the PDF page number at hearing."
+sci_neutral_citation_format,3,"SCI notice: Launch and implementation of Neutral Citation System, w.e.f. 2023-07-06 (text pasted by the user)",https://www.sci.gov.in,2026-11-01,Phase I: judgments and orders 01.01.2014 to 05.07.2023 and from 06.07.2023. Citation and QR code on the top left of page 1. Notice PDF not yet saved.
+indiacode_item_type,21,indiacode.gov.in/server/api/discover/facets/identifier_collection,https://indiacode.gov.in/server/api/discover/facets/identifier_collection?page=0&size=100,2026-11-01,
+indiacode_state,36,indiacode.gov.in/assets/dynamic-json/states.json,https://indiacode.gov.in/assets/dynamic-json/states.json,2026-11-01,
+indiacode_search_field,9,indiacode.gov.in/assets/dynamic-json/advancedFilter.json,https://indiacode.gov.in/assets/dynamic-json/advancedFilter.json,2026-11-01,"operators: contains, notcontains, equals, notequals"
+indiacode_metadata_field,14,raw/indiacode-central-laws-items-sample.json and indiacode-section-items-sample.json,https://indiacode.gov.in/server/api/discover/search/objects,2026-11-01,DSpace 9.1; anonymous read via indiacode.gov.in/server/api

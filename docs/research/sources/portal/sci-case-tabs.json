@@ -1,0 +1,6702 @@
+{
+ "Listing Dates": {
+  "url": "https://www.sci.gov.in/case-status-case-no/",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Judgement/Orders": {
+  "url": "https://www.sci.gov.in/case-status-case-no/",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Earlier Court Details": {
+  "url": "https://www.sci.gov.in/case-status-case-no/",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Interlocutory Application Documents": {
+  "url": "https://www.sci.gov.in/case-status-case-no/",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "INTERLOCUTARY APPLICATION(s)"
+    ],
+    [
+     "Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Serial Number",
+     "Reg. No./I.A. No.",
+     "Particular",
+     "Remark",
+     "Filed By",
+     "Filing Date",
+     "Status",
+     "Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Defects": {
+  "url": "https://www.sci.gov.in/case-status-case-no/",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Notices": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Office Report": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Indexing": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Tagged Matters": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Court Fees": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "Caveat": {
+  "url": "https://www.sci.gov.in/case-status-case-no/#",
+  "tables": [
+   [
+    [
+     "Case Details"
+    ],
+    [
+     "Diary Number",
+     "69286/1986 Filed on 01-01-1900 12:00 AM [ SECTION: XVII-A] DISPOSED"
+    ],
+    [
+     "Case Number",
+     "SLP(C) No. 001359 - 001378 / 1986 Registered on 01-01-1900"
+    ],
+    [
+     "CNR Number",
+     "SCIN010692861986"
+    ],
+    [
+     "Present/Last Listed On",
+     ""
+    ],
+    [
+     "Status/Stage",
+     "DISPOSED (Motion Hearing [FRESH (FOR ADMISSION) - CIVIL CASES]) (Disposal Date: 01-05-1992, Month: 5, Year: 1992) JUDGES: HON'BLE MR. JUSTICE S. MOHAN"
+    ],
+    [
+     "Disp.Type",
+     "Dismissed"
+    ],
+    [
+     "Category",
+     ""
+    ],
+    [
+     "Petitioner(s)",
+     "1 [REDACTED] ."
+    ],
+    [
+     "Respondent(s)",
+     "1 STATE OF A.P. ."
+    ],
+    [
+     "Petitioner Advocate(s)",
+     ""
+    ],
+    [
+     "Respondent Advocate(s)",
+     ""
+    ]
+   ],
+   [
+    [
+     "Argument Transcripts"
+    ]
+   ],
+   [
+    [
+     "Indexing"
+    ]
+   ],
+   [
+    [
+     "Earlier Court Details"
+    ]
+   ],
+   [
+    [
+     "Tagged Matters"
+    ]
+   ],
+   [
+    [
+     "Listing Dates"
+    ]
+   ],
+   [
+    [
+     "Interlocutory Application Documents"
+    ],
+    [
+     "INTERLOCUTARY APPLICATION(s) Serial Number Reg. No./I.A. No. Particular Remark Filed By Filing Date Status Entered On"
+    ]
+   ],
+   [
+    [
+     "Court Fees"
+    ]
+   ],
+   [
+    [
+     "Notices"
+    ]
+   ],
+   [
+    [
+     "Defects"
+    ]
+   ],
+   [
+    [
+     "Judgement/Orders"
+    ]
+   ],
+   [
+    [
+     "Mention Memo"
+    ]
+   ],
+   [
+    [
+     "Drop Note"
+    ]
+   ],
+   [
+    [
+     "Office Report"
+    ]
+   ],
+   [
+    [
+     "Similarities"
+    ]
+   ],
+   [
+    [
+     "Caveat"
+    ]
+   ]
+  ],
+  "selects": [
+   {
+    "name": "case_type",
+    "options": [
+     [
+      "",
+      "--Select--"
+     ],
+     [
+      "1",
+      "SPECIAL LEAVE PETITION (CIVIL)"
+     ],
+     [
+      "2",
+      "SPECIAL LEAVE PETITION (CRIMINAL)"
+     ],
+     [
+      "3",
+      "CIVIL APPEAL"
+     ],
+     [
+      "4",
+      "CRIMINAL APPEAL"
+     ],
+     [
+      "5",
+      "WRIT PETITION (CIVIL)"
+     ],
+     [
+      "6",
+      "WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "7",
+      "TRANSFER PETITION (CIVIL)"
+     ],
+     [
+      "8",
+      "TRANSFER PETITION (CRIMINAL)"
+     ],
+     [
+      "9",
+      "REVIEW PETITION (CIVIL)"
+     ],
+     [
+      "10",
+      "REVIEW PETITION (CRIMINAL)"
+     ],
+     [
+      "11",
+      "TRANSFERRED CASE (CIVIL)"
+     ],
+     [
+      "12",
+      "TRANSFERRED CASE (CRIMINAL)"
+     ],
+     [
+      "13",
+      "SPECIAL LEAVE TO PETITION (CIVIL)..."
+     ],
+     [
+      "14",
+      "SPECIAL LEAVE TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "15",
+      "WRIT TO PETITION (CIVIL)..."
+     ],
+     [
+      "16",
+      "WRIT TO PETITION (CRIMINAL)..."
+     ],
+     [
+      "17",
+      "ORIGINAL SUIT"
+     ],
+     [
+      "18",
+      "DEATH REFERENCE CASE"
+     ],
+     [
+      "19",
+      "CONTEMPT PETITION (CIVIL)"
+     ],
+     [
+      "20",
+      "CONTEMPT PETITION (CRIMINAL)"
+     ],
+     [
+      "21",
+      "TAX REFERENCE CASE"
+     ],
+     [
+      "22",
+      "SPECIAL REFERENCE CASE"
+     ],
+     [
+      "23",
+      "ELECTION PETITION (CIVIL)"
+     ],
+     [
+      "24",
+      "ARBITRATION PETITION"
+     ],
+     [
+      "25",
+      "CURATIVE PETITION(CIVIL)"
+     ],
+     [
+      "26",
+      "CURATIVE PETITION(CRL)"
+     ],
+     [
+      "27",
+      "REF. U/A 317(1)"
+     ],
+     [
+      "28",
+      "MOTION(CRL)"
+     ],
+     [
+      "31",
+      "DIARYNO AND DIARYYR"
+     ],
+     [
+      "32",
+      "SUO MOTO WRIT PETITION(CIVIL)"
+     ],
+     [
+      "33",
+      "SUO MOTO WRIT PETITION(CRIMINAL)"
+     ],
+     [
+      "34",
+      "SUO MOTO CONTEMPT PETITION(CIVIL)"
+     ],
+     [
+      "35",
+      "SUO MOTO CONTEMPT PETITION(CRIMINAL)"
+     ],
+     [
+      "37",
+      "REF. U/S 14 RTI"
+     ],
+     [
+      "38",
+      "REF. U/S 17 RTI"
+     ],
+     [
+      "39",
+      "MISCELLANEOUS APPLICATION"
+     ],
+     [
+      "40",
+      "SUO MOTO TRANSFER PETITION(CIVIL)"
+     ],
+     [
+      "41",
+      "SUO MOTO TRANSFER PETITION(CRIMINAL)"
+     ],
+     [
+      "9999",
+      "Unknown"
+     ]
+    ]
+   },
+   {
+    "name": "year",
+    "options": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ],
+     [
+      "1986",
+      "1986"
+     ],
+     [
+      "1985",
+      "1985"
+     ],
+     [
+      "1984",
+      "1984"
+     ],
+     [
+      "1983",
+      "1983"
+     ],
+     [
+      "1982",
+      "1982"
+     ],
+     [
+      "1981",
+      "1981"
+     ],
+     [
+      "1980",
+      "1980"
+     ],
+     [
+      "1979",
+      "1979"
+     ],
+     [
+      "1978",
+      "1978"
+     ],
+     [
+      "1977",
+      "1977"
+     ],
+     [
+      "1976",
+      "1976"
+     ],
+     [
+      "1975",
+      "1975"
+     ],
+     [
+      "1974",
+      "1974"
+     ],
+     [
+      "1973",
+      "1973"
+     ],
+     [
+      "1972",
+      "1972"
+     ],
+     [
+      "1971",
+      "1971"
+     ],
+     [
+      "1970",
+      "1970"
+     ],
+     [
+      "1969",
+      "1969"
+     ],
+     [
+      "1968",
+      "1968"
+     ],
+     [
+      "1967",
+      "1967"
+     ],
+     [
+      "1966",
+      "1966"
+     ],
+     [
+      "1965",
+      "1965"
+     ],
+     [
+      "1964",
+      "1964"
+     ],
+     [
+      "1963",
+      "1963"
+     ],
+     [
+      "1962",
+      "1962"
+     ],
+     [
+      "1961",
+      "1961"
+     ],
+     [
+      "1960",
+      "1960"
+     ],
+     [
+      "1959",
+      "1959"
+     ],
+     [
+      "1958",
+      "1958"
+     ],
+     [
+      "1957",
+      "1957"
+     ],
+     [
+      "1956",
+      "1956"
+     ],
+     [
+      "1955",
+      "1955"
+     ],
+     [
+      "1954",
+      "1954"
+     ],
+     [
+      "1953",
+      "1953"
+     ],
+     [
+      "1952",
+      "1952"
+     ],
+     [
+      "1951",
+      "1951"
+     ]
+    ]
+   }
+  ]
+ },
+ "retrieved": "2026-11-01T16:14:31.957Z"
+}

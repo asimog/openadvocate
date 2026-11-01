@@ -1,0 +1,268 @@
+{
+ "url": "https://hcservices.ecourts.gov.in/hcservices/#",
+ "title": "Home - eCourt India High Courts Services",
+ "fields": [
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "sess_state_code",
+   "id": "sess_state_code",
+   "label": "",
+   "options": [
+    [
+     "0",
+     "Select Highcourt"
+    ],
+    [
+     "13",
+     "Allahabad High Court"
+    ],
+    [
+     "1",
+     "Bombay High Court"
+    ],
+    [
+     "16",
+     "Calcutta High Court"
+    ],
+    [
+     "6",
+     "Gauhati High Court"
+    ],
+    [
+     "29",
+     "High Court for State of Telangana"
+    ],
+    [
+     "2",
+     "High Court of Andhra Pradesh"
+    ],
+    [
+     "18",
+     "High Court of Chhattisgarh"
+    ],
+    [
+     "26",
+     "High Court of Delhi"
+    ],
+    [
+     "17",
+     "High Court of Gujarat"
+    ],
+    [
+     "5",
+     "High Court of Himachal Pradesh"
+    ],
+    [
+     "12",
+     "High Court of Jammu and Kashmir and Ladakh"
+    ],
+    [
+     "7",
+     "High Court of Jharkhand"
+    ],
+    [
+     "3",
+     "High Court of Karnataka"
+    ],
+    [
+     "4",
+     "High Court of Kerala"
+    ],
+    [
+     "23",
+     "High Court of Madhya Pradesh"
+    ],
+    [
+     "25",
+     "High Court of Manipur"
+    ],
+    [
+     "21",
+     "High Court of Meghalaya"
+    ],
+    [
+     "11",
+     "High Court of Orissa"
+    ],
+    [
+     "22",
+     "High Court of Punjab and Haryana"
+    ],
+    [
+     "9",
+     "High Court of Rajasthan"
+    ],
+    [
+     "24",
+     "High Court of Sikkim"
+    ],
+    [
+     "20",
+     "High Court of Tripura"
+    ],
+    [
+     "15",
+     "High Court of Uttarakhand"
+    ],
+    [
+     "10",
+     "Madras High Court"
+    ],
+    [
+     "8",
+     "Patna High Court"
+    ]
+   ]
+  },
+  {
+   "tag": "select",
+   "type": "select-one",
+   "name": "",
+   "id": "court_complex_code",
+   "label": "",
+   "options": [
+    [
+     "0",
+     "Select Bench"
+    ],
+    [
+     "1",
+     "Principal Bench at Delhi"
+    ]
+   ]
+  },
+  {
+   "tag": "input",
+   "type": "button",
+   "name": "",
+   "id": "bckbtn",
+   "label": ""
+  }
+ ],
+ "tables": [
+  [
+   [
+    "Filing Number",
+    "W.P.(C) /14074/2018",
+    "Filing Date",
+    "30-01-2018"
+   ],
+   [
+    "Registration Number",
+    "W.P.(C) /991/2018",
+    "Registration Date",
+    "01-02-2018"
+   ],
+   [
+    "CNR Number",
+    "DLHC01-014074-2018"
+   ]
+  ],
+  [
+   [
+    "First Hearing Date",
+    "02nd February 2018"
+   ],
+   [
+    "Decision Date",
+    "15th February 2018"
+   ],
+   [
+    "Case Status",
+    "Case disposed"
+   ],
+   [
+    "Nature of Disposal",
+    "--"
+   ],
+   [
+    "Coram",
+    "HON'BLE MR. JUSTICE V. KAMESWAR RAO"
+   ],
+   [
+    "Judicial Branch",
+    "APPELLATE SIDE"
+   ],
+   [
+    "Not Before Me",
+    "NO COURT NO COURT AT PRESENT"
+   ]
+  ],
+  [
+   [
+    "Category",
+    "Misuser/theft of electricity ( 400003 )"
+   ]
+  ],
+  [
+   [
+    "IA Number",
+    "Party",
+    "Date of Filing",
+    "Next Date",
+    "IA Status"
+   ],
+   [
+    "CM APPL./4171/2018 (4171 ) Classification :",
+    "[REDACTED]",
+    "01-02-2018",
+    "15-02-2018",
+    "Disposed"
+   ],
+   [
+    "CM APPL./4172/2018 (4172 ) Classification :",
+    "[REDACTED]",
+    "01-02-2018",
+    "15-02-2018",
+    "Disposed"
+   ]
+  ],
+  [
+   [
+    "Cause List Type",
+    "Judge",
+    "Business on Date",
+    "Hearing Date",
+    "Purpose of Hearing"
+   ],
+   [
+    "COMPLETE CAUSE LIST",
+    "HON'BLE MR. JUSTICE V. KAMESWAR RAO",
+    "02-02-2018",
+    "15-02-2018",
+    "FRESH MATTERS & APPLICATIONS"
+   ]
+  ],
+  [
+   [
+    "Orders"
+   ]
+  ],
+  [
+   [
+    "Order Number",
+    "Order on",
+    "Judge",
+    "Order Date",
+    "Order Details"
+   ],
+   [
+    "1",
+    "W.P.(C)/991/2018",
+    "HON'BLE MR. JUSTICE V. KAMESWAR RAO",
+    "02-02-2018",
+    "View"
+   ],
+   [
+    "2",
+    "W.P.(C)/991/2018",
+    "HON'BLE MR. JUSTICE V. KAMESWAR RAO",
+    "15-02-2018",
+    "View"
+   ]
+  ]
+ ],
+ "text": "इ-कमिटी, उच्चतम न्यायालय, भारत\nE-COMMITTEE, SUPREME COURT OF INDIA\nSkip to main content\nAccessibility options\nउच्च न्यायालय सेवाएं\neCourts Services\nHigh Courts of India\nHome\ne-Committee\nSupreme Court\nHigh Courts\nDistrict Courts\nNJDG\nContact Us\nWelcome to e-Courts services\nSearch Menu\n\nCNR Number\n\nCase Status\n\nCourt Orders\n\nCause List\n\nCaveat Search\n\nWe have updated the High Court services website theme. Please clear your browser cache and refresh the page to view the updated theme properly.\nCase Status\nHow to\n\na.Cases can be searched on the basis of Party Name, Case Number, Filing Number, Advocate Name, FIR Number, Act or Case Type.\nb. First, select High Court and Bench to which the Case being searched belongs.\nc.Then select the criteria on which you want to search the Case from the tabs provided on the screen..\nSelect Highcourt\nAllahabad High Court\nBombay High Court\nCalcutta High Court\nGauhati High Court\nHigh Court for State of Telangana\nHigh Court of Andhra Pradesh\nHigh Court of Chhattisgarh\nHigh Court of Delhi\nHigh Court of Gujarat\nHigh Court of Himachal Pradesh\nHigh Court of Jammu and Kashmir and Ladakh\nHigh Court of Jharkhand\nHigh Court of Karnataka\nHigh Court of Kerala\nHigh Court of Madhya Pradesh\nHigh Court of Manipur\nHigh Court of Meghalaya\nHigh Court of Orissa\nHigh Court of Punjab and Haryana\nHigh Court of Rajasthan\nHigh Court of Sikkim\nHigh Court of Tripura\nHigh Court of Uttarakhand\nMadras High Court\nPatna High Court\nSelect Bench\nPrincipal Bench at Delhi\n Party Name\n Case Number\n Filing Number\n Advocate Name\n FIR Number\n Act\n Case Type\n\n\nCase Details\n\n\nFiling Number\tW.P.(C) /14074/2018\tFiling Date\t30-01-2018\nRegistration Number\tW.P.(C) /991/2018\tRegistration Date\t01-02-2018\nCNR Number\tDLHC01-014074-2018\n\n\nCase Status\nFirst Hearing Date\t02nd February 2018\nDecision Date\t15th February 2018\nCase Status\tCase disposed\nNature of Disposal\t--\nCoram\tHON'BLE MR. JUSTICE V. KAMESWAR RAO\nJudicial Branch\tAPPELLATE SIDE\nNot Before Me\tNO COURT NO COURT AT PRESENT\nPetitioner and Advocate\n1) [REDACTED]\n    [REDACTED]\n\nRespondent and Advocate\n1) TATA POWER DELHI DISTRIBUTION LIMITED (TPDDL)\n  \n\n\n\nCategory Details\nCategory\tMisuser/theft of electricity ( 400003 )\n\n\nIA Details\nIA Number\tParty\tDate of Filing\tNext Date\tIA Status\nCM APPL./4171/2018 (4171 )\nClassification :\t[REDACTED]\n\t01-02-2018\t15-02-2018\tDisposed\nCM APPL./4172/2018 (4172 )\nClassification :\t[REDACTED]\n\t01-02-2018\t15-02-2018\tDisposed\nCase History\nCause List Type\tJudge\tBusiness on Date\tHearing Date\tPurpose of Hearing\nCOMPLETE CAUSE LIST\tHON'BLE MR. JUSTICE V. KAMESWAR RAO\t02-02-2018\t15-02-2018\tFRESH MATTERS & APPLICATIONS\n\n\nOrders\n  Order Number\t  Order on\t  Judge\t  Order Date\t  Order Details\n  1\t W.P.(C)/991/2018\t  HON'BLE MR. JUSTICE V. KAMESWAR RAO\t  02-02-2018\t  View\n  2\t W.P.(C)/991/2018\t  HON'BLE MR. JUSTICE V. KAMESWAR RAO\t  15-02-2018\t  View\n\n\nUseful Links\nAbout Us\nNewsLetter\nSite map\nContact Us\nWeb Information Manager\nTerms and Conditions\nCopy Right Policy\nHyper Linking Policy\nPrivacy Policy\nAccessibility Statement\nScreen Reader Access\nDisclaimer\n\nContent Owned by eCommittee, Supreme Court of India.\n\nThis site is designed, hosted and maintained by National Informatics Centre (NIC) Ministry of Electronics & Information Technology, Government of India.\n\nLast Updated : 08-10-2026\n\nFollow Us\n\nS2\n\nVersion :3.0\n\n     \n\nBACK TO TOP",
+ "retrieved": "2026-11-01T16:13:42.021Z"
+}

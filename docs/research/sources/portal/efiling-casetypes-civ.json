@@ -1,0 +1,3579 @@
+{
+ "url": "https://filing.ecourts.gov.in/pdedev/?p=advocate_case_registration/",
+ "sets": [
+  "selDistrict=8",
+  "selEstablishment=DLCT01~1",
+  "radio:fcasetype=1"
+ ],
+ "retrieved": "2026-11-01T16:16:07.352Z",
+ "selects": [
+  {
+   "name": "selTagState",
+   "id": "selTagState",
+   "options": [
+    [
+     "7",
+     "Delhi"
+    ]
+   ]
+  },
+  {
+   "name": "selDistrict",
+   "id": "selDistrict",
+   "options": [
+    [
+     "",
+     "Select District"
+    ],
+    [
+     "8",
+     "Central"
+    ]
+   ]
+  },
+  {
+   "name": "selEstablishment",
+   "id": "selEstablishment",
+   "options": [
+    [
+     "",
+     "Select Establishment"
+    ],
+    [
+     "DLCT01~1",
+     "District and Sessions Judge, Central, THC"
+    ],
+    [
+     "DLCT02~2",
+     "Chief Metropolitan Magistrate, Central, THC"
+    ],
+    [
+     "DLCT03~3",
+     "Senior Civil Judge cum RC, Central, THC"
+    ],
+    [
+     "DLCT04~4",
+     "Principal Judge Family Court, Central, THC"
+    ],
+    [
+     "DLCT05~8",
+     "Appellate Tribunal Municipal Corporation of Delhi"
+    ]
+   ]
+  },
+  {
+   "name": "selMainCaseType",
+   "id": "selMainCaseType",
+   "options": [
+    [
+     "",
+     "Select Case"
+    ],
+    [
+     "16",
+     "Adoption"
+    ],
+    [
+     "1",
+     "Appeal"
+    ],
+    [
+     "2",
+     "Arbitration"
+    ],
+    [
+     "5",
+     "Caveat"
+    ],
+    [
+     "6",
+     "Commercial"
+    ],
+    [
+     "17",
+     "Compensation"
+    ],
+    [
+     "18",
+     "Desertion and Maintenance"
+    ],
+    [
+     "7",
+     "Execution"
+    ],
+    [
+     "8",
+     "Family disputes"
+    ],
+    [
+     "9",
+     "Injunction"
+    ],
+    [
+     "19",
+     "Miscellaneous"
+    ],
+    [
+     "12",
+     "Possession"
+    ],
+    [
+     "13",
+     "Recovery of Money"
+    ],
+    [
+     "14",
+     "Review/Revision"
+    ],
+    [
+     "15",
+     "Summary Suit"
+    ]
+   ]
+  },
+  {
+   "name": "selCaseType",
+   "id": "selCaseType",
+   "options": []
+  },
+  {
+   "name": "fsubstate_code",
+   "id": "fsubstate_code",
+   "options": []
+  },
+  {
+   "name": "fsubdist_code",
+   "id": "fsubdist_code",
+   "options": [
+    [
+     "",
+     "Select District"
+    ],
+    [
+     "8",
+     "Central"
+    ]
+   ]
+  },
+  {
+   "name": "selSubEstablishment",
+   "id": "selSubEstablishment",
+   "options": [
+    [
+     "",
+     "Select Establishment"
+    ],
+    [
+     "DLCT01~1",
+     "District and Sessions Judge, Central, THC"
+    ],
+    [
+     "DLCT02~2",
+     "Chief Metropolitan Magistrate, Central, THC"
+    ],
+    [
+     "DLCT03~3",
+     "Senior Civil Judge cum RC, Central, THC"
+    ],
+    [
+     "DLCT04~4",
+     "Principal Judge Family Court, Central, THC"
+    ],
+    [
+     "DLCT05~8",
+     "Appellate Tribunal Municipal Corporation of Delhi"
+    ]
+   ]
+  },
+  {
+   "name": "selSubCaseType1",
+   "id": "selSubCaseType1",
+   "options": []
+  },
+  {
+   "name": "selSubCaseType2",
+   "id": "selSubCaseType2",
+   "options": []
+  },
+  {
+   "name": "selMainPlaintiff",
+   "id": "selMainPlaintiff",
+   "options": []
+  },
+  {
+   "name": "extraporg_name",
+   "id": "extraporg_name",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1001",
+     "Central Government Department - 1001"
+    ],
+    [
+     "1002",
+     "Central Government Corporations (PSUs) - 1002"
+    ],
+    [
+     "1003",
+     "Central Government Organisations or Institutions (including semi Govt.) - 1003"
+    ],
+    [
+     "1004",
+     "National Councils, Commission or Bodies - 1004"
+    ],
+    [
+     "1005",
+     "Election Commission of India - 1005"
+    ],
+    [
+     "2001",
+     "State Government Departments - 2001"
+    ],
+    [
+     "2002",
+     "State Government Corporations - 2002"
+    ],
+    [
+     "2003",
+     "State Government Organisations or Institutions (including semi Govt,) - 2003"
+    ],
+    [
+     "2004",
+     "Urban Local Bodies (Municipal Corporations, Councils, Nagar Pancha) - 2004"
+    ],
+    [
+     "2005",
+     "Rural Local Bodies (Zilla Parishad, Panchyat Samiti, Gram Panchayat) - 2005"
+    ],
+    [
+     "2006",
+     "State Council, Commissions or Bodies - 2006"
+    ],
+    [
+     "3001",
+     "Universities - 3001"
+    ],
+    [
+     "3002",
+     "Educational Institutions Viz, Schools colleges Institutes etc. - 3002"
+    ],
+    [
+     "4001",
+     "Nationalised Banks - 4001"
+    ],
+    [
+     "4002",
+     "Other Banks - 4002"
+    ],
+    [
+     "4003",
+     "Cooperative Banks - 4003"
+    ],
+    [
+     "4004",
+     "Finance Companies - 4004"
+    ],
+    [
+     "4005",
+     "Insurance Companies - 4005"
+    ],
+    [
+     "4006",
+     "Multi State Cooperative societies - 4006"
+    ],
+    [
+     "4007",
+     "Cooperative Societies - 4007"
+    ],
+    [
+     "4008",
+     "Reserve Bank of India - 4008"
+    ],
+    [
+     "5001",
+     "Multi National Companies - 5001"
+    ],
+    [
+     "5002",
+     "Public Limited Companies - 5002"
+    ],
+    [
+     "5003",
+     "Private Limited Companies - 5003"
+    ],
+    [
+     "5004",
+     "Trade Unions - 5004"
+    ]
+   ]
+  },
+  {
+   "name": "org_level2",
+   "id": "org_level2",
+   "options": []
+  },
+  {
+   "name": "org_level3",
+   "id": "org_level3",
+   "options": []
+  },
+  {
+   "name": "resinsurance_name",
+   "id": "resinsurance_name",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "157",
+     "Acko General Insurance Ltd."
+    ],
+    [
+     "153",
+     "Aditya Birla Health Insurance Co. Ltd."
+    ],
+    [
+     "126",
+     "Agriculture Insurance Company of India Ltd."
+    ],
+    [
+     "113",
+     "Bajaj Allianz General Insurance Co. Ltd"
+    ],
+    [
+     "148",
+     "Care Health Insurance Ltd (formerly known as Religare Health Insurance Co. Ltd.)"
+    ],
+    [
+     "123",
+     "Cholamandalam MS General Insurance Co. Ltd."
+    ],
+    [
+     "124",
+     "ECGC Ltd."
+    ],
+    [
+     "159",
+     "Edelweiss General Insurance Co. Ltd."
+    ],
+    [
+     "133",
+     "Future Generali India Insurance Co. Ltd."
+    ],
+    [
+     "112",
+     "General Insurance Corporation of India"
+    ],
+    [
+     "158",
+     "Go Digit General Insurance Ltd"
+    ],
+    [
+     "146",
+     "HDFC ERGO General Insurance Co.Ltd. (formerly known as Apollo Munich Health Insurance.)"
+    ],
+    [
+     "115",
+     "ICICI LOMBARD General Insurance Co. Ltd. (formerly knows as Bharati AXA general insurance)"
+    ],
+    [
+     "106",
+     "IFFCO TOKIO General Insurance Co. Ltd."
+    ],
+    [
+     "539",
+     "Kerala State Government Insurance Department"
+    ],
+    [
+     "152",
+     "Kotak Mahindra General Insurance Co. Ltd."
+    ],
+    [
+     "150",
+     "Liberty General Insurance Ltd."
+    ],
+    [
+     "149",
+     "Magma HDI General Insurance Co. Ltd."
+    ],
+    [
+     "MH001",
+     "Maharashtra State Government Insurance Department"
+    ],
+    [
+     "129",
+     "Manipal Cigna Health Insurance Company Limited (formerly knows as Cigna TTK Health insurance)"
+    ],
+    [
+     "58",
+     "National Insurance Co. Ltd."
+    ],
+    [
+     "155",
+     "Navi General Insurance Ltd. (formerly knows as DHFL General Insurance )"
+    ],
+    [
+     "145",
+     "Niva Bupa Health Insurance Co Ltd. (formerly knows as Max Bupa health insurance)"
+    ],
+    [
+     "141",
+     "Raheja QBE General Insurance Co. Ltd."
+    ],
+    [
+     "103",
+     "Reliance General Insurance Co.Ltd"
+    ],
+    [
+     "103",
+     "Reliance Health Insurance Ltd."
+    ],
+    [
+     "102",
+     "Royal Sundaram General Insurance Co. Ltd."
+    ],
+    [
+     "144",
+     "SBI General Insurance Co. Ltd."
+    ],
+    [
+     "137",
+     "Shriram General Insurance Co. Ltd."
+    ],
+    [
+     "129",
+     "Star Health & Allied Insurance Co.Ltd."
+    ],
+    [
+     "108",
+     "Tata AIG General Insurance Co. Ltd."
+    ],
+    [
+     "190",
+     "The New India Assurance Co. Ltd"
+    ],
+    [
+     "556",
+     "The Oriental Insurance Co. Ltd."
+    ],
+    [
+     "545",
+     "United India Insurance Co. Ltd."
+    ],
+    [
+     "134",
+     "Universal Sompo General Insurance Co. Ltd."
+    ]
+   ]
+  },
+  {
+   "name": "fextra_salutation",
+   "id": "fextra_salutation",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Mr."
+    ],
+    [
+     "2",
+     "Mrs."
+    ],
+    [
+     "3",
+     "Ms."
+    ],
+    [
+     "4",
+     "Shri"
+    ],
+    [
+     "5",
+     "Dr."
+    ],
+    [
+     "6",
+     "CA"
+    ],
+    [
+     "7",
+     "Er."
+    ],
+    [
+     "8",
+     "Prof."
+    ]
+   ]
+  },
+  {
+   "name": "fextra_father_flag",
+   "id": "fextra_father_flag",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Self"
+    ],
+    [
+     "2",
+     "Spouse"
+    ],
+    [
+     "3",
+     "Father"
+    ],
+    [
+     "4",
+     "Mother"
+    ],
+    [
+     "5",
+     "Son"
+    ],
+    [
+     "6",
+     "Daughter"
+    ],
+    [
+     "7",
+     "Brother"
+    ],
+    [
+     "8",
+     "Sister"
+    ],
+    [
+     "9",
+     "Father- In- Law"
+    ],
+    [
+     "10",
+     "Mother- In- Law"
+    ],
+    [
+     "11",
+     "Brother-In-Law"
+    ],
+    [
+     "12",
+     "Sister-In-Law"
+    ],
+    [
+     "13",
+     "Nephew"
+    ],
+    [
+     "14",
+     "Niece"
+    ],
+    [
+     "15",
+     "Grandson"
+    ],
+    [
+     "16",
+     "Granddaughter"
+    ],
+    [
+     "17",
+     "Grandfather"
+    ],
+    [
+     "18",
+     "Grandmother"
+    ],
+    [
+     "19",
+     "Other"
+    ]
+   ]
+  },
+  {
+   "name": "fextra_caste",
+   "id": "fextra_caste",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "2",
+     "Hindu/SC-2"
+    ],
+    [
+     "7",
+     "Muslim/ST-7"
+    ],
+    [
+     "4",
+     "Christian/ST-4"
+    ],
+    [
+     "5",
+     "Muslim/OBC-5"
+    ],
+    [
+     "1",
+     "Hindu/Open-1"
+    ],
+    [
+     "6",
+     "Hindu/NT-6"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_off",
+   "id": "fstate_code_extra_off",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_off",
+   "id": "fdist_code_extra_off",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_off",
+   "id": "ftaluka_code_extra_off",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code_extra_off",
+   "id": "fvillage_code_extra_off",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_alt",
+   "id": "fstate_code_extra_alt",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_alt",
+   "id": "fdist_code_extra_alt",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_alt",
+   "id": "ftaluka_code_extra_alt",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code_extra_alt",
+   "id": "fvillage_code_extra_alt",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "selpartyname_legalheir",
+   "id": "selpartyname_legalheir",
+   "options": []
+  },
+  {
+   "name": "fextra_salutation_lh",
+   "id": "fextra_salutation_lh",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Mr."
+    ],
+    [
+     "2",
+     "Mrs."
+    ],
+    [
+     "3",
+     "Ms."
+    ],
+    [
+     "4",
+     "Shri"
+    ],
+    [
+     "5",
+     "Dr."
+    ],
+    [
+     "6",
+     "CA"
+    ],
+    [
+     "7",
+     "Er."
+    ],
+    [
+     "8",
+     "Prof."
+    ]
+   ]
+  },
+  {
+   "name": "fextra_father_flag_lh",
+   "id": "fextra_father_flag_lh",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Self"
+    ],
+    [
+     "2",
+     "Spouse"
+    ],
+    [
+     "3",
+     "Father"
+    ],
+    [
+     "4",
+     "Mother"
+    ],
+    [
+     "5",
+     "Son"
+    ],
+    [
+     "6",
+     "Daughter"
+    ],
+    [
+     "7",
+     "Brother"
+    ],
+    [
+     "8",
+     "Sister"
+    ],
+    [
+     "9",
+     "Father- In- Law"
+    ],
+    [
+     "10",
+     "Mother- In- Law"
+    ],
+    [
+     "11",
+     "Brother-In-Law"
+    ],
+    [
+     "12",
+     "Sister-In-Law"
+    ],
+    [
+     "13",
+     "Nephew"
+    ],
+    [
+     "14",
+     "Niece"
+    ],
+    [
+     "15",
+     "Grandson"
+    ],
+    [
+     "16",
+     "Granddaughter"
+    ],
+    [
+     "17",
+     "Grandfather"
+    ],
+    [
+     "18",
+     "Grandmother"
+    ],
+    [
+     "19",
+     "Other"
+    ]
+   ]
+  },
+  {
+   "name": "fextra_caste_lh",
+   "id": "fextra_caste_lh",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "2",
+     "Hindu/SC-2"
+    ],
+    [
+     "7",
+     "Muslim/ST-7"
+    ],
+    [
+     "4",
+     "Christian/ST-4"
+    ],
+    [
+     "5",
+     "Muslim/OBC-5"
+    ],
+    [
+     "1",
+     "Hindu/Open-1"
+    ],
+    [
+     "6",
+     "Hindu/NT-6"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_off_lh",
+   "id": "fstate_code_extra_off_lh",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_off_lh",
+   "id": "fdist_code_extra_off_lh",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_off_lh",
+   "id": "ftaluka_code_extra_off_lh",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code_extra_off_lh",
+   "id": "fvillage_code_extra_off_lh",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_alt_lh",
+   "id": "fstate_code_extra_alt_lh",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_alt_lh",
+   "id": "fdist_code_extra_alt_lh",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_alt_lh",
+   "id": "ftaluka_code_extra_alt_lh",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code_extra_alt_lh",
+   "id": "fvillage_code_extra_alt_lh",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_privates",
+   "id": "fpolice_privates",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Police Challan"
+    ],
+    [
+     "2",
+     "Private Complaint"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_state",
+   "id": "fpolice_state",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "7",
+     "DELHI"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_dist",
+   "id": "fpolice_dist",
+   "options": [
+    [
+     "",
+     "Select District"
+    ],
+    [
+     "95",
+     "Central"
+    ],
+    [
+     "93",
+     "East"
+    ],
+    [
+     "94",
+     "New Delhi"
+    ],
+    [
+     "91",
+     "North"
+    ],
+    [
+     "92",
+     "North East"
+    ],
+    [
+     "90",
+     "North West"
+    ],
+    [
+     "671",
+     "Shahdara"
+    ],
+    [
+     "98",
+     "South"
+    ],
+    [
+     "670",
+     "South East"
+    ],
+    [
+     "97",
+     "South West"
+    ],
+    [
+     "96",
+     "West"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_station",
+   "id": "fpolice_station",
+   "options": []
+  },
+  {
+   "name": "fir_type",
+   "id": "fir_type",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "I-1"
+    ],
+    [
+     "2",
+     "II-2"
+    ],
+    [
+     "3",
+     "III-3"
+    ]
+   ]
+  },
+  {
+   "name": "finvestigation_agency",
+   "id": "finvestigation_agency",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "NIA-1"
+    ],
+    [
+     "2",
+     "CBI-2"
+    ],
+    [
+     "3",
+     "Serious Fraud Investigation Agency-3"
+    ],
+    [
+     "4",
+     "ED (Enforcement Directorate)-4"
+    ],
+    [
+     "5",
+     "Revenue Intelligence (DRI)-5"
+    ],
+    [
+     "6",
+     "Narcotics Control Bureau-6"
+    ],
+    [
+     "7",
+     "Wild Life Control Bureau-7"
+    ],
+    [
+     "8",
+     "Central Economic Intelligence Bureau-8"
+    ],
+    [
+     "9",
+     "Investigating Division of CBDT-9"
+    ],
+    [
+     "10",
+     "Intelligence Bureau-10"
+    ],
+    [
+     "11",
+     "Intelligence and Criminal Investigation (Income Tax)-11"
+    ],
+    [
+     "12",
+     "Central Excise Intelligence-12"
+    ],
+    [
+     "13",
+     "Railway Police-13"
+    ],
+    [
+     "14",
+     "Crime Investigation Department (CID)-14"
+    ],
+    [
+     "15",
+     "Cyber Crime Division-15"
+    ],
+    [
+     "16",
+     "State Excise Department-16"
+    ],
+    [
+     "17",
+     "Forest Department-17"
+    ],
+    [
+     "18",
+     "Anti Corruption Brach (ACB)-18"
+    ],
+    [
+     "19",
+     "Local Crime Branch (LCB)-19"
+    ],
+    [
+     "20",
+     "State EOW-20"
+    ]
+   ]
+  },
+  {
+   "name": "fsession_magistrate",
+   "id": "fsession_magistrate",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Session"
+    ],
+    [
+     "2",
+     "Regular"
+    ],
+    [
+     "3",
+     "Criminal Process"
+    ],
+    [
+     "4",
+     "Summary"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_id3",
+   "id": "fstate_id3",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code3",
+   "id": "fdist_code3",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code3",
+   "id": "ftaluka_code3",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code3",
+   "id": "fvillage_code3",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_code3",
+   "id": "fpolice_code3",
+   "options": [
+    [
+     "",
+     "Select Police Station"
+    ]
+   ]
+  },
+  {
+   "name": "fextra_salutation1",
+   "id": "fextra_salutation1",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Mr."
+    ],
+    [
+     "2",
+     "Mrs."
+    ],
+    [
+     "3",
+     "Ms."
+    ],
+    [
+     "4",
+     "Shri"
+    ],
+    [
+     "5",
+     "Dr."
+    ],
+    [
+     "6",
+     "CA"
+    ],
+    [
+     "7",
+     "Er."
+    ],
+    [
+     "8",
+     "Prof."
+    ]
+   ]
+  },
+  {
+   "name": "fextra_father_flag1",
+   "id": "fextra_father_flag1",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Self"
+    ],
+    [
+     "2",
+     "Spouse"
+    ],
+    [
+     "3",
+     "Father"
+    ],
+    [
+     "4",
+     "Mother"
+    ],
+    [
+     "5",
+     "Son"
+    ],
+    [
+     "6",
+     "Daughter"
+    ],
+    [
+     "7",
+     "Brother"
+    ],
+    [
+     "8",
+     "Sister"
+    ],
+    [
+     "9",
+     "Father- In- Law"
+    ],
+    [
+     "10",
+     "Mother- In- Law"
+    ],
+    [
+     "11",
+     "Brother-In-Law"
+    ],
+    [
+     "12",
+     "Sister-In-Law"
+    ],
+    [
+     "13",
+     "Nephew"
+    ],
+    [
+     "14",
+     "Niece"
+    ],
+    [
+     "15",
+     "Grandson"
+    ],
+    [
+     "16",
+     "Granddaughter"
+    ],
+    [
+     "17",
+     "Grandfather"
+    ],
+    [
+     "18",
+     "Grandmother"
+    ],
+    [
+     "19",
+     "Other"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_off1",
+   "id": "fstate_code_extra_off1",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_off1",
+   "id": "fdist_code_extra_off1",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_off1",
+   "id": "ftaluka_code_extra_off1",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fvillage_code_extra_off1",
+   "id": "fvillage_code_extra_off1",
+   "options": [
+    [
+     "",
+     "Select Village"
+    ]
+   ]
+  },
+  {
+   "name": "ftype_of_employment",
+   "id": "ftype_of_employment",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "Permanent Service"
+    ],
+    [
+     "2",
+     "Temporary Service"
+    ],
+    [
+     "3",
+     "Fixed Income"
+    ],
+    [
+     "4",
+     "Business"
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_extra_off2",
+   "id": "fstate_code_extra_off2",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_extra_off2",
+   "id": "fdist_code_extra_off2",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_extra_off2",
+   "id": "ftaluka_code_extra_off2",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_code_extra_off2",
+   "id": "fpolice_code_extra_off2",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "selInjury",
+   "id": "selInjury",
+   "options": []
+  },
+  {
+   "name": "selMainType",
+   "id": "selMainType",
+   "options": []
+  },
+  {
+   "name": "selSubType",
+   "id": "selSubType",
+   "options": []
+  },
+  {
+   "name": "selTypeInjury",
+   "id": "selTypeInjury",
+   "options": []
+  },
+  {
+   "name": "fownername[]",
+   "id": "fownername",
+   "options": []
+  },
+  {
+   "name": "fdrivername[]",
+   "id": "fdrivername",
+   "options": []
+  },
+  {
+   "name": "finsurancecompany[]",
+   "id": "finsurancecompany",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "157",
+     "Acko General Insurance Ltd."
+    ],
+    [
+     "153",
+     "Aditya Birla Health Insurance Co. Ltd."
+    ],
+    [
+     "126",
+     "Agriculture Insurance Company of India Ltd."
+    ],
+    [
+     "113",
+     "Bajaj Allianz General Insurance Co. Ltd"
+    ],
+    [
+     "148",
+     "Care Health Insurance Ltd (formerly known as Religare Health Insurance Co. Ltd.)"
+    ],
+    [
+     "123",
+     "Cholamandalam MS General Insurance Co. Ltd."
+    ],
+    [
+     "124",
+     "ECGC Ltd."
+    ],
+    [
+     "159",
+     "Edelweiss General Insurance Co. Ltd."
+    ],
+    [
+     "133",
+     "Future Generali India Insurance Co. Ltd."
+    ],
+    [
+     "112",
+     "General Insurance Corporation of India"
+    ],
+    [
+     "158",
+     "Go Digit General Insurance Ltd"
+    ],
+    [
+     "146",
+     "HDFC ERGO General Insurance Co.Ltd. (formerly known as Apollo Munich Health Insurance.)"
+    ],
+    [
+     "115",
+     "ICICI LOMBARD General Insurance Co. Ltd. (formerly knows as Bharati AXA general insurance)"
+    ],
+    [
+     "106",
+     "IFFCO TOKIO General Insurance Co. Ltd."
+    ],
+    [
+     "539",
+     "Kerala State Government Insurance Department"
+    ],
+    [
+     "152",
+     "Kotak Mahindra General Insurance Co. Ltd."
+    ],
+    [
+     "150",
+     "Liberty General Insurance Ltd."
+    ],
+    [
+     "149",
+     "Magma HDI General Insurance Co. Ltd."
+    ],
+    [
+     "MH001",
+     "Maharashtra State Government Insurance Department"
+    ],
+    [
+     "129",
+     "Manipal Cigna Health Insurance Company Limited (formerly knows as Cigna TTK Health insurance)"
+    ],
+    [
+     "58",
+     "National Insurance Co. Ltd."
+    ],
+    [
+     "155",
+     "Navi General Insurance Ltd. (formerly knows as DHFL General Insurance )"
+    ],
+    [
+     "145",
+     "Niva Bupa Health Insurance Co Ltd. (formerly knows as Max Bupa health insurance)"
+    ],
+    [
+     "141",
+     "Raheja QBE General Insurance Co. Ltd."
+    ],
+    [
+     "103",
+     "Reliance General Insurance Co.Ltd"
+    ],
+    [
+     "103",
+     "Reliance Health Insurance Ltd."
+    ],
+    [
+     "102",
+     "Royal Sundaram General Insurance Co. Ltd."
+    ],
+    [
+     "144",
+     "SBI General Insurance Co. Ltd."
+    ],
+    [
+     "137",
+     "Shriram General Insurance Co. Ltd."
+    ],
+    [
+     "129",
+     "Star Health & Allied Insurance Co.Ltd."
+    ],
+    [
+     "108",
+     "Tata AIG General Insurance Co. Ltd."
+    ],
+    [
+     "190",
+     "The New India Assurance Co. Ltd"
+    ],
+    [
+     "556",
+     "The Oriental Insurance Co. Ltd."
+    ],
+    [
+     "545",
+     "United India Insurance Co. Ltd."
+    ],
+    [
+     "134",
+     "Universal Sompo General Insurance Co. Ltd."
+    ]
+   ]
+  },
+  {
+   "name": "fstate_code_mvc",
+   "id": "fstate_code_mvc",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "35",
+     "ANDAMAN AND NICOBAR ISLANDS"
+    ],
+    [
+     "28",
+     "ANDHRA PRADESH"
+    ],
+    [
+     "12",
+     "ARUNACHAL PRADESH"
+    ],
+    [
+     "18",
+     "ASSAM"
+    ],
+    [
+     "10",
+     "BIHAR"
+    ],
+    [
+     "4",
+     "CHANDIGARH"
+    ],
+    [
+     "22",
+     "CHHATTISGARH"
+    ],
+    [
+     "26",
+     "DADRA AND NAGAR HAVELI"
+    ],
+    [
+     "25",
+     "DAMAN AND DIU"
+    ],
+    [
+     "7",
+     "DELHI"
+    ],
+    [
+     "30",
+     "GOA"
+    ],
+    [
+     "24",
+     "GUJARAT"
+    ],
+    [
+     "6",
+     "HARYANA"
+    ],
+    [
+     "2",
+     "HIMACHAL PRADESH"
+    ],
+    [
+     "37",
+     "Jammu & Kashmir - Ladakh"
+    ],
+    [
+     "1",
+     "JAMMU AND KASHMIR"
+    ],
+    [
+     "20",
+     "JHARKHAND"
+    ],
+    [
+     "29",
+     "KARNATAKA"
+    ],
+    [
+     "32",
+     "KERALA"
+    ],
+    [
+     "31",
+     "LAKSHADWEEP"
+    ],
+    [
+     "23",
+     "MADHYA PRADESH"
+    ],
+    [
+     "27",
+     "MAHARASHTRA"
+    ],
+    [
+     "14",
+     "MANIPUR"
+    ],
+    [
+     "17",
+     "MEGHALAYA"
+    ],
+    [
+     "15",
+     "MIZORAM"
+    ],
+    [
+     "13",
+     "NAGALAND"
+    ],
+    [
+     "21",
+     "ODISHA"
+    ],
+    [
+     "34",
+     "PUDUCHERRY"
+    ],
+    [
+     "3",
+     "PUNJAB"
+    ],
+    [
+     "8",
+     "RAJASTHAN"
+    ],
+    [
+     "11",
+     "SIKKIM"
+    ],
+    [
+     "33",
+     "TAMIL NADU"
+    ],
+    [
+     "36",
+     "TELANGANA"
+    ],
+    [
+     "16",
+     "TRIPURA"
+    ],
+    [
+     "9",
+     "UTTAR PRADESH"
+    ],
+    [
+     "5",
+     "UTTARAKHAND"
+    ],
+    [
+     "19",
+     "WEST BENGAL"
+    ]
+   ]
+  },
+  {
+   "name": "fdist_code_mvc",
+   "id": "fdist_code_mvc",
+   "options": [
+    [
+     "",
+     "Select District"
+    ]
+   ]
+  },
+  {
+   "name": "ftaluka_code_mvc",
+   "id": "ftaluka_code_mvc",
+   "options": [
+    [
+     "",
+     "Select Taluka"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_code_mvc",
+   "id": "fpolice_code_mvc",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "ffir_type_code",
+   "id": "ffir_type_code",
+   "options": [
+    [
+     "",
+     "Select"
+    ],
+    [
+     "1",
+     "I-1"
+    ],
+    [
+     "2",
+     "II-2"
+    ],
+    [
+     "3",
+     "III-3"
+    ]
+   ]
+  },
+  {
+   "name": "fcomp_bank",
+   "id": "fcomp_bank",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "fcheque_bank",
+   "id": "fcheque_bank",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "fcheque_reason_dishonor[]",
+   "id": "fcheque_reason_dishonor",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "fdemand_notice_mode",
+   "id": "fdemand_notice_mode",
+   "options": [
+    [
+     "",
+     "Select"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_state138",
+   "id": "fpolice_state138",
+   "options": [
+    [
+     "",
+     "Select State"
+    ],
+    [
+     "7",
+     "DELHI"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_dist138",
+   "id": "fpolice_dist138",
+   "options": [
+    [
+     "",
+     "Select District"
+    ],
+    [
+     "95",
+     "Central"
+    ],
+    [
+     "93",
+     "East"
+    ],
+    [
+     "94",
+     "New Delhi"
+    ],
+    [
+     "91",
+     "North"
+    ],
+    [
+     "92",
+     "North East"
+    ],
+    [
+     "90",
+     "North West"
+    ],
+    [
+     "671",
+     "Shahdara"
+    ],
+    [
+     "98",
+     "South"
+    ],
+    [
+     "670",
+     "South East"
+    ],
+    [
+     "97",
+     "South West"
+    ],
+    [
+     "96",
+     "West"
+    ]
+   ]
+  },
+  {
+   "name": "fpolice_station138",
+   "id": "fpolice_station138",
+   "options": []
+  },
+  {
+   "name": "",
+   "id": "",
+   "options": [
+    [
+     "0",
+     "Jan"
+    ],
+    [
+     "1",
+     "Feb"
+    ],
+    [
+     "2",
+     "Mar"
+    ],
+    [
+     "3",
+     "Apr"
+    ],
+    [
+     "4",
+     "May"
+    ],
+    [
+     "5",
+     "Jun"
+    ],
+    [
+     "6",
+     "Jul"
+    ],
+    [
+     "7",
+     "Aug"
+    ],
+    [
+     "8",
+     "Sep"
+    ],
+    [
+     "9",
+     "Oct"
+    ],
+    [
+     "10",
+     "Nov"
+    ]
+   ]
+  },
+  {
+   "name": "",
+   "id": "",
+   "options": [
+    [
+     "1900",
+     "1900"
+    ],
+    [
+     "1901",
+     "1901"
+    ],
+    [
+     "1902",
+     "1902"
+    ],
+    [
+     "1903",
+     "1903"
+    ],
+    [
+     "1904",
+     "1904"
+    ],
+    [
+     "1905",
+     "1905"
+    ],
+    [
+     "1906",
+     "1906"
+    ],
+    [
+     "1907",
+     "1907"
+    ],
+    [
+     "1908",
+     "1908"
+    ],
+    [
+     "1909",
+     "1909"
+    ],
+    [
+     "1910",
+     "1910"
+    ],
+    [
+     "1911",
+     "1911"
+    ],
+    [
+     "1912",
+     "1912"
+    ],
+    [
+     "1913",
+     "1913"
+    ],
+    [
+     "1914",
+     "1914"
+    ],
+    [
+     "1915",
+     "1915"
+    ],
+    [
+     "1916",
+     "1916"
+    ],
+    [
+     "1917",
+     "1917"
+    ],
+    [
+     "1918",
+     "1918"
+    ],
+    [
+     "1919",
+     "1919"
+    ],
+    [
+     "1920",
+     "1920"
+    ],
+    [
+     "1921",
+     "1921"
+    ],
+    [
+     "1922",
+     "1922"
+    ],
+    [
+     "1923",
+     "1923"
+    ],
+    [
+     "1924",
+     "1924"
+    ],
+    [
+     "1925",
+     "1925"
+    ],
+    [
+     "1926",
+     "1926"
+    ],
+    [
+     "1927",
+     "1927"
+    ],
+    [
+     "1928",
+     "1928"
+    ],
+    [
+     "1929",
+     "1929"
+    ],
+    [
+     "1930",
+     "1930"
+    ],
+    [
+     "1931",
+     "1931"
+    ],
+    [
+     "1932",
+     "1932"
+    ],
+    [
+     "1933",
+     "1933"
+    ],
+    [
+     "1934",
+     "1934"
+    ],
+    [
+     "1935",
+     "1935"
+    ],
+    [
+     "1936",
+     "1936"
+    ],
+    [
+     "1937",
+     "1937"
+    ],
+    [
+     "1938",
+     "1938"
+    ],
+    [
+     "1939",
+     "1939"
+    ],
+    [
+     "1940",
+     "1940"
+    ],
+    [
+     "1941",
+     "1941"
+    ],
+    [
+     "1942",
+     "1942"
+    ],
+    [
+     "1943",
+     "1943"
+    ],
+    [
+     "1944",
+     "1944"
+    ],
+    [
+     "1945",
+     "1945"
+    ],
+    [
+     "1946",
+     "1946"
+    ],
+    [
+     "1947",
+     "1947"
+    ],
+    [
+     "1948",
+     "1948"
+    ],
+    [
+     "1949",
+     "1949"
+    ],
+    [
+     "1950",
+     "1950"
+    ],
+    [
+     "1951",
+     "1951"
+    ],
+    [
+     "1952",
+     "1952"
+    ],
+    [
+     "1953",
+     "1953"
+    ],
+    [
+     "1954",
+     "1954"
+    ],
+    [
+     "1955",
+     "1955"
+    ],
+    [
+     "1956",
+     "1956"
+    ],
+    [
+     "1957",
+     "1957"
+    ],
+    [
+     "1958",
+     "1958"
+    ],
+    [
+     "1959",
+     "1959"
+    ],
+    [
+     "1960",
+     "1960"
+    ],
+    [
+     "1961",
+     "1961"
+    ],
+    [
+     "1962",
+     "1962"
+    ],
+    [
+     "1963",
+     "1963"
+    ],
+    [
+     "1964",
+     "1964"
+    ],
+    [
+     "1965",
+     "1965"
+    ],
+    [
+     "1966",
+     "1966"
+    ],
+    [
+     "1967",
+     "1967"
+    ],
+    [
+     "1968",
+     "1968"
+    ],
+    [
+     "1969",
+     "1969"
+    ],
+    [
+     "1970",
+     "1970"
+    ],
+    [
+     "1971",
+     "1971"
+    ],
+    [
+     "1972",
+     "1972"
+    ],
+    [
+     "1973",
+     "1973"
+    ],
+    [
+     "1974",
+     "1974"
+    ],
+    [
+     "1975",
+     "1975"
+    ],
+    [
+     "1976",
+     "1976"
+    ],
+    [
+     "1977",
+     "1977"
+    ],
+    [
+     "1978",
+     "1978"
+    ],
+    [
+     "1979",
+     "1979"
+    ],
+    [
+     "1980",
+     "1980"
+    ],
+    [
+     "1981",
+     "1981"
+    ],
+    [
+     "1982",
+     "1982"
+    ],
+    [
+     "1983",
+     "1983"
+    ],
+    [
+     "1984",
+     "1984"
+    ],
+    [
+     "1985",
+     "1985"
+    ],
+    [
+     "1986",
+     "1986"
+    ],
+    [
+     "1987",
+     "1987"
+    ],
+    [
+     "1988",
+     "1988"
+    ],
+    [
+     "1989",
+     "1989"
+    ],
+    [
+     "1990",
+     "1990"
+    ],
+    [
+     "1991",
+     "1991"
+    ],
+    [
+     "1992",
+     "1992"
+    ],
+    [
+     "1993",
+     "1993"
+    ],
+    [
+     "1994",
+     "1994"
+    ],
+    [
+     "1995",
+     "1995"
+    ],
+    [
+     "1996",
+     "1996"
+    ],
+    [
+     "1997",
+     "1997"
+    ],
+    [
+     "1998",
+     "1998"
+    ],
+    [
+     "1999",
+     "1999"
+    ],
+    [
+     "2000",
+     "2000"
+    ],
+    [
+     "2001",
+     "2001"
+    ],
+    [
+     "2002",
+     "2002"
+    ],
+    [
+     "2003",
+     "2003"
+    ],
+    [
+     "2004",
+     "2004"
+    ],
+    [
+     "2005",
+     "2005"
+    ],
+    [
+     "2006",
+     "2006"
+    ],
+    [
+     "2007",
+     "2007"
+    ],
+    [
+     "2008",
+     "2008"
+    ],
+    [
+     "2009",
+     "2009"
+    ],
+    [
+     "2010",
+     "2010"
+    ],
+    [
+     "2011",
+     "2011"
+    ],
+    [
+     "2012",
+     "2012"
+    ],
+    [
+     "2013",
+     "2013"
+    ],
+    [
+     "2014",
+     "2014"
+    ],
+    [
+     "2015",
+     "2015"
+    ],
+    [
+     "2016",
+     "2016"
+    ],
+    [
+     "2017",
+     "2017"
+    ],
+    [
+     "2018",
+     "2018"
+    ],
+    [
+     "2019",
+     "2019"
+    ],
+    [
+     "2020",
+     "2020"
+    ],
+    [
+     "2021",
+     "2021"
+    ],
+    [
+     "2022",
+     "2022"
+    ],
+    [
+     "2023",
+     "2023"
+    ],
+    [
+     "2024",
+     "2024"
+    ],
+    [
+     "2025",
+     "2025"
+    ],
+    [
+     "2026",
+     "2026"
+    ]
+   ]
+  }
+ ]
+}

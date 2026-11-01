@@ -19,8 +19,8 @@ const matter: Matter = {
   id: 'gm-01',
   title: 'R. Kumar v. State',
   forum: 'Supreme Court of India',
-  caseType: 'SLP(Crl)',
-  impugnedOrder: { court: 'High Court of Delhi', caseNumber: 'CRL.A. 1/2026', date: '2026-08-14' },
+  caseType: { scheme: 'sci-case-type', code: '2', label: 'SPECIAL LEAVE PETITION (CRIMINAL)' },
+  impugnedOrder: { court: 'High Court of Delhi', caseType: 'CRL.A.', caseNumber: 'CRL.A. 1/2026', date: '2026-08-14' },
   petitionerInCustody: true,
 };
 const order: Source = {
@@ -82,7 +82,7 @@ test('signing the receipt files it and a registry diary registers it', () => {
   const ledger = new Ledger();
   advanceAll(ledger, context());
   assert.equal(advanceAll(ledger, context({ receiptSigned: true })), 'filed');
-  assert.equal(advanceAll(ledger, context({ receiptSigned: true, registry: { diary: 'D-2026-abc' } })), 'registered');
+  assert.equal(advanceAll(ledger, context({ receiptSigned: true, registry: { diary: { number: 1, year: 2026 }, cnr: 'SCIN010000012026' } })), 'registered');
 });
 
 test('an unverified citation stops the walk at authorities and names the mention', () => {

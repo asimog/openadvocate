@@ -5,7 +5,7 @@ import { assertValid, verifyReceipt, type SignedReceipt } from '@vakilbench/core
 const [command, receiptPath, publicKey, documentPath] = process.argv.slice(2);
 
 if (command !== 'verify' || !receiptPath || !publicKey) {
-  console.error('usage: ilac verify <receipt.json> <expected-public-key-hex> [document]');
+  console.error('usage: ulos verify <receipt.json> <expected-public-key-hex> [document]');
   process.exit(2);
 }
 

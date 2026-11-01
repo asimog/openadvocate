@@ -1,0 +1,976 @@
+  User Manual E-FILING 3.0
+
+https://efiling3.sci.gov.in
+
+User Manual SCeFM3.0  Revised on 18.11.2025
+                             P a g e 1 | 66
+                      Index
+
+INTRODUCTION .................................................................................................................................... 4
+
+ACCESSING E-FILING PORTAL................................................................................................................ 4
+
+USER REGISTRATION ............................................................................................................................ 6
+
+HOW TO REGISTER AS AN AOR? ........................................................................................................................................................ 6
+HOW TO REGISTER AS AN AMICUS CURIAE ....................................................................................................................................... 6
+HOW TO REGISTER AS AN ADVOCATE ................................................................................................................................................ 6
+HOW TO REGISTER AS A PARTY-IN-PERSON (OFFLINE MODE) .................................................................................................... 9
+REGISTRATION AS A PARTY IN PERSON (PAPERLESS KYC MODE)............................................................................................ 11
+FORGOT PASSWORD........................................................................................................................................................................... 12
+
+HOW TO E-FILE:.................................................................................................................................. 14
+
+NEW CASE ........................................................................................................................................................................................... 14
+  1. Case Detail.......................................................................................................................................................................... 14
+  2. Petitioner Information.................................................................................................................................................. 16
+  3. Respondent Details ........................................................................................................................................................ 17
+  4. Additional Party............................................................................................................................................................... 17
+  5. Earlier Courts.................................................................................................................................................................... 18
+  6. Upload Documents/Index ........................................................................................................................................... 19
+  7. Pay eCourt fee................................................................................................................................................................... 20
+  8. Check List / Declaration................................................................................................................................................ 21
+  9. View ...................................................................................................................................................................................... 22
+
+MISC. DOC............................................................................................................................................................................................ 23
+I.A. ........................................................................................................................................................................................................ 26
+CAVEAT ................................................................................................................................................................................................ 28
+AI ASSISTED CASE FILING- NEW..................................................................................................................................................... 29
+
+HOW TO CHECK DEFECTS, PAY DEFICIT COURT FEE AND RE-FILE......................................................... 32
+
+HOW TO USE DASHBOARD ................................................................................................................. 34
+
+ECOPYING .......................................................................................................................................... 36
+
+E-COPYING SOFTWARE FEATURES: ................................................................................................................................................ 36
+1. ELIGIBILITY FOR E-COPYING REQUESTS ............................................................................................................................... 36
+
+  1.1 Advocate-on-Record (AOR): ......................................................................................................................................... 36
+  1.2 Party in a Case: ................................................................................................................................................................... 37
+  1.3 Appearing Counsel: .......................................................................................................................................................... 37
+  1.4 Advocate Authorized by AOR:...................................................................................................................................... 37
+2. LOGIN PROCESSES IN ECOPYING ............................................................................................................................................ 37
+  2.1 Advocate on Record ......................................................................................................................................................... 37
+  2.2 Authenticated by Advocate -on-record .................................................................................................................... 38
+  2.3 Appearing or Arguing counsel ..................................................................................................................................... 39
+  2.4 Individual (Party In Person)......................................................................................................................................... 40
+3. APPLY FOR COPYING ................................................................................................................................................................ 41
+
+User Manual SCeFM3.0         P a g e 2 | 66
+   4. MAKE PAYMENT ....................................................................................................................................................................... 44
+   5. REQUEST FOR RECORD READILY UNAVAILABLE FOR SELECTION...................................................................................... 46
+   6. TRACK THE CONSIGNMENT ..................................................................................................................................................... 48
+   7. CHECK COPY STATUS ............................................................................................................................................................... 49
+   8. FREQUENTLY ASKED QUESTIONS (FAQ) ............................................................................................................................. 50
+
+APPEARANCE PORTAL- ONLINE APPEARANCE SLIPS ............................................................................ 51
+
+   PROCESS FOR APPEARANCE SLIP & SOFTWARE FEATURES ........................................................................................................ 51
+   ELIGIBILITY OF USER TO SEND APPEARANCE SLIP....................................................................................................................... 51
+   LOGGING IN AND VERIFICATION ...................................................................................................................................................... 51
+   CAUSE LIST.......................................................................................................................................................................................... 52
+
+      A. Time Out.................................................................................................................................................................................. 52
+      B. For Appearance Slip ........................................................................................................................................................... 53
+      C. Following steps to follow to submit appearance slip: .......................................................................................... 54
+   REPORTS .............................................................................................................................................................................................. 55
+
+PHYSICAL HEARING (HYBRID OPTION)................................................................................................. 56
+
+   CHANGE HEARING MODE.................................................................................................................................................................. 57
+   REPORTS .............................................................................................................................................................................................. 58
+
+JANPARICHAY ..................................................................................................................................... 60
+
+SCEFM 3.0 – WHAT’S NEW ................................................................................................................. 64
+
+                                                                      APPEAL
+
+While all care has been taken to make a complete and accurate representation of the actual processes in this user
+manual, any shortcoming or error which might have crept in the same is purely out of inadvertence. Such error(s) /
+shortcoming(s), if any, may please be intimated at efiling@sci.nic.in
+
+All endeavors have been made to make the manual up to date and helpful for users.
+
+User Manual SCeFM3.0  P a g e 3 | 66
+https://efiling3.sci.gov.in
+
+                       INTRODUCTION
+
+eFiling 3.0 is an upgraded version of its older form (eFiling 2.0) designed and launched by the Supreme
+Court of India to enable advocates and parties to file their cases and case related documents before the
+Supreme Court of India in electronic mode with greater ease and comfort. Introduction of the new version
+of e-filing is aimed at taking paperless filing to the next level while saving cost and time with the objective
+of improving process management through use of technology.
+
+              ACCESSING E-FILING PORTAL
+
+In order to access the new e-filing system please follow any one of the methods mentioned below:
+a. Type the website address https://efiling3.sci.gov.in in the address bar of your web browser (Chrome,
+
+    Mozilla Firefox etc.).
+                                                 or
+
+b. Visit the website of the Supreme Court of India at www.sci.gov.in and under the E-Services tab, select
+    or click E-Filing 3.0.
+
+User Manual SCeFM3.0  P a g e 4 | 66
+c. The Home page of the new e-filing system shall display the Login screen. Enter the Login credentials to
+    login into the SCeFM3.0.
+
+                      ***
+
+User Manual SCeFM3.0       P a g e 5 | 66
+                   USER REGISTRATION
+
+Every Advocate-on-Record (AOR) or Party in Person (PIP) desirous of using the new e- Filing Portal needs
+to register in the portal by providing necessary details.
+
+  How to Register as an AOR?
+
+If the details of the AOR are already available with the Registry then such AOR is only required to create a
+new password in the new efiling Portal by taking the following steps:
+
+    1. On the login page, click on forgot password option;
+    2. Enter your registered mobile number, enter captcha and then click on send OTP button.
+    3. OTP will be sent on your registered mobile number;
+    4. Enter the OTP and click ‘verify’ button
+    5. Create new password
+Once new password is set, the AOR can login by using his AOR code or registered mobile number or
+registered email id along with the new password.
+The registration of an Advocate-on-Record (AOR) is generated automatically in SC-eFM once the AOR’s
+details are updated in the Supreme Court records.
+
+How to register as an Amicus Curiae
+
+Upon appointment of an Amicus Curiae by the Hon’ble Court in a matter, the registration of the Amicus
+Curiae e‑filing profile in SC‑eFM is generated automatically after the details of the Amicus Curiae are
+updated in the Supreme Court records.
+
+How to register as an Advocate
+
+    1. To register as Advocate Select Advocate/Appearing Counsel under the
+‘Register as’ option in the home/ login page.
+
+User Manual SCeFM3.0  P a g e 6 | 66
+2. Then in the next page, enter registered mobile number and e-mail ID followed by captcha and then
+    click on ‘Send OTP’ option.
+
+3. Enter the OTPs received on the registered mobile number and registered e-mail id and click
+    ‘Verify’ option. If the OTPs are correct then you will see a message “OTP Verification Successful” on
+    the screen.
+
+4. In the same page, enter the required personal details as shown in the image below.
+     Please follow the instructions mentioned in the page while uploading picture / id proof.
+
+5. For verification purpose you are required to upload your id proof /record video and click on
+    Register button.
+
+User Manual SCeFM3.0  P a g e 7 | 66
+User Manual SCeFM3.0  P a g e 8 | 66
+    6. After successful registration as an Advocate, the Advocate-on-Record (AoR) whose name was
+         mentioned at the time of registration must log in to his/her e-filing profile and verify the details
+         under the ‘Add Advocate’ tab by selecting the ‘Add/Approve’ option available under the
+         hamburger menu on the left side of the AoR’s e-filing dashboard. Once the AoR approves the
+         request, the user will receive a login ID and a one-time password (OTP) on the registered email ID.
+
+How to Register as a Party-In-Person (Offline mode)
+
+    1. To register as Party-in-person Select Individual (Party-in-Person) under the
+‘Register as’ option in the home/ login page.
+
+2. Then in the next page, select ‘Offline’ option. Thereafter in the same page, enter registered mobile
+    number and e-mail ID followed by captcha and then click on ‘Send OTP’ option.
+
+User Manual SCeFM3.0  P a g e 9 | 66
+3. Enter the OTPs received on the registered mobile number and registered e-mail id and click
+    ‘Verify’ option. If the OTPs are correct then you will see a message “OTP Verification Successful” on
+    the screen.
+
+4. In the same page, enter the required personal details as shown in the image below and click on
+    ‘Submit’. Please follow the instructions mentioned in the page while uploading picture / id proof.
+
+User Manual SCeFM3.0  P a g e 10 | 66
+    5. For verification purpose you are required to upload your id proof and click on the 'Final Submit'
+         button. If your verification is proper then your registration as a PIP will be successful.
+
+    6. User will be notified about login credentials by email and SMS.
+
+Registration as a Party in Person (Paperless KYC mode)
+
+Select Individual (Party-in-Person) under the ‘Register as’ option in the home/ login page. Then
+select ‘Paperless KYC’ mode. Thereafter, registration screen changes
+
+    1. Click on the option ‘Visit to download offline Aadhaar Zip File’.
+    2. The user should follow instructions in the Aadhaar website to download the Aadhaar ZIP file.
+
+User Manual SCeFM3.0  P a g e 11 | 66
+3. This zip file needs to be uploaded on registration screen. Users can easily identify this link. Where
+    it is specifically mentioned “Choose offline Aadhaar zip file (max size 5mb). There is a button
+    “Choose File” which on click asks user to locate recently downloaded zip file.
+
+4. On successful upload user needs to enter the four-digit share code given to open this file. Users
+    also need to enter his mobile number and email ID. On successful submission of this request, the
+    user will receive OTP request on his mail ID and mobile.
+
+5. On verification of both the OTP received, all the information received in the zip file is accepted as
+    correct information, which user is not allowed to change. In this process there is no need for the
+    user to upload his photograph or proof of identity.
+
+6. The information provided in zip file by Aadhaar Authority is accepted as proof of his identity.
+7. After that the User shall be able login and access his e-filing account.
+
+Forgot Password
+
+In case a registered user forgets his password, the same can be retrieved by clicking on ‘Forgot password?’
+link provided on Login screen which is first screen that shows when a User accesses the website of e-filing
+system at https://efiling3.sci.gov.in clicking on Forgot password option opens a Forgot password screen.
+A User is required to fill the registered email id or registered mobile number and enter
+captcha code shown and press the ‘Get OTP’ option.
+
+User Manual SCeFM3.0  P a g e 12 | 66
+On pressing Get OTP, a new screen is displayed wherein a User is requested to Enter OTP number
+received by him on e-mail/mobile filled by user on the ‘FORGOT PASSWORD’ screen. User can then change
+his password and confirm the same by entering a new password in fields. User then types the captcha
+code and presses ‘Change Password’ Option to complete the process of changing his password.
+
+User Manual SCeFM3.0  P a g e 13 | 66
+                         How to e-file:
+
+New Case
+
+For filing a new case click on +NEW button and select the ‘case’ option from the drop-down list.
+
+The user will be directed to first of eight pages/tabs viz. Case Detail, Petitioner, Respondent, Additional
+Party Earlier Courts, Upload Document/Index, Pay Court Fee, Check List / Declaration.
+
+The user has to fill in each page with the required details. The fields marked with red asterisk (*) shall be
+mandatory.
+
+   1. Case Detail
+
+If no earlier Court’s Order is challenged, then the User may select “No Earlier Court” option which by
+default selects Supreme Court as “Court Type”.
+
+If case belongs to Special category viz., Death Penalty Matters, Habeas Corpus Matters, Matters related to
+Demolition of Property, Eviction Matters or Bail Matters then the User may select the appropriate
+category in Special Category dropdown menu. By default, ‘None’ will be selected
+
+User Manual SCeFM3.0  P a g e 14 | 66
+The ‘Special Category’ options as displayed in the screenshot below for ready reference:
+
+Once the User is done with entering information under this head, first click
+
+‘SAVE’.
+
+On click User receives a success notification and ‘NEXT’ button becomes
+
+visible and the ‘SAVE’ button will change to UPDATE.
+
+If User changes any of the information in that event, he or she needs to click UPDATE
+
+A draft e-filing number gets generated and displayed on screen on clicking the UPDATE button, DRAFT-
+EC-SCIN01- -YYYY in Red Color is highlighted and provision is also provided to the User to Copy the said
+draft number so generated.
+
+User Manual SCeFM3.0  P a g e 15 | 66
+   2. Petitioner Information
+
+If Petitioner is an Individual - In Petitioner form under Filing Form; the requisite details about the Main
+Petitioner (Petitioner who is first in order in the cause title of the parties consisting multiple petitioners)
+are required to be filled by a user. The fields marked with red asterisk (*) are mandatory (including
+Mobile and e-mail of the Petitioner).
+
+Please ensure that while writing name of the petitioner’s full name is entered. It is always a good practice
+to enter email ID and mobile number of petitioners.
+
+Please enter all necessary details in the page accurately.
+
+If the Petitioner is an Organization - Mostly Petitioner will be a living natural person therefore by
+default ‘petitioner is an Individual’ is kept selected. However, if Petitioner is a State Government or the
+Central Government or Other Organizations, in that event User may have to select appropriate choice.
+
+• Pin Code: The User can either manually enter the Pin Code or can use Pin Code Locator facility by
+    accessing the same, the User is taken to
+    “https://www.indiapost.gov.in/vas/pages/findpincode.aspx” URL for ascertaining the Pin Code of
+    the address above-mentioned.
+
+• A user can also fill in the details between various tabs in the Filing Form, without clicking 'Save'
+• button, but all the data thus entered may get lost if the current session ends/expire, or any
+• Another option is selected by the user, hence, the best practice is to keep on saving data at regular
+
+    intervals, to prevent data loss.
+• A user can access other tabs, by clicking on their respective tabs, or by clicking 'Next' to access the
+
+    next option.
+
+User Manual SCeFM3.0  P a g e 16 | 66
+   3. Respondent Details
+
+                                 The respondent form is similar to the petitioner form.
+
+Fill up all the details relating to the respondent and click “SAVE” and then “NEXT”.
+Pressing previous button takes a user back to PETITIONER tab and pressing next takes user to next page.
+
+   4. Additional Party
+
+In the Additional Party’s section, users can add the remaining extra parties
+(e.g., if 2 petitioners and 3 respondents are required in total but 1 petitioner and 1 respondent have
+already been added in the previous section, the user must now include the remaining 1 petitioner and 2
+respondents).
+
+User Manual SCeFM3.0  P a g e 17 | 66
+   5. Earlier Courts
+
+Users will notice four options viz. Supreme Court, High Court, District Court and State Agency/Tribunal on
+the top of the screen. Users need to select appropriate option out of these and enter details as per page
+requirement.
+
+After selection of your order date and order type is complete, do not forget to click SAVE. Immediately
+after saving, you will notice that at the bottom of your screen (scroll down further till end) your impugned
+case details are saved. Now you can add District Court case if required. You can add multiple cases if
+required. All such selected and searched cases are added at the bottom of the page which can always be
+edited or deleted before you finally submit your e- filed case for scrutiny.
+
+User Manual SCeFM3.0  P a g e 18 | 66
+   6. Upload Documents/Index
+
+After filling in all the forms provided for filing new case, users can upload the relevant file in
+
+‘Upload Documents’ screen.
+
+    • User needs to ensure that if the document is typed, it is converted to PDF by export to PDF
+         facilities provided in different word or document processors. If there are constraints in such cases
+         only option of scanning needs to be employed. While scanning any document it is necessary to
+         keep in mind OCR enabled scanning is must.
+
+    • Second aspect is arranging files in chronological order. If the file is not arranged in chronological
+         order, User may face difficulties while indexing the file. Therefore, User need to first arrange files,
+         documents, affidavits in chronological order to form one PDF file. User can also upload multiple
+         PDF files. First give some title to the PDF file to be uploaded. Generally, while giving title keep in
+         mind identification of the file by name of party, subject, place or other elements. Ensure that files
+         names of pdf files, stored in your PC, to be uploaded are given simple names without use of special
+         characters. This will avoid unnecessary iterations.
+
+    • As you go on uploading different parts of file by giving suitable names of PDF files, details of
+         uploaded files are reflected at the bottom of screen in the form quick reference table. (scroll down
+         at the bottom). You will find that hash value of the pdf file is captured and recorded for future
+         authenticity, verification and security purposes. User can at any time delete the uploaded
+         document, before using the same for indexing purposes.
+
+Upon successful upload, document name, along with its hash value and number of pages is reflected at the
+bottom of page.
+
+A user can delete the uploaded document by pressing ‘delete’ option at the ‘Action’ tab.
+
+User Manual SCeFM3.0  P a g e 19 | 66
+   7. Pay eCourt fee
+
+User can then click on Pay Court Fee option and pay applicable fees in any of the preferred online payment
+modes. Once payment is successful, the payment status will reflect in a table below the ‘Previous’ / ‘Next’
+buttons of the Pay Court Fee page.
+
+• User is redirected to the online payment facility of the Stock Holding Corporation Ltd. After user is
+    redirected to payment gateway page of the Stock Holding Corporation, user is required to select
+    mode of payment and agree to the terms and conditions. After this, user is taken payment gateway
+    for giving details of debit card, credit card or UPI.
+
+User Manual SCeFM3.0  P a g e 20 | 66
+    • User can also choose Net Banking option. Once payment is successfully completed or it gets failed,
+         in both the contingencies, User is brought back to the e-filing portal. In the event payment is
+         successful, success alert message will appear on the screen.
+
+    • Receipt generated after payment can be saved on PC or other device used.
+    • Apart from this receipt, on the E payment tab, on the bottom portion of the screen, User can see
+
+         the details of payment along with transaction ID and status of the payment.
+    • After successful payment, the User needs to click the Next Button.
+
+   8. Check List / Declaration
+
+In the Checklist / Declaration section, based on the case type selected on the Case Details page, the user
+needs to select and mark the applicable options from the common checklist questionnaire (derived from
+the selected case type) and from Annexure D.
+
+User Manual SCeFM3.0  P a g e 21 | 66
+   9. View
+
+Now the user will be taken to ‘View’ page where all details of the e-filed case shall be reflected.
+
+Now the user can click the ‘SUBMIT FOR E-FILING’ option at the top right portion of the page.
+
+Upon confirming completion of the process by clicking ‘OK’ in dialogue box, the user can get the diary
+number. Sometimes, the diary number may not get generated immediately rather it can be seen after
+about 30 minutes by going to Home Page and then selecting the relevant e- filed case number among the
+list of e-filed cases.
+
+User Manual SCeFM3.0  P a g e 22 | 66
+Misc. Doc.
+
+In case a user intends to e-file any document in an already filed case in the Supreme Court (both in cases
+where the case was e-filed or physically filed), it can be filed using this Misc Docs feature.
+
+To do so, a User must click on ‘Misc. Document’ link after logging in to this facility from the dashboard
+screen’s left panel. On clicking the New >> ‘Misc. Documents’ link, a new screen opens, the ‘Case Search’
+page. The system will automatically cross-check registration information of an advocate to enable e-filing
+through the website.
+
+    1. A User is required to fill in the requisite details on the ‘Search’ section such as Dairy
+Number or Registration Number of any case which is already pending in the Supreme Court and submit.
+User has to select either of the following two options: -
+Request on behalf of litigant for whom my appearance as AOR is already recorded
+
+                                                                  OR
+Want to represent existing litigant(s) (Un-represented/ New appearance)
+
+    2. Then confirm ‘Yes’/’No’ whether this is the case in which you want to file miscellaneous
+document(s).
+
+User Manual SCeFM3.0  P a g e 23 | 66
+Thereafter by clicking 'Submit' button the user would be taken to next 'E-File Miscellaneous Documents'
+page to upload the Misc document.
+
+    3. Uploading the Misc. document
+
+The next screen displayed is to enable user to select and upload the misc. document from his computer
+system. A User clicks browse and select desired PDF file from his device and gives document title and
+clicks upload. User can upload multiple files if the filed are in different parts. Such parts can be clubbed
+while indexing the documents.
+
+Filing Misc. Documents>>selecting party who is filing document currently.
+
+User Manual SCeFM3.0  P a g e 24 | 66
+4. As per the documents / index uploaded by you the court fee will be calculated on the next page
+    (Pay Court Fee).
+
+5. Now the user will be taken to ‘View’ page where all details of the e-filed case shall be reflected.
+
+6. Now the user can click the ‘SUBMIT’ option at the top right portion of the page.
+
+User Manual SCeFM3.0  P a g e 25 | 66
+I.A.
+
+    1. Select New option at the lower left portion of the Homepage.
+         Select IA.
+
+    2. Enter Diary Number / Year or Registration Number.
+    • Select anyone of the below options shown in the next page:
+    • Request on behalf of litigant for whom my appearance as AOR is already recorded.
+    • Want to represent existing litigant(s) (Un-represented/New appearance)
+    • Intervenor/Other.
+    3. Then select “Is this the case in which you want to file Interlocutory Application?” Yes / No
+
+4. Upon confirming the Party details in the next page, select NEXT.  P a g e 26 | 66
+ User Manual SCeFM3.0
+5. Now you will be taken to ‘Upload Document(s) / Index’ page. There you can upload the required
+    document of the IA. Side by side you can create index / sub- index by selecting relevant options
+    from the drop-down menus.
+
+6. As per the documents / index uploaded by you the court fee will be calculated on the next page
+    (Pay Court Fee).
+
+7. Now the user will be taken to ‘View’ page where all details of the e-filed case shall be reflected.
+8. Now the user can click the ‘SUBMIT’ option at the top right portion of the page.
+
+User Manual SCeFM3.0  P a g e 27 | 66
+Caveat
+
+    1. Select New option at the lower left portion of the Homepage.
+
+    2. Select Caveat option. You will land in the page below
+    3. Fill up all the relevant fields in each tab/ page by providing necessary information
+    4. Same process as filing New Case/IA is to be followed for Uploading Documents / Creating Index
+
+         and paying court fees
+
+5. As per the documents / index uploaded by you the court fee will be calculated on the next page
+    (Pay Court Fee).
+
+6. Now the user will be taken to ‘View’ page where all details of the e-filed case shall be reflected.
+
+7. Now the user can click the ‘SUBMIT’ option at the top right portion of the page.
+
+User Manual SCeFM3.0                                                                 P a g e 28 | 66
+AI Assisted Case Filing- New
+
+For filing a new case click on +NEW button and select the ‘AI Assisted Case Filing- New’ option from the
+drop-down list.
+
+In the AI-Assisted Case Filing module, users must select the case type, upload an OCR-enabled PDF
+(maximum file size: 50 MB), enter a document name, and click Upload.
+This service is currently active for Special Leave Petition (Civil and Criminal) case type only.
+The file is then processed, displaying the message: "Please wait... meta-data extraction may take time
+depending upon the size of the uploaded petition documents." Once extraction is complete, the system
+displays the AI Assisted Case Filing section with the Extracted Metadata JSON. as shown in the reference
+image below.
+Since AI Assisted data extraction and data entry facility in eFiling is an evolving mechanism, users
+should always check the accuracy of the data which is automatically entered within the respective
+fields during case filing before submitting the same. AI is used primarily to assist the users not
+entirely substitute their role in eFiling.
+
+User Manual SCeFM3.0  P a g e 29 | 66
+Upon selecting the 'AI Assisted Case Filing' option, the AORs can start the case filing process, and the
+extracted data will be automatically pre-filled in the respective fields. The e-filing users will always have
+the liberty to edit the prefilled information.
+
+User Manual SCeFM3.0  P a g e 30 | 66
+User Manual SCeFM3.0  P a g e 31 | 66
+How to Check Defects, Pay Deficit Court Fee and
+                            Re-file
+
+  1. Go to Homepage / Dashboard as shown in the following image
+
+2. Under the third menu option viz. Scrutiny status, you can see two categories of information,
+    DEFECT NOTIFIED and PENDING SCRUTINY.
+
+3. The option DEFECT NOTIFIED denotes those eFiled cases / applications where defects have been
+    notified, whereas the option PENDING SCRUTINY denotes those eFiled cases / applications where
+    the defects have been cured and are pending for further scrutiny.
+
+4. In order to refile a defective case / application,
+
+i. click on the DEFECT NOTIFIED option. You will be able to see the list of cases where defects have
+    been notified.
+
+ii. select the case where you want to cure defect.
+
+User Manual SCeFM3.0  P a g e 32 | 66
+iii. you will be able to see the details of defects in that particular case.
+iv. tick the check box(es) relating to those defects which has/ have been cured in your opinion.
+v. scroll below to the REFILING FORM.
+vi. Upload the Document showing that defect has been cured.
+vii. Create appropriate index and pay deficit court fee, if any.
+viii. Upon successful completion of the above process click on SUBMIT FOR REFILING option on the
+
+    Top right part of REFILING FORM.
+
+User Manual SCeFM3.0  P a g e 33 | 66
+             HOW TO USE DASHBOARD
+
+1. Upon logging-in, User first lands on the Dashboard page.
+
+2. Dashboard provides various categories of case related information at a glance to the user, such as
+    recent documents filed by the parties, incomplete / draft files, status of cases where defects have
+    been notified and refiled cases pending scrutiny. Dashboard also reflects the list of eFiled cases
+    and all listed cases concerning the AOR.
+
+Click the hamburger  option on the top left part (near home icon) of the Dashboard page (see
+image option below)
+
+It will open the left side pane as shown below               P a g e 34 | 66
+      User Manual SCeFM3.0
+a. The ‘Add Advocate’ option can be used to enter / register any other advocate engaged in the case.
+    The added advocate can login using the credentials and access the scanned paper books of the
+    case.
+
+b. The AOR can also access ‘Profile’ and other facilities such as ‘Support’ and ‘Resources’ (FAQs,
+    Manual and Tutorials) from this page.
+
+c. The ‘Cases’ option can be clicked to view all cases whether pending or disposed. The AOR can
+    search any case here to learn its status and other details.
+
+User Manual SCeFM3.0  P a g e 35 | 66
+                           ECopying
+
+E-Copying Software Features:
+
+1. e-Copying software has been integrated within SC-eFM 3.0 to enable online services within same portal.
+2. At the time of registration, verification of the AOR/party-in-person/Appearing counsel is done by
+software through verification of mobile number and email address.
+3. Calculation of copying fees is automated. Payment for copying fees can be made online using debit card,
+credit card, net banking, UPI, wallet etc. which directly sends amount to government account through the
+API integrated with Bharatkosh.
+4. Access to record is as per capacity of the user i.e. AOR, Party, Appearing counsel or Third party. Access
+control to certain portion of record (document or part of document) is defined as per Rules for certain
+users viz. AOR and Party- in-person.
+5. Online applications do not require further entry by the Registry manually.
+6. Process of issuing e-copy is accelerated by automation once process of verification by copying section is
+complete.
+7. QR code embedded in the copies issued and authenticity can be verified online via the QR code link.
+8. Provision is made to share digitally signed PDFs to the applicant by email.
+9. Provision is available to search the document and also to request unavailable documents (not found in
+‘search’ results).
+
+1. Eligibility for e-Copying Requests
+
+1.1 Advocate-on-Record (AOR):
+
+• Can obtain copies of judgments, orders, RoP, or documents (full/part) for cases they are engaged
+    in. First bail order copy is free.
+
+• If an AOR is not registered in SC-eFM 3.0 portal, he/she may get himself registered by filling in the
+    form available on the website of the Supreme Court and submit the same to Record Room
+
+User Manual SCeFM3.0  P a g e 36 | 66
+1.2 Party in a Case:
+• Party-in-person can apply via e-Copying.
+• If registered in the e-Copying database, they can apply directly; otherwise, they must complete
+
+    verification to become eligible.
+• Can obtain copies of judgments, orders, RoP, or documents (full/part) for their case.
+
+1.3 Appearing Counsel:
+• Must be registered with the e-Copying system via mobile number and email ID verification.
+• Must have recorded appearance in the specific case.
+• Can obtain copies of judgments, orders, or RoP for cases they appeared in.
+
+1.4 Advocate Authorized by AOR:
+• Acts as an agent for the AOR; requests are treated as made by the AOR.
+• Must undergo mobile number and email verification and be authorized by the AOR.
+• All developments are notified to the AOR.
+
+2. Login Processes in eCopying
+
+2.1 Advocate on Record
+
+1. To login select your capacity as AOR
+2. Enter User ID or Mobile No. or email, password and Captcha then click on Login button.
+
+User Manual SCeFM3.0  P a g e 37 | 66
+3. You can now enter case number for e-Copying request
+
+2.2 Authenticated by Advocate -on-record
+
+1. Select your capacity as Authenticated by AOR and enter Your details and AOR details as well to
+    identify your association with AOR.
+
+2. Enter the OTP received on your registered mobile number and the OTP received on the AOR’s
+    registered mobile number.
+
+3. You can now enter case number for e-Copying request
+
+User Manual SCeFM3.0                                    P a g e 38 | 66
+4. An email from Supreme Court of India will be sent to you on your given email address for the
+    purpose of verification as to whether the email account belongs you. Please click the button “Verify
+    Your Email Address” in the email to continue.
+
+2.3 Appearing or Arguing counsel
+
+1. To login select your capacity as Appearing or Arguing counsel.
+2. Enter User ID or Mobile No. or email, password and Captcha then click on Login button.
+
+3. You can now enter case number for e-Copying request.
+
+User Manual SCeFM3.0                                     P a g e 39 | 66
+4. An email from Supreme Court of India will be sent to you on your given email address for the
+    purpose of verification as to whether the email account belongs you. Please click the button “Verify
+    Your Email Address” in the email to continue.
+
+2.4 Individual (Party In Person)
+
+1. To login select your capacity as Individual (Party In Person).
+2. Enter User ID or Mobile No. or email, password and Captcha then click on Login button.
+
+3. You can now enter case number for e-Copying request.
+
+4. An email from Supreme Court of India will be sent to you on your given email address for the
+    purpose of verification as to whether the email account belongs you. Please click the button “Verify
+    Your Email Address” in the email to continue.
+
+User Manual SCeFM3.0                                     P a g e 40 | 66
+3. Apply for Copying
+
+1. Case Search by Diary Number or Case Number
+
+Cases which are either pending or disposed of can be searched here. Complete details pertaining to the
+case will be listed. Only concerned parties including AOR and party-in- person to the case may be able to
+apply for certified or authenticated copy in this case.
+
+    2. Application category and charges
+         a) Categorization of applications and fees are as follows:
+         A1- Urgent Certified (₹5/- urgency fees + ₹10/- per certification + ₹1/- per page)
+
+         A2 - Ordinary Urgent Copy (₹5/- urgency fees + ₹1/- per page)
+         B – Ordinary Certified Copy (₹10/- per certification + ₹1/- per page)
+         C – Ordinary Copy (₹1/- per page)
+         On the basis of the selected category, relevant charges will be incurred along with number of
+         copies etc. and the break-up of charges will appear on screen prior to making of payment.
+
+         b) A new category has been introduced, namely D - “Digital Copy” i.e. Authenticated Copy. In
+         this mode, if user opts for this mode, an authenticated copy may be emailed to user on his/her
+         registered email address.
+
+               • First Digital Copy is provided free of cost by the Supreme Court of India.
+
+User Manual SCeFM3.0                           P a g e 41 | 66
+3. Select Delivery Mode and Number of copies
+Choose Delivery Mode from following options:
+• By Speed Post
+• Counter
+
+Delivery mode through email is only available for digital copies and not otherwise.
+Now select number of copies.
+
+User Manual SCeFM3.0                                                                 P a g e 42 | 66
+4. Choose from available record.
+
+User will be shown list of available record. User can choose the items as per the details shown on the
+screen. At the same time, charges to be paid by the user will be displayed on the screen as shown
+below in the figure. User will be asked to agree to the terms and conditions and then he will be asked
+to confirm his choice of record for copying request. However, request may not be processed unless
+applicant details are complete.
+
+User Manual SCeFM3.0              P a g e 43 | 66
+4. Make Payment
+
+1. Choose to pay the calculated amount.
+
+2. Confirm after checking the amount credited to Supreme Court.
+
+User Manual SCeFM3.0                                             P a g e 44 | 66
+3. Choose payment Gate-way and method of online payment.
+
+4. After Successful payment, Receive acknowledgements of Payment.  P a g e 45 | 66
+ User Manual SCeFM3.0
+5. Request for record readily unavailable for selection
+
+1. User will see Request button to request a copy of record which is not available readily for selection
+    purpose
+
+User Manual SCeFM3.0  P a g e 46 | 66
+2. You can enter details of unavailable documents as shown below.
+
+3. Successful submission of request to make available documents.
+
+4. Receiving SMS and email acknowledging your request.
+5. Receiving mailing & SMS alerts when request document is made available.
+
+    SMS/Email will be sent to applicant if requested copy is available in the repository so that user can
+    make payment and get the desired copy for which he has requested for. User needs to click to the
+    link, verify copy and make payment .
+
+User Manual SCeFM3.0  P a g e 47 | 66
+6. Track the consignment
+
+1. Track consignment when mode of delivery is Speed-post.
+
+2. Consignment Number is sent to the concerned user by SMS and mail along with tracking link. The
+    user may check the same by clicking the said link. In the alternate, user may click track option and
+    enter consignment number and results will be as shown below.
+
+User Manual SCeFM3.0  P a g e 48 | 66
+7. Check Copy Status
+
+1. Copy Status and Enter Application Number or CRN.
+2. Enter CRN and get details as shown below.
+
+User Manual SCeFM3.0                                 P a g e 49 | 66
+   8. Frequently Asked Questions (FAQ)
+
+Frequently Asked Questions are provided for quick reference and “How To” information on fingertips.
+
+User Manual SCeFM3.0  P a g e 50 | 66
+   Appearance Portal- Online Appearance Slips
+
+Process for Appearance slip & Software Features
+
+1. Receiving appearance slips online through the Advocate Appearance Portal is now possible.
+2. At the time of login, verification of the AOR is done by software through One Time Password (OTP).
+3. Access to case for appearance slip is as per capacity of the user i.e. AOR. Access control to a certain
+portion of the cause list is defined and entry of Appearance Slip is allowed only in his/her cases.
+4. Appearance Slips do not require further entry by the Registry manually in Record of Proceedings.
+5. Provision is available to search appearance slips which were earlier submitted.
+6. Allowed to send appearance slips 2 to 3 days in advance after the cause list is published on the Supreme
+Court website.
+7. This will eliminate the need to submit appearance slips to the court masters manually by the AORs.
+Hence making the process paperless.
+
+Eligibility of User to send Appearance Slip
+
+This portal is developed for Advocate-On-Record (AOR). AOR must be registered with the Supreme Court
+Integrated Case management and Information System (ICMIS) and he/she must have been engaged by
+parties for which an Appearance Slip request is made. AOR may submit an Appearance Slip in a case in
+which he/she is engaged. Normally, all AORs are registered with ICMIS, however, if an AOR is not
+registered, he/she may get himself registered by filling in the form available on the website of the
+Supreme Court and submit the same to the Record Room. On successful verification, his/her name would
+automatically appear in Advocate Appearance Portal.
+ICMIS maintains a database of AOR with respect to parties to the case. On this basis, the system
+determines whether an AOR’s registered in the system along with the date of listing.
+
+Logging in and Verification
+
+To login, enter User ID or Mobile No. or email, password and Captcha then click on Login button.
+
+User Manual SCeFM3.0  P a g e 51 | 66
+Cause List
+
+Cause List of logged in AOR with cases listed today and in future dates will display here for the purpose of
+appearance slip.
+
+A. Time Out
+
+Time Out message will appear after 11:30 AM on the day of cases listed and will not allow AOR to enter for
+an appearance slip.
+
+User Manual SCeFM3.0  P a g e 52 | 66
+B. For Appearance Slip
+
+Once entered to the cause list menu, click on the green button namely “Click” in “For Appearance” column.
+
+A Pop-up modal will open with case details and submit button.
+
+User Manual SCeFM3.0  P a g e 53 | 66
+C. Following steps to follow to submit appearance slip:
+
+    1. Add Name of Advocates
+    2. List of Advocates Added
+
+    3. I Certify and Final Submit
+    4. Display Appearance Slip Format with message submitted successfully and Delivered message
+
+         received on the mobile number.
+
+User Manual SCeFM3.0  P a g e 54 | 66
+Reports
+
+Submitted Appearance Slips report can be accessed from Report menu:
+    1. Select the Listing Date.
+
+User Manual SCeFM3.0                                                 P a g e 55 | 66
+           Physical Hearing (Hybrid Option)
+
+To go to the "Physical Hearing" section, the user needs to open the side menu and click on the "Physical
+Hearing" menu option, then click on the "Consent for VC" menu.
+
+By clicking on the "Physical Hearing" menu, the user is navigated to the "Physical Hearing" page. On this
+page, the concerned Advocate-on-Record will see the details of their listed matters.
+
+By default, the hearing mode for all matters will be "Physical."  P a g e 56 | 66
+      User Manual SCeFM3.0
+Change Hearing Mode
+
+If the user wants to change the hearing mode, he or she needs to select the respective court from the drop-
+down menu and then click on the "Go" button.
+
+The Advocate-on-Record will get all the listed matters for the selected court. Now, he or she will be able to
+change the hearing mode of each case to either "Physical" or "Virtual" by selecting the appropriate option
+for that particular case.
+
+After selecting the "Physical" or "Virtual" option for the respective case, the user needs to click on the
+"Update Choice" button, which will update the hearing mode consent for all the cases of the selected court.
+
+User Manual SCeFM3.0  P a g e 57 | 66
+Reports
+
+In order to check the information related to the hearing mode of the cases, the user needs to click on the
+"Report" menu from the side menu
+
+Now, the user needs to select the listing date and click on Get Data button to check the hearing mode for
+those particular cases.
+
+User Manual SCeFM3.0  P a g e 58 | 66
+By clicking on the get data button user displayed a list of cases with changed hearing mode.
+
+User Manual SCeFM3.0  P a g e 59 | 66
+                       JanParichay
+
+1. Accessing JanParichay from SCeFM 3.0 Login Page
+• Navigate to the SCeFM 3.0 login page.
+• Locate and click the JanParichay icon (typically displayed as a branded logo or "Login with
+
+    JanParichay/Meri Pehchaan" button).
+• This redirects you to the JanParichay login screen at janparichay.meripehchaan.gov.in.
+
+2. Selecting a Login Option
+• On the JanParichay screen, choose one of the following primary login methods:
+
+         o Username: Enter your registered JanParichay username (created during initial
+              registration).
+
+         o Mobile Number: Provide your linked mobile number (verified via OTP during setup).
+         o Other: Use alternative identifiers like email, Aadhaar, PAN, or driver's license.
+
+User Manual SCeFM3.0  P a g e 60 | 66
+Step 3: Choosing Authentication Method
+    • After selecting your login option, you'll see secondary authentication choices:
+              o Password-Based: Enter your registered password (default method for quick access).
+              o Password less Authentication: OTP for this for enhanced security without remembering
+                   passwords.
+
+Step 4: Password less Flow – OTP Verification      P a g e 61 | 66
+    • If you select Password less Authentication:
+
+      User Manual SCeFM3.0
+o Choose OTP on Mobile (SMS to your registered number) or OTP on Email (to your linked
+    email).
+
+o An OTP (one-time password) will be sent instantly.
+
+o Enter the 6-digit OTP in the provided field within the validity period (usually 5-10
+    minutes).
+
+Step 5: Successful Authentication and Redirection
+
+    • Upon successful OTP/password entry, Jan Parichay authenticates your identity and authorizes
+         access based on your service rights (no repeated logins needed during the session).
+
+    • You'll be redirected to the Application Dashboard.
+
+User Manual SCeFM3.0  P a g e 62 | 66
+• Here, look for the SCeFM Option.
+• Clicking it navigates to full Jan Parichay functionality within SCeFM 3.0 Application.
+
+User Manual SCeFM3.0  P a g e 63 | 66
+                 SCeFM 3.0 – What’s New
+
+The new version introduces several functional and technological advancements aimed at enhancing the
+overall user experience, streamlining workflows, and supporting digital transformation within the Court.
+
+Key Additions
+
+Centralized Login System
+
+A single, unified login now provides
+seamless access to the following modules:
+• e-Filing
+• Appearance Portal
+• Physical Hearing Management
+• e-Copying
+This eliminates multiple logins and
+simplifies user navigation.
+
+JanParichay Integration
+
+The system is now integrated with the
+JanParichay (National Single Sign-On)
+platform for secure and centralized user
+authentication.
+
+User Manual SCeFM3.0  P a g e 64 | 66
+Case Calendar Feature                        P a g e 65 | 66
+
+A Case Calendar has been added to the
+user dashboard. It displays the cases filed
+by e-Filing users, organized date-wise, to
+enable better planning and visibility.
+
+Additional Party Option
+
+Advocates-on-Record (AORs) can now
+enter additional parties related to a case.
+This feature ensures faster and more
+transparent case filing.
+
+Case Checklist
+
+A Checklist module has been introduced
+to ensure enhanced monitoring and
+compliance with established standards
+and procedures.
+
+      User Manual SCeFM3.0
+Enhanced AI for Case Filing
+
+AI-driven case filing assistants can
+significantly reduce manual effort by auto-
+populating fields. Users should always
+check the accuracy of the data which is
+automatically entered within the
+respective fields during case filing before
+submitting the same.
+
+                                                                  ***
+
+User Manual SCeFM3.0                                                   P a g e 66 | 66
+

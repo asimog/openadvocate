@@ -55,6 +55,8 @@ test('a petition signed at declaration is registered from the ledger alone', () 
   assert.equal(currentState(ledger.events), 'filed');
   const result = fileSLP({ events: ledger.events, receipt, document }, TODAY);
   assert.ok('diary' in result, JSON.stringify(result));
+  assert.match(result.cnr, /^SCIN01[0-9]{6}2026$/);
+  assert.equal(result.cnr, `SCIN01${String(result.diary.number).padStart(6, '0')}${result.diary.year}`);
 });
 
 test('a receipt signed before the procedure reached declaration is refused', () => {

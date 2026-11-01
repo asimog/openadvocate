@@ -5,7 +5,7 @@ An open-source workspace where an Indian advocate prepares a Supreme Court SLP w
 Three products on one open standard:
 
 1. **Vakilbench workspace.** The open-source GUI for advocates.
-2. **ILO, the open standard, and a simulated Supreme Court** that demonstrates it with real verification code.
+2. **ULOS, the open standard, and a simulated Supreme Court** that demonstrates it with real verification code.
 3. **Commercial service.** Deferred.
 
 ## Docs
@@ -19,7 +19,7 @@ Three products on one open standard:
 ## Layout
 
 ```
-standard/            ILO: JSON Schema (source of truth), ontology, codegen
+standard/            ULOS: JSON Schema (source of truth), ontology, codegen
 packages/core        Generated types, validation, ledger with write ownership, receipts, citation grammar, Jev/Clef port
 packages/notebook    Record layer (SUPACE model): two-engine text, deterministic extraction, five checks
 packages/citations   Verification layer: identity, pinpoint, support, standing over source tiers
@@ -27,7 +27,7 @@ packages/studio      Argument layer (LegRAA model): research, claims, MOTO, Case
 packages/pleading    Procedure layer: SLP state machine, Supreme Court defect rules
 sim/supreme-court    Simulated court: judgments, source tiers, case records, registry, second reader, evaluation agent, GM-01
 apps/workspace       The GUI (React), with Playwright tests
-apps/cli             ilac: receipt verification backend
+apps/cli             ulos: receipt verification backend
 ```
 
 ## Develop
@@ -50,7 +50,7 @@ pnpm check
 pnpm e2e
 ```
 
-After editing `standard/schemas/ilo.schema.json`, regenerate the types:
+After editing `standard/schemas/ulos.schema.json`, regenerate the types:
 
 ```bash
 pnpm codegen

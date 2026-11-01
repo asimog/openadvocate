@@ -20,8 +20,8 @@ const matter: Matter = {
   id: 'm1',
   title: 'Rahul Kumar v. State',
   forum: 'Supreme Court of India',
-  caseType: 'SLP(Crl)',
-  impugnedOrder: { court: 'High Court of Delhi', caseNumber: 'BAIL APPLN. 1234/2026', date: '2026-08-14' },
+  caseType: { scheme: 'sci-case-type', code: '2', label: 'SPECIAL LEAVE PETITION (CRIMINAL)' },
+  impugnedOrder: { court: 'High Court of Delhi', caseType: 'BAIL APPLN.', caseNumber: 'BAIL APPLN. 1234/2026', date: '2026-08-14' },
   petitionerInCustody: true,
 };
 

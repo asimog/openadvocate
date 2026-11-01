@@ -1,4 +1,4 @@
-export type * from './ilo.gen.ts';
+export type * from './ulos.gen.ts';
 export * from './hash.ts';
 export * from './validate.ts';
 export * from './ledger.ts';

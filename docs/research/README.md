@@ -42,8 +42,8 @@ Short, current entry points. The canon below wins on any conflict.
 12. **Jev API terms:** retention, region, GA, before any matter text (C3 U-11, C5 O-9).
 13. **OpenRouter Decisions API** exact path and per-provider retention (C3 U-12).
 14. **BSA s.63(4) Part B:** who beyond s.79A examiners may sign (C3 U-14).
-15. **Neutral namespace domain** for the standard, before ILO 0.1 freeze (C5 O-10).
-16. **SC Registry defect list** for `ilo-vocab/defect`, via SCAORA members (C5 O-11).
+15. **Neutral namespace domain** for the standard, before ULOS 0.1 freeze (C5 O-10).
+16. **SC Registry defect list** for `ulos-vocab/defect`, via SCAORA members (C5 O-11).
 17. **Advocate signing keys** for DSSE: workspace key vs DSC (C5 O-12).
 
 Attribution for reused repositories and datasets is to be completed before public release.

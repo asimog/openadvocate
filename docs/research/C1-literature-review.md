@@ -78,7 +78,7 @@ Decision-shaping papers use a full record (problem, method, findings, limitation
 
 ### 3.1 Typed writes and transactions (D9–D12)
 
-**Decision.** Agents get no free-form write access to the matter record. ILO JSON Schema 2020-12 is compiled into the only write tools. An agent's write is a proposal: an RFC 6902 JSON Patch against typed objects. The owning service's kernel validates schema, shapes, role and invariants, then commits with a ledger event in one transaction. Statements and draft paragraphs carry `dependsOn` edges; a failed citation or an overruled authority flags dependents and blocks export. External effects go to an outbox released only by payload-bound approval.
+**Decision.** Agents get no free-form write access to the matter record. ULOS JSON Schema 2020-12 is compiled into the only write tools. An agent's write is a proposal: an RFC 6902 JSON Patch against typed objects. The owning service's kernel validates schema, shapes, role and invariants, then commits with a ledger event in one transaction. Statements and draft paragraphs carry `dependsOn` edges; a failed citation or an overruled authority flags dependents and blocks export. External effects go to an outbox released only by payload-bound approval.
 
 #### Ontology-to-tools compilation for executable semantic constraint enforcement in LLM agents (2026)
 `PP · [V-abs]` · Zhou, Bulter, Yang, Rihm, Angkanaporn, Akroyd, Mosbach, Kraft · arXiv [2602.03439](https://arxiv.org/abs/2602.03439)
@@ -86,7 +86,7 @@ Decision-shaping papers use a full record (problem, method, findings, limitation
 - **Method.** Compile the ontology into MCP tools the agent must use to create or modify instances; extract → validate → repair loop (The World Avatar).
 - **Findings.** Constraint enforcement works; no numbers in the abstract; no code link.
 - **Limitations.** Abstract only; chemistry/engineering domain.
-- **Decision.** D9: schema → tool-definition generator in the ILO SDK; invalid objects cannot be expressed.
+- **Decision.** D9: schema → tool-definition generator in the ULOS SDK; invalid objects cannot be expressed.
 
 #### PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration (2026)
 `PP · [V-abs]` · Zhang, Shi, Zhang, Zhao, Wang · arXiv [2605.29313](https://arxiv.org/abs/2605.29313)

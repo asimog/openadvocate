@@ -1,0 +1,2911 @@
+CASE INFORMATION SYSTEM (CIS) 4.0
+
+    Case Management through CIS 4.0
+
+                                                                    Circulated by
+                                      e-Committee, Supreme Court of India
+Case Information System (CIS) 4.0
+
+Authored by
+
+R. Arulmozhiselvi, M.L.
+
+District Judge on Deputation (Tamil Nadu Cadre)
+OSD (Registrar) - Training Cell &
+Member (Human Resources), e-Committee,
+Supreme Court of India
+
+Assisted by
+Utkarsh Pandit
+Law Clerk-cum-Research Associate,
+Supreme Court of India
+Arun Karthick V.A.
+Law Clerk-cum-Research Associate,
+Supreme Court of India
+
+Cover design
+Arti Kandpal Ruwali
+UI/UX Designer, e-Committee
+
+First Edition: May, 2025
+
+Book design by
+Design Team, Editorial
+Supreme Court of India
+                         Disclaimer
+
+This reference material circulated by the e-Committee is meant solely
+
+for study and training purposes. The references are indicative and may
+not be used for official or judicial references.
+Contents
+
+      I. Introduction....................................................................................................... 1
+      II. What is CIS?..................................................................................................... 2
+      III. Why CIS 4.0? .................................................................................................... 4
+      IV. CIS 4.0 Enhancements ..................................................................................... 6
+
+1. Login Page with Latest Updates................................................................................ 6
+      1.1 Login................................................................................................................... 6
+      1.2 Preferred language selection ............................................................................. 6
+      1.3 Facility for Notification/ Latest updates ............................................................ 7
+
+2. Updated Functional Home Page Tabs ..................................................................... 7
+      2.1 Dashboard ........................................................................................................... 8
+      2.2 Cause List:........................................................................................................ 11
+      2.3 Pending Tab ...................................................................................................... 12
+              2.3.1. Pendency Chart .................................................................................... 13
+      2.4 Disposal Tab ..................................................................................................... 14
+      2.5 Delay Reasons Tab ........................................................................................... 14
+      2.6 Calendar............................................................................................................ 16
+      2.7 Other features ................................................................................................... 17
+              2.7.1 Navigation Button ............................................................................... 17
+              2.7.2 Search Option Box ............................................................................... 17
+              2.7.3 Q Menu Option .................................................................................... 18
+
+                                                                                                    xi
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+2.7.4  2.7.3.1 Select Court Option............................................................... 18
+2.7.5  2.7.3.2 Select Date Option ................................................................ 18
+2.7.6  2.7.3.3 Query Search Option............................................................. 19
+
+                   2.7.3.3.1 Query Search -Case Status ................................. 19
+                   2.7.3.3.2 Query Search - Advocate ................................... 19
+                   2.7.3.3.3 Query Search - Cause List ................................ 20
+                   2.7.3.3.4 Query Search - Lokadalat Report....................... 20
+                   2.7.3.3.5 Query Search -Search Caveat............................. 20
+       2.7.3.4 Calendar................................................................................. 20
+       2.7.3.5 Mail........................................................................................ 21
+       2.7.3.6 Act/Section............................................................................. 21
+       Help Option.......................................................................................... 21
+       Calendar (A time-travelling feature):................................................... 22
+       Colour Themes Option......................................................................... 22
+
+3. Orders and Judgments ............................................................................................. 25
+      3.1 Order and Judgement Template........................................................................ 26
+      3.2 Order Judgement Uploading............................................................................. 27
+      3.3 Judgement/ Final Order not uploaded report ................................................... 28
+      3.4 Uploaded and Not Uploaded count.................................................................. 29
+      3.5 Bulk order uploading........................................................................................ 29
+      3.6 Bulk Templates ................................................................................................. 30
+
+4. Process........................................................................................................................ 31
+      4.1 Process Generation ........................................................................................... 31
+      4.2 Publish Process................................................................................................. 34
+      4.3 Process Acknowledgement/ Print ..................................................................... 35
+
+5. Registration................................................................................................................ 36
+      5.1 Case Scrutiny.................................................................................................... 36
+
+xii
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+      5.2 Case Registration.............................................................................................. 37
+      5.3 Caveat Section - Caveat Registration .............................................................. 44
+
+6. Proceedings ................................................................................................................ 46
+      6.1 Date selection .................................................................................................. 47
+      6.2 Case Type/Case Number Selection ................................................................. 47
+      6.4 Mediation Proceedings ..................................................................................... 49
+      6.5 Plead Guilty Proceedings ................................................................................. 50
+      6.6 Bulk Plead Guilty Proceedings ........................................................................ 50
+      6.7 Proceeding Correction ...................................................................................... 50
+      6.8 Bulk Proceedings.............................................................................................. 51
+      6.9 Filing Proceedings ............................................................................................ 52
+
+7. Filing........................................................................................................................... 52
+      7.1 E-Filing Dashboard........................................................................................... 52
+      7.2 View E-filing .................................................................................................... 53
+      7.4 Daily Filing Allocation Report......................................................................... 54
+      7.5 Filing Checklist ................................................................................................ 54
+      7.6 Case & Caveat Filing ....................................................................................... 55
+      7.7 IA Filing ........................................................................................................... 56
+      7.8 Filing Board...................................................................................................... 56
+      7.9 Filing Allocation .............................................................................................. 57
+
+8. Appeal Filing ............................................................................................................. 57
+      8.1 Appellate Case Info.......................................................................................... 57
+      8.2 Appellate Cases Report .................................................................................... 58
+      8.3 Appeal Filing .................................................................................................... 58
+
+9. Pre-Trial ..................................................................................................................... 59
+      9.1 Dashboard ......................................................................................................... 60
+
+                                                                                                    xiii
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+             9.2 Remand ............................................................................................................. 60
+                     9.2.1 Remand through VC .............................................................................. 63
+
+             9.3 Bail ................................................................................................................... 63
+             9.4 Applications...................................................................................................... 64
+             9.5 Register of FIR................................................................................................. 65
+             9.6 Release Details ................................................................................................. 66
+             9.7 Bail Order ......................................................................................................... 66
+             9.8 Pretrial Templates ............................................................................................ 67
+             9.9 Pretrial Order Uploading .................................................................................. 67
+
+      10. Under Trial ................................................................................................................ 68
+             10.1 Under Trial Prisoner Details ............................................................................ 68
+             10.2 Under Trial Prisoner ......................................................................................... 69
+             10.3 Update Release Date ........................................................................................ 70
+             10.4 Undertrial Prisoner Report ............................................................................... 71
+             10.5 Update Prisoner ID........................................................................................... 72
+             10.6 Under Trial Prisoner Release Report ............................................................... 72
+
+      11. Convicted ................................................................................................................... 72
+             11.1 On VC............................................................................................................... 73
+             11.2 Dispose of the Case.......................................................................................... 73
+             11.3 Commit the Case .............................................................................................. 73
+             11.4 Convicted.......................................................................................................... 74
+
+      12. Admin Establishment Transfer................................................................................ 75
+             12.1 Admin Work Type ............................................................................................ 75
+             12.2 Admin Units ..................................................................................................... 76
+             12.3 Civil/Criminal Establishment Case Transfer .................................................... 76
+             12.4 Receive from Establishment............................................................................. 77
+             12.5 Update Transfer Case Status ............................................................................ 78
+
+xiv
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+13. Leave In-Charge........................................................................................................ 79
+      13.1 Advocate Leave ............................................................................................... 79
+      13.2 Judge In Charge Leave Proceeding.................................................................. 79
+      13.3 Judge Leave ...................................................................................................... 80
+      13.4 In-Charge Judge................................................................................................ 80
+
+14. Legal Aid.................................................................................................................... 81
+
+15. Advocate..................................................................................................................... 82
+      15.1 Advocate ........................................................................................................... 82
+      15.2 Advocate Designation....................................................................................... 83
+      15.3 Advocate Leave ................................................................................................ 84
+      15.4 Extra Advocate ................................................................................................. 84
+      15.5 Advocate Mobile No. ....................................................................................... 85
+      15.6 Update Advocate Code..................................................................................... 86
+      15.7 Change Advocate.............................................................................................. 86
+
+16. Other Requirements Addressed in CIS 4.0 ............................................................ 87
+      16.1 Civil Cause List................................................................................................ 87
+      16.2 Criminal Cause List.......................................................................................... 87
+      16.3 Police Station-wise Cause List......................................................................... 87
+      16.4 Mediation Cause List ....................................................................................... 88
+      16.5 Caveat Auto Deletion ....................................................................................... 88
+      16.6 Data Health Card.............................................................................................. 89
+      16.8 Delete Case Option........................................................................................... 89
+      16.9 Disposal Type ................................................................................................... 90
+      16.10 Fees Type.......................................................................................................... 90
+      16.11 Holiday ............................................................................................................. 91
+      16.12 IA Case Type .................................................................................................... 92
+      16.13 IA Filing ........................................................................................................... 92
+
+                                                                                                    xv
+             16.14 Legacy Data...................................................................................................... 93
+             16.15 Legal Hier......................................................................................................... 93
+             16.16 Monthly Statement ........................................................................................... 94
+             16.17 Peshi Register ................................................................................................... 95
+             16.18 Query Builder ................................................................................................... 95
+             16.19 Work Done Report............................................................................................ 96
+             16.20 Virtual Court Dashboard .................................................................................. 97
+             16.21 Witness Information ......................................................................................... 97
+      17. Privacy Enhancements in CIS 4.0.......................................................................... 98
+      18. Conclusion ................................................................................................................ 99
+
+xvi
+    CASE INFORMATION
+           SYSTEM 4.0
+             (CIS 4.0)
+
+I. INTRODUCTION
+
+Building upon the success of Case Information Software (CIS), the Indian judiciary’s lifeline
+software, the CIS 4.0 version is all set to launch. This marks a significant step in enhancing
+the District Judiciary’s nationwide ICT software.
+With the strong foundations laid by the previous versions of CIS, from CIS 1.0 to CIS
+3.0, CIS 4.0 has enhanced functional and technological enhancements, with added privacy
+enhancement features. It is significant to note that the inputs, suggestions, and enhancement
+requirements collected from various High Courts have been accommodated in this latest
+version. CIS 4.0 has been upgraded with a new interactive and functional dashboard to
+improve efficiency and facilitate a smooth user experience.
+eCourts: A Leader in MMP Projects
+
+               eCourts topping the MMP Transaction Volume (Source: NIC - eTaal Analyser, 15th April 2025)
+                         [https://bi.etaal.nic.in/Reports/powerbi/etaal/MMP%20Analysis?rs:Embed=true]
+
+                                                                                                     1
+     Before delving into the specifics of CIS 4.0, it’s essential to acknowledge the
+     remarkable achievements of eCourts in the realm of Mission Mode Projects (MMP).
+     An analysis of the aggregation of the past ten years of electronic transactions by the
+     eTaal analyser (eTaal- Electronic Transaction Aggregation and Analysis Layer) reveals
+     that eCourts consistently hold the top position among all MMP projects in India. This
+     dominance extends to the present year, with eCourts maintaining the number one spot
+     in e-transactions as of April 2025. ECourts hold a clear-cut majority, accounting for
+     91.21% of all MMP project transactions nationwide. These figures stamp the critical
+     role that eCourts play in India’s digital transformation journey.
+
+                              MMP Projects Transaction Volume (Source: NIC - eTaal Analyser, 15th April 2025)
+                        [https://bi.etaal.nic.in/Reports/powerbi/etaal/MMP%20Analysis?rs:Embed=true ]
+
+    II. WHAT IS CIS?
+
+     CIS means Case Information System. The Case Information System software is a giant move
+     under the initiative of the e-Committee to make the Indian Judiciary more transparent and
+     litigant-friendly. The CIS versions are available exclusively for the district judiciary and
+     the high court. This Case Information System Software for the District Judiciary is created
+     under the guidance of the e-Committee, Supreme Court of India, through the software team
+     at the National Informatics Centre (NIC), Pune. In a nutshell, CIS aims to revolutionise the
+     Indian Judiciary by digitising the entire Court system and offering citizen-centric e-services
+     at the click of the mouse 24*7. CIS aids a paperless system with features like e-filing,
+     e-payments, and improved communication between all stakeholders in the legal system,
+     ultimately leading to a more efficient and accessible judiciary from any part of the country.
+     This revolutionary feature has made the Indian judiciary more user-friendly and transparent
+
+2
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+as all this data is available 24/7 free of cost to all the stakeholders, and the dominance of
+the eCourts services topping the e-transactions over the past decade, as discussed in the
+succeeding para, will speak for itself the success of CIS.
+
+Milestones till CIS 3.0
+CIS forms the basis and lifeline for all citizen-centric service delivery platforms under
+eCourts.The data entry in CIS at every District and Taluk level court forms the basis
+for citizen-centric services offered through the eCourts website, eCourts mobile app,
+and other citizen-centric service delivery platforms. As per the Phase II document,
+nearly 122 services are provided through various service delivery channels, and the
+respective High Courts provide peripheral services.1
+ Mobile App Downloads Cross 1Cr: Over one crore downloads of the eCourts
+
+      Mobile App on the Google Play Store and secured a commendable 43rd position
+      in the Utility Apps category on the Apple App Store.
+ Transaction Volume Growth: eCourt transactions have witnessed significant
+      growth, rising from 2.4 crores in 2014 to a staggering 361.13 crores in 2024
+      (as of 31 December 2024).
+These milestones highlight the remarkable progress of eCourts in digitising the Indian judicial
+system, making it more accessible, efficient, and user-friendly for all stakeholders of the
+Judicial Administrative System.
+
+Milestones of CIS 3.2
+
+Delay Management Module Introduced
+CIS 3.2 introduced a pivotal feature to address case pendency by allowing courts to record
+reasons for delays in cases pending beyond two years. This information enables High
+Courts and the Supreme Court to analyse trends and frame informed policy decisions. The
+Delay Management module includes case-wise delay entry, delay status monitoring, and
+a comprehensive delay dashboard. These tools empower users to categorise, monitor, and
+address delays systematically.
+
+1 https://www.nja.gov.in/Concluded_Programmes/2022-23/P-1300_PPTs/1.eCourts.pdf.
+
+                                                                                                     3
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+     Enhanced Reporting with Delay Dashboard
+
+     The Delay Dashboard visually overviews pending cases, segregating them into civil and
+     criminal categories and identifying those delayed for over two years. It also tracks cases
+     where delay reasons have been marked, fostering accountability and paving the way for
+     prompt corrective measures by judicial authorities. These advancements highlight CIS 3.2’s
+     commitment to making the Indian judicial process more transparent, efficient, and responsive.
+
+    III. WHY CIS 4.0?
+
+     Like the transition from CIS 1.0 to CIS 3.2, CIS 4.0 builds upon the core functionalities
+     and user interface established in the previous version. This ensures smooth learning
+     for existing users while introducing them to the exciting new features of CIS 4.0
+     and the unwavering commitment to continuous upgradation for the District Judiciary.
+     This upgrade paves the way for a more secure, efficient, and user-friendly judicial
+     system, benefiting all stakeholders at the grassroots level.
+
+     CIS 4.0 - Enhanced Key features
+      Cloud-enabled & secure: It is Cloud-enabled and security-compliant with two-factor
+
+             authentication.
+      Built on the latest technology, PHP version 7.4.15 and Postgresql 13.3, for
+
+            scalability and efficient management
+      Enhanced Privacy: CIS 4.0 includes data encryption to protect sensitive data,
+
+            and the functional workflow has been streamlined with Role-based, strict access
+            to encrypted data. ’
+      Enhanced security features: The latest CIS 4.0 maintains the last user login IP and
+             time stamp. OTP authentication is mandatory whenever a new IP is detected. If the
+             mobile number is not registered with CIS, one may get the message “Please contact
+             the system administrator to update the mobile number. “ Other security features include
+             maintaining login details and password change log details.
+      Improved Functionality: These functionalities encompass many areas, including
+            a functional and informative dashboard providing a centralised and aggregated
+            view of relevant court case information. This feature enhanced communication/
+            interaction between court personnel and CIS. The dashboard showcases a
+            variety of parameters, including:
+
+4
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+1. Today’s cases.                     11. Pending process.
+2. Undated cases.                     12. Mediation.
+3. Institutions/Received transfer in  13. Lok Adalat.
+
+      this month.                     14. Prisoner ID not updated
+4. My disposal this month.            15. Cause List
+5. My pending cases.                  16. Pending
+6. Dormant/SineDie cases.             17. Disposal
+7. E-Chargesheet this month.          18. Delay reason,
+8. Under trial.                       19. Calendar
+9. eFiled in this month.
+10. Judgment not uploaded.
+
+� Orders and Judgements: Easier access to and management of court orders
+       and Judgements, including under the court proceedings tab, where the user can
+       access the bulk order uploading option by choosing between civil and criminal
+       cases.
+
+� Processes: Improved functionalities for various judicial processes, including
+       Registration, Proceedings, Filing (including Appeal Filing), Pre-Trial, Under
+       Trial and Conviction.
+
+� Administrative Functions: Enhanced features for managing Establishment
+       Transfer and Leave In-Charge features for Judges. Also integrates CIS facilities
+       with ePrisons, Land Records, MCA, ICJS (Inter-operable Criminal Justice
+       System), NSTEP (National Service and Tracking of Electronic Processes), eFiling
+       and Virtual Courts.
+
+� Legal Aid: Streamlined processes for accessing and managing legal aid resources,
+       like applications for legal aid and making requests to change Advocates, etc.
+
+� Advocate Management: Improved functionalities over the details of Advocates
+       concerned with registered cases of the Court.
+
+ Other Features:
+
+� The notification column on the login page will be displayed for all users.
+
+� Masking sensitive information will be stored in a separate folder.
+
+� Causelist showcases links to view details of the e-filed cases.
+
+� Links are provided for the Appellate Court to see the required case details and
+       status at the Lower Courts.
+
+� Multiple next-hearing days can be added for a case.
+
+                                                                                5
+
+                   CASE INFORMATION SYSTEM (CIS) 4.0
+                    � The prisoner’s case history and convictions can be accessed.
+                    � Customised reports can be imported or generated.
+                   � Warning message before publication of Orders/Judgements.
+
+    IV. CIS 4.0 ENHANCEMENTS
+    1. LOGIN PAGE WITH LATEST UPDATES
+
+     1.1 Login
+     The CIS 4.0 Login Page features a facility to showcase notifications and updates. However,
+     the login page remains the same as in the previous version.
+
+     Upon selecting the forum and entering the username and password, the user gets logged in
+     to CIS 4.0.
+     The following is the step-by-step process to log in to CIS 4.0
+     Step 1: Enter the Login screen.
+     Step 2: Click on the drop-down menu and select the court name.
+     Step 3: Enter your Username and Password to log into CIS 4.0 after selecting the court
+
+                 name.
+     1.2 Preferred language selection
+     The user also has the option to choose between English and the regional language at the
+     login page. Moreover, after logging in, the user can select the language by clicking the
+     desired language in the top right corner.
+
+6
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+Language option at the Login page.  Language option after logging in.
+
+1.3 Facility for Notification/ Latest updates
+
+The login page also has an additional feature that displays the latest updates from the CIS
+System Admin. This helpful feature allows the admin heads to notify essential or urgent
+messages digitally and in a paperless manner.
+
+2. UPDATED FUNCTIONAL HOME PAGE TABS
+
+The enhanced CIS 4.0 has an updated functional home page, which is framed herein under:
+
+1. Dashboard                                   5. Delay tab
+2. Cause list                                  6. Calendar.
+3. Pending tab.                                7. Other Features.
+4. Disposed Tab.
+
+Let us examine in detail, one by one, the detailed menus built under each of the tabs.
+
+                                                                                                  7
+
+                                    CASE INFORMATION SYSTEM (CIS) 4.0
+     2.1 Dashboard
+
+     1
+     The dashboard has been completely revamped. Many features have been added to it based
+     on requests from the High Courts. The screenshot shows the Dashboard displaying various
+     parameters for both civil and criminal cases.
+     The dashboard displays the following tabs :
+
+           ● Today’s case
+
+           ● Undated Cases
+
+           ● Institution/ Received transfer this
+                month
+
+8
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+● My disposal this month.
+● Pending Cases
+● Dormant/ Sine Die Cases
+● e-Chargesheet for this month
+● Under Trail
+● e-Filed this month.
+● Judgements not uploaded
+
+                                                                                                9
+
+                                       CASE INFORMATION SYSTEM (CIS) 4.0
+            ● Pending Process
+            ● Mediation
+            ● Lok Adalat.
+            ● Prisoner ID not updated.
+
+      Drill-down Option: As shown in the screenshot, all the figures above can be further drilled
+      to create a more detailed list.
+
+      As shown in the above picture, the user can directly select the details under each heading
+      to get a detailed list of information.
+
+10
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+2.2 Cause List:
+
+The Cause List tab is available alongside the Dashboard. Upon entering the Cause List
+tab, one can access the Cause List for Civil and Criminal cases based on the date the user
+selects. To get the Cause List, the user must enter the date and choose civil or criminal.
+Step 1: One has to enter the date.
+Step 2: Select Civil/Criminal to get the cause list displayed. A Cause List of any date can
+
+            be generated with separate options to generate Civil & Criminal Cause Lists.
+
+The Civil Cause List Generated.  The Criminal Cause list was generated
+
+                                                             11
+
+CASE INFORMATION SYSTEM (CIS) 4.0
+     2.3 Pending Tab
+
+      If the Judge of a particular court, the admin head of the specific unit, a principal district
+      Judge, or any admin judges wanted to make an action plan for the pending cases and needed
+      real-time statistics of all the instances or wanted to know the category-wise pendency of
+      cases, reasons for pendency, year-wise data of the pending cases, stage of the case, etc..
+      This pending tab would come in handy.
+      Under the Pending Cases tab, the user is provided with all the statistics regarding the
+      Pending Cases. The statistics include the pendency chart, Year-wise pendency chart, and
+      stage-wise pendency.
+      Pending Civil/Criminal/Both
+      A column on the left side of the screen lets
+      the user choose between Civil, Criminal, or
+      both types of cases, ensuring the data is
+      available at their fingertips. Under the
+      pendency tab, the reasons for pendency,
+      year-wise data of the pending cases, stage of the case, etc., are displayed through various
+      bar charts and graphical charts, which can aid Judges and court staff admins as an effective
+      court management tool.
+      Further, by clicking on the three dots next
+      to the tabs for civil, criminal, and both, one
+      can see the case category, such as whether
+      the case is in the execution stage, appeal,
+      or application.
+
+12
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+The screenshot on the left displays the case categorisation after the user clicks on the
+three dots available on the left side of the screen.
+
+2.3.1 Pendency Chart
+The Pendency Chart is an essential statistical tool that provides the reasons for pendency. Users
+can understand the reasons for pendency with the help of easy-to-understand bar graphs. Some
+reasons for pendency mentioned in the diagram below include awaiting documents, difficulty
+securing the presence of essential witnesses, frequent challenge to interim/interlocutory
+orders, etc. To access the pendency chart, the user must click the ‘Pending Tab’ available
+at the top navigation bar.
+
+                                             Pendency Charts
+
+                                                                   Delay Reason
+
+                                                               Year-wise Pendency
+
+                                                              Stage-wise Pendency
+
+                                                                                                    13
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+     2.4 Disposal Tab
+      The Disposal Tab under the dashboard provides the user with all the statistics related to the
+      disposed cases. The disposed data is available at the click of the mouse. The user also has
+      the option to filter the data based on the timeline selected. The disposed information can
+      be generated separately for civil, criminal, or even for both from the column available on
+      the left side of the screen.
+
+      The Disposed Tab provides statistics regarding age-wise pendency, time to Disposition,
+      Stage, and Nature of Disposal. These statistics help the user understand the time for which
+      cases were kept pending before disposition and the nature of disposal.
+     2.5 Delay Reasons Tab
+      Under this tab, the user can look for the reason for the delay in their cases. The delay reasons
+      tab provides 15 categories of reasons for delay, as listed below. Knowing the reason for the
+      delay of the Cases by the stakeholders using CIS can help them utilise it as an excellent
+      case and court management tool. Only when one knows the reason for the delay can one
+      find an effective solution to tackle it. Further, the delay reason tab aids the users of CIS in
+      understanding the reason for the delay.
+
+14
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+The Delay Reasons are classified under 15 heads:
+
+ Stayed for other reasons.
+
+ Number of witnesses is more
+ than 20.
+ Awaiting for documents.
+
+ Record not available for the
+ reason.
+ Difficulty in securing presence
+ of important witness.
+ One or more accused
+ absconding/not appearing.
+ Stayed by the Supreme Court.
+
+ Stayed by the High Court.
+
+ Stayed by a court other than
+ the Supreme Court or the
+ High Court (District Court/
+ Other Court)
+ Miscellaneous application
+ delaying the process of the
+ main case.
+ Obstruction in the service of
+ process in the execution of
+ the decree.
+ Frequent challenge to intern/
+ interlocutory orders.
+ Non-availability of Counsel.
+
+ Party not interested -
+ Infructuous litigation.
+ Legal Representatives (LRS)
+ or new parties could not be
+ brought on record.
+
+                                                                                                    15
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Illustration:
+      The administrative head of the district can very well find out how many cases are pending
+      due to the stay by the Supreme Court/ High Court, and District Court and verify whether
+      or not the stay has been extended. Similarly, in how many cases are documents awaited,
+      the administration can push to bring them down. Thus, the delay reasons tab, providing the
+      reasons for the delay, is a useful administrative management tool.
+     2.6 Calendar
+      The Calendar option under the CIS is a wonderful workflow management tool for Judges
+      and other stakeholders. A glance at the calendar shows the workload on a particular day.
+      This feature can be used by judges when an advocate seeks adjournment to a particular
+      date. In this way, the judges can verify the workload on that particular date and adjourn to
+      that date if it is convenient. Under Calendar, one can learn the stage of the posted cases.
+      Under this tab, the user can see the calendar of a particular court, which provides information
+      related to the court’s working status on a specific day. The user can know the details based
+      on civil or criminal cases. Further, the user has the option to see the purpose, like admission/
+      denials, compliance, written statements, etc. A [+] option is available before the ‘purpose’,
+      clicking which gives the user access to the exact case name.
+
+                    The calendar displays the number of civil cases/criminal cases in order, respectively, listed each day.
+
+16
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+2.7 Other features
+2.7.1 Navigation Button
+The Navigation Button provides the complete list of features available on the CIS. It can
+be accessed through the ‘Arrow Button’ available at the bottom left of the screen. Further,
+the navigation of any feature can be seen at the top left corner of the CIS.
+
+                                       The navigation button is placed at the bottom left of CIS.
+                          After clicking the navigation button, the menu bar will be displayed as above.
+
+        As highlighted above, the location/navigation of any feature will be displayed at the top left corner of CIS
+  when we use it. The same features can also be easily found using the search option placed at the top centre of CIS.
+
+2.7.2 Search Option Box
+Another way to navigate the CIS is through the
+Search Option Box. This feature allows users
+to search for a keyword to reach a particular
+destination.
+
+                                                                                                    17
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+     2.7.3 Q Menu Option
+      The Query Builder Menu, introduced under CIS
+      3.0, is retained, and additional features are added
+      in its sub-menu, like Lok Adalat, Report, etc. The
+      Q Menu option is available on the CIS’s Home
+      Page. The menus under the Q Menu Option are
+      colour-curated, i.e., Select Court, Select date,
+      Query Search, Calendar, Mail, and Act/Section.
+      Six options are listed under the ‘Menu’ as shown
+      in the image below. Now, let us see these one
+      by one in detail:
+      Menu options are placed at the top right of the
+      CIS dashboard.
+      2.7.3.1 Select Court Option:
+      This option is a shortcut which is made available for access in the dashboard. This select
+      court option can be used to choose/change between courts under a single establishment.
+
+      2.7.3.2 Select Date Option
+      This is another shortcut option available in the dashboard. Using this option, one can choose
+      the required date from the calendar and view the status of that date.
+
+18
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+2.7.3.3 Query Search Option
+The Query Search option is one such shortcut available in the dashboard, wherein the user
+can directly access different queries about Case Status, Advocate, Cause List, Lokadalat
+Report and Search Caveat.
+
+2.7.3.3.1 Query Search -Case Status
+
+Users can directly access their case status using the shortcut for Case Status, which is
+available in the Query Search Option.
+Step 1: The user can obtain the case status by first clicking on the green tab named “Case
+
+            Status.”
+Step 2: The user must then fill in the CNR Number for their case.
+Step 3: Finally, the user needs to click on the blue coloured ‘Go Button’ to access the
+
+            Case Status for their case.
+Note: Case status can be obtained using any identity of the case, such as the CNR Number,
+
+        Filing Number, Registration Number, FIR Number, Party Name, and details of the
+        case in the Subordinate Court.
+2.7.3.3.2 Query Search - Advocate
+The Advocate option under the Query Search
+Menu allows users to search the cases listed
+under an advocate. This information can be
+accessed through the Advocate’s name, Bar
+code, or Today’s case list.
+
+                                                                                                    19
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      2.7.3.3.3 Query Search - Cause List
+      Today’s and Tomorrow’s Cause List of Civil and Criminal
+      matters can be generated from the Query Search Menu.
+      2.7.3.3.4 Query Search - Lokadalat Report
+      Report of Active and Completed Lok Adalats can be accessed
+      by Lok Adalat’s Date and panel-wise.
+      2.7.3.3.5 Query Search -Search Caveat
+      The Query Search Menu also includes a Search Caveat
+      option where Caveat information can be accessed either
+      through Caveator Name or Caveatee Name, with filter
+      options like Anywhere’, ‘Starting With’, ‘Subordinate
+      Court’ or ‘Caveat No.
+      2.7.3.4 Calendar
+      The calendar shows the number of Civil and Criminal cases on each date.
+      A tab on types of cases and their stages is displayed when clicking on any date in the calendar.
+
+20
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+2.7.3.5 Mail
+The users of CIS can access the mail facility by clicking on the Menu Option available
+in the top right corner of the screen. The Mail menu facilitates paperless communication
+among the users.
+
+2.7.3.6 Act/Section
+
+                    Under the Act/Section option, users can view multiple Acts/Sections with a single click.
+
+2.7.4 Help Option
+This Help Option continues to exist in most CIS pages, explaining the basic features and
+interface of that particular page.
+
+                                                                                                    21
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      2.7.5 Calendar (A time-travelling feature):
+      The Calendar option here takes the users to the CIS Status and data as on any date, located
+      at the top right of the CIS.
+      2.7.6 Colour Themes Option
+
+                                          CIS can be used in six different themes of colours as shown above.
+
+                                                          Glimpse of all six coloured themes of CIS.
+
+22
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Dashboards
+Delay Dashboard
+
+   How to reach the delay dashboard?
+   ‘Navigation Button → Court Proceedings → Delay Dashboard’ or search as ‘Delay
+   Dashboard’ in the search option.
+
+Under this tab, the user can see the number of civil/criminal cases pending in a particular
+court and search for cases that have been pending for a particular period of time, as shown
+in the picture below.
+
+E-filing Dashboard
+   ‘Navigation Button → E-filing V 3.0 → e-Filing Dashboard’ or search as ‘e-Filing
+   Dashboard’ in the search option.
+
+The e-filing Dashboard Tab is available on the Home Page for easy access. Clicking on it
+allows one to access the e-filing dashboard, which is very useful as it saves advocates and
+their clients time, money, and travel. One can easily see how many e-filed cases are listed
+by clicking on the e-filing Dashboard on the Home Page.
+Under the e-Filing Dashboard tab, the user can see the filing’s status: whether it is consumed,
+verified, rejected, or yet to be verified. Further, the user can locate the file uploaded through
+the calendar.
+
+                                                                                                    23
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      ICJS Dashboard
+      Under the ICJS Dashboard tab, the user can know the status of the documents, like
+      e-Chargesheet and e-FIR, that have been uploaded. The user also has the option to locate
+      the documents by providing the dates between which the particular document might be
+      uploaded. The user has to offer a range of dates, which includes the ‘From Date’ and the ‘To
+      Date’. Finally, the user can click on the ‘Go Button’ to get the data and status of e-Charge
+      Sheet and e-FIR, consumed, verified, rejected and yet to be verified.
+
+24
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Pretrial Dashboard
+Under the Pretrial Dashboard tab, the user can access an overview of the complete details,
+such as pending bail and pending applications.
+
+Virtual Court Dashboard
+The virtual court tab details cases consumed, verified, rejected, or yet to be verified. Moreover,
+the user can filter the data based on the dates selected through the calendar.
+
+3. ORDERS AND JUDGMENTS
+
+The user can access the Orders and Judgments section
+from the sidebar available on the left side of the screen.
+Under the head Order and Judgement, the user has access
+to the following:
+ Order and Judgement Template
+ Order Judgement Uploading
+ Judgment/ Final Order not uploaded report
+ Uploaded and not uploaded count
+ Bulk order uploading
+ Bulk Templates
+
+                                                                                                    25
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+3.1 Order and Judgement Template
+
+The order and judgment template is a time-saving tool for drafting. The cause title, Advocates
+of the parties, date of filing, duration, and the judge’s name with designation can all be
+auto-generated through this template for a particular case in an editable format. The editable
+template generated can be customised by adding the necessary information, and the final
+order/judgement can be drafted. This should not be mistaken for authorised forms of orders.
+It is only a skeleton form which must be edited and filled out according to the individual
+cases. Let us see the key templates.
+
+Follow the steps to access the order and Judgement template:
+
+Step 1: Choose any of the options between selecting
+            a case number or entering a case number.
+
+Step 2:  Choose between civil or criminal and enter
+         or select the case number to get the desired
+         results
+
+Step 3:  The user must choose the template name
+         from the available options. Under the
+         Template Name, a variety of Templates are
+         available, including an exparte Judgement
+         template, civil Judgement, Criminal Police Judgment, Abatement order, return of
+         complaint, and committal order. A screenshot captures a few of them.
+
+Step 4: After selecting the template name from the options available, the user must click
+            the ‘Generate template’ button.
+
+26
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 5: The model-generated template is shown in the screenshot for ready reference.
+
+   How to get the Civil Judgement Template
+   Go to navigation pane → Choose Order and Judgement option → Click
+   Order→ → Judgment template > Select the case number → choose the template
+   name “Civil Judgment” from the drop box (this option will appear in the drop
+   box only if added through state master) >click Generate template option, click
+   Civil Judgement shown in green→ colour It generates the order >it can be
+   further edited and customised
+3.2 Order Judgement Uploading
+For order Judgement uploading, the following steps need to be followed:
+Step 1: Select between civil or criminal and enter the case number.
+
+                                                                                                    27
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Step 2: The user must upload the documents by clicking the browse button. The user also
+                  has the option to preview the document uploaded.
+
+      Step 3: The user then needs to select the order date and the order type.
+
+      Step 4: Before uploading, the user needs to click the tab and verify that the order/ Judgement
+                  uploaded above is verified and correct. The same can be published on the website.
+
+      Step 5: Finally, the user can click the ‘Upload’ button to upload the document.
+
+      3.3 Judgement/ Final Order not uploaded report
+      To get the Judgement/ final order not uploaded report, the user needs to follow the below-
+      mentioned steps:
+      Step 1: The user must select between an order that has not been uploaded and an order
+
+                  that has been uploaded.
+
+28
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 2: Select the Court Number
+
+Step 3: Then select the ‘from date’ and ‘to date’
+Step 4: Click the ‘Go’ button to get the desired result.
+
+3.4 Uploaded and Not Uploaded count
+
+The user can access the Uploaded and Not Uploaded count by clicking on the ‘Case
+Proceedings’ tab in the CIS’s sidebar. Under the Case Proceedings tab, the user clicks on
+the Uploaded and Not Uploaded count to access that data.
+
+3.5 Bulk order uploading
+
+Step 1:  Under the court proceedings tab, the user can access
+         the bulk order uploading option by choosing between
+         civil or criminal cases.
+
+Step-2: The user must select the check-box for confirmation - “The order/judgment uploaded
+            above is verified and correct. The same can be published on the website”
+
+                                                                                       29
+
+                          CASE INFORMATION SYSTEM (CIS) 4.0
+      Furthermore, the user can access the Judgement / Final Order not uploaded report under the
+      court proceedings tab. The user must also choose the court number and the dates to access
+      the Judgement.
+
+      The user also has the option to access the deposits and payments for fines or penalties.
+
+      3.6 Bulk Templates
+      To access the bulk templates, the user has to follow the steps:
+      Step 1: Choose between civil or criminal options.
+
+30
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 2: The next step is to select the Judgment name.
+
+Step 3: To get the desired results, the user must click the ‘generate template’ tab.
+
+4. PROCESS
+
+In the district judiciary, the issuance of the process is an essential and critical stage in every
+case. Hence, this option gains more significance. By optimum utilisation of this option, one
+can minimise the delay involved in the issuance of the process. Various options are made
+available in connection with the issuance of the process.
+
+4.1 Process Generation
+
+The first option is how to generate the process through CIS.
+
+Step 1:  From the sidebar on the left side of the screen, click
+         on the ‘Case Proceedings’ option. Then, click the
+         ‘Civil-Criminal Process’ option and select ‘Process
+         Generation’.
+
+         Case Proceedings → Civil-Criminal
+         Process → Process Generation
+
+Step 2: Select the type of process that needs to be generated: civil, criminal, or plead
+            guilty.
+
+Step 3: Fill in the case Number.
+
+                                                                                                    31
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Step 5: Select the type of process from the available options.
+
+      Step 6: Under the Select Addressee tab, click on the fee type, whether paid/free on court
+                  motion.
+
+      Step 7: Choose the Addressee type and click on Save.
+
+      Step 8: Next, go to the Addressee Details tab, fill in the Email ID and remarks, and click
+                  the save button.
+
+32
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 9:  Under the party concerned tab, select the party type and provide the party name.
+         Under the ‘Party Type’, it can be chosen if it is a witness or a victim. Then, click
+         on ‘Save’.
+
+Step 10: Under the ‘Selected Party Details’, the user needs to fill in the following details
+            and click on save:
+             Party Name
+             Address
+             District
+             Ward
+             Village
+             Town
+             Police Station
+             Taluka
+
+Step 11: Under the ‘Act Section’ tab, the user needs to provide the Act Name and the
+            relevant provisions. The user then needs to click on the save option.
+
+Step 12: Under the ‘Extra Label’ Tab, the following details are required to be filled:
+             Common name of offence, viz. Theft, Robbery, murder, etc.
+             Own personal bond
+             A security of Rs
+             Attached required documents
+
+                                                                                                    33
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Step 13: Under the ‘Generate Draft’ Tab, click the ‘Generate Draft’ button at the end.
+
+      4.2 Publish Process
+                                     Case Proceedings —--> Publish Process
+
+      Step 1: To publish the process, the user must click on Case Proceedings and then Publish
+                  Process.
+
+      Step 1: Select from civil or criminal case options.
+      Step 2: Select the ‘From Date’ and ‘To Date’ and then click the ‘Go’ button.
+      Step 3: After checking the details, the user can click the ‘Publish’ button.
+
+      Step 4: A dialogue box will appear, mentioning that the Process will be generated. Do
+                  you want to continue?’ The user can then click on the ‘OK’ button to continue.
+
+34
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+4.3 Process Acknowledgement/ Print
+
+         Case Proceedings —--> Process Acknowledgement/ Print
+
+To view the process acknowledgement, the user needs to follow the steps below:
+
+Step 1:  The user can access the process acknowledgement/
+         print option by clicking the ‘Case Proceedings’
+         option from the sidebar and then clicking on ‘Process
+         Acknowledgement/Print’.
+
+Step 2: The user needs to choose between civil/criminal
+            cases.
+
+Step 3: The user must choose the ‘From Date’ and ‘To Date’
+            and then click the ‘Go’ button.
+
+Step 4: To get the desired results, the user can click the ‘Print’ or ‘View’ buttons.
+
+                                                                      35
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+5. REGISTRATION
+
+If there are no objections, the case must be registered. On registration, further details are
+entered. At this stage, a registration number is generated. The registration number is nothing
+but the case number. During registration, their data can be copied using copy, previous case
+data, and returned cases when represented. It is a real time-saver tool for data entry staff.
+Once the courts receive the files, the important step starts: scrutinising the case records to
+determine if they can be taken on file. Hence, under case scrutiny, the concerned court staff
+finds out if there are any objections in the file received and then recommends registration.
+
+5.1. Case Scrutiny
+Now, let us see the case scrutiny option first.
+Step 1: Open the left navigation and click on ‘Registration Section’ and then the ‘case
+
+            objection’ option provided under the ‘Case Scrutiny’ tab.
+
+               Registration Section —---> Case Scrutiny —--> Case Objection
+
+Step 2: Click on the individual or list cases under the ‘Case Objection’ tab.
+
+Step 3: If the List of cases is selected, the filing number and the date of scrutiny must be
+            filled in.
+
+Step 4:  If there are objections, click on the yes button. A few more options will pop up
+         for the user to fill in, such as the Objection Compliance date, the Communication
+         on date, etc.
+
+36
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 5: In case there are no objections, click on the ‘no’ button and then click on the
+            submit button to generate the ‘Check Slip’
+
+Step 5: To generate it, the user must click the ‘Check Slip’ option.
+
+                                                              Check Slip Generated
+
+5.2. Case Registration
+Once the Case is scrutinised and all the objections are complied with, the case becomes ripe
+for registration. Registration of the case is an essential step under CIS because it is where
+the primary data regarding the case is captured. The staff handling the registration or the
+court staff making data entry should ensure that all the particulars regarding the case are
+entered in the respective tabs. Don’t leave the tabs blank. All the data tabs are gold mines
+used for data analysis, which can generate the correct and accurate reports from the CIS.
+Case registration is a step-by-step process that begins with filling in the petitioner’s details.
+
+                                                                                                    37
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Petitioner
+      Step 1: Open the left navigation and click on ‘Registration Section’ and then the ‘Case
+
+                  Registration’ option.
+                                  Registration Section —--->Case Registration
+
+      Step 2: The user must fill in the filing number.
+
+      Step 2: Further, the user is required to fill in the following details under the head of
+                  Petitioner:
+                   Address
+                   Email ID.
+                   State
+                   District
+                   Town
+                   Taluka
+                   Village
+                   Police Station Code
+
+38
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Respondent
+The next step after filing the petitioner’s details is to fill in the respondent’s details, including
+the following:
+ Judgment Debtor’s name
+ Email,
+ Address,
+ Name of advocate
+ Mobile Number
+ Town
+ Taluka
+ District
+ Village
+ Police Station Code
+
+Extra Information
+After the petition and respondent details have been completed, some extra information must
+be filled out. These include fax number, country, occupation, etc. After the extra information
+has been filled out, the user must click the ‘Next’ button to move forward.
+
+                                                                                                    39
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Subordinate Court
+      The next step is to fill out the details of the subordinate court, including the state, district,
+      and subordinate court name.
+
+      Case Registration - Act Section
+      The user must then fill in the details of the applicable act and the relevant section and click
+      the ‘Save’ button.
+
+40
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Police Station
+The next step is to fill in the details of the police station, including the following:
+ District
+ Date of Offence
+ FIR Type
+ Investigating agency, etc.
+Finally, the user is required to click on the ‘Next’ Button.
+
+MVC
+The next tab is for MVC and requires filling out the details, including the district, police
+station, CR No., year, etc.
+
+                                                                                                    41
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Extra Party
+      Step 1: The user must first select whether it is for prosecution or an accused.
+      Step 2: The user then needs to select and fill in the following information:
+
+                   Gender
+                   Decree holder/ Judgement debtor, etc.
+                   Prosecution Accused
+                   Address
+                   Pin Code
+                   State
+                   District
+                   Taluka
+                   Village
+                   Age
+      Step 3: Finally, the user must click the ‘Save’ button to proceed.
+
+      Party-wise Acts
+      The next label for party-wise acts requires filling in the acts of the petitioner or respondent.
+
+42
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Case Details
+The next step involves filling in the essential case details and valuation, and mentioning
+the state, district, and taluka where the dispute has arisen. The user must then click on the
+‘Next’ button to proceed with the registration.
+
+Registration
+The next step is registration, which involves selecting the purpose and sub-purpose of listing,
+among other things.
+
+                                                                                                    43
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Pending Registration List Report
+      Once the user has registered the case, the pending registration status can be seen by choosing
+      the From Date and the To Date. Once the dates are selected, the user must click the ‘Go’
+      Button to view the list.
+
+      A screenshot of the pending registration List is shown below:
+
+      5.3. Caveat Section - Caveat Registration
+      The user must fill in the details under the caveat/ caveatee details tab to register the caveat.
+      The details to be filled include the caveator’s name, address, relation, name of advocate,
+      etc. Finally, the user needs to click on the ‘Save button’ to move forward with the next tab
+      of ‘Extra Information’
+
+44
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Extra Information
+Under the ‘Extra Information’ Tab, the user is required to fill in the following details of
+the Caveator:
+ Mobile Number
+ Email
+ Occupation
+ Pin Code
+ State
+ District
+ Town
+ Ward
+ Taluka
+ Village
+Similar information is to be filled for the Caveatee.
+Subordinate Court
+The next step is to fill in the details of the subordinate court, including more information
+such as the District Subordinate Court Name, Case Type, Case Number, etc.
+
+                                                                                                    45
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Extra Party Caveat
+      The next step is to fill
+      in the details under
+      the label subordinate
+      court, including
+      more information
+      such as the District
+      Subordinate Court
+      Name, Case Type,
+      Case Number, etc.
+
+      Register Caveat
+      Once the information under the tabs, such as Caveator/ Cavatee details, extra information,
+      subordinate court, and extra party caveat, is filled in, the caveat can be registered under the
+      Register Caveat tab. The user must fill in the Caveat No, Year, and Date of Registration to
+      successfully register the caveat.
+
+     6. PROCEEDINGS
+
+      Entering Proceedings under CIS is the spine activity of every court in India because these
+      proceedings are updated from each court and are reflected in all the citizen-centric platforms
+      like the e-Courts website and mobile application, where crores of advocates and litigants
+      get the case status directly from the courts on a real-time basis, that too free of cost, all the
+      court staff making entries in the proceedings under CIS must be doubly vigilant and enter
+      correct, complete, and accurate data.
+
+46
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+6.1. Date selection
+To start the entry of the proceedings, the user needs to select the
+date from the top right corner of the dashboard.
+
+Once the date is selected from the calendar, the user must click the ‘Go’ button.
+
+6.2. Case Type/Case Number Selection
+
+Step 1:  Next, the user must select the ‘Case Proceedings’ option under ‘Daily Proceedings’
+         under the ‘Case Proceedings’ tab. These options are available in the navigation
+         tab on the left side.
+
+         Case Proceedings —--> Case Proceedings —--> Daily Proceedings
+
+         The user must then select the case number and click any available options: civil,
+         criminal, or both.
+
+         Proceedings: Under the daily proceeding, there are two important tabs that the
+         data entry staff must complete without fail.
+
+Step 2:  Under this, the user can see the delay and for the delay, the acts involved in a
+         particular case, such as IPC, POCSO, etc., by clicking on the options available
+         on the right side of the screen.
+
+                                                                      47
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+Step 3:  Order Passed: The user must select
+         the order type passed under the’ Order
+         Passed’ tab. Some of the orders passed
+         include issue notice, issue summons,
+         parties to maintain status quo, ex-parte
+         injunction granted, etc.
+
+Step 4:  Business/ No Business: The user must
+         then move to the proceedings tab and fill
+         in the details under the Business/ No
+         Business Head. For Example, if summons
+         are to be issued, the user must write ‘Issue
+         Summons’ under Business/ No Business.
+
+Step 5:  Court Event: The user has to select the
+         court event, which means recording the
+         court proceeding on a particular date. The
+         user has to choose events such as Charge
+         Framed, Witness Examined, Examination of
+         Accused 313 Crpc, Change Advocate, etc.
+
+Step 6:  Next Date: Before moving to the next tab,
+         the user must select the hearing’s Next Date
+         from the calendar.
+
+48
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 7: The user must then click on the ‘Next Button’ at the bottom of the page to proceed
+            to the ‘Multiple Next Dates’ Tab.
+
+Step 8:  Multiple Next Dates Tab: If there are multiple following dates, the user needs
+         to click the ‘Multiple Next Dates’ tab. Click the’ Add More’ button to fill in the
+         second or third date. Then, the user needs to select the purpose for each of the
+         following dates. Finally, the user can successfully click the ‘Submit’ button to add
+         the following dates. Click the ‘Next’ tab to move to the ‘Presence’ tab.
+
+Step 9:  Presence Tab: Under the Presence Tab, kindly select prosecution, accused, accused
+         other parties or select all and then click on the ‘Submit’ button. Once the submit
+         button is clicked, a dialogue box will appear stating ‘Case Proceedings successful’.
+
+6.4. Mediation Proceedings
+                               Mediation —-> Mediation Proceedings
+
+The option for Mediation Proceedings is available under the
+Mediation tab on the left side of the navigation. The user
+then needs to fill in the details such as Case Type, Case No.,
+Next Date, etc., to get the desired results.
+
+                                                                                                    49
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      6.5. Plead Guilty Proceedings
+                                    Plead Guilty -> Plead Guilty Proceedings
+
+      The ‘Plead Guilty Proceedings’ option is available under the heading ‘Plead Guilty’, on the
+      left side of the CIS navigation. The user must fill in the Case No to get the desired results.
+
+      6.6. Bulk Plead Guilty Proceedings
+                                Plead Guilty -> Bulk Plead Guilty Proceedings.
+
+      The option for ‘Bulk Plead Guilty Proceedings’ is available under the heading ‘Plead Guilty’
+      in the left-hand navigation of the CIS. To get the desired results, the user must fill in the
+      details under the headings Business/ No Business, Adjournment, and Time Slot.
+
+      6.7. Proceeding Correction
+                               Proceeding Correction -> Proceeding Correction
+
+      The ‘Proceeding Correction’ option is available under the heading ‘Proceeding Correction’
+      in the left-hand navigation of the CIS. To get the desired results, the user must fill in the
+      Case No, Case Type, and Year.
+
+50
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+6.8. Bulk Proceedings
+            Case Proceedings —--> Daily Proceedings —--> Bulk Proceedings
+
+The user can reach the ‘Bulk Proceedings’ option under the ‘Daily Proceedings’ option
+provided under the ‘Case Proceedings’ Tab. The user then needs to choose between civil or
+criminal, depending on the type of case. The user can apply a date to all cases by clicking
+on the box beside it.
+This option is helpful when the user wishes to
+simultaneously apply business or no business to
+the cases. If the user wishes to allocate business
+to the cases in bulk, a remark for the business has
+to be marked, such as ‘On hearing’.
+Suppose no business is available on the selected date for the scheduled cases. In that case,
+no company can be chosen, and a proper reason for the adjournment should be provided,
+such as the accused not being present, the accused not being produced by the jail authority,
+adjournment by consent, etc.
+Further, the user can select the next date for various cases and click the ‘Submit’ button.
+Once the ‘Submit’ button is selected, a dialogue box will appear stating that the case is
+proceeding successfully.
+
+                                                                                                    51
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      6.9. Filing Proceedings
+                   Case Proceedings —--> Daily Proceedings —--> Filing Proceedings
+
+      The user can reach the Filing Proceedings section by moving to the left-side navigation and
+      clicking on the Case Proceedings tab. The user then has to select the Daily Proceedings tab,
+      which is available under the drop-down from Case Proceedings. Finally, the user can get the
+      option of Filing Proceedings under the tab of Daily Proceedings. The user must then choose
+      between civil and criminal options and fill in the filing Number, Next date, etc.
+
+     7. FILING
+
+      7.1. E-Filing Dashboard
+                                     E-filing V 3.0 —--> e-Filing Dashboard
+
+      The e-filing dashboard is an important monitoring tool for
+      the staff concerned with e-filing, which can very well show
+      u at a glance the number of e-filed cases consumed, verified,
+      rejected and the cases that are yet to be verified. Using this, the
+      administrative staff can access the pending workload and make
+      plans for effectively handling all the e-filed cases.
+      To access the filing details, the user must go to the navigation bar
+      on the left side of the screen. The user must select the E-filing
+      V 3.0 tab and click ‘e-Filing Dashboard’ from the drop-down
+
+52
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+menu. The user has the option to filter the data shown based on a given timeline and know
+the data and status under the following heads:
+ Consumed
+ Verified
+ Rejected
+ To be verified
+
+7.2. View E-filing
+
+                    E-Filing V 3.0 —--> View E-filing
+
+Another effective monitoring tool for e-filing is the
+View e-filing option. One can search the e-filed
+cases under various options: Individual, listed, and
+efiling. To view the e-filing, the user must go to
+the left side. Next, the user must select the ‘View
+E-filing’ tab under the ‘E-filing V 3.0’ heading. The user is then required to fill in the details
+of the E-file, such as choosing between registered or unregistered cases, case type, case
+number, etc., to get the desired results.
+
+Reconsume Data: If e-filing data is missing, the user needs first to select the case and then
+click on the resume link.
+
+                                                                                 53
+
+                    CASE INFORMATION SYSTEM (CIS) 4.0
+      7.4. Daily Filing Allocation Report
+                           Case Allocation —--> Pending Allocation Reports —->
+                                           Daily Filing Allocation Report
+
+      To access the daily filing allocation report, the user must move
+      to the left-side navigation and first click on Case Allocation.
+      Next, the user must click ‘Pending Allocation Reports,’ after
+      which the dropdown will open. Finally, the user can click on
+      ‘Daily Filing Allocation Report.’ The user must then choose
+      between civil or criminal cases and filter the results based
+      on the calendar.
+
+      7.5. Filing Checklist
+                            Filing Counter —--> Reports —-> Filing Check List
+
+      To access the filing checklist, the user must first go to the
+      left side navigation and click on the tab ‘Filing Counter’.
+      Then, the user must select Reports, after which a drop-down
+      will appear. Finally, the user can click on the ‘Filing Check
+      List’ tab. The user is then required to choose between civil or
+      criminal cases and can filter the results based on the chosen
+      category.
+
+54
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+7.6. Case & Caveat Filing
+                           Filing Counter —--> Case and Caveat Filing
+
+To access the case and caveat filing, the user must select
+the ‘Filing Counter’ option from the sidebar navigation
+and click the ‘Case and Caveat Filing’ option. The user
+must then choose between civil, criminal or caveat filing.
+Further, the user is required to fill in the case type.
+
+Under the Party details, the user must fill out the Organisation Details, Organisation Name,
+prosecution, advocate, accused, mobile Number, and email. Finally, the user must click the
+‘Next’ button to move to the Case Details tab.
+
+Under the Case Details Tab, the user needs to fill in the police station code, FIR No., Year,
+name of the Act, and section number. The user can then click on the ‘More Acts’ option to
+proceed and click on the ‘Submit’ button.
+Once submitted, a confirmation regarding ‘Addition Successful’ appears at the top of the
+screen. Further, a print acknowledgement can be received by clicking on the option below
+‘Add Successful’.
+
+                                                                                                    55
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      7.7. IA Filing
+                                       Registration Section —--> IA Filing
+
+      To access the IA filing, the user must first go to the left side of
+      the navigation. Next, the user must select the ‘IA Filing’ tab under
+      the “Registration Section’ tab. The user is then required to choose
+      between civil or criminal type cases. Then, the user must select
+      whether the IA is filed in a registered/unregistered case. The user
+      can file the IA after selecting the Case Type, Case Number and Year.
+
+      7.8. Filing Board
+                        Registration Section —> Filing Allocation —> Filing Board
+
+      To access the Filing Board, the user must go to the left side navigation
+      and select the ‘Registration Section’ Tab. Then, the user needs to select
+      the ‘Filing Allocation’ tab, after which a drop-down will appear, and
+      the user can finally select the Filing Board option. Further, the user
+      must provide the court number and select the hearing date to get the
+      desired results.
+
+56
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+7.9. Filing Allocation
+             Registration Section —--> Filing Allocation —-> Filing Allocation
+
+To access the Filing Allocation tab, the user must go to the left side
+of the navigation and select the ‘Registration Section’ tab. Then, the
+user needs to select the ‘Filing Allocation’ Tab. Next, the user needs to
+select the ‘Filing Allocation’ tab available under the “Filing Allocation’
+tab. Further, the user must provide the filing number, court number,
+and the hearing date to get the desired results.
+
+8. APPEAL FILING
+
+8.1. Appellate Case Info
+                         Appeals Information —--> Appellate Case Info
+
+To view the appeal case info, the user must go to the left-side
+navigation and click the ‘Appeals Information’ Tab. Next,
+the user must select the ‘Appellate Case Info’ tab under the
+‘Appeals Information’ tab. Further, the user must provide the date of receipt, serial number,
+case type, case number, year, etc., to get the appellate case information.
+
+                                                                                                    57
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      8.2. Appellate Cases Report
+                             Appeals Information —--> Appellate Cases Report
+
+      To view the appeal case info, the user must go to the left-side
+      navigation and click the ‘Appeals Information’ Tab. Next, the
+      user must select the ‘Appellate Cases Report’ tab under the
+      ‘Appeals Information’ tab. Further, the user must choose the
+      appellate court and the timeline to get the report for the desired period.
+
+      8.3. Appeal Filing
+                                         Appeal Filing —--> Appeal Filing
+
+      To view the appeal filing, the user must first go to the
+      left-side navigation on the screen. Next, the user needs to
+      click on the Appeal Filing Tab, Which Is available under
+      the tab ‘Appeal Filing’. Further, the user must choose the
+      case status and provide the CNR or Case number to file the appeal.
+      The user can get the results if CNR is selected by directly providing the CNR Number.
+      However, if Case Number is selected, the user can get the results by entering the district
+
+58
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+name, establishment name, case type, case number, and year to move forward with filing
+the appeal.
+
+The user then needs to fill in the parties’ names on behalf of the petitioners and respondents
+and provide the names of the respective advocates. Further, the user must select the case
+type and click the ‘Submit’ button.
+Once the submit button is clicked, a text message confirms the addition as successful.
+
+9. PRE-TRIAL
+
+Pre-trial is a stage in criminal cases when the chargesheet has not been filed. Pretrial stages
+include remand and bail. If an accused is remanded, the details can be added in the pre-
+trial module. Through the Pre-Trial Module, one can get the remand date, days in police
+custody, and judicial custody.
+Under the pretrial option, four primary tabs are covered: Dashboard, remand, bail, and other
+applications filed during the pre-trial stage. Each tab loads useful details for the pre-trial
+stage, which are explained in detail under separate heads.
+
+                                                                                                    59
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+9.1. Dashboard
+
+                            Pretrail —--> Pretrail Dashboard
+
+The user can access the dashboard by following the steps below:
+
+Step 1: Open the sidebar from the bottom left option given on the screen.
+
+Step 2:  The user needs to select the Pretrial Dashboard option under the
+         ‘Pretrial’ tab to access various details related to the trial, as listed
+         below.
+
+          Accused in Police Remand
+
+          Accused in Jail
+
+          Today’s Case List
+
+          Pending Bail
+
+          Pending Applications
+
+          Disposal in a Month.
+
+9.2. Remand
+
+The Remand tab is one of the essential tabs under pretrial, which is very useful for criminal
+courts. It can give all the remand details, like which police station the remand is connected
+with, which FIR, the duration of the remand, the option to view the eFIR, and whether the
+accused is produced physically or through VC.
+
+60
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 1: The user can select the ‘Remand’ tab next to the dashboard.
+
+Step-2:  Under the ‘Remand’ tab details, the user has the option to get the remand details
+         according to the police station or according to the cause list. So, the user needs
+         to choose from any of the given options.
+
+Step 3: If the Police Station option is chosen, the user needs to fill in the details below:
+
+          Police Station Name
+
+          FIR Type
+
+          FIR No.
+
+          Year
+
+          Date of Application
+
+Step 4: View eFIR option: The user also has the option to view eFIR through the green
+            colour tab on the right side of the screen. Just after the user clicks the ‘Go’ button.
+
+Step 5: The user gets the following dashboard once the view eFIR button is clicked.
+
+                                                                                             61
+
+                                CASE INFORMATION SYSTEM (CIS) 4.0
+Step 6: The following details are also to be filled in before clicking on the ‘Submit’ button
+            to get the remand details:
+
+            1. Action: The user has to choose the particular type of action, PCR, MCR, or
+                  rejected.
+
+         2. Prison Tab: The user then has to choose the Prison.
+
+         3. Type of Order: The user can choose the Type of Order from the available
+               options, such as MCR being extended for the next 14 days, the Police requesting
+               MCR to be granted, etc.
+
+         4. Template Name: The user can select the type of Template Name from the
+               available options, such as PCR, extension of PCR, Rejection of extension of
+               PCR, remand MCR bailable, etc.
+
+Step-7:  Once the submit button is clicked, the user is shown a dialogue box regarding the
+         template, such as the ‘Remand MCR bailable’. The user can access the template
+         by clicking on the hyperlink.
+
+62
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+9.2.1. Remand through VC
+Indian courts are at the top in VC hearings, and videoconferencing is crucial for remand.
+The under-trial prisoners and the accused are now produced before the courts across the
+country through VC, which is beneficial in terms of fuel savings, security, and travel time.
+Now, the latest CIS 4.0 allows capturing the remand through VC.
+
+9.3. Bail
+
+                                            Pretrial —--> Bail
+
+The Bail tab is next to the Remand Tab.
+To get the bail details, the following is to be done:
+Step 1: The user can get the bail details through the police station or the cause list.
+Step 2: In case the police station is selected, the following details are to be filled in to
+
+            get the desired results:
+             Police Station
+             FIR Type
+             FIR No.
+             Year
+             View E-FIR
+Step 3: The user can click the ‘Go’ button to proceed.
+Step 4: Next, the user needs to fill in the following details:
+             First, select any of the following options: Next Date or Dispose
+             If the “Dispose” option is selected, the following details are to be filled:
+
+                                                                                                    63
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+                        1. Action- whether granted or rejected.
+
+                        2. Order Passed—Various options are available for the type of order passed,
+                               such as the offence being bailable, the accused being released on bail
+                               on PR and SB of Rs 5000, or the offence being petty, the accused being
+                               released on PR Bond, etc.
+
+                        3. Surety Requirement—The user
+                               can select the surety requirement,
+                               such as cash security, an immovable
+                               property document to meet the
+                               amount, a Personal Recognisance
+                               Bond, etc.
+
+                        4. Date of Bail: The user must select
+                               the bail date or the decision date from the calendar.
+
+                        5. Template Name: The user can choose the Template Name, Return of
+                               Property.
+
+                   Finally, the user must click the submit button to get the bail details.
+
+      9.4. Applications
+
+      The Applications tab is next to the ‘Bail’ tab. The following details are to be filled in to
+      get the desired results:
+
+      Step 1: The user must select between the police station and the caselist.
+
+      Step 2: In case the police station option is chosen, the following details are required to
+                  be filled:
+                   Police Station
+                   FIR Type
+                   FIR No.
+                   Year
+
+      Step 3: Finally, the user must click the ‘GO’ button.
+
+      Step 4: Once the Go button is clicked, the user then needs to fill in the following details:
+                   Action
+                   Decision Date
+                   Surety Requirement
+
+64
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+          Template Name: Return of Property
+
+Step 5: Finally, the user must click the ‘Submit’ button
+            to get the desired results.
+
+Step 6:  Once the ‘Submit’ button is clicked, the user gets a dialogue box that mentions
+         ‘Return of Property’. By clicking on ‘Return of Property,’ the user can download
+         the application template.
+
+9.5. Register of FIR
+
+                                     Pretrial —--> Register of FIR
+
+To reach the register of FIR, the user needs to move to the sidebar and click on Pretrial.
+Then, under pretrial, the user needs to select the tab for ‘Register of FIR’
+To get the register of FIR details, one needs to follow the steps below:
+Step 1: Kindly fill in the ‘Police Station’ Name.
+Step 2: Fill in the ‘From Date’ and ‘To Date’.
+Step 3: Click the ‘Go’ option for the desired results.
+
+                                                                      65
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+      9.6. Release Details
+                                                 Pretrial —--> Release
+
+      To get the release details, the following steps are to be followed:
+      Step 1: The user must first open the sidebar through the
+
+                  button on the bottom left of the screen.
+      Step 2: The user must click the ‘release’ option under the
+
+                  Pretrial option.
+      Step 3: Under the Release tab, the user must select between
+
+                  police station or pending release.
+      Step 4: In case the police station is selected, the following details are to be filled:
+
+                   Police Station Name
+                   FIR Type
+                   FIR Number
+                   Year
+      Step 5: Finally, the user must click the ‘Go’ option to get the release details.
+
+      9.7. Bail Order
+      To reach the ‘Bail Order’ tab, the following steps need to be followed:
+      Step 1: Click on the button at the bottom left to open the navigation.
+      Step 2: Click on the bail order option under the Pretrial tab.
+      Step 3: Under the Bail Order tab, the user needs to fill in the following details:
+
+                   Police station
+                   FIR Type
+                   FIR Number
+                   Year
+
+66
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 4: Finally, the user must click the ‘Go’ option to get the desired results.
+
+9.8. Pretrial Templates
+
+                         Pretrail —--> Pretrail Templates
+
+To access the pretrial templates, the user needs to follow the steps below:
+
+Step 1: First, the user must move to the screen’s sidebar.
+
+Step 2: Next, the user needs to select the ‘Pretrial Templates’
+            option given under the ‘Pretrial’ tab.
+
+Step 3:  The user can choose from a remand, bail, or application
+         order and fill in the requisite details to get the pretrial
+         templates.
+
+9.9. Pretrial Order Uploading
+
+         Pretrial —--> Pretrial Order Uploading
+
+To upload the pretrial order, the user needs to follow the steps below:
+
+Step 1: First, the user must move to the screen’s sidebar.
+
+Step 2: Next, the user needs to select the ‘Pretrial Order
+            Uploading’ option given under the ‘Pretrial’ tab.
+
+Step 3:  The user can fill in the requisite details, such as Police
+         Station, FIR No., Order Date, Type of Order, Year, etc.,
+         to get the desired results.
+
+                                                                                            67
+
+                               CASE INFORMATION SYSTEM (CIS) 4.0
+     10. UNDER TRIAL
+
+      10.1. Under Trial Prisoner Details
+      To get the under-trial prisoner details, the user needs to follow the steps below:
+      Step 1: Initially, the user must move to the sidebar option
+
+                  at the bottom left of the screen.
+      Step 2: Next, the user needs to select the Case Proceedings’
+
+                  Tab option given under the ‘Daily Proceedings’ tab.
+      Step 3: Under the proceedings tab, the user must select the court event as ‘Under Trial’
+
+                  and fill in ‘Under Trial’ in the box below Business/ No Business.
+
+      Step 4: To proceed further, the user must click the ‘Next’ button.
+      Step-5: Now, under the ‘Under Trial’ tab, the user needs to select the custody type and
+
+                  choose between ‘Judicial’ or ‘Police’
+
+68
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 6: The user must select the Act, the Act Section, the period of imprisonment, and
+            the Date of Arrest.
+
+Step 7: Finally, the user must click the ‘Submit’ button.
+Step 8: Next, under the ‘Presence’ tab, the user needs to select the accused, plaintiff, and
+
+            advocate’s names.
+Step 9: Finally, the user must click the Submit button to ensure the Case Proceedings are
+
+            successful.
+
+10.2. Under Trial Prisoner
+
+Step 1: The user first needs to open the sidebar available on the
+            bottom left side of the screen.
+
+Step 2:  The user must select the ‘Court Proceedings’ Tab. Under the
+         ‘Under Trial Information’, the user needs to select ‘Under
+         Trial Prisoner’
+
+Step 3: The user then needs to fill in the Under Trial Prisoner Details
+            as follows:
+
+          Case Type
+          Case No.
+          Year
+
+Step 4:  The user then needs to click on the ‘GO’ button, after which
+         a series of options are opened, such as Petitioner/Respondent Details, Prison Name,
+         Custody
+
+                                                                                         69
+
+                            CASE INFORMATION SYSTEM (CIS) 4.0
+                   Petitioner/Respondent Details
+                   Prison Name
+                   Custody Type
+                   Act
+                   Section
+      Step 4: Finally, the user must click the ‘Submit’ button to get the desired results.
+
+      10.3. Update Release Date
+                             Under Trial Information—--> Update Release Date
+
+      Step 1: The update release date is in the left sidebar
+                  under the ‘Under Trial Information’.
+
+      Step 2: Under the update release tab, the user needs to
+                  select the ‘From Date’ and the ‘To Date’.
+
+70
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 3: Finally, the user must click the ‘Go’ button to get the desired results.
+
+10.4. Undertrial Prisoner Report
+
+         Under Trial Information—--> UT Prisoner Report
+
+Step 1:  The undertrial prisoner report can be reached by
+         opening the sidebar from the button in the bottom left
+         of the screen, clicking the ‘Under Trial Information’,
+         and then the UT Prisoner Report Tab.
+
+Step 2: The user can filter the report by clicking on the ‘All’
+            entries option.
+
+                                                                      71
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+10.5. Update Prisoner ID
+
+Step 1:  To access the Update Prisoner ID, the user needs to
+         click on the sidebar and then ‘Update Prisoner ID’,
+         available under the Trial Information.
+
+Step 2: The user can choose the type of prisoner, from
+            undertrial to pretrial or convicted.
+
+            The user then needs to fill in the following information:
+             Case Type
+             Case No.
+             Year
+
+Step 3: Finally, the user must click the ‘Go’ button to update the Prisoner ID.
+
+10.6. Under Trial Prisoner Release Report
+
+Step 1:  To access the Under Trial Prisoner Release Report,
+         the user must go to the Court Proceedings from
+         the left-hand navigation. Then, the user must click
+         the Under Trial Prisoner Release Report, available
+         under the ‘Under Trial Information’ Tab.
+
+Step 2: To get the Release Report of the Under-Trial
+            Prisoner, the user needs the Date of Bail, i.e., the from date and to date.
+
+Step 3: Finally, the user can click the ‘Go’ button to get the desired report.
+
+11. CONVICTED
+
+To know the convicted data, the user needs to follow the steps below:
+
+Step 1:  Click on the button available in the bottom left to open the sidebar. Then, click on
+         the Case Proceedings option. Under Case Proceedings, click the ‘Case Proceedings’
+         option below the ‘Daily Proceedings’ option.
+
+Step 2: Next, the user must select between the available civil or criminal options and fill
+            in the case number.
+
+72
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+Step 3: After the user has filled in the case number, the user has various options to choose
+            from under ‘Proceedings’
+
+11.1. On VC
+Under ‘Today’s Purpose’, if the proceedings were undertaken through the Video Conferencing
+Mode, then the user has the option to select the tab for ‘On VC’
+
+11.2. Dispose of the Case
+Before an accused is convicted, the user must click
+on the ‘Dismiss the Case’ option to close it. The
+user can also select the ‘Date of decision, ‘ provided
+below the option for ‘Dispose of the Case. ‘ To add
+details of the convict of the accused, the user must
+also leave a remark for ‘Convicted’ before selecting
+the option to ‘ Dispose of the Case’.
+11.3. Commit the Case
+If the case needs to be committed to the Court of
+Sessions when the offence is exclusively triable, then
+the user can select to commit the case. The user can
+also choose if the case is contested or uncontested.
+
+                                                                                                    73
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+11.4. Convicted
+
+Step 1: To convict an accused, the user has to choose whether the case was contested.
+
+Step 2:  The user then has to select the box for ‘Convicted’, which
+         is available above the tab for ‘Nature of disposal of the
+         case’
+
+Step 3: The user must select the nature of the case’s disposal.
+
+Step 4: Finally, the user needs to select the ‘Next’ Button to proceed.
+
+Step 5: After clicking the Next button under the ‘Proceedings’ tab, the user will move to
+            the ‘Convicted’ tab.
+
+Step 6: Then, the name of the Convicted Party will have to be selected.
+
+Step 7:  The user will then need to select the act under which the accused person is
+         convicted, along with the relevant provisions under the act, the year, month, and
+         days of imprisonment and fine (if any). Further, the user must select whether the
+         imprisonment is on Probation, for life or death.
+
+74
+
+                      CASE INFORMATION SYSTEM (CIS) 4.0
+Step 8:  Finally, the user must select the convicted person’s prison and click the ‘Submit’
+         Button. After clicking on the ‘Submit’ Button, the user will be asked to confirm
+         the term for which the person is convicted.
+
+Step 9:  Under the ‘Presence’ tab, users can select All or individually from the prosecution,
+         Accused, and Accused Extra Parties. Finally, the user must click the ‘Submit’
+         button to mark the parties’ presence.
+
+Step 10: Once the ‘Submit’ button is clicked, the user is shown a dialogue box stating that
+            the ‘Case Disposed successfully’.
+
+12. ADMIN ESTABLISHMENT TRANSFER
+
+12.1. Admin Work Type
+     Master —> Periphery Masters —> Admin Work
+                                   Type
+
+To know the Admin Work type, the user needs to follow the
+steps below:
+
+                                                                                                    75
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+Step 1:  The user must first move to the left-side navigation tab and click on the ‘Master’
+         Tab. Under the Master tab, the user will see the Periphery Masters option. Once
+         the ‘Periphery Masters’ Tab is clicked, the user will see a dropdown and can click
+         on the ‘Admin Work Type’ Tab.
+
+Step 3: Finally, the user must fill out the details under Admin Work Type Code and Admin
+            Work Type Name to access the ‘Admin Work Type’.
+
+12.2. Admin Units
+
+                                Court Proceedings —> Admin Units
+
+To get the Admin Units, the user needs to follow the steps below:
+Step 1: The user needs to open the left side navigation. Then, the user needs to select the
+
+            ‘Admin Units’ option given under the ‘Court Proceedings’ tab.
+Step 2: Finally, the user needs to fill in the details such as Court Name, Admin Unit Sr.
+
+            No., Type of Work, Units, etc., to get the desired results.
+
+12.3. Civil/Criminal Establishment Case Transfer
+
+         Transfer of Case—> Establishment Transfer
+
+Step 1:  The user must first open the sidebar from the bottom
+         left of the screen and click on the Establishment
+         Transfer option under the Transfer of Case option.
+
+Step 2: Under the Civil/Criminal Establishment Case Transfer,
+
+76
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+            the user needs to fill in the following details:
+
+             Case No.
+             Case Type
+             Year
+
+            Then, the user needs to click on the ‘Go’ button.
+
+Step 3: Once the ‘Go’ button is clicked, the following details are to be filled:
+
+             Petitioner Name
+             Respondent Name
+             Date of Decision
+             Nature of Disposal
+             State
+             Transfer to Establishment
+
+            Finally, the user must click the ‘Submit’ button, and a dialogue box will appear
+            indicating that the case has been transferred successfully.
+
+12.4. Receive from Establishment
+
+         Admin Menu —> Transfer of Case —>
+                Receive from Establishment
+
+Step 1:  From the sidebar, the user first needs to select the Admin
+         Menu, then under the Admin Menu, select ‘Transfer of Case’
+         and then click on the Receive from Establishment option.
+
+Step 2: The user must choose between CNR and Case No. The user
+
+                                                                      77
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+         can directly fill out the CNR. However, if Case No. The user must fill out the
+         Case Type, Case Number, and Year if selected. Finally, click on the ‘Go’ Button.
+
+Step 3: Then the user needs to fill in the following details:
+
+             State
+             District
+             The establishment to which the case is to be transferred
+
+Step 5: Finally, the user must click the ‘Submit’ button, and the case will be successfully
+            transferred.
+
+12.5: Update Transfer Case Status
+
+         Admin Menu—--> Transfer of Case —--> Update transferor case status
+
+Step 1: Open the left sidebar from the icon in the bottom left
+            of the screen.
+
+Step 2:  Click on the ‘Update transfer case status’ option available
+         under the ‘Transfer of Case’ option, and the user can
+         easily update the transfer case status.
+
+78
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+13. LEAVE IN-CHARGE
+
+13.1. Advocate Leave
+
+         Admin Menu —> Advocate Leave
+
+To submit an advocate leave, the user needs to follow the
+steps below:
+
+Step 1: Open the left sidebar from the icon in the bottom
+            left of the screen.
+
+Step 2: Next, the user needs to select the ‘Advocate Leave’
+            option given under the ‘Admin Menu’ tab.
+
+Step 3:  Finally, to submit the Advocate Leave, the user
+         must fill out the details under various heads, such
+         as the Advocate’s name, the Leave ID, etc.
+
+13.2. Judge In Charge Leave Proceeding
+
+         Court Proceedings —> Incharge Judge on Leave Proceedings
+
+To submit the judge in charge leave proceeding, the user needs to follow the following steps:
+
+Step 1:  Move to the sidebar, and click
+         on the In charge or Judge on
+         Leave Proceedings.
+
+Step 2:  Next, the user needs to select
+         the following options and fill
+         in the details below:
+
+          Judge Leave
+          Civil or criminal
+
+                                                                                           79
+
+                              CASE INFORMATION SYSTEM (CIS) 4.0
+             Case Number
+             Petitioner Name or Respondent Name
+             Judge In Charge
+
+Step 3: Finally, the user must click the ‘Submit’ button to make the modification successful.
+
+13.3 Judge Leave
+
+                  Judge Leave Management —> Judges Leave
+
+To submit the Judge Leave, the user needs to follow the steps:
+
+Step 1:  The user must open the sidebar and click
+         the ‘Judge Leave’ option under the Judge
+         Management Option.
+
+Step 2: Next, the user needs to choose the appropriate
+            options and fill in the details such as:
+
+          Judge
+          Court No.
+          Leave id
+          From Date
+          To Date
+          Leave Typpe
+          Calculate the number of days
+
+Step 3: Finally, the user must click the ‘Submit’ button to add the details. After that, a
+            dialogue box appears mentioning that the addition was successful.
+
+13.4. In-Charge Judge
+
+                  Judge Leave Management —> Incharge Judge
+
+Step 1:  The user can access the In-Charge
+         Judge option from the sidebar under
+         the Judge Leave Management option.
+
+Step 2: Under the ‘In-charge Judge’ tab, the following details are to be filled:
+
+          Judge on Leave Name
+
+80
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+             Select the active Judge Name
+             Select the from date and to date
+
+Step 3: Click the ‘Submit’ button for the desired results. A dialogue box will appear stating
+            that the addition was successful.
+
+14. LEGAL AID
+
+            Litigant Updations—--> Legal Aid
+
+To get the legal aid details, the user is required to follow the steps below:
+Step 1: To reach the legal aid option, the user must open the sidebar and click on the
+
+            ‘Legal Aid’ option under the ‘Litigant Updations’.
+Step 2: Next, the user must choose the appropriate options and fill in the details such as
+
+            the Case Number and year to get the desired results.
+Step 3: Then, the user is required to click on the ‘Go’ button
+
+Step 4:  Once the ‘Go’ button is selected, the user is required to choose the petitioner/
+         respondent name, tick-mark on the legal aid taken, name of the Advocate, from
+         date, and finally click on the ‘submit’ button to get the modification successful.
+
+                                                                      81
+
+         CASE INFORMATION SYSTEM (CIS) 4.0
+15. ADVOCATE
+
+15.1 Advocate
+
+         Master —> Local Masters —> Advocate
+
+Step 1: Open the sidebar using the button on the bottom left of
+            the screen.
+
+Step 2: Click on the ‘advocate’ option under the ‘Local Masters’
+            label, which is given under the ‘Master’ option.
+
+Step 3:  Fill in the details under the ‘Advocate’ Tab. The
+         below-mentioned information is required to be filled
+         mandatorily:
+
+          Name of Advocate
+
+          Bar Regn. No.
+
+82
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+             State Code
+             Regional No.
+             Year
+             Gender
+             Date of Birth
+             Mobile No.
+             Email Id
+             Office Address
+             District
+             Taluka
+
+Step 4: Once the above details are filled in, the user must click the ‘Next’ button at the
+            bottom of the page.
+
+Step 5: Further, the user needs to fill in the details available under the head ‘Extra
+            Information’, such as:
+             Address of Residence
+             State
+             District
+             Taluka
+
+            Once the extra information is filled, click the ‘Submit’ button at the bottom.
+
+15.2. Advocate Designation
+
+    Master —> Local Masters —> Advocate Designation
+
+To know the designation of an advocate, the user needs to follow
+the steps below:
+
+Step 1: Open the sidebar using the button on the bottom left
+            of the screen.
+
+Step 2: Click on the ‘advocate designation’ option given under
+            the ‘Master’ label.
+
+Step 3: The below-mentioned information is required to be
+            filled out to get the desired results:
+             Name of Advocate
+
+                                                                                                    83
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+                   Bar Regn. No.
+                   Government Pleader Designation
+      Step 4: Once the above-mentioned information is filled out, the user needs to click on the
+                  ‘Search’ tab to get the desired results.
+
+      15.3. Advocate Leave
+                 Admin —> Advocate Leave
+
+      To submit the advocate leave, the user needs to follow the
+      steps mentioned below:
+      Step 1: Open the sidebar using the button on the bottom left
+
+                  of the screen.
+      Step 2: Click on the ‘advocate leave’ option given under the
+
+                  ‘Admin Menu’ label.
+      Step 3: The below-mentioned information is required to be
+
+                  filled out to get the desired results:
+                   Name of Advocate
+                   Leave ID
+                   From Date
+      Step 4: Once the information mentioned above is filled out, the user needs to click on the
+                  ‘Submit’ button to get the desired results.
+
+      15.4 Extra Advocate
+                                     Litigant Updations —> Extra Advocate
+
+      To get the Extra Advocate details, the user needs to
+      follow the steps below:
+
+84
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 1: Open the sidebar using the button on the bottom left of the screen.
+
+Step 2: Click on the ‘Extra Advocate’ option given under the ‘Litigant Updations’ label.
+
+Step 3: The user has the option to search from the following:
+             Case No.
+             Application on case No.
+             Application on Filing No.
+             Caveat No.
+             Filing No.
+
+Step 4: If Case No. If selected, the user has to fill in the following details:
+             Case Type
+             Case No.
+             Year
+
+15.5. Advocate Mobile No.
+
+         Litigant Updations —> Add Advocate Mobile Number
+
+To submit the advocate’s mobile number, the user is required to follow the steps below:
+
+Step 1: Open the sidebar using the button on the bottom
+            left of the screen.
+
+Step 2:  Click on the ‘Add Advocate Mobile Number’
+         option given under the ‘Litigant Updations’
+         label.
+
+Step 3: The user then has the option to choose between civil or criminal
+
+Step 4: The user then has to fill in the following information:
+
+          Case No.
+          Name of Advocate
+          Mobile Number
+
+Step 5: The user must finally click the ‘Submit’ button to add the advocate’s mobile
+            number.
+
+                                                                                          85
+
+                             CASE INFORMATION SYSTEM (CIS) 4.0
+15.6. Update Advocate Code
+
+Litigant Updations —> Update Advocate Code
+
+To update the advocate code, the following steps are to be completed:
+
+Step 1: Open the sidebar using the button on the bottom
+            left of the screen.
+
+Step 2: Click on the ‘Update Advocate Code’ option
+            given under the ‘Litigant Updations’ label.
+
+Step 3: The user can choose between Update Advocate Code or Change Advocate, and
+            civil or criminal.
+
+Step 4:  The user then has to fill in the below-mentioned information to get the desired
+         results:
+
+          Case No.
+          Name
+          Name of Advocate
+          Bar Regn. No.
+
+Step 5: The user can click the ‘Submit’ button
+to get the desired results.
+
+15.7. Change Advocate
+
+Litigant Updations —> Change Advocate
+
+To change the advocate, the user needs to follow the steps below:
+
+Step 1: Open the sidebar using the button on the bottom left of
+            the screen.
+
+Step 2: Click on the ‘Change Advocate’ option given under the
+            ‘Litigant Updations’ label.
+
+Step 3: The user then has to fill in the following details:
+
+Step 4:   Case Type
+          Case No.
+          Year
+         Finally, the user must click on the ‘Go’ Label to access the Change Advocate.
+
+86
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+16. OTHER REQUIREMENTS ADDRESSED IN CIS 4.0
+
+16.1. Civil Cause List
+
+         Proceedings Reports —> Civil Cause List (A4)
+
+To get the civil cause list, the following steps need to be followed:
+
+Step 1:  Open the sidebar using the button on the
+Step 2:  bottom left of the screen.
+Step 3:
+Step 4:  Click on the ‘Civil Cause List (A4)’ option
+         given under the ‘Proceedings Reports’ label.
+
+         The user must select the date for which the cause list is required.
+
+         Finally, the user must click the ‘Go’ button to get
+         the civil cause list.
+
+16.2. Criminal Cause List
+
+         Proceedings Reports —> Criminal Cause List (A4)
+
+To get the criminal cause list, the following steps need to be followed:
+
+Step 1:  Open the sidebar using the button on the bottom
+Step 2:  left of the screen.
+Step 3:
+Step 4:  Click on the ‘Criminal Cause List (A4)’ option given
+         under the ‘Proceedings Reports’ label.
+
+         The user must select the date for which
+         the cause list is required.
+
+         Finally, the user must click on the ‘Go’
+         button to access the criminal cause list.
+
+16.3. Police Station-wise Cause List
+
+                    Proceedings Reports —> Police Stationwise Cause List
+To get the Police Station-wise cause list, the following steps need to be followed:
+Step 1: Open the sidebar using the button on the bottom left of
+
+            the screen.
+
+                                                                                        87
+
+                           CASE INFORMATION SYSTEM (CIS) 4.0
+Step 2: Click on the ‘Police Stationwise Cause List’ option given under the ‘Proceedings
+            Reports’ label.
+
+Step 3:  The user must select the ‘Police Station
+         Name’ for which the cause list is
+         required.
+
+Step 4: Finally, the user must click the ‘Go’
+            button to get the police station-wise cause list.
+
+16.4. Mediation Cause List
+
+                                Mediation —> Mediation Cause List
+
+To get the mediation cause list, the following steps need to be followed:
+Step 1: Open the sidebar using the button on the bottom
+
+            left of the screen.
+Step 2: Click on the ‘Mediation Cause List’ option given
+
+            under the ‘Mediation’ label.
+
+Step 3: The user must select the mediator and the date for which the cause list is required.
+Step 4: Finally, the user must click the ‘Go’ button to get the mediation cause list.
+
+16.5. Caveat Auto Deletion
+                             Caveat Section —> Caveat Auto Deletion
+
+To delete the caveat, the following steps need to be followed:
+Step 1: Open the sidebar using the button on the bottom
+
+            left of the screen.
+Step 2: Click on the ‘Caveat Auto Deletion’ option
+
+            given under the ‘Caveat Section’ label.
+
+88
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 3: A dialogue box asks, “ Do you want to delete
+            Caveat?”
+
+Step 4:  Once ‘OK’ is clicked, the text will confirm that
+         the Caveat was Deleted Successfully -Caveats
+         registered before 90 days have been deleted.
+
+16.6. Data Health Card
+
+To get the data health card, the following steps need to be followed:
+
+Step 1: Open the sidebar using the button on the bottom left of
+            the screen.
+
+Step 2: Click on the ‘Data Health Card’ option given under the
+            ‘Management Reports’ label.
+
+Step 3: The user then has to provide the Court No.
+
+Step 4: Finally, the user must click the ‘Submit’ button to get the
+            data health card.
+
+16.8. Delete Case Option
+  Admin Menu —--> Case Modifiaction —--> Delete Cases
+
+To delete cases, the following steps need to be followed:
+Step 1: Open the sidebar using the button on the bottom left
+
+            of the screen.
+Step 2: Click on the ‘Case Modification’ label under the ‘Admin
+
+            Menu’ and then click on the ‘Delete Cases’ option.
+
+                                                                                                    89
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Step 3: The user then has to select from the following:
+                    Cases
+                    Caveat
+                    IA
+
+      Step 4: The user then has to provide the CNR.
+      Step 5: Finally, the user must click the ‘Go’ button to delete the cases.
+
+      16.9. Disposal Type
+         Master —> National Masters —> Disposal Type
+
+      To submit the disposal type, the user needs to follow the
+      steps below:
+      Step 1: Open the sidebar using the button on the bottom
+
+                   left of the screen.
+      Step 2: Click on the ‘Disposal Type’ option given under
+
+                   the ‘Master’ label.
+      Step 3: The user then has to fill in the following details:
+
+                    Disposal Type Code
+                    Disposal Type
+                    National Code
+                    Contested/ Uncontested
+      Step 5: Finally, the user must click the ‘Submit’ button to add the disposal type.
+
+      16.10. Fees Type
+                                    Master —> State Masters —> Fees Type
+
+      To add the fees type, the user needs to follow the steps below:
+      Step 1: Open the sidebar using the button on the bottom left of the screen.
+      Step 2: Click the ‘Fees Type’ option under the ‘Master’ label.
+
+90
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+Step 3: The user then has to select from the following:
+             Fees Type Id
+             Fees Type
+
+Step 4: The user then has to choose the
+            type of fee, such as:
+             Court Fee
+             Process Fee
+             Search Fee
+             Other Fees
+
+Step 5: Finally, the user must click the ‘Submit’ button to add the fee type.
+
+16.11. Holiday
+             Master —> Local Masters —> Holiday
+
+To add ‘holiday’, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the bottom left
+
+            of the screen.
+Step 2: Click the ‘Holiday’ option under the ‘Master’ label.
+Step 3: The user then has to fill in the following details:
+
+             Holiday Id
+             From Date
+             To Date
+             Holiday Name
+Step 5: Finally, the user must click the ‘Submit’
+            button to add the holiday.
+
+                                                                                                    91
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      16.12. IA Case Type
+                               Master —> National Masters —> IA Case Type
+
+      To add IA Type, the user needs to follow the steps below:
+      Step 1: Open the sidebar using the button on the bottom
+
+                  left of the screen.
+      Step 2: Click on the ‘IA Case Type’ option given under
+
+                  the ‘Master’ label.
+      Step 3: The user then has to fill in the following:
+
+                   IA Type Code
+                   IA Type Name
+                   Short Form
+      Step 5: Finally, the user must click the ‘Submit’ button to add the IA Case Type.
+
+      16.13. IA Filing
+                                        Registration Section —> IA Filing
+
+      To add an IA filing, the user needs to follow the steps below:
+      Step 1: Open the sidebar using the button on the
+
+                  bottom left of the screen.
+      Step 2: Click on the ‘IA Filing’ option given under
+
+                  the ‘Registration’ Section.
+      Step 3: The user must select between the civil or
+
+                  criminal type of case.
+      Step 4: The user must select whether the IA Filing is on registered or unregistered cases.
+      Step 5: The user then has to fill in the following details:
+
+                   Case Type
+                   Case Number
+                   Year
+      Step 5: Finally, the user must click the ‘Go’ button to add the IA Filing.
+
+92
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+16.14. Legacy Data
+                                   Legacy Data —--> Legacy Data
+
+To get the Legacy Data, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the bottom
+
+            left of the screen.
+Step 2: Click on the ‘Legacy Data’ option given under
+
+            the ‘Legacy Data’ label.
+Step 3: The user then has to fill in the following details:
+
+             Case Type
+             Case No.
+             Filing No.
+             Year
+Step 5: Finally, the user must click the ‘Go’ button to access the Legacy Data.
+
+16.15. Legal Hier
+                                Litigation Updations —> Legal Heir
+
+To add Legal Heir, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the
+
+            bottom left of the screen.
+Step 2: Click on the ‘Legal Heir’ option given under
+
+            the ‘Litigant Updations’ label.
+Step 3: Then, the user can add the legal heir details
+
+            through the case or filing numbers.
+Step 4: If the case number. If selected, the user has to fill in the following details:
+
+                                                                                                    93
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+                   Case Type
+                   Case No.
+                   Year
+                   Party Name
+      Step 5: Finally, the user must click the ‘Submit’ button to add the Legal Heir.
+
+      16.16. Monthly Statement
+                                Management Reports—--> Monthly Statement
+
+      To get the report of the Monthly Statement, the user needs to follow the steps below:
+      Step 1: Open the sidebar using the button on the bottom left
+
+                  of the screen.
+      Step 2: Click on the ‘Monthly Statement’ option given under
+
+                  the ‘Management Reports’ label.
+      Step 3: The user then has to fill in the following:
+
+                   Court No.
+                   From Date
+                   To Date
+      Step 4: The user then has to choose between civil or criminal.
+      Step 5: Finally, the user must click the ‘Go’ button to access the Monthly Statement Report.
+
+94
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+16.17. Peshi Register
+
+     Proceedings Reports —> Peshi Register
+
+To get the Peshi register Report, the user needs to follow the steps
+below:
+Step 1: Open the sidebar using the button on the bottom left of
+
+            the screen.
+Step 2: Click on the ‘Peshi Register’ option given under the
+
+            ‘Proceedings Reports’ label.
+Step 3: Finally, the user must click the ‘View’ button to access the Peshi Register Report.
+
+16.18. Query Builder
+
+                  Query Builder—> Query Builder
+
+To submit the Query Builder, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the
+
+            bottom left of the screen.
+Step 2: Click on the ‘Query Builder’ option given
+
+            under the ‘Query Builder’ label.
+Step 3: The user must choose between civil and criminal cases.
+Step 4: The user must choose the case status between pending and disposal.
+Step 5: The user is then required to fill in the other details, such as:
+
+             Purpose
+             Court Name
+             Lower Court Name
+             Act
+             Date of Filing
+             Date of Registration
+             Delay Reason
+             Report Title
+
+                                                                                                    95
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+      Step 6: Finally, the user must click the ‘Submit’ button to submit the Query.
+
+      16.19. Work Done Report
+                                      Admin Menu—--> Work Done Report
+
+      To access the Work Done report, the user needs to follow the
+      steps below:
+      Step 1: Open the sidebar using the button on the bottom left
+
+                  of the screen.
+      Step 2: Click on the ‘Work Done Report’ option given under
+
+                  the ‘Admin Menu’ label.
+      Step 3: The user must select civil and criminal for the desired
+
+                  results.
+
+96
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+16.20. Virtual Court Dashboard
+                            Plead Guilty —> Virtual Court Dashboard
+
+To access the Virtual Court Dashboard, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the bottom
+
+            left of the screen.
+Step 2: Click on the ‘Virtual Court Dashboard’ option
+
+            given under the ‘Plead Guilty’ label.
+Step 3: The user must select the ‘From date’ and the ‘To
+
+            date’.
+Step 4: Finally, the user must click the ‘Go’ button to get
+
+            the desired results.
+
+16.21. Witness Information
+To add the Witness Information, the user needs to follow the steps below:
+Step 1: Open the sidebar using the button on the bottom left of
+
+            the screen.
+Step 2: Click the ‘Witness Information’ option under the
+
+            ‘Litigant Updations’ label.
+Step 3: The user must choose between the civil and criminal
+
+            cases.
+Step 4: Then the user has to fill in the following details:
+
+             Case Type
+             Case No.
+             Year
+
+                                                                                                    97
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+                   Witness No.
+                   Party Name
+                   Witness Name, etc.
+      Step 5: Finally, the user must click the ‘Submit’ button to add the Witness Information.
+
+     17. PRIVACY ENHANCEMENTS IN CIS 4.0
+
+      Enhanced Privacy: CIS 4.0 includes data encryption to protect sensitive data, and the
+      functional workflow has been streamlined with ‘Role-based strict access to encrypted data’.
+      17.1 Enhanced security features: The latest CIS 4.0 maintains the last user login IP and
+
+              time stamp. OTP authentication is mandatory whenever a new IP is detected. If the
+              mobile number is not registered with CIS, one may get the message “Please contact
+              the system administrator to update the mobile number. “ Other security features include
+              maintaining login details and password change log details.
+      17.2 Functional Enhancements
+               Facility for masking case information on public interfaces is retained in the
+
+                     following. ing categories
+                     a. Individual Case
+                     b. All cases in the case type
+                     c. All cases in the establishment
+
+98
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+        Once masking is enabled, the following information will not be visible on public
+               interfaces.
+
+               a. Name of the parties,
+
+               b. Address/Gender/Age/Email of the parties
+
+               c. Business on date
+
+               d. Orders/Judgments
+        Caveat details shall automatically be masked when the establishment is masked.
+
+17.3 Encryption Enhancements
+        Details of victims, such as name, local name, address, local address, father’s
+               name, and local father’s name, are always encrypted.
+        Details of witnesses, such as name, language, father’s name, local father’s name,
+               address, and local address, are always encrypted.
+        Business details are encrypted (always)
+
+18. CONCLUSION
+
+From the initial strides made through CIS 1.0, followed by the enhancements in CIS 2.0
+and CIS 3.0, the journey of digitizing the Indian Judiciary has been marked by continuous
+innovation and growing trust from stakeholders across the country. With the launch of CIS
+4.0, we now enter a new era that brings together refined usability, enhanced modules, privacy
+safeguards, and deeper integration with national platforms like NJDG, e-Filing, FASTER,
+Virtual Courts, and ICJS.
+
+The Case Information System, as the backbone of the eCourts ecosystem, continues to stand
+as a symbol of judicial innovation, transparency and accountability. Its evolution from 1.0 to
+4.0 has not only streamlined internal court functioning but has also played a significant role
+in improving our nation’s global rankings in digital governance and ease of doing business
+and more importantly the citizen centric services enhancing the gateway of free and easy
+access to justice through digital eCourts platform .
+
+The ever growing number of e-transactions of e-Courts is now exceeding 2,000 crores as
+reflected on the e-TAAL platform is a testament to the scale and impact of the eCourts project
+and showcases the ever increasing number of beneficial stakeholders . In the year 2024
+alone, eCourts recorded over 361 crore digital transactions, while maintaining its position
+as the top Mission Mode Project (MMP) in India, with a staggering 84.02% share of total
+
+                                                                                                    99
+
+                                             CASE INFORMATION SYSTEM (CIS) 4.0
+       MMP e-transactions. These milestones once again validate the dependability of CIS and
+       the success of its continuous evolution. Citizens and litigants are now accessing real-time
+       case information from their handsets, 24x7, making justice visibly closer and measurably
+       more efficient.
+       From data entry at Taluk and District courts to delivery of services on the eCourts website,
+       eCourts mobile app, and other digital platforms, CIS forms the core digital layer of citizen-
+       facing services. More than 1 crore downloads of the mobile app and its high ranking on the
+       iOS and Android platforms reaffirm the utility and reach of these services.
+       At this juncture, we can take pride in having contributed to a system that touches crores of
+       lives each day, offering seamless access to case updates, hearing schedules, orders, judgments,
+       and more, all these are now born and delivered digitally. CIS 4.0 is not merely an upgrade
+       in a mere portal, rather it is a reaffirmation of our constitutional commitment to deliver
+       timely, transparent, and accessible justice to all.
+       Let us continue this journey with shared commitment, guided by innovation, grounded in
+       service, and driven by the vision of a technology enabled judiciary for every citizen of our
+       nation.
+
+100
+
+                       CASE INFORMATION SYSTEM (CIS) 4.0
+

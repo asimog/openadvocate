@@ -1,0 +1,498 @@
+E-FILING 2.0
+
+USER MANUAL
+
+                                                        Revised on 30.09.2023
+                             C O N T E N T S                        Page
+                                                                      3
+                                   Topic
+                                                                      4
+1. Introduction
+                                                                      5
+2. Accessing eFiling Portal                                           5
+                                                                      6
+3. User Registration                                                  7
+          3.1 How to Register as an AOR
+          3.2 How to Register as a Party-In-Person (offline mode)    10
+          3.3 Registration as Party in person (Paperless KYC mode)   10
+                                                                     16
+4. How to e-file :                                                   18
+          a. New Case                                                19
+          b. Misc. Doc.
+          c. IA                                                      20
+          d Caveat
+                                                                     21
+5. How to Check Defects, Pay Deficit Court Fee and Re-file
+                                                                     23
+6. How to Use Dashboard
+
+7. Refiling- efiled in the old portal
+
+                                                              APPEAL
+
+   While all care has been taken to make a complete and accurate representation of the actual
+processes in this user manual, any shortcoming or error which might have crept in the same is
+purely out of inadvertence. Such error(s) / shortcoming(s), if any, may please be intimated at
+efiling@sci.nic.in
+
+  All endeavors have been made to make the manual up to date and helpful for users.
+
+                                                                    2 | Page
+1. INTRODUCTION
+
+eFiling 2.0 is an upgraded version of its older form (eFiling 1.0) designed and
+launched by the Supreme Court of India to enable advocates and parties to file
+their cases and case related documents before the Supreme Court of India in
+electronic mode with greater ease and comfort. Introduction of the new version of
+e-filing is aimed at taking paperless filing to the next level while saving cost and
+time with the objective of improving process management through use of
+technology.
+
+                                                ***
+
+                                                                3 | Page
+  2. ACCESSING E-FILING PORTAL
+
+         In order to access the new e-filing system please follow any one of the methods
+mentioned below :
+
+         a. Type the website address as www.efiling.sci.gov.in in the address bar of your web
+browser (Chrome, Mozilla Firefox etc.) (See image below).
+
+          b. Visit the website of the Supreme Court of India at www.sci.gov.in and select /
+ click the Menu option ‘SCI eFiling (New 2.0)’.
+The Home page of the new e-filing systemshall display the Login screen. See image above
+
+                                                              ***
+
+                                                                4| Page
+3. USER REGISTRATION
+
+         Every Advocate-on-Record (AOR) or Party in Person (PIP) desirous of using the new e-
+Filing Portal needs to register in the portal by providing necessary details.
+
+3.1 How to Register as an AOR?
+
+If the details of the AOR are already available with the Registry then such AOR is
+only required to create a new password in the new efiling Portal by taking the
+following steps:
+
+             1. On the login page, click on forgot password option;
+             2. Enter your registered mobile number, enter captcha and then
+
+                click on send OTP button.
+             3. OTP will be sent on your registered mobile number;
+             4. Enter the OTP and click ‘verify’ button
+             5. Create new password
+Once new password is set, the AOR can login by using his AOR code or
+registered mobile number or registered email id alongwith the new
+password.
+
+                                                                5 | Page
+3.2 How to Register as a Party-In-Person (Offline mode)
+
+             1. To register as Party-in-person Select Individual(Party-in-Person) under the
+                  ‘Register as’ option in the home/ login page.
+
+             2. Then in the next page, select ‘Offline’ option. Thereafter in the same page, enter
+                  registered mobile number and e-mail ID followed by captcha and then click on
+                  ‘Send OTP’ option.
+
+                                                                6 | Page
+             3. Enter the OTPs received on the registered mobile number and registered e-mail
+                  id and click ‘Verify’ option. If the OTPs are correct then you will see a message
+                  “OTP Verification Successful” on the screen.
+
+             4. In the same page, enter the required personal details as shown in the image
+                  below and click on ‘Submit’. Please follow the instructions mentioned in the
+                  page while uploading picture / id proof.
+
+             5. For verification purpose you are required to upload your id proof and click on the
+                  'Final Submit' button. If your verification is proper then your registration as a PIP
+                  will be successful.
+
+             6. User will be notified about login credentials by email and SMS.
+
+3.3 Registration as a Party in Person (Paperless KYC mode)
+
+Select Individual(Party-in-Person) under the ‘Register as’ option in the home/ login page. Then
+select ‘Paperless KYC’ mode. Thereafter, registration screen changes
+
+    1. Click on the option ‘Visit to download offline Aadhaar Zip File’.
+
+                                                                7 | Page
+2. The user should follow instructions in the Aadhaar website to download the Aadhaar ZIP
+    file.
+
+3. This zip file needs to be uploaded on registration screen. User can easily identify this
+    link. Where it is specifically mentioned “Choose offline Aadhaar zip file (max size 5mb).
+    There is a button “Choose File” which on click asks user to locate recently downloaded
+    zip file.
+
+4. On successful upload user needs to enter the four-digit share code given to open this
+    file. User also needs to enter his mobile number and email ID. On successful submission
+    of this request, the user will receive OTP request on his mail ID and mobile.
+
+5. On verification of both the OTP received, all the information received in the zip file is
+    accepted as correct information, which user is not allowed to change. In this process
+    there is no need for the user to upload his photograph or proof of identity.
+
+6. The information provided in zip file by Aadhaar Authority is accepted as proof of his
+    identity.
+
+7. After that the User shall be able login and access his e-filing account.
+
+                                                             8 | Page
+* Forgot Password
+
+         In case a registered user forgets his password, the same can be retrieved by clicking on
+‘Forgot password?’ link provided on Login screen which is first screen that shows when a User
+accesses the website of e-filing system at https://efiling.sci.gov.in clicking on Forgot password
+option opens a Forgot password screen.
+
+         A User is required to fill the registered email id or registered mobile number and enter
+captcha code shown and press the ‘Get OTP’ option.
+
+         On pressing Get OTP, a new screen is displayed wherein a User is requested to Enter
+OTP number received by him on e-mail/mobile filled by user on the ‘FORGOT PASSWORD’
+screen. User can then change his password and confirm the same by entering a new password
+in fields. User then types the captcha code and presses ‘Change Password’ Option to complete
+the process of changing his password.
+
+                                                                9 | Page
+4. How to e-file :
+
+a. New Case
+
+For filing a new case click on +NEW button and select the ‘case’ option from the drop-down list.
+
+The user will be directed to first of six pages/tabs viz. Case Detail, Petitioner, Respondent,
+Earlier Courts, Upload Document/Index, Pay Court Fee.
+The user has to fill in each page with the required details.
+The fields marked with red asterisk (*) shall be mandatory.
+1. Case Detail
+
+         If no earlier Court’s Order is challenged, then the User may select “No Earlier Court”
+       option which by default selects Supreme Court as “Court Type”.
+       If case belongs to Special category viz., Death Penalty Matters, Habeas Corpus
+       Matters, Matters related to Demolition of Property, Eviction Matters or Bail Matters
+       then the User may select the appropriate category in Special Category dropdown
+       menu. By default ‘None’ will be selected
+
+                                                                10 | P a g e
+The ‘Special Category’ options as displayed in the screenshot below for ready
+reference:
+
+         Once the User is done with entering information under this head, first click
+‘SAVE’.
+
+         On click User receives a success notification and ‘NEXT’ button becomes
+visible and the ‘SAVE’ button will change to UPDATE.
+
+         If User changes any of the information in that event, he or she needs to click
+UPDATE.
+
+                                                            11 | P a g e
+         A drafte-filing number gets generated and displayed on screen on clicking the UPDATE
+button, DRAFT-EC-SCIN01-_____-YYYY in Red Color is highlighted and provision is also provided
+to the User to Copy the said draft number so generated.
+
+2. Petitioner Information
+
+If Petitioner is an Individual - In Petitioner form under Filing  Form; the
+
+requisite details about the Main Petitioner (Petitioner who is first in
+
+order in the cause title of the parties consisting multiple petitioners) are
+
+required to be filled by a user. The fields marked with red asterisk (*) are
+
+mandatory (including Mobile and e-mail of the Petitioner).
+
+Please ensure that while writing name of the petitioner full name is entered.
+It is always a good practice to enter email ID and mobile number of
+petitioners.
+
+Please enter all necessary details in the page accurately.
+
+If the Petitioner is an Organization - Mostly Petitioner will be a living natural
+person therefore by default ‘petitioner is an Individual’ is kept selected.
+However, if Petitioner is a State Government or the Central Government or
+Other Organizations, in that event User may have to select appropriate choice.
+
+● Pin Code: The User can either manually enter the Pin Code or can use Pin Code Locator
+facility by accessing the same, the User is taken to
+“https://www.indiapost.gov.in/vas/pages/findpincode.aspx” URL for ascertaining the Pin Code
+of the address above-mentioned.
+
+A user can also fill in the details between various tabs in the Filing Form, without click 'Save'
+button, but all the data thus entered may get lost if the current session ends/expire, or any
+
+                                                               12 | P a g e
+other option is selected by the user, hence, the best practice is to keep on saving data at
+regular intervals, to prevent data loss.
+
+A user can access other tabs, by clicking on their respective tabs, or by clicking 'Next'to access
+the next option.
+
+3. Respondent Details
+
+The respondent form is similar to the petitioner form.
+
+Fill up all the details relating to the respondent and click “SAVE” and then “NEXT”.
+
+Pressing previous button takes a user back to PETITIONER tab and pressing next takes user to
+next page.
+
+4. Earlier Courts
+
+         User will notice four options viz. Supreme Court, High Court, District Court and State
+Agency/Tribunal on the top of the screen. User needs to select appropriate option out of these
+and enter details as per page requirement.
+
+After selection of your order date and order type is complete, do not forget to click SAVE.
+Immediately after saving, you will notice that at the bottom of your screen (scroll down further
+till end) your impugned case details are saved. Now you can add District Court case if required.
+You can add multiple cases if required. All such selected and searched cases are added at the
+bottom of the page which can always be edited or deleted before you finally submit your e-
+filed case for scrutiny.
+
+5. Upload Documents/Index
+
+After filling all the forms provided for filing new case, users can upload the relevant file in
+‘Upload Documents’ screen.
+
+                                                               13 | P a g e
+User needs to ensure that if the document is typed, it is converted to PDF by export to PDF
+facilities provided in different word or document processors. If there are constraints in such
+cases only option of scanning needs to be employed. While scanning any document it is
+necessary to keep in mind OCR enabled scanning is must.
+
+Second aspect is arranging files in chronological order. If the file is not arranged in chronological
+order, User may face difficulties while indexing the file. Therefore, User need to first arrange
+files, documents, affidavits in chronological order to form one PDF file. User can also upload
+multiple PDF files. First give some title to the PDF file to be uploaded. Generally, while giving
+title keep in mind identification of the file by name of party, subject, place or other elements.
+Ensure that files names of pdf files, stored in your PC, to be uploaded are given simple names
+without use of special characters. This will avoid unnecessary iterations.
+
+Some users upload single file consisting all the parts making it complete single file to upload.
+Whereas, some Users keep documents or annexure in separate PDF files or sometimes different
+parts of the files are separately uploaded in separate PDF files. In Such cases User needs to be
+careful while giving names to PDF file on e-filing portal. If the separate PDF files consisting
+different parts are uploaded in that event while uploading User need to ensure that each PDF
+file is named as per its part (Affidavit, Annexure, Synopsis, List of Dates, ROP, etc.) so that at the
+time of Indexing, appropriate file can be selected.
+
+         As you go on uploading different parts of file by giving suitable names of PDF files,
+details of uploaded files are reflected at the bottom of screen in the form quick reference table.
+(scroll down at the bottom). You will find that hash value of the pdf file is captured and
+recorded for future authenticity, verification and security purposes. User can any at time delete
+the uploaded document, before using the same for indexing purposes.
+
+Upon successful upload, document name, along with its hash value and number of pages is
+reflected at the bottom of page.
+
+A user can delete the uploaded document by pressing ‘delete’ option at the ‘Remove’ tab.
+
+                                                               14 | P a g e
+6. Pay eCourt fee
+         User can then click on Pay Court Fee option and pay applicable fees in any of the
+
+preferred online payment modes. Once payment is successful, the payment status will reflect in
+a table below the ‘Previous’ / ‘Next’ buttons of the Pay Court Fee page.
+User is redirected to the online payment facility of the Stock Holding Corporation Ltd. After user
+is redirected to payment gateway page of the Stock Holding Corporation, user is required to
+select mode of payment and agree to the terms and conditions. After this, user is taken
+payment gateway for giving details of debit card, credit card or UPI. User can also choose Net
+Banking option. Once payment is successfully completed or it gets failed, in both the
+contingencies, User is brought back to the e-filing portal. In the event payment is successful,
+success alert message will appear on the screen. Receipt generated after payment can be saved
+on PC or other device used. Apart from this receipt, on the E payment tab, on the bottom
+portion of the screen, User can see the details of payment along with transaction ID and status
+of the payment. After successful payment, the User needs to click the Next Button.
+Now the user will be taken to ‘View’ page where all details of the e-filed case shall be reflected.
+Now the user can click the ‘SUBMIT FOR E-FILING’ option at the top right portion of the page.
+Upon confirming completion of the process by clicking ‘OK’ in dialogue box, the user can get
+the diary number. Sometimes, the diary number may not get generated immediately rather it
+can be seen after about 30 minutes by going to Home Page and then selecting the relevant e-
+filed case number among the list of e-filed cases.
+
+                                                               15 | P a g e
+b. Misc. Doc.
+
+         In case a user intends to e-file any document in an already filed case in the Supreme
+Court (both in cases where the case was e-filed or physically filed), it can be filed using this Misc
+Docs feature. To do so, a User must click on ‘Misc. Document’ link after logging in to this facility
+from the dashboard screen’s left panel. On clicking the New >>‘Misc. Documents’ link, a new
+screen opens, the ‘Case Search’ page. The system will automatically cross-check registration
+information of an advocate to enable e-filing through the website.
+
+         A User is required to fill in the requisite details on the ‘Search’ section such as Dairy
+Number or Registration Number of any case which is already pending the Supreme Court and
+submit. User has to select either of thr following two options:-
+
+         Request on behalf of litigant for whom my appearance as AOR is already recorded
+                                                             OR
+
+         Want to represent existing litigant(s) (Un-represented/ New appearance)
+         Then confirm ‘Yes’/’No’ whether this is the case in which you want to file miscellaneous
+document(s).
+
+                                                               16 | P a g e
+         Thereafter by clicking 'Submit'button the user would be taken to next 'E-File
+Miscellaneous Documents'page to upload the Misc document.
+
+Uploading the Misc. document
+
+The next screen displayed is to enable user to select and upload the misc. document from his
+computer system. A User clicks browse and selects desired PDF file from his device and gives
+document title, and clicks upload. User can upload multiple files if the filed are in different
+parts. Such parts can be clubbed while indexing the documents.
+Filing Misc. Documents>>selecting party who is filing document currently.
+
+                                                               17 | P a g e
+c. I.A.
+
+     a. Select New option at the lower left portion of the Homepage.
+     b. Select IA.
+     c. Enter Diary Number / Year or Registration Number.
+     d. Select anyone of the below options shown in the next page:
+
+                       Request on behalf of litigant for whom my appearance as AOR is already
+                           recorded.
+
+                       Want to represent existing litigant(s) (Un-represented/New appearance)
+                       Intervenor/Other.
+
+     e. Then select “Is this the case in which you want to file Interlocutary Application?” Yes /
+             No
+
+     f. Upon confirming the Party details in the next page, select NEXT.
+     g. Now you will be taken to ‘Upload Document(s) / Index’ page. There you can upload
+
+             the required document of the IA. Side by side you can create index / sub- index by
+             selecting relevant options from the drop down menus.
+     h. As per the documents / index uploaded by you the court fee will be calculated on the
+             next page (Pay Court Fee).
+
+                                                               18 | P a g e
+d. Caveat
+
+            a. Select New option at the lower left portion of the Homepage.
+            b. Select Caveat option. You will land in the page below
+
+                  c. Enter Diary Number / Year or Registration Number.
+                  d. Select anyone of the below options shown in the next page:
+
+                         Request on behalf of litigant for whom my appearance as AOR is already
+                            recorded.
+
+                   e. Fill up all the relevant fields in each tab/ page by providing necessary
+                         information.
+
+                   f. Same process as filing New Case/IA is to be followed for Uploading
+                         Documents / Creating Index and paying court fees.
+
+                                                               19 | P a g e
+5. How to Check Defects, Pay Deficit Court Fee and Re-file
+
+a.  Go to Homepage / Dashboard as shown in the following image
+
+b. Under the third menu option viz. Scrutiny status, you can see two categories of information,
+DEFECT NOTIFIED and PENDING SCRUTINY.
+
+c.  The option DEFECT NOTIFIED denotes those eFiled cases / applications where defects have been
+
+notified, whereas the option PENDING SCRUTINY denotes those eFiled cases / applications where the
+
+defects have been cured and are pending for further scrutiny.
+
+d. In order to refile a defective case / application,
+                 i. click on the DEFECT NOTIFIED option. You will be able to see the list of cases where
+                       defects have been notified.
+                ii. select the case where you want to cure defect.
+               iii. you will be able to see the details of defects in that particular case.
+
+               iv. tick the check box(es) relating to those defects which has/ have been cured in your
+                       opinion.
+
+                v. scroll below to the REFILING FORM.
+               vi. Upload the Document showing that defect has been cured.
+              vii. Create appropriate index and pay deficit court fee, if any.
+              viii. Upon successful completion of the above process click on SUBMIT FOR REFILING
+
+                       option on the Top right part of REFILING FORM.
+
+                                                               20 | P a g e
+6. HOW TO USE DASHBOARD
+
+1.  Upon logging-in, an user first lands on the Dashboard page.
+
+2. Dashboard provides various categories of case related information at a glance to the user, such
+
+as recent documents filed by the parties, incomplete / draft files, status of cases where defects have
+
+been notified and refiled cases pending scrutiny. Dashboard also reflects the list of eFiled  cases
+
+and all listed cases concerning the AOR.
+
+Click the hamburger option  on the top left part (near home icon) of the Dashboard page (see image
+below).
+
+                                                                 21 | P a g e
+It will open the left side pane as shown below
+
+                  a. The ‘Add Advocate’ option can be used to enter / register any other advocate
+                       engaged in the case. The added advocate can login using the credentials and access
+                       the scanned paperbooks of the case.
+
+                  b. The AOR can also access ‘Profile’ and other facilities such as ‘Support’ and
+                       ‘Resources’ (FAQs, Manual and Tutorials) from this page.
+
+                  c. The ‘Cases’ option can be clicked to view all cases whether pending or disposed. The
+                       AOR can search any case here to learn its status and other details.
+
+                  d.
+
+*************************************************************************************
+
+                                                               22 | P a g e
+7. Refiling- efiled in the old portal
+
+     How to refile the cases which were earlier efiled in the old portal?
+Step 1 – Click on the ‘New’ tab and then use the “ Refile old e-filing cases”.
+
+Below screen will appear where you are required to enter Diary number or registration number of
+the matter in which refiling is to be done.
+
+Step 2 – After clicking on the ‘Search’ button, the defects marked by the registry will appear as
+displayed in the screen below:
+
+Click on the ‘Submit’ button to proceed further.
+
+                                                  23 | P a g e
+Step 3 – The next screen is ‘Upload document/ Index’ tab where you can upload the documents
+and index them. Give the pdf title name, then select the appropriate pdf file and click on upload.
+
+Step 4 - After uploading the file, indexing is also to be done. Select the pdf file from the drop down
+menus. Then select ‘index item’ and appropriate ‘index sub item’ from drop down menus as
+shown in the screen below:
+
+                                                                 24 | P a g e
+After indexing, click on the ‘Add’ button and then ‘Next’ button to proceed further as per below
+screen.
+Step 5 - Make payment as per rules clicking on the ‘Pay’ button.
+
+                                                                25 | P a g e
+Step 6 – After making payment you will be directed to the ‘View’ tab where you can view your
+documents uploaded and then click on the ‘Final Submit’ button appearing in green colour at the
+top right corner of the page as shown in the screen below:
+
+On clicking the ‘Final Submit’ button a message will appear informing successful refiling in Efiling
+number as below:
+
+                        * * *
+
+                                                                 26 | P a g e
+

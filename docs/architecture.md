@@ -2,7 +2,7 @@
 
 ## Four layers of data, four owners
 
-The standard (`standard/schemas/ilo.schema.json`) defines every record. TypeScript types are generated from it (`pnpm codegen`). Every event is validated against it when it is written.
+The standard (`standard/schemas/ulos.schema.json`) defines every record. TypeScript types are generated from it (`pnpm codegen`). Every event is validated against it when it is written.
 
 | Layer | Records | Written by | Generative AI? |
 |---|---|---|---|
@@ -53,7 +53,7 @@ packages/matter      Composes the layers' views into the petition's context, fro
 sim/supreme-court    Product 2 demo. Judgments, case records, source tiers, registry,
                      evaluation agent, golden matter GM-01
 apps/workspace       Product 1. React GUI, Playwright tests
-apps/cli             ilac: receipt verification backend
+apps/cli             ulos: receipt verification backend
 ```
 
 Packages depend downward only: `core` ← `notebook`, `citations`, `studio`, `pleading` ← `sim`, `workspace`. The Notebook imports nothing from the others.

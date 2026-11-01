@@ -344,7 +344,7 @@ function Slp({ session, act }: { session: Session; act: Act }) {
       </ul>
       {session.registry && (
         <p data-testid="registry">
-          Registry: {'diary' in session.registry ? `accepted, diary ${session.registry.diary}` : `${session.registry.defects.length} defects notified`}
+          Registry: {'diary' in session.registry ? `accepted, diary ${session.registry.diary.number}/${session.registry.diary.year}, CNR ${session.registry.cnr}` : `${session.registry.defects.length} defects notified`}
         </p>
       )}
     </section>

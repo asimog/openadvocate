@@ -1,0 +1,674 @@
+ECOURTS SERVICES MOBILE APP 4.0
+
+                       User Manual
+ eCourts Services Mobile App 4.0
+
+Contents
+
+1 INTRODUCTION .......................................................................................................................................2
+2 INSTALLATION OPTIONS ..........................................................................................................................2
+3 HOME PAGE.............................................................................................................................................3
+
+   3.1 SEARCH BY CNR NUMBER ........................................................................................................................... 3
+   3.2 SEARCH BY QR CODE ................................................................................................................................ 11
+   3.3 QUICK LINKS ........................................................................................................................................... 12
+   3.4 HELP ..................................................................................................................................................... 13
+4 CONFIGURING APPLICATION .................................................................................................................14
+   4.1 SETTINGS (COURT SELECTION).................................................................................................................... 14
+   4.2 CHANGE LANGUAGE ................................................................................................................................. 14
+   4.3 PERSONALIZE........................................................................................................................................... 15
+5 CASE STATUS..........................................................................................................................................16
+   5.1 SEARCH BY CASE NUMBER ......................................................................................................................... 17
+   5.2 SEARCH BY FILING NUMBER ....................................................................................................................... 18
+   5.3 SEARCH BY FIR NUMBER ........................................................................................................................... 19
+   5.4 SEARCH BY ADVOCATE ............................................................................................................................... 20
+
+      5.4.1 Search by Advocate Name .......................................................................................................... 20
+      5.4.2 Search Using Bar Registration Number ...................................................................................... 21
+      5.4.3 Date-wise Advocate Case List ..................................................................................................... 22
+   5.5 SEARCH BY CASE TYPE ............................................................................................................................... 23
+   5.6 SEARCH BY PARTY NAME ........................................................................................................................... 24
+   5.7 SEARCH BY ACT........................................................................................................................................ 25
+   5.8 CAVEAT SEARCH ....................................................................................................................................... 26
+   5.9 PRE-TRIAL APPLICATION ............................................................................................................................ 27
+6 CAUSE LISTS...........................................................................................................................................28
+7 MANAGING CASE PORTFOLIO - MY CASES .............................................................................................29
+   7.1 ADDING CASES TO MY CASES ..................................................................................................................... 29
+   7.2 ADD NOTES TO CASES ............................................................................................................................... 30
+   7.3 VIEWING MY CASES ................................................................................................................................. 31
+   7.4 REMOVING CASES FROM MY CASES............................................................................................................. 32
+   7.5 REFRESHING MY CASES ............................................................................................................................. 33
+   7.6 CALENDAR VIEW ...................................................................................................................................... 34
+8 BACKUP FACILITY ...................................................................................................................................35
+   8.1 EXPORT OPTION ...................................................................................................................................... 35
+   8.2 IMPORT OPTION ...................................................................................................................................... 36
+9 COURT COMPLEX LOCATOR ...................................................................................................................36
+10 TOP RIGHT MENU..............................................................................................................................37
+
+                                                                                                                Page | 1
+eCourts Services Mobile App 4.0
+
+1 Introduction
+
+The eCourts Services Mobile App is developed under the eCourts Project to provide users with
+convenient access to judicial services and case-related information. The application enables citizens,
+litigants, advocates, and other stakeholders to retrieve case details, cause lists, court orders, and
+judgments from High Courts and District Courts across India through handheld devices.
+
+The mobile application is available on Android and iOS platforms and is designed to ensure
+transparency, accessibility, and ease of use, while reducing dependence on physical visits to courts.
+
+2 Installation Options
+
+Users can install the application through official app stores.
+
+Install from Google Play Store (Android)         Install from Apple App Store (iOS)
+Users can search ‘eCourts Services’ and install  Users can search ‘eCourts Services’ and install
+android version from Google Play Store.          iOS version from Apple App Store.
+
+                                                                Page | 2
+ eCourts Services Mobile App 4.0
+Official app stores links for eCourts Services Mobile App are available in eCourts website
+(https://ecourts.gov.in)
+
+as well as on the e‑Committee website (https://ecommitteesci.gov.in).
+
+3 Home Page
+
+The Home screen provides easy access to CNR and QR code searches, with a bottom navigation bar
+for switching between Case Status, Cause List and My Cases. Additionally, user can find Quick Links
+to other eCourts applications and reach Help & Support directly from this screen.
+
+3.1 Search by CNR Number
+
+The CNR Search option enables users to quickly retrieve complete case details by entering the CNR
+number.
+Searching by CNR Number:
+
+                                                                                                                Page | 3
+eCourts Services Mobile App 4.0
+
+   • Input your CNR number on the Home tab and tap Search.
+   • The app will display the full Case History.
+   • Tap any category (e.g., Hearing History or Orders) in Case History to expand the detailed
+
+        records.
+
+The following information is available in Case History:
+         • Case Details
+         • Case Status
+         • QR Code
+         • Petitioner and Advocate
+         • Respondent and Advocate
+         • Act
+         • IA Status
+         • FIR Details
+         • Subordinate Court Information
+         • Case History
+         • Case Transfer Details
+         • Interim Orders
+         • Processes
+
+Details under the Case History section are given below
+
+                                                         Page | 4
+ eCourts Services Mobile App 4.0
+Case Details
+This section displays essential case identification information such as filing and registration details
+and the unique CNR number for accurate case tracking.
+
+Case Status
+This section provides latest case status, including first and next hearing dates, current case stage,
+court number with presiding judge, and the last business date.
+
+QR Code
+This section displays a QR code linked to the selected case, enabling users and court officials to
+quickly access case details through digital scanning.
+
+                                                                                                                Page | 5
+ eCourts Services Mobile App 4.0
+
+Petitioner and Advocate
+This section identifies the petitioner(s) and their representing advocate for the case.
+
+Respondent and Advocate
+This section presents the list of respondent(s) involved in the case along with the details of their
+respective advocate(s).
+
+                                                                                                                Page | 6
+ eCourts Services Mobile App 4.0
+
+Act
+View the Acts and Sections involved in the case to understand the specific legal charges or provisions
+relevant to the litigation.
+
+IA Status
+This section provides details of Interlocutory Applications (IAs) filed in the case, including IA number,
+classification, party name, and date of filing. Tap the IA number to view IA‑wise business details such
+as hearing dates, orders passed, and current status, ensuring transparent tracking of interim
+proceedings.
+
+                                                                                                                Page | 7
+ eCourts Services Mobile App 4.0
+
+FIR Details
+This section displays the First Information Report (FIR) details related to the case, including the police
+station name, FIR number, and year.
+
+Subordinate Court Information
+This section provides details of the lower (subordinate) court from which the case originated,
+including the court name and number, case number and year, and the date of decision.
+
+                                                                                                                Page | 8
+ eCourts Services Mobile App 4.0
+
+Case History
+This section presents a record of the case proceedings, displaying past business dates, next hearing
+dates, presiding judge details, and the purpose of hearings.
+
+Case Transfer Details
+This section displays case transfer history, including the transfer date and the specific court and judge
+details for both the originating and receiving courts.
+
+                                                                                                                Page | 9
+eCourts Services Mobile App 4.0
+
+Interim Orders
+
+This section displays the list of interim orders passed in the case, showing the order number and
+order date. Tap on the “ORDER” link to view the interim order PDF.
+
+Processes
+
+                                 Page | 10
+ eCourts Services Mobile App 4.0
+This section displays the details of processes issued in the case, including the process ID, process
+date, and process title (such as summons or warrants).
+
+3.2 Search by QR Code
+
+Case details can also be viewed by scanning the case QR code.
+To scan QR code,
+
+    • Tap on the ‘Scan QR Code’ button
+    • Point your camera at the case QR code, Case History will be displayed.
+
+                                                                                                              Page | 11
+ eCourts Services Mobile App 4.0
+
+3.3 Quick Links
+
+The Quick Links section serves as a unified gateway to eCourts and related judicial services. From
+here, users can seamlessly access essential tools such as
+
+    • ePay
+    • NJDG
+    • e-Filing
+    • India Code
+    • Forms for Advocates
+    • e-Committee
+    • Judgment Search
+    • Virtual Courts.
+Key Quick Links are featured on the home page for immediate access. The complete list of links can
+be found by navigating to the Side Menu and selecting the 'More' option.
+
+                                                                                                              Page | 12
+ eCourts Services Mobile App 4.0
+
+3.4 Help
+
+Context-sensitive help is available for various features to assist user through each step.
+
+                                                                                                              Page | 13
+ eCourts Services Mobile App 4.0
+
+4 Configuring Application
+
+Users can personalize their experience by configuring court preferences, selecting their preferred
+language, and adjusting interface settings to suit their needs.
+
+4.1 Settings (Court Selection)
+
+The eCourts Services Mobile App offers flexible access to judicial data through three distinct service
+categories: High Court, District Court, or a consolidated view of both, tailored to individual user
+requirements.
+
+    • Select ‘Settings’ from Side Menu
+    • Choose the required option (The District Courts option is set as default):
+
+         - High Court – for High Court services
+         - District Court – for District Court services
+         - Both – for access to both High Court and District Court services
+
+Upon selection, the application displays services and search options corresponding to the chosen
+court category. The configuration may be changed at any time using the Settings option.
+
+4.2 Change Language
+
+The eCourts Services Mobile App supports English and selected Indian regional languages, including
+Hindi, Marathi, Tamil, Kannada, and Gujarati.
+Users can change the application language through the More Options (three‑dot) menu by selecting
+the Translate option and choosing the preferred language.
+
+                                                                                                              Page | 14
+ eCourts Services Mobile App 4.0
+
+4.3 Personalize
+
+The Personalize option allows users to customize the visual theme of the eCourts Services Mobile
+App. Users can select a preferred theme to change the appearance of the application interface.
+The available theme options are Classic, Dark, Contrast, Green and Red
+Once a theme is selected, the application interface is updated accordingly to reflect the chosen
+appearance. This feature enhances visual comfort and usability based on user preference.
+
+                                                                                                              Page | 15
+ eCourts Services Mobile App 4.0
+
+5 Case Status
+
+The Case Status option enables users to search and view case details using multiple search
+parameters. This facility is useful when the CNR number is not available.
+Users can search for case status using the following options:
+
+    • Case Number
+    • Filing Number
+    • Advocate
+    • Case Type
+    • Party Name
+    • FIR Number
+    • Act
+    • Pre‑Trial Application
+    • Caveat
+To search case status:
+    1. Select Case Status from the main navigation
+    2. Select the State and District (for District Courts) or Bench (for High Court)
+    3. Select the required search option
+    4. Enter the necessary details and proceed
+Based on the selected criteria, a list of matching cases is displayed. Tapping a specific case number
+opens the Case History, allowing user to explore detailed information organized under various
+
+                                                                                                              Page | 16
+ eCourts Services Mobile App 4.0
+section headings.
+
+5.1 Search by Case Number
+
+The Case Number option enables users to search and view case details using the registered case
+number.
+To search a case using the Case Number option:
+
+    1. Select the Case Number option
+    2. Enter the required details:
+
+         • Court Complex
+         • Case Type
+         • Case Number
+         • Year
+    3. Select the Go option to proceed
+    Based on the entered details, a list of matching cases is displayed. Upon selecting a case from the
+    list, the Case History is opened, allowing users to view detailed information related to the case.
+
+                                                                                                              Page | 17
+ eCourts Services Mobile App 4.0
+
+5.2 Search by Filing Number
+
+The Filing Number option under Case Status enables users to search and view case details using the
+filing number assigned at the time of case institution.
+To search a case using the Filing Number option:
+
+    1. Select the Filing Number option
+    2. Select the Court Complex from the list
+    3. Enter the Filing Number and Year
+    4. Select the Go option to proceed
+Based on the entered details, the total number of matching cases is displayed establishment‑wise.
+Users may tap on the case number to open the Case History.
+
+                                                                                                              Page | 18
+ eCourts Services Mobile App 4.0
+
+5.3 Search by FIR Number
+
+The FIR Number option under Case Status enables users to search and view case details using the FIR
+number registered at the police station.
+To search a case using the FIR Number option:
+
+    1. Select the FIR Number option
+    2. Select the Court Complex
+    3. Select the Police Station
+    4. Enter the FIR Number and Year
+    5. Select the case status option (Pending, Disposed, or Both)
+    6. Select the Go option to proceed
+Based on the entered details, the total number of matching cases is displayed establishment‑wise.
+Users may tap on case number to view the Case History.
+
+                                                                                                              Page | 19
+ eCourts Services Mobile App 4.0
+
+5.4 Search by Advocate
+
+The Advocate search option under Case Status enables advocates to view and track cases associated
+with their name across courts. This facility allows users to access case details, listings, and current
+status from a single location.
+Using this option, advocates can search cases through the following methods:
+
+    • Advocate Name
+    • Bar Registration Number
+    • Date-wise Case List for cases listed on a specific date
+5.4.1 Search by Advocate Name
+The Advocate Name option under Case Status allows users to search and view cases associated with
+a specific advocate across courts.
+To search cases using the Advocate Name option:
+    1. Select the Advocate search option
+    2. Choose Advocate Name
+    3. Enter the Advocate Name in the provided field
+    4. Select the Go option to proceed
+Based on the entered details, a list of cases associated with the selected advocate is displayed. Users
+may select a case number from the list to view the Case History and access detailed case
+information.
+
+                                                                                                              Page | 20
+ eCourts Services Mobile App 4.0
+
+5.4.2 Search Using Bar Registration Number
+The Bar Registration Number option under Advocate search enables users to retrieve cases
+associated with a specific advocate using the advocate’s registered bar number.
+
+    1. Select the Advocate search option
+    2. Choose Bar Code
+    3. Enter the Bar Registration Number in the provided field
+    4. Select the Go option to proceed
+Based on the entered bar registration number, a list of cases associated with the advocate is
+displayed. Users may select a case number from the list to view the Case History, which provides
+detailed case information.
+
+                                                                                                              Page | 21
+ eCourts Services Mobile App 4.0
+
+5.4.3 Date-wise Advocate Case List
+The Date‑wise Advocate Case List option under Advocate search enables advocates to view cases
+listed in their name for a specific date in various establishments. This facility helps advocates track
+daily listings and scheduled hearings across courts.
+To view the date‑wise advocate case list:
+
+    1. Select the Advocate search option
+    2. Choose Date‑wise Case List
+    3. Enter the Bar Registration Number
+    4. Select the required Date
+    5. Select the Go option to proceed
+Based on the entered details, the cases listed for different establishments are displayed. Upon
+selecting a case number, the Case History is displayed with detailed case information.
+
+                                                                                                              Page | 22
+ eCourts Services Mobile App 4.0
+
+5.5 Search by Case Type
+
+The Case Type option under Case Status enables users to search and view cases based on a specific
+case type within a selected court.
+To search cases using the Case Type option:
+
+    1. Select the Case Type option
+    2. Select the Court Complex
+    3. Select the required Case Type
+    4. Enter the Year
+    5. Select the case status option (Pending, Disposed, or Both)
+    6. Select the Go option to proceed
+Based on the selected criteria, the total number of matching cases is displayed establishment‑wise.
+Users may select the required establishment and case number to view the Case History and detailed
+case information.
+
+                                                                                                              Page | 23
+ eCourts Services Mobile App 4.0
+
+5.6 Search by Party Name
+
+The Party Name option under Case Status enables users to search and view cases based on the name
+of the petitioner or respondent.
+To search cases using the Party Name option:
+
+    1. Select the Party Name option
+    2. Select the Court Complex
+    3. Enter the Petitioner or Respondent Name
+    4. Enter the Year
+    5. Select the case status option (Pending, Disposed, or Both)
+    6. Select the Go option to proceed
+    7. Based on the entered details, the total number of matching cases is displayed
+
+         establishment‑wise. Users may select the required establishment and case number to view
+         the Case History and detailed information related to the case.
+
+                                                                                                              Page | 24
+ eCourts Services Mobile App 4.0
+
+5.7 Search by Act
+
+The Act option under Case Status enables users to search and view cases based on a specific Act and
+Section under which the case has been registered.
+To search cases using the Act option:
+
+    1. Select the Act option
+    2. Select the Court Complex
+    3. Enter or select the relevant Act
+    4. Enter the Section (if applicable)
+    5. Select the case status option (Pending, Disposed, or Both)
+    6. Select the Go option to proceed
+Based on the entered details, the total number of matching cases is displayed establishment‑wise.
+Users may select the required establishment and case number to view the Case History and detailed
+case information.
+
+                                                                                                              Page | 25
+ eCourts Services Mobile App 4.0
+
+5.8 Caveat Search
+
+The Caveat option under Case Status enables users to check whether a caveat has been filed in a
+particular court. This facility allows parties to verify the existence of any caveat related to a person or
+property.
+To search using the Caveat option:
+
+    1. Select the Caveat option
+    2. Select the Court Complex
+    3. Select the Search Type
+    4. Enter the required Caveator Name and Caveatee Name
+    5. Select the Go option to proceed
+Based on the entered details, the caveat search results are displayed. Users may select an entry to
+view detailed information related to the caveat.
+
+                                                                                                              Page | 26
+ eCourts Services Mobile App 4.0
+
+5.9 Pre-Trial Application
+
+The Pre‑Trial Application option under Case Status enables users to search and view the status of
+pre‑trial applications such as Bail, Remand, and other applications filed prior to trial.
+To search using the Pre‑Trial Application option:
+
+    1. Select the Pre‑Trial Application option
+    2. Select the Court Complex
+    3. Select the Police Station
+    4. Enter the FIR Number and Year
+    5. Select the required application type (e.g., Bail, Remand, or Application)
+    6. Select the Go option to proceed
+Based on the entered details, the pre‑trial application details are displayed. Users may select the
+applicable case entry to view detailed information related to the application.
+
+                                                                                                              Page | 27
+ eCourts Services Mobile App 4.0
+
+6 Cause Lists
+
+The Cause Lists option in the eCourts Services Mobile App enables users to view daily cause lists of
+courts. This facility allows litigants, advocates, and other users to verify whether a case is listed on a
+particular date and to view court-wise listings in advance.
+The application provides access to:
+
+    • Civil Cause Lists
+    • Criminal Cause Lists
+To view the cause list:
+    1. Select the State and District (for District Courts) or Bench (for High Court)
+    2. Select the Court Complex
+    3. Select the Court Name
+    4. Select the Cause List Date
+    5. Choose Civil or Criminal cause list, as applicable
+Based on the selected criteria, the cause list for the chosen date is displayed. Users may scroll
+through the list and use the search function, where available, to locate specific cases within the
+cause list.
+
+                                                                                                              Page | 28
+ eCourts Services Mobile App 4.0
+
+7 Managing Case Portfolio- My Cases
+
+The My Cases feature in the eCourts Services Mobile App enables users to maintain a personal list of
+selected cases for quick and convenient access. This facility helps litigants and advocates track case
+status, hearing dates, related details and add notes.
+
+7.1 Adding Cases to My Cases
+
+Cases can be added to My Cases from the Case History page.
+To add a case:
+
+    1. Search and open the required case using CNR Search or Case Status
+    2. From the Case History, select the Add to My Cases option
+Once added, the case appears in the user’s My Cases list.
+
+                                                                                                              Page | 29
+eCourts Services Mobile App 4.0
+
+7.2 Add Notes to Cases
+
+The Add Note feature allows users to add notes for a case from the Case History page.
+
+To add a note:
+
+    1. Open the case history page of the required case (History Page case be opened by tapping on
+         case number link appearing in search result or view my cases)
+
+    2. Select the Add Note option
+    3. Enter the note text in the provided field
+    4. Save the note using the Add (+) option
+
+The note is saved against the selected case and is available for future reference.
+
+View Note
+
+                                 Page | 30
+ eCourts Services Mobile App 4.0
+Notes can be viewed either at the top of the Case History page or by tapping note icon in the view
+my cases.
+
+7.3 Viewing My Cases
+
+The My Cases section displays all saved cases along with essential details such as next hearing date
+and case status.
+Cases can be viewed Date‑wise or District‑wise
+Selecting a case opens the Case History, allowing users to access detailed information.
+
+                                                                                                              Page | 31
+ eCourts Services Mobile App 4.0
+Date‑wise view
+
+District‑wise view
+
+7.4 Removing Cases from My Cases
+
+Users may remove a case from My Cases when it is no longer required.
+
+To remove a case:
+
+    1. Open the case from the My Cases list
+
+                                                                      Page | 32
+ eCourts Services Mobile App 4.0
+    2. Tap on Delete Icon
+    3. Select the case/s to be removed by selecting the respective checkboxes
+    4. Tap on Delete icon to remove the case/s from the My Cases list
+
+7.5 Refreshing My Cases
+
+The Refresh option allows users to update the My Cases list and retrieve the latest case information
+from the system.
+
+                                                                                                              Page | 33
+ eCourts Services Mobile App 4.0
+
+7.6 Calendar View
+
+Cases added to My Cases are also available in Calendar View, where upcoming hearing dates are
+displayed date‑wise. Selecting a date shows all cases listed on that date.
+
+                                                                                                              Page | 34
+ eCourts Services Mobile App 4.0
+
+8 Backup Facility
+
+To prevent data loss and support device migration, the eCourts Services App provides a backup
+facility for exporting and importing records stored within the My Cases module.
+To use the backup facility:
+
+    • Export the saved case data to create a backup file
+    • Import the previously exported backup file to restore saved cases when required
+
+8.1 Export Option
+
+The Export option is available in the Side menu and enables users to create a backup of cases saved
+under My Cases.
+To export saved case data:
+
+    1. Open the Side menu and select Export
+    2. Choose the preferred export location from the available options:
+
+         • Email
+         • Google Drive
+         • Device Storage
+The case data is exported in text file format. When exporting to Google Drive, device‑specific
+permission prompts may be displayed and must be accepted to proceed. Once the export process is
+completed, a confirmation message indicating successful export is displayed.
+
+                                                                                                              Page | 35
+ eCourts Services Mobile App 4.0
+
+8.2 Import Option
+
+The Import option enables users to restore previously exported case data into the eCourts Services
+Mobile App. This facility is useful when users change devices or in the event of accidental data loss.
+To import saved case data:
+
+    1. Open the application menu and select Import
+    2. Choose one of the following import options:
+
+         • Import from Google Drive
+         • Import from Device Storage
+Users must select a previously exported backup file to restore the saved cases. Upon successful
+import, the restored cases become available under the My Cases section of the application.
+Note: Import of data is possible only if a backup file has been created earlier using the Export option.
+
+9 Court Complex Locator
+
+The Court Complex Locator feature in the eCourts Services Mobile App enables users to identify the
+location of court complexes. This facility is particularly useful for litigants who are required to appear
+before a court and are unfamiliar with the court’s geographical location.
+Using this option, users can view the court location on the map and navigate to the court premises.
+The Court Complex Locator is integrated with the BHUVAN mapping platform for accurate location
+services.
+
+                                                                                                              Page | 36
+ eCourts Services Mobile App 4.0
+
+10 Top Right Menu
+
+The top‑right section of the screen provides quick utility options.
+The YouTube icon redirects users to the official eCourts Services India YouTube channel for accessing
+informational videos.
+
+The Share icon enables users to share the download link of the eCourts Services Mobile App allowing
+others to easily access and install the app from the official app store.
+
+                                                                                                              Page | 37
+ eCourts Services Mobile App 4.0
+The Language icon enables users to change the application language, as described in Section 4.2 of
+this manual.
+
+                                                                                                              Page | 38
+
