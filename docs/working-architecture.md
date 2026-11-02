@@ -2,7 +2,7 @@
 
 Discussion so far (31 Oct 2026). Locked vs open. Runs on the lawyer’s machine. Windows and Mac. No Docker, no WSL, no our cloud.
 
-**Supersedes** `docs/architecture.md` and `docs/plan.md` where they differ: TypeScript/Node runtime, Electron shell, packages running in the React app. The TS code in `packages/`, `apps/cli` and `standard/codegen.ts` is ported to Rust and then removed. What carries over: the four layers and their owners, the ledger (§10), the ILO JSON Schema (§11), the golden matter.
+**Supersedes** `docs/architecture.md` and `docs/plan.md` where they differ: TypeScript/Node runtime, Electron shell, packages running in the React app. The TS code in `packages/`, `apps/cli` and `standard/codegen.ts` is ported to Rust and then removed. What carries over: the four layers and their owners, the ledger (§10), the ULOS JSON Schema (§11), the golden matter.
 
 ---
 
@@ -204,7 +204,7 @@ The product is a local Rust app. No Node, Python, Elixir, or Ruby as the runtime
 | Ledger | Append-only SQLite, ported from `packages/core/src/ledger.ts` — §10 |
 | Notebook | Ladybug via the **`lbug`** crate |
 | Chamber / jobs | SQLite + **apalis** — §9 |
-| Types | Generated from the ILO JSON Schema with `typify` — §11 |
+| Types | Generated from the ULOS JSON Schema with `typify` — §11 |
 | Capture | Chromium **we bundle** + CDP (`chromiumoxide`, headed, our profile). App UI webview is not the court browser. |
 | OCR | Same engines as §4: ONNX PP-OCR, Tesseract C, pdfium — from Rust, not pip |
 | UI | React SPA over HTTP — §8 |
@@ -231,7 +231,7 @@ Browser (MVP) / later webview
 | Library | **React** |
 | PDF / cites | **pdf.js** — open this file, this page, this box |
 | API | **HTTP JSON** on localhost. Screens never import `lbug`, never spawn Chromium. |
-| Types | Generated from the ILO JSON Schema (`json-schema-to-typescript`) — §11 |
+| Types | Generated from the ULOS JSON Schema (`json-schema-to-typescript`) — §11 |
 | Tests | Playwright, dev and CI only |
 
 Out: Next.js, LiveView, Leptos/Yew/Dioxus, Tauri command bindings as the API, using the court Chromium as the app window.
@@ -264,7 +264,7 @@ The audit log and the store of truth. Ported from `packages/core/src/ledger.ts`,
 - **Append-only.** Every change is one event (`source.added`, `extract.recorded`, `extract.reviewed`, `citation.verified`, …). Nothing is updated or deleted in place.
 - **Ownership.** Each event type has owners (Notebook, verifier, Studio, lawyer, …). A write by anyone else is rejected, not logged. Studio cannot write a fact.
 - **Hash chain.** Each event carries the hash of the one before. Change a past event and the chain breaks.
-- **Validated.** Every event is checked against the ILO schema (§11) when it is written.
+- **Validated.** Every event is checked against the ULOS schema (§11) when it is written.
 
 Storage: `ledger.db` (SQLite) in the matter folder, beside `sources/` and the Ladybug graph. Copy the folder, copy the case.
 
@@ -276,7 +276,7 @@ Receipts and the registry check (`docs/architecture.md`) verify this chain.
 
 ## 11. Schema — locked: JSON Schema is the source
 
-`standard/schemas/ilo.schema.json` stays the one source. It is the public standard (Product 2), so it stays language-neutral.
+`standard/schemas/ulos.schema.json` stays the one source. It is the public standard (Product 2), so it stays language-neutral.
 
 | | |
 |---|---|
